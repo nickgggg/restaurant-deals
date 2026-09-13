@@ -1,6 +1,6 @@
 {
   "extraction_version": 1,
-  "generated_at": "2026-09-12T17:29:00Z",
+  "generated_at": "2026-09-13T17:40:45Z",
   "model": "gemini-3.5-flash-lite",
   "pages": [
     {
@@ -2736,7 +2736,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "a120acfed22362bfd0a4fd4bba0f56580e18a19cee921bcd44d8ff70b7427193",
+      "content_hash": "d2e61d65c6a6e6490449b0d68a5856861dc49688826e651eb9155fc5ad7b493d",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -2758,7 +2758,7 @@
           "valid_through": "2026-09-30"
         }
       ],
-      "extracted_at": "2026-09-12T17:25:14Z",
+      "extracted_at": "2026-09-13T17:36:54Z",
       "key": "f566f804ead8d7087856",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -2938,9 +2938,7 @@
         "label": "Offers, sales, & deals",
         "url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa"
       },
-      "rejected_candidates": [
-        "Save 10% in As-is department on Fridays for IKEA Family"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -5725,7 +5723,122 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "3029aab57fe8ee17853e569e53f9bbdc1aa54585271f6667c2c3d0b150abb4db",
+      "content_hash": "",
+      "deals": [],
+      "error": "RuntimeError: HTTP Error 429: Too Many Requests",
+      "key": "ec3769ca9d91de54c740",
+      "page": {
+        "confidence": "high",
+        "label": "Learn more",
+        "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2026-09-10-17-00"
+      },
+      "restaurant": {
+        "address": "1661 Superior Ave Ste d, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Costa Mesa",
+        "google_maps_url": "https://maps.google.com/?cid=6654488974885952960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.6348445,
+        "longitude": -117.92543880000001,
+        "name": "Trenta Pizza & Cucina and Trenta Lounge",
+        "phone": "(949) 270-6652",
+        "place_id": "ChIJaxicd5Ah3YARwJ3UNXd-WVw",
+        "primary_type": "italian_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Learn more",
+            "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2026-09-10-17-00"
+          },
+          {
+            "confidence": "high",
+            "label": "Happy Hour | Mon - Thur 5pm - 6:30pm",
+            "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2027-02-16-17-00"
+          },
+          {
+            "confidence": "medium",
+            "label": "Website specials",
+            "url": "https://trentapizza.com/"
+          }
+        ],
+        "types": [
+          "italian_restaurant",
+          "bar",
+          "european_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://trentapizza.com/"
+      },
+      "status": "fetch_failed"
+    },
+    {
+      "content_hash": "a42c150c85ad25f76c5ced9b739364e1d1f5a00a562e135aaf450472836a397b",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -5739,9 +5852,8 @@
             "drink"
           ],
           "details": [
-            "Applies to All Signature Cocktails, Wines by the Glass, and Beer",
-            "$2 OFF",
-            "Only available in the Trenta Lounge"
+            "Applies to all Signature Cocktails, Wines by the Glass, and Beer",
+            "$2 OFF"
           ],
           "source_evidence": [
             "Monday \u2013 Thursday",
@@ -5749,18 +5861,94 @@
             "All Signature Cocktails, Wines by the Glass, and Beer",
             "$2 OFF"
           ],
-          "summary": "$2 off all signature cocktails, wines by the glass, and beer during happy hour",
-          "time_window": "5:00 PM - 6:30 PM",
-          "valid_through": null
+          "summary": "$2 off all signature cocktails, wines by the glass, and beer",
+          "time_window": "5:00 PM \u2013 6:30 PM",
+          "valid_through": "2027-02-16"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
+            "Price: $20"
+          ],
+          "source_evidence": [
+            "CHARCUTERIE",
+            "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
+            "$20"
+          ],
+          "summary": "Charcuterie for $20 during happy hour",
+          "time_window": null,
+          "valid_through": "2027-02-16"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Fried Calamari/lemon/garlic-chili aioli",
+            "Price: $18"
+          ],
+          "source_evidence": [
+            "CALAMARI FRITTI",
+            "Fried Calamari/lemon/garlic-chili aioli",
+            "$18"
+          ],
+          "summary": "Calamari Fritti for $18 during happy hour",
+          "time_window": null,
+          "valid_through": "2027-02-16"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
+            "Price: $12"
+          ],
+          "source_evidence": [
+            "CANNOLO SALATO",
+            "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
+            "$12"
+          ],
+          "summary": "Cannolo Salato for $12 during happy hour",
+          "time_window": null,
+          "valid_through": "2027-02-16"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
+            "Price: $10"
+          ],
+          "source_evidence": [
+            "BRUSCHETTA TRADIZIONALE",
+            "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
+            "$10"
+          ],
+          "summary": "Bruschetta Tradizionale for $10 during happy hour",
+          "time_window": null,
+          "valid_through": "2027-02-16"
         }
       ],
-      "extracted_at": "2026-09-11T17:52:41Z",
-      "key": "ec3769ca9d91de54c740",
+      "extracted_at": "2026-09-13T17:37:03Z",
+      "key": "c5dfe3a5e43aa69be29a",
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
-        "label": "Learn more",
-        "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2026-09-10-17-00"
+        "label": "Happy Hour | Mon - Thur 5pm - 6:30pm",
+        "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2027-02-16-17-00"
       },
       "rejected_candidates": [],
       "restaurant": {
@@ -5867,121 +6055,6 @@
         "website_url": "https://trentapizza.com/"
       },
       "status": "ok"
-    },
-    {
-      "content_hash": "",
-      "deals": [],
-      "error": "RuntimeError: HTTP Error 429: Too Many Requests",
-      "key": "c5dfe3a5e43aa69be29a",
-      "page": {
-        "confidence": "high",
-        "label": "Happy Hour | Mon - Thur 5pm - 6:30pm",
-        "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2027-02-16-17-00"
-      },
-      "restaurant": {
-        "address": "1661 Superior Ave Ste d, Costa Mesa, CA 92627, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Costa Mesa",
-        "google_maps_url": "https://maps.google.com/?cid=6654488974885952960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "14:00",
-              "open": "11:30"
-            },
-            {
-              "close": "21:30",
-              "open": "17:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:30",
-              "open": "17:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "14:00",
-              "open": "11:30"
-            },
-            {
-              "close": "21:30",
-              "open": "17:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "14:00",
-              "open": "11:30"
-            },
-            {
-              "close": "20:30",
-              "open": "17:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "14:00",
-              "open": "11:30"
-            },
-            {
-              "close": "20:30",
-              "open": "17:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:30",
-              "open": "17:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "14:00",
-              "open": "11:30"
-            },
-            {
-              "close": "20:30",
-              "open": "17:00"
-            }
-          ]
-        },
-        "latitude": 33.6348445,
-        "longitude": -117.92543880000001,
-        "name": "Trenta Pizza & Cucina and Trenta Lounge",
-        "phone": "(949) 270-6652",
-        "place_id": "ChIJaxicd5Ah3YARwJ3UNXd-WVw",
-        "primary_type": "italian_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Learn more",
-            "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2026-09-10-17-00"
-          },
-          {
-            "confidence": "high",
-            "label": "Happy Hour | Mon - Thur 5pm - 6:30pm",
-            "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2027-02-16-17-00"
-          },
-          {
-            "confidence": "medium",
-            "label": "Website specials",
-            "url": "https://trentapizza.com/"
-          }
-        ],
-        "types": [
-          "italian_restaurant",
-          "bar",
-          "european_restaurant",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "https://trentapizza.com/"
-      },
-      "status": "fetch_failed"
     },
     {
       "content_hash": "eeebac38e7961dd99ee7ac4bbd0df1086b2dfde95025cb2d5114ed2d4a2e3e42",
@@ -6301,6 +6374,316 @@
         "website_url": "http://www.wahoos.com/"
       },
       "status": "no_deals"
+    },
+    {
+      "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
+      "deals": [
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Pretzel Bun Chili Dog coupon",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
+          ],
+          "summary": "$3 Pretzel Bun Chili Dog Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Includes Corn Dog, Small Fries, and Small Soda",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$5 Corn Dog, Small Fries & Small Soda Coupon"
+          ],
+          "summary": "$5 Corn Dog, Small Fries & Small Soda Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Two Chili Dogs and Chili Cheese Fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$6 Two Chili Dogs & Chili Cheese Fries Coupon"
+          ],
+          "summary": "$6 Two Chili Dogs & Chili Cheese Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Two Sundaes",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$6 Two Sundaes Coupon"
+          ],
+          "summary": "$6 Two Sundaes Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Two Chili Dogs and Medium Fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$5 Two Chili Dogs & Medium Fries Coupon"
+          ],
+          "summary": "$5 Two Chili Dogs & Medium Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes two regular size classic chili cheese fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$6 Regular Size Two Classic Chili Cheese Fries Coupon"
+          ],
+          "summary": "$6 Regular Size Two Classic Chili Cheese Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Corn Dog, Chili Dog, and Chili Cheese Fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon"
+          ],
+          "summary": "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
+          ],
+          "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Includes Deluxe Cheeseburger, Small Fries, and Small Soda",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
+          ],
+          "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "$2 discount on any chili cheese fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$2 Off Any Chili Cheese Fries Coupon"
+          ],
+          "summary": "$2 Off Any Chili Cheese Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Four Chili Dogs and Two Chili Cheese Fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon"
+          ],
+          "summary": "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Ten Chili Cheese Dogs",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$20 Ten Chili Cheese Dogs Coupon"
+          ],
+          "summary": "$20 Ten Chili Cheese Dogs Coupon",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T04:22:43Z",
+      "key": "07efdeef28eacc9b87a4",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Specials",
+        "url": "http://www.wienerschnitzel.com/coupons/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "name": "Wienerschnitzel",
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0",
+        "primary_type": "fast_food_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "http://www.wienerschnitzel.com/coupons/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "hot_dog_restaurant",
+          "american_restaurant",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.wienerschnitzel.com/location/351-warner-springdale-huntington-bch-5966-warner-avenue-huntington-bch-ca-92649/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+      },
+      "status": "ok"
     },
     {
       "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
@@ -6740,279 +7123,94 @@
       "status": "ok"
     },
     {
-      "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
+      "content_hash": "0702eb0b0f7ed6ce6ef21efeecc1bc7b27bf7ade11c95d12aa2fcf93fed22826",
       "deals": [
         {
-          "ai_confidence": 0.9,
+          "ai_confidence": 0.95,
           "applies_days": [],
           "categories": [
             "food"
           ],
           "details": [
-            "Pretzel Bun Chili Dog coupon",
-            "Must show coupon at time of purchase"
+            "Price is $3",
+            "Original Pretzel Bun Chili Dog only",
+            "Cheese extra",
+            "Coupon good for TWO orders on same visit",
+            "Must be surrendered at time of purchase",
+            "Tax extra"
           ],
           "source_evidence": [
-            "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
+            "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
+            "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
           ],
-          "summary": "$3 Pretzel Bun Chili Dog Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "Includes Corn Dog, Small Fries, and Small Soda",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$5 Corn Dog, Small Fries & Small Soda Coupon"
-          ],
-          "summary": "$5 Corn Dog, Small Fries & Small Soda Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Two Chili Dogs and Chili Cheese Fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$6 Two Chili Dogs & Chili Cheese Fries Coupon"
-          ],
-          "summary": "$6 Two Chili Dogs & Chili Cheese Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Two Sundaes",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$6 Two Sundaes Coupon"
-          ],
-          "summary": "$6 Two Sundaes Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Two Chili Dogs and Medium Fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$5 Two Chili Dogs & Medium Fries Coupon"
-          ],
-          "summary": "$5 Two Chili Dogs & Medium Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes two regular size classic chili cheese fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$6 Regular Size Two Classic Chili Cheese Fries Coupon"
-          ],
-          "summary": "$6 Regular Size Two Classic Chili Cheese Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Corn Dog, Chili Dog, and Chili Cheese Fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon"
-          ],
-          "summary": "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
-          ],
-          "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "Includes Deluxe Cheeseburger, Small Fries, and Small Soda",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
-          ],
-          "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "$2 discount on any chili cheese fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$2 Off Any Chili Cheese Fries Coupon"
-          ],
-          "summary": "$2 Off Any Chili Cheese Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Four Chili Dogs and Two Chili Cheese Fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon"
-          ],
-          "summary": "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Ten Chili Cheese Dogs",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$20 Ten Chili Cheese Dogs Coupon"
-          ],
-          "summary": "$20 Ten Chili Cheese Dogs Coupon",
+          "summary": "$3 Pretzel Bun Chili Dog",
           "time_window": null,
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-10T04:22:43Z",
-      "key": "07efdeef28eacc9b87a4",
+      "extracted_at": "2026-09-10T04:22:51Z",
+      "key": "48fe406dac90084e8078",
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
         "label": "Specials",
-        "url": "http://www.wienerschnitzel.com/coupons/"
+        "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
       },
       "rejected_candidates": [],
       "restaurant": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
         "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "hours": {
           "friday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "monday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "saturday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "sunday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "thursday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "tuesday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "wednesday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ]
         },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
         "name": "Wienerschnitzel",
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0",
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
         "primary_type": "fast_food_restaurant",
         "specials_pages": [
           {
@@ -7045,7 +7243,7 @@
           "point_of_interest",
           "establishment"
         ],
-        "website_url": "http://www.wienerschnitzel.com/location/351-warner-springdale-huntington-bch-5966-warner-avenue-huntington-bch-ca-92649/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "ok"
     },
@@ -7172,131 +7370,6 @@
           "establishment"
         ],
         "website_url": "http://www.wienerschnitzel.com/location/239-beach-blvd-talbert-huntington-beach-18012-beach-blvd-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
-      },
-      "status": "ok"
-    },
-    {
-      "content_hash": "0702eb0b0f7ed6ce6ef21efeecc1bc7b27bf7ade11c95d12aa2fcf93fed22826",
-      "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Price is $3",
-            "Original Pretzel Bun Chili Dog only",
-            "Cheese extra",
-            "Coupon good for TWO orders on same visit",
-            "Must be surrendered at time of purchase",
-            "Tax extra"
-          ],
-          "source_evidence": [
-            "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
-            "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
-          ],
-          "summary": "$3 Pretzel Bun Chili Dog",
-          "time_window": null,
-          "valid_through": null
-        }
-      ],
-      "extracted_at": "2026-09-10T04:22:51Z",
-      "key": "48fe406dac90084e8078",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "high",
-        "label": "Specials",
-        "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-      },
-      "rejected_candidates": [],
-      "restaurant": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "name": "Wienerschnitzel",
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
-        "primary_type": "fast_food_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "http://www.wienerschnitzel.com/coupons/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-          }
-        ],
-        "types": [
-          "fast_food_restaurant",
-          "ice_cream_shop",
-          "dessert_shop",
-          "hot_dog_restaurant",
-          "american_restaurant",
-          "confectionery",
-          "food_store",
-          "store",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "ok"
     },
@@ -7439,132 +7512,6 @@
             "drink"
           ],
           "details": [
-            "Includes a corn dog, small fries, and small soda for $5",
-            "Tax extra",
-            "Good for two orders on same visit",
-            "Must be surrendered at time of purchase",
-            "Not valid with any other offer, discount or coupon",
-            "Not valid in Sacramento, Stockton & Modesto areas"
-          ],
-          "source_evidence": [
-            "$5 - Corn Dog, Small Fries and Small Soda Coupon",
-            "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
-          ],
-          "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
-          "time_window": null,
-          "valid_through": null
-        }
-      ],
-      "extracted_at": "2026-09-10T04:23:29Z",
-      "key": "b722649edfad301a9018",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "high",
-        "label": "Specials",
-        "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-      },
-      "rejected_candidates": [],
-      "restaurant": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "name": "Wienerschnitzel",
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
-        "primary_type": "fast_food_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "http://www.wienerschnitzel.com/coupons/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-          }
-        ],
-        "types": [
-          "fast_food_restaurant",
-          "ice_cream_shop",
-          "dessert_shop",
-          "hot_dog_restaurant",
-          "american_restaurant",
-          "confectionery",
-          "food_store",
-          "store",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
-      },
-      "status": "ok"
-    },
-    {
-      "content_hash": "cee065429487d19b0abcec053c23c8449451a81351a55a69463b50cf73a42609",
-      "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
             "Price: $5",
             "Includes a corn dog, small fries, and a small soda",
             "Coupon good for two orders on the same visit",
@@ -7678,6 +7625,132 @@
           "establishment"
         ],
         "website_url": "http://www.wienerschnitzel.com/location/239-beach-blvd-talbert-huntington-beach-18012-beach-blvd-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "cee065429487d19b0abcec053c23c8449451a81351a55a69463b50cf73a42609",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Includes a corn dog, small fries, and small soda for $5",
+            "Tax extra",
+            "Good for two orders on same visit",
+            "Must be surrendered at time of purchase",
+            "Not valid with any other offer, discount or coupon",
+            "Not valid in Sacramento, Stockton & Modesto areas"
+          ],
+          "source_evidence": [
+            "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+            "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
+          ],
+          "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T04:23:29Z",
+      "key": "b722649edfad301a9018",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Specials",
+        "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "name": "Wienerschnitzel",
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
+        "primary_type": "fast_food_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "http://www.wienerschnitzel.com/coupons/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "hot_dog_restaurant",
+          "american_restaurant",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "ok"
     },
@@ -10381,7 +10454,7 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "ae0862384e7c328da6c87a893b39cea16b6bee99c5e4278a0e15bdadc515f361",
+      "content_hash": "bee0af52849b62f88972cf61a9fb3a7c70d86a5d3174c1b92cbbd2ebe71e129d",
       "deals": [
         {
           "ai_confidence": 0.9,
@@ -10397,13 +10470,13 @@
             "drink"
           ],
           "details": [
-            "Mon-Fri, 4-6pm"
+            "Mon\u2013Fri, 4\u20136pm"
           ],
           "source_evidence": [
             "Mon\u2013Fri, 4\u20136pm"
           ],
-          "summary": "Happy Hour specials on weekdays",
-          "time_window": "4:00 PM - 6:00 PM",
+          "summary": "Happy Hour",
+          "time_window": "16:00-18:00",
           "valid_through": null
         },
         {
@@ -10418,20 +10491,23 @@
           "details": [
             "Tacos from $4",
             "$10 margaritas",
-            "DJ at 7pm",
-            "Ground beef $4, smoked pork belly $4, fish $6, sirloin $7, lobster $8, birria $8",
-            "$6 Modelo and $10 Casa Margarita all day"
+            "Ground beef $4",
+            "Smoked pork belly $4",
+            "Fish $6",
+            "Sirloin $7",
+            "Lobster $8",
+            "Birria $8"
           ],
           "source_evidence": [
             "Tuesdays all day \u2014 tacos from $4, $10 margaritas, DJ at 7pm",
             "$6 Modelo and $10 Casa Margarita all day."
           ],
-          "summary": "Tulum Tuesdays specials with tacos and margaritas",
-          "time_window": "all day",
+          "summary": "Tulum Tuesdays Specials",
+          "time_window": null,
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-12T17:25:38Z",
+      "extracted_at": "2026-09-13T17:37:11Z",
       "key": "63b417f4f740268d385a",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -10440,7 +10516,7 @@
         "url": "https://www.casadeondarestaurant.com/"
       },
       "rejected_candidates": [
-        "Homemade shrimp tamales special"
+        "Homemade Shrimp Tamales Special"
       ],
       "restaurant": {
         "address": "1870 Harbor Blvd Second Level, Costa Mesa, CA 92627, USA",
@@ -10776,9 +10852,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "7c4fd7c0cfed3d3a0221e1ede0aa07b8331bec14e0162e312ff36ee499da6ffc",
+      "content_hash": "d37ed59f0e5c655eefef9cf13af89f408807fe585ca967bf1400d1c87a00f022",
       "deals": [],
-      "extracted_at": "2026-09-10T19:05:39Z",
+      "extracted_at": "2026-09-13T17:37:18Z",
       "key": "79c0e08aa5fbe3cb2c6e",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -12926,9 +13002,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "c4d0fa86aa93284c3133558890e32d05d63b8fca490f5e58c4e3d37545fb4d3c",
+      "content_hash": "e7d1ba584fe7a4031a4019bc32e064b9572722d72ef59a702eded11c4689619d",
       "deals": [],
-      "extracted_at": "2026-09-11T17:54:27Z",
+      "extracted_at": "2026-09-13T17:37:25Z",
       "key": "4b2ca68169ed65473b65",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -14086,9 +14162,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "32dff71b003db01cc1ea37f01505bfede5887ac2f021d8ca4841d61a49268822",
+      "content_hash": "8cb6b65be29bb2b342997344d5017255a9ae06b87950d4cd13f6c42cbeead8ae",
       "deals": [],
-      "extracted_at": "2026-09-11T17:55:51Z",
+      "extracted_at": "2026-09-13T17:37:33Z",
       "key": "ec9e88881a6cf734528c",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -14175,9 +14251,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "94600b9b61e9bdd98c6612e89b3d8771ea4725ad997a029fafaafdf6b169abed",
+      "content_hash": "a604e2b46dd0cd35cad6b664d5dec09a2056e12077902f28242eab7c31cc6154",
       "deals": [],
-      "extracted_at": "2026-09-11T17:55:58Z",
+      "extracted_at": "2026-09-13T17:37:40Z",
       "key": "500c96bc135b2f83350f",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -15503,9 +15579,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "962900a279eea9d0df32b4e98c6dc7c6f80983d5a7f83709437fcaec34f4da70",
+      "content_hash": "4840347becf463e7cac5fe28207d073627d82cec5787e58680c749a56bc0f7bf",
       "deals": [],
-      "extracted_at": "2026-09-12T17:25:53Z",
+      "extracted_at": "2026-09-13T17:37:47Z",
       "key": "b9be67241d188f5a98ba",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -15626,10 +15702,7 @@
         "label": "Website specials",
         "url": "https://www.ayreshotels.com/ayres-hotel-costa-mesa-newport-beach/dining"
       },
-      "rejected_candidates": [
-        "Weekend Brunch",
-        "Happy Hour"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "325 Bristol St, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -17770,9 +17843,35 @@
       "status": "ok"
     },
     {
-      "content_hash": "e870871a28fa7ea5d6add71111fe83e0b0aaed2449b35e41dab33d18b13ddf9b",
-      "deals": [],
-      "extracted_at": "2026-09-12T17:28:29Z",
+      "content_hash": "75cb6cf56244665bf597abfd8604b5351a5207adf8b40a55b92b0be4ac683a02",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "sunday"
+          ],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "$39.99 Per Guest \u2013 Includes Bottomless Mimosas",
+            "$34.99 Per Guest \u2013 Non-Alcoholic Option",
+            "Kids Ages 6\u201312: $19.99",
+            "Kids Under 6 Eat Free",
+            "Bottomless Mimosa service limited to 90 minutes per guest"
+          ],
+          "source_evidence": [
+            "BOTTOMLESS MIMOSA BRUNCH BUFFET",
+            "Every Sunday | 10:00 AM \u2013 3:00 PM",
+            "$39.99 Per Guest \u2013 Includes Bottomless Mimosas"
+          ],
+          "summary": "Bottomless Mimosa Brunch Buffet",
+          "time_window": "10:00 AM \u2013 3:00 PM",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-13T17:37:55Z",
       "key": "49fc10ba0c11f30985d4",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -17780,9 +17879,7 @@
         "label": "Website specials",
         "url": "https://hb.morenasmex.com/"
       },
-      "rejected_candidates": [
-        "Saturday Chef\u2019s Special"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -17860,10 +17957,10 @@
         ],
         "website_url": "https://hb.morenasmex.com/"
       },
-      "status": "no_deals"
+      "status": "ok"
     },
     {
-      "content_hash": "a9ea4147b2a574fd7770e8c046907e5f21efdf02c6e7d8abde56c850146f9f29",
+      "content_hash": "56427918e9db5a9bb647db524924664a480a7668dc1c8906057741831c18a9cf",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -17875,11 +17972,10 @@
             "drink"
           ],
           "details": [
-            "$39.99 Per Guest \u2013 Includes Bottomless Mimosas",
-            "$34.99 Per Guest \u2013 Non-Alcoholic Option",
+            "$39.99 Per Guest including Bottomless Mimosas",
+            "$34.99 Per Guest Non-Alcoholic Option",
             "Kids Ages 6\u201312: $19.99",
             "Kids Under 6 Eat Free",
-            "Includes Omelette Station, Chilaquiles Station, hot buffet, salad bar, desserts, and Mexican brunch favorites",
             "Bottomless Mimosa service limited to 90 minutes per guest"
           ],
           "source_evidence": [
@@ -17887,7 +17983,7 @@
             "Every Sunday | 10:00 AM \u2013 3:00 PM",
             "$39.99 Per Guest \u2013 Includes Bottomless Mimosas"
           ],
-          "summary": "Sunday Brunch Buffet with Bottomless Mimosas",
+          "summary": "Bottomless Mimosa Brunch Buffet",
           "time_window": "10:00 AM \u2013 3:00 PM",
           "valid_through": null
         },
@@ -17917,7 +18013,7 @@
             "MORENA\u2019S HAPPY HOUR \u2013 HUNTINGTON BEACH",
             "Available Monday, Wednesday, Thursday & Friday from 3:00 PM \u2013 6:00 PM (Dine-In Only)."
           ],
-          "summary": "Morena's Happy Hour",
+          "summary": "Happy Hour specials with drinks and tacos",
           "time_window": "3:00 PM \u2013 6:00 PM",
           "valid_through": null
         },
@@ -17927,7 +18023,6 @@
             "tuesday"
           ],
           "categories": [
-            "food",
             "drink"
           ],
           "details": [
@@ -17935,20 +18030,18 @@
             "Bottled Mexican Beer \u2013 $5",
             "Brewery X \u2013 $5",
             "House Margaritas \u2013 $8",
-            "Cadillac Margaritas \u2013 $11",
-            "Taco specials available from 4:00 PM \u2013 8:00 PM"
+            "Cadillac Margaritas \u2013 $11"
           ],
           "source_evidence": [
             "TACO TUESDAY",
-            "Taco specials available from 4:00 PM \u2013 8:00 PM ONLY",
             "Taco Tuesday Drink Specials"
           ],
           "summary": "Taco Tuesday Drink Specials",
-          "time_window": "4:00 PM \u2013 8:00 PM",
+          "time_window": null,
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-12T17:28:38Z",
+      "extracted_at": "2026-09-13T17:38:04Z",
       "key": "6d69a42f4282d5cf415c",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -17956,9 +18049,7 @@
         "label": "ALL SPECIALS",
         "url": "https://hb.morenasmex.com/huntington-beach-bella-terra-morenas-mexican-cuisine-huntington-beach-happy-hours-specials"
       },
-      "rejected_candidates": [
-        "Chef\u2019s Special"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -18075,9 +18166,7 @@
         "label": "Website specials",
         "url": "http://myplacesportsbar.com/"
       },
-      "rejected_candidates": [
-        "Weekend Breakfast and all-day weekend mimosas"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "5452 Commercial Dr, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -18271,38 +18360,9 @@
       "status": "ok"
     },
     {
-      "content_hash": "96d0d0a41f119d4b266ff94493ffaa6f582e997e6b42f6971190579a13727e0b",
-      "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [
-            "monday",
-            "tuesday",
-            "wednesday",
-            "thursday",
-            "friday"
-          ],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes a fresh salad and a crispy spring roll with every lunch",
-            "Includes a cup of soup when you dine in",
-            "Available options include Pad Thai, Krapow, Pad Kee Mao, Panang Curry, Yellow Curry, Cashew Nut, Garlic & Pepper, and Mixed Vegetables"
-          ],
-          "source_evidence": [
-            "Weekday Lunch Specials",
-            "from",
-            "$11.99",
-            "Monday \u2013 Friday",
-            "11:30 AM \u2013 3:00 PM"
-          ],
-          "summary": "Weekday Lunch Specials starting from $11.99",
-          "time_window": "11:30 AM \u2013 3:00 PM",
-          "valid_through": null
-        }
-      ],
-      "extracted_at": "2026-09-10T02:55:35Z",
+      "content_hash": "cb7fab652b7e63a59ebf68f3bed9fa43fe674302283ea85d8b81673e469b51a5",
+      "deals": [],
+      "extracted_at": "2026-09-13T17:38:12Z",
       "key": "6718f35dbe1d9a1cd347",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -18310,7 +18370,9 @@
         "label": "Weekday Lunch Specials from $11.99",
         "url": "https://narwhalthaihb.com/"
       },
-      "rejected_candidates": [],
+      "rejected_candidates": [
+        "Weekday Lunch Specials starting from $11.99 with salad and spring roll"
+      ],
       "restaurant": {
         "address": "19072 Beach Blvd Ste A & B, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -18389,10 +18451,10 @@
         ],
         "website_url": "https://narwhalthaihb.com/"
       },
-      "status": "ok"
+      "status": "no_deals"
     },
     {
-      "content_hash": "58348a1ba627aa437f77aa570b899b0e146c87ae92fae06b7c17ca38c02eb78e",
+      "content_hash": "bd30d7f9aaa66b805013d45580f8f8f9a66e75e8e065f3c7ad311e8b02ae8940",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -18408,21 +18470,20 @@
           ],
           "details": [
             "Starts from $11.99",
-            "Includes a fresh salad and a crispy spring roll",
+            "Includes a fresh salad and a crispy spring roll (dine-in or take-out)",
             "Includes a cup of soup when dining in",
-            "Available for dine-in or takeout",
-            "Choices include wok noodles, rice plates, stir-fried vegetables, or curry"
+            "Available for choice of nine items including wok noodles, rice plates, stir-fried vegetables, or curries"
           ],
           "source_evidence": [
             "Thai Lunch Specials in Huntington Beach \u2014 Mon\u2013Fri from $11.99",
             "Monday through Friday, 11:30 AM to 3:00 PM. Pick a plate below and it comes with a fresh salad and a crispy spring roll \u2014 plus a cup of soup when you dine in."
           ],
-          "summary": "Weekday Lunch Specials starting from $11.99 with salad, spring roll, and soup.",
-          "time_window": "11:30 AM to 3:00 PM",
+          "summary": "Thai Lunch Specials from $11.99 with salad, spring roll, and soup",
+          "time_window": "11:30 AM - 3:00 PM",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-10T02:34:24Z",
+      "extracted_at": "2026-09-13T17:38:20Z",
       "key": "776d29987ca93903ec17",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -18514,12 +18575,15 @@
     {
       "content_hash": "f71bc55107d51c567c7ccec4a5bf42df6f7212e572467437d327e9f17a1ed546",
       "deals": [],
+      "extracted_at": "2026-09-13T17:38:27Z",
       "key": "b8b2660341baecf700e2",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://nookcoffeebar.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "2930 Bristol St #B105, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -18593,10 +18657,10 @@
         ],
         "website_url": "https://nookcoffeebar.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
-      "content_hash": "69fb8751bba7b0f445a7904896f8edab828c426b8b3b04d2e1ae329a87f8bb03",
+      "content_hash": "2da660c0da50ff7f8f05a47ceea8fa3e85f4453f2f8b9373cc7ae7a5851f5c54",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -18608,13 +18672,13 @@
             "drink"
           ],
           "details": [
-            "30% off Food and Beverage for industry members"
+            "30% off Food & Beverage"
           ],
           "source_evidence": [
             "Monday: Industry Night \u2013",
             "30% off Food & Beverage"
           ],
-          "summary": "Industry Night: 30% off Food and Beverage on Mondays",
+          "summary": "Monday Industry Night: 30% off Food & Beverage",
           "time_window": null,
           "valid_through": null
         },
@@ -18628,18 +18692,18 @@
             "drink"
           ],
           "details": [
-            "30% off Food and Beverage for locals"
+            "30% off Food & Beverage"
           ],
           "source_evidence": [
             "Tuesday: Locals Night",
             "\u2013 30% off Food & Beverage"
           ],
-          "summary": "Locals Night: 30% off Food and Beverage on Tuesdays",
+          "summary": "Tuesday Locals Night: 30% off Food & Beverage",
           "time_window": null,
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-10T02:34:33Z",
+      "extracted_at": "2026-09-13T17:38:35Z",
       "key": "b25242653899664a9f0a",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -18647,7 +18711,9 @@
         "label": "Website specials",
         "url": "https://waterfrontresort.com/dining/offshore-9-rooftop-lounge?y_source=1_MjA1NjM2Mzg2OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
-      "rejected_candidates": [],
+      "rejected_candidates": [
+        "Power Hour Happy Hour: $6 beer, Prosecco, and lite bites"
+      ],
       "restaurant": {
         "address": "21100 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -18845,9 +18911,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "222faa495001e724955e39737216f1832cf9f5f17fca267f0aa8dfa3da1148c8",
+      "content_hash": "b230f7f46b0a15ea374b3dd7ff6540b7689e353a5615bb3747952c23598f805d",
       "deals": [],
-      "extracted_at": "2026-09-10T02:34:50Z",
+      "extracted_at": "2026-09-13T17:38:42Z",
       "key": "0dc681d163143886b72c",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -18949,9 +19015,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "06f3bd17c35dad4b4a123a43f9f2eae87500474c2316084c13e18d19070f0886",
+      "content_hash": "d0cf994f880cab17b7d9dfa4feb2787d6cecbc8861232f2310a9d2837b63cdd4",
       "deals": [],
-      "extracted_at": "2026-09-10T02:55:42Z",
+      "extracted_at": "2026-09-13T17:38:50Z",
       "key": "5417479b67a1a57f282b",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -19038,9 +19104,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "57d5b7e8dae1244dd4828c6cdd5307d3db701141d8188902ff7f4b21ee64a31e",
+      "content_hash": "3ec54d55ffd8ad8dd9d73c36478a78a10bf6071605496c3c70565e2a412661b7",
       "deals": [],
-      "extracted_at": "2026-09-10T02:34:59Z",
+      "extracted_at": "2026-09-13T17:38:57Z",
       "key": "d62086b5224cb38d3f8e",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -19123,9 +19189,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "29b19eca0e7d0b50ab337e39fe5eae7a0aea2cc1fa62bdfbfd94db41fe3e943d",
+      "content_hash": "a4edd2f1810d5d92e0fe3ff4b9cc95fe51571c2b3cb36e3393846766c1ec7858",
       "deals": [],
-      "extracted_at": "2026-09-10T02:35:12Z",
+      "extracted_at": "2026-09-13T17:39:04Z",
       "key": "1b7852ac31e9c82323cb",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -19208,9 +19274,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "fd44bb82f7d0a3cf49caddd50205bc4e932801b65926058af6d3154866760ffa",
+      "content_hash": "71dabdd26b84f50a93d86c7339986fe8aac60b8afb784026f215a46d1ecee976",
       "deals": [],
-      "extracted_at": "2026-09-10T02:55:50Z",
+      "extracted_at": "2026-09-13T17:39:11Z",
       "key": "79d93197f00175e557e3",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -19398,9 +19464,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "cf6710392b9b2a3106b5649e2f931b5dfae6c51bfe0643884ea2979b4172b3b4",
+      "content_hash": "fe1162f260acbc941be884c06a8681ccc6e06ed7470849ba06daa82d98920f39",
       "deals": [],
-      "extracted_at": "2026-09-10T02:56:06Z",
+      "extracted_at": "2026-09-13T17:39:18Z",
       "key": "0d66fe40e26ca451f07d",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -19485,9 +19551,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "8d2c4444c44d80b258e393f6de9b0c9f1f9817fdf60415e0764586367bf8a1f1",
+      "content_hash": "2a94b287906bc642ca4fc70754246d94a31d56b80d9db5cde9144c3ea4d11c10",
       "deals": [],
-      "extracted_at": "2026-09-10T02:56:14Z",
+      "extracted_at": "2026-09-13T17:39:26Z",
       "key": "3bdeb67d80a5119a6f60",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -19573,12 +19639,15 @@
     {
       "content_hash": "9dd6ee9662c977ac72a79639786f4e16b8a64da5b795d6a80c460db2641eb5b1",
       "deals": [],
+      "extracted_at": "2026-09-13T17:39:33Z",
       "key": "29bf862dae9bf0c130e4",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "http://eatatpizzadoro.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -19660,17 +19729,250 @@
         ],
         "website_url": "http://eatatpizzadoro.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
-      "content_hash": "2dd2fa36757ff17f63e8e4707eb88f963544fcf6fb6426b9771eba0d3490c7b7",
-      "deals": [],
+      "content_hash": "58b20b8dc756df13451556a161575c00d8ad187f6f528849c66f014d8077620d",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday",
+            "sunday"
+          ],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "$2 off all Bottled Beer and Draft Pints",
+            "$2 off all Wine glasses",
+            "$4 off Draft Pitchers, Bottled Wine, and Wine 1/2 Liters"
+          ],
+          "source_evidence": [
+            "EVERYDAY HAPPY HOUR 2pm-6pm",
+            "$2 off all Bottled Beer and Draft Pints",
+            "$2 off all Wine glasses",
+            "$4 off Draft Pitchers | Bottled Wine | Wine \u00bd Liters"
+          ],
+          "summary": "Everyday Happy Hour: $2 off drinks and $4 off pitchers/bottled wine",
+          "time_window": "14:00-18:00",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "sunday"
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "3-course Feast with salad and garlic bread",
+            "Beef or Spinach Lasagna paired with spaghetti or penne pasta for $14.95",
+            "Pair Lasagna combo with deep fried mozzarella, fried artichokes, fried zucchini or 2 home-made meatballs instead of Pasta for $17.95"
+          ],
+          "source_evidence": [
+            "Sunday September 13th",
+            "3-course Feast with salad & garlic bread!",
+            "Every Sunday, enjoy Beef or Spinach Lasagna paired with spaghetti or penne pasta",
+            "Only $14.95",
+            "You can also pair your Lasagna combo with deep fried mozzarella, fried artichokes, fried zucchini or 2 home-made meatballs instead of Pasta for $17.95!"
+          ],
+          "summary": "Sunday 3-Course Lasagna Feast for $14.95 or $17.95 with appetizers",
+          "time_window": null,
+          "valid_through": "2026-09-13"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday"
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "3-course meal includes Salad and Garlic Bread",
+            "Lasagna only $12.95",
+            "Large Lasagna for 2 for $19.95",
+            "Choose between Beef Lasagna in meat sauce or Spinach Lasagna in Marinara"
+          ],
+          "source_evidence": [
+            "Monday September 14th",
+            "Lasagna only $12.95!",
+            "Large Lasagna for 2 for $19.95",
+            "3-course meal includes Salad and Garlic Bread every Monday!"
+          ],
+          "summary": "Monday 3-Course Lasagna Deal starting at $12.95",
+          "time_window": null,
+          "valid_through": "2026-09-14"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "3-course meal includes salad and garlic bread",
+            "Sampler platter of baked cheese manicotti, Beef or Spinach Lasagna and Cheese ravioli baked with mozzarella cheese in Marinara or Meat Sauce"
+          ],
+          "source_evidence": [
+            "Tuesday September 15th",
+            "Lasagna, Manicotti and Ravioli platter only $14.95",
+            "3-course meal includes salad and garlic bread every Tuesday!"
+          ],
+          "summary": "Tuesday 3-Course Lasagna, Manicotti and Ravioli Platter for $14.95",
+          "time_window": null,
+          "valid_through": "2026-09-15"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "$3 off any small, medium or large pizza",
+            "Limit 2 pizza discounts per person"
+          ],
+          "source_evidence": [
+            "Tuesday September 15th",
+            "Get $3 off any small, medium or large pizza!",
+            "Limit 2 pizza discounts per person"
+          ],
+          "summary": "Tuesday Pizza Discount: $3 off any small, medium, or large pizza",
+          "time_window": null,
+          "valid_through": "2026-09-15"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "3-course Feast includes salad and garlic bread",
+            "Saut\u00e9ed bell peppers, mushroom, and marinara with sliced Italian sausages over Penne or Spaghetti"
+          ],
+          "source_evidence": [
+            "Tuesday September 15th",
+            "Sausage Cacciatorie only $14.95",
+            "3-course Feast includes salad and garlic bread every Tuesday!"
+          ],
+          "summary": "Tuesday Sausage Cacciatorie 3-Course Feast for $14.95",
+          "time_window": null,
+          "valid_through": "2026-09-15"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "wednesday"
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "3-course meal includes salad and garlic bread",
+            "Spaghetti in meat sauce or Marinara with a 2nd helping included",
+            "Add two home-made Meatballs for $5 or two Italian Sausages for $6"
+          ],
+          "source_evidence": [
+            "Wednesday September 16th",
+            "All-You-Can-Eat Spaghetti only $8.95!",
+            "3-course meal includes salad and garlic bread every Wednesday!"
+          ],
+          "summary": "Wednesday All-You-Can-Eat Spaghetti 3-Course Meal for $8.95",
+          "time_window": null,
+          "valid_through": "2026-09-16"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "thursday"
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "3-course feasts include salad and garlic bread",
+            "Tortellini Spinach Alfredo for $15.95 or Fettucine Alfredo for $14.45",
+            "Add Chicken parmesan strips for $5"
+          ],
+          "source_evidence": [
+            "Thursday September 17th",
+            "Tortellini Spinach Alfredo for $15.95 or",
+            "Fettucine Alfredo for Only $14.45!",
+            "3-course feasts include salad and garlic bread every Thursday!"
+          ],
+          "summary": "Thursday Alfredo 3-Course Feasts starting at $14.45",
+          "time_window": null,
+          "valid_through": "2026-09-17"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "friday"
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "3-course meal with salad and garlic bread",
+            "Chicken Parmigian with Spaghetti or Eggplant Parmigian with Spaghetti in Meat Sauce or Marinara",
+            "Add Deep fried mozzarella, small fried zucchini, small fried artichokes or 2 large meatballs for $5"
+          ],
+          "source_evidence": [
+            "Friday September 18th",
+            "Chicken Parmigian with Spaghetti or",
+            "Eggplant Parmigian with Spaghetti in Meat Sauce or Marinara",
+            "Every Friday only $14.95"
+          ],
+          "summary": "Friday Chicken or Eggplant Parmigian 3-Course Meal for $14.95",
+          "time_window": null,
+          "valid_through": "2026-09-18"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "saturday"
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "3-course meal with garlic bread and salad",
+            "Make it a Shrimp Scampi Garlic Linguini or Spicy Shrimp Fra diablo for $6 more"
+          ],
+          "source_evidence": [
+            "Saturday September 19th",
+            "Sauteed Garlic Linguini only $14.45!",
+            "3- course meal with garlic bread and salad every Saturday!"
+          ],
+          "summary": "Saturday Saut\u00e9ed Garlic Linguini 3-Course Meal for $14.45",
+          "time_window": null,
+          "valid_through": "2026-09-19"
+        }
+      ],
+      "extracted_at": "2026-09-13T17:39:45Z",
       "key": "c960873721fa8607d9b3",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "EVERYDAY Specials!",
         "url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -19752,12 +20054,12 @@
         ],
         "website_url": "http://eatatpizzadoro.com/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
-      "content_hash": "8604a498c56756317659690f4befc946d59ff9e12553e3c1f80dbdd33e9a2780",
+      "content_hash": "97249712a67453ba91858071a05564dd46527c69f29a084bbcc532139a5ed6e2",
       "deals": [],
-      "extracted_at": "2026-09-10T02:56:21Z",
+      "extracted_at": "2026-09-13T17:39:52Z",
       "key": "c92d0213d3bffb194007",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -19852,12 +20154,15 @@
     {
       "content_hash": "94e79a5e5af00ea37dd1ace16928c295f89a0f6889600203e20cf94695633e24",
       "deals": [],
+      "extracted_at": "2026-09-13T17:39:59Z",
       "key": "36e450197df680d926c6",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://locations.pizzahut.com/ca/costa-mesa/3030-harbor-blvd?utm_medium=organic&utm_source=local&utm_campaign=googlelistings&utm_content=website&utm_term=296186"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "3030 Harbor Blvd, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -19887,12 +20192,12 @@
         ],
         "website_url": "https://locations.pizzahut.com/ca/costa-mesa/3030-harbor-blvd?utm_medium=organic&utm_source=local&utm_campaign=googlelistings&utm_content=website&utm_term=296186"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
-      "content_hash": "bf533cfc3f767e0926523098c0a7e595093c9ff6b7369694804d7cf730ef48ea",
+      "content_hash": "e617c3994f4aef47d9855eeffce9b480ac3073e6ef598cf87456d98d7c3e3c31",
       "deals": [],
-      "extracted_at": "2026-09-10T02:56:28Z",
+      "extracted_at": "2026-09-13T17:40:06Z",
       "key": "5c5244455fa3e9ec4817",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -19935,12 +20240,15 @@
     {
       "content_hash": "ca054885fb0167b48a18d73e524b9cfb0fd5cf310afb0d0d95e36d6131294425",
       "deals": [],
+      "extracted_at": "2026-09-13T17:40:13Z",
       "key": "ede7bca78bdbdaaa6048",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Fill out our Request form",
         "url": "https://plumscafe.com/large-parties-or-special-events-request/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "369 E 17th St, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -20014,10 +20322,10 @@
         ],
         "website_url": "https://plumscafe.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
-      "content_hash": "2bb5e200a7ad93619e282b9f105f9c1e63451dd34e9058c8ee4196c105d4b503",
+      "content_hash": "0fe95226952756c8a865789fbdd9e170e2d68cf12c4e7b7f66143e1f0d6813c7",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -20027,16 +20335,15 @@
           ],
           "details": [
             "Price: $75.00",
-            "Serves 5-6 people",
-            "Includes 2 Chicken Boneless, 2 Chicken Koobideh, and 2 Beef Koobideh",
-            "Served with Basmati Rice, Tomatoes, and Salad"
+            "Serves 5-6",
+            "Includes 2 Chicken Boneless, 2 Chicken Koobideh, 2 Beef Koobideh, Basmati Rice, Tomatoes and Salad"
           ],
           "source_evidence": [
             "FAMILY PACKAGE 1",
             "$75.00",
             "SERVES 5-6"
           ],
-          "summary": "Family Package 1 for $75.00",
+          "summary": "Family Package 1 for $75.00 serving 5-6 people",
           "time_window": null,
           "valid_through": null
         },
@@ -20048,16 +20355,15 @@
           ],
           "details": [
             "Price: $90.00",
-            "Serves 5-6 people",
-            "Includes 2 Chicken Barg and 2 Beef Barg",
-            "Served with Basmati Rice, Tomatoes, Maust Khyiar, and Salad"
+            "Serves 5-6",
+            "Includes 2 Chicken Barg, 2 Beef Barg, Basmati Rice, Tomatoes, Maust Khyiar and Salad"
           ],
           "source_evidence": [
             "FAMILY PACKAGE 2",
             "$90.00",
             "SERVES 5-6"
           ],
-          "summary": "Family Package 2 for $90.00",
+          "summary": "Family Package 2 for $90.00 serving 5-6 people",
           "time_window": null,
           "valid_through": null
         },
@@ -20069,16 +20375,15 @@
           ],
           "details": [
             "Price: $130.00",
-            "Serves 6-8 people",
-            "Includes 2 Chicken Boneless, 2 Beef Koobideh, and 2 Beef Barg",
-            "Served with Basmati Rice, Tomatoes, Maust Khyiar, and Salad"
+            "Serves 6-8",
+            "Includes 2 Chicken Boneless, 2 Beef Koobideh, 2 Beef Barg, Basmati Rice, Tomatoes, Maust Khyiar and Salad"
           ],
           "source_evidence": [
             "FAMILY PACKAGE 3",
             "$130.00",
             "SERVES 6-8"
           ],
-          "summary": "Family Package 3 for $130.00",
+          "summary": "Family Package 3 for $130.00 serving 6-8 people",
           "time_window": null,
           "valid_through": null
         },
@@ -20090,16 +20395,15 @@
           ],
           "details": [
             "Price: $240.00",
-            "Serves 10 people",
-            "Includes choice of beef or chicken koobideh, basmati rice, and Point11 salad",
-            "Choice of one appetizer: Hummus, musto kheyar, or salad shirazi"
+            "Serves 10",
+            "Includes choice of beef or chicken koobideh, basmati rice, Point11 salad, and choice of one appetizer"
           ],
           "source_evidence": [
             "KOOBIDEH PARTY ENTREE",
             "$240.00",
             "SERVES 10"
           ],
-          "summary": "Koobideh Party Entree for 10 people for $240.00",
+          "summary": "Koobideh Party Entr\u00e9e for $240.00 serving 10 people",
           "time_window": null,
           "valid_through": null
         },
@@ -20111,16 +20415,15 @@
           ],
           "details": [
             "Price: $280.00",
-            "Serves 15 people",
-            "Includes choice of beef or chicken koobideh, basmati rice, and Point11 salad",
-            "Choice of one appetizer: Hummus, musto kheyar, or salad shirazi"
+            "Serves 15",
+            "Includes choice of beef or chicken koobideh, basmati rice, Point11 salad, and choice of one appetizer"
           ],
           "source_evidence": [
             "KOOBIDEH PARTY ENTREE",
             "$280.00",
             "SERVES 15"
           ],
-          "summary": "Koobideh Party Entree for 15 people for $280.00",
+          "summary": "Koobideh Party Entr\u00e9e for $280.00 serving 15 people",
           "time_window": null,
           "valid_through": null
         },
@@ -20132,16 +20435,15 @@
           ],
           "details": [
             "Price: $280.00",
-            "Serves 10 people",
-            "Includes boneless chicken, basmati rice, and Point11 salad",
-            "Choice of one appetizer: Hummus, musto kheyar, or salad shirazi"
+            "Serves 10",
+            "Includes boneless chicken, basmati rice, Point11 salad, and choice of one appetizer"
           ],
           "source_evidence": [
             "CHICKEN PARTY ENTREE",
             "$280.00",
             "SERVES 10"
           ],
-          "summary": "Chicken Party Entree for 10 people for $280.00",
+          "summary": "Chicken Party Entr\u00e9e for $280.00 serving 10 people",
           "time_window": null,
           "valid_through": null
         },
@@ -20153,21 +20455,20 @@
           ],
           "details": [
             "Price: $310.00",
-            "Serves 15 people",
-            "Includes boneless chicken, basmati rice, and Point11 salad",
-            "Choice of one appetizer: Hummus, musto kheyar, or salad shirazi"
+            "Serves 15",
+            "Includes boneless chicken, basmati rice, Point11 salad, and choice of one appetizer"
           ],
           "source_evidence": [
             "CHICKEN PARTY ENTREE",
             "$310.00",
             "SERVES 15"
           ],
-          "summary": "Chicken Party Entree for 15 people for $310.00",
+          "summary": "Chicken Party Entr\u00e9e for $310.00 serving 15 people",
           "time_window": null,
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-10T02:56:38Z",
+      "extracted_at": "2026-09-13T17:40:24Z",
       "key": "6cdd544095883238057f",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -20252,12 +20553,17 @@
     {
       "content_hash": "3fe2eb664dcbb89e4c028f904c2a4712e112100676630375f169503e5ce27aa4",
       "deals": [],
+      "extracted_at": "2026-09-13T17:40:31Z",
       "key": "73ddfd213fe03d9a2714",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "ALL SPECIALS",
         "url": "https://www.populaireoc.com/costa-mesa-populaire-modern-bistro-happy-hours-specials"
       },
+      "rejected_candidates": [
+        "Bottomless Mimosas"
+      ],
       "restaurant": {
         "address": "3333 Bristol St unit 2601, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -20328,12 +20634,38 @@
         ],
         "website_url": "https://www.populaireoc.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
-      "content_hash": "e40fc36b20459e4ee0d998472a1de034cb8dd635b8b5436a826cef2aa9343cb9",
-      "deals": [],
-      "extracted_at": "2026-09-10T02:56:46Z",
+      "content_hash": "41733fef79c75190f72d1ef841bab3eed281a0eee2e21b2947aa5fa5b52755f4",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "One extra large 2-topping pizza",
+            "Your choice of one large salad",
+            "One order of chicken wings",
+            "One order of garlic knots or cinna knots",
+            "Choice of 2-liter soda",
+            "Price: $49 plus tax"
+          ],
+          "source_evidence": [
+            "Feast Special. $49",
+            "One extra large 2-topping pizza",
+            "Your choice of one large salad",
+            "One order of chicken wings"
+          ],
+          "summary": "Feast Special: XL 2-topping pizza, large salad, wings, knots, and 2-liter soda for $49",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-13T17:40:39Z",
       "key": "68b4f9692fb527ccdff7",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -20423,7 +20755,7 @@
         ],
         "website_url": "http://www.porkyspizza.com/"
       },
-      "status": "no_deals"
+      "status": "ok"
     },
     {
       "content_hash": "a6ce007833cb7f99b0232a5a4ffffbfcbe1ff0212f735e0ade6bcd09d2c7d210",
@@ -30385,9 +30717,8 @@
               "drink"
             ],
             "details": [
-              "Applies to All Signature Cocktails, Wines by the Glass, and Beer",
-              "$2 OFF",
-              "Only available in the Trenta Lounge"
+              "Applies to all Signature Cocktails, Wines by the Glass, and Beer",
+              "$2 OFF"
             ],
             "source_evidence": [
               "Monday \u2013 Thursday",
@@ -30395,13 +30726,89 @@
               "All Signature Cocktails, Wines by the Glass, and Beer",
               "$2 OFF"
             ],
-            "summary": "$2 off all signature cocktails, wines by the glass, and beer during happy hour",
-            "time_window": "5:00 PM - 6:30 PM",
-            "valid_through": null
+            "summary": "$2 off all signature cocktails, wines by the glass, and beer",
+            "time_window": "5:00 PM \u2013 6:30 PM",
+            "valid_through": "2027-02-16"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
+              "Price: $20"
+            ],
+            "source_evidence": [
+              "CHARCUTERIE",
+              "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
+              "$20"
+            ],
+            "summary": "Charcuterie for $20 during happy hour",
+            "time_window": null,
+            "valid_through": "2027-02-16"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Fried Calamari/lemon/garlic-chili aioli",
+              "Price: $18"
+            ],
+            "source_evidence": [
+              "CALAMARI FRITTI",
+              "Fried Calamari/lemon/garlic-chili aioli",
+              "$18"
+            ],
+            "summary": "Calamari Fritti for $18 during happy hour",
+            "time_window": null,
+            "valid_through": "2027-02-16"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
+              "Price: $12"
+            ],
+            "source_evidence": [
+              "CANNOLO SALATO",
+              "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
+              "$12"
+            ],
+            "summary": "Cannolo Salato for $12 during happy hour",
+            "time_window": null,
+            "valid_through": "2027-02-16"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
+              "Price: $10"
+            ],
+            "source_evidence": [
+              "BRUSCHETTA TRADIZIONALE",
+              "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
+              "$10"
+            ],
+            "summary": "Bruschetta Tradizionale for $10 during happy hour",
+            "time_window": null,
+            "valid_through": "2027-02-16"
           }
         ]
       },
-      "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2026-09-10-17-00"
+      "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2027-02-16-17-00"
     },
     {
       "city": "Huntington Beach",
@@ -30522,289 +30929,6 @@
         ]
       },
       "url": "http://triplecrowntavern.com/happy-hour"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
-        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.7009621,
-        "longitude": -117.9886627,
-        "phone": "(714) 596-0478",
-        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
-      },
-      "name": "Wienerschnitzel",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Price: $3",
-              "Item: Pretzel Bun Chili Dog",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
-            ],
-            "summary": "$3 Pretzel Bun Chili Dog",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "Price: $5",
-              "Items: Corn Dog, Small Fries, Small Soda",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$5 Corn Dog, Small Fries & Small Soda Coupon"
-            ],
-            "summary": "$5 Corn Dog, Small Fries & Small Soda",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Price: $6",
-              "Items: Two Chili Dogs, Chili Cheese Fries",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$6 Two Chili Dogs & Chili Cheese Fries Coupon"
-            ],
-            "summary": "$6 Two Chili Dogs & Chili Cheese Fries",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Price: $6",
-              "Items: Two Sundaes",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$6 Two Sundaes Coupon"
-            ],
-            "summary": "$6 Two Sundaes",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Price: $5",
-              "Items: Two Chili Dogs, Medium Fries",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$5 Two Chili Dogs & Medium Fries Coupon"
-            ],
-            "summary": "$5 Two Chili Dogs & Medium Fries",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Price: $6",
-              "Items: Two Classic Chili Cheese Fries (Regular Size)",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$6 Regular Size Two Classic Chili Cheese Fries Coupon"
-            ],
-            "summary": "$6 Regular Size Two Classic Chili Cheese Fries",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Price: $6",
-              "Items: Corn Dog, Chili Dog, Chili Cheese Fries",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon"
-            ],
-            "summary": "$6 Corn Dog, Chili Dog & Chili Cheese Fries",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "Price: $7",
-              "Items: Chili Cheese Dog, Chili Cheese Fries, Small Soda",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
-            ],
-            "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "Price: $8",
-              "Items: Deluxe Cheeseburger, Small Fries, Small Soda",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
-            ],
-            "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Discount: $2 off",
-              "Item: Any Chili Cheese Fries",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$2 Off Any Chili Cheese Fries Coupon"
-            ],
-            "summary": "$2 Off Any Chili Cheese Fries",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Price: $16",
-              "Items: Four Chili Dogs, Two Chili Cheese Fries",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon"
-            ],
-            "summary": "$16 Four Chili Dogs & Two Chili Cheese Fries",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Price: $20",
-              "Items: Ten Chili Cheese Dogs",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$20 Ten Chili Cheese Dogs Coupon"
-            ],
-            "summary": "$20 Ten Chili Cheese Dogs",
-            "time_window": null,
-            "valid_through": null
-          }
-        ]
-      },
-      "url": "http://www.wienerschnitzel.com/coupons/"
     },
     {
       "city": "Huntington Beach",
@@ -31145,24 +31269,220 @@
             ],
             "details": [
               "Price: $3",
-              "Item: Original Pretzel Bun Chili Dog",
-              "Cheese is extra",
-              "Coupon good for TWO orders on same visit and must be surrendered at time of purchase",
-              "Tax extra",
-              "Not valid with any other offer, discount or coupon",
-              "Good at participating restaurants only"
+              "Item: Pretzel Bun Chili Dog",
+              "Must show coupon at time of purchase"
             ],
             "source_evidence": [
-              "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
               "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
             ],
-            "summary": "$3 Pretzel Bun Chili Dog coupon",
+            "summary": "$3 Pretzel Bun Chili Dog",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Price: $5",
+              "Items: Corn Dog, Small Fries, Small Soda",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$5 Corn Dog, Small Fries & Small Soda Coupon"
+            ],
+            "summary": "$5 Corn Dog, Small Fries & Small Soda",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Price: $6",
+              "Items: Two Chili Dogs, Chili Cheese Fries",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$6 Two Chili Dogs & Chili Cheese Fries Coupon"
+            ],
+            "summary": "$6 Two Chili Dogs & Chili Cheese Fries",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Price: $6",
+              "Items: Two Sundaes",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$6 Two Sundaes Coupon"
+            ],
+            "summary": "$6 Two Sundaes",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Price: $5",
+              "Items: Two Chili Dogs, Medium Fries",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$5 Two Chili Dogs & Medium Fries Coupon"
+            ],
+            "summary": "$5 Two Chili Dogs & Medium Fries",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Price: $6",
+              "Items: Two Classic Chili Cheese Fries (Regular Size)",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$6 Regular Size Two Classic Chili Cheese Fries Coupon"
+            ],
+            "summary": "$6 Regular Size Two Classic Chili Cheese Fries",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Price: $6",
+              "Items: Corn Dog, Chili Dog, Chili Cheese Fries",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon"
+            ],
+            "summary": "$6 Corn Dog, Chili Dog & Chili Cheese Fries",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Price: $7",
+              "Items: Chili Cheese Dog, Chili Cheese Fries, Small Soda",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
+            ],
+            "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Price: $8",
+              "Items: Deluxe Cheeseburger, Small Fries, Small Soda",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
+            ],
+            "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Discount: $2 off",
+              "Item: Any Chili Cheese Fries",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$2 Off Any Chili Cheese Fries Coupon"
+            ],
+            "summary": "$2 Off Any Chili Cheese Fries",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Price: $16",
+              "Items: Four Chili Dogs, Two Chili Cheese Fries",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon"
+            ],
+            "summary": "$16 Four Chili Dogs & Two Chili Cheese Fries",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Price: $20",
+              "Items: Ten Chili Cheese Dogs",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$20 Ten Chili Cheese Dogs Coupon"
+            ],
+            "summary": "$20 Ten Chili Cheese Dogs",
             "time_window": null,
             "valid_through": null
           }
         ]
       },
-      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+      "url": "http://www.wienerschnitzel.com/coupons/"
     },
     {
       "city": "Huntington Beach",
@@ -31243,6 +31563,93 @@
               "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
             ],
             "summary": "$3 Pretzel Bun Chili Dog",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+      },
+      "name": "Wienerschnitzel",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Price: $3",
+              "Item: Original Pretzel Bun Chili Dog",
+              "Cheese is extra",
+              "Coupon good for TWO orders on same visit and must be surrendered at time of purchase",
+              "Tax extra",
+              "Not valid with any other offer, discount or coupon",
+              "Good at participating restaurants only"
+            ],
+            "source_evidence": [
+              "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
+              "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
+            ],
+            "summary": "$3 Pretzel Bun Chili Dog coupon",
             "time_window": null,
             "valid_through": null
           }
@@ -31342,93 +31749,6 @@
     {
       "city": "Huntington Beach",
       "location": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
-      },
-      "name": "Wienerschnitzel",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "Includes a corn dog, small fries, and small soda for $5",
-              "Tax extra",
-              "Good for two orders on same visit",
-              "Must be surrendered at time of purchase",
-              "Not valid with any other offer, discount or coupon",
-              "Not valid in Sacramento, Stockton & Modesto areas"
-            ],
-            "source_evidence": [
-              "$5 - Corn Dog, Small Fries and Small Soda Coupon",
-              "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
-            ],
-            "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
-            "time_window": null,
-            "valid_through": null
-          }
-        ]
-      },
-      "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
         "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
@@ -31505,6 +31825,93 @@
             "source_evidence": [
               "$5 - Corn Dog, Small Fries and Small Soda Coupon",
               "$5 - Corn Dog, Small Fries and Small Soda - 251"
+            ],
+            "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
+      },
+      "name": "Wienerschnitzel",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Includes a corn dog, small fries, and small soda for $5",
+              "Tax extra",
+              "Good for two orders on same visit",
+              "Must be surrendered at time of purchase",
+              "Not valid with any other offer, discount or coupon",
+              "Not valid in Sacramento, Stockton & Modesto areas"
+            ],
+            "source_evidence": [
+              "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+              "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
             ],
             "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
             "time_window": null,
@@ -33037,13 +33444,13 @@
               "drink"
             ],
             "details": [
-              "Mon-Fri, 4-6pm"
+              "Mon\u2013Fri, 4\u20136pm"
             ],
             "source_evidence": [
               "Mon\u2013Fri, 4\u20136pm"
             ],
-            "summary": "Happy Hour specials on weekdays",
-            "time_window": "4:00 PM - 6:00 PM",
+            "summary": "Happy Hour",
+            "time_window": "16:00-18:00",
             "valid_through": null
           },
           {
@@ -33058,16 +33465,19 @@
             "details": [
               "Tacos from $4",
               "$10 margaritas",
-              "DJ at 7pm",
-              "Ground beef $4, smoked pork belly $4, fish $6, sirloin $7, lobster $8, birria $8",
-              "$6 Modelo and $10 Casa Margarita all day"
+              "Ground beef $4",
+              "Smoked pork belly $4",
+              "Fish $6",
+              "Sirloin $7",
+              "Lobster $8",
+              "Birria $8"
             ],
             "source_evidence": [
               "Tuesdays all day \u2014 tacos from $4, $10 margaritas, DJ at 7pm",
               "$6 Modelo and $10 Casa Margarita all day."
             ],
-            "summary": "Tulum Tuesdays specials with tacos and margaritas",
-            "time_window": "all day",
+            "summary": "Tulum Tuesdays Specials",
+            "time_window": null,
             "valid_through": null
           }
         ]
@@ -35155,7 +35565,6 @@
               "$34.99 Per Guest \u2013 Non-Alcoholic Option",
               "Kids Ages 6\u201312: $19.99",
               "Kids Under 6 Eat Free",
-              "Includes Omelette Station, Chilaquiles Station, hot buffet, salad bar, desserts, and Mexican brunch favorites",
               "Bottomless Mimosa service limited to 90 minutes per guest"
             ],
             "source_evidence": [
@@ -35163,10 +35572,74 @@
               "Every Sunday | 10:00 AM \u2013 3:00 PM",
               "$39.99 Per Guest \u2013 Includes Bottomless Mimosas"
             ],
-            "summary": "Sunday Brunch Buffet with Bottomless Mimosas",
+            "summary": "Bottomless Mimosa Brunch Buffet",
             "time_window": "10:00 AM \u2013 3:00 PM",
             "valid_through": null
-          },
+          }
+        ]
+      },
+      "url": "https://hb.morenasmex.com/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7298377,
+        "longitude": -117.99953239999999,
+        "phone": "(657) 301-2017",
+        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
+      },
+      "name": "Morena's Mexican Cuisine",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
           {
             "ai_confidence": 0.95,
             "applies_days": [
@@ -35193,7 +35666,7 @@
               "MORENA\u2019S HAPPY HOUR \u2013 HUNTINGTON BEACH",
               "Available Monday, Wednesday, Thursday & Friday from 3:00 PM \u2013 6:00 PM (Dine-In Only)."
             ],
-            "summary": "Morena's Happy Hour",
+            "summary": "Happy Hour specials with drinks and tacos",
             "time_window": "3:00 PM \u2013 6:00 PM",
             "valid_through": null
           },
@@ -35203,7 +35676,6 @@
               "tuesday"
             ],
             "categories": [
-              "food",
               "drink"
             ],
             "details": [
@@ -35211,16 +35683,14 @@
               "Bottled Mexican Beer \u2013 $5",
               "Brewery X \u2013 $5",
               "House Margaritas \u2013 $8",
-              "Cadillac Margaritas \u2013 $11",
-              "Taco specials available from 4:00 PM \u2013 8:00 PM"
+              "Cadillac Margaritas \u2013 $11"
             ],
             "source_evidence": [
               "TACO TUESDAY",
-              "Taco specials available from 4:00 PM \u2013 8:00 PM ONLY",
               "Taco Tuesday Drink Specials"
             ],
             "summary": "Taco Tuesday Drink Specials",
-            "time_window": "4:00 PM \u2013 8:00 PM",
+            "time_window": null,
             "valid_through": null
           }
         ]
@@ -35475,110 +35945,17 @@
               "food"
             ],
             "details": [
-              "Includes a fresh salad and a crispy spring roll with every lunch",
-              "Includes a cup of soup when you dine in",
-              "Available options include Pad Thai, Krapow, Pad Kee Mao, Panang Curry, Yellow Curry, Cashew Nut, Garlic & Pepper, and Mixed Vegetables"
-            ],
-            "source_evidence": [
-              "Weekday Lunch Specials",
-              "from",
-              "$11.99",
-              "Monday \u2013 Friday",
-              "11:30 AM \u2013 3:00 PM"
-            ],
-            "summary": "Weekday Lunch Specials starting from $11.99",
-            "time_window": "11:30 AM \u2013 3:00 PM",
-            "valid_through": null
-          }
-        ]
-      },
-      "url": "https://narwhalthaihb.com/"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
-        "address": "19072 Beach Blvd Ste A & B, Huntington Beach, CA 92648, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=6790489916821266867&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ]
-        },
-        "latitude": 33.6856602,
-        "longitude": -117.98840279999999,
-        "phone": "(714) 378-6003",
-        "place_id": "ChIJj1Lyz84m3YARs-EAD5qqPF4"
-      },
-      "name": "Narwhal Thai Table",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [
-              "monday",
-              "tuesday",
-              "wednesday",
-              "thursday",
-              "friday"
-            ],
-            "categories": [
-              "food"
-            ],
-            "details": [
               "Starts from $11.99",
-              "Includes a fresh salad and a crispy spring roll",
+              "Includes a fresh salad and a crispy spring roll (dine-in or take-out)",
               "Includes a cup of soup when dining in",
-              "Available for dine-in or takeout",
-              "Choices include wok noodles, rice plates, stir-fried vegetables, or curry"
+              "Available for choice of nine items including wok noodles, rice plates, stir-fried vegetables, or curries"
             ],
             "source_evidence": [
               "Thai Lunch Specials in Huntington Beach \u2014 Mon\u2013Fri from $11.99",
               "Monday through Friday, 11:30 AM to 3:00 PM. Pick a plate below and it comes with a fresh salad and a crispy spring roll \u2014 plus a cup of soup when you dine in."
             ],
-            "summary": "Weekday Lunch Specials starting from $11.99 with salad, spring roll, and soup.",
-            "time_window": "11:30 AM to 3:00 PM",
+            "summary": "Thai Lunch Specials from $11.99 with salad, spring roll, and soup",
+            "time_window": "11:30 AM - 3:00 PM",
             "valid_through": null
           }
         ]
@@ -35655,13 +36032,13 @@
               "drink"
             ],
             "details": [
-              "30% off Food and Beverage for industry members"
+              "30% off Food & Beverage"
             ],
             "source_evidence": [
               "Monday: Industry Night \u2013",
               "30% off Food & Beverage"
             ],
-            "summary": "Industry Night: 30% off Food and Beverage on Mondays",
+            "summary": "Monday Industry Night: 30% off Food & Beverage",
             "time_window": null,
             "valid_through": null
           },
@@ -35675,19 +36052,312 @@
               "drink"
             ],
             "details": [
-              "30% off Food and Beverage for locals"
+              "30% off Food & Beverage"
             ],
             "source_evidence": [
               "Tuesday: Locals Night",
               "\u2013 30% off Food & Beverage"
             ],
-            "summary": "Locals Night: 30% off Food and Beverage on Tuesdays",
+            "summary": "Tuesday Locals Night: 30% off Food & Beverage",
             "time_window": null,
             "valid_through": null
           }
         ]
       },
       "url": "https://waterfrontresort.com/dining/offshore-9-rooftop-lounge?y_source=1_MjA1NjM2Mzg2OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    },
+    {
+      "city": "Costa Mesa",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "name": "Pizza D'Oro",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "categories": [
+              "drink"
+            ],
+            "details": [
+              "$2 off all Bottled Beer and Draft Pints",
+              "$2 off all Wine glasses",
+              "$4 off Draft Pitchers, Bottled Wine, and Wine 1/2 Liters"
+            ],
+            "source_evidence": [
+              "EVERYDAY HAPPY HOUR 2pm-6pm",
+              "$2 off all Bottled Beer and Draft Pints",
+              "$2 off all Wine glasses",
+              "$4 off Draft Pitchers | Bottled Wine | Wine \u00bd Liters"
+            ],
+            "summary": "Everyday Happy Hour: $2 off drinks and $4 off pitchers/bottled wine",
+            "time_window": "14:00-18:00",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "sunday"
+            ],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "3-course Feast with salad and garlic bread",
+              "Beef or Spinach Lasagna paired with spaghetti or penne pasta for $14.95",
+              "Pair Lasagna combo with deep fried mozzarella, fried artichokes, fried zucchini or 2 home-made meatballs instead of Pasta for $17.95"
+            ],
+            "source_evidence": [
+              "Sunday September 13th",
+              "3-course Feast with salad & garlic bread!",
+              "Every Sunday, enjoy Beef or Spinach Lasagna paired with spaghetti or penne pasta",
+              "Only $14.95",
+              "You can also pair your Lasagna combo with deep fried mozzarella, fried artichokes, fried zucchini or 2 home-made meatballs instead of Pasta for $17.95!"
+            ],
+            "summary": "Sunday 3-Course Lasagna Feast for $14.95 or $17.95 with appetizers",
+            "time_window": null,
+            "valid_through": "2026-09-13"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday"
+            ],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "3-course meal includes Salad and Garlic Bread",
+              "Lasagna only $12.95",
+              "Large Lasagna for 2 for $19.95",
+              "Choose between Beef Lasagna in meat sauce or Spinach Lasagna in Marinara"
+            ],
+            "source_evidence": [
+              "Monday September 14th",
+              "Lasagna only $12.95!",
+              "Large Lasagna for 2 for $19.95",
+              "3-course meal includes Salad and Garlic Bread every Monday!"
+            ],
+            "summary": "Monday 3-Course Lasagna Deal starting at $12.95",
+            "time_window": null,
+            "valid_through": "2026-09-14"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "tuesday"
+            ],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "3-course meal includes salad and garlic bread",
+              "Sampler platter of baked cheese manicotti, Beef or Spinach Lasagna and Cheese ravioli baked with mozzarella cheese in Marinara or Meat Sauce"
+            ],
+            "source_evidence": [
+              "Tuesday September 15th",
+              "Lasagna, Manicotti and Ravioli platter only $14.95",
+              "3-course meal includes salad and garlic bread every Tuesday!"
+            ],
+            "summary": "Tuesday 3-Course Lasagna, Manicotti and Ravioli Platter for $14.95",
+            "time_window": null,
+            "valid_through": "2026-09-15"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "tuesday"
+            ],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "$3 off any small, medium or large pizza",
+              "Limit 2 pizza discounts per person"
+            ],
+            "source_evidence": [
+              "Tuesday September 15th",
+              "Get $3 off any small, medium or large pizza!",
+              "Limit 2 pizza discounts per person"
+            ],
+            "summary": "Tuesday Pizza Discount: $3 off any small, medium, or large pizza",
+            "time_window": null,
+            "valid_through": "2026-09-15"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "tuesday"
+            ],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "3-course Feast includes salad and garlic bread",
+              "Saut\u00e9ed bell peppers, mushroom, and marinara with sliced Italian sausages over Penne or Spaghetti"
+            ],
+            "source_evidence": [
+              "Tuesday September 15th",
+              "Sausage Cacciatorie only $14.95",
+              "3-course Feast includes salad and garlic bread every Tuesday!"
+            ],
+            "summary": "Tuesday Sausage Cacciatorie 3-Course Feast for $14.95",
+            "time_window": null,
+            "valid_through": "2026-09-15"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "wednesday"
+            ],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "3-course meal includes salad and garlic bread",
+              "Spaghetti in meat sauce or Marinara with a 2nd helping included",
+              "Add two home-made Meatballs for $5 or two Italian Sausages for $6"
+            ],
+            "source_evidence": [
+              "Wednesday September 16th",
+              "All-You-Can-Eat Spaghetti only $8.95!",
+              "3-course meal includes salad and garlic bread every Wednesday!"
+            ],
+            "summary": "Wednesday All-You-Can-Eat Spaghetti 3-Course Meal for $8.95",
+            "time_window": null,
+            "valid_through": "2026-09-16"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "thursday"
+            ],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "3-course feasts include salad and garlic bread",
+              "Tortellini Spinach Alfredo for $15.95 or Fettucine Alfredo for $14.45",
+              "Add Chicken parmesan strips for $5"
+            ],
+            "source_evidence": [
+              "Thursday September 17th",
+              "Tortellini Spinach Alfredo for $15.95 or",
+              "Fettucine Alfredo for Only $14.45!",
+              "3-course feasts include salad and garlic bread every Thursday!"
+            ],
+            "summary": "Thursday Alfredo 3-Course Feasts starting at $14.45",
+            "time_window": null,
+            "valid_through": "2026-09-17"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "friday"
+            ],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "3-course meal with salad and garlic bread",
+              "Chicken Parmigian with Spaghetti or Eggplant Parmigian with Spaghetti in Meat Sauce or Marinara",
+              "Add Deep fried mozzarella, small fried zucchini, small fried artichokes or 2 large meatballs for $5"
+            ],
+            "source_evidence": [
+              "Friday September 18th",
+              "Chicken Parmigian with Spaghetti or",
+              "Eggplant Parmigian with Spaghetti in Meat Sauce or Marinara",
+              "Every Friday only $14.95"
+            ],
+            "summary": "Friday Chicken or Eggplant Parmigian 3-Course Meal for $14.95",
+            "time_window": null,
+            "valid_through": "2026-09-18"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "saturday"
+            ],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "3-course meal with garlic bread and salad",
+              "Make it a Shrimp Scampi Garlic Linguini or Spicy Shrimp Fra diablo for $6 more"
+            ],
+            "source_evidence": [
+              "Saturday September 19th",
+              "Sauteed Garlic Linguini only $14.45!",
+              "3- course meal with garlic bread and salad every Saturday!"
+            ],
+            "summary": "Saturday Saut\u00e9ed Garlic Linguini 3-Course Meal for $14.45",
+            "time_window": null,
+            "valid_through": "2026-09-19"
+          }
+        ]
+      },
+      "url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials"
     },
     {
       "city": "Huntington Beach",
@@ -35757,16 +36427,15 @@
             ],
             "details": [
               "Price: $75.00",
-              "Serves 5-6 people",
-              "Includes 2 Chicken Boneless, 2 Chicken Koobideh, and 2 Beef Koobideh",
-              "Served with Basmati Rice, Tomatoes, and Salad"
+              "Serves 5-6",
+              "Includes 2 Chicken Boneless, 2 Chicken Koobideh, 2 Beef Koobideh, Basmati Rice, Tomatoes and Salad"
             ],
             "source_evidence": [
               "FAMILY PACKAGE 1",
               "$75.00",
               "SERVES 5-6"
             ],
-            "summary": "Family Package 1 for $75.00",
+            "summary": "Family Package 1 for $75.00 serving 5-6 people",
             "time_window": null,
             "valid_through": null
           },
@@ -35778,16 +36447,15 @@
             ],
             "details": [
               "Price: $90.00",
-              "Serves 5-6 people",
-              "Includes 2 Chicken Barg and 2 Beef Barg",
-              "Served with Basmati Rice, Tomatoes, Maust Khyiar, and Salad"
+              "Serves 5-6",
+              "Includes 2 Chicken Barg, 2 Beef Barg, Basmati Rice, Tomatoes, Maust Khyiar and Salad"
             ],
             "source_evidence": [
               "FAMILY PACKAGE 2",
               "$90.00",
               "SERVES 5-6"
             ],
-            "summary": "Family Package 2 for $90.00",
+            "summary": "Family Package 2 for $90.00 serving 5-6 people",
             "time_window": null,
             "valid_through": null
           },
@@ -35799,16 +36467,15 @@
             ],
             "details": [
               "Price: $130.00",
-              "Serves 6-8 people",
-              "Includes 2 Chicken Boneless, 2 Beef Koobideh, and 2 Beef Barg",
-              "Served with Basmati Rice, Tomatoes, Maust Khyiar, and Salad"
+              "Serves 6-8",
+              "Includes 2 Chicken Boneless, 2 Beef Koobideh, 2 Beef Barg, Basmati Rice, Tomatoes, Maust Khyiar and Salad"
             ],
             "source_evidence": [
               "FAMILY PACKAGE 3",
               "$130.00",
               "SERVES 6-8"
             ],
-            "summary": "Family Package 3 for $130.00",
+            "summary": "Family Package 3 for $130.00 serving 6-8 people",
             "time_window": null,
             "valid_through": null
           },
@@ -35820,16 +36487,15 @@
             ],
             "details": [
               "Price: $240.00",
-              "Serves 10 people",
-              "Includes choice of beef or chicken koobideh, basmati rice, and Point11 salad",
-              "Choice of one appetizer: Hummus, musto kheyar, or salad shirazi"
+              "Serves 10",
+              "Includes choice of beef or chicken koobideh, basmati rice, Point11 salad, and choice of one appetizer"
             ],
             "source_evidence": [
               "KOOBIDEH PARTY ENTREE",
               "$240.00",
               "SERVES 10"
             ],
-            "summary": "Koobideh Party Entree for 10 people for $240.00",
+            "summary": "Koobideh Party Entr\u00e9e for $240.00 serving 10 people",
             "time_window": null,
             "valid_through": null
           },
@@ -35841,16 +36507,15 @@
             ],
             "details": [
               "Price: $280.00",
-              "Serves 15 people",
-              "Includes choice of beef or chicken koobideh, basmati rice, and Point11 salad",
-              "Choice of one appetizer: Hummus, musto kheyar, or salad shirazi"
+              "Serves 15",
+              "Includes choice of beef or chicken koobideh, basmati rice, Point11 salad, and choice of one appetizer"
             ],
             "source_evidence": [
               "KOOBIDEH PARTY ENTREE",
               "$280.00",
               "SERVES 15"
             ],
-            "summary": "Koobideh Party Entree for 15 people for $280.00",
+            "summary": "Koobideh Party Entr\u00e9e for $280.00 serving 15 people",
             "time_window": null,
             "valid_through": null
           },
@@ -35862,16 +36527,15 @@
             ],
             "details": [
               "Price: $280.00",
-              "Serves 10 people",
-              "Includes boneless chicken, basmati rice, and Point11 salad",
-              "Choice of one appetizer: Hummus, musto kheyar, or salad shirazi"
+              "Serves 10",
+              "Includes boneless chicken, basmati rice, Point11 salad, and choice of one appetizer"
             ],
             "source_evidence": [
               "CHICKEN PARTY ENTREE",
               "$280.00",
               "SERVES 10"
             ],
-            "summary": "Chicken Party Entree for 10 people for $280.00",
+            "summary": "Chicken Party Entr\u00e9e for $280.00 serving 10 people",
             "time_window": null,
             "valid_through": null
           },
@@ -35883,22 +36547,110 @@
             ],
             "details": [
               "Price: $310.00",
-              "Serves 15 people",
-              "Includes boneless chicken, basmati rice, and Point11 salad",
-              "Choice of one appetizer: Hummus, musto kheyar, or salad shirazi"
+              "Serves 15",
+              "Includes boneless chicken, basmati rice, Point11 salad, and choice of one appetizer"
             ],
             "source_evidence": [
               "CHICKEN PARTY ENTREE",
               "$310.00",
               "SERVES 15"
             ],
-            "summary": "Chicken Party Entree for 15 people for $310.00",
+            "summary": "Chicken Party Entr\u00e9e for $310.00 serving 15 people",
             "time_window": null,
             "valid_through": null
           }
         ]
       },
       "url": "https://point11persiangrill.com/specials/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "16561 Bolsa Chica St Unit 113, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1313196377415434545&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.721806,
+        "longitude": -118.0422797,
+        "phone": "(714) 377-0557",
+        "place_id": "ChIJwXeAp7gl3YARMUEtzCVpORI"
+      },
+      "name": "Porky's Pizza",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "One extra large 2-topping pizza",
+              "Your choice of one large salad",
+              "One order of chicken wings",
+              "One order of garlic knots or cinna knots",
+              "Choice of 2-liter soda",
+              "Price: $49 plus tax"
+            ],
+            "source_evidence": [
+              "Feast Special. $49",
+              "One extra large 2-topping pizza",
+              "Your choice of one large salad",
+              "One order of chicken wings"
+            ],
+            "summary": "Feast Special: XL 2-topping pizza, large salad, wings, knots, and 2-liter soda for $49",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "http://www.porkyspizza.com/"
     },
     {
       "city": "Huntington Beach",
@@ -37004,9 +37756,9 @@
   "summary": {
     "candidate_pages": 256,
     "failed_pages": 15,
-    "pending_pages": 36,
-    "processed_pages": 205,
-    "published_deals": 196,
-    "published_sources": 80
+    "pending_pages": 30,
+    "processed_pages": 211,
+    "published_deals": 210,
+    "published_sources": 82
   }
 }
