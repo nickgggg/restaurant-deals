@@ -157,6 +157,10 @@ def response_schema() -> dict[str, Any]:
                             "type": "ARRAY",
                             "items": {"type": "STRING", "enum": DAYS},
                         },
+                        "applies_month_days": {
+                            "type": "ARRAY",
+                            "items": {"type": "INTEGER", "minimum": 1, "maximum": 31},
+                        },
                         "time_window": {"type": "STRING"},
                         "categories": {
                             "type": "ARRAY",
@@ -170,6 +174,7 @@ def response_schema() -> dict[str, Any]:
                         "summary",
                         "details",
                         "applies_days",
+                        "applies_month_days",
                         "time_window",
                         "categories",
                         "valid_through",
@@ -203,6 +208,7 @@ Rules:
 - Summary must describe the offer itself in under 90 characters.
 - Details should contain only useful terms such as items, prices, restrictions, or purchase requirements.
 - Use all seven applies_days values only when the source explicitly says daily or every day.
+- Put calendar-date recurrence such as "every 29th of the month" in applies_month_days. Do not turn it into every day.
 - Use an empty list when the days are unknown, and an empty string when time or expiration is unknown.
 - Evidence must contain one or more short exact excerpts copied from the supplied text that prove the offer.
 - Confidence is 0 to 1. Use at least 0.9 only when price/discount and validity are explicit.
@@ -300,6 +306,23 @@ def validate_deals(raw: dict[str, Any], context: str) -> tuple[list[dict[str, An
         evidence = [normalize(item) for item in deal.get("evidence", []) if normalize(item)][:5]
         confidence = float(deal.get("confidence", 0))
         days = [day for day in deal.get("applies_days", []) if day in DAYS]
+        evidence_text = " ".join(evidence)
+        supported_month_days = {
+            int(value)
+            for value in re.findall(r"\b(\d{1,2})(?:st|nd|rd|th)\s+of\s+(?:each|every|the)\s+month\b", evidence_text, re.I)
+            if 1 <= int(value) <= 31
+        }
+        supported_month_days.update(
+            int(value)
+            for value in re.findall(r"\b(?:every|each)\s+(\d{1,2})(?:st|nd|rd|th)(?:\s+of\s+(?:the\s+)?month)?\b", evidence_text, re.I)
+            if 1 <= int(value) <= 31
+        )
+        requested_month_days = {
+            int(value)
+            for value in deal.get("applies_month_days", [])
+            if str(value).isdigit() and 1 <= int(value) <= 31
+        }
+        month_days = sorted(supported_month_days & requested_month_days) if requested_month_days else sorted(supported_month_days)
         categories = [item for item in deal.get("categories", []) if item in {"food", "drink", "general"}]
         valid_through = normalize(deal.get("valid_through") or "")
         if valid_through.lower() in {"none", "null", "n/a", "unknown"}:
@@ -328,6 +351,7 @@ def validate_deals(raw: dict[str, Any], context: str) -> tuple[list[dict[str, An
                 "summary": summary,
                 "details": details,
                 "applies_days": list(dict.fromkeys(days)),
+                "applies_month_days": month_days,
                 "time_window": time_window or None,
                 "categories": list(dict.fromkeys(categories)) or ["general"],
                 "valid_through": valid_through or None,

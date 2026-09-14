@@ -1286,8 +1286,10 @@ h1 {
 .theme-toggle {
   width: 34px;
   min-height: 34px;
-  border: 0;
-  background: transparent;
+  margin-left: auto;
+  flex: 0 0 auto;
+  border-color: var(--line);
+  background: var(--wash);
 }
 
 .theme-toggle:hover {
@@ -1743,6 +1745,11 @@ footer {
 
   .filter-summary {
     font-size: 0.68rem;
+  }
+
+  .theme-toggle {
+    width: 36px;
+    min-height: 36px;
   }
 
   .filter-fields {

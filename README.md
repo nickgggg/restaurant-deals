@@ -73,7 +73,7 @@ To enable it, create a website for `nickgggg.github.io` in Umami, then put the p
 
 ## Deal Reports
 
-Each restaurant has a report action that opens a prefilled GitHub Issue Form. `.github/workflows/triage-deal-report.yml` validates report completeness, labels the issue, and replies automatically. Reports from trusted repository collaborators can trigger an immediate refresh; public reports always wait for review so an anonymous visitor cannot spend API quota or change published data.
+Each restaurant has a report action that opens a prefilled GitHub issue. `.github/workflows/triage-deal-report.yml` validates structured reports, labels the issue, and replies automatically. Reports from trusted repository collaborators can trigger an immediate refresh; public reports always wait for review so an anonymous visitor cannot spend API quota or change published data. Evidence-backed code or data fixes remain visible in the issue before it is closed.
 
 ## Running Manually
 

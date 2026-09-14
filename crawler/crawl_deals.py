@@ -25,7 +25,7 @@ OUTPUT_PATH = ROOT / "docs" / "data" / "deals.json"
 STALE_AFTER_DAYS = 21
 DROP_AFTER_DAYS = 90
 REQUEST_TIMEOUT = 25
-CRAWLER_VERSION = 16
+CRAWLER_VERSION = 17
 
 DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 DAY_LABELS = {
@@ -353,8 +353,28 @@ def category_for(text: str) -> list[str]:
     return categories or ["general"]
 
 
-def validity_for(days: list[str], time_window: str | None) -> str:
-    parts = [part for part in [day_label(days), time_window] if part]
+def extract_month_days(text: str) -> list[int]:
+    found = {
+        int(value)
+        for value in re.findall(r"\b(\d{1,2})(?:st|nd|rd|th)\s+of\s+(?:each|every|the)\s+month\b", text, re.I)
+        if 1 <= int(value) <= 31
+    }
+    found.update(
+        int(value)
+        for value in re.findall(r"\b(?:every|each)\s+(\d{1,2})(?:st|nd|rd|th)(?:\s+of\s+(?:the\s+)?month)?\b", text, re.I)
+        if 1 <= int(value) <= 31
+    )
+    return sorted(found)
+
+
+def ordinal(value: int) -> str:
+    suffix = "th" if 10 <= value % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(value % 10, "th")
+    return f"{value}{suffix}"
+
+
+def validity_for(days: list[str], time_window: str | None, month_days: list[int] | None = None) -> str:
+    monthly = f"Every month on the {', '.join(ordinal(value) for value in month_days)}" if month_days else None
+    parts = [part for part in [monthly, day_label(days), time_window] if part]
     return ", ".join(parts) if parts else "Check source"
 
 
@@ -367,6 +387,7 @@ def build_deal(source: Source, candidate: Candidate, now: datetime, existing: di
     text = candidate["text"]
     tags = detect_tags(text)
     days = extract_days(text)
+    month_days = extract_month_days(text)
     time_window = extract_time_window(text)
     did = deal_id(source, text)
     previous = existing.get(did, {})
@@ -383,8 +404,9 @@ def build_deal(source: Source, candidate: Candidate, now: datetime, existing: di
         "tags": tags,
         "categories": category_for(text),
         "applies_days": days,
+        "applies_month_days": month_days,
         "time_window": time_window,
-        "validity": validity_for(days, time_window),
+        "validity": validity_for(days, time_window, month_days),
         "first_seen": previous.get("first_seen") or iso(now),
         "last_seen": iso(now),
         "status": "active",
@@ -399,6 +421,7 @@ def build_static_deal(source: Source, raw: dict[str, Any], now: datetime, existi
     did = deal_id(source, text)
     previous = existing.get(did, {})
     days = raw["applies_days"] if "applies_days" in raw else extract_days(text)
+    month_days = raw.get("applies_month_days") or extract_month_days(text)
     time_window = raw["time_window"] if "time_window" in raw else extract_time_window(text)
     tags = dedupe([*raw.get("tags", []), *detect_tags(text)])
     categories = raw.get("categories") or category_for(text)
@@ -415,8 +438,9 @@ def build_static_deal(source: Source, raw: dict[str, Any], now: datetime, existi
         "tags": tags,
         "categories": categories,
         "applies_days": days,
+        "applies_month_days": month_days,
         "time_window": time_window,
-        "validity": raw.get("validity") or validity_for(days, time_window),
+        "validity": raw.get("validity") or validity_for(days, time_window, month_days),
         "first_seen": previous.get("first_seen") or iso(now),
         "last_seen": iso(now),
         "status": "active",

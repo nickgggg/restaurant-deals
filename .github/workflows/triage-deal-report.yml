@@ -2,7 +2,7 @@ name: Triage deal report
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
 
 permissions:
   issues: write
@@ -35,7 +35,8 @@ jobs:
               validUrl = ['http:', 'https:'].includes(parsed.protocol);
             } catch (_) {}
 
-            const ready = Boolean(restaurant && city && details && validUrl);
+            const usefulDetails = details.replace(/<!--.*?-->/gs, '').trim();
+            const ready = Boolean(restaurant && city && usefulDetails.length >= 10 && validUrl);
             const trusted = ['OWNER', 'MEMBER', 'COLLABORATOR'].includes(issue.author_association);
             const labels = [
               { name: 'deal-report', color: '007c89', description: 'Missing or incorrect restaurant deal report' },
@@ -59,7 +60,7 @@ jobs:
             });
 
             let message = ready
-              ? 'Automated check passed: the report includes a restaurant, city, valid web source, and supporting details.'
+              ? 'Automated check passed: the report includes a restaurant, city, valid official source, and supporting details.'
               : 'The automated check needs a valid official source URL and complete restaurant, city, and details fields before this can be reviewed.';
             if (ready && trusted) {
               await github.rest.actions.createWorkflowDispatch({

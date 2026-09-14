@@ -241,8 +241,35 @@ function dealText(deal) {
 function matchesDay(deal) {
   const day = selectedDay();
   if (!day) return true;
+  if (state.day === "today" && !matchesRecurringDate(deal, new Date())) return false;
   const days = deal.applies_days || [];
   return !days.length || days.includes(day) || DAYS.every((item) => days.includes(item));
+}
+
+function recurringMonthDays(deal) {
+  const explicit = (deal.applies_month_days || [])
+    .map(Number)
+    .filter((value) => Number.isInteger(value) && value >= 1 && value <= 31);
+  if (explicit.length) return new Set(explicit);
+
+  const text = dealText(deal);
+  const found = new Set();
+  const patterns = [
+    /\b(?:every|each)\s+(\d{1,2})(?:st|nd|rd|th)(?:\s+of\s+(?:the\s+)?month)?\b/gi,
+    /\b(?:on\s+)?(?:the\s+)?(\d{1,2})(?:st|nd|rd|th)\s+of\s+(?:each|every|the)\s+month\b/gi,
+  ];
+  for (const pattern of patterns) {
+    for (const match of text.matchAll(pattern)) {
+      const value = Number(match[1]);
+      if (value >= 1 && value <= 31) found.add(value);
+    }
+  }
+  return found;
+}
+
+function matchesRecurringDate(deal, date) {
+  const monthDays = recurringMonthDays(deal);
+  return !monthDays.size || monthDays.has(date.getDate());
 }
 
 function daysInSegment(value = "") {
@@ -296,6 +323,7 @@ function timeRanges(value = "", location = {}) {
 
 function dealAvailableNow(deal) {
   const currentDay = todayKey();
+  if (!matchesRecurringDate(deal, new Date())) return false;
   const applies = deal.applies_days || [];
   if (applies.length && !applies.includes(currentDay) && !DAYS.every((day) => applies.includes(day))) return false;
   const business = openStatus(deal.location || {});
@@ -524,11 +552,11 @@ function actionButton(label, iconName, handler, active = false) {
 }
 
 function reportUrl(group) {
+  const restaurant = restaurantLabel(group.restaurant, group.city);
+  const source = [...group.urls][0] || "";
   const params = new URLSearchParams({
-    template: "deal-report.yml",
-    restaurant: restaurantLabel(group.restaurant, group.city),
-    city: group.city,
-    source: [...group.urls][0] || "",
+    title: `[Deal report] ${restaurant} - ${group.city}`,
+    body: `### Restaurant\n${restaurant}\n\n### City\n${group.city}\n\n### Official source URL\n${source}\n\n### Details\nDescribe what is missing or incorrect, including the right day, time, price, or expiration.`,
   });
   return `https://github.com/nickgggg/restaurant-deals/issues/new?${params}`;
 }

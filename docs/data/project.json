@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10",
+  "updated_at": "2026-09-14",
   "queue_activation_days": 7,
   "area_refresh_days": 35,
   "max_areas_per_run": 1,
@@ -23,9 +23,9 @@
       "detail": "Keep tightening day, time, price, and evidence matching while suppressing ordinary menu items."
     },
     {
-      "status": "later",
+      "status": "working",
       "title": "Report follow-through",
-      "detail": "Safely promote reviewed community reports into the curated source list."
+      "detail": "Structured reports are checked and labeled automatically. Trusted reports start a source refresh; evidence-backed fixes stay traceable in GitHub."
     },
     {
       "status": "later",

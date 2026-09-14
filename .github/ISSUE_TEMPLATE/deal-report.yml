@@ -6,7 +6,7 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: Thanks for helping keep the feed useful. Reports are checked automatically, then reviewed before public data changes.
+      value: Thanks for helping keep the feed useful. Reports are checked automatically. Trusted collaborator reports trigger a fresh crawl; production changes still require source evidence.
   - type: input
     id: restaurant
     attributes:
