@@ -49,6 +49,7 @@
     "last_scanned_cities": [
       "Costa Mesa"
     ],
+    "last_source_scan_at": "2026-09-14T22:49:24Z",
     "map_cells": 179,
     "official_websites": 848,
     "operational_count": 1010,
@@ -59,11 +60,12 @@
       "Garden Grove"
     ],
     "restaurant_count": 1050,
+    "source_sites_checked": 12,
     "specials_pages_found": 184,
     "successful_map_cells": 49
   },
-  "discovery_version": 3,
-  "generated_at": "2026-09-10T16:26:21Z",
+  "discovery_version": 4,
+  "generated_at": "2026-09-14T22:49:24Z",
   "refresh_after": "2026-09-17T16:26:21Z",
   "restaurants": [
     {
@@ -121,6 +123,8 @@
       "phone": "(949) 642-2377",
       "place_id": "ChIJh3hZCfLf3IARuMYy9ZFeHDU",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-09-14T22:49:18Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -193,6 +197,8 @@
       "phone": "(949) 873-5853",
       "place_id": "ChIJPaYvZocg3YARW_zjziibPq8",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-09-14T22:49:18Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "pizza_restaurant",
@@ -268,6 +274,8 @@
       "phone": "(714) 596-0889",
       "place_id": "ChIJ2Swb3Pwn3YARDD8MwzQFVvk",
       "primary_type": "bagel_shop",
+      "specials_checked_at": "2026-09-14T22:49:18Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bagel_shop",
@@ -343,6 +351,8 @@
       "phone": "(657) 244-8033",
       "place_id": "ChIJp-uHEwAn3YAR1hE0pzM23QY",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-14T22:49:18Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -410,6 +420,8 @@
       "phone": "(714) 465-2343",
       "place_id": "ChIJWbAq0AQn3YARMzjUPP7YYMU",
       "primary_type": "cafe",
+      "specials_checked_at": "2026-09-14T22:49:18Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
@@ -475,6 +487,8 @@
       "phone": "(714) 846-1900",
       "place_id": "ChIJS9S1Wrol3YAR5EySGFUIjfs",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-09-14T22:49:18Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "pizza_restaurant",
@@ -611,6 +625,8 @@
       "phone": "(657) 300-6035",
       "place_id": "ChIJl5RUbmIn3YARS2az-sGuVLA",
       "primary_type": "acai_shop",
+      "specials_checked_at": "2026-09-14T22:49:18Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "acai_shop",
@@ -682,6 +698,8 @@
       "phone": "(714) 842-8919",
       "place_id": "ChIJ4R3egWEm3YARgZis_ZDKIvM",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-14T22:49:18Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -747,6 +765,8 @@
       "phone": "(714) 962-8921",
       "place_id": "ChIJff49F9gg3YARz-oXcJZVFNE",
       "primary_type": "donut_shop",
+      "specials_checked_at": "2026-09-14T22:49:18Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "donut_shop",
@@ -814,6 +834,8 @@
       "phone": "(714) 907-0600",
       "place_id": "ChIJd00hYRcr3YAR2wLt1Peg-Pc",
       "primary_type": "mediterranean_restaurant",
+      "specials_checked_at": "2026-09-14T22:49:18Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mediterranean_restaurant",
@@ -881,9 +903,12 @@
       "phone": "(714) 916-0095",
       "place_id": "ChIJgQxS9tsh3YARmvNrTYkrEqM",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-14T22:49:18Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://www.agaveseasons.com/"
         }
@@ -953,6 +978,8 @@
       "phone": "(949) 669-7490",
       "place_id": "ChIJR0BkwlTf3IARb0go3NkgXVE",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-14T22:49:18Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
