@@ -14,6 +14,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: update-deals
@@ -64,11 +65,69 @@ jobs:
         if: steps.freshness.outputs.should_run == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: python crawler/extract_with_gemini.py
 
       - name: Crawl deals
         if: steps.freshness.outputs.should_run == 'true'
         run: python crawler/crawl_deals.py
+
+      - name: Publish report crawl results
+        if: steps.freshness.outputs.should_run == 'true'
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const fs = require('fs');
+            const payload = JSON.parse(fs.readFileSync('docs/data/ai_extractions.json', 'utf8'));
+            const reports = new Map();
+            for (const page of payload.pages || []) {
+              const issueNumber = page.page?.report_issue;
+              if (issueNumber) reports.set(issueNumber, page);
+            }
+
+            for (const [issueNumber, page] of reports) {
+              const verified = page.status === 'ok' && (page.deals || []).length > 0;
+              const label = verified
+                ? { name: 'source-verified', color: '0e8a16', description: 'Crawler verified deal evidence at the reported source' }
+                : { name: 'source-needs-review', color: 'b60205', description: 'Crawler could not automatically verify the reported source' };
+              try {
+                await github.rest.issues.createLabel({ owner: context.repo.owner, repo: context.repo.repo, ...label });
+              } catch (error) {
+                if (error.status !== 422) throw error;
+              }
+              const issue = await github.rest.issues.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+              });
+              const existing = new Set(issue.data.labels.map((item) => typeof item === 'string' ? item : item.name));
+              if (existing.has(label.name)) continue;
+              const opposite = verified ? 'source-needs-review' : 'source-verified';
+              if (existing.has(opposite)) {
+                await github.rest.issues.removeLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issueNumber,
+                  name: opposite,
+                });
+              }
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                labels: [label.name],
+              });
+              const message = verified
+                ? `Automated source check verified ${(page.deals || []).length} evidence-backed ${(page.deals || []).length === 1 ? 'deal' : 'deals'} at ${page.page.url}. The report remains open until the correction is reviewed against the published result.`
+                : `Automated source check could not verify a publishable deal at ${page.page.url} (${page.status}). This report remains open for review; no public deal data was changed from the report alone.`;
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                body: message,
+              });
+            }
 
       - name: Commit updated data
         if: steps.freshness.outputs.should_run == 'true'

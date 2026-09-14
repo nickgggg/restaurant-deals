@@ -5,8 +5,13 @@ import html
 import json
 import os
 import re
+import shutil
+import subprocess
 import sys
+import tempfile
+import threading
 import time
+import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
@@ -22,7 +27,12 @@ CONFIG_PATH = ROOT / "crawler" / "places_config.json"
 OUTPUT_PATH = ROOT / "docs" / "data" / "restaurants.json"
 PLACES_URL = "https://places.googleapis.com/v1/places:searchNearby"
 REQUEST_TIMEOUT = 15
-DISCOVERY_VERSION = 3
+DISCOVERY_VERSION = 4
+RENDER_TIMEOUT = 25
+MAX_DISCOVERY_RENDERS_PER_RUN = 8
+RENDER_SLOTS = threading.Semaphore(2)
+RENDER_BUDGET_LOCK = threading.Lock()
+RENDER_ATTEMPTS = 0
 
 SPECIAL_LINK = re.compile(
     r"\b(?:happy[\s_-]*hour|daily[\s_-]*specials?|weekday[\s_-]*specials?|"
@@ -32,6 +42,21 @@ SPECIAL_LINK = re.compile(
     re.I,
 )
 WEAK_SPECIAL_LINK = re.compile(r"\bspecials?\b", re.I)
+PAGE_PROMO_SIGNAL = re.compile(
+    r"(?:\d{1,3}%\s*off|\b(?:happy\s*hour|daily\s*specials?|weekday\s*specials?|"
+    r"bogo|buy\s+one|get\s+one|half\s*price|kids\s+eat\s+free)\b)",
+    re.I,
+)
+KNOWN_SPECIAL_PATHS = (
+    "/happy-hour",
+    "/specials",
+    "/daily-specials",
+    "/dailyspecials",
+    "/weekday-specials",
+    "/weekday-lunch",
+    "/deals",
+    "/promotions",
+)
 BLOCKED_HOSTS = {
     "facebook.com",
     "instagram.com",
@@ -250,9 +275,98 @@ def fetch_homepage(url: str) -> str:
     )
     with urlopen(request, timeout=REQUEST_TIMEOUT) as response:
         content_type = response.headers.get("Content-Type", "")
-        if "html" not in content_type:
+        if not any(kind in content_type for kind in ("html", "xml", "text/plain")):
             return ""
         return response.read(2_000_000).decode(response.headers.get_content_charset() or "utf-8", errors="replace")
+
+
+def browser_executable() -> str | None:
+    configured = os.environ.get("CHROME_PATH", "").strip()
+    if configured and Path(configured).exists():
+        return configured
+    for name in ("google-chrome", "google-chrome-stable", "chromium", "chromium-browser"):
+        found = shutil.which(name)
+        if found:
+            return found
+    for path in (
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "/Applications/Chromium.app/Contents/MacOS/Chromium",
+    ):
+        if Path(path).exists():
+            return path
+    return None
+
+
+def render_page(url: str) -> str:
+    global RENDER_ATTEMPTS
+    browser = browser_executable()
+    if not browser:
+        return ""
+    with RENDER_BUDGET_LOCK:
+        if RENDER_ATTEMPTS >= MAX_DISCOVERY_RENDERS_PER_RUN:
+            return ""
+        RENDER_ATTEMPTS += 1
+    with RENDER_SLOTS, tempfile.TemporaryDirectory(prefix="restaurant-deals-chrome-") as profile:
+        command = [
+            browser,
+            "--headless=new",
+            "--no-sandbox",
+            "--disable-dev-shm-usage",
+            "--disable-gpu",
+            "--disable-background-networking",
+            "--disable-extensions",
+            "--disable-sync",
+            "--hide-scrollbars",
+            "--ignore-certificate-errors",
+            "--virtual-time-budget=8000",
+            f"--user-data-dir={profile}",
+            "--dump-dom",
+            url,
+        ]
+        try:
+            result = subprocess.run(command, capture_output=True, text=True, timeout=RENDER_TIMEOUT, check=False)
+        except subprocess.TimeoutExpired as exc:
+            output = exc.stdout.decode("utf-8", errors="replace") if isinstance(exc.stdout, bytes) else (exc.stdout or "")
+            return output if "<" in output else ""
+    return result.stdout if result.returncode == 0 and "<" in result.stdout else ""
+
+
+def sitemap_urls(homepage: str) -> list[str]:
+    root = f"{urlparse(homepage).scheme or 'https'}://{urlparse(homepage).netloc}"
+    sitemap_locations = [urljoin(root, "/sitemap.xml")]
+    try:
+        robots = fetch_homepage(urljoin(root, "/robots.txt"))
+        sitemap_locations.extend(
+            match.group(1).strip()
+            for match in re.finditer(r"^\s*Sitemap:\s*(\S+)", robots, re.I | re.M)
+        )
+    except Exception:
+        pass
+
+    found: list[str] = []
+    seen_sitemaps: set[str] = set()
+    queue = list(dict.fromkeys(sitemap_locations))[:3]
+    while queue and len(seen_sitemaps) < 3:
+        location = queue.pop(0)
+        if location in seen_sitemaps or host_key(location) != host_key(homepage):
+            continue
+        seen_sitemaps.add(location)
+        try:
+            document = fetch_homepage(location)
+            root_node = ET.fromstring(document)
+        except Exception:
+            continue
+        locations = [(node.text or "").strip() for node in root_node.iter() if node.tag.rsplit("}", 1)[-1] == "loc"]
+        for url in locations:
+            if not url or host_key(url) != host_key(homepage):
+                continue
+            if url.lower().endswith((".xml", ".xml.gz")):
+                if len(queue) + len(seen_sitemaps) < 3 and not url.lower().endswith(".gz"):
+                    queue.append(url)
+                continue
+            if SPECIAL_LINK.search(urlparse(url).path.replace("-", " ").replace("_", " ")):
+                found.append(canonical_url(url))
+    return list(dict.fromkeys(found))[:12]
 
 
 def discover_specials_pages(restaurant: dict[str, Any]) -> list[dict[str, Any]]:
@@ -262,7 +376,7 @@ def discover_specials_pages(restaurant: dict[str, Any]) -> list[dict[str, Any]]:
     try:
         page = fetch_homepage(homepage)
     except Exception:
-        return []
+        page = ""
     parser = LinkParser()
     parser.feed(page)
     home_host = host_key(homepage)
@@ -275,11 +389,57 @@ def discover_specials_pages(restaurant: dict[str, Any]) -> list[dict[str, Any]]:
                 continue
             evidence = f"{label} {urlparse(absolute).path.replace('-', ' ').replace('_', ' ')}"
             if SPECIAL_LINK.search(evidence):
-                candidates[absolute] = {"url": absolute, "label": label.strip() or "Specials", "confidence": "high"}
+                candidates[absolute] = {
+                    "url": absolute,
+                    "label": label.strip() or "Specials",
+                    "confidence": "high",
+                    "discovered_via": "site_link",
+                }
             elif WEAK_SPECIAL_LINK.search(evidence) and not re.search(r"menu|catering|gift", evidence, re.I):
-                candidates[absolute] = {"url": absolute, "label": label.strip() or "Specials", "confidence": "medium"}
+                candidates[absolute] = {
+                    "url": absolute,
+                    "label": label.strip() or "Specials",
+                    "confidence": "medium",
+                    "discovered_via": "site_link",
+                }
 
     collect_links(parser.links, homepage)
+    for sitemap_url in sitemap_urls(homepage):
+        candidates.setdefault(
+            sitemap_url,
+            {"url": sitemap_url, "label": "Specials", "confidence": "high", "discovered_via": "sitemap"},
+        )
+
+    thin_homepage = not page or len(parser.links) < 4 or len(" ".join(parser.text)) < 200
+    if thin_homepage and not any(item["confidence"] == "high" for item in candidates.values()):
+        rendered = render_page(homepage)
+        if rendered:
+            rendered_parser = LinkParser()
+            rendered_parser.feed(rendered)
+            collect_links(rendered_parser.links, homepage)
+            parser.text.extend(rendered_parser.text)
+
+    if not any(item["confidence"] == "high" for item in candidates.values()):
+        root = f"{urlparse(homepage).scheme or 'https'}://{urlparse(homepage).netloc}"
+        for path in KNOWN_SPECIAL_PATHS:
+            probe_url = canonical_url(urljoin(root, path))
+            if probe_url in candidates:
+                continue
+            try:
+                probe_page = fetch_homepage(probe_url)
+            except Exception:
+                continue
+            probe_parser = LinkParser()
+            probe_parser.feed(probe_page)
+            probe_text = " ".join(probe_parser.text)
+            if PAGE_PROMO_SIGNAL.search(probe_text):
+                candidates[probe_url] = {
+                    "url": probe_url,
+                    "label": path.strip("/").replace("-", " ").title(),
+                    "confidence": "high",
+                    "discovered_via": "known_path",
+                }
+
     hub_urls = [
         item["url"]
         for item in candidates.values()
@@ -297,16 +457,69 @@ def discover_specials_pages(restaurant: dict[str, Any]) -> list[dict[str, Any]]:
     visible_text = " ".join(parser.text)
     if SPECIAL_LINK.search(visible_text):
         absolute = canonical_url(homepage)
-        candidates.setdefault(absolute, {"url": absolute, "label": "Website specials", "confidence": "medium"})
-    return sorted(candidates.values(), key=lambda item: (item["confidence"] != "high", item["url"]))[:5]
+        candidates.setdefault(
+            absolute,
+            {"url": absolute, "label": "Website specials", "confidence": "medium", "discovered_via": "page_text"},
+        )
+    return sorted(candidates.values(), key=lambda item: (item["confidence"] != "high", item["url"]))[:8]
 
 
-def add_specials_pages(restaurants: list[dict[str, Any]]) -> None:
-    operational = [item for item in restaurants if item["business_status"] == "OPERATIONAL" and item.get("website_url")]
+def add_specials_pages(restaurants: list[dict[str, Any]], limit: int | None = None) -> int:
+    operational = [
+        item
+        for item in restaurants
+        if item["business_status"] == "OPERATIONAL" and item.get("website_url") and not blocked_website(item["website_url"])
+    ]
+    operational.sort(
+        key=lambda item: (
+            parse_iso(item.get("specials_checked_at")) or datetime.min.replace(tzinfo=timezone.utc),
+            item["name"].casefold(),
+        )
+    )
+    if limit is not None:
+        operational = operational[: max(0, limit)]
+    checked_at = iso(utc_now())
     with ThreadPoolExecutor(max_workers=16) as executor:
         futures = {executor.submit(discover_specials_pages, item): item for item in operational}
         for future in as_completed(futures):
-            futures[future]["specials_pages"] = future.result()
+            restaurant = futures[future]
+            try:
+                pages = future.result()
+            except Exception as exc:
+                restaurant["specials_error"] = f"{type(exc).__name__}: {exc}"
+                continue
+            if pages:
+                restaurant["specials_pages"] = pages
+                restaurant.pop("specials_error", None)
+            restaurant["specials_checked_at"] = checked_at
+            restaurant["specials_discovery_version"] = DISCOVERY_VERSION
+    return len(operational)
+
+
+def refresh_existing_sources(config: dict[str, Any], existing: dict[str, Any], area_status: dict[str, dict[str, Any]]) -> int:
+    restaurants = existing.get("restaurants", [])
+    if not restaurants:
+        return 0
+    checked = add_specials_pages(restaurants, int(config.get("max_source_sites_per_run", 12)))
+    now = utc_now()
+    payload = dict(existing)
+    coverage = dict(existing.get("coverage", {}))
+    coverage["official_websites"] = sum(bool(item.get("website_url")) for item in restaurants)
+    coverage["specials_pages_found"] = sum(bool(item.get("specials_pages")) for item in restaurants)
+    coverage["source_sites_checked"] = checked
+    coverage["last_source_scan_at"] = iso(now)
+    payload.update(
+        {
+            "discovery_version": DISCOVERY_VERSION,
+            "generated_at": iso(now),
+            "refresh_after": iso(next_refresh_at(config, area_status, now)),
+            "area_status": area_status,
+            "coverage": coverage,
+            "restaurants": restaurants,
+        }
+    )
+    OUTPUT_PATH.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
+    return checked
 
 
 def build_area_status(config: dict[str, Any], existing: dict[str, Any]) -> tuple[dict[str, dict[str, Any]], bool]:
@@ -390,7 +603,8 @@ def main() -> int:
     existing = load_json(OUTPUT_PATH, {})
     selected_areas, area_status = select_areas(config, existing, args.force)
     if not selected_areas:
-        print("No city is due for activation or refresh; skipping Places requests")
+        checked = refresh_existing_sources(config, existing, area_status)
+        print(f"No city is due for Places refresh; checked {checked} restaurant websites instead")
         return 0
 
     api_key = os.environ.get("GOOGLE_PLACES_API_KEY", "").strip()
@@ -425,7 +639,7 @@ def main() -> int:
         raise RuntimeError(f"Places discovery failed for too many map cells ({success_count}/{len(points)} succeeded): {sample}")
 
     refreshed_restaurants = list(found.values())
-    add_specials_pages(refreshed_restaurants)
+    checked_sites = add_specials_pages(refreshed_restaurants)
     now = utc_now()
     selected_cities = {area["city"] for area in selected_areas}
     retained = [item for item in existing.get("restaurants", []) if item.get("city") not in selected_cities]
@@ -457,6 +671,8 @@ def main() -> int:
             "closed_count": sum(item["business_status"] in {"CLOSED_TEMPORARILY", "CLOSED_PERMANENTLY"} for item in restaurants),
             "official_websites": sum(bool(item.get("website_url")) for item in restaurants),
             "specials_pages_found": sum(bool(item.get("specials_pages")) for item in restaurants),
+            "source_sites_checked": checked_sites,
+            "last_source_scan_at": iso(now),
         },
         "restaurants": restaurants,
     }

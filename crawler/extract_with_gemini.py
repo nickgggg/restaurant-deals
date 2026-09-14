@@ -2,10 +2,14 @@ from __future__ import annotations
 
 import hashlib
 import html
+import ipaddress
 import json
 import os
 import re
+import shutil
+import subprocess
 import sys
+import tempfile
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timezone
@@ -13,6 +17,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, Iterable
 from urllib.error import HTTPError, URLError
+from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
 
@@ -23,7 +28,10 @@ MODEL = "gemini-3.5-flash-lite"
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
 REQUEST_TIMEOUT = 25
 MAX_PAGES_PER_RUN = 30
-EXTRACTION_VERSION = 1
+MAX_RENDERED_PAGES_PER_RUN = 8
+RENDER_TIMEOUT = 25
+EXTRACTION_VERSION = 2
+TRUSTED_REPORTERS = {"nickgggg", "nickg-erg"}
 DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 DAY_ALIASES = {
     "monday": ("monday", "mondays", "mon"),
@@ -125,6 +133,52 @@ def fetch_page(url: str) -> str:
             last_error = exc
             time.sleep(1 + attempt)
     raise RuntimeError(str(last_error or "Page fetch failed"))
+
+
+def browser_executable() -> str | None:
+    configured = os.environ.get("CHROME_PATH", "").strip()
+    if configured and Path(configured).exists():
+        return configured
+    for name in ("google-chrome", "google-chrome-stable", "chromium", "chromium-browser"):
+        found = shutil.which(name)
+        if found:
+            return found
+    for path in (
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "/Applications/Chromium.app/Contents/MacOS/Chromium",
+    ):
+        if Path(path).exists():
+            return path
+    return None
+
+
+def render_page(url: str) -> str:
+    browser = browser_executable()
+    if not browser:
+        return ""
+    with tempfile.TemporaryDirectory(prefix="restaurant-deals-chrome-") as profile:
+        command = [
+            browser,
+            "--headless=new",
+            "--no-sandbox",
+            "--disable-dev-shm-usage",
+            "--disable-gpu",
+            "--disable-background-networking",
+            "--disable-extensions",
+            "--disable-sync",
+            "--hide-scrollbars",
+            "--ignore-certificate-errors",
+            "--virtual-time-budget=8000",
+            f"--user-data-dir={profile}",
+            "--dump-dom",
+            url,
+        ]
+        try:
+            result = subprocess.run(command, capture_output=True, text=True, timeout=RENDER_TIMEOUT, check=False)
+        except subprocess.TimeoutExpired as exc:
+            output = exc.stdout.decode("utf-8", errors="replace") if isinstance(exc.stdout, bytes) else (exc.stdout or "")
+            return output if "<" in output else ""
+    return result.stdout if result.returncode == 0 and "<" in result.stdout else ""
 
 
 def relevant_context(page_html: str) -> str:
@@ -257,6 +311,10 @@ def call_gemini(api_key: str, restaurant: dict[str, Any], url: str, context: str
 def parse_date(value: str) -> date | None:
     if not value:
         return None
+    try:
+        return date.fromisoformat(value)
+    except ValueError:
+        return None
 
 
 def evidence_days(evidence: list[str]) -> set[str]:
@@ -290,10 +348,6 @@ def evidence_has_time(evidence: list[str]) -> bool:
         re.search(r"\b\d{1,2}(?::\d{2})?\s*(?:a\.?m\.?|p\.?m\.?)\b", text)
         or re.search(r"\b(?:all day|open|close|closing)\b", text)
     )
-    try:
-        return date.fromisoformat(value)
-    except ValueError:
-        return None
 
 
 def validate_deals(raw: dict[str, Any], context: str) -> tuple[list[dict[str, Any]], list[str]]:
@@ -366,6 +420,90 @@ def page_key(restaurant: dict[str, Any], url: str) -> str:
     return hashlib.sha1(f"{restaurant['place_id']}|{url}".encode("utf-8")).hexdigest()[:20]
 
 
+def report_fields(body: str) -> dict[str, str]:
+    fields: dict[str, str] = {}
+    for match in re.finditer(r"^###\s+(.+?)\s*$\n([\s\S]*?)(?=^###\s+|\Z)", body or "", re.M):
+        fields[normalize(match.group(1)).lower()] = normalize(re.sub(r"<!--.*?-->", "", match.group(2), flags=re.S))
+    return fields
+
+
+def safe_source_url(value: str) -> bool:
+    try:
+        parsed = urlparse(value)
+    except ValueError:
+        return False
+    host = (parsed.hostname or "").lower()
+    if parsed.scheme not in {"http", "https"} or not host or host == "localhost" or host.endswith(".local"):
+        return False
+    try:
+        return ipaddress.ip_address(host).is_global
+    except ValueError:
+        return True
+
+
+def reported_pages(inventory: dict[str, Any]) -> list[dict[str, Any]]:
+    repository = os.environ.get("GITHUB_REPOSITORY", "nickgggg/restaurant-deals").strip()
+    token = os.environ.get("GITHUB_TOKEN", "").strip()
+    if not token or not repository:
+        return []
+    request = Request(
+        f"https://api.github.com/repos/{repository}/issues?state=open&labels=report-ready&per_page=100",
+        headers={
+            "Accept": "application/vnd.github+json",
+            "Authorization": f"Bearer {token}",
+            "X-GitHub-Api-Version": "2022-11-28",
+            "User-Agent": "restaurant-deals-source-queue",
+        },
+    )
+    try:
+        with urlopen(request, timeout=REQUEST_TIMEOUT) as response:
+            issues = json.loads(response.read())
+    except Exception as exc:
+        print(f"Report queue unavailable: {type(exc).__name__}: {exc}")
+        return []
+
+    restaurants = inventory.get("restaurants", [])
+    pages: list[dict[str, Any]] = []
+    for issue in issues:
+        if "pull_request" in issue:
+            continue
+        association = issue.get("author_association", "")
+        login = issue.get("user", {}).get("login", "").lower()
+        if association not in {"OWNER", "MEMBER", "COLLABORATOR"} and login not in TRUSTED_REPORTERS:
+            continue
+        fields = report_fields(issue.get("body") or "")
+        report_name = normalized_key(fields.get("restaurant", ""))
+        report_city = normalized_key(fields.get("city", ""))
+        source = fields.get("official source url", "")
+        if not report_name or not report_city or not safe_source_url(source):
+            continue
+        matches = [
+            restaurant
+            for restaurant in restaurants
+            if normalized_key(restaurant.get("city", "")) == report_city
+            and (
+                normalized_key(restaurant.get("name", "")) == report_name
+                or report_name.startswith(f"{normalized_key(restaurant.get('name', ''))} ")
+            )
+        ]
+        if len(matches) != 1:
+            print(f"Report #{issue.get('number')} did not match exactly one restaurant")
+            continue
+        pages.append(
+            {
+                "restaurant": matches[0],
+                "page": {
+                    "url": source,
+                    "label": "Reported official source",
+                    "confidence": "reported",
+                    "discovered_via": "deal_report",
+                    "report_issue": issue.get("number"),
+                },
+            }
+        )
+    return pages
+
+
 def location_for(restaurant: dict[str, Any]) -> dict[str, Any]:
     return {
         key: restaurant.get(key)
@@ -377,6 +515,12 @@ def location_for(restaurant: dict[str, Any]) -> dict[str, Any]:
 def candidate_pages(inventory: dict[str, Any]) -> list[dict[str, Any]]:
     candidates: list[dict[str, Any]] = []
     seen: set[str] = set()
+    for reported in reported_pages(inventory):
+        key = page_key(reported["restaurant"], reported["page"]["url"])
+        if key in seen:
+            continue
+        seen.add(key)
+        candidates.append({"key": key, **reported})
     for restaurant in inventory.get("restaurants", []):
         if restaurant.get("business_status") != "OPERATIONAL":
             continue
@@ -395,12 +539,14 @@ def fetch_candidate(candidate: dict[str, Any]) -> dict[str, Any]:
         **candidate,
         "context": context,
         "content_hash": hashlib.sha256(context.encode("utf-8")).hexdigest() if context else "",
+        "fetch_mode": "static",
+        "needs_render": len(context) < 240 or not VALUE_SIGNAL.search(context),
     }
 
 
 def priority(candidate: dict[str, Any]) -> tuple[int, str, str]:
     name = candidate["restaurant"]["name"]
-    if "olive pit" in name.lower():
+    if candidate["page"].get("confidence") == "reported":
         rank = 0
     elif candidate["page"].get("confidence") == "high":
         rank = 1
@@ -439,6 +585,18 @@ def build_sources(pages: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return sources
 
 
+def reusable_page(item: dict[str, Any], previous: dict[str, Any] | None) -> bool:
+    if not item.get("content_hash") or not previous:
+        return False
+    report_issue = item.get("page", {}).get("report_issue")
+    report_already_processed = not report_issue or previous.get("page", {}).get("report_issue") == report_issue
+    return (
+        previous.get("content_hash") == item["content_hash"]
+        and previous.get("status") in {"ok", "no_deals"}
+        and report_already_processed
+    )
+
+
 def main() -> int:
     api_key = os.environ.get("GEMINI_API_KEY", "").strip()
     if not api_key:
@@ -457,13 +615,35 @@ def main() -> int:
             try:
                 fetched.append(future.result())
             except Exception as exc:
-                fetched.append({**candidate, "context": "", "content_hash": "", "fetch_error": f"{type(exc).__name__}: {exc}"})
+                fetched.append(
+                    {
+                        **candidate,
+                        "context": "",
+                        "content_hash": "",
+                        "fetch_error": f"{type(exc).__name__}: {exc}",
+                        "fetch_mode": "static",
+                        "needs_render": True,
+                    }
+                )
+
+    render_queue = sorted((item for item in fetched if item.get("needs_render")), key=priority)
+    for item in render_queue[:MAX_RENDERED_PAGES_PER_RUN]:
+        item["render_attempted"] = True
+        try:
+            rendered_context = relevant_context(render_page(item["page"]["url"]))
+        except Exception as exc:
+            item["render_error"] = f"{type(exc).__name__}: {exc}"
+            continue
+        if len(rendered_context) > len(item.get("context", "")):
+            item["context"] = rendered_context
+            item["content_hash"] = hashlib.sha256(rendered_context.encode("utf-8")).hexdigest()
+            item["fetch_mode"] = "rendered"
 
     pages: list[dict[str, Any]] = []
     pending: list[dict[str, Any]] = []
     for item in fetched:
         previous = existing.get(item["key"])
-        if item.get("content_hash") and previous and previous.get("content_hash") == item["content_hash"] and previous.get("status") in {"ok", "no_deals"}:
+        if reusable_page(item, previous):
             if previous.get("status") == "ok":
                 cached_raw = {
                     "deals": [
@@ -489,7 +669,8 @@ def main() -> int:
                     "page": item["page"],
                     "content_hash": item.get("content_hash", ""),
                     "status": "fetch_failed",
-                    "error": item.get("fetch_error", "No promotion text found"),
+                    "error": item.get("render_error") or item.get("fetch_error", "No promotion text found"),
+                    "fetch_mode": item.get("fetch_mode", "static"),
                     "deals": [],
                 }
             )
@@ -508,6 +689,7 @@ def main() -> int:
                     "page": item["page"],
                     "content_hash": item["content_hash"],
                     "status": "ok" if deals else "no_deals",
+                    "fetch_mode": item.get("fetch_mode", "static"),
                     "extracted_at": iso(utc_now()),
                     "model": MODEL,
                     "deals": deals,
@@ -522,6 +704,7 @@ def main() -> int:
                     "page": item["page"],
                     "content_hash": item["content_hash"],
                     "status": "extract_failed",
+                    "fetch_mode": item.get("fetch_mode", "static"),
                     "error": f"{type(exc).__name__}: {exc}",
                     "deals": [],
                 }
@@ -544,6 +727,9 @@ def main() -> int:
             "processed_pages": sum(item.get("status") in {"ok", "no_deals"} for item in pages),
             "pending_pages": sum(item.get("status") == "pending" for item in pages),
             "failed_pages": sum(item.get("status") in {"fetch_failed", "extract_failed"} for item in pages),
+            "reported_pages": sum(bool(item.get("page", {}).get("report_issue")) for item in pages),
+            "render_attempts": sum(bool(item.get("render_attempted")) for item in fetched),
+            "rendered_pages": sum(item.get("fetch_mode") == "rendered" for item in pages),
             "published_sources": len(sources),
             "published_deals": sum(len(item["options"]["static_deals"]) for item in sources),
         },

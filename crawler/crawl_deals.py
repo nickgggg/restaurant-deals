@@ -25,7 +25,7 @@ OUTPUT_PATH = ROOT / "docs" / "data" / "deals.json"
 STALE_AFTER_DAYS = 21
 DROP_AFTER_DAYS = 90
 REQUEST_TIMEOUT = 25
-CRAWLER_VERSION = 17
+CRAWLER_VERSION = 18
 
 DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 DAY_LABELS = {
@@ -157,6 +157,14 @@ def load_ai_sources() -> list[dict[str, Any]]:
     except (FileNotFoundError, json.JSONDecodeError):
         return []
     return payload.get("sources", [])
+
+
+def load_ai_summary() -> dict[str, Any]:
+    try:
+        payload = json.loads(AI_EXTRACTIONS_PATH.read_text())
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+    return payload.get("summary", {})
 
 
 def inventory_location(restaurant: dict[str, Any], fallback: dict[str, Any] | None = None) -> dict[str, Any]:
@@ -639,6 +647,7 @@ def main() -> int:
             "healthy_sources": sum(1 for item in source_statuses if item["ok"]),
             "failed_sources": sum(1 for item in source_statuses if not item["ok"]),
         },
+        "pipeline": load_ai_summary(),
         "sources": source_statuses,
         "deals": sort_deals(all_deals),
     }

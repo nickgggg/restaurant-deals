@@ -556,7 +556,7 @@ function reportUrl(group) {
   const source = [...group.urls][0] || "";
   const params = new URLSearchParams({
     title: `[Deal report] ${restaurant} - ${group.city}`,
-    body: `### Restaurant\n${restaurant}\n\n### City\n${group.city}\n\n### Official source URL\n${source}\n\n### Details\nDescribe what is missing or incorrect, including the right day, time, price, or expiration.`,
+    body: `### Restaurant\n${restaurant}\n\n### City\n${group.city}\n\n### What needs attention?\nMissing or incorrect deal\n\n### Official source URL\n${source}\n\n### Details\n<!-- Describe what is missing or incorrect, including the right day, time, price, or expiration. -->`,
   });
   return `https://github.com/nickgggg/restaurant-deals/issues/new?${params}`;
 }
@@ -1027,6 +1027,7 @@ function estimatedActivation(statuses, city, queuedCities) {
 
 function renderProjectStatus() {
   const coverage = state.restaurants?.coverage || {};
+  const pipeline = state.payload?.pipeline || {};
   const statuses = state.restaurants?.area_status || {};
   const activeCities = coverage.cities || [];
   const queuedCities = coverage.queued_cities || [];
@@ -1056,6 +1057,10 @@ function renderProjectStatus() {
     ["Restaurants found", compactNumber(coverage.restaurant_count)],
     ["Official websites", compactNumber(coverage.official_websites)],
     ["Specials pages", compactNumber(coverage.specials_pages_found)],
+    ["Candidate pages", compactNumber(pipeline.candidate_pages)],
+    ["Reported sources", compactNumber(pipeline.reported_pages)],
+    ["Browser renders", `${compactNumber(pipeline.rendered_pages)}/${compactNumber(pipeline.render_attempts)}`],
+    ["Sites checked", `${state.project?.max_source_sites_per_run || 12}/run`],
     ["Gemini batch", `${state.project?.gemini_pages_per_run || 30}/run`],
     ["City activation", `1/${state.project?.queue_activation_days || 7} days`],
     ["City rescan", `${state.project?.area_refresh_days || 35} days`],

@@ -8,6 +8,9 @@ The project runs entirely on GitHub:
 - The crawler writes normalized JSON to `docs/data/deals.json`.
 - GitHub Pages serves the static frontend from `docs/`.
 - Google Places builds a staggered nearby-restaurant inventory and supplies current business details.
+- Navigation links, sitemaps, and a small set of common specials routes discover candidate pages.
+- Headless Chrome renders a bounded batch of JavaScript-heavy pages only when ordinary HTML is insufficient.
+- Twelve existing restaurant websites rotate through source discovery each run without making additional Places requests.
 - Gemini extracts structured offers from likely specials pages; source-evidence checks keep uncertain results unpublished.
 - The crawler uses only the Python standard library, so there are no package installs.
 - MapLibre and OpenFreeMap provide the optional custom map without an API key.
@@ -73,7 +76,7 @@ To enable it, create a website for `nickgggg.github.io` in Umami, then put the p
 
 ## Deal Reports
 
-Each restaurant has a report action that opens a prefilled GitHub issue. `.github/workflows/triage-deal-report.yml` validates structured reports, labels the issue, and replies automatically. Reports from trusted repository collaborators can trigger an immediate refresh; public reports always wait for review so an anonymous visitor cannot spend API quota or change published data. Evidence-backed code or data fixes remain visible in the issue before it is closed.
+Each restaurant has a report action that opens a prefilled GitHub issue. `.github/workflows/triage-deal-report.yml` validates structured reports, labels the issue, and replies automatically. Trusted reporter URLs move to the front of an immediate evidence-checked crawl, which posts a verified or needs-review result back to the issue. Public reports stay in a review-only source queue so an anonymous visitor cannot spend API quota or change published data. Evidence-backed code or data fixes remain visible in the issue before it is closed.
 
 ## Running Manually
 

@@ -4,13 +4,14 @@
   "area_refresh_days": 35,
   "max_areas_per_run": 1,
   "max_map_cells_per_area": 180,
+  "max_source_sites_per_run": 12,
   "gemini_pages_per_run": 30,
   "cost_note": "Built to stay inside the configured Google Places quota, Gemini free tier, GitHub Actions, and GitHub Pages. Budget alerts remain the final safety net.",
   "roadmap": [
     {
       "status": "working",
       "title": "Browser-rendered source fallback",
-      "detail": "Render JavaScript-heavy restaurant pages only when the lightweight crawler cannot recover useful text."
+      "detail": "Up to eight JavaScript-heavy pages per run are rendered only when ordinary HTML does not contain enough deal evidence."
     },
     {
       "status": "next",
@@ -24,8 +25,8 @@
     },
     {
       "status": "working",
-      "title": "Report follow-through",
-      "detail": "Structured reports are checked and labeled automatically. Trusted reports start a source refresh; evidence-backed fixes stay traceable in GitHub."
+      "title": "Report source queue",
+      "detail": "Trusted official URLs move to the front of the next crawl, and verified or inconclusive results are posted back to the report automatically."
     },
     {
       "status": "later",
