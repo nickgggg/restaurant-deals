@@ -8,26 +8,53 @@
     <script>
       document.documentElement.dataset.theme = localStorage.getItem("theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
     </script>
-    <link rel="stylesheet" href="styles.css?v=9">
+    <script src="analytics-config.js"></script>
+    <script>
+      if (window.RESTAURANT_DEALS_ANALYTICS?.websiteId) {
+        const tracker = document.createElement("script");
+        tracker.defer = true;
+        tracker.src = "https://cloud.umami.is/script.js";
+        tracker.dataset.websiteId = window.RESTAURANT_DEALS_ANALYTICS.websiteId;
+        tracker.dataset.domains = "nickgggg.github.io";
+        document.head.append(tracker);
+      }
+    </script>
+    <link rel="stylesheet" href="styles.css?v=10">
   </head>
   <body>
     <header class="topbar">
-      <h1>Restaurant Deals</h1>
-      <div class="header-actions">
+      <img class="brand-mark brand-mark-left" src="favicon.svg" alt="">
+      <div class="brand-center">
+        <h1>Restaurant Deals</h1>
         <div class="stats" id="stats" aria-live="polite"></div>
+      </div>
+      <div class="header-actions">
         <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Use dark mode" title="Use dark mode">
-          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9c0-.5 0-1-.1-1.5A7 7 0 0 1 12 3Z"></path></svg>
+          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 15.1A8.8 8.8 0 0 1 8.9 3.5 9 9 0 1 0 20.5 15.1Z"></path></svg>
           <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"></path></svg>
         </button>
+        <img class="brand-mark brand-mark-right" src="favicon.svg" alt="">
       </div>
     </header>
 
     <main>
       <section class="controls" id="filters" aria-label="Deal filters">
         <div class="filter-toolbar">
-          <button id="filter-toggle" class="filter-toggle" type="button" aria-expanded="false" aria-controls="filter-fields">
-            Filters <span id="filter-count" class="filter-count" hidden></span>
+          <button id="filter-toggle" class="filter-toggle" type="button" aria-expanded="false" aria-controls="filter-fields" title="Filters">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"></path></svg>
+            <span class="control-button-label">Filters</span>
+            <span id="filter-count" class="filter-count" hidden></span>
           </button>
+          <details id="sort-menu" class="sort-menu">
+            <summary title="Sort restaurants">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h8M8 18h4M4 4v16"></path></svg>
+              <span id="sort-label">A-Z</span>
+            </summary>
+            <div class="sort-options">
+              <button type="button" data-sort="alpha">A-Z</button>
+              <button type="button" data-sort="distance">Nearest</button>
+            </div>
+          </details>
           <span id="filter-summary" class="filter-summary">Today · All restaurants</span>
         </div>
         <div class="filter-fields" id="filter-fields">
@@ -62,32 +89,32 @@
             <option value="sunday">Sun</option>
           </select>
           </label>
+          <div class="offer-control">
+            <span class="control-label">Show</span>
+            <details id="offer-picker" class="multi-select">
+              <summary id="offer-summary">All deals</summary>
+              <div id="offer-options" class="multi-select-options offer-options">
+                <span class="option-group-label">Type</span>
+                <label class="filter-option"><input type="checkbox" value="food" checked> Food</label>
+                <label class="filter-option"><input type="checkbox" value="drink" checked> Drinks</label>
+                <span class="option-group-label">Offer</span>
+                <label class="filter-option"><input type="checkbox" value="happy_hour" checked> Happy hour</label>
+                <label class="filter-option"><input type="checkbox" value="other" checked> Other deals</label>
+                <span class="option-group-label">Restaurant</span>
+                <label class="filter-option"><input type="checkbox" value="chains" checked> Include chains</label>
+              </div>
+            </details>
+          </div>
           <label>
-          Type
-          <select id="category">
-            <option value="">Food + drink</option>
-            <option value="food">Food</option>
-            <option value="drink">Drink</option>
-            <option value="general">General</option>
+          Within
+          <select id="radius" disabled>
+            <option value="">Any distance</option>
+            <option value="1">1 mile</option>
+            <option value="3">3 miles</option>
+            <option value="5">5 miles</option>
+            <option value="10">10 miles</option>
           </select>
           </label>
-          <label>
-          Offer
-          <select id="kind">
-            <option value="">All deals</option>
-            <option value="happy_hour">Happy hour</option>
-            <option value="other">Other specials</option>
-          </select>
-          </label>
-          <label>
-          Status
-          <select id="status">
-            <option value="active">Active</option>
-            <option value="">Active + stale</option>
-            <option value="stale">Stale only</option>
-          </select>
-          </label>
-          <button id="locate" class="locate-button" type="button">Use my location</button>
         </div>
       </section>
 
@@ -119,6 +146,11 @@
           </button>
         </div>
       </section>
+      <section class="map-panel" id="map-panel" aria-label="Restaurant deal map" hidden>
+        <div id="map"></div>
+        <p id="map-message" class="map-message" hidden></p>
+      </section>
+      <section class="deals" id="deals" aria-live="polite"></section>
       <details class="project-status" id="project-status">
         <summary>
           <span class="project-status-title">Coverage</span>
@@ -141,11 +173,6 @@
           </section>
         </div>
       </details>
-      <section class="map-panel" id="map-panel" aria-label="Restaurant deal map" hidden>
-        <div id="map"></div>
-        <p id="map-message" class="map-message" hidden></p>
-      </section>
-      <section class="deals" id="deals" aria-live="polite"></section>
       <section class="sources" id="sources"></section>
       <footer>
         <p>Deals refresh each morning at 14:37 UTC, with a freshness-checked fallback at 16:17 UTC. One queued city activates each week; active cities are rediscovered about every five weeks.</p>
@@ -156,6 +183,6 @@
 
     <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
-    <script src="app.js?v=9"></script>
+    <script src="app.js?v=10"></script>
   </body>
 </html>

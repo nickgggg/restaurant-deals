@@ -65,6 +65,12 @@ Once enabled, the frontend will read the latest `docs/data/deals.json` and show 
 
 The frontend also supports current-time filtering, device-only favorites, restorable filter URLs, restaurant sharing, and list/map views. Favorites use browser storage and may disappear when a private-browsing session closes.
 
+## Analytics
+
+The site includes an optional Umami Cloud integration and useful event names for filters, sorting, map use, favorites, sharing, and restaurant actions. Analytics stays completely off while `docs/analytics-config.js` has an empty `websiteId`.
+
+To enable it, create a website for `nickgggg.github.io` in Umami, then put the public website ID in `docs/analytics-config.js`. No Umami API key belongs in the repository.
+
 ## Deal Reports
 
 Each restaurant has a report action that opens a prefilled GitHub Issue Form. `.github/workflows/triage-deal-report.yml` validates report completeness, labels the issue, and replies automatically. Reports from trusted repository collaborators can trigger an immediate refresh; public reports always wait for review so an anonymous visitor cannot spend API quota or change published data.

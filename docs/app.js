@@ -11,6 +11,9 @@ const DAY_LABELS = {
 const FAVORITES_KEY = "restaurant-deals:favorites";
 const MAPLIBRE_URL = "https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js";
 const MAPLIBRE_CSS_URL = "https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css";
+const DEFAULT_TYPES = ["food", "drink"];
+const DEFAULT_KINDS = ["happy_hour", "other"];
+const CHAIN_PATTERN = /\b(?:applebee'?s|arby'?s|baja fresh|blaze pizza|burger king|carl'?s jr|chick-fil-a|chipotle|denny'?s|domino'?s|el pollo loco|five guys|habit burger|ihop|in-n-out|jack in the box|jersey mike'?s|kfc|little caesars|mcdonald'?s|panda express|panera|papa john'?s|pizza hut|popeyes|raising cane'?s|round table pizza|rubio'?s|shake shack|sonic|starbucks|subway|taco bell|wendy'?s|wienerschnitzel|wingstop)\b/i;
 
 const state = {
   payload: null,
@@ -20,9 +23,12 @@ const state = {
   restaurant: "",
   cities: new Set(),
   day: "today",
-  category: "",
-  kind: "",
   status: "active",
+  types: new Set(DEFAULT_TYPES),
+  kinds: new Set(DEFAULT_KINDS),
+  includeChains: true,
+  sort: "alpha",
+  radius: "",
   availableNow: false,
   favoritesOnly: false,
   favorites: loadFavorites(),
@@ -44,10 +50,12 @@ const cityPickerEl = document.querySelector("#city-picker");
 const citySummaryEl = document.querySelector("#city-summary");
 const cityOptionsEl = document.querySelector("#city-options");
 const dayEl = document.querySelector("#day");
-const categoryEl = document.querySelector("#category");
-const kindEl = document.querySelector("#kind");
-const statusEl = document.querySelector("#status");
-const locateEl = document.querySelector("#locate");
+const offerPickerEl = document.querySelector("#offer-picker");
+const offerSummaryEl = document.querySelector("#offer-summary");
+const offerOptionsEl = document.querySelector("#offer-options");
+const radiusEl = document.querySelector("#radius");
+const sortMenuEl = document.querySelector("#sort-menu");
+const sortLabelEl = document.querySelector("#sort-label");
 const filtersEl = document.querySelector("#filters");
 const filterToggleEl = document.querySelector("#filter-toggle");
 const filterCountEl = document.querySelector("#filter-count");
@@ -107,27 +115,27 @@ function showToast(message) {
   }, 3200);
 }
 
+function trackEvent(name, data = {}) {
+  if (window.umami?.track) window.umami.track(name, data);
+}
+
 function renderFilterSummary() {
   const labels = [];
   labels.push(state.day === "today" ? "Today" : state.day ? DAY_LABELS[state.day] : "Any day");
   const cityLabel = state.cities.size === 1 ? [...state.cities][0] : state.cities.size ? `${state.cities.size} cities` : "";
   labels.push(state.restaurant || cityLabel || "All restaurants");
-  if (state.category) labels.push(categoryEl.options[categoryEl.selectedIndex]?.text || state.category);
-  if (state.kind) labels.push(kindEl.options[kindEl.selectedIndex]?.text || state.kind);
-  if (state.availableNow) labels.push("Available now");
-  if (state.favoritesOnly) labels.push("Favorites");
 
   const activeCount = [
     state.query,
     state.restaurant,
     state.cities.size ? "cities" : "",
     state.day !== "today" ? state.day || "any" : "",
-    state.category,
-    state.kind,
-    state.status !== "active" ? state.status || "all" : "",
+    state.types.size !== DEFAULT_TYPES.length ? "types" : "",
+    state.kinds.size !== DEFAULT_KINDS.length ? "offers" : "",
+    !state.includeChains ? "chains" : "",
+    state.radius ? "radius" : "",
     state.availableNow ? "now" : "",
     state.favoritesOnly ? "favorites" : "",
-    state.userLocation ? "location" : "",
   ].filter(Boolean).length;
 
   filterSummaryEl.textContent = labels.join(" · ");
@@ -318,13 +326,24 @@ function dealAvailableNow(deal) {
 function matchesFilters(deal) {
   const categories = deal.categories || ["general"];
   const isHappyHour = (deal.tags || []).includes("happy_hour") || /happy\s*hour/i.test(dealText(deal));
+  const knownTypes = categories.filter((category) => DEFAULT_TYPES.includes(category));
+  const typeMatch = knownTypes.length
+    ? knownTypes.some((category) => state.types.has(category))
+    : state.types.size === DEFAULT_TYPES.length;
+  const kindMatch = state.kinds.has(isHappyHour ? "happy_hour" : "other");
+  const isChain = CHAIN_PATTERN.test(deal.restaurant || "");
+  const distance = state.userLocation && deal.location
+    ? distanceMiles(state.userLocation, deal.location)
+    : Number.POSITIVE_INFINITY;
   return (
     (!state.query || dealText(deal).includes(state.query.toLowerCase())) &&
     (!state.restaurant || deal.restaurant === state.restaurant) &&
     (!state.cities.size || state.cities.has(deal.city)) &&
-    (!state.status || deal.status === state.status) &&
-    (!state.category || categories.includes(state.category)) &&
-    (!state.kind || (state.kind === "happy_hour" ? isHappyHour : !isHappyHour)) &&
+    deal.status === "active" &&
+    typeMatch &&
+    kindMatch &&
+    (state.includeChains || !isChain) &&
+    (!state.radius || distance <= Number(state.radius)) &&
     (!state.availableNow || dealAvailableNow(deal)) &&
     (!state.favoritesOnly || state.favorites.has(locationKeyForDeal(deal))) &&
     matchesDay(deal)
@@ -364,7 +383,7 @@ function groupDeals(deals) {
   return [...groups.values()].sort((a, b) => {
     const distanceA = distanceToGroup(a);
     const distanceB = distanceToGroup(b);
-    if (state.userLocation && Number.isFinite(distanceA) && Number.isFinite(distanceB)) {
+    if (state.sort === "distance" && state.userLocation && Number.isFinite(distanceA) && Number.isFinite(distanceB)) {
       return distanceA - distanceB || a.restaurant.localeCompare(b.restaurant);
     }
     return a.restaurant.localeCompare(b.restaurant) || a.city.localeCompare(b.city);
@@ -387,6 +406,16 @@ function updateCitySummary() {
     : state.cities.size === 1
       ? [...state.cities][0]
       : `${state.cities.size} cities`;
+}
+
+function updateOfferSummary() {
+  const disabled = [];
+  if (!state.types.has("food")) disabled.push("food");
+  if (!state.types.has("drink")) disabled.push("drinks");
+  if (!state.kinds.has("happy_hour")) disabled.push("happy hour");
+  if (!state.kinds.has("other")) disabled.push("other deals");
+  if (!state.includeChains) disabled.push("chains");
+  offerSummaryEl.textContent = disabled.length ? `Excluding ${disabled.join(", ")}` : "All deals";
 }
 
 function renderCityOptions(values) {
@@ -422,6 +451,7 @@ function renderFilterOptions() {
   }
   renderCityOptions([...cities].sort());
   renderSelectOptions(restaurantEl, [...restaurants].sort(), "All restaurants");
+  updateOfferSummary();
 }
 
 function renderSummary(visibleDeals) {
@@ -470,7 +500,10 @@ function actionLink(href, label, iconName, external = false) {
     link.target = "_blank";
     link.rel = "noopener";
   }
-  link.addEventListener("click", (event) => event.stopPropagation());
+  link.addEventListener("click", (event) => {
+    event.stopPropagation();
+    trackEvent(`action_${iconName}`);
+  });
   return link;
 }
 
@@ -599,9 +632,9 @@ function shareUrl(spot = "") {
   if (state.restaurant) params.set("restaurant", state.restaurant);
   if (state.cities.size) params.set("cities", [...state.cities].sort().join(","));
   if (state.day !== "today") params.set("day", state.day || "any");
-  if (state.category) params.set("type", state.category);
-  if (state.kind) params.set("offer", state.kind);
-  if (state.status !== "active") params.set("status", state.status || "all");
+  if (state.types.size !== DEFAULT_TYPES.length) params.set("types", [...state.types].sort().join(","));
+  if (state.kinds.size !== DEFAULT_KINDS.length) params.set("offers", [...state.kinds].sort().join(","));
+  if (!state.includeChains) params.set("chains", "0");
   if (state.availableNow) params.set("now", "1");
   if (state.view === "map") params.set("view", "map");
   if (spot) params.set("spot", spot);
@@ -633,10 +666,15 @@ function readUrlState() {
   state.cities = new Set((params.get("cities") || "").split(",").filter(Boolean));
   const day = params.get("day");
   state.day = day === "any" ? "" : day && DAYS.includes(day) ? day : "today";
-  state.category = ["food", "drink", "general"].includes(params.get("type")) ? params.get("type") : "";
-  state.kind = ["happy_hour", "other"].includes(params.get("offer")) ? params.get("offer") : "";
-  const status = params.get("status");
-  state.status = status === "all" ? "" : status === "stale" ? "stale" : "active";
+  const oldType = params.get("type");
+  const oldOffer = params.get("offer");
+  const types = params.has("types") ? params.get("types").split(",").filter((item) => DEFAULT_TYPES.includes(item)) : DEFAULT_TYPES;
+  const kinds = params.has("offers") ? params.get("offers").split(",").filter((item) => DEFAULT_KINDS.includes(item)) : DEFAULT_KINDS;
+  state.types = new Set(oldType && DEFAULT_TYPES.includes(oldType) ? [oldType] : types);
+  state.kinds = new Set(oldOffer && DEFAULT_KINDS.includes(oldOffer) ? [oldOffer] : kinds);
+  state.includeChains = params.get("chains") !== "0";
+  state.sort = "alpha";
+  state.radius = "";
   state.availableNow = params.get("now") === "1";
   state.view = params.get("view") === "map" ? "map" : "list";
   state.spot = params.get("spot") || "";
@@ -646,9 +684,15 @@ function syncControls() {
   searchEl.value = state.query;
   restaurantEl.value = state.restaurant;
   dayEl.value = state.day;
-  categoryEl.value = state.category;
-  kindEl.value = state.kind;
-  statusEl.value = state.status;
+  for (const input of offerOptionsEl.querySelectorAll('input[type="checkbox"]')) {
+    input.checked = input.value === "chains"
+      ? state.includeChains
+      : state.types.has(input.value) || state.kinds.has(input.value);
+  }
+  radiusEl.value = state.radius;
+  radiusEl.disabled = !state.userLocation;
+  sortLabelEl.textContent = state.sort === "distance" ? "Nearest" : "A-Z";
+  updateOfferSummary();
   availableNowEl.setAttribute("aria-pressed", String(state.availableNow));
   favoritesOnlyEl.setAttribute("aria-pressed", String(state.favoritesOnly));
   listViewEl.setAttribute("aria-pressed", String(state.view === "list"));
@@ -735,6 +779,7 @@ function renderGroup(group, needsQualifier = false) {
     if (favorite) state.favorites.delete(group.key);
     else state.favorites.add(group.key);
     const persisted = saveFavorites();
+    trackEvent(favorite ? "favorite_remove" : "favorite_add");
     showToast(favorite
       ? "Favorite removed"
       : persisted
@@ -753,6 +798,7 @@ function renderGroup(group, needsQualifier = false) {
     actions.append(actionLink(url, label, "source", true));
   }
   actions.append(actionButton("Share restaurant", "share", () => {
+    trackEvent("share_restaurant");
     shareResults(shareUrl(locationSlug(group)), `${baseLabel} deals`);
   }));
   actions.append(actionLink(reportUrl(group), "Report missing or incorrect deal", "report", true));
@@ -794,9 +840,7 @@ function loadMapLibrary() {
 }
 
 function mapStyle() {
-  return document.documentElement.dataset.theme === "dark"
-    ? "https://tiles.openfreemap.org/styles/dark"
-    : "https://tiles.openfreemap.org/styles/positron";
+  return "https://tiles.openfreemap.org/styles/positron";
 }
 
 function openSpot(group) {
@@ -846,9 +890,10 @@ async function renderMap(groups) {
         style: mapStyle(),
         center: [-117.98, 33.69],
         zoom: 10.5,
-        attributionControl: true,
+        attributionControl: false,
       });
       state.map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+      state.map.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
     }
     for (const marker of state.mapMarkers) marker.remove();
     state.mapMarkers = [];
@@ -1010,26 +1055,29 @@ function rerender() {
 function requestLocation() {
   if (!navigator.geolocation) {
     state.locationMessage = "Location is not available in this browser.";
+    state.sort = "alpha";
     rerender();
     return;
   }
-  locateEl.disabled = true;
-  locateEl.textContent = "Finding...";
+  sortLabelEl.textContent = "Locating...";
   navigator.geolocation.getCurrentPosition(
     (position) => {
       state.userLocation = {
         latitude: position.coords.latitude,
         longitude: position.coords.longitude,
       };
-      state.locationMessage = "Sorted by distance.";
-      locateEl.textContent = "Distance on";
+      state.sort = "distance";
+      state.locationMessage = "Nearest first.";
+      radiusEl.disabled = false;
+      sortLabelEl.textContent = "Nearest";
+      trackEvent("sort_distance");
       renderFilterSummary();
       rerender();
     },
     () => {
       state.locationMessage = "Location permission was not enabled.";
-      locateEl.disabled = false;
-      locateEl.textContent = "Use my location";
+      state.sort = "alpha";
+      sortLabelEl.textContent = "A-Z";
       rerender();
     },
     { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 }
@@ -1087,6 +1135,24 @@ cityOptionsEl.addEventListener("change", (event) => {
   rerender();
 });
 
+offerOptionsEl.addEventListener("change", (event) => {
+  if (!event.target.matches('input[type="checkbox"]')) return;
+  const { value, checked } = event.target;
+  if (value === "chains") state.includeChains = checked;
+  else if (DEFAULT_TYPES.includes(value)) {
+    if (checked) state.types.add(value);
+    else state.types.delete(value);
+  } else if (DEFAULT_KINDS.includes(value)) {
+    if (checked) state.kinds.add(value);
+    else state.kinds.delete(value);
+  }
+  state.spot = "";
+  updateOfferSummary();
+  renderFilterSummary();
+  trackEvent("filter_offer", { value, enabled: checked });
+  rerender();
+});
+
 cityOptionsEl.addEventListener("click", (event) => {
   if (!event.target.matches(".city-clear")) return;
   state.cities.clear();
@@ -1099,6 +1165,8 @@ cityOptionsEl.addEventListener("click", (event) => {
 
 document.addEventListener("click", (event) => {
   if (!cityPickerEl.contains(event.target)) cityPickerEl.open = false;
+  if (!offerPickerEl.contains(event.target)) offerPickerEl.open = false;
+  if (!sortMenuEl.contains(event.target)) sortMenuEl.open = false;
 });
 
 dayEl.addEventListener("change", (event) => {
@@ -1108,24 +1176,11 @@ dayEl.addEventListener("change", (event) => {
   rerender();
 });
 
-categoryEl.addEventListener("change", (event) => {
-  state.category = event.target.value;
+radiusEl.addEventListener("change", (event) => {
+  state.radius = event.target.value;
   state.spot = "";
   renderFilterSummary();
-  rerender();
-});
-
-kindEl.addEventListener("change", (event) => {
-  state.kind = event.target.value;
-  state.spot = "";
-  renderFilterSummary();
-  rerender();
-});
-
-statusEl.addEventListener("change", (event) => {
-  state.status = event.target.value;
-  state.spot = "";
-  renderFilterSummary();
+  trackEvent("filter_radius", { miles: state.radius || "any" });
   rerender();
 });
 
@@ -1137,6 +1192,7 @@ availableNowEl.addEventListener("click", () => {
     dayEl.value = "today";
   }
   renderFilterSummary();
+  trackEvent("filter_available_now", { enabled: state.availableNow });
   rerender();
 });
 
@@ -1144,28 +1200,59 @@ favoritesOnlyEl.addEventListener("click", () => {
   state.favoritesOnly = !state.favoritesOnly;
   state.spot = "";
   renderFilterSummary();
+  trackEvent("filter_favorites", { enabled: state.favoritesOnly });
   rerender();
 });
 
 listViewEl.addEventListener("click", () => {
   state.view = "list";
+  filtersEl.classList.remove("is-open");
+  filterToggleEl.setAttribute("aria-expanded", "false");
   rerender();
 });
 
 mapViewEl.addEventListener("click", () => {
   state.view = "map";
   state.spot = "";
+  filtersEl.classList.remove("is-open");
+  filterToggleEl.setAttribute("aria-expanded", "false");
+  trackEvent("view_map");
   rerender();
 });
 
-shareViewEl.addEventListener("click", () => shareResults());
+shareViewEl.addEventListener("click", () => {
+  trackEvent("share_results");
+  shareResults();
+});
 
 filterToggleEl.addEventListener("click", () => {
   const expanded = filtersEl.classList.toggle("is-open");
   filterToggleEl.setAttribute("aria-expanded", String(expanded));
+  trackEvent("filters_toggle", { expanded });
 });
 
-locateEl.addEventListener("click", requestLocation);
+sortMenuEl.addEventListener("click", (event) => {
+  const button = event.target.closest("button[data-sort]");
+  if (!button) return;
+  sortMenuEl.open = false;
+  if (button.dataset.sort === "distance") {
+    if (!state.userLocation) requestLocation();
+    else {
+      state.sort = "distance";
+      state.locationMessage = "Nearest first.";
+      rerender();
+    }
+  } else {
+    state.sort = "alpha";
+    state.locationMessage = "Sorted A-Z.";
+    state.radius = "";
+    radiusEl.value = "";
+    trackEvent("sort_alpha");
+    rerender();
+  }
+  syncControls();
+  renderFilterSummary();
+});
 
 function syncThemeButton() {
   const dark = document.documentElement.dataset.theme === "dark";
@@ -1178,7 +1265,6 @@ themeToggleEl.addEventListener("click", () => {
   const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
   document.documentElement.dataset.theme = next;
   localStorage.setItem("theme", next);
-  if (state.map) state.map.setStyle(mapStyle());
   syncThemeButton();
 });
 
