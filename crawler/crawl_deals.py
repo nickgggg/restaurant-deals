@@ -382,7 +382,8 @@ def ordinal(value: int) -> str:
 
 def validity_for(days: list[str], time_window: str | None, month_days: list[int] | None = None) -> str:
     monthly = f"Every month on the {', '.join(ordinal(value) for value in month_days)}" if month_days else None
-    parts = [part for part in [monthly, day_label(days), time_window] if part]
+    schedule_includes_days = bool(time_window and extract_days(time_window))
+    parts = [part for part in [monthly, None if schedule_includes_days else day_label(days), time_window] if part]
     return ", ".join(parts) if parts else "Check source"
 
 

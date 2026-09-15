@@ -671,6 +671,11 @@ def promotion_family(summary: str) -> str:
 def consolidate_related_deals(deals: list[dict[str, Any]]) -> list[dict[str, Any]]:
     prepared: list[dict[str, Any]] = []
     for deal in deals:
+        cleaned_details = [
+            re.sub(r"^(\$\s*\d+(?:\.\d{1,2})?):\s*\1\s+", r"\1: ", detail, flags=re.I)
+            for detail in deal.get("details", [])
+        ]
+        deal = {**deal, "details": cleaned_details}
         schedule, schedule_days = shared_schedule_for([deal], deal.get("summary", ""))
         if not schedule:
             prepared.append(deal)
@@ -996,12 +1001,13 @@ def priority(candidate: dict[str, Any]) -> tuple[int, str, str]:
     return rank, name.casefold(), candidate["page"]["url"]
 
 
-def visual_priority(candidate: dict[str, Any]) -> tuple[int, int, int, int, str, str]:
+def visual_priority(candidate: dict[str, Any]) -> tuple[int, int, str, int, int, str, str]:
     rank, name, url = priority(candidate)
     best_asset_score = max((item.get("score", 0) for item in candidate.get("asset_candidates", [])), default=0)
     reported_rank = 0 if rank == 0 else 1
     verified_recheck_rank = 0 if candidate.get("recheck_verified") else 1
-    return reported_rank, verified_recheck_rank, -best_asset_score, rank, name, url
+    last_visual_check = candidate.get("last_visual_check", "")
+    return reported_rank, verified_recheck_rank, last_visual_check, -best_asset_score, rank, name, url
 
 
 def select_visual_pages(candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -1136,6 +1142,7 @@ def main() -> int:
             previous.get("visual_status") == "verified"
             and previous.get("extraction_version") != EXTRACTION_VERSION
         )
+        item["last_visual_check"] = previous.get("visual_checked_at", "")
     visual_queue = select_visual_pages(visual_candidates)[:MAX_VISUAL_CANDIDATES_PER_RUN]
     visual_results: dict[str, dict[str, Any]] = {}
     visual_calls = 0
@@ -1154,7 +1161,13 @@ def main() -> int:
             visual_hash = visual_content_hash(assets)
             previous = existing.get(item["key"])
             if reusable_visual_page(visual_hash, previous):
-                visual_results[item["key"]] = {**previous, "page": item["page"], "visual_cache_hit": True}
+                visual_results[item["key"]] = {
+                    **previous,
+                    "page": item["page"],
+                    "deals": consolidate_related_deals(previous.get("deals", [])),
+                    "visual_checked_at": iso(utc_now()),
+                    "visual_cache_hit": True,
+                }
                 visual_cache_hits += 1
                 continue
 
@@ -1208,6 +1221,20 @@ def main() -> int:
             pages.append(visual_results[item["key"]])
             continue
         previous = existing.get(item["key"])
+        if (
+            previous
+            and item.get("asset_candidates")
+            and previous.get("fetch_mode") == "visual"
+            and previous.get("visual_status") in {"verified", "no_deals"}
+        ):
+            pages.append(
+                {
+                    **previous,
+                    "page": item["page"],
+                    "deals": consolidate_related_deals(previous.get("deals", [])),
+                }
+            )
+            continue
         if reusable_page(item, previous):
             if previous.get("status") == "ok":
                 cached_raw = {

@@ -113,6 +113,39 @@ class ExtractionTests(unittest.TestCase):
     def test_social_hour_uses_the_happy_hour_filter(self) -> None:
         self.assertIn("happy_hour", crawl_deals.detect_tags("$8-$13 Social Hour"))
 
+    def test_visual_queue_rotates_oldest_checked_pages_first(self) -> None:
+        old = {
+            "restaurant": {"name": "Old", "city": "Huntington Beach"},
+            "page": {"url": "https://example.com/old", "confidence": "high"},
+            "asset_candidates": [{"url": "https://example.com/old.jpg", "score": 5}],
+            "last_visual_check": "2026-09-01T12:00:00Z",
+        }
+        recent = {
+            "restaurant": {"name": "Recent", "city": "Huntington Beach"},
+            "page": {"url": "https://example.com/recent", "confidence": "high"},
+            "asset_candidates": [{"url": "https://example.com/recent.jpg", "score": 20}],
+            "last_visual_check": "2026-09-15T12:00:00Z",
+        }
+
+        self.assertEqual(sorted([recent, old], key=extract_with_gemini.visual_priority)[0], old)
+
+    def test_grouped_tier_details_remove_repeated_prices(self) -> None:
+        deal = {
+            "summary": "$8-$13 Social Hour",
+            "details": ["$8: $8 Parmesan Garlic Fries"],
+            "applies_days": [],
+            "source_evidence": [],
+        }
+
+        self.assertEqual(
+            extract_with_gemini.consolidate_related_deals([deal])[0]["details"],
+            ["$8: Parmesan Garlic Fries"],
+        )
+
+    def test_validity_does_not_repeat_days_already_in_schedule(self) -> None:
+        schedule = "Mon-Fri 3pm-6:30pm; Sat-Sun 1pm-5pm"
+        self.assertEqual(crawl_deals.validity_for(crawl_deals.DAYS, schedule), schedule)
+
     def test_visual_assets_deduplicate_identical_image_variants(self) -> None:
         item = {
             "page": {"url": "https://example.com/specials"},
