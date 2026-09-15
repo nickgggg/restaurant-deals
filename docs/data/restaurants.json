@@ -49,7 +49,7 @@
     "last_scanned_cities": [
       "Costa Mesa"
     ],
-    "last_source_scan_at": "2026-09-15T18:26:53Z",
+    "last_source_scan_at": "2026-09-15T20:23:04Z",
     "map_cells": 179,
     "official_websites": 848,
     "operational_count": 1010,
@@ -61,11 +61,11 @@
     ],
     "restaurant_count": 1050,
     "source_sites_checked": 12,
-    "specials_pages_found": 186,
+    "specials_pages_found": 187,
     "successful_map_cells": 49
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-15T18:26:53Z",
+  "generated_at": "2026-09-15T20:23:04Z",
   "refresh_after": "2026-09-17T16:26:21Z",
   "restaurants": [
     {
@@ -5427,7 +5427,7 @@
       "phone": "(714) 968-4477",
       "place_id": "ChIJJYpXUzkn3YARSnUAnduKB4c",
       "primary_type": "steak_house",
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-rxid01ql/Default'",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-a9seqx3w/Default'",
       "specials_pages": [],
       "types": [
         "steak_house",
@@ -5493,9 +5493,12 @@
       "phone": "(714) 587-1672",
       "place_id": "ChIJMRDQWBEn3YARrd8LVuc0-5Q",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-09-15T20:22:12Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://locations.blazepizza.com/us/ca/fountain-valley/blazepizza-1264"
         }
@@ -5565,6 +5568,8 @@
       "phone": "(714) 852-3335",
       "place_id": "ChIJg19tdEQn3YAR_k7E-j7noXk",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-15T20:22:12Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -5632,6 +5637,8 @@
       "phone": "(714) 979-8000",
       "place_id": "ChIJOZ_RECDf3IARQavc8dVjUbY",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-15T20:22:12Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -5699,6 +5706,8 @@
       "phone": "(714) 880-4489",
       "place_id": "ChIJo5jWdOQn3YARmJ1bQwsaRko",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-15T20:22:12Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -5763,6 +5772,8 @@
       "phone": "(714) 587-9171",
       "place_id": "ChIJ9XusitUh3YAR1zCpF-iUMpM",
       "primary_type": "bagel_shop",
+      "specials_checked_at": "2026-09-15T20:22:12Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bagel_shop",
@@ -5830,6 +5841,8 @@
       "phone": "(714) 377-7100",
       "place_id": "ChIJPVAqmTMh3YARojdR5RQ7eE4",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-09-15T20:22:12Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -5895,6 +5908,8 @@
       "phone": "(714) 852-3339",
       "place_id": "ChIJhYgNZFbf3IARVk9DzfflU3Q",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-09-15T20:22:12Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -5960,6 +5975,8 @@
       "phone": "(657) 301-2050",
       "place_id": "ChIJMTgYDw8h3YARVsmbx6t7WSA",
       "primary_type": "cafe",
+      "specials_checked_at": "2026-09-15T20:22:12Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
@@ -6024,6 +6041,8 @@
       "phone": "(714) 494-9609",
       "place_id": "ChIJhQt9_grf3IARdH5vIWRBz7o",
       "primary_type": "bagel_shop",
+      "specials_checked_at": "2026-09-15T20:22:12Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bagel_shop",
@@ -6175,7 +6194,16 @@
       "phone": "(714) 377-7090",
       "place_id": "ChIJpw5Po4En3YARFsHNXzkckUI",
       "primary_type": "korean_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-15T20:22:12Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Bon Tofu Special",
+          "url": "http://www.bontofu.net/?location=A49TAF1QMVP87"
+        }
+      ],
       "types": [
         "korean_restaurant",
         "restaurant",
@@ -6240,9 +6268,12 @@
       "phone": "(714) 852-3734",
       "place_id": "ChIJLdSek2Df3IARnMx5gTbL5Ng",
       "primary_type": "korean_restaurant",
+      "specials_checked_at": "2026-09-15T20:22:12Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://restaurants.bonchon.com/locations/ca/costa-mesa/1534-adams-ave-suite-b"
         }
