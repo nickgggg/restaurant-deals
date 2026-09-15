@@ -1,6 +1,6 @@
 {
   "extraction_version": 4,
-  "generated_at": "2026-09-15T20:39:08Z",
+  "generated_at": "2026-09-15T22:07:45Z",
   "model": "gemini-3.5-flash-lite",
   "pages": [
     {
@@ -697,9 +697,9 @@
     {
       "content_hash": "6c28d9c48a95cfb9ae0de36f245646665d18fd8c9483da60578552f50b10c3db",
       "deals": [],
-      "extracted_at": "2026-09-15T15:53:24Z",
-      "extraction_version": 3,
-      "fetch_mode": "rendered",
+      "extracted_at": "2026-09-15T22:04:18Z",
+      "extraction_version": 4,
+      "fetch_mode": "visual",
       "key": "27cedd3ff6a7f4137057",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -820,7 +820,24 @@
         ],
         "website_url": "http://www.arbys.com/locations/us/ca/huntington-beach/19051-brookhurst-st/store-808?utm_source=google-my-business&utm_medium=organic&utm_campaign=website-link&y_source=1_MjAyMzUyMzgzMC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
-      "status": "no_deals"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 315606,
+          "content_hash": "3199b097aa6faea14b532a2cbf1582ed671a0e20c94bf64a0c9c64436cf9d9c4",
+          "mime_type": "application/pdf",
+          "url": "https://assets.ctfassets.net/30q5w5l98nbx/7tnKsXR1Kif6Uc7NiDwDmn/f1032e4b9027b7e61be6a93a911c0bf2/Arbys_Nutritional_and_Allergen_SEPT_2026.pdf"
+        },
+        {
+          "byte_size": 139949,
+          "content_hash": "ab1e22ef0662e6536c465809f6e4bf80b772370d6337f2bfe424857952c86f41",
+          "mime_type": "image/gif",
+          "url": "https://www.arbys.com/brands/inspire/heart.gif"
+        }
+      ],
+      "visual_checked_at": "2026-09-15T22:04:18Z",
+      "visual_hash": "124afe70a99490c110e2ad91c7765931c05abfe57fa69afdc43c3a86d538a60a",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "a93420cee8caf815932bf5c4496ca78c6d0052c3e3433cfd8ebf377743a05f1e",
@@ -3268,6 +3285,1823 @@
       "status": "ok"
     },
     {
+      "content_hash": "721e9f359661fb67932847da15bb3b66670284743eba89e10ca1c0b20b1a0bd9",
+      "deals": [
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "All active military eat for free"
+          ],
+          "source_evidence": [
+            "All active military eat for free and vets only pay raw cost (roughly 50% off)."
+          ],
+          "summary": "Active military eat for free at Calico Fish House",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Vets only pay raw cost, which is roughly 50% off"
+          ],
+          "source_evidence": [
+            "All active military eat for free and vets only pay raw cost (roughly 50% off)."
+          ],
+          "summary": "Veterans pay raw cost (roughly 50% off) on meals",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T22:04:55Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "de3dacae8e96d1411c3e",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Daily Specials",
+        "url": "http://calico-restaurant.com/daily-specials"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "16600 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11830496158333263672&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7206563,
+        "longitude": -118.07317309999998,
+        "name": "Calico Fish House",
+        "phone": "(562) 357-4012",
+        "place_id": "ChIJZ5sO_Ikl3YARON8TSpNdLqQ",
+        "primary_type": "seafood_restaurant",
+        "specials_checked_at": "2026-09-15T22:02:24Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "http://calico-restaurant.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Dailyspecials",
+            "url": "http://calico-restaurant.com/dailyspecials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Deals",
+            "url": "http://calico-restaurant.com/deals"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Happy Hour",
+            "url": "http://calico-restaurant.com/happy-hour"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Promotions",
+            "url": "http://calico-restaurant.com/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "http://calico-restaurant.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Lunch",
+            "url": "http://calico-restaurant.com/weekday-lunch"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "http://calico-restaurant.com/weekday-specials"
+          }
+        ],
+        "types": [
+          "seafood_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://calico-restaurant.com/"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "721e9f359661fb67932847da15bb3b66670284743eba89e10ca1c0b20b1a0bd9",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "All active military eat for free"
+          ],
+          "source_evidence": [
+            "All active military eat for free"
+          ],
+          "summary": "Free meals for active military members",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Vets only pay raw cost, roughly 50 percent off"
+          ],
+          "source_evidence": [
+            "vets only pay raw cost (roughly 50% off)"
+          ],
+          "summary": "Roughly 50 percent off for veterans",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T22:05:03Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "188434ab863f3377b763",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Dailyspecials",
+        "url": "http://calico-restaurant.com/dailyspecials"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "16600 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11830496158333263672&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7206563,
+        "longitude": -118.07317309999998,
+        "name": "Calico Fish House",
+        "phone": "(562) 357-4012",
+        "place_id": "ChIJZ5sO_Ikl3YARON8TSpNdLqQ",
+        "primary_type": "seafood_restaurant",
+        "specials_checked_at": "2026-09-15T22:02:24Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "http://calico-restaurant.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Dailyspecials",
+            "url": "http://calico-restaurant.com/dailyspecials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Deals",
+            "url": "http://calico-restaurant.com/deals"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Happy Hour",
+            "url": "http://calico-restaurant.com/happy-hour"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Promotions",
+            "url": "http://calico-restaurant.com/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "http://calico-restaurant.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Lunch",
+            "url": "http://calico-restaurant.com/weekday-lunch"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "http://calico-restaurant.com/weekday-specials"
+          }
+        ],
+        "types": [
+          "seafood_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://calico-restaurant.com/"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "721e9f359661fb67932847da15bb3b66670284743eba89e10ca1c0b20b1a0bd9",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "All active military eat for free"
+          ],
+          "source_evidence": [
+            "All active military eat for free"
+          ],
+          "summary": "Active military members eat for free",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Vets only pay raw cost (roughly 50% off)"
+          ],
+          "source_evidence": [
+            "vets only pay raw cost (roughly 50% off)"
+          ],
+          "summary": "Veterans receive raw cost pricing on meals",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T22:05:11Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "73c9865ff8981a51fb83",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Deals",
+        "url": "http://calico-restaurant.com/deals"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "16600 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11830496158333263672&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7206563,
+        "longitude": -118.07317309999998,
+        "name": "Calico Fish House",
+        "phone": "(562) 357-4012",
+        "place_id": "ChIJZ5sO_Ikl3YARON8TSpNdLqQ",
+        "primary_type": "seafood_restaurant",
+        "specials_checked_at": "2026-09-15T22:02:24Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "http://calico-restaurant.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Dailyspecials",
+            "url": "http://calico-restaurant.com/dailyspecials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Deals",
+            "url": "http://calico-restaurant.com/deals"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Happy Hour",
+            "url": "http://calico-restaurant.com/happy-hour"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Promotions",
+            "url": "http://calico-restaurant.com/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "http://calico-restaurant.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Lunch",
+            "url": "http://calico-restaurant.com/weekday-lunch"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "http://calico-restaurant.com/weekday-specials"
+          }
+        ],
+        "types": [
+          "seafood_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://calico-restaurant.com/"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "721e9f359661fb67932847da15bb3b66670284743eba89e10ca1c0b20b1a0bd9",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "All active military eat for free"
+          ],
+          "source_evidence": [
+            "All active military eat for free"
+          ],
+          "summary": "Active military personnel eat for free",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Veterans only pay raw cost, which is roughly 50% off"
+          ],
+          "source_evidence": [
+            "vets only pay raw cost (roughly 50% off)"
+          ],
+          "summary": "Veterans pay raw cost (roughly 50% off)",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T22:05:19Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "8a8f8f05d3c281a896c3",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Happy Hour",
+        "url": "http://calico-restaurant.com/happy-hour"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "16600 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11830496158333263672&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7206563,
+        "longitude": -118.07317309999998,
+        "name": "Calico Fish House",
+        "phone": "(562) 357-4012",
+        "place_id": "ChIJZ5sO_Ikl3YARON8TSpNdLqQ",
+        "primary_type": "seafood_restaurant",
+        "specials_checked_at": "2026-09-15T22:02:24Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "http://calico-restaurant.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Dailyspecials",
+            "url": "http://calico-restaurant.com/dailyspecials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Deals",
+            "url": "http://calico-restaurant.com/deals"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Happy Hour",
+            "url": "http://calico-restaurant.com/happy-hour"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Promotions",
+            "url": "http://calico-restaurant.com/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "http://calico-restaurant.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Lunch",
+            "url": "http://calico-restaurant.com/weekday-lunch"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "http://calico-restaurant.com/weekday-specials"
+          }
+        ],
+        "types": [
+          "seafood_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://calico-restaurant.com/"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "721e9f359661fb67932847da15bb3b66670284743eba89e10ca1c0b20b1a0bd9",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "All active military personnel eat for free"
+          ],
+          "source_evidence": [
+            "All active military eat for free"
+          ],
+          "summary": "Active military eat for free",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Veterans only pay raw cost, roughly 50% off"
+          ],
+          "source_evidence": [
+            "vets only pay raw cost (roughly 50% off)"
+          ],
+          "summary": "Veterans get raw cost (roughly 50% off)",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T22:05:27Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "10170648f00817b2ff11",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Promotions",
+        "url": "http://calico-restaurant.com/promotions"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "16600 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11830496158333263672&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7206563,
+        "longitude": -118.07317309999998,
+        "name": "Calico Fish House",
+        "phone": "(562) 357-4012",
+        "place_id": "ChIJZ5sO_Ikl3YARON8TSpNdLqQ",
+        "primary_type": "seafood_restaurant",
+        "specials_checked_at": "2026-09-15T22:02:24Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "http://calico-restaurant.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Dailyspecials",
+            "url": "http://calico-restaurant.com/dailyspecials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Deals",
+            "url": "http://calico-restaurant.com/deals"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Happy Hour",
+            "url": "http://calico-restaurant.com/happy-hour"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Promotions",
+            "url": "http://calico-restaurant.com/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "http://calico-restaurant.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Lunch",
+            "url": "http://calico-restaurant.com/weekday-lunch"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "http://calico-restaurant.com/weekday-specials"
+          }
+        ],
+        "types": [
+          "seafood_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://calico-restaurant.com/"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "721e9f359661fb67932847da15bb3b66670284743eba89e10ca1c0b20b1a0bd9",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "All active military eat for free"
+          ],
+          "source_evidence": [
+            "All active military eat for free"
+          ],
+          "summary": "Active military personnel eat for free",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Vets only pay raw cost (roughly 50% off)"
+          ],
+          "source_evidence": [
+            "vets only pay raw cost (roughly 50% off)"
+          ],
+          "summary": "Veterans receive roughly 50 percent off paying raw cost",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T22:05:35Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "c27ec0c059fca1955bac",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Specials",
+        "url": "http://calico-restaurant.com/specials"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "16600 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11830496158333263672&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7206563,
+        "longitude": -118.07317309999998,
+        "name": "Calico Fish House",
+        "phone": "(562) 357-4012",
+        "place_id": "ChIJZ5sO_Ikl3YARON8TSpNdLqQ",
+        "primary_type": "seafood_restaurant",
+        "specials_checked_at": "2026-09-15T22:02:24Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "http://calico-restaurant.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Dailyspecials",
+            "url": "http://calico-restaurant.com/dailyspecials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Deals",
+            "url": "http://calico-restaurant.com/deals"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Happy Hour",
+            "url": "http://calico-restaurant.com/happy-hour"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Promotions",
+            "url": "http://calico-restaurant.com/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "http://calico-restaurant.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Lunch",
+            "url": "http://calico-restaurant.com/weekday-lunch"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "http://calico-restaurant.com/weekday-specials"
+          }
+        ],
+        "types": [
+          "seafood_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://calico-restaurant.com/"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "721e9f359661fb67932847da15bb3b66670284743eba89e10ca1c0b20b1a0bd9",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "All active military personnel eat for free"
+          ],
+          "source_evidence": [
+            "All active military eat for free"
+          ],
+          "summary": "Active military eat for free",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Vets only pay raw cost, which is roughly 50 percent off"
+          ],
+          "source_evidence": [
+            "vets only pay raw cost (roughly 50% off)"
+          ],
+          "summary": "Veterans get roughly 50 percent off at raw cost",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T22:05:43Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "68314a7006f77e2142d8",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Weekday Lunch",
+        "url": "http://calico-restaurant.com/weekday-lunch"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "16600 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11830496158333263672&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7206563,
+        "longitude": -118.07317309999998,
+        "name": "Calico Fish House",
+        "phone": "(562) 357-4012",
+        "place_id": "ChIJZ5sO_Ikl3YARON8TSpNdLqQ",
+        "primary_type": "seafood_restaurant",
+        "specials_checked_at": "2026-09-15T22:02:24Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "http://calico-restaurant.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Dailyspecials",
+            "url": "http://calico-restaurant.com/dailyspecials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Deals",
+            "url": "http://calico-restaurant.com/deals"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Happy Hour",
+            "url": "http://calico-restaurant.com/happy-hour"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Promotions",
+            "url": "http://calico-restaurant.com/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "http://calico-restaurant.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Lunch",
+            "url": "http://calico-restaurant.com/weekday-lunch"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "http://calico-restaurant.com/weekday-specials"
+          }
+        ],
+        "types": [
+          "seafood_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://calico-restaurant.com/"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "721e9f359661fb67932847da15bb3b66670284743eba89e10ca1c0b20b1a0bd9",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "All active military eat for free"
+          ],
+          "source_evidence": [
+            "All active military eat for free"
+          ],
+          "summary": "Active military eat for free",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Veterans only pay raw cost, roughly 50% off"
+          ],
+          "source_evidence": [
+            "vets only pay raw cost (roughly 50% off)"
+          ],
+          "summary": "Veterans pay raw cost (roughly 50% off)",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T22:05:51Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "3f5da459cef5dc7d30fd",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Weekday Specials",
+        "url": "http://calico-restaurant.com/weekday-specials"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "16600 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11830496158333263672&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7206563,
+        "longitude": -118.07317309999998,
+        "name": "Calico Fish House",
+        "phone": "(562) 357-4012",
+        "place_id": "ChIJZ5sO_Ikl3YARON8TSpNdLqQ",
+        "primary_type": "seafood_restaurant",
+        "specials_checked_at": "2026-09-15T22:02:24Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "http://calico-restaurant.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Dailyspecials",
+            "url": "http://calico-restaurant.com/dailyspecials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Deals",
+            "url": "http://calico-restaurant.com/deals"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Happy Hour",
+            "url": "http://calico-restaurant.com/happy-hour"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Promotions",
+            "url": "http://calico-restaurant.com/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "http://calico-restaurant.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Lunch",
+            "url": "http://calico-restaurant.com/weekday-lunch"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "http://calico-restaurant.com/weekday-specials"
+          }
+        ],
+        "types": [
+          "seafood_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://calico-restaurant.com/"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "2f54da97e82d3d7151c2dd4d2bf2d5ed2520e7e1e3eab0801c5ed880aaebcbc5",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [
+            29
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Buy one get one free Gnocchi",
+            "Valid on the 29th of the month"
+          ],
+          "source_evidence": [
+            "Every 29th of the month is Gnocchi Day, buy one get one free!"
+          ],
+          "summary": "Gnocchi Day Buy One Get One Free",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "wednesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Buy one, get one free pizza",
+            "Free pizza will be the lessor price"
+          ],
+          "source_evidence": [
+            "Wednesday",
+            "Pizza Bogo- Buy one, get one free!",
+            "(Free pizza will be the lessor price)",
+            "11:00 AM - 08:00 PM"
+          ],
+          "summary": "Pizza Bogo Buy One Get One Free",
+          "time_window": "11:00 AM - 08:00 PM",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T22:05:59Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "5ec842ef062a1961f366",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Daily Specials",
+        "url": "http://www.cambalachegrill.com/daily-specials"
+      },
+      "rejected_candidates": [
+        "Empanada Tuesday 1/2 Price"
+      ],
+      "restaurant": {
+        "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Fountain Valley",
+        "google_maps_url": "https://maps.google.com/?cid=9498211700790055897&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7152463,
+        "longitude": -117.9758035,
+        "name": "Cambalache Grill Argentine & Italian Cuisine",
+        "phone": "(714) 375-3305",
+        "place_id": "ChIJwddf-vwm3YAR2dMM2zdt0IM",
+        "primary_type": "argentinian_restaurant",
+        "specials_checked_at": "2026-09-15T22:02:24Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "http://www.cambalachegrill.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "http://www.cambalachegrill.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "http://www.cambalachegrill.com/weekday-specials"
+          },
+          {
+            "confidence": "medium",
+            "discovered_via": "site_link",
+            "label": "Specials",
+            "url": "http://www.cambalachegrill.com/fountain-valley-fountain-valley-cambalache-grill-argentine-and-italian-cuisine-happy-hours-specials"
+          }
+        ],
+        "types": [
+          "argentinian_restaurant",
+          "italian_restaurant",
+          "south_american_restaurant",
+          "european_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.cambalachegrill.com/"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "2f54da97e82d3d7151c2dd4d2bf2d5ed2520e7e1e3eab0801c5ed880aaebcbc5",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [
+            29
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Buy one get one free on Gnocchi Day"
+          ],
+          "source_evidence": [
+            "Every 29th of the month is Gnocchi Day, buy one get one free!"
+          ],
+          "summary": "Gnocchi Day - Buy One Get One Free",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "wednesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Buy one get one free",
+            "Free pizza will be the lessor price"
+          ],
+          "source_evidence": [
+            "Wednesday",
+            "Pizza Bogo- Buy one, get one free!",
+            "(Free pizza will be the lessor price)",
+            "11:00 AM - 08:00 PM"
+          ],
+          "summary": "Pizza Bogo - Buy One Get One Free",
+          "time_window": "11:00 AM - 08:00 PM",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T22:06:07Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "bb320af01f0227e17e6a",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Specials",
+        "url": "http://www.cambalachegrill.com/specials"
+      },
+      "rejected_candidates": [
+        "Empanada Tuesday - 1/2 Price"
+      ],
+      "restaurant": {
+        "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Fountain Valley",
+        "google_maps_url": "https://maps.google.com/?cid=9498211700790055897&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7152463,
+        "longitude": -117.9758035,
+        "name": "Cambalache Grill Argentine & Italian Cuisine",
+        "phone": "(714) 375-3305",
+        "place_id": "ChIJwddf-vwm3YAR2dMM2zdt0IM",
+        "primary_type": "argentinian_restaurant",
+        "specials_checked_at": "2026-09-15T22:02:24Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "http://www.cambalachegrill.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "http://www.cambalachegrill.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "http://www.cambalachegrill.com/weekday-specials"
+          },
+          {
+            "confidence": "medium",
+            "discovered_via": "site_link",
+            "label": "Specials",
+            "url": "http://www.cambalachegrill.com/fountain-valley-fountain-valley-cambalache-grill-argentine-and-italian-cuisine-happy-hours-specials"
+          }
+        ],
+        "types": [
+          "argentinian_restaurant",
+          "italian_restaurant",
+          "south_american_restaurant",
+          "european_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.cambalachegrill.com/"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "2f54da97e82d3d7151c2dd4d2bf2d5ed2520e7e1e3eab0801c5ed880aaebcbc5",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [
+            29
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Every 29th of the month is Gnocchi Day, buy one get one free!"
+          ],
+          "source_evidence": [
+            "Every 29th of the month is Gnocchi Day, buy one get one free!"
+          ],
+          "summary": "Gnocchi Day Buy One Get One Free",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "All cooked empanadas are 1/2 price!"
+          ],
+          "source_evidence": [
+            "Tuesday",
+            "Empanada Tuesday- All cooked empanadas are 1/2 price!",
+            "11:00 AM - 08:00 PM"
+          ],
+          "summary": "Empanada Tuesday Half Price",
+          "time_window": "11:00 AM - 08:00 PM",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "wednesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Buy one, get one free!",
+            "Free pizza will be the lessor price"
+          ],
+          "source_evidence": [
+            "Wednesday",
+            "Pizza Bogo- Buy one, get one free!",
+            "(Free pizza will be the lessor price)",
+            "11:00 AM - 08:00 PM"
+          ],
+          "summary": "Pizza BOGO Buy One Get One Free",
+          "time_window": "11:00 AM - 08:00 PM",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T22:06:15Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "82242d92e8187e33fda7",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Weekday Specials",
+        "url": "http://www.cambalachegrill.com/weekday-specials"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Fountain Valley",
+        "google_maps_url": "https://maps.google.com/?cid=9498211700790055897&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7152463,
+        "longitude": -117.9758035,
+        "name": "Cambalache Grill Argentine & Italian Cuisine",
+        "phone": "(714) 375-3305",
+        "place_id": "ChIJwddf-vwm3YAR2dMM2zdt0IM",
+        "primary_type": "argentinian_restaurant",
+        "specials_checked_at": "2026-09-15T22:02:24Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "http://www.cambalachegrill.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "http://www.cambalachegrill.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "http://www.cambalachegrill.com/weekday-specials"
+          },
+          {
+            "confidence": "medium",
+            "discovered_via": "site_link",
+            "label": "Specials",
+            "url": "http://www.cambalachegrill.com/fountain-valley-fountain-valley-cambalache-grill-argentine-and-italian-cuisine-happy-hours-specials"
+          }
+        ],
+        "types": [
+          "argentinian_restaurant",
+          "italian_restaurant",
+          "south_american_restaurant",
+          "european_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.cambalachegrill.com/"
+      },
+      "status": "ok"
+    },
+    {
       "content_hash": "359768397cffda93817f41931a01c5177b9ba8cd6b97525c6b4d10180b56b039",
       "deals": [
         {
@@ -3622,7 +5456,9 @@
     {
       "content_hash": "f7579f264fb7ef0471052f9275bb140397693231b41347c9795d820b1fdb428c",
       "deals": [],
-      "extracted_at": "2026-09-10T16:29:00Z",
+      "extracted_at": "2026-09-15T22:04:27Z",
+      "extraction_version": 4,
+      "fetch_mode": "visual",
       "key": "5a1054721bf61e6e0dac",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -3730,7 +5566,18 @@
         ],
         "website_url": "https://chailocoffeeclub.com/"
       },
-      "status": "no_deals"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 581527,
+          "content_hash": "70e0349f0e1363ef33e051becf6bba3784de3da835c47e9db92bf9c07a8cb044",
+          "mime_type": "image/png",
+          "url": "https://media.base44.com/images/public/6a0beec3a3b6413c4de9d079/3c4265348_logo.png"
+        }
+      ],
+      "visual_checked_at": "2026-09-15T22:04:27Z",
+      "visual_hash": "cb1cf58bad16f3483aff29be3ca10039bcacc6520a11d96ef9340ec91ff8ce27",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "a05897c2a55640f83cfec902f25d06795ece22ecadd8501270dfb364e95ef628",
@@ -5559,17 +7406,251 @@
       "status": "ok"
     },
     {
-      "content_hash": "",
-      "deals": [],
-      "error": "RuntimeError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
+      "content_hash": "a01f69eb9ee6facc9de61abdeefe8bf0871cf2945427a4aa347901a8b8cba218",
+      "deals": [
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "$11.00",
+            "Includes one slice, salad, and drink"
+          ],
+          "source_evidence": [
+            "#1) One Slice, Salad & Drink*",
+            "$11.00"
+          ],
+          "summary": "Lunch Special #1: One Slice, Salad & Drink",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "$10.75",
+            "Includes 2 slices and drink"
+          ],
+          "source_evidence": [
+            "#1A) 2 Slices & Drink*",
+            "$10.75"
+          ],
+          "summary": "Lunch Special #1A: 2 Slices & Drink",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "$12.00",
+            "Includes sandwich, chips, and drink"
+          ],
+          "source_evidence": [
+            "#2) Sandwich, Chips & Drink",
+            "$12.00"
+          ],
+          "summary": "Lunch Special #2: Sandwich, Chips & Drink",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "$14.00",
+            "Includes mini pizza with 2 toppings and 2 drinks"
+          ],
+          "source_evidence": [
+            "#3) Mini Pizza with 2 Toppings & 2 Drink",
+            "$14.00"
+          ],
+          "summary": "Lunch Special #3: Mini Pizza with 2 Toppings & 2 Drinks",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "$10.75",
+            "Includes Deluxe Salad (Antipasto, Turkey, Chef or Vegetarian) and drink"
+          ],
+          "source_evidence": [
+            "#4) Deluxe Salad & Drink",
+            "$10.75"
+          ],
+          "summary": "Lunch Special #4: Deluxe Salad & Drink",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "$11.75",
+            "Includes Deluxe Chicken Salad (Chicken Caesar, Oriental Chicken or BBQ Chicken) and drink"
+          ],
+          "source_evidence": [
+            "#4A) Deluxe Chicken Salad & Drink",
+            "$11.75"
+          ],
+          "summary": "Lunch Special #4A: Deluxe Chicken Salad & Drink",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "$8.50",
+            "Includes dinner salad, garlic bread, and drink"
+          ],
+          "source_evidence": [
+            "#5) Dinner Salad, Garlic Bread & Drink",
+            "$8.50"
+          ],
+          "summary": "Lunch Special #5: Dinner Salad, Garlic Bread & Drink",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "$11.50",
+            "Includes spaghetti with meat or marinara sauce, garlic bread, and drink"
+          ],
+          "source_evidence": [
+            "#6) Spaghetti, Garlic Bread & Drink",
+            "$11.50"
+          ],
+          "summary": "Lunch Special #6: Spaghetti, Garlic Bread & Drink",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "$12.00",
+            "Includes 2 slices, salad, and drink"
+          ],
+          "source_evidence": [
+            "#7) 2 Slices, Salad & Drink*",
+            "$12.00"
+          ],
+          "summary": "Lunch Special #7: 2 Slices, Salad & Drink",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "$13.00",
+            "Includes 8 buffalo wings with ranch or bleu cheese, and drink"
+          ],
+          "source_evidence": [
+            "#8) 8 Buffalo Wings & Drink",
+            "$13.00"
+          ],
+          "summary": "Lunch Special #8: 8 Buffalo Wings & Drink",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "$1.00 off all pints, big mugs, glasses of vino, and 1 lb wings",
+            "$2.00 off 1/2 pitchers and combo platters",
+            "$3.00 off all pitchers and ultimate combo platter (3 lb wings)",
+            "$4.00 off all table kegs, all bottles of vino, and 5 lb wings",
+            "Dine in only"
+          ],
+          "source_evidence": [
+            "Monday Thru Friday",
+            "3pm to 6pm",
+            "$1.00 off",
+            "Dine In Only"
+          ],
+          "summary": "Happy Hour drinks and wings specials",
+          "time_window": "3pm to 6pm",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T22:06:26Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "1f50426f98033f11c9e1",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
         "label": "Happy Hour",
         "url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "10130 Warner Ave H, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -5651,7 +7732,7 @@
         ],
         "website_url": "https://www.bestpizzafountainvalleyca.com/"
       },
-      "status": "fetch_failed"
+      "status": "ok"
     },
     {
       "content_hash": "a9cfe3399dff1c4e618ebac3a4e96b374499f61e3e82599fc641e145bdc63b87",
@@ -6848,9 +8929,86 @@
       "visual_status": "no_deals"
     },
     {
-      "content_hash": "b2c5fbf3d60cf2b751b69171a57cc1f6423411ddb8a80c682217e4c0b600c8c5",
-      "deals": [],
-      "extracted_at": "2026-09-15T20:25:07Z",
+      "content_hash": "de6a14927c954db121dee05794e2c2ba80912215f2e59dc17055e69d1007d138",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Whole Chicken Pie served with gravy, cranberry sauce, fresh house salad, and freshly baked dinner rolls",
+            "Feeds 4 or more",
+            "Only $40 in August and September"
+          ],
+          "source_evidence": [
+            "Our famous whole Chicken Pie served with gravy, cranberry sauce, a fresh house salad, and freshly baked dinner rolls. A comforting homestyle meal that feeds 4 or more. Only $40 in August and September!"
+          ],
+          "summary": "Chicken Pie Family Meal",
+          "time_window": null,
+          "valid_through": "2026-09-30"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Classic meatloaf topped with tangy tomato ketchup glaze, red-skin smashed potatoes, gravy, fresh house salad, and freshly baked dinner rolls",
+            "Feeds 4 or more",
+            "Only $40 in August and September"
+          ],
+          "source_evidence": [
+            "Our classic meatloaf topped with a tangy tomato ketchup glaze, served with red-skin smashed potatoes, gravy, a fresh house salad, and freshly baked dinner rolls. Homestyle comfort for the whole family, feeding 4 or more. Only $40 in August and September!"
+          ],
+          "summary": "Meatloaf Family Meal",
+          "time_window": null,
+          "valid_through": "2026-09-30"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Oven-roasted turkey with homestyle stuffing, red-skin smashed potatoes, turkey gravy, southern-style green beans, cranberry sauce, and freshly baked dinner rolls",
+            "Feeds 4 or more",
+            "Only $40 in August and September"
+          ],
+          "source_evidence": [
+            "Oven-roasted turkey served with homestyle stuffing, red-skin smashed potatoes, turkey gravy, southern-style green beans, cranberry sauce, and freshly baked dinner rolls. A classic comfort meal that feeds 4 or more. Only $40 in August and September!"
+          ],
+          "summary": "Turkey Dinner Family Meal",
+          "time_window": null,
+          "valid_through": "2026-09-30"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Creamy Alfredo penne pasta with fresh house salad and freshly baked dinner rolls",
+            "Feeds 4 or more",
+            "Only $40 in August and September"
+          ],
+          "source_evidence": [
+            "Creamy Alfredo penne pasta served with a fresh house salad and freshly baked dinner rolls. A satisfying family favorite that feeds 4 or more. Only $40 in August and September!"
+          ],
+          "summary": "Alfredo Pasta Family Meal",
+          "time_window": null,
+          "valid_through": "2026-09-30"
+        }
+      ],
+      "extracted_at": "2026-09-15T22:06:36Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "25a01014d92294a24f29",
@@ -6860,10 +9018,7 @@
         "label": "Specials",
         "url": "https://www.pollyspies.com/menu/family-meal-deals/?utm_source=Website&utm_medium=Home-Slider&utm_campaign=8-4-26-family-meal-deals"
       },
-      "rejected_candidates": [
-        "Weekday Breakfast Specials with coffee or tea",
-        "Lunch & Munch Combos with cookie and drink"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "9791 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -6942,7 +9097,7 @@
         ],
         "website_url": "https://www.pollyspies.com/"
       },
-      "status": "no_deals"
+      "status": "ok"
     },
     {
       "content_hash": "10cbc916254331620be5cec73a073bbe028a4def8110621c71f925d325a6278d",
@@ -8445,17 +10600,52 @@
       "status": "fetch_failed"
     },
     {
-      "content_hash": "",
-      "deals": [],
-      "error": "RuntimeError: HTTP Error 429: Too Many Requests",
+      "content_hash": "503fc60af22ff85643f20e389667dec6e7a2112175ab88cedca87c4e9cfb2bec",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Only available in the Trenta Lounge",
+            "$2 OFF All Signature Cocktails, Wines by the Glass, and Beer",
+            "CHARCUTERIE ($20): Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
+            "CALAMARI FRITTI ($18): Fried Calamari/lemon/garlic-chili aioli",
+            "CANNOLO SALATO ($12): Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
+            "BRUSCHETTA TRADIZIONALE ($10): Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil"
+          ],
+          "source_evidence": [
+            "Monday through Thursday",
+            "From 5 to 6:30pm",
+            "All Signature Cocktails, Wines by the Glass, and Beer",
+            "$2 OFF",
+            "CHARCUTERIE"
+          ],
+          "summary": "Happy Hour: $2 off drinks and discounted appetizers",
+          "time_window": "5:00 PM - 6:30 PM",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T22:06:44Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "c5dfe3a5e43aa69be29a",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
         "label": "Happy Hour | Mon - Thur 5pm - 6:30pm",
         "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2027-02-16-17-00"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "1661 Superior Ave Ste d, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -8559,20 +10749,54 @@
         ],
         "website_url": "https://trentapizza.com/"
       },
-      "status": "fetch_failed"
+      "status": "ok"
     },
     {
-      "content_hash": "",
-      "deals": [],
-      "error": "RuntimeError: HTTP Error 403: Forbidden",
+      "content_hash": "eeebac38e7961dd99ee7ac4bbd0df1086b2dfde95025cb2d5114ed2d4a2e3e42",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Prosciutto, Fig Butter, Gorgonzola & Arugula Flatbread for $9.00",
+            "Heirloom Tomato/Margherita Flatbread for $8.00",
+            "Spanish Chorizo Flatbread for $8.00",
+            "Pretzel Bites with House Made Spinach/Jalapeno Dip for $8.00",
+            "Pretzel Bites w/House-Made Mustard for $7.00",
+            "Pretzel Bites with Both Dips for $9.00",
+            "Glass of House Wine for $6.50",
+            "Any Craft Beer for $6.00"
+          ],
+          "source_evidence": [
+            "Join us for happy hour Monday - Friday, 4pm - 6pm."
+          ],
+          "summary": "Happy Hour Bar Bites and Drinks Specials",
+          "time_window": "4pm - 6pm",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T22:06:52Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "e1001e09911ed4522867",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
         "label": "Happy Hour",
         "url": "http://triplecrowntavern.com/happy-hour"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "714 Adams Ave Unit 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -8650,7 +10874,7 @@
         ],
         "website_url": "http://triplecrowntavern.com/"
       },
-      "status": "fetch_failed"
+      "status": "ok"
     },
     {
       "content_hash": "1f5356a6119a37baf78d893e592714c82c16d63cc66906b40cb101d226eeccc0",
@@ -8873,121 +11097,6 @@
       "visual_checked_at": "2026-09-15T18:29:28Z",
       "visual_hash": "005ae3c127876c100d744744630344ed0bee9deb44d02ab91d0e9fb6346c500b",
       "visual_status": "no_deals"
-    },
-    {
-      "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
-      "deals": [],
-      "extracted_at": "2026-09-10T04:22:32Z",
-      "key": "a3ff1d2a0f58f65098fd",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "high",
-        "label": "Specials",
-        "url": "http://www.wienerschnitzel.com/coupons/"
-      },
-      "rejected_candidates": [
-        "$3 Pretzel Bun Chili Dog Coupon",
-        "$5 Corn Dog, Small Fries & Small Soda",
-        "$6 Two Chili Dogs & Chili Cheese Fries",
-        "$6 Two Sundaes Coupon",
-        "$5 Two Chili Dogs & Medium Fries",
-        "$6 Regular Size Two Classic Chili Cheese Fries",
-        "$6 Corn Dog, Chili Dog & Chili Cheese Fries",
-        "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
-        "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
-        "$2 Off Any Chili Cheese Fries",
-        "$16 Four Chili Dogs & Two Chili Cheese Fries",
-        "$20 Ten Chili Cheese Dogs"
-      ],
-      "restaurant": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "name": "Wienerschnitzel",
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
-        "primary_type": "fast_food_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "http://www.wienerschnitzel.com/coupons/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-          }
-        ],
-        "types": [
-          "fast_food_restaurant",
-          "ice_cream_shop",
-          "dessert_shop",
-          "hot_dog_restaurant",
-          "american_restaurant",
-          "confectionery",
-          "food_store",
-          "store",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
-      },
-      "status": "no_deals"
     },
     {
       "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
@@ -9322,6 +11431,121 @@
         "website_url": "http://www.wienerschnitzel.com/location/239-beach-blvd-talbert-huntington-beach-18012-beach-blvd-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "ok"
+    },
+    {
+      "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
+      "deals": [],
+      "extracted_at": "2026-09-10T04:22:32Z",
+      "key": "a3ff1d2a0f58f65098fd",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Specials",
+        "url": "http://www.wienerschnitzel.com/coupons/"
+      },
+      "rejected_candidates": [
+        "$3 Pretzel Bun Chili Dog Coupon",
+        "$5 Corn Dog, Small Fries & Small Soda",
+        "$6 Two Chili Dogs & Chili Cheese Fries",
+        "$6 Two Sundaes Coupon",
+        "$5 Two Chili Dogs & Medium Fries",
+        "$6 Regular Size Two Classic Chili Cheese Fries",
+        "$6 Corn Dog, Chili Dog & Chili Cheese Fries",
+        "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
+        "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
+        "$2 Off Any Chili Cheese Fries",
+        "$16 Four Chili Dogs & Two Chili Cheese Fries",
+        "$20 Ten Chili Cheese Dogs"
+      ],
+      "restaurant": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "name": "Wienerschnitzel",
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
+        "primary_type": "fast_food_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "http://www.wienerschnitzel.com/coupons/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "hot_dog_restaurant",
+          "american_restaurant",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+      },
+      "status": "no_deals"
     },
     {
       "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
@@ -12734,94 +14958,6 @@
     {
       "content_hash": "b9fce990c86015013d3f8f9f090495f55cbab7189f0fab11bcd8108262f139a4",
       "deals": [],
-      "extracted_at": "2026-09-10T19:04:54Z",
-      "key": "19cec4e1074e8465423c",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "medium",
-        "label": "Website specials",
-        "url": "http://www.carlitosdiner.com/"
-      },
-      "rejected_candidates": [
-        "Menudo and Pozole Everyday"
-      ],
-      "restaurant": {
-        "address": "7451 Warner Ave G, Huntington Beach, CA 92647, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=436858277318907960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "16:00",
-              "open": "08:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.716098,
-        "longitude": -117.99848000000001,
-        "name": "Carlitos Diner",
-        "phone": "(714) 841-9966",
-        "place_id": "ChIJB5cwb4om3YAROFjI5EkIEAY",
-        "primary_type": "mexican_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "medium",
-            "label": "Website specials",
-            "url": "http://www.carlitosdiner.com/"
-          }
-        ],
-        "types": [
-          "mexican_restaurant",
-          "american_restaurant",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.carlitosdiner.com/"
-      },
-      "status": "no_deals"
-    },
-    {
-      "content_hash": "b9fce990c86015013d3f8f9f090495f55cbab7189f0fab11bcd8108262f139a4",
-      "deals": [],
       "extracted_at": "2026-09-10T19:05:02Z",
       "key": "a48cca227805c135b5be",
       "model": "gemini-3.5-flash-lite",
@@ -12903,6 +15039,94 @@
           "diner",
           "breakfast_restaurant",
           "hamburger_restaurant",
+          "american_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.carlitosdiner.com/"
+      },
+      "status": "no_deals"
+    },
+    {
+      "content_hash": "b9fce990c86015013d3f8f9f090495f55cbab7189f0fab11bcd8108262f139a4",
+      "deals": [],
+      "extracted_at": "2026-09-10T19:04:54Z",
+      "key": "19cec4e1074e8465423c",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "medium",
+        "label": "Website specials",
+        "url": "http://www.carlitosdiner.com/"
+      },
+      "rejected_candidates": [
+        "Menudo and Pozole Everyday"
+      ],
+      "restaurant": {
+        "address": "7451 Warner Ave G, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=436858277318907960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "16:00",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.716098,
+        "longitude": -117.99848000000001,
+        "name": "Carlitos Diner",
+        "phone": "(714) 841-9966",
+        "place_id": "ChIJB5cwb4om3YAROFjI5EkIEAY",
+        "primary_type": "mexican_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "medium",
+            "label": "Website specials",
+            "url": "http://www.carlitosdiner.com/"
+          }
+        ],
+        "types": [
+          "mexican_restaurant",
           "american_restaurant",
           "restaurant",
           "food",
@@ -13232,7 +15456,9 @@
     {
       "content_hash": "adafa6dd0f8b8ae9f0b1a335a6c7f2db73154a6dc09671a768834101d5b1e17e",
       "deals": [],
-      "extracted_at": "2026-09-14T19:35:22Z",
+      "extracted_at": "2026-09-15T22:04:38Z",
+      "extraction_version": 4,
+      "fetch_mode": "visual",
       "key": "5688d79087f7aacb1f77",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -13309,12 +15535,37 @@
         ],
         "website_url": "https://crumblcookies.com/stores/ca/anaheim-area/cacostamesa?utm_source=google+business&utm_medium=profile&utm_campaign=CRUMBL-US+|+GOOGLE+BUSINESS+|+STORE+PAGE+|+ONGOING+|+CONSIDERATION+|+PROFILE"
       },
-      "status": "no_deals"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 559670,
+          "content_hash": "a2e7654dff082b6eb4a8cbcf700d61158ccb0c840edb0343025c17b9e424ad6c",
+          "mime_type": "image/webp",
+          "url": "https://crumbl.video/10db2c83-4f24-47dd-9b8f-51ef82636743_ChocolateChipCookie_OverheadAerial_NoShadow_TECH.png"
+        },
+        {
+          "byte_size": 3282064,
+          "content_hash": "2c80539f5da929ad55589f7dcf7f0a81a8de9dfe7f2f9dbbf6420e5d231d2948",
+          "mime_type": "image/png",
+          "url": "https://crumbl.video/158501ce-8660-4bb0-b698-283aea09e66e_ChocolateChipCookie_FlyingAerial_TECH.png"
+        },
+        {
+          "byte_size": 265992,
+          "content_hash": "05e39d2c4960effaa7ce1af5ea2ed3d54e7f4ebb1d213a0906a46e843e10cb11",
+          "mime_type": "image/webp",
+          "url": "https://crumbl.video/51f45de7-92e1-4501-9e1e-48866433fe28_BananaCreamPieCookie_OverheadAerial_NoShadow_TECH.png"
+        }
+      ],
+      "visual_checked_at": "2026-09-15T22:04:38Z",
+      "visual_hash": "a7f351228e04e0eb53c8676fa6db371c5bfb4508f51a9c9f0d278f4ba685a141",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "9a380f073887d2c50910a0d6c6c4361694d3fe78e33ef5a2d873bfcd9ce01548",
       "deals": [],
-      "extracted_at": "2026-09-14T19:35:30Z",
+      "extracted_at": "2026-09-15T22:04:48Z",
+      "extraction_version": 4,
+      "fetch_mode": "visual",
       "key": "79c0e08aa5fbe3cb2c6e",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -13391,7 +15642,30 @@
         ],
         "website_url": "https://crumblcookies.com/stores/ca/anaheim-area/cafountainvalley?utm_source=google+business&utm_medium=profile&utm_campaign=CRUMBL-US+%7C+GOOGLE+BUSINESS+%7C+STORE+PAGE+%7C+ONGOING+%7C+CONSIDERATION+%7C+PROFILE"
       },
-      "status": "no_deals"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 559670,
+          "content_hash": "a2e7654dff082b6eb4a8cbcf700d61158ccb0c840edb0343025c17b9e424ad6c",
+          "mime_type": "image/webp",
+          "url": "https://crumbl.video/10db2c83-4f24-47dd-9b8f-51ef82636743_ChocolateChipCookie_OverheadAerial_NoShadow_TECH.png"
+        },
+        {
+          "byte_size": 3282064,
+          "content_hash": "2c80539f5da929ad55589f7dcf7f0a81a8de9dfe7f2f9dbbf6420e5d231d2948",
+          "mime_type": "image/png",
+          "url": "https://crumbl.video/158501ce-8660-4bb0-b698-283aea09e66e_ChocolateChipCookie_FlyingAerial_TECH.png"
+        },
+        {
+          "byte_size": 265992,
+          "content_hash": "05e39d2c4960effaa7ce1af5ea2ed3d54e7f4ebb1d213a0906a46e843e10cb11",
+          "mime_type": "image/webp",
+          "url": "https://crumbl.video/51f45de7-92e1-4501-9e1e-48866433fe28_BananaCreamPieCookie_OverheadAerial_NoShadow_TECH.png"
+        }
+      ],
+      "visual_checked_at": "2026-09-15T22:04:48Z",
+      "visual_hash": "a7f351228e04e0eb53c8676fa6db371c5bfb4508f51a9c9f0d278f4ba685a141",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "90fcd610a26daad9854f2ee005f3ac91f1e7a912e9424c2837f771dcc679c22c",
@@ -14059,17 +16333,19 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "",
+      "content_hash": "559ec59d64308283008716fc04a0faacd460b7a402a3bdef26a4b7d50b43c7d9",
       "deals": [],
-      "error": "RuntimeError: HTTP Error 429: Too Many Requests",
+      "extracted_at": "2026-09-15T22:06:59Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "ddf585bfb1abde56db2b",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://www.dickchurchs.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "2698 Newport Blvd, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -14166,20 +16442,133 @@
         ],
         "website_url": "https://www.dickchurchs.com/"
       },
-      "status": "fetch_failed"
+      "status": "no_deals"
     },
     {
-      "content_hash": "",
-      "deals": [],
-      "error": "RuntimeError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
+      "content_hash": "5d197452931c38a0fb46843866829a07d8b07081d42dd60e448df3b4ff1cfe08",
+      "deals": [
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "Great drink specials"
+          ],
+          "source_evidence": [
+            "A sign that says happy hour great drink specials mon - fri from 3 pm"
+          ],
+          "summary": "Happy hour great drink specials",
+          "time_window": "from 3 pm",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "friday",
+            "saturday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "$3.95 shot specials"
+          ],
+          "source_evidence": [
+            "A sign that says karaoke night 's $ 3.95 shot specials",
+            "Karaoke night promotion. Friday and Saturday. Yellow and green text, $3.95 shot specials."
+          ],
+          "summary": "Karaoke night shot specials",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "sunday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "From $22.95"
+          ],
+          "source_evidence": [
+            "Sunday champagne brunch promotion, text in lime green and yellow:",
+            "Sunday Champagne Brunch advertised from $22.95 in yellow and green."
+          ],
+          "summary": "Sunday Champagne Brunch",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "$4.95",
+            "Cantina only"
+          ],
+          "source_evidence": [
+            "Taco Tuesday Fiesta Night sign, yellow and green text: $4.95, cantina only from 4 pm.",
+            "Taco Tuesday promotion: Fiesta Night at Cantina, $4.95, starting at 4 PM. Yellow and lime green text on white."
+          ],
+          "summary": "Taco Tuesday Fiesta Night",
+          "time_window": "from 4 pm",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "$7.95",
+            "Regular and fruit options available"
+          ],
+          "source_evidence": [
+            "Margarita specials sign: $7.95, Monday-Wednesday. Regular and fruit options available. Bright yellow text on white.",
+            "Margarita specials sign: neon green text on white. $7.95, Monday-Wednesday, Regular or Fruit."
+          ],
+          "summary": "Margarita specials",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T22:07:09Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "2279161ab176f86c117a",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://www.don-jose.com/"
       },
+      "rejected_candidates": [
+        "Daily lunch specials and Cantina food and drink specials"
+      ],
       "restaurant": {
         "address": "9093 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -14256,7 +16645,7 @@
         ],
         "website_url": "https://www.don-jose.com/"
       },
-      "status": "fetch_failed"
+      "status": "ok"
     },
     {
       "content_hash": "",
@@ -17968,17 +20357,19 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "",
+      "content_hash": "536b578587a0f71da8cb75d4731a521584bb7dffaf65355c997aa039cffd01c6",
       "deals": [],
-      "error": "RuntimeError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
+      "extracted_at": "2026-09-15T22:07:16Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "afe02a94e075f6831818",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://www.bestpizzafountainvalleyca.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "10130 Warner Ave H, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -18060,12 +20451,12 @@
         ],
         "website_url": "https://www.bestpizzafountainvalleyca.com/"
       },
-      "status": "fetch_failed"
+      "status": "no_deals"
     },
     {
-      "content_hash": "5c050851b5ddf229975cdddd6ccdac1a703600db8b50d5fc747d69dc65febac5",
+      "content_hash": "13b7445c62ffb25bd0d4674b25f33b53cb9d96abd31ae863f3476346b0ffc6f8",
       "deals": [],
-      "extracted_at": "2026-09-15T20:38:55Z",
+      "extracted_at": "2026-09-15T22:07:23Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "b9be67241d188f5a98ba",
@@ -28666,9 +31057,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "71cbd059f9bf1fb9bdba239fc342fd346af9ecef47d13dc7ac5c134f7c496d09",
+      "content_hash": "14919b4654fc2973a4238ffd279e3dbc03f4cb562294dfeac5194499f709b262",
       "deals": [],
-      "extracted_at": "2026-09-15T20:39:02Z",
+      "extracted_at": "2026-09-15T22:07:31Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "23d0d0c520f845b3127a",
@@ -30094,17 +32485,47 @@
       "status": "fetch_failed"
     },
     {
-      "content_hash": "",
-      "deals": [],
-      "error": "RuntimeError: HTTP Error 403: Forbidden",
+      "content_hash": "05a3d78c2f610dd5e250a5a37c6f2430fd49f965887e92e824cc360b195d206f",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Available Monday through Friday from 3:00 pm to 6:00 pm"
+          ],
+          "source_evidence": [
+            "Happy Hour",
+            "Monday - Friday 3:oo pm to 6:00 pm"
+          ],
+          "summary": "Happy Hour Weekdays",
+          "time_window": "3:00 pm to 6:00 pm",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T22:07:39Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "7db8f56efe0b560b0e18",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "http://triplecrowntavern.com/"
       },
+      "rejected_candidates": [
+        "BIER World Cup Specials"
+      ],
       "restaurant": {
         "address": "714 Adams Ave Unit 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -30182,7 +32603,7 @@
         ],
         "website_url": "http://triplecrowntavern.com/"
       },
-      "status": "fetch_failed"
+      "status": "ok"
     },
     {
       "content_hash": "78da760654fb1748f2f05112b291bae264f912f88ed49a24f1d09237b4f3cb1b",
@@ -32003,6 +34424,365 @@
       "url": "https://www.cafesevilla.com/promos-san-diego/"
     },
     {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "16600 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11830496158333263672&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7206563,
+        "longitude": -118.07317309999998,
+        "phone": "(562) 357-4012",
+        "place_id": "ChIJZ5sO_Ikl3YARON8TSpNdLqQ"
+      },
+      "name": "Calico Fish House",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "All active military eat for free"
+            ],
+            "source_evidence": [
+              "All active military eat for free and vets only pay raw cost (roughly 50% off)."
+            ],
+            "summary": "Active military eat for free at Calico Fish House",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "http://calico-restaurant.com/daily-specials"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "16600 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11830496158333263672&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7206563,
+        "longitude": -118.07317309999998,
+        "phone": "(562) 357-4012",
+        "place_id": "ChIJZ5sO_Ikl3YARON8TSpNdLqQ"
+      },
+      "name": "Calico Fish House",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "All active military eat for free"
+            ],
+            "source_evidence": [
+              "All active military eat for free"
+            ],
+            "summary": "Free meals for active military members",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Vets only pay raw cost, roughly 50 percent off"
+            ],
+            "source_evidence": [
+              "vets only pay raw cost (roughly 50% off)"
+            ],
+            "summary": "Roughly 50 percent off for veterans",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "http://calico-restaurant.com/dailyspecials"
+    },
+    {
+      "city": "Fountain Valley",
+      "location": {
+        "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=9498211700790055897&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7152463,
+        "longitude": -117.9758035,
+        "phone": "(714) 375-3305",
+        "place_id": "ChIJwddf-vwm3YAR2dMM2zdt0IM"
+      },
+      "name": "Cambalache Grill Argentine & Italian Cuisine",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [
+              29
+            ],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Buy one get one free Gnocchi",
+              "Valid on the 29th of the month"
+            ],
+            "source_evidence": [
+              "Every 29th of the month is Gnocchi Day, buy one get one free!"
+            ],
+            "summary": "Gnocchi Day Buy One Get One Free",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "wednesday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Buy one, get one free pizza",
+              "Free pizza will be the lessor price"
+            ],
+            "source_evidence": [
+              "Wednesday",
+              "Pizza Bogo- Buy one, get one free!",
+              "(Free pizza will be the lessor price)",
+              "11:00 AM - 08:00 PM"
+            ],
+            "summary": "Pizza Bogo Buy One Get One Free",
+            "time_window": "11:00 AM - 08:00 PM",
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "http://www.cambalachegrill.com/daily-specials"
+    },
+    {
+      "city": "Fountain Valley",
+      "location": {
+        "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=9498211700790055897&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7152463,
+        "longitude": -117.9758035,
+        "phone": "(714) 375-3305",
+        "place_id": "ChIJwddf-vwm3YAR2dMM2zdt0IM"
+      },
+      "name": "Cambalache Grill Argentine & Italian Cuisine",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "tuesday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "All cooked empanadas are 1/2 price!"
+            ],
+            "source_evidence": [
+              "Tuesday",
+              "Empanada Tuesday- All cooked empanadas are 1/2 price!",
+              "11:00 AM - 08:00 PM"
+            ],
+            "summary": "Empanada Tuesday Half Price",
+            "time_window": "11:00 AM - 08:00 PM",
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "http://www.cambalachegrill.com/weekday-specials"
+    },
+    {
       "city": "Costa Mesa",
       "location": {
         "address": "1870 Harbor Blvd Second Level, Costa Mesa, CA 92627, USA",
@@ -32966,6 +35746,301 @@
       "url": "https://www.jugosacapulco.com/daily-specials/"
     },
     {
+      "city": "Fountain Valley",
+      "location": {
+        "address": "10130 Warner Ave H, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=888730231883798448&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7156149,
+        "longitude": -117.95222170000001,
+        "phone": "(714) 968-6128",
+        "place_id": "ChIJyXtqsxMn3YARsJeV7G9nVQw"
+      },
+      "name": "Lamppost Pizza",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "$11.00",
+              "Includes one slice, salad, and drink"
+            ],
+            "source_evidence": [
+              "#1) One Slice, Salad & Drink*",
+              "$11.00"
+            ],
+            "summary": "Lunch Special #1: One Slice, Salad & Drink",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "$10.75",
+              "Includes 2 slices and drink"
+            ],
+            "source_evidence": [
+              "#1A) 2 Slices & Drink*",
+              "$10.75"
+            ],
+            "summary": "Lunch Special #1A: 2 Slices & Drink",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "$12.00",
+              "Includes sandwich, chips, and drink"
+            ],
+            "source_evidence": [
+              "#2) Sandwich, Chips & Drink",
+              "$12.00"
+            ],
+            "summary": "Lunch Special #2: Sandwich, Chips & Drink",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "$14.00",
+              "Includes mini pizza with 2 toppings and 2 drinks"
+            ],
+            "source_evidence": [
+              "#3) Mini Pizza with 2 Toppings & 2 Drink",
+              "$14.00"
+            ],
+            "summary": "Lunch Special #3: Mini Pizza with 2 Toppings & 2 Drinks",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "$10.75",
+              "Includes Deluxe Salad (Antipasto, Turkey, Chef or Vegetarian) and drink"
+            ],
+            "source_evidence": [
+              "#4) Deluxe Salad & Drink",
+              "$10.75"
+            ],
+            "summary": "Lunch Special #4: Deluxe Salad & Drink",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "$11.75",
+              "Includes Deluxe Chicken Salad (Chicken Caesar, Oriental Chicken or BBQ Chicken) and drink"
+            ],
+            "source_evidence": [
+              "#4A) Deluxe Chicken Salad & Drink",
+              "$11.75"
+            ],
+            "summary": "Lunch Special #4A: Deluxe Chicken Salad & Drink",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "$8.50",
+              "Includes dinner salad, garlic bread, and drink"
+            ],
+            "source_evidence": [
+              "#5) Dinner Salad, Garlic Bread & Drink",
+              "$8.50"
+            ],
+            "summary": "Lunch Special #5: Dinner Salad, Garlic Bread & Drink",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "$11.50",
+              "Includes spaghetti with meat or marinara sauce, garlic bread, and drink"
+            ],
+            "source_evidence": [
+              "#6) Spaghetti, Garlic Bread & Drink",
+              "$11.50"
+            ],
+            "summary": "Lunch Special #6: Spaghetti, Garlic Bread & Drink",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "$12.00",
+              "Includes 2 slices, salad, and drink"
+            ],
+            "source_evidence": [
+              "#7) 2 Slices, Salad & Drink*",
+              "$12.00"
+            ],
+            "summary": "Lunch Special #7: 2 Slices, Salad & Drink",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "$13.00",
+              "Includes 8 buffalo wings with ranch or bleu cheese, and drink"
+            ],
+            "source_evidence": [
+              "#8) 8 Buffalo Wings & Drink",
+              "$13.00"
+            ],
+            "summary": "Lunch Special #8: 8 Buffalo Wings & Drink",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "$1.00 off all pints, big mugs, glasses of vino, and 1 lb wings",
+              "$2.00 off 1/2 pitchers and combo platters",
+              "$3.00 off all pitchers and ultimate combo platter (3 lb wings)",
+              "$4.00 off all table kegs, all bottles of vino, and 5 lb wings",
+              "Dine in only"
+            ],
+            "source_evidence": [
+              "Monday Thru Friday",
+              "3pm to 6pm",
+              "$1.00 off",
+              "Dine In Only"
+            ],
+            "summary": "Happy Hour drinks and wings specials",
+            "time_window": "3pm to 6pm",
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials"
+    },
+    {
       "city": "Costa Mesa",
       "location": {
         "address": "325 Bristol St, Costa Mesa, CA 92626, USA",
@@ -33205,6 +36280,146 @@
         ]
       },
       "url": "https://www.marketbroiler.com/_files/ugd/7c662d_6b31428d4d6a403f9402ced846046229.pdf"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "9791 Adams Ave, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14874414982477338645&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.672638,
+        "longitude": -117.95707999999999,
+        "phone": "(714) 964-4424",
+        "place_id": "ChIJOalKR8Qg3YARFVhPWJ6JbM4"
+      },
+      "name": "Polly's Pies Restaurant & Bakery",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Whole Chicken Pie served with gravy, cranberry sauce, fresh house salad, and freshly baked dinner rolls",
+              "Feeds 4 or more",
+              "Only $40 in August and September"
+            ],
+            "source_evidence": [
+              "Our famous whole Chicken Pie served with gravy, cranberry sauce, a fresh house salad, and freshly baked dinner rolls. A comforting homestyle meal that feeds 4 or more. Only $40 in August and September!"
+            ],
+            "summary": "Chicken Pie Family Meal",
+            "time_window": null,
+            "valid_through": "2026-09-30"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Classic meatloaf topped with tangy tomato ketchup glaze, red-skin smashed potatoes, gravy, fresh house salad, and freshly baked dinner rolls",
+              "Feeds 4 or more",
+              "Only $40 in August and September"
+            ],
+            "source_evidence": [
+              "Our classic meatloaf topped with a tangy tomato ketchup glaze, served with red-skin smashed potatoes, gravy, a fresh house salad, and freshly baked dinner rolls. Homestyle comfort for the whole family, feeding 4 or more. Only $40 in August and September!"
+            ],
+            "summary": "Meatloaf Family Meal",
+            "time_window": null,
+            "valid_through": "2026-09-30"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Oven-roasted turkey with homestyle stuffing, red-skin smashed potatoes, turkey gravy, southern-style green beans, cranberry sauce, and freshly baked dinner rolls",
+              "Feeds 4 or more",
+              "Only $40 in August and September"
+            ],
+            "source_evidence": [
+              "Oven-roasted turkey served with homestyle stuffing, red-skin smashed potatoes, turkey gravy, southern-style green beans, cranberry sauce, and freshly baked dinner rolls. A classic comfort meal that feeds 4 or more. Only $40 in August and September!"
+            ],
+            "summary": "Turkey Dinner Family Meal",
+            "time_window": null,
+            "valid_through": "2026-09-30"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Creamy Alfredo penne pasta with fresh house salad and freshly baked dinner rolls",
+              "Feeds 4 or more",
+              "Only $40 in August and September"
+            ],
+            "source_evidence": [
+              "Creamy Alfredo penne pasta served with a fresh house salad and freshly baked dinner rolls. A satisfying family favorite that feeds 4 or more. Only $40 in August and September!"
+            ],
+            "summary": "Alfredo Pasta Family Meal",
+            "time_window": null,
+            "valid_through": "2026-09-30"
+          }
+        ]
+      },
+      "url": "https://www.pollyspies.com/menu/family-meal-deals/?utm_source=Website&utm_medium=Home-Slider&utm_campaign=8-4-26-family-meal-deals"
     },
     {
       "city": "Huntington Beach",
@@ -33814,6 +37029,217 @@
         ]
       },
       "url": "https://www.stonefiregrill.com/promotions/"
+    },
+    {
+      "city": "Costa Mesa",
+      "location": {
+        "address": "1661 Superior Ave Ste d, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=6654488974885952960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.6348445,
+        "longitude": -117.92543880000001,
+        "phone": "(949) 270-6652",
+        "place_id": "ChIJaxicd5Ah3YARwJ3UNXd-WVw"
+      },
+      "name": "Trenta Pizza & Cucina and Trenta Lounge",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Only available in the Trenta Lounge",
+              "$2 OFF All Signature Cocktails, Wines by the Glass, and Beer",
+              "CHARCUTERIE ($20): Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
+              "CALAMARI FRITTI ($18): Fried Calamari/lemon/garlic-chili aioli",
+              "CANNOLO SALATO ($12): Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
+              "BRUSCHETTA TRADIZIONALE ($10): Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil"
+            ],
+            "source_evidence": [
+              "Monday through Thursday",
+              "From 5 to 6:30pm",
+              "All Signature Cocktails, Wines by the Glass, and Beer",
+              "$2 OFF",
+              "CHARCUTERIE"
+            ],
+            "summary": "Happy Hour: $2 off drinks and discounted appetizers",
+            "time_window": "5:00 PM - 6:30 PM",
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2027-02-16-17-00"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "714 Adams Ave Unit 101, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=243171935806404046&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6717453,
+        "longitude": -117.98992910000001,
+        "phone": "(714) 465-9041",
+        "place_id": "ChIJU0i6xTYh3YARzrUVVZbrXwM"
+      },
+      "name": "Triple Crown Tavern",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Prosciutto, Fig Butter, Gorgonzola & Arugula Flatbread for $9.00",
+              "Heirloom Tomato/Margherita Flatbread for $8.00",
+              "Spanish Chorizo Flatbread for $8.00",
+              "Pretzel Bites with House Made Spinach/Jalapeno Dip for $8.00",
+              "Pretzel Bites w/House-Made Mustard for $7.00",
+              "Pretzel Bites with Both Dips for $9.00",
+              "Glass of House Wine for $6.50",
+              "Any Craft Beer for $6.00"
+            ],
+            "source_evidence": [
+              "Join us for happy hour Monday - Friday, 4pm - 6pm."
+            ],
+            "summary": "Happy Hour Bar Bites and Drinks Specials",
+            "time_window": "4pm - 6pm",
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "http://triplecrowntavern.com/happy-hour"
     },
     {
       "city": "Huntington Beach",
@@ -36020,107 +39446,6 @@
       "url": "http://www.cafesevilla.com/"
     },
     {
-      "city": "Fountain Valley",
-      "location": {
-        "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=9498211700790055897&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "20:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "20:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "20:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7152463,
-        "longitude": -117.9758035,
-        "phone": "(714) 375-3305",
-        "place_id": "ChIJwddf-vwm3YAR2dMM2zdt0IM"
-      },
-      "name": "Cambalache Grill Argentine & Italian Cuisine",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "applies_month_days": [
-              29
-            ],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Buy one get one free gnocchi",
-              "Valid every 29th of the month"
-            ],
-            "source_evidence": [
-              "Every 29th of the month is Gnocchi Day, buy one get one free!"
-            ],
-            "summary": "Gnocchi Day BOGO on the 29th of every month",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [
-              "wednesday"
-            ],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Buy one, get one free",
-              "Free pizza will be the lessor price"
-            ],
-            "source_evidence": [
-              "Wednesday",
-              "Pizza Bogo- Buy one, get one free!",
-              "(Free pizza will be the lessor price)",
-              "11:00 AM - 08:00 PM"
-            ],
-            "summary": "Pizza BOGO - Buy one get one free pizza on Wednesdays",
-            "time_window": "11:00 AM - 08:00 PM",
-            "valid_through": null
-          }
-        ]
-      },
-      "url": "http://www.cambalachegrill.com/fountain-valley-fountain-valley-cambalache-grill-argentine-and-italian-cuisine-happy-hours-specials"
-    },
-    {
       "city": "Costa Mesa",
       "location": {
         "address": "1870 Harbor Blvd Second Level, Costa Mesa, CA 92627, USA",
@@ -36500,6 +39825,178 @@
         ]
       },
       "url": "https://www.delinerds.com/sunday-brunch-costa-mesa"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "9093 Adams Ave, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=2847570451713207918&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:30",
+              "open": "11:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:30",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.672639499999995,
+        "longitude": -117.96941409999998,
+        "phone": "(714) 962-7911",
+        "place_id": "ChIJvcTRMdgg3YARbq5DHz2ahCc"
+      },
+      "name": "Don Jose Mexican Restaurant",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "drink"
+            ],
+            "details": [
+              "Great drink specials"
+            ],
+            "source_evidence": [
+              "A sign that says happy hour great drink specials mon - fri from 3 pm"
+            ],
+            "summary": "Happy hour great drink specials",
+            "time_window": "from 3 pm",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "friday",
+              "saturday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "drink"
+            ],
+            "details": [
+              "$3.95 shot specials"
+            ],
+            "source_evidence": [
+              "A sign that says karaoke night 's $ 3.95 shot specials",
+              "Karaoke night promotion. Friday and Saturday. Yellow and green text, $3.95 shot specials."
+            ],
+            "summary": "Karaoke night shot specials",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "sunday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "From $22.95"
+            ],
+            "source_evidence": [
+              "Sunday champagne brunch promotion, text in lime green and yellow:",
+              "Sunday Champagne Brunch advertised from $22.95 in yellow and green."
+            ],
+            "summary": "Sunday Champagne Brunch",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "tuesday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "$4.95",
+              "Cantina only"
+            ],
+            "source_evidence": [
+              "Taco Tuesday Fiesta Night sign, yellow and green text: $4.95, cantina only from 4 pm.",
+              "Taco Tuesday promotion: Fiesta Night at Cantina, $4.95, starting at 4 PM. Yellow and lime green text on white."
+            ],
+            "summary": "Taco Tuesday Fiesta Night",
+            "time_window": "from 4 pm",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "drink"
+            ],
+            "details": [
+              "$7.95",
+              "Regular and fruit options available"
+            ],
+            "source_evidence": [
+              "Margarita specials sign: $7.95, Monday-Wednesday. Regular and fruit options available. Bright yellow text on white.",
+              "Margarita specials sign: neon green text on white. $7.95, Monday-Wednesday, Regular or Fruit."
+            ],
+            "summary": "Margarita specials",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.don-jose.com/"
     },
     {
       "city": "Costa Mesa",
@@ -41263,6 +44760,95 @@
       "url": "http://www.three13bar.com/"
     },
     {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "714 Adams Ave Unit 101, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=243171935806404046&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6717453,
+        "longitude": -117.98992910000001,
+        "phone": "(714) 465-9041",
+        "place_id": "ChIJU0i6xTYh3YARzrUVVZbrXwM"
+      },
+      "name": "Triple Crown Tavern",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Available Monday through Friday from 3:00 pm to 6:00 pm"
+            ],
+            "source_evidence": [
+              "Happy Hour",
+              "Monday - Friday 3:oo pm to 6:00 pm"
+            ],
+            "summary": "Happy Hour Weekdays",
+            "time_window": "3:00 pm to 6:00 pm",
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "http://triplecrowntavern.com/"
+    },
+    {
       "city": "Fountain Valley",
       "location": {
         "address": "17940 Brookhurst St, Fountain Valley, CA 92708, USA",
@@ -41660,19 +45246,19 @@
     }
   ],
   "summary": {
-    "candidate_pages": 271,
-    "failed_pages": 19,
+    "candidate_pages": 282,
+    "failed_pages": 12,
     "pending_pages": 0,
-    "processed_pages": 252,
-    "published_deals": 202,
-    "published_sources": 90,
+    "processed_pages": 270,
+    "published_deals": 229,
+    "published_sources": 99,
     "render_attempts": 8,
-    "rendered_pages": 2,
+    "rendered_pages": 1,
     "reported_pages": 0,
-    "visual_assets_checked": 7,
+    "visual_assets_checked": 9,
     "visual_attempts": 4,
     "visual_cache_hits": 0,
-    "visual_candidates": 71,
+    "visual_candidates": 72,
     "visual_deals": 1,
     "visual_pages": 1
   }

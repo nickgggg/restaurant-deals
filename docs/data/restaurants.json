@@ -49,7 +49,7 @@
     "last_scanned_cities": [
       "Costa Mesa"
     ],
-    "last_source_scan_at": "2026-09-15T20:37:02Z",
+    "last_source_scan_at": "2026-09-15T22:03:07Z",
     "map_cells": 179,
     "official_websites": 848,
     "operational_count": 1010,
@@ -61,11 +61,11 @@
     ],
     "restaurant_count": 1050,
     "source_sites_checked": 12,
-    "specials_pages_found": 187,
+    "specials_pages_found": 188,
     "successful_map_cells": 49
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-15T20:37:02Z",
+  "generated_at": "2026-09-15T22:03:07Z",
   "refresh_after": "2026-09-17T16:26:21Z",
   "restaurants": [
     {
@@ -7265,6 +7265,8 @@
       "phone": "(714) 847-4994",
       "place_id": "ChIJpe6UqV4m3YARMNUyQ5xrg64",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-15T22:02:24Z",
+      "specials_discovery_version": 4,
       "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-ypq57qyz/Default'",
       "specials_pages": [],
       "types": [
@@ -7335,7 +7337,7 @@
       "phone": "(657) 215-6944",
       "place_id": "ChIJcaE-fn4n3YARl7BCy-xcOsI",
       "primary_type": "fast_food_restaurant",
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-cxy1rztl/Default'",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-3p08gwu4/Default'",
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -8015,6 +8017,8 @@
       "phone": "(949) 478-8777",
       "place_id": "ChIJXxlYNqrY3IARmFypYjreFAk",
       "primary_type": "cafe",
+      "specials_checked_at": "2026-09-15T22:02:24Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
@@ -8071,24 +8075,30 @@
       "phone": "(949) 688-1555",
       "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ",
       "primary_type": "spanish_restaurant",
+      "specials_checked_at": "2026-09-15T22:02:24Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "View Happy Hour Menu",
           "url": "https://www.cafesevilla.com/menus/"
         },
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "View Costa Mesa Promotions",
           "url": "https://www.cafesevilla.com/promos-costa-mesa/"
         },
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "View San Diego Promotions",
           "url": "https://www.cafesevilla.com/promos-san-diego/"
         },
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://www.cafesevilla.com/"
         }
@@ -8230,6 +8240,8 @@
       "phone": "(714) 452-6147",
       "place_id": "ChIJ2xdHhwvf3IARt16wVEYkr7Q",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-15T22:02:24Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -8320,7 +8332,58 @@
       "phone": "(562) 357-4012",
       "place_id": "ChIJZ5sO_Ikl3YARON8TSpNdLqQ",
       "primary_type": "seafood_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-15T22:02:24Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Daily Specials",
+          "url": "http://calico-restaurant.com/daily-specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Dailyspecials",
+          "url": "http://calico-restaurant.com/dailyspecials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Deals",
+          "url": "http://calico-restaurant.com/deals"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Happy Hour",
+          "url": "http://calico-restaurant.com/happy-hour"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Promotions",
+          "url": "http://calico-restaurant.com/promotions"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Specials",
+          "url": "http://calico-restaurant.com/specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Weekday Lunch",
+          "url": "http://calico-restaurant.com/weekday-lunch"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Weekday Specials",
+          "url": "http://calico-restaurant.com/weekday-specials"
+        }
+      ],
       "types": [
         "seafood_restaurant",
         "restaurant",
@@ -8385,6 +8448,8 @@
       "phone": "(714) 881-0110",
       "place_id": "ChIJ8V0ZYTkn3YARvIPsSYKbnO4",
       "primary_type": "seafood_restaurant",
+      "specials_checked_at": "2026-09-15T22:02:24Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "seafood_restaurant",
@@ -8453,6 +8518,8 @@
       "phone": "(949) 298-6931",
       "place_id": "ChIJB3ErLQDf3IARbN74vvS6L9E",
       "primary_type": "seafood_restaurant",
+      "specials_checked_at": "2026-09-15T22:02:24Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "seafood_restaurant",
@@ -8545,6 +8612,8 @@
       "phone": "(714) 963-8844",
       "place_id": "ChIJh8yYmZwh3YARZr4KnvuWbn4",
       "primary_type": "japanese_restaurant",
+      "specials_checked_at": "2026-09-15T22:02:24Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "japanese_restaurant",
@@ -8672,6 +8741,8 @@
       "phone": "",
       "place_id": "ChIJ1XYsHNon3YAR_6v4Msi-0k8",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-09-15T22:02:24Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
@@ -8732,9 +8803,30 @@
       "phone": "(714) 375-3305",
       "place_id": "ChIJwddf-vwm3YAR2dMM2zdt0IM",
       "primary_type": "argentinian_restaurant",
+      "specials_checked_at": "2026-09-15T22:02:24Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Daily Specials",
+          "url": "http://www.cambalachegrill.com/daily-specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Specials",
+          "url": "http://www.cambalachegrill.com/specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Weekday Specials",
+          "url": "http://www.cambalachegrill.com/weekday-specials"
+        },
+        {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Specials",
           "url": "http://www.cambalachegrill.com/fountain-valley-fountain-valley-cambalache-grill-argentine-and-italian-cuisine-happy-hours-specials"
         }
@@ -8834,6 +8926,8 @@
       "phone": "(949) 394-6318",
       "place_id": "ChIJB242GSgn3YARsIxXFbyLRug",
       "primary_type": "cafe",
+      "specials_checked_at": "2026-09-15T22:02:24Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
