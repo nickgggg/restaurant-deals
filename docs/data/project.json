@@ -6,6 +6,7 @@
   "max_map_cells_per_area": 180,
   "max_source_sites_per_run": 12,
   "gemini_pages_per_run": 30,
+  "gemini_visual_pages_per_run": 4,
   "cost_note": "Built to stay inside the configured Google Places quota, Gemini free tier, GitHub Actions, and GitHub Pages. Budget alerts remain the final safety net.",
   "roadmap": [
     {
@@ -14,9 +15,9 @@
       "detail": "Up to eight JavaScript-heavy pages per run are rendered only when ordinary HTML does not contain enough deal evidence."
     },
     {
-      "status": "next",
+      "status": "working",
       "title": "Image and PDF specials",
-      "detail": "Use local OCR first, then Gemini only for difficult menu images that appear to contain offers."
+      "detail": "Weak text pages now get a bounded Gemini vision fallback for likely specials images and PDFs, with strict evidence checks and content-hash caching."
     },
     {
       "status": "next",

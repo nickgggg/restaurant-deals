@@ -42,6 +42,94 @@ class SourceDiscoveryTests(unittest.TestCase):
 
 
 class ExtractionTests(unittest.TestCase):
+    def test_visual_assets_prioritize_specials_images_and_pdfs(self) -> None:
+        page = """
+            <html><body>
+              <img src="/logo.png" alt="Restaurant logo" width="80" height="80">
+              <img src="/images/tuesday-specials.jpg" alt="Tuesday specials" width="1200" height="1600">
+              <a href="/menus/happy-hour.pdf">Happy hour menu</a>
+            </body></html>
+        """
+        assets = extract_with_gemini.visual_asset_candidates("https://example.com/specials", page)
+
+        self.assertEqual(assets[0]["url"], "https://example.com/menus/happy-hour.pdf")
+        self.assertEqual(assets[1]["url"], "https://example.com/images/tuesday-specials.jpg")
+        self.assertLess(assets[-1]["score"], assets[1]["score"])
+
+    def test_visual_cache_requires_matching_asset_hash(self) -> None:
+        previous = {
+            "visual_hash": "same",
+            "visual_status": "verified",
+            "status": "ok",
+        }
+
+        self.assertTrue(extract_with_gemini.reusable_visual_page("same", previous))
+        self.assertFalse(extract_with_gemini.reusable_visual_page("changed", previous))
+
+    def test_visual_assets_deduplicate_identical_image_variants(self) -> None:
+        item = {
+            "page": {"url": "https://example.com/specials"},
+            "asset_candidates": [
+                {"url": "https://example.com/specials.jpg"},
+                {"url": "https://example.com/specials.jpg?format=100w"},
+                {"url": "https://example.com/happy-hour.jpg"},
+            ],
+        }
+
+        def fake_fetch(candidate, _page_url):
+            duplicate = "specials.jpg" in candidate["url"]
+            return {
+                "url": candidate["url"],
+                "mime_type": "image/jpeg",
+                "byte_size": 10_000,
+                "content_hash": "same" if duplicate else "different",
+                "data": "encoded",
+            }
+
+        with patch.object(extract_with_gemini, "fetch_visual_asset", side_effect=fake_fetch):
+            assets = extract_with_gemini.fetch_visual_assets(item)
+
+        self.assertEqual([asset["content_hash"] for asset in assets], ["same", "different"])
+
+    def test_visual_queue_prioritizes_strong_asset_signals(self) -> None:
+        generic = {
+            "restaurant": {"name": "Alpha", "city": "Huntington Beach"},
+            "page": {"url": "https://example.com/menu", "confidence": "high"},
+            "asset_candidates": [{"url": "https://example.com/photo.jpg", "score": 1}],
+        }
+        specials = {
+            "restaurant": {"name": "Zulu", "city": "Huntington Beach"},
+            "page": {"url": "https://example.com/specials", "confidence": "high"},
+            "asset_candidates": [{"url": "https://example.com/weekday-specials.jpg", "score": 15}],
+        }
+
+        self.assertEqual(sorted([generic, specials], key=extract_with_gemini.visual_priority)[0], specials)
+
+    def test_visual_deals_require_higher_confidence(self) -> None:
+        raw = {
+            "deals": [
+                {
+                    "summary": "$5 Taco Tuesday",
+                    "details": ["Tacos are $5"],
+                    "applies_days": ["tuesday"],
+                    "applies_month_days": [],
+                    "time_window": "",
+                    "categories": ["food"],
+                    "valid_through": "",
+                    "evidence": ["Tuesday tacos are $5"],
+                    "confidence": 0.88,
+                }
+            ]
+        }
+        accepted, rejected = extract_with_gemini.validate_deals(
+            raw,
+            "Tuesday tacos are $5",
+            min_confidence=0.9,
+        )
+
+        self.assertEqual(accepted, [])
+        self.assertEqual(rejected, ["$5 Taco Tuesday"])
+
     def test_report_fields_remove_placeholder_comments(self) -> None:
         body = """### Restaurant
 Example Grill

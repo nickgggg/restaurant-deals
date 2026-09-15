@@ -10,6 +10,7 @@ The project runs entirely on GitHub:
 - Google Places builds a staggered nearby-restaurant inventory and supplies current business details.
 - Navigation links, sitemaps, and a small set of common specials routes discover candidate pages.
 - Headless Chrome renders a bounded batch of JavaScript-heavy pages only when ordinary HTML is insufficient.
+- Likely specials images and PDFs get a bounded Gemini vision fallback only when text extraction remains weak.
 - Twelve existing restaurant websites rotate through source discovery each run without making additional Places requests.
 - Gemini extracts structured offers from likely specials pages; source-evidence checks keep uncertain results unpublished.
 - The crawler uses only the Python standard library, so there are no package installs.
@@ -21,7 +22,7 @@ Curated sources live in `crawler/sources.json`. Discovery scans one configured c
 
 The discovery job requires the repository Actions secret `GOOGLE_PLACES_API_KEY`, with Places API (New) enabled. Its map bounds and refresh interval live in `crawler/places_config.json`.
 
-AI extraction requires the Actions secret `GEMINI_API_KEY`. It processes at most 30 changed pages per daily run, stores content fingerprints in `docs/data/ai_extractions.json`, and reuses cached results while a page remains unchanged. City activation does not raise that daily Gemini cap.
+AI extraction requires the Actions secret `GEMINI_API_KEY`. It processes at most 30 changed text pages and four visually weak pages per daily run. Each visual page is capped at three assets and 11 MB total. Text and visual content fingerprints are stored in `docs/data/ai_extractions.json`, so unchanged pages, images, and PDFs reuse cached results. City activation does not raise those daily caps.
 
 ## What It Finds
 

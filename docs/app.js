@@ -1062,8 +1062,11 @@ function renderProjectStatus() {
     ["Candidate pages", compactNumber(pipeline.candidate_pages)],
     ["Reported sources", compactNumber(pipeline.reported_pages)],
     ["Browser renders", `${compactNumber(pipeline.rendered_pages)}/${compactNumber(pipeline.render_attempts)}`],
+    ["Visual deal pages", compactNumber(pipeline.visual_pages)],
+    ["Visual checks", `${compactNumber(pipeline.visual_attempts)} calls · ${compactNumber(pipeline.visual_cache_hits)} cached`],
     ["Sites checked", `${state.project?.max_source_sites_per_run || 12}/run`],
     ["Gemini batch", `${state.project?.gemini_pages_per_run || 30}/run`],
+    ["Gemini visual", `${state.project?.gemini_visual_pages_per_run || 4}/run`],
     ["City activation", `1/${state.project?.queue_activation_days || 7} days`],
     ["City rescan", `${state.project?.area_refresh_days || 35} days`],
   ];
