@@ -145,12 +145,14 @@ function renderFilterSummary() {
 
 function formatDate(value) {
   if (!value) return "never";
-  return new Intl.DateTimeFormat(undefined, {
+  const formatted = new Intl.DateTimeFormat(undefined, {
     month: "short",
     day: "numeric",
     hour: "numeric",
     minute: "2-digit",
+    timeZone: "America/Los_Angeles",
   }).format(new Date(value));
+  return `${formatted} PT`;
 }
 
 function normalizeScheduleText(value = "") {
