@@ -49,7 +49,7 @@
     "last_scanned_cities": [
       "Costa Mesa"
     ],
-    "last_source_scan_at": "2026-09-15T20:23:04Z",
+    "last_source_scan_at": "2026-09-15T20:31:02Z",
     "map_cells": 179,
     "official_websites": 848,
     "operational_count": 1010,
@@ -65,7 +65,7 @@
     "successful_map_cells": 49
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-15T20:23:04Z",
+  "generated_at": "2026-09-15T20:31:02Z",
   "refresh_after": "2026-09-17T16:26:21Z",
   "restaurants": [
     {
@@ -5427,7 +5427,7 @@
       "phone": "(714) 968-4477",
       "place_id": "ChIJJYpXUzkn3YARSnUAnduKB4c",
       "primary_type": "steak_house",
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-a9seqx3w/Default'",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-ij1926lp/Default'",
       "specials_pages": [],
       "types": [
         "steak_house",
@@ -6344,6 +6344,8 @@
       "phone": "(714) 660-4557",
       "place_id": "ChIJG8PBw-cn3YARqjNWZg_NmnA",
       "primary_type": "asian_restaurant",
+      "specials_checked_at": "2026-09-15T20:30:26Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "asian_restaurant",
@@ -6404,6 +6406,8 @@
       "phone": "",
       "place_id": "ChIJu7szjP7f3IARvNaPkIXmFtw",
       "primary_type": "cafe",
+      "specials_checked_at": "2026-09-15T20:30:26Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
@@ -6471,6 +6475,8 @@
       "phone": "(714) 557-1849",
       "place_id": "ChIJHc8Mgjnf3IARITip435LtwY",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-09-15T20:30:26Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
@@ -6539,6 +6545,8 @@
       "phone": "(949) 512-5010",
       "place_id": "ChIJUZWNms3f3IARkqgSDNHx98s",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-15T20:30:26Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -6603,9 +6611,12 @@
       "phone": "(949) 691-3055",
       "place_id": "ChIJsTO5PsDf3IARmQwivgkwE_w",
       "primary_type": "breakfast_restaurant",
+      "specials_checked_at": "2026-09-15T20:30:26Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Specials",
           "url": "https://breakfastrepublic.com/wp-content/uploads/2026/06/Breakfast-Republic-Seasonal-Specials-Winter-SM-3-819x1024.jpg"
         }
@@ -6674,6 +6685,8 @@
       "phone": "(714) 696-9468",
       "place_id": "ChIJy50bGpPf3IARJ7qUpQ637xc",
       "primary_type": "chicken_restaurant",
+      "specials_checked_at": "2026-09-15T20:30:26Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chicken_restaurant",
@@ -6772,6 +6785,8 @@
       "phone": "(714) 369-8938",
       "place_id": "ChIJ059WIb0h3YARC6bdp0_r_4E",
       "primary_type": "seafood_restaurant",
+      "specials_checked_at": "2026-09-15T20:30:26Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "seafood_restaurant",
@@ -6837,9 +6852,12 @@
       "phone": "(657) 231-6708",
       "place_id": "ChIJYzPfrurf3IAROp1qXhMxC2k",
       "primary_type": "breakfast_restaurant",
+      "specials_checked_at": "2026-09-15T20:30:26Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://www.thebrokenyolkcafe.com/location/broken-yolk-cafe-costa-mesa/"
         }
@@ -6869,6 +6887,8 @@
       "phone": "(562) 536-9037",
       "place_id": "ChIJWSuofd4h3YARlGFscppSoqM",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-15T20:30:26Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -6933,6 +6953,8 @@
       "phone": "(657) 232-0294",
       "place_id": "ChIJ34_xq-jf3IARdKWVdH9fqKg",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-15T20:30:26Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -7026,6 +7048,8 @@
       "phone": "",
       "place_id": "ChIJaUyyGSrf3IARpsx3p5IDQyo",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-15T20:30:26Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
