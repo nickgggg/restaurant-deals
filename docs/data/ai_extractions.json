@@ -1,6 +1,6 @@
 {
   "extraction_version": 3,
-  "generated_at": "2026-09-15T16:06:33Z",
+  "generated_at": "2026-09-15T18:32:06Z",
   "model": "gemini-3.5-flash-lite",
   "pages": [
     {
@@ -879,6 +879,1863 @@
         "website_url": "https://avilaselranchito.com/costa-mesa/"
       },
       "status": "no_deals"
+    },
+    {
+      "content_hash": "9a04539e660460afa62ccd16096960e6f2e3ed8e8d5f97a5aa07708d00aa4872",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink",
+            "food"
+          ],
+          "details": [
+            "$2 off draft wine & beer with purchase of any food item"
+          ],
+          "source_evidence": [
+            "HAPPY HOUR",
+            "Monday - Thursday 3pm - 5pm",
+            "Friday & Saturday 8:30pm - 10pm",
+            "$2 off draft wine & beer with purchase of any food item"
+          ],
+          "summary": "Happy Hour: $2 off draft wine and beer",
+          "time_window": "Mon-Thu 3pm-5pm, Fri-Sat 8:30pm-10pm",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink",
+            "food"
+          ],
+          "details": [
+            "Full pours of beer & seltzers for only $6 with purchase of food item"
+          ],
+          "source_evidence": [
+            "MONDAY",
+            "$6 Pints | All Day",
+            "Full Pours of beer & seltzers for only $6 with purchase of food item!"
+          ],
+          "summary": "$6 Pints of beer and seltzers",
+          "time_window": "All Day",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Choice of starter, salad, & classic pizza for $50",
+            "Promotion not valid during fundraising events."
+          ],
+          "source_evidence": [
+            "TUESDAY",
+            "Date Night Dinner Deal | All Day",
+            "Choice of starter, salad, & classic pizza for $50",
+            "* Promotion not valid during fundraising events."
+          ],
+          "summary": "Date Night Dinner Deal: starter, salad, & classic pizza for $50",
+          "time_window": "All Day",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "wednesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "50% off 1/2 Liter & Liter pours of house wines"
+          ],
+          "source_evidence": [
+            "WEDNESDAY",
+            "Wine Wednesday | All Day",
+            "50% off 1/2 Liter & Liter pours of house wines"
+          ],
+          "summary": "Wine Wednesday: 50% off house wine pours",
+          "time_window": "All Day",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T18:30:08Z",
+      "extraction_version": 3,
+      "fetch_mode": "static",
+      "key": "f444d9c80854b3e8751b",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Daily Specials",
+        "url": "https://beachwoodpizza.com/daily-specials"
+      },
+      "rejected_candidates": [
+        "Slice-of-the-Day rotating specialty pizza"
+      ],
+      "restaurant": {
+        "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=15543086224621872833&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7166198,
+        "longitude": -118.03861239999999,
+        "name": "Beachwood Pizza & Beer",
+        "phone": "(657) 301-2063",
+        "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc",
+        "primary_type": "pizza_restaurant",
+        "specials_checked_at": "2026-09-15T18:26:25Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "https://beachwoodpizza.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Dailyspecials",
+            "url": "https://beachwoodpizza.com/dailyspecials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Deals",
+            "url": "https://beachwoodpizza.com/deals"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Happy Hour",
+            "url": "https://beachwoodpizza.com/happy-hour"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Promotions",
+            "url": "https://beachwoodpizza.com/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "https://beachwoodpizza.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Lunch",
+            "url": "https://beachwoodpizza.com/weekday-lunch"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "https://beachwoodpizza.com/weekday-specials"
+          }
+        ],
+        "types": [
+          "pizza_restaurant",
+          "brewpub",
+          "pub",
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://beachwoodpizza.com/"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "9a04539e660460afa62ccd16096960e6f2e3ed8e8d5f97a5aa07708d00aa4872",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink",
+            "food"
+          ],
+          "details": [
+            "Get $2 off draft wine & beer with purchase of any food item"
+          ],
+          "source_evidence": [
+            "HAPPY HOUR",
+            "Monday - Thursday 3pm - 5pm",
+            "Friday & Saturday 8:30pm - 10pm",
+            "$2 off draft wine & beer with purchase of any food item"
+          ],
+          "summary": "Happy Hour: $2 off draft wine and beer",
+          "time_window": "Monday - Thursday 3pm - 5pm, Friday & Saturday 8:30pm - 10pm",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink",
+            "food"
+          ],
+          "details": [
+            "Full pours of beer & seltzers for only $6 with purchase of food item"
+          ],
+          "source_evidence": [
+            "MONDAY",
+            "$6 Pints | All Day",
+            "Full Pours of beer & seltzers for only $6 with purchase of food item!"
+          ],
+          "summary": "Monday Special: $6 pints of beer and seltzers",
+          "time_window": "All Day",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Choice of starter, salad, & classic pizza for $50",
+            "Promotion not valid during fundraising events"
+          ],
+          "source_evidence": [
+            "TUESDAY",
+            "Date Night Dinner Deal | All Day",
+            "Choice of starter, salad, & classic pizza for $50",
+            "* Promotion not valid during fundraising events."
+          ],
+          "summary": "Tuesday Date Night Dinner Deal for $50",
+          "time_window": "All Day",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "wednesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "50% off 1/2 Liter & Liter pours of house wines"
+          ],
+          "source_evidence": [
+            "WEDNESDAY",
+            "Wine Wednesday | All Day",
+            "50% off 1/2 Liter & Liter pours of house wines"
+          ],
+          "summary": "Wine Wednesday: 50% off house wine pours",
+          "time_window": "All Day",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T18:30:17Z",
+      "extraction_version": 3,
+      "fetch_mode": "static",
+      "key": "2974ac4af2749472b627",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Dailyspecials",
+        "url": "https://beachwoodpizza.com/dailyspecials"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=15543086224621872833&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7166198,
+        "longitude": -118.03861239999999,
+        "name": "Beachwood Pizza & Beer",
+        "phone": "(657) 301-2063",
+        "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc",
+        "primary_type": "pizza_restaurant",
+        "specials_checked_at": "2026-09-15T18:26:25Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "https://beachwoodpizza.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Dailyspecials",
+            "url": "https://beachwoodpizza.com/dailyspecials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Deals",
+            "url": "https://beachwoodpizza.com/deals"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Happy Hour",
+            "url": "https://beachwoodpizza.com/happy-hour"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Promotions",
+            "url": "https://beachwoodpizza.com/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "https://beachwoodpizza.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Lunch",
+            "url": "https://beachwoodpizza.com/weekday-lunch"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "https://beachwoodpizza.com/weekday-specials"
+          }
+        ],
+        "types": [
+          "pizza_restaurant",
+          "brewpub",
+          "pub",
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://beachwoodpizza.com/"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "9a04539e660460afa62ccd16096960e6f2e3ed8e8d5f97a5aa07708d00aa4872",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink",
+            "food"
+          ],
+          "details": [
+            "$2 off draft wine & beer",
+            "Requires purchase of any food item"
+          ],
+          "source_evidence": [
+            "HAPPY HOUR",
+            "Monday - Thursday 3pm - 5pm",
+            "Friday & Saturday 8:30pm - 10pm",
+            "$2 off draft wine & beer with purchase of any food item"
+          ],
+          "summary": "Happy Hour: $2 off draft wine and beer",
+          "time_window": "Mon-Thu 3pm-5pm, Fri-Sat 8:30pm-10pm",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink",
+            "food"
+          ],
+          "details": [
+            "Full pours of beer & seltzers for $6",
+            "Requires purchase of food item"
+          ],
+          "source_evidence": [
+            "MONDAY",
+            "$6 Pints | All Day",
+            "Full Pours of beer & seltzers for only $6 with purchase of food item!"
+          ],
+          "summary": "Monday: $6 Pints of beer and seltzers",
+          "time_window": "All Day",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Choice of starter, salad, & classic pizza for $50",
+            "Not valid during fundraising events"
+          ],
+          "source_evidence": [
+            "TUESDAY",
+            "Date Night Dinner Deal | All Day",
+            "Choice of starter, salad, & classic pizza for $50",
+            "* Promotion not valid during fundraising events."
+          ],
+          "summary": "Tuesday Date Night Dinner Deal for $50",
+          "time_window": "All Day",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "wednesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "50% off 1/2 Liter & Liter pours of house wines"
+          ],
+          "source_evidence": [
+            "WEDNESDAY",
+            "Wine Wednesday | All Day",
+            "50% off 1/2 Liter & Liter pours of house wines"
+          ],
+          "summary": "Wednesday Wine Special: 50% off pours",
+          "time_window": "All Day",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T18:30:26Z",
+      "extraction_version": 3,
+      "fetch_mode": "static",
+      "key": "cd30e38d4c6182384eb4",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Deals",
+        "url": "https://beachwoodpizza.com/deals"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=15543086224621872833&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7166198,
+        "longitude": -118.03861239999999,
+        "name": "Beachwood Pizza & Beer",
+        "phone": "(657) 301-2063",
+        "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc",
+        "primary_type": "pizza_restaurant",
+        "specials_checked_at": "2026-09-15T18:26:25Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "https://beachwoodpizza.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Dailyspecials",
+            "url": "https://beachwoodpizza.com/dailyspecials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Deals",
+            "url": "https://beachwoodpizza.com/deals"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Happy Hour",
+            "url": "https://beachwoodpizza.com/happy-hour"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Promotions",
+            "url": "https://beachwoodpizza.com/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "https://beachwoodpizza.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Lunch",
+            "url": "https://beachwoodpizza.com/weekday-lunch"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "https://beachwoodpizza.com/weekday-specials"
+          }
+        ],
+        "types": [
+          "pizza_restaurant",
+          "brewpub",
+          "pub",
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://beachwoodpizza.com/"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "9a04539e660460afa62ccd16096960e6f2e3ed8e8d5f97a5aa07708d00aa4872",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink",
+            "food"
+          ],
+          "details": [
+            "$2 off draft wine & beer",
+            "Requires purchase of any food item"
+          ],
+          "source_evidence": [
+            "Monday - Thursday 3pm - 5pm",
+            "Friday & Saturday 8:30pm - 10pm",
+            "$2 off draft wine & beer with purchase of any food item"
+          ],
+          "summary": "$2 off draft wine & beer during Happy Hour",
+          "time_window": "Monday - Thursday 3pm - 5pm, Friday & Saturday 8:30pm - 10pm",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink",
+            "food"
+          ],
+          "details": [
+            "Full pours of beer & seltzers for $6",
+            "Requires purchase of food item"
+          ],
+          "source_evidence": [
+            "MONDAY",
+            "$6 Pints | All Day",
+            "Full Pours of beer & seltzers for only $6 with purchase of food item!"
+          ],
+          "summary": "$6 pints of beer and seltzers on Monday",
+          "time_window": "All Day",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Choice of starter, salad, & classic pizza for $50",
+            "Not valid during fundraising events"
+          ],
+          "source_evidence": [
+            "TUESDAY",
+            "Date Night Dinner Deal | All Day",
+            "Choice of starter, salad, & classic pizza for $50"
+          ],
+          "summary": "Date Night Dinner Deal for $50 on Tuesday",
+          "time_window": "All Day",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "wednesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "50% off 1/2 Liter & Liter pours of house wines"
+          ],
+          "source_evidence": [
+            "WEDNESDAY",
+            "Wine Wednesday | All Day",
+            "50% off 1/2 Liter & Liter pours of house wines"
+          ],
+          "summary": "50% off 1/2 Liter & Liter house wines on Wednesday",
+          "time_window": "All Day",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T18:30:35Z",
+      "extraction_version": 3,
+      "fetch_mode": "static",
+      "key": "f061e9c13e10fd8acec8",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Happy Hour",
+        "url": "https://beachwoodpizza.com/happy-hour"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=15543086224621872833&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7166198,
+        "longitude": -118.03861239999999,
+        "name": "Beachwood Pizza & Beer",
+        "phone": "(657) 301-2063",
+        "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc",
+        "primary_type": "pizza_restaurant",
+        "specials_checked_at": "2026-09-15T18:26:25Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "https://beachwoodpizza.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Dailyspecials",
+            "url": "https://beachwoodpizza.com/dailyspecials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Deals",
+            "url": "https://beachwoodpizza.com/deals"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Happy Hour",
+            "url": "https://beachwoodpizza.com/happy-hour"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Promotions",
+            "url": "https://beachwoodpizza.com/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "https://beachwoodpizza.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Lunch",
+            "url": "https://beachwoodpizza.com/weekday-lunch"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "https://beachwoodpizza.com/weekday-specials"
+          }
+        ],
+        "types": [
+          "pizza_restaurant",
+          "brewpub",
+          "pub",
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://beachwoodpizza.com/"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "9a04539e660460afa62ccd16096960e6f2e3ed8e8d5f97a5aa07708d00aa4872",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink",
+            "food"
+          ],
+          "details": [
+            "Get $2 off draft wine and beer with the purchase of any food item"
+          ],
+          "source_evidence": [
+            "HAPPY HOUR",
+            "Monday - Thursday 3pm - 5pm",
+            "Friday & Saturday 8:30pm - 10pm",
+            "$2 off draft wine & beer with purchase of any food item"
+          ],
+          "summary": "Happy Hour: $2 off draft wine & beer",
+          "time_window": "Mon-Thu 3pm-5pm, Fri-Sat 8:30pm-10pm",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink",
+            "food"
+          ],
+          "details": [
+            "Full pours of beer and seltzers for only $6 with purchase of food item"
+          ],
+          "source_evidence": [
+            "MONDAY",
+            "$6 Pints | All Day",
+            "Full Pours of beer & seltzers for only $6 with purchase of food item!"
+          ],
+          "summary": "Monday: $6 Pints with food purchase",
+          "time_window": "All Day",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Choice of starter, salad, and classic pizza for $50",
+            "Promotion not valid during fundraising events"
+          ],
+          "source_evidence": [
+            "TUESDAY",
+            "Date Night Dinner Deal | All Day",
+            "Choice of starter, salad, & classic pizza for $50",
+            "* Promotion not valid during fundraising events."
+          ],
+          "summary": "Tuesday: Date Night Dinner Deal for $50",
+          "time_window": "All Day",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "wednesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "50% off 1/2 Liter & Liter pours of house wines"
+          ],
+          "source_evidence": [
+            "WEDNESDAY",
+            "Wine Wednesday | All Day",
+            "50% off 1/2 Liter & Liter pours of house wines"
+          ],
+          "summary": "Wednesday Wine Special: 50% off pours",
+          "time_window": "All Day",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T18:30:45Z",
+      "extraction_version": 3,
+      "fetch_mode": "static",
+      "key": "cd2084152f7e369b0d19",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Promotions",
+        "url": "https://beachwoodpizza.com/promotions"
+      },
+      "rejected_candidates": [
+        "Slice-of-the-Day rotating specialty pizza"
+      ],
+      "restaurant": {
+        "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=15543086224621872833&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7166198,
+        "longitude": -118.03861239999999,
+        "name": "Beachwood Pizza & Beer",
+        "phone": "(657) 301-2063",
+        "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc",
+        "primary_type": "pizza_restaurant",
+        "specials_checked_at": "2026-09-15T18:26:25Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "https://beachwoodpizza.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Dailyspecials",
+            "url": "https://beachwoodpizza.com/dailyspecials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Deals",
+            "url": "https://beachwoodpizza.com/deals"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Happy Hour",
+            "url": "https://beachwoodpizza.com/happy-hour"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Promotions",
+            "url": "https://beachwoodpizza.com/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "https://beachwoodpizza.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Lunch",
+            "url": "https://beachwoodpizza.com/weekday-lunch"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "https://beachwoodpizza.com/weekday-specials"
+          }
+        ],
+        "types": [
+          "pizza_restaurant",
+          "brewpub",
+          "pub",
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://beachwoodpizza.com/"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "9a04539e660460afa62ccd16096960e6f2e3ed8e8d5f97a5aa07708d00aa4872",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink",
+            "food"
+          ],
+          "details": [
+            "$2 off draft wine & beer with purchase of any food item"
+          ],
+          "source_evidence": [
+            "Monday - Thursday 3pm - 5pm",
+            "Friday & Saturday 8:30pm - 10pm",
+            "$2 off draft wine & beer with purchase of any food item"
+          ],
+          "summary": "Happy Hour: $2 off draft wine & beer",
+          "time_window": "Mon-Thu 3pm-5pm, Fri-Sat 8:30pm-10pm",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink",
+            "food"
+          ],
+          "details": [
+            "Full pours of beer & seltzers for only $6 with purchase of food item"
+          ],
+          "source_evidence": [
+            "MONDAY",
+            "$6 Pints | All Day",
+            "Full Pours of beer & seltzers for only $6 with purchase of food item!"
+          ],
+          "summary": "$6 Pints of beer and seltzers",
+          "time_window": "All Day",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Choice of starter, salad, & classic pizza for $50",
+            "Promotion not valid during fundraising events"
+          ],
+          "source_evidence": [
+            "TUESDAY",
+            "Date Night Dinner Deal | All Day",
+            "Choice of starter, salad, & classic pizza for $50",
+            "* Promotion not valid during fundraising events."
+          ],
+          "summary": "Date Night Dinner Deal for $50",
+          "time_window": "All Day",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "wednesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "50% off 1/2 Liter & Liter pours of house wines"
+          ],
+          "source_evidence": [
+            "WEDNESDAY",
+            "Wine Wednesday | All Day",
+            "50% off 1/2 Liter & Liter pours of house wines"
+          ],
+          "summary": "Wine Wednesday: 50% off house wines",
+          "time_window": "All Day",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T18:30:54Z",
+      "extraction_version": 3,
+      "fetch_mode": "static",
+      "key": "e4b46e99188b112fc64e",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Specials",
+        "url": "https://beachwoodpizza.com/specials"
+      },
+      "rejected_candidates": [
+        "Slice-of-the-Day rotating specialty slice"
+      ],
+      "restaurant": {
+        "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=15543086224621872833&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7166198,
+        "longitude": -118.03861239999999,
+        "name": "Beachwood Pizza & Beer",
+        "phone": "(657) 301-2063",
+        "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc",
+        "primary_type": "pizza_restaurant",
+        "specials_checked_at": "2026-09-15T18:26:25Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "https://beachwoodpizza.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Dailyspecials",
+            "url": "https://beachwoodpizza.com/dailyspecials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Deals",
+            "url": "https://beachwoodpizza.com/deals"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Happy Hour",
+            "url": "https://beachwoodpizza.com/happy-hour"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Promotions",
+            "url": "https://beachwoodpizza.com/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "https://beachwoodpizza.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Lunch",
+            "url": "https://beachwoodpizza.com/weekday-lunch"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "https://beachwoodpizza.com/weekday-specials"
+          }
+        ],
+        "types": [
+          "pizza_restaurant",
+          "brewpub",
+          "pub",
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://beachwoodpizza.com/"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "9a04539e660460afa62ccd16096960e6f2e3ed8e8d5f97a5aa07708d00aa4872",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink",
+            "food"
+          ],
+          "details": [
+            "$2 off draft wine & beer with purchase of any food item"
+          ],
+          "source_evidence": [
+            "HAPPY HOUR",
+            "Monday - Thursday 3pm - 5pm",
+            "Friday & Saturday 8:30pm - 10pm",
+            "$2 off draft wine & beer with purchase of any food item"
+          ],
+          "summary": "Happy Hour: $2 off draft wine and beer",
+          "time_window": "Mon-Thu 3pm-5pm, Fri-Sat 8:30pm-10pm",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink",
+            "food"
+          ],
+          "details": [
+            "Full pours of beer & seltzers for only $6 with purchase of food item"
+          ],
+          "source_evidence": [
+            "MONDAY",
+            "$6 Pints | All Day",
+            "Full Pours of beer & seltzers for only $6 with purchase of food item!"
+          ],
+          "summary": "Monday: $6 full pours of beer and seltzers",
+          "time_window": "All Day",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Choice of starter, salad, & classic pizza for $50",
+            "Promotion not valid during fundraising events"
+          ],
+          "source_evidence": [
+            "TUESDAY",
+            "Date Night Dinner Deal | All Day",
+            "Choice of starter, salad, & classic pizza for $50",
+            "* Promotion not valid during fundraising events."
+          ],
+          "summary": "Tuesday: Date Night Dinner Deal for $50",
+          "time_window": "All Day",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "wednesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "50% off 1/2 Liter & Liter pours of house wines"
+          ],
+          "source_evidence": [
+            "WEDNESDAY",
+            "Wine Wednesday | All Day",
+            "50% off 1/2 Liter & Liter pours of house wines"
+          ],
+          "summary": "Wine Wednesday: 50% off 1/2 Liter & Liter house wines",
+          "time_window": "All Day",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T18:31:04Z",
+      "extraction_version": 3,
+      "fetch_mode": "static",
+      "key": "ad25074958d5abe6208e",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Weekday Lunch",
+        "url": "https://beachwoodpizza.com/weekday-lunch"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=15543086224621872833&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7166198,
+        "longitude": -118.03861239999999,
+        "name": "Beachwood Pizza & Beer",
+        "phone": "(657) 301-2063",
+        "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc",
+        "primary_type": "pizza_restaurant",
+        "specials_checked_at": "2026-09-15T18:26:25Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "https://beachwoodpizza.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Dailyspecials",
+            "url": "https://beachwoodpizza.com/dailyspecials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Deals",
+            "url": "https://beachwoodpizza.com/deals"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Happy Hour",
+            "url": "https://beachwoodpizza.com/happy-hour"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Promotions",
+            "url": "https://beachwoodpizza.com/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "https://beachwoodpizza.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Lunch",
+            "url": "https://beachwoodpizza.com/weekday-lunch"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "https://beachwoodpizza.com/weekday-specials"
+          }
+        ],
+        "types": [
+          "pizza_restaurant",
+          "brewpub",
+          "pub",
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://beachwoodpizza.com/"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "9a04539e660460afa62ccd16096960e6f2e3ed8e8d5f97a5aa07708d00aa4872",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink",
+            "food"
+          ],
+          "details": [
+            "$2 off draft wine & beer with purchase of any food item"
+          ],
+          "source_evidence": [
+            "HAPPY HOUR",
+            "Monday - Thursday 3pm - 5pm",
+            "Friday & Saturday 8:30pm - 10pm",
+            "$2 off draft wine & beer with purchase of any food item"
+          ],
+          "summary": "Happy Hour: $2 off draft wine and beer",
+          "time_window": "Mon-Thu 3pm-5pm, Fri-Sat 8:30pm-10pm",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink",
+            "food"
+          ],
+          "details": [
+            "Full Pours of beer & seltzers for only $6 with purchase of food item"
+          ],
+          "source_evidence": [
+            "MONDAY",
+            "$6 Pints | All Day",
+            "Full Pours of beer & seltzers for only $6 with purchase of food item!"
+          ],
+          "summary": "$6 Pints of beer and seltzers",
+          "time_window": "All Day",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Choice of starter, salad, & classic pizza for $50",
+            "Promotion not valid during fundraising events"
+          ],
+          "source_evidence": [
+            "TUESDAY",
+            "Date Night Dinner Deal | All Day",
+            "Choice of starter, salad, & classic pizza for $50",
+            "* Promotion not valid during fundraising events."
+          ],
+          "summary": "Date Night Dinner Deal for $50",
+          "time_window": "All Day",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "wednesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "50% off 1/2 Liter & Liter pours of house wines"
+          ],
+          "source_evidence": [
+            "WEDNESDAY",
+            "Wine Wednesday | All Day",
+            "50% off 1/2 Liter & Liter pours of house wines"
+          ],
+          "summary": "Wine Wednesday: 50% off house wines",
+          "time_window": "All Day",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-15T18:31:13Z",
+      "extraction_version": 3,
+      "fetch_mode": "static",
+      "key": "28f43aac911b2d5adc01",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "known_path",
+        "label": "Weekday Specials",
+        "url": "https://beachwoodpizza.com/weekday-specials"
+      },
+      "rejected_candidates": [
+        "Slice-of-the-Day rotating specialty pizza"
+      ],
+      "restaurant": {
+        "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=15543086224621872833&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7166198,
+        "longitude": -118.03861239999999,
+        "name": "Beachwood Pizza & Beer",
+        "phone": "(657) 301-2063",
+        "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc",
+        "primary_type": "pizza_restaurant",
+        "specials_checked_at": "2026-09-15T18:26:25Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Daily Specials",
+            "url": "https://beachwoodpizza.com/daily-specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Dailyspecials",
+            "url": "https://beachwoodpizza.com/dailyspecials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Deals",
+            "url": "https://beachwoodpizza.com/deals"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Happy Hour",
+            "url": "https://beachwoodpizza.com/happy-hour"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Promotions",
+            "url": "https://beachwoodpizza.com/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Specials",
+            "url": "https://beachwoodpizza.com/specials"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Lunch",
+            "url": "https://beachwoodpizza.com/weekday-lunch"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "known_path",
+            "label": "Weekday Specials",
+            "url": "https://beachwoodpizza.com/weekday-specials"
+          }
+        ],
+        "types": [
+          "pizza_restaurant",
+          "brewpub",
+          "pub",
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://beachwoodpizza.com/"
+      },
+      "status": "ok"
     },
     {
       "content_hash": "a955c524296f636248566150623ee8d1de80f173c5bdcfd52a8105347f2c0f13",
@@ -4316,14 +6173,15 @@
           "url": "https://www.marketbroiler.com/_files/ugd/7c662d_6b31428d4d6a403f9402ced846046229.pdf"
         }
       ],
+      "visual_cache_hit": true,
       "visual_checked_at": "2026-09-15T16:00:01Z",
       "visual_hash": "cb01ba579e6b0de1afad5d6728287c0bbb401443623c7765d653fa3b8a573208",
       "visual_status": "verified"
     },
     {
-      "content_hash": "8b492afab166152a8cb22414e6c7943ab6238d1f19fa915edce7d6662312d8de",
+      "content_hash": "fb6910ba25b8e8753c695aa61560b26106c5677c93f8f69082b0d064b08e0d4c",
       "deals": [],
-      "extracted_at": "2026-09-15T16:01:43Z",
+      "extracted_at": "2026-09-15T18:31:20Z",
       "extraction_version": 3,
       "fetch_mode": "static",
       "key": "e1f8468585a3f3edcaad",
@@ -6661,9 +8519,7 @@
         "label": "Learn more",
         "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2026-09-10-17-00"
       },
-      "rejected_candidates": [
-        "Happy Hour Appetizers: Charcuterie, Calamari Fritti, Cannolo Salato, Bruschetta"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "1661 Superior Ave Ste d, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -7142,6 +8998,7 @@
           "url": "https://www.wahoos.com/wp-content/uploads/2020/10/chicken-taco-hand-1024x540.jpg"
         }
       ],
+      "visual_cache_hit": true,
       "visual_checked_at": "2026-09-15T16:00:39Z",
       "visual_hash": "005ae3c127876c100d744744630344ed0bee9deb44d02ab91d0e9fb6346c500b",
       "visual_status": "no_deals"
@@ -7149,7 +9006,9 @@
     {
       "content_hash": "1f5356a6119a37baf78d893e592714c82c16d63cc66906b40cb101d226eeccc0",
       "deals": [],
-      "extracted_at": "2026-09-10T16:35:54Z",
+      "extracted_at": "2026-09-15T18:29:28Z",
+      "extraction_version": 3,
+      "fetch_mode": "visual",
       "key": "483d196c370545850ea7",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -7230,7 +9089,30 @@
         ],
         "website_url": "http://www.wahoos.com/"
       },
-      "status": "no_deals"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 161328,
+          "content_hash": "0306c22c927effa109d53f34403e2b208d3985c8d2c9d6857ae98fac438f866e",
+          "mime_type": "application/pdf",
+          "url": "https://www.wahoos.com/wp-content/uploads/2020/10/2020-WAHOOS-NUTRITION-GUIDE.pdf"
+        },
+        {
+          "byte_size": 76555,
+          "content_hash": "189118ab7c86359e0f6ad40473dc142c10231d62666bc3bac2d75f8ec1d11126",
+          "mime_type": "application/pdf",
+          "url": "https://www.wahoos.com/wp-content/uploads/2022/03/Wahoos-Allergen-Info-V4.22.pdf"
+        },
+        {
+          "byte_size": 44590,
+          "content_hash": "8e4701ff3e6f8a3984edb78eac92a7ab1c4b7c1af8ac5559cb7b66ddffcce86e",
+          "mime_type": "image/jpeg",
+          "url": "https://www.wahoos.com/wp-content/uploads/2020/10/chicken-taco-hand-1024x540.jpg"
+        }
+      ],
+      "visual_checked_at": "2026-09-15T18:29:28Z",
+      "visual_hash": "005ae3c127876c100d744744630344ed0bee9deb44d02ab91d0e9fb6346c500b",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
@@ -7346,328 +9228,6 @@
         "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "no_deals"
-    },
-    {
-      "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
-      "deals": [
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Pretzel Bun Chili Dog coupon",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
-          ],
-          "summary": "$3 Pretzel Bun Chili Dog Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "Includes Corn Dog, Small Fries, and Small Soda",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$5 Corn Dog, Small Fries & Small Soda Coupon"
-          ],
-          "summary": "$5 Corn Dog, Small Fries & Small Soda Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Two Chili Dogs and Chili Cheese Fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$6 Two Chili Dogs & Chili Cheese Fries Coupon"
-          ],
-          "summary": "$6 Two Chili Dogs & Chili Cheese Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Two Sundaes",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$6 Two Sundaes Coupon"
-          ],
-          "summary": "$6 Two Sundaes Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Two Chili Dogs and Medium Fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$5 Two Chili Dogs & Medium Fries Coupon"
-          ],
-          "summary": "$5 Two Chili Dogs & Medium Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes two regular size classic chili cheese fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$6 Regular Size Two Classic Chili Cheese Fries Coupon"
-          ],
-          "summary": "$6 Regular Size Two Classic Chili Cheese Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Corn Dog, Chili Dog, and Chili Cheese Fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon"
-          ],
-          "summary": "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
-          ],
-          "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "Includes Deluxe Cheeseburger, Small Fries, and Small Soda",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
-          ],
-          "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "$2 discount on any chili cheese fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$2 Off Any Chili Cheese Fries Coupon"
-          ],
-          "summary": "$2 Off Any Chili Cheese Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Four Chili Dogs and Two Chili Cheese Fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon"
-          ],
-          "summary": "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Ten Chili Cheese Dogs",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$20 Ten Chili Cheese Dogs Coupon"
-          ],
-          "summary": "$20 Ten Chili Cheese Dogs Coupon",
-          "time_window": null,
-          "valid_through": null
-        }
-      ],
-      "extracted_at": "2026-09-10T04:22:43Z",
-      "key": "07efdeef28eacc9b87a4",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "high",
-        "label": "Specials",
-        "url": "http://www.wienerschnitzel.com/coupons/"
-      },
-      "rejected_candidates": [],
-      "restaurant": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
-        "name": "Wienerschnitzel",
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0",
-        "primary_type": "fast_food_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "http://www.wienerschnitzel.com/coupons/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-          }
-        ],
-        "types": [
-          "fast_food_restaurant",
-          "ice_cream_shop",
-          "dessert_shop",
-          "hot_dog_restaurant",
-          "american_restaurant",
-          "confectionery",
-          "food_store",
-          "store",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.wienerschnitzel.com/location/351-warner-springdale-huntington-bch-5966-warner-avenue-huntington-bch-ca-92649/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
-      },
-      "status": "ok"
     },
     {
       "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
@@ -8000,6 +9560,328 @@
           "establishment"
         ],
         "website_url": "http://www.wienerschnitzel.com/location/239-beach-blvd-talbert-huntington-beach-18012-beach-blvd-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
+      "deals": [
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Pretzel Bun Chili Dog coupon",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
+          ],
+          "summary": "$3 Pretzel Bun Chili Dog Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Includes Corn Dog, Small Fries, and Small Soda",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$5 Corn Dog, Small Fries & Small Soda Coupon"
+          ],
+          "summary": "$5 Corn Dog, Small Fries & Small Soda Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Two Chili Dogs and Chili Cheese Fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$6 Two Chili Dogs & Chili Cheese Fries Coupon"
+          ],
+          "summary": "$6 Two Chili Dogs & Chili Cheese Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Two Sundaes",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$6 Two Sundaes Coupon"
+          ],
+          "summary": "$6 Two Sundaes Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Two Chili Dogs and Medium Fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$5 Two Chili Dogs & Medium Fries Coupon"
+          ],
+          "summary": "$5 Two Chili Dogs & Medium Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes two regular size classic chili cheese fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$6 Regular Size Two Classic Chili Cheese Fries Coupon"
+          ],
+          "summary": "$6 Regular Size Two Classic Chili Cheese Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Corn Dog, Chili Dog, and Chili Cheese Fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon"
+          ],
+          "summary": "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
+          ],
+          "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Includes Deluxe Cheeseburger, Small Fries, and Small Soda",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
+          ],
+          "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "$2 discount on any chili cheese fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$2 Off Any Chili Cheese Fries Coupon"
+          ],
+          "summary": "$2 Off Any Chili Cheese Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Four Chili Dogs and Two Chili Cheese Fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon"
+          ],
+          "summary": "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Ten Chili Cheese Dogs",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$20 Ten Chili Cheese Dogs Coupon"
+          ],
+          "summary": "$20 Ten Chili Cheese Dogs Coupon",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T04:22:43Z",
+      "key": "07efdeef28eacc9b87a4",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Specials",
+        "url": "http://www.wienerschnitzel.com/coupons/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "name": "Wienerschnitzel",
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0",
+        "primary_type": "fast_food_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "http://www.wienerschnitzel.com/coupons/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "hot_dog_restaurant",
+          "american_restaurant",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.wienerschnitzel.com/location/351-warner-springdale-huntington-bch-5966-warner-avenue-huntington-bch-ca-92649/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "ok"
     },
@@ -9543,10 +11425,10 @@
       "status": "ok"
     },
     {
-      "content_hash": "7145564b978a717062dd89c40dc73eeb8429d4de6e437dcb3a86cc95fdf63564",
+      "content_hash": "8df6a2751cbb0e3fcb6ea7f888bbb2ca7fd3980f94eb2811dfb7b2f69379a86c",
       "deals": [
         {
-          "ai_confidence": 0.95,
+          "ai_confidence": 0.9,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
@@ -9556,19 +11438,19 @@
             "1 large 14'' cheese pizza",
             "1 Spaghetti with meatballs",
             "1 antipasto salad",
-            "$29.99"
+            "Price: $29.99"
           ],
           "source_evidence": [
             "The Great Meal",
             "1 large 14'' cheese pizza,1 Spaghetti with meatballs,1 antipasto salad.",
             "$29.99"
           ],
-          "summary": "The Great Meal deal",
+          "summary": "The Great Meal bundle",
           "time_window": null,
           "valid_through": null
         },
         {
-          "ai_confidence": 0.95,
+          "ai_confidence": 0.9,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
@@ -9577,19 +11459,19 @@
           "details": [
             "Two large 14'' pizzas",
             "One topping each",
-            "$28.99"
+            "Price: $28.99"
           ],
           "source_evidence": [
             "Pizza Twins",
             "Two large 14'' pizzas, One topping each.",
             "$28.99"
           ],
-          "summary": "Pizza Twins deal",
+          "summary": "Pizza Twins bundle",
           "time_window": null,
           "valid_through": null
         },
         {
-          "ai_confidence": 0.95,
+          "ai_confidence": 0.9,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
@@ -9599,18 +11481,18 @@
             "Two Spaghetti With Meatballs",
             "One Dinner Salad",
             "One Garlic Bread",
-            "$26.99"
+            "Price: $26.99"
           ],
           "source_evidence": [
             "Two Spaghetti With Meatballs, One Dinner Salad, One Garlic Bread",
             "$26.99"
           ],
-          "summary": "Pasta and Salad combo deal",
+          "summary": "Two Spaghetti With Meatballs bundle",
           "time_window": null,
           "valid_through": null
         },
         {
-          "ai_confidence": 0.95,
+          "ai_confidence": 0.9,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
@@ -9620,18 +11502,18 @@
             "Two Lasagna Dinner",
             "One Dinner Salad",
             "One Garlic Bread",
-            "$26.99"
+            "Price: $26.99"
           ],
           "source_evidence": [
             "Two Lasagna Dinner, One Dinner Salad, One Garlic Bread",
             "$26.99"
           ],
-          "summary": "Lasagna dinner combo deal",
+          "summary": "Two Lasagna Dinner bundle",
           "time_window": null,
           "valid_through": null
         },
         {
-          "ai_confidence": 0.95,
+          "ai_confidence": 0.9,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
@@ -9639,18 +11521,18 @@
           ],
           "details": [
             "Two Jumbo 16'' Pizzas with One Topping",
-            "$32.99"
+            "Price: $32.99"
           ],
           "source_evidence": [
             "Two Jumbo 16'' Pizzas with One Topping",
             "$32.99"
           ],
-          "summary": "Two Jumbo 16'' Pizzas deal",
+          "summary": "Two Jumbo 16'' Pizzas bundle",
           "time_window": null,
           "valid_through": null
         },
         {
-          "ai_confidence": 0.95,
+          "ai_confidence": 0.9,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
@@ -9661,36 +11543,37 @@
             "Two 14'' Large Pizza with 1-Topping each",
             "9 Pieces Chicken Wings",
             "2-Liter of Coke",
-            "$39.99"
+            "Price: $39.99"
           ],
           "source_evidence": [
             "Manager Special",
             "Two 14'' Large Pizza with 1-Topping each, 9 Pieces Chicken Wings & 2-Liter of Coke",
             "$39.99"
           ],
-          "summary": "Manager Special bundle",
+          "summary": "Manager Special",
           "time_window": null,
           "valid_through": null
         },
         {
-          "ai_confidence": 0.95,
+          "ai_confidence": 0.9,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
             "general"
           ],
           "details": [
-            "Purchase $35 or More on Regular Menu Price and Get $5 off"
-          ],
-          "source_evidence": [
             "Purchase $35 or More on Regular Menu Price and Get $5"
           ],
-          "summary": "Purchase $35 or more coupon",
+          "source_evidence": [
+            "Purchase $35 or More on Regular Menu Price and Get $5",
+            "$5.00"
+          ],
+          "summary": "Spend $35 or more and get $5 off",
           "time_window": null,
           "valid_through": null
         },
         {
-          "ai_confidence": 0.95,
+          "ai_confidence": 0.9,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
@@ -9698,11 +11581,10 @@
           ],
           "details": [
             "Only available for pickup",
-            "$10.99"
+            "One Large One Topping 14\" Pizza",
+            "Price: $10.99"
           ],
           "source_evidence": [
-            "Pick Up Specials",
-            "Only available for pickup",
             "One Large One Topping 14\" Pizza Pick Up Special",
             "$10.99"
           ],
@@ -9711,13 +11593,14 @@
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-15T15:44:43Z",
+      "extracted_at": "2026-09-15T18:31:31Z",
       "extraction_version": 3,
       "fetch_mode": "static",
       "key": "008dc9a8e159cab46b68",
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
+        "discovered_via": "page_text",
         "label": "Website specials",
         "url": "https://www.orderamecipizzapasta.com/?utm_source=gbp"
       },
@@ -9777,9 +11660,12 @@
         "phone": "(714) 963-5790",
         "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g",
         "primary_type": "pizza_restaurant",
+        "specials_checked_at": "2026-09-15T15:50:23Z",
+        "specials_discovery_version": 4,
         "specials_pages": [
           {
             "confidence": "medium",
+            "discovered_via": "page_text",
             "label": "Website specials",
             "url": "https://www.orderamecipizzapasta.com/?utm_source=gbp"
           }
@@ -10262,188 +12148,6 @@
           "establishment"
         ],
         "website_url": "https://www.basilicospastavino.com/"
-      },
-      "status": "ok"
-    },
-    {
-      "content_hash": "9a04539e660460afa62ccd16096960e6f2e3ed8e8d5f97a5aa07708d00aa4872",
-      "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [
-            "monday",
-            "tuesday",
-            "wednesday",
-            "thursday",
-            "friday",
-            "saturday"
-          ],
-          "applies_month_days": [],
-          "categories": [
-            "drink",
-            "food"
-          ],
-          "details": [
-            "Get $2 off draft wine and beer with the purchase of any food item"
-          ],
-          "source_evidence": [
-            "Monday - Thursday 3pm - 5pm",
-            "Friday & Saturday 8:30pm - 10pm",
-            "$2 off draft wine & beer with purchase of any food item"
-          ],
-          "summary": "$2 off draft wine and beer during Happy Hour",
-          "time_window": "Mon-Thu 3pm-5pm, Fri-Sat 8:30pm-10pm",
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [
-            "monday"
-          ],
-          "applies_month_days": [],
-          "categories": [
-            "drink",
-            "food"
-          ],
-          "details": [
-            "Full pours of beer & seltzers for only $6 with purchase of a food item"
-          ],
-          "source_evidence": [
-            "MONDAY",
-            "$6 Pints | All Day",
-            "Full Pours of beer & seltzers for only $6 with purchase of food item!"
-          ],
-          "summary": "$6 pints of beer & seltzers on Mondays",
-          "time_window": "All Day",
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [
-            "tuesday"
-          ],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Choice of starter, salad, and classic pizza for $50",
-            "Not valid during fundraising events"
-          ],
-          "source_evidence": [
-            "TUESDAY",
-            "Date Night Dinner Deal | All Day",
-            "Choice of starter, salad, & classic pizza for $50",
-            "* Promotion not valid during fundraising events."
-          ],
-          "summary": "Date Night Dinner Deal for $50 on Tuesdays",
-          "time_window": "All Day",
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [
-            "wednesday"
-          ],
-          "applies_month_days": [],
-          "categories": [
-            "drink"
-          ],
-          "details": [
-            "50% off 1/2 Liter and Liter pours of house wines"
-          ],
-          "source_evidence": [
-            "WEDNESDAY",
-            "Wine Wednesday | All Day",
-            "50% off 1/2 Liter & Liter pours of house wines"
-          ],
-          "summary": "50% off 1/2 Liter & Liter house wines on Wednesdays",
-          "time_window": "All Day",
-          "valid_through": null
-        }
-      ],
-      "extracted_at": "2026-09-10T19:03:45Z",
-      "key": "791aa07de8c627d3f873",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "medium",
-        "label": "Website specials",
-        "url": "https://beachwoodpizza.com/"
-      },
-      "rejected_candidates": [],
-      "restaurant": {
-        "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=15543086224621872833&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "15:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "11:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "15:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "15:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "15:00"
-            }
-          ]
-        },
-        "latitude": 33.7166198,
-        "longitude": -118.03861239999999,
-        "name": "Beachwood Pizza & Beer",
-        "phone": "(657) 301-2063",
-        "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc",
-        "primary_type": "pizza_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "medium",
-            "label": "Website specials",
-            "url": "https://beachwoodpizza.com/"
-          }
-        ],
-        "types": [
-          "pizza_restaurant",
-          "brewpub",
-          "pub",
-          "bar",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "https://beachwoodpizza.com/"
       },
       "status": "ok"
     },
@@ -11159,6 +12863,94 @@
     {
       "content_hash": "b9fce990c86015013d3f8f9f090495f55cbab7189f0fab11bcd8108262f139a4",
       "deals": [],
+      "extracted_at": "2026-09-10T19:04:54Z",
+      "key": "19cec4e1074e8465423c",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "medium",
+        "label": "Website specials",
+        "url": "http://www.carlitosdiner.com/"
+      },
+      "rejected_candidates": [
+        "Menudo and Pozole Everyday"
+      ],
+      "restaurant": {
+        "address": "7451 Warner Ave G, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=436858277318907960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "16:00",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.716098,
+        "longitude": -117.99848000000001,
+        "name": "Carlitos Diner",
+        "phone": "(714) 841-9966",
+        "place_id": "ChIJB5cwb4om3YAROFjI5EkIEAY",
+        "primary_type": "mexican_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "medium",
+            "label": "Website specials",
+            "url": "http://www.carlitosdiner.com/"
+          }
+        ],
+        "types": [
+          "mexican_restaurant",
+          "american_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.carlitosdiner.com/"
+      },
+      "status": "no_deals"
+    },
+    {
+      "content_hash": "b9fce990c86015013d3f8f9f090495f55cbab7189f0fab11bcd8108262f139a4",
+      "deals": [],
       "extracted_at": "2026-09-10T19:05:02Z",
       "key": "a48cca227805c135b5be",
       "model": "gemini-3.5-flash-lite",
@@ -11240,94 +13032,6 @@
           "diner",
           "breakfast_restaurant",
           "hamburger_restaurant",
-          "american_restaurant",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.carlitosdiner.com/"
-      },
-      "status": "no_deals"
-    },
-    {
-      "content_hash": "b9fce990c86015013d3f8f9f090495f55cbab7189f0fab11bcd8108262f139a4",
-      "deals": [],
-      "extracted_at": "2026-09-10T19:04:54Z",
-      "key": "19cec4e1074e8465423c",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "medium",
-        "label": "Website specials",
-        "url": "http://www.carlitosdiner.com/"
-      },
-      "rejected_candidates": [
-        "Menudo and Pozole Everyday"
-      ],
-      "restaurant": {
-        "address": "7451 Warner Ave G, Huntington Beach, CA 92647, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=436858277318907960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "16:00",
-              "open": "08:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.716098,
-        "longitude": -117.99848000000001,
-        "name": "Carlitos Diner",
-        "phone": "(714) 841-9966",
-        "place_id": "ChIJB5cwb4om3YAROFjI5EkIEAY",
-        "primary_type": "mexican_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "medium",
-            "label": "Website specials",
-            "url": "http://www.carlitosdiner.com/"
-          }
-        ],
-        "types": [
-          "mexican_restaurant",
           "american_restaurant",
           "restaurant",
           "food",
@@ -14920,7 +16624,9 @@
     {
       "content_hash": "a64841a27369810be64c7ed0608ee841c2155be98e70d5b5cf17a05a1dcc2cd9",
       "deals": [],
-      "extracted_at": "2026-09-10T02:23:21Z",
+      "extracted_at": "2026-09-15T18:29:38Z",
+      "extraction_version": 3,
+      "fetch_mode": "visual",
       "key": "a39cee37e451b17a7abd",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -15001,12 +16707,37 @@
         ],
         "website_url": "http://www.orderhotoffthegrill.com/"
       },
-      "status": "no_deals"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 62673,
+          "content_hash": "59e235e87736463081372403fa86a9f35a55c210e8b2e9a0f63c744c5c29c4e0",
+          "mime_type": "image/jpeg",
+          "url": "https://www.orderhotoffthegrill.com/static/0d9cc1811ced7d8c5c3e599038df7e4e/b0c6e/o.jpg.jpg"
+        },
+        {
+          "byte_size": 114110,
+          "content_hash": "ac9756ae359b97e628c9d8676505a6efb523236d211d229d3b064acc532e5ab4",
+          "mime_type": "image/jpeg",
+          "url": "https://www.orderhotoffthegrill.com/static/138cf5a1a4b3eba68bdec23d5e63b286/7a84a/AF1QipNuBMLgX9SI_R33kn0JhkyLGeFUQxtmXlMCjbUSs1600-w1600-h1600.jpg"
+        },
+        {
+          "byte_size": 101456,
+          "content_hash": "a670db973c7d74b27f207537e68df613be584ba7f928bd2cfe551163d3f91c3e",
+          "mime_type": "image/jpeg",
+          "url": "https://www.orderhotoffthegrill.com/static/16767c82bf5641c72fcf65c8ae4daf37/eb112/AF1QipOFZXr_8GZvEqIRL1jzP95hK8UC8ysnTV8OF_0Gs1600-w1080-h1600.jpg"
+        }
+      ],
+      "visual_checked_at": "2026-09-15T18:29:38Z",
+      "visual_hash": "199fb7f2c4dd850ef0a424a3e04eebb41e4c0db9f1dc497a9feba5f0b035b648",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "a64841a27369810be64c7ed0608ee841c2155be98e70d5b5cf17a05a1dcc2cd9",
       "deals": [],
-      "extracted_at": "2026-09-10T02:23:34Z",
+      "extracted_at": "2026-09-15T18:29:48Z",
+      "extraction_version": 3,
+      "fetch_mode": "visual",
       "key": "eb073ae269e86bc311d1",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -15086,7 +16817,30 @@
         ],
         "website_url": "https://www.orderhotoffthegrill.com/"
       },
-      "status": "no_deals"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 62673,
+          "content_hash": "59e235e87736463081372403fa86a9f35a55c210e8b2e9a0f63c744c5c29c4e0",
+          "mime_type": "image/jpeg",
+          "url": "https://www.orderhotoffthegrill.com/static/0d9cc1811ced7d8c5c3e599038df7e4e/b0c6e/o.jpg.jpg"
+        },
+        {
+          "byte_size": 114110,
+          "content_hash": "ac9756ae359b97e628c9d8676505a6efb523236d211d229d3b064acc532e5ab4",
+          "mime_type": "image/jpeg",
+          "url": "https://www.orderhotoffthegrill.com/static/138cf5a1a4b3eba68bdec23d5e63b286/7a84a/AF1QipNuBMLgX9SI_R33kn0JhkyLGeFUQxtmXlMCjbUSs1600-w1600-h1600.jpg"
+        },
+        {
+          "byte_size": 101456,
+          "content_hash": "a670db973c7d74b27f207537e68df613be584ba7f928bd2cfe551163d3f91c3e",
+          "mime_type": "image/jpeg",
+          "url": "https://www.orderhotoffthegrill.com/static/16767c82bf5641c72fcf65c8ae4daf37/eb112/AF1QipOFZXr_8GZvEqIRL1jzP95hK8UC8ysnTV8OF_0Gs1600-w1080-h1600.jpg"
+        }
+      ],
+      "visual_checked_at": "2026-09-15T18:29:48Z",
+      "visual_hash": "199fb7f2c4dd850ef0a424a3e04eebb41e4c0db9f1dc497a9feba5f0b035b648",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "8cd9287280425a4ad89581a60d7bd9d8cbfc8da526b0b3f91fa34692e42bc4e4",
@@ -15517,7 +17271,9 @@
     {
       "content_hash": "124adc67744e097521f1be7aa98b23f67b2c5dd8982ce4017d7035e9082a5adc",
       "deals": [],
-      "extracted_at": "2026-09-10T02:55:20Z",
+      "extracted_at": "2026-09-15T18:29:58Z",
+      "extraction_version": 3,
+      "fetch_mode": "visual",
       "key": "e44277f186fbb593ed82",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -15601,7 +17357,30 @@
         ],
         "website_url": "https://www.izakayahondaya.com/home/fountian-valley/"
       },
-      "status": "no_deals"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 1213673,
+          "content_hash": "363c3e75375bde5f00777071692f1f0579f28ba25e50226658967ba24566ffe1",
+          "mime_type": "image/jpeg",
+          "url": "https://www.izakayahondaya.com/wp-content/uploads/2021/05/hondaya_sns.jpg"
+        },
+        {
+          "byte_size": 17936,
+          "content_hash": "89bad2a7d1cb1b967a423caeda947e7a50a21e17f75f89010b3ceb956be6a6fe",
+          "mime_type": "image/png",
+          "url": "https://www.izakayahondaya.com/wp-content/uploads/2021/05/hondaya_toplogo_white.png"
+        },
+        {
+          "byte_size": 12979,
+          "content_hash": "5d5faf0720c9224024ccadbfd20100333a5085217a6b1a3ad3c577a1500a238b",
+          "mime_type": "image/png",
+          "url": "https://www.izakayahondaya.com/wp-content/uploads/2021/06/KAPPO_toplogo_blackbg.png"
+        }
+      ],
+      "visual_checked_at": "2026-09-15T18:29:58Z",
+      "visual_hash": "0e482cc04696eafa47a3b2faa79f95b613670c521f42fcaede53ad790d4a2c9d",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "40797b2faeec40b395e014ef055814950b0ed9a5df5c691b140aa17f5f505a45",
@@ -16515,9 +18294,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "0e4bb4af84073007ef56e90a4e12fbb8ef8aa894f5ac341bef7f4cef6ac8e599",
+      "content_hash": "f50895d65fda57be85c68928a84e7722e9f8d6cc11da6b3e90ca4dc381d9e518",
       "deals": [],
-      "extracted_at": "2026-09-15T16:05:26Z",
+      "extracted_at": "2026-09-15T18:31:38Z",
       "extraction_version": 3,
       "fetch_mode": "static",
       "key": "b9be67241d188f5a98ba",
@@ -16943,9 +18722,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "99fd8bbb6573afe64a84ff0c1fc0e8daf61e66b0b925ae2a1bea12dd0995f1b6",
+      "content_hash": "79ebb6e82285100337ff9bc6bbee67a41a784ebd527a108a10cafd17a5408b2e",
       "deals": [],
-      "extracted_at": "2026-09-15T16:06:07Z",
+      "extracted_at": "2026-09-15T18:31:45Z",
       "extraction_version": 3,
       "fetch_mode": "static",
       "key": "589825ac47de20879b9c",
@@ -20231,9 +22010,11 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "3ec54d55ffd8ad8dd9d73c36478a78a10bf6071605496c3c70565e2a412661b7",
+      "content_hash": "3a4f4f7a4d1381d070c9d1d773986afb4cc7be3bf1aa4a1001ea182b95cb8d33",
       "deals": [],
-      "extracted_at": "2026-09-13T17:38:57Z",
+      "extracted_at": "2026-09-15T18:31:53Z",
+      "extraction_version": 3,
+      "fetch_mode": "static",
       "key": "d62086b5224cb38d3f8e",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -26988,9 +28769,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "a82f965a9a6b3a0c64feadfb6d84f55a42d252b2abe38d458c5ae577cc5b19b8",
+      "content_hash": "aed1baa297bf436b12060a136e67ceed1d1c26328d875e3b87e35a9243e92b1f",
       "deals": [],
-      "extracted_at": "2026-09-15T16:06:27Z",
+      "extracted_at": "2026-09-15T18:32:00Z",
       "extraction_version": 3,
       "fetch_mode": "static",
       "key": "23d0d0c520f845b3127a",
@@ -28772,6 +30553,7 @@
           "url": "https://pub-4c1a0e10101941f192772384c642985e.r2.dev/CONCEPT%20LOGOS.png"
         }
       ],
+      "visual_cache_hit": true,
       "visual_checked_at": "2026-09-15T15:58:43Z",
       "visual_hash": "bd5e7458525bf4fb4d1f49f77d2415aa30436528d4f04b4139b6ab6bb7535ee3",
       "visual_status": "no_deals"
@@ -28881,6 +30663,7 @@
           "url": "https://pub-4c1a0e10101941f192772384c642985e.r2.dev/CONCEPT%20LOGOS.png"
         }
       ],
+      "visual_cache_hit": true,
       "visual_checked_at": "2026-09-15T15:59:09Z",
       "visual_hash": "79492717432e8cc678a62bb0a76f432c55440e0c7a65041c1dda83235cd21ff5",
       "visual_status": "no_deals"
@@ -29732,6 +31515,278 @@
     }
   ],
   "sources": [
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=15543086224621872833&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7166198,
+        "longitude": -118.03861239999999,
+        "phone": "(657) 301-2063",
+        "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc"
+      },
+      "name": "Beachwood Pizza & Beer",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "drink",
+              "food"
+            ],
+            "details": [
+              "$2 off draft wine & beer with purchase of any food item"
+            ],
+            "source_evidence": [
+              "HAPPY HOUR",
+              "Monday - Thursday 3pm - 5pm",
+              "Friday & Saturday 8:30pm - 10pm",
+              "$2 off draft wine & beer with purchase of any food item"
+            ],
+            "summary": "Happy Hour: $2 off draft wine and beer",
+            "time_window": "Mon-Thu 3pm-5pm, Fri-Sat 8:30pm-10pm",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "drink",
+              "food"
+            ],
+            "details": [
+              "Full pours of beer & seltzers for only $6 with purchase of food item"
+            ],
+            "source_evidence": [
+              "MONDAY",
+              "$6 Pints | All Day",
+              "Full Pours of beer & seltzers for only $6 with purchase of food item!"
+            ],
+            "summary": "$6 Pints of beer and seltzers",
+            "time_window": "All Day",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "tuesday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Choice of starter, salad, & classic pizza for $50",
+              "Promotion not valid during fundraising events."
+            ],
+            "source_evidence": [
+              "TUESDAY",
+              "Date Night Dinner Deal | All Day",
+              "Choice of starter, salad, & classic pizza for $50",
+              "* Promotion not valid during fundraising events."
+            ],
+            "summary": "Date Night Dinner Deal: starter, salad, & classic pizza for $50",
+            "time_window": "All Day",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "wednesday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "drink"
+            ],
+            "details": [
+              "50% off 1/2 Liter & Liter pours of house wines"
+            ],
+            "source_evidence": [
+              "WEDNESDAY",
+              "Wine Wednesday | All Day",
+              "50% off 1/2 Liter & Liter pours of house wines"
+            ],
+            "summary": "Wine Wednesday: 50% off house wine pours",
+            "time_window": "All Day",
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://beachwoodpizza.com/daily-specials"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=15543086224621872833&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7166198,
+        "longitude": -118.03861239999999,
+        "phone": "(657) 301-2063",
+        "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc"
+      },
+      "name": "Beachwood Pizza & Beer",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "drink",
+              "food"
+            ],
+            "details": [
+              "$2 off draft wine & beer",
+              "Requires purchase of any food item"
+            ],
+            "source_evidence": [
+              "Monday - Thursday 3pm - 5pm",
+              "Friday & Saturday 8:30pm - 10pm",
+              "$2 off draft wine & beer with purchase of any food item"
+            ],
+            "summary": "$2 off draft wine & beer during Happy Hour",
+            "time_window": "Monday - Thursday 3pm - 5pm, Friday & Saturday 8:30pm - 10pm",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "tuesday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Choice of starter, salad, & classic pizza for $50",
+              "Not valid during fundraising events"
+            ],
+            "source_evidence": [
+              "TUESDAY",
+              "Date Night Dinner Deal | All Day",
+              "Choice of starter, salad, & classic pizza for $50"
+            ],
+            "summary": "Date Night Dinner Deal for $50 on Tuesday",
+            "time_window": "All Day",
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://beachwoodpizza.com/happy-hour"
+    },
     {
       "city": "Costa Mesa",
       "location": {
@@ -32527,289 +34582,6 @@
     {
       "city": "Huntington Beach",
       "location": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
-      },
-      "name": "Wienerschnitzel",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Pretzel Bun Chili Dog coupon",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
-            ],
-            "summary": "$3 Pretzel Bun Chili Dog Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "Includes Corn Dog, Small Fries, and Small Soda",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$5 Corn Dog, Small Fries & Small Soda Coupon"
-            ],
-            "summary": "$5 Corn Dog, Small Fries & Small Soda Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Includes Two Chili Dogs and Chili Cheese Fries",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$6 Two Chili Dogs & Chili Cheese Fries Coupon"
-            ],
-            "summary": "$6 Two Chili Dogs & Chili Cheese Fries Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Includes Two Sundaes",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$6 Two Sundaes Coupon"
-            ],
-            "summary": "$6 Two Sundaes Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Includes Two Chili Dogs and Medium Fries",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$5 Two Chili Dogs & Medium Fries Coupon"
-            ],
-            "summary": "$5 Two Chili Dogs & Medium Fries Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Includes two regular size classic chili cheese fries",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$6 Regular Size Two Classic Chili Cheese Fries Coupon"
-            ],
-            "summary": "$6 Regular Size Two Classic Chili Cheese Fries Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Includes Corn Dog, Chili Dog, and Chili Cheese Fries",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon"
-            ],
-            "summary": "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
-            ],
-            "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "Includes Deluxe Cheeseburger, Small Fries, and Small Soda",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
-            ],
-            "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "$2 discount on any chili cheese fries",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$2 Off Any Chili Cheese Fries Coupon"
-            ],
-            "summary": "$2 Off Any Chili Cheese Fries Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Includes Four Chili Dogs and Two Chili Cheese Fries",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon"
-            ],
-            "summary": "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Includes Ten Chili Cheese Dogs",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$20 Ten Chili Cheese Dogs Coupon"
-            ],
-            "summary": "$20 Ten Chili Cheese Dogs Coupon",
-            "time_window": null,
-            "valid_through": null
-          }
-        ]
-      },
-      "url": "http://www.wienerschnitzel.com/coupons/"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
         "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
@@ -33095,6 +34867,289 @@
               "$20 Ten Chili Cheese Dogs Coupon"
             ],
             "summary": "$20 Ten Chili Cheese Dogs",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "http://www.wienerschnitzel.com/coupons/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
+      },
+      "name": "Wienerschnitzel",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Pretzel Bun Chili Dog coupon",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
+            ],
+            "summary": "$3 Pretzel Bun Chili Dog Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Includes Corn Dog, Small Fries, and Small Soda",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$5 Corn Dog, Small Fries & Small Soda Coupon"
+            ],
+            "summary": "$5 Corn Dog, Small Fries & Small Soda Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Includes Two Chili Dogs and Chili Cheese Fries",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$6 Two Chili Dogs & Chili Cheese Fries Coupon"
+            ],
+            "summary": "$6 Two Chili Dogs & Chili Cheese Fries Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Includes Two Sundaes",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$6 Two Sundaes Coupon"
+            ],
+            "summary": "$6 Two Sundaes Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Includes Two Chili Dogs and Medium Fries",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$5 Two Chili Dogs & Medium Fries Coupon"
+            ],
+            "summary": "$5 Two Chili Dogs & Medium Fries Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Includes two regular size classic chili cheese fries",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$6 Regular Size Two Classic Chili Cheese Fries Coupon"
+            ],
+            "summary": "$6 Regular Size Two Classic Chili Cheese Fries Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Includes Corn Dog, Chili Dog, and Chili Cheese Fries",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon"
+            ],
+            "summary": "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
+            ],
+            "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Includes Deluxe Cheeseburger, Small Fries, and Small Soda",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
+            ],
+            "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "$2 discount on any chili cheese fries",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$2 Off Any Chili Cheese Fries Coupon"
+            ],
+            "summary": "$2 Off Any Chili Cheese Fries Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Includes Four Chili Dogs and Two Chili Cheese Fries",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon"
+            ],
+            "summary": "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Includes Ten Chili Cheese Dogs",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$20 Ten Chili Cheese Dogs Coupon"
+            ],
+            "summary": "$20 Ten Chili Cheese Dogs Coupon",
             "time_window": null,
             "valid_through": null
           }
@@ -34126,7 +36181,7 @@
         "ai_extracted": true,
         "static_deals": [
           {
-            "ai_confidence": 0.95,
+            "ai_confidence": 0.9,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
@@ -34136,19 +36191,19 @@
               "1 large 14'' cheese pizza",
               "1 Spaghetti with meatballs",
               "1 antipasto salad",
-              "$29.99"
+              "Price: $29.99"
             ],
             "source_evidence": [
               "The Great Meal",
               "1 large 14'' cheese pizza,1 Spaghetti with meatballs,1 antipasto salad.",
               "$29.99"
             ],
-            "summary": "The Great Meal deal",
+            "summary": "The Great Meal bundle",
             "time_window": null,
             "valid_through": null
           },
           {
-            "ai_confidence": 0.95,
+            "ai_confidence": 0.9,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
@@ -34157,19 +36212,19 @@
             "details": [
               "Two large 14'' pizzas",
               "One topping each",
-              "$28.99"
+              "Price: $28.99"
             ],
             "source_evidence": [
               "Pizza Twins",
               "Two large 14'' pizzas, One topping each.",
               "$28.99"
             ],
-            "summary": "Pizza Twins deal",
+            "summary": "Pizza Twins bundle",
             "time_window": null,
             "valid_through": null
           },
           {
-            "ai_confidence": 0.95,
+            "ai_confidence": 0.9,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
@@ -34179,18 +36234,18 @@
               "Two Spaghetti With Meatballs",
               "One Dinner Salad",
               "One Garlic Bread",
-              "$26.99"
+              "Price: $26.99"
             ],
             "source_evidence": [
               "Two Spaghetti With Meatballs, One Dinner Salad, One Garlic Bread",
               "$26.99"
             ],
-            "summary": "Pasta and Salad combo deal",
+            "summary": "Two Spaghetti With Meatballs bundle",
             "time_window": null,
             "valid_through": null
           },
           {
-            "ai_confidence": 0.95,
+            "ai_confidence": 0.9,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
@@ -34200,18 +36255,18 @@
               "Two Lasagna Dinner",
               "One Dinner Salad",
               "One Garlic Bread",
-              "$26.99"
+              "Price: $26.99"
             ],
             "source_evidence": [
               "Two Lasagna Dinner, One Dinner Salad, One Garlic Bread",
               "$26.99"
             ],
-            "summary": "Lasagna dinner combo deal",
+            "summary": "Two Lasagna Dinner bundle",
             "time_window": null,
             "valid_through": null
           },
           {
-            "ai_confidence": 0.95,
+            "ai_confidence": 0.9,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
@@ -34219,18 +36274,18 @@
             ],
             "details": [
               "Two Jumbo 16'' Pizzas with One Topping",
-              "$32.99"
+              "Price: $32.99"
             ],
             "source_evidence": [
               "Two Jumbo 16'' Pizzas with One Topping",
               "$32.99"
             ],
-            "summary": "Two Jumbo 16'' Pizzas deal",
+            "summary": "Two Jumbo 16'' Pizzas bundle",
             "time_window": null,
             "valid_through": null
           },
           {
-            "ai_confidence": 0.95,
+            "ai_confidence": 0.9,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
@@ -34241,36 +36296,37 @@
               "Two 14'' Large Pizza with 1-Topping each",
               "9 Pieces Chicken Wings",
               "2-Liter of Coke",
-              "$39.99"
+              "Price: $39.99"
             ],
             "source_evidence": [
               "Manager Special",
               "Two 14'' Large Pizza with 1-Topping each, 9 Pieces Chicken Wings & 2-Liter of Coke",
               "$39.99"
             ],
-            "summary": "Manager Special bundle",
+            "summary": "Manager Special",
             "time_window": null,
             "valid_through": null
           },
           {
-            "ai_confidence": 0.95,
+            "ai_confidence": 0.9,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
               "general"
             ],
             "details": [
-              "Purchase $35 or More on Regular Menu Price and Get $5 off"
-            ],
-            "source_evidence": [
               "Purchase $35 or More on Regular Menu Price and Get $5"
             ],
-            "summary": "Purchase $35 or more coupon",
+            "source_evidence": [
+              "Purchase $35 or More on Regular Menu Price and Get $5",
+              "$5.00"
+            ],
+            "summary": "Spend $35 or more and get $5 off",
             "time_window": null,
             "valid_through": null
           },
           {
-            "ai_confidence": 0.95,
+            "ai_confidence": 0.9,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
@@ -34278,11 +36334,10 @@
             ],
             "details": [
               "Only available for pickup",
-              "$10.99"
+              "One Large One Topping 14\" Pizza",
+              "Price: $10.99"
             ],
             "source_evidence": [
-              "Pick Up Specials",
-              "Only available for pickup",
               "One Large One Topping 14\" Pizza Pick Up Special",
               "$10.99"
             ],
@@ -34569,163 +36624,6 @@
         ]
       },
       "url": "https://www.basilicospastavino.com/specials-events"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
-        "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=15543086224621872833&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "15:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "11:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "15:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "15:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "15:00"
-            }
-          ]
-        },
-        "latitude": 33.7166198,
-        "longitude": -118.03861239999999,
-        "phone": "(657) 301-2063",
-        "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc"
-      },
-      "name": "Beachwood Pizza & Beer",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [
-              "monday",
-              "tuesday",
-              "wednesday",
-              "thursday",
-              "friday",
-              "saturday"
-            ],
-            "applies_month_days": [],
-            "categories": [
-              "drink",
-              "food"
-            ],
-            "details": [
-              "Get $2 off draft wine and beer with the purchase of any food item"
-            ],
-            "source_evidence": [
-              "Monday - Thursday 3pm - 5pm",
-              "Friday & Saturday 8:30pm - 10pm",
-              "$2 off draft wine & beer with purchase of any food item"
-            ],
-            "summary": "$2 off draft wine and beer during Happy Hour",
-            "time_window": "Mon-Thu 3pm-5pm, Fri-Sat 8:30pm-10pm",
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [
-              "monday"
-            ],
-            "applies_month_days": [],
-            "categories": [
-              "drink",
-              "food"
-            ],
-            "details": [
-              "Full pours of beer & seltzers for only $6 with purchase of a food item"
-            ],
-            "source_evidence": [
-              "MONDAY",
-              "$6 Pints | All Day",
-              "Full Pours of beer & seltzers for only $6 with purchase of food item!"
-            ],
-            "summary": "$6 pints of beer & seltzers on Mondays",
-            "time_window": "All Day",
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [
-              "tuesday"
-            ],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Choice of starter, salad, and classic pizza for $50",
-              "Not valid during fundraising events"
-            ],
-            "source_evidence": [
-              "TUESDAY",
-              "Date Night Dinner Deal | All Day",
-              "Choice of starter, salad, & classic pizza for $50",
-              "* Promotion not valid during fundraising events."
-            ],
-            "summary": "Date Night Dinner Deal for $50 on Tuesdays",
-            "time_window": "All Day",
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [
-              "wednesday"
-            ],
-            "applies_month_days": [],
-            "categories": [
-              "drink"
-            ],
-            "details": [
-              "50% off 1/2 Liter and Liter pours of house wines"
-            ],
-            "source_evidence": [
-              "WEDNESDAY",
-              "Wine Wednesday | All Day",
-              "50% off 1/2 Liter & Liter pours of house wines"
-            ],
-            "summary": "50% off 1/2 Liter & Liter house wines on Wednesdays",
-            "time_window": "All Day",
-            "valid_through": null
-          }
-        ]
-      },
-      "url": "https://beachwoodpizza.com/"
     },
     {
       "city": "Costa Mesa",
@@ -40633,18 +42531,18 @@
     }
   ],
   "summary": {
-    "candidate_pages": 263,
+    "candidate_pages": 270,
     "failed_pages": 12,
     "pending_pages": 0,
-    "processed_pages": 251,
-    "published_deals": 215,
-    "published_sources": 95,
+    "processed_pages": 258,
+    "published_deals": 217,
+    "published_sources": 96,
     "render_attempts": 8,
     "rendered_pages": 4,
     "reported_pages": 0,
-    "visual_assets_checked": 18,
+    "visual_assets_checked": 30,
     "visual_attempts": 4,
-    "visual_cache_hits": 4,
+    "visual_cache_hits": 8,
     "visual_candidates": 71,
     "visual_deals": 4,
     "visual_pages": 1

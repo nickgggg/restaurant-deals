@@ -49,7 +49,7 @@
     "last_scanned_cities": [
       "Costa Mesa"
     ],
-    "last_source_scan_at": "2026-09-15T15:57:30Z",
+    "last_source_scan_at": "2026-09-15T18:26:53Z",
     "map_cells": 179,
     "official_websites": 848,
     "operational_count": 1010,
@@ -65,7 +65,7 @@
     "successful_map_cells": 49
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-15T15:57:30Z",
+  "generated_at": "2026-09-15T18:26:53Z",
   "refresh_after": "2026-09-17T16:26:21Z",
   "restaurants": [
     {
@@ -4454,9 +4454,12 @@
       "phone": "(714) 963-7980",
       "place_id": "ChIJ71mZpion3YARfJLEQxnRqbE",
       "primary_type": "italian_restaurant",
+      "specials_checked_at": "2026-09-15T18:26:25Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Specials / Events",
           "url": "https://www.basilicospastavino.com/specials-events"
         }
@@ -4520,6 +4523,8 @@
       "phone": "(949) 548-8798",
       "place_id": "ChIJg4RpFu0h3YARa6NZt5t3LnU",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-09-15T18:26:25Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
@@ -4586,6 +4591,8 @@
       "phone": "(714) 377-8500",
       "place_id": "ChIJ5dO5as4l3YARaxrRalxQA40",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-15T18:26:25Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -4654,6 +4661,8 @@
       "phone": "(714) 841-7609",
       "place_id": "ChIJUeWUKskm3YAR-gpH-BgiEdI",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-15T18:26:25Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -4718,6 +4727,8 @@
       "phone": "(949) 645-7427",
       "place_id": "ChIJdTwlBe7f3IARjAB_CZhlFjQ",
       "primary_type": "barbecue_restaurant",
+      "specials_checked_at": "2026-09-15T18:26:25Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "barbecue_restaurant",
@@ -4784,11 +4795,56 @@
       "phone": "(657) 301-2063",
       "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-09-15T18:26:25Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
-          "confidence": "medium",
-          "label": "Website specials",
-          "url": "https://beachwoodpizza.com/"
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Daily Specials",
+          "url": "https://beachwoodpizza.com/daily-specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Dailyspecials",
+          "url": "https://beachwoodpizza.com/dailyspecials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Deals",
+          "url": "https://beachwoodpizza.com/deals"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Happy Hour",
+          "url": "https://beachwoodpizza.com/happy-hour"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Promotions",
+          "url": "https://beachwoodpizza.com/promotions"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Specials",
+          "url": "https://beachwoodpizza.com/specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Weekday Lunch",
+          "url": "https://beachwoodpizza.com/weekday-lunch"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Weekday Specials",
+          "url": "https://beachwoodpizza.com/weekday-specials"
         }
       ],
       "types": [
@@ -4858,9 +4914,12 @@
       "phone": "(714) 374-0558",
       "place_id": "ChIJDXUocmoh3YAR1IfwKVKjb0o",
       "primary_type": "seafood_restaurant",
+      "specials_checked_at": "2026-09-15T18:26:25Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://bearflagfishco.com/"
         }
@@ -4930,6 +4989,8 @@
       "phone": "(714) 378-5122",
       "place_id": "ChIJoSus1OMg3YARkKxfwp2KMH4",
       "primary_type": "italian_restaurant",
+      "specials_checked_at": "2026-09-15T18:26:25Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "italian_restaurant",
@@ -5067,6 +5128,8 @@
       "phone": "(714) 892-1700",
       "place_id": "ChIJY6YzKWkm3YARfGOSEBq1P98",
       "primary_type": "asian_fusion_restaurant",
+      "specials_checked_at": "2026-09-15T18:26:25Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "asian_fusion_restaurant",
@@ -5135,6 +5198,8 @@
       "phone": "(714) 617-4487",
       "place_id": "ChIJPXj8vcLf3IARb4wF2HwbbGU",
       "primary_type": "chinese_restaurant",
+      "specials_checked_at": "2026-09-15T18:26:25Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chinese_restaurant",
@@ -5222,6 +5287,8 @@
       "phone": "(714) 873-7479",
       "place_id": "ChIJeRMRSlUn3YAR1tLnXcoP6kA",
       "primary_type": "acai_shop",
+      "specials_checked_at": "2026-09-15T18:26:25Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "acai_shop",
@@ -5360,6 +5427,7 @@
       "phone": "(714) 968-4477",
       "place_id": "ChIJJYpXUzkn3YARSnUAnduKB4c",
       "primary_type": "steak_house",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-rxid01ql/Default'",
       "specials_pages": [],
       "types": [
         "steak_house",
