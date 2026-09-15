@@ -49,7 +49,7 @@
     "last_scanned_cities": [
       "Costa Mesa"
     ],
-    "last_source_scan_at": "2026-09-15T15:51:01Z",
+    "last_source_scan_at": "2026-09-15T15:57:30Z",
     "map_cells": 179,
     "official_websites": 848,
     "operational_count": 1010,
@@ -61,11 +61,11 @@
     ],
     "restaurant_count": 1050,
     "source_sites_checked": 12,
-    "specials_pages_found": 185,
+    "specials_pages_found": 186,
     "successful_map_cells": 49
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-15T15:51:01Z",
+  "generated_at": "2026-09-15T15:57:30Z",
   "refresh_after": "2026-09-17T16:26:21Z",
   "restaurants": [
     {
@@ -3096,6 +3096,8 @@
       "phone": "(714) 698-8118",
       "place_id": "ChIJrSp72hgh3YART2qUykl6IVU",
       "primary_type": "cafe",
+      "specials_checked_at": "2026-09-15T15:57:04Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
@@ -3234,6 +3236,8 @@
       "phone": "(714) 536-6112",
       "place_id": "ChIJpfPHfrEm3YARPmdyQo026cI",
       "primary_type": "greek_restaurant",
+      "specials_checked_at": "2026-09-15T15:57:04Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "greek_restaurant",
@@ -3297,6 +3301,8 @@
       "phone": "(657) 431-5154",
       "place_id": "ChIJYak0oJwn3YARvFhqWScPEGs",
       "primary_type": "cafe",
+      "specials_checked_at": "2026-09-15T15:57:04Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
@@ -3361,7 +3367,16 @@
       "phone": "(949) 642-1142",
       "place_id": "ChIJA5ZYjX0g3YAR0NZ1lHUqLjw",
       "primary_type": "mexican_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-15T15:57:04Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Happy Hour",
+          "url": "https://avilaselranchito.com/happy-hour"
+        }
+      ],
       "types": [
         "mexican_restaurant",
         "restaurant",
@@ -3426,6 +3441,8 @@
       "phone": "(714) 916-0359",
       "place_id": "ChIJTYioU9wl3YAR2BScDsZNxJs",
       "primary_type": "sushi_restaurant",
+      "specials_checked_at": "2026-09-15T15:57:04Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sushi_restaurant",
@@ -3493,6 +3510,8 @@
       "phone": "(714) 377-0718",
       "place_id": "ChIJcc7sfN8m3YAR4hM1rLXZE4k",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-15T15:57:04Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -3563,6 +3582,8 @@
       "phone": "(714) 965-1194",
       "place_id": "ChIJi-T67cUm3YARmtRF1M6nyZo",
       "primary_type": "italian_restaurant",
+      "specials_checked_at": "2026-09-15T15:57:04Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "italian_restaurant",
@@ -3658,6 +3679,8 @@
       "phone": "(714) 965-5637",
       "place_id": "ChIJ3Q2hfigh3YARJRgF74uWsuY",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-15T15:57:04Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -3941,6 +3964,8 @@
       "phone": "(657) 227-8508",
       "place_id": "ChIJUXEDU_kn3YAReys24-UK-Pw",
       "primary_type": "breakfast_restaurant",
+      "specials_checked_at": "2026-09-15T15:57:04Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "breakfast_restaurant",
@@ -4075,6 +4100,8 @@
       "phone": "(949) 548-8366",
       "place_id": "ChIJbSjqoJ_f3IARCx4DSdTU6Mk",
       "primary_type": "thai_restaurant",
+      "specials_checked_at": "2026-09-15T15:57:04Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "thai_restaurant",
@@ -4239,6 +4266,8 @@
       "phone": "(949) 867-8011",
       "place_id": "ChIJU9-ClZXf3IARsNUOkggK5vA",
       "primary_type": "bar",
+      "specials_checked_at": "2026-09-15T15:57:04Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bar",
@@ -4351,9 +4380,12 @@
       "phone": "(714) 968-2717",
       "place_id": "ChIJ43kksfYg3YAR3ToKxnMaFiw",
       "primary_type": "thai_restaurant",
+      "specials_checked_at": "2026-09-15T15:57:04Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://basilthaicuisine.net/"
         }
