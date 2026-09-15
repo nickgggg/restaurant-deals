@@ -668,11 +668,23 @@ def promotion_family(summary: str) -> str:
     return normalize(family).casefold()
 
 
+def clean_grouped_tier_detail(detail: str) -> str:
+    match = re.match(r"^(\$\s*\d+(?:\.\d{1,2})?):\s*(.+)$", detail)
+    if not match:
+        return detail
+    price, body = match.groups()
+    items = [
+        re.sub(rf"^{re.escape(price)}\s+", "", item, flags=re.I)
+        for item in re.split(r";\s*", body)
+    ]
+    return f"{price}: {'; '.join(items)}"
+
+
 def consolidate_related_deals(deals: list[dict[str, Any]]) -> list[dict[str, Any]]:
     prepared: list[dict[str, Any]] = []
     for deal in deals:
         cleaned_details = [
-            re.sub(r"^(\$\s*\d+(?:\.\d{1,2})?):\s*\1\s+", r"\1: ", detail, flags=re.I)
+            clean_grouped_tier_detail(detail)
             for detail in deal.get("details", [])
         ]
         deal = {**deal, "details": cleaned_details}

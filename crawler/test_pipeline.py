@@ -132,14 +132,14 @@ class ExtractionTests(unittest.TestCase):
     def test_grouped_tier_details_remove_repeated_prices(self) -> None:
         deal = {
             "summary": "$8-$13 Social Hour",
-            "details": ["$8: $8 Parmesan Garlic Fries"],
+            "details": ["$8: $8 Parmesan Garlic Fries; $8 Buffalo Cauliflower"],
             "applies_days": [],
             "source_evidence": [],
         }
 
         self.assertEqual(
             extract_with_gemini.consolidate_related_deals([deal])[0]["details"],
-            ["$8: Parmesan Garlic Fries"],
+            ["$8: Parmesan Garlic Fries; Buffalo Cauliflower"],
         )
 
     def test_validity_does_not_repeat_days_already_in_schedule(self) -> None:
