@@ -116,7 +116,7 @@ class ExtractionTests(unittest.TestCase):
                 }
             )
 
-        selected = extract_with_gemini.select_visual_pages(candidates)
+        selected = extract_with_gemini.select_visual_pages(candidates)[:4]
 
         self.assertEqual([item["restaurant"]["name"] for item in selected], ["Alpha", "Bravo", "Charlie", "Delta"])
 

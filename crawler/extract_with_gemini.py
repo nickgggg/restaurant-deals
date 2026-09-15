@@ -31,6 +31,7 @@ REQUEST_TIMEOUT = 25
 MAX_PAGES_PER_RUN = 30
 MAX_RENDERED_PAGES_PER_RUN = 8
 MAX_VISUAL_PAGES_PER_RUN = 4
+MAX_VISUAL_CANDIDATES_PER_RUN = 16
 MAX_VISUAL_ASSETS_PER_PAGE = 3
 MAX_VISUAL_ASSET_BYTES = 4_000_000
 MAX_VISUAL_REQUEST_BYTES = 11_000_000
@@ -838,9 +839,7 @@ def select_visual_pages(candidates: list[dict[str, Any]]) -> list[dict[str, Any]
             continue
         seen_restaurants.add(identity)
         selected.append(item)
-        if len(selected) == MAX_VISUAL_PAGES_PER_RUN:
-            return selected
-    return (selected + overflow)[:MAX_VISUAL_PAGES_PER_RUN]
+    return selected + overflow
 
 
 def build_sources(pages: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -953,12 +952,14 @@ def main() -> int:
         if item.get("asset_candidates")
         and (len(item.get("context", "")) < 240 or not VALUE_SIGNAL.search(item.get("context", "")))
     ]
-    visual_queue = select_visual_pages(visual_candidates)
+    visual_queue = select_visual_pages(visual_candidates)[:MAX_VISUAL_CANDIDATES_PER_RUN]
     visual_results: dict[str, dict[str, Any]] = {}
     visual_calls = 0
     visual_cache_hits = 0
     visual_assets_checked = 0
-    for index, item in enumerate(visual_queue[:MAX_VISUAL_PAGES_PER_RUN], start=1):
+    for index, item in enumerate(visual_queue, start=1):
+        if visual_calls >= MAX_VISUAL_PAGES_PER_RUN:
+            break
         item["visual_attempted"] = True
         called_gemini = False
         try:
@@ -1006,7 +1007,7 @@ def main() -> int:
             visual_results[item["key"]] = result
         except Exception as exc:
             item["visual_error"] = f"{type(exc).__name__}: {exc}"
-        print(f"Gemini visual page {index}/{min(len(visual_queue), MAX_VISUAL_PAGES_PER_RUN)}: {item['restaurant']['name']}")
+        print(f"Gemini visual candidate {index}/{len(visual_queue)}: {item['restaurant']['name']}")
         if called_gemini:
             time.sleep(6.2)
 

@@ -22,7 +22,7 @@ Curated sources live in `crawler/sources.json`. Discovery scans one configured c
 
 The discovery job requires the repository Actions secret `GOOGLE_PLACES_API_KEY`, with Places API (New) enabled. Its map bounds and refresh interval live in `crawler/places_config.json`.
 
-AI extraction requires the Actions secret `GEMINI_API_KEY`. It processes at most 30 changed text pages and four visually weak pages per daily run. Each visual page is capped at three assets and 11 MB total. Text and visual content fingerprints are stored in `docs/data/ai_extractions.json`, so unchanged pages, images, and PDFs reuse cached results. City activation does not raise those daily caps.
+AI extraction requires the Actions secret `GEMINI_API_KEY`. It processes at most 30 changed text pages and four visually weak pages per daily run. It checks no more than 16 visual candidates to find those four uncached pages; cache hits do not consume Gemini calls. Each visual page is capped at three assets and 11 MB total. Text and visual content fingerprints are stored in `docs/data/ai_extractions.json`, so unchanged pages, images, and PDFs reuse cached results. City activation does not raise those daily caps.
 
 ## What It Finds
 
