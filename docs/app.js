@@ -74,9 +74,13 @@ const shareViewEl = document.querySelector("#share-view");
 const mapPanelEl = document.querySelector("#map-panel");
 const mapMessageEl = document.querySelector("#map-message");
 const toastEl = document.querySelector("#toast");
+const connectionStatusEl = document.querySelector("#connection-status");
+const installAppEl = document.querySelector("#install-app");
 
 let mapLibraryPromise = null;
 let toastTimer = null;
+let installPrompt = null;
+let cachedDataUsed = false;
 
 dayEl.value = "today";
 
@@ -113,6 +117,28 @@ function showToast(message) {
   toastTimer = setTimeout(() => {
     toastEl.hidden = true;
   }, 3200);
+}
+
+function renderConnectionStatus() {
+  const offline = !navigator.onLine || cachedDataUsed;
+  connectionStatusEl.hidden = !offline;
+  if (!offline) return;
+  const savedAt = state.payload?.generated_at ? ` from ${formatDate(state.payload.generated_at)}` : "";
+  connectionStatusEl.textContent = `Offline · showing saved deals${savedAt}`;
+}
+
+async function registerServiceWorker() {
+  if (!("serviceWorker" in navigator)) return;
+  navigator.serviceWorker.addEventListener("message", (event) => {
+    if (event.data?.type !== "OFFLINE_DATA_USED") return;
+    cachedDataUsed = true;
+    renderConnectionStatus();
+  });
+  try {
+    await navigator.serviceWorker.register("service-worker.js");
+  } catch (_) {
+    // Offline support is progressive; the live site still works without it.
+  }
 }
 
 function trackEvent(name, data = {}) {
@@ -1131,6 +1157,7 @@ async function init() {
   state.payload = await dealsResponse.json();
   state.restaurants = restaurantsResponse?.ok ? await restaurantsResponse.json() : null;
   state.project = projectResponse?.ok ? await projectResponse.json() : null;
+  renderConnectionStatus();
   readUrlState();
   renderFilterOptions();
   syncControls();
@@ -1306,9 +1333,40 @@ themeToggleEl.addEventListener("click", () => {
   syncThemeButton();
 });
 
+window.addEventListener("online", () => {
+  cachedDataUsed = false;
+  renderConnectionStatus();
+  showToast("Back online · refreshing deals");
+  window.setTimeout(() => window.location.reload(), 500);
+});
+
+window.addEventListener("offline", renderConnectionStatus);
+
+window.addEventListener("beforeinstallprompt", (event) => {
+  event.preventDefault();
+  installPrompt = event;
+  installAppEl.hidden = false;
+});
+
+installAppEl.addEventListener("click", async () => {
+  if (!installPrompt) return;
+  installPrompt.prompt();
+  const result = await installPrompt.userChoice;
+  trackEvent("install_app", { outcome: result.outcome });
+  installPrompt = null;
+  installAppEl.hidden = true;
+});
+
+window.addEventListener("appinstalled", () => {
+  installPrompt = null;
+  installAppEl.hidden = true;
+  showToast("Restaurant Deals installed");
+});
+
 renderFilterSummary();
 syncThemeButton();
 
+registerServiceWorker();
 init().catch((error) => {
   dealsEl.innerHTML = `<p class="empty">Could not load deals: ${error.message}</p>`;
 });

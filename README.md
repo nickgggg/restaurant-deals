@@ -15,6 +15,7 @@ The project runs entirely on GitHub:
 - Gemini extracts structured offers from likely specials pages; source-evidence checks keep uncertain results unpublished.
 - The crawler uses only the Python standard library, so there are no package installs.
 - MapLibre and OpenFreeMap provide the optional custom map without an API key.
+- A service worker and web app manifest make the site installable and keep the latest successful deal feed available offline.
 
 ## Current Scope
 
@@ -68,6 +69,8 @@ Enable Pages in the repo settings:
 Once enabled, the frontend will read the latest `docs/data/deals.json` and show active/stale filters, city filtering, search, source links, and failed-source notices.
 
 The frontend also supports current-time filtering, device-only favorites, restorable filter URLs, restaurant sharing, and list/map views. Favorites use browser storage and may disappear when a private-browsing session closes.
+
+The site can be installed from supported browser menus or added to an iPhone home screen from Safari's Share menu. Its interface and latest successful JSON feeds are cached on the device. When the network is unavailable, the site labels the cached feed with its saved timestamp and refreshes automatically after connectivity returns.
 
 ## Analytics
 

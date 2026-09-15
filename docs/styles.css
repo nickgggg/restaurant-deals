@@ -720,6 +720,26 @@ button {
   font-size: 0.7rem;
 }
 
+.connection-status {
+  margin: 0 0 8px;
+  padding: 7px 10px;
+  border: 1px solid color-mix(in srgb, var(--amber) 65%, var(--line));
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--amber) 12%, var(--surface));
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.install-app {
+  width: auto;
+  min-height: 30px;
+  margin-top: 8px;
+  padding: 5px 9px;
+  font-size: 0.68rem;
+}
+
 .deals {
   display: grid;
   gap: 8px;
