@@ -57,6 +57,8 @@ A deal gets a stable ID from its source URL and normalized candidate text. When 
 
 If a previously seen deal is missing from a later crawl, it stays in the JSON as `status: "stale"` instead of disappearing immediately. Stale deals are retained for up to 90 days, then dropped.
 
+When extraction wording changes, a conservative promotion signature detects an unambiguous replacement from the same restaurant and source. The canonical active offer inherits the earliest `first_seen` timestamp, while replaced variants move out of the public feed into `crawler/data/deal_history.json` for a 365-day audit trail. Ambiguous matches remain public rather than risking the loss of a distinct offer.
+
 ## GitHub Pages
 
 Enable Pages in the repo settings:

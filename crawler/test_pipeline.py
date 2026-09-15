@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import unittest
-from datetime import date
+from datetime import date, datetime, timezone
 from unittest.mock import patch
 
 from crawler import crawl_deals, discover_restaurants, extract_with_gemini
@@ -284,6 +284,60 @@ Huntington Beach
 
         self.assertFalse(extract_with_gemini.reusable_page(item, cached))
         self.assertTrue(extract_with_gemini.reusable_page(item, processed))
+
+
+class DealHistoryTests(unittest.TestCase):
+    def deal(self, deal_id: str, summary: str, status: str, source: str = "https://example.com/specials") -> dict:
+        return {
+            "id": deal_id,
+            "restaurant": "Example Grill",
+            "city": "Huntington Beach",
+            "source_url": source,
+            "summary": summary,
+            "status": status,
+            "first_seen": "2026-09-01T12:00:00Z",
+            "last_seen": "2026-09-14T12:00:00Z",
+        }
+
+    def test_price_tiers_share_a_stable_promotion_signature(self) -> None:
+        grouped = self.deal("new", "$8-$13 Social Hour", "active")
+        tier = self.deal("old", "$10 Social Hour Food and Drinks", "stale")
+
+        self.assertEqual(crawl_deals.promotion_signature(grouped), "social hour")
+        self.assertEqual(crawl_deals.promotion_signature(tier), "social hour")
+
+    def test_replaced_stale_variants_leave_the_public_feed(self) -> None:
+        now = datetime(2026, 9, 15, 12, tzinfo=timezone.utc)
+        active = self.deal("new", "$8-$13 Social Hour", "active")
+        stale = self.deal("old", "$10 Social Hour Food and Drinks", "stale")
+
+        public, archived = crawl_deals.archive_replaced_variants([active, stale], now)
+
+        self.assertEqual([item["id"] for item in public], ["new"])
+        self.assertEqual(archived[0]["canonical_id"], "new")
+        self.assertEqual(archived[0]["retired_reason"], "replaced_by_canonical_offer")
+
+    def test_ambiguous_active_offers_do_not_retire_history(self) -> None:
+        now = datetime(2026, 9, 15, 12, tzinfo=timezone.utc)
+        first = self.deal("active-food", "$8 Happy Hour Food", "active")
+        second = self.deal("active-drink", "$10 Happy Hour Drinks", "active")
+        stale = self.deal("old", "$9 Happy Hour Special", "stale")
+
+        public, archived = crawl_deals.archive_replaced_variants([first, second, stale], now)
+
+        self.assertEqual({item["id"] for item in public}, {"active-food", "active-drink", "old"})
+        self.assertEqual(archived, [])
+
+    def test_only_newest_unmatched_stale_variant_stays_public(self) -> None:
+        now = datetime(2026, 9, 15, 12, tzinfo=timezone.utc)
+        older = self.deal("older", "Weekday Happy Hour", "stale")
+        older["last_seen"] = "2026-09-10T12:00:00Z"
+        newer = self.deal("newer", "Weekday Happy Hour Special", "stale")
+
+        public, archived = crawl_deals.archive_replaced_variants([older, newer], now)
+
+        self.assertEqual([item["id"] for item in public], ["newer"])
+        self.assertEqual(archived[0]["canonical_id"], "newer")
 
 
 if __name__ == "__main__":

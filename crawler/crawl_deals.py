@@ -22,8 +22,10 @@ SOURCES_PATH = ROOT / "crawler" / "sources.json"
 RESTAURANTS_PATH = ROOT / "docs" / "data" / "restaurants.json"
 AI_EXTRACTIONS_PATH = ROOT / "docs" / "data" / "ai_extractions.json"
 OUTPUT_PATH = ROOT / "docs" / "data" / "deals.json"
+HISTORY_PATH = ROOT / "crawler" / "data" / "deal_history.json"
 STALE_AFTER_DAYS = 21
 DROP_AFTER_DAYS = 90
+HISTORY_DROP_AFTER_DAYS = 365
 REQUEST_TIMEOUT = 25
 CRAWLER_VERSION = 18
 
@@ -244,6 +246,14 @@ def load_existing() -> dict[str, dict]:
     if raw.get("crawler_version") != CRAWLER_VERSION:
         return {}
     return {deal["id"]: deal for deal in raw.get("deals", []) if "id" in deal}
+
+
+def load_history() -> dict[str, dict]:
+    try:
+        raw = json.loads(HISTORY_PATH.read_text())
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+    return {item["id"]: item for item in raw.get("variants", []) if item.get("id")}
 
 
 def fetch_html(source: Source) -> str:
@@ -599,6 +609,113 @@ def carry_forward_stale(existing: dict[str, dict], seen_ids: set[str], now: date
     return stale_deals
 
 
+SIGNATURE_STOP_WORDS = {
+    "a",
+    "an",
+    "and",
+    "deal",
+    "deals",
+    "drink",
+    "drinks",
+    "food",
+    "foods",
+    "menu",
+    "offer",
+    "offers",
+    "special",
+    "specials",
+    "the",
+}
+
+
+def promotion_signature(deal: dict) -> str:
+    summary = deal.get("summary") or ""
+    normalized = re.sub(r"\$\s*\d+(?:\.\d{1,2})?(?:\s*[-–—]\s*\$?\s*\d+(?:\.\d{1,2})?)?", " ", summary.lower())
+    normalized = re.sub(r"\b\d+(?:\.\d+)?\s*(?:percent|%)\b", " ", normalized)
+    words = re.findall(r"[a-z0-9]+", normalized)
+    return " ".join(word for word in words if word not in SIGNATURE_STOP_WORDS)
+
+
+def canonical_scope(deal: dict) -> tuple[str, str, str]:
+    source_url = (deal.get("source_url") or "").split("#", 1)[0].rstrip("/").lower()
+    return (deal.get("restaurant", "").lower(), deal.get("city", "").lower(), source_url)
+
+
+def archive_replaced_variants(deals: list[dict], now: datetime) -> tuple[list[dict], list[dict]]:
+    active_by_key: dict[tuple[tuple[str, str, str], str], list[dict]] = {}
+    stale_by_key: dict[tuple[tuple[str, str, str], str], list[dict]] = {}
+    untouched: list[dict] = []
+
+    for deal in deals:
+        signature = promotion_signature(deal)
+        if not signature:
+            untouched.append(deal)
+            continue
+        key = (canonical_scope(deal), signature)
+        target = active_by_key if deal.get("status") == "active" else stale_by_key
+        target.setdefault(key, []).append(deal)
+
+    archived: list[dict] = []
+    public: list[dict] = [*untouched]
+    for key, active in active_by_key.items():
+        public.extend(active)
+        stale = stale_by_key.pop(key, [])
+        if len(active) != 1:
+            public.extend(stale)
+            continue
+        canonical = active[0]
+        if stale:
+            first_seen = min(
+                [canonical.get("first_seen") or iso(now), *[item.get("first_seen") or iso(now) for item in stale]]
+            )
+            canonical["first_seen"] = first_seen
+        for item in stale:
+            archived.append(
+                {
+                    **item,
+                    "retired_at": iso(now),
+                    "retired_reason": "replaced_by_canonical_offer",
+                    "canonical_id": canonical["id"],
+                }
+            )
+
+    for stale in stale_by_key.values():
+        stale.sort(key=lambda item: (item.get("last_seen", ""), item.get("first_seen", "")), reverse=True)
+        canonical, *older = stale
+        public.append(canonical)
+        for item in older:
+            archived.append(
+                {
+                    **item,
+                    "retired_at": iso(now),
+                    "retired_reason": "superseded_stale_variant",
+                    "canonical_id": canonical["id"],
+                }
+            )
+    return public, archived
+
+
+def write_history(new_variants: list[dict], now: datetime) -> int:
+    history = load_history()
+    for item in new_variants:
+        history[item["id"]] = item
+    cutoff = now.timestamp() - HISTORY_DROP_AFTER_DAYS * 86400
+    retained = [
+        item
+        for item in history.values()
+        if parse_iso(item.get("retired_at"), now).timestamp() >= cutoff
+    ]
+    retained.sort(key=lambda item: (item.get("retired_at", ""), item.get("restaurant", "")), reverse=True)
+    payload = {
+        "generated_at": iso(now),
+        "retention_days": HISTORY_DROP_AFTER_DAYS,
+        "variants": retained,
+    }
+    HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
+    HISTORY_PATH.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
+    return len(retained)
+
+
 def sort_deals(deals: list[dict]) -> list[dict]:
     return sorted(deals, key=lambda deal: (deal.get("status") != "active", deal.get("restaurant", ""), deal.get("validity", ""), deal.get("summary", "")))
 
@@ -629,6 +746,8 @@ def main() -> int:
 
     seen_ids = {deal["id"] for deal in all_deals}
     all_deals.extend(carry_forward_stale(existing, seen_ids, now))
+    all_deals, retired_variants = archive_replaced_variants(all_deals, now)
+    history_count = write_history(retired_variants, now)
     active_count = sum(1 for deal in all_deals if deal.get("status") == "active")
     stale_count = sum(1 for deal in all_deals if deal.get("status") == "stale")
     payload = {
@@ -647,6 +766,8 @@ def main() -> int:
             "total_deals": len(all_deals),
             "healthy_sources": sum(1 for item in source_statuses if item["ok"]),
             "failed_sources": sum(1 for item in source_statuses if not item["ok"]),
+            "archived_variants": history_count,
+            "retired_variants_this_run": len(retired_variants),
         },
         "pipeline": load_ai_summary(),
         "sources": source_statuses,
