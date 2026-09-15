@@ -10,7 +10,7 @@ The project runs entirely on GitHub:
 - Google Places builds a staggered nearby-restaurant inventory and supplies current business details.
 - Navigation links, sitemaps, and a small set of common specials routes discover candidate pages.
 - Headless Chrome renders a bounded batch of JavaScript-heavy pages only when ordinary HTML is insufficient.
-- Likely specials images and PDFs get a bounded Gemini vision fallback only when text extraction remains weak.
+- Likely specials images and PDFs get a bounded Gemini vision fallback only when text extraction remains weak; shared schedules and related price tiers are normalized into coherent offers.
 - Twelve existing restaurant websites rotate through source discovery each run without making additional Places requests.
 - Gemini extracts structured offers from likely specials pages; source-evidence checks keep uncertain results unpublished.
 - The crawler uses only the Python standard library, so there are no package installs.

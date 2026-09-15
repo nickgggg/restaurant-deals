@@ -4,7 +4,7 @@ import unittest
 from datetime import date
 from unittest.mock import patch
 
-from crawler import discover_restaurants, extract_with_gemini
+from crawler import crawl_deals, discover_restaurants, extract_with_gemini
 
 
 class SourceDiscoveryTests(unittest.TestCase):
@@ -61,10 +61,57 @@ class ExtractionTests(unittest.TestCase):
             "visual_hash": "same",
             "visual_status": "verified",
             "status": "ok",
+            "extraction_version": extract_with_gemini.EXTRACTION_VERSION,
         }
 
         self.assertTrue(extract_with_gemini.reusable_visual_page("same", previous))
         self.assertFalse(extract_with_gemini.reusable_visual_page("changed", previous))
+        self.assertFalse(
+            extract_with_gemini.reusable_visual_page(
+                "same",
+                {**previous, "extraction_version": extract_with_gemini.EXTRACTION_VERSION - 1},
+            )
+        )
+
+    def test_market_broiler_price_tiers_share_one_schedule(self) -> None:
+        schedule = "MON-FRI 3-6:30 SAT + SUN 1-5"
+        deals = []
+        for price, categories, details in (
+            ("$8", ["food", "drink"], ["Sashimi Scallops", "Parmesan Garlic Fries"]),
+            ("$10", ["drink"], ["Classic Margarita", "American Mule", "Offered in designated bar areas only"]),
+            ("$11", ["food", "drink"], ["Coconut Shrimp", "Lemon Drop"]),
+            ("$13", ["food", "drink"], ["California Roll", "Smokin' Old Fashioned"]),
+        ):
+            deals.append(
+                {
+                    "summary": f"{price} Social Hour Food and Drinks",
+                    "details": details,
+                    "applies_days": extract_with_gemini.DAYS if price == "$8" else [],
+                    "applies_month_days": [],
+                    "time_window": None,
+                    "categories": categories,
+                    "valid_through": None,
+                    "source_evidence": [schedule] if price == "$8" else [price.removeprefix("$"), details[0]],
+                    "ai_confidence": 0.95,
+                }
+            )
+
+        grouped = extract_with_gemini.consolidate_related_deals(deals)
+
+        self.assertEqual(len(grouped), 1)
+        self.assertEqual(grouped[0]["summary"], "$8-$13 Social Hour")
+        self.assertEqual(grouped[0]["applies_days"], extract_with_gemini.DAYS)
+        self.assertEqual(grouped[0]["time_window"], "Mon-Fri 3pm-6:30pm; Sat-Sun 1pm-5pm")
+        self.assertEqual(len(grouped[0]["details"]), 5)
+        self.assertTrue(grouped[0]["details"][0].startswith("$8:"))
+        self.assertEqual(grouped[0]["details"][-1], "Offered in designated bar areas only")
+
+    def test_bare_hour_range_counts_as_time_when_attached_to_days(self) -> None:
+        self.assertTrue(extract_with_gemini.evidence_has_time(["MON-FRI 3-6:30"]))
+        self.assertFalse(extract_with_gemini.evidence_has_time(["Choose any 3-6 appetizers"]))
+
+    def test_social_hour_uses_the_happy_hour_filter(self) -> None:
+        self.assertIn("happy_hour", crawl_deals.detect_tags("$8-$13 Social Hour"))
 
     def test_visual_assets_deduplicate_identical_image_variants(self) -> None:
         item = {

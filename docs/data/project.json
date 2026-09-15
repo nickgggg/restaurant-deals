@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14",
+  "updated_at": "2026-09-15",
   "queue_activation_days": 7,
   "area_refresh_days": 35,
   "max_areas_per_run": 1,
@@ -20,9 +20,9 @@
       "detail": "Weak text pages now get a bounded Gemini vision fallback for likely specials images and PDFs, with strict evidence checks and content-hash caching."
     },
     {
-      "status": "next",
+      "status": "working",
       "title": "Extraction quality",
-      "detail": "Keep tightening day, time, price, and evidence matching while suppressing ordinary menu items."
+      "detail": "Shared visual schedules now carry across related price tiers, which are grouped into one readable offer while preserving exact source evidence."
     },
     {
       "status": "working",

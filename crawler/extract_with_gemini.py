@@ -36,7 +36,7 @@ MAX_VISUAL_ASSETS_PER_PAGE = 3
 MAX_VISUAL_ASSET_BYTES = 4_000_000
 MAX_VISUAL_REQUEST_BYTES = 11_000_000
 RENDER_TIMEOUT = 25
-EXTRACTION_VERSION = 3
+EXTRACTION_VERSION = 4
 TRUSTED_REPORTERS = {"nickgggg", "nickg-erg"}
 DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 DAY_ALIASES = {
@@ -494,14 +494,18 @@ Rules:
 - Return actual promotions, happy hours, weekday specials, coupons, or discounted bundles only.
 - Do not return ordinary menu items, ordinary menu prices, navigation, logos, or restaurant hours.
 - Keep one coherent promotion together; do not split every price or menu item into another deal.
+- When one promotion has several price tiers under one heading, return one deal and put each tier in details.
+- A schedule or restriction heading applies to every tier beneath it until a new section heading appears.
 - Split genuinely different weekday promotions into separate deals.
 - Reject expired offers and offers explicitly limited to another restaurant location.
 - Summary must describe the offer itself in under 90 characters.
 - Details should contain only useful terms such as items, prices, restrictions, or purchase requirements.
-- Use all seven applies_days values only when the visual explicitly says daily or every day.
+- Use all seven applies_days values only when the visual says daily/every day or explicit ranges cover all seven days.
 - Put calendar-date recurrence such as "every 29th of the month" in applies_month_days.
 - Use an empty list when days are unknown, and an empty string when time or expiration is unknown.
 - Evidence must contain one or more short exact excerpts visible in the attached asset and copied into visual_text.
+- Include the shared schedule excerpt in evidence for every deal governed by that schedule.
+- If weekday and weekend hours differ, keep both ranges together in time_window.
 - Confidence is 0 to 1. Use 0.9 or higher only when the offer value and applicability are clearly legible.
 - Return an empty deals array when the image is decorative, is an ordinary menu, or is too blurry or vague.
 """
@@ -601,10 +605,182 @@ def evidence_days(evidence: list[str]) -> set[str]:
 
 def evidence_has_time(evidence: list[str]) -> bool:
     text = " ".join(evidence).lower()
+    day_aliases = "|".join(re.escape(alias) for aliases in DAY_ALIASES.values() for alias in aliases)
     return bool(
         re.search(r"\b\d{1,2}(?::\d{2})?\s*(?:a\.?m\.?|p\.?m\.?)\b", text)
         or re.search(r"\b(?:all day|open|close|closing)\b", text)
+        or re.search(
+            rf"\b(?:{day_aliases})\b[^\n]{{0,24}}\d{{1,2}}(?::\d{{2}})?\s*(?:-|–|—|to)\s*\d{{1,2}}(?::\d{{2}})?",
+            text,
+        )
     )
+
+
+def normalize_shared_schedule(value: str, promotion_name: str) -> str:
+    schedule = normalize(value)
+    for day, aliases in DAY_ALIASES.items():
+        label = day[:3].title()
+        for alias in sorted(aliases, key=len, reverse=True):
+            schedule = re.sub(rf"\b{re.escape(alias)}\b", label, schedule, flags=re.I)
+    schedule = re.sub(r"\b(Sat)\s*\+\s*(Sun)\b", r"\1-\2", schedule, flags=re.I)
+    schedule = re.sub(r"\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+(?:through|thru|to)\s+(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\b", r"\1-\2", schedule, flags=re.I)
+
+    if re.search(r"\b(?:happy|social)\s+hour\b", promotion_name, re.I):
+        def add_pm(match: re.Match[str]) -> str:
+            start_hour, start_minute, end_hour, end_minute = match.groups()
+            start = f"{int(start_hour)}{f':{start_minute}' if start_minute else ''}pm"
+            end = f"{int(end_hour)}{f':{end_minute}' if end_minute else ''}pm"
+            return f"{start}-{end}"
+
+        schedule = re.sub(
+            r"\b(\d{1,2})(?::(\d{2}))?\s*(?:-|–|—|to)\s*(\d{1,2})(?::(\d{2}))?\b(?!\s*(?:am|pm))",
+            add_pm,
+            schedule,
+            flags=re.I,
+        )
+    schedule = re.sub(r"\s*([;])\s*", r"\1 ", schedule)
+    schedule = re.sub(r"(?<=pm)\s+(?=(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\b)", "; ", schedule, flags=re.I)
+    schedule = re.sub(r"\s+", " ", schedule).strip(" ,;-")
+    return schedule
+
+
+def shared_schedule_for(deals: list[dict[str, Any]], promotion_name: str) -> tuple[str, list[str]]:
+    candidates: list[str] = []
+    for deal in deals:
+        candidates.extend(deal.get("source_evidence", []))
+        if deal.get("time_window"):
+            candidates.append(str(deal["time_window"]))
+    scheduled = [
+        value
+        for value in candidates
+        if evidence_days([value])
+        and re.search(r"\d{1,2}(?::\d{2})?\s*(?:-|–|—|to)\s*\d{1,2}(?::\d{2})?", value)
+    ]
+    if not scheduled:
+        return "", []
+    evidence = max(scheduled, key=lambda value: (len(evidence_days([value])), len(value)))
+    return normalize_shared_schedule(evidence, promotion_name), sorted(evidence_days([evidence]), key=DAYS.index)
+
+
+def promotion_family(summary: str) -> str:
+    family = re.sub(r"\$\s*\d+(?:\.\d{1,2})?", " ", summary)
+    family = re.sub(r"\b(?:food|drinks?|and|items?|offers?|menu)\b", " ", family, flags=re.I)
+    return normalize(family).casefold()
+
+
+def consolidate_related_deals(deals: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    prepared: list[dict[str, Any]] = []
+    for deal in deals:
+        schedule, schedule_days = shared_schedule_for([deal], deal.get("summary", ""))
+        if not schedule:
+            prepared.append(deal)
+            continue
+        prepared.append(
+            {
+                **deal,
+                "applies_days": [
+                    day
+                    for day in DAYS
+                    if day in schedule_days or day in deal.get("applies_days", [])
+                ],
+                "time_window": schedule,
+            }
+        )
+
+    grouped: dict[str, list[tuple[int, dict[str, Any]]]] = {}
+    for index, deal in enumerate(prepared):
+        family = promotion_family(deal.get("summary", ""))
+        if re.search(r"\b(?:happy|social)\s+hour\b", family, re.I):
+            grouped.setdefault(family, []).append((index, deal))
+
+    replacements: dict[int, dict[str, Any]] = {}
+    removed: set[int] = set()
+    for family, members in grouped.items():
+        if len(members) < 2:
+            continue
+        member_deals = [deal for _, deal in members]
+        prices = sorted(
+            {
+                float(match.group(1))
+                for deal in member_deals
+                for match in re.finditer(r"\$\s*(\d+(?:\.\d{1,2})?)", deal.get("summary", ""))
+            }
+        )
+        if len(prices) < 2:
+            continue
+
+        def price_text(value: float) -> str:
+            return f"${value:g}"
+
+        price_range = f"{price_text(prices[0])}-{price_text(prices[-1])}"
+        label = " ".join(word.capitalize() for word in family.split())
+        schedule, schedule_days = shared_schedule_for(member_deals, family)
+        categories = [
+            category
+            for category in ("food", "drink", "general")
+            if any(category in deal.get("categories", []) for deal in member_deals)
+        ]
+        days = [
+            day
+            for day in DAYS
+            if day in schedule_days or any(day in deal.get("applies_days", []) for deal in member_deals)
+        ]
+        tier_details: list[str] = []
+        restrictions: list[str] = []
+        restriction_pattern = re.compile(r"\b(?:only|not valid|with purchase|required|restrictions?)\b", re.I)
+        for deal in sorted(
+            member_deals,
+            key=lambda item: float(next(iter(re.findall(r"\d+(?:\.\d+)?", item.get("summary", ""))), "999")),
+        ):
+            price = re.search(r"\$\s*\d+(?:\.\d{1,2})?", deal.get("summary", ""))
+            tier_items: list[str] = []
+            for detail_item in deal.get("details", []):
+                if restriction_pattern.search(detail_item):
+                    restrictions.append(detail_item)
+                else:
+                    tier_items.append(detail_item)
+            detail = "; ".join(tier_items)
+            if price and detail:
+                tier_details.append(f"{normalize(price.group(0))}: {detail}")
+
+        for deal in member_deals:
+            restrictions.extend(
+                evidence
+                for evidence in deal.get("source_evidence", [])
+                if restriction_pattern.search(evidence)
+            )
+        tier_details.extend(dict.fromkeys(normalize(item).capitalize() for item in restrictions if normalize(item)))
+
+        evidence = list(
+            dict.fromkeys(
+                item
+                for deal in member_deals
+                for item in deal.get("source_evidence", [])
+                if item
+            )
+        )
+        valid_through = next((deal.get("valid_through") for deal in member_deals if deal.get("valid_through")), None)
+        first_index = members[0][0]
+        replacements[first_index] = {
+            "summary": f"{price_range} {label}",
+            "details": tier_details[:8],
+            "applies_days": days,
+            "applies_month_days": sorted(
+                {day for deal in member_deals for day in deal.get("applies_month_days", [])}
+            ),
+            "time_window": schedule or next(
+                (deal.get("time_window") for deal in member_deals if deal.get("time_window")),
+                None,
+            ),
+            "categories": categories or ["general"],
+            "valid_through": valid_through,
+            "source_evidence": evidence[:12],
+            "ai_confidence": min(deal.get("ai_confidence", 0) for deal in member_deals),
+            "grouped_deals": len(member_deals),
+        }
+        removed.update(index for index, _ in members[1:])
+
+    return [replacements.get(index, deal) for index, deal in enumerate(prepared) if index not in removed]
 
 
 def validate_deals(
@@ -820,11 +996,12 @@ def priority(candidate: dict[str, Any]) -> tuple[int, str, str]:
     return rank, name.casefold(), candidate["page"]["url"]
 
 
-def visual_priority(candidate: dict[str, Any]) -> tuple[int, int, int, str, str]:
+def visual_priority(candidate: dict[str, Any]) -> tuple[int, int, int, int, str, str]:
     rank, name, url = priority(candidate)
     best_asset_score = max((item.get("score", 0) for item in candidate.get("asset_candidates", [])), default=0)
     reported_rank = 0 if rank == 0 else 1
-    return reported_rank, -best_asset_score, rank, name, url
+    verified_recheck_rank = 0 if candidate.get("recheck_verified") else 1
+    return reported_rank, verified_recheck_rank, -best_asset_score, rank, name, url
 
 
 def select_visual_pages(candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -895,6 +1072,7 @@ def reusable_visual_page(visual_hash: str, previous: dict[str, Any] | None) -> b
         and previous
         and previous.get("visual_hash") == visual_hash
         and previous.get("visual_status") in {"verified", "no_deals"}
+        and previous.get("extraction_version") == EXTRACTION_VERSION
     )
 
 
@@ -952,6 +1130,12 @@ def main() -> int:
         if item.get("asset_candidates")
         and (len(item.get("context", "")) < 240 or not VALUE_SIGNAL.search(item.get("context", "")))
     ]
+    for item in visual_candidates:
+        previous = existing.get(item["key"], {})
+        item["recheck_verified"] = (
+            previous.get("visual_status") == "verified"
+            and previous.get("extraction_version") != EXTRACTION_VERSION
+        )
     visual_queue = select_visual_pages(visual_candidates)[:MAX_VISUAL_CANDIDATES_PER_RUN]
     visual_results: dict[str, dict[str, Any]] = {}
     visual_calls = 0
@@ -979,6 +1163,7 @@ def main() -> int:
             raw = call_gemini_visual(api_key, item["restaurant"], item["page"]["url"], assets)
             visual_text = str(raw.get("visual_text") or "")[:30_000]
             deals, rejected = validate_deals(raw, visual_text, min_confidence=0.9)
+            deals = consolidate_related_deals(deals)
             visual_metadata = {
                 "visual_hash": visual_hash,
                 "visual_assets": [
@@ -1003,7 +1188,12 @@ def main() -> int:
                 **visual_metadata,
             }
             if not deals and previous and previous.get("status") == "ok":
-                result = {**previous, "page": item["page"], **visual_metadata}
+                result = {
+                    **previous,
+                    "page": item["page"],
+                    "extraction_version": EXTRACTION_VERSION,
+                    **visual_metadata,
+                }
             visual_results[item["key"]] = result
         except Exception as exc:
             item["visual_error"] = f"{type(exc).__name__}: {exc}"
@@ -1031,6 +1221,7 @@ def main() -> int:
                     ]
                 }
                 deals, rejected = validate_deals(cached_raw, item["context"])
+                deals = consolidate_related_deals(deals)
                 pages.append({**previous, "deals": deals, "rejected_candidates": rejected})
             else:
                 pages.append(previous)
@@ -1058,6 +1249,7 @@ def main() -> int:
         try:
             raw = call_gemini(api_key, item["restaurant"], item["page"]["url"], item["context"])
             deals, rejected = validate_deals(raw, item["context"])
+            deals = consolidate_related_deals(deals)
             pages.append(
                 {
                     "key": item["key"],

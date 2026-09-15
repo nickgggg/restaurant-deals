@@ -42,7 +42,7 @@ TAG_PATTERNS = {
     "percent_off": re.compile(r"\b(?:\d{1,3}\s*)?%\s*off\b|\b\d{1,3}\s*percent\s*off\b|\bhalf\s+price\b|\b1/2\s*off\b", re.I),
     "dollar_amount": re.compile(r"\$\s?\d+(?:\.\d{2})?|\b\d+(?:\.\d{2})?\s*dollars?\b", re.I),
     "bogo": re.compile(r"\b(?:bogo|buy\s+one(?:,?\s+get\s+one)?|two\s+for|2\s+for|2-4-1)\b", re.I),
-    "happy_hour": re.compile(r"\bhappy\s+hour\b|\blate\s+night\b", re.I),
+    "happy_hour": re.compile(r"\b(?:happy|social)\s+hour\b|\blate\s+night\b", re.I),
     "weekday_special": re.compile(r"\b(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday|weekday|weekend|daily|all\s+day|taco\s+tuesday|wine\s+wednesday|brunch)\b", re.I),
     "free": re.compile(r"\bfree\b|\bcomplimentary\b", re.I),
     "deal_language": re.compile(r"\b(?:deal|deals|special|specials|discount|coupon|promo|promotion|offer|reward|rewards|limited\s+time|save|savings|starting\s+at)\b", re.I),
@@ -59,11 +59,11 @@ LOW_VALUE_SUMMARY = re.compile(
     re.I,
 )
 PROMO_CONTEXT = re.compile(
-    r"\b(?:off|free|bogo|2-4-1|buy one|half price|happy hour|special|specials|deal|deals|coupon|limited time|starting at|all day|weekday|weekend|taco tuesday|wine wednesday|kids eat free|with purchase|not valid|valid with coupon|available carry out|dine in only|each)\b",
+    r"\b(?:off|free|bogo|2-4-1|buy one|half price|happy hour|social hour|special|specials|deal|deals|coupon|limited time|starting at|all day|weekday|weekend|taco tuesday|wine wednesday|kids eat free|with purchase|not valid|valid with coupon|available carry out|dine in only|each)\b",
     re.I,
 )
 VALIDITY_CONTEXT = re.compile(
-    r"\b(?:happy hour|daily|every day|all day|weekday|weekend|monday|tuesday|wednesday|thursday|friday|saturday|sunday|mon|tue|tues|wed|thu|thur|thurs|fri|sat|sun|am|pm|valid|dine in|carry out|coupon|limited time|after|before|holidays)\b",
+    r"\b(?:happy hour|social hour|daily|every day|all day|weekday|weekend|monday|tuesday|wednesday|thursday|friday|saturday|sunday|mon|tue|tues|wed|thu|thur|thurs|fri|sat|sun|am|pm|valid|dine in|carry out|coupon|limited time|after|before|holidays)\b",
     re.I,
 )
 TIME_RANGE = re.compile(
