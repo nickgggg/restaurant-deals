@@ -18,7 +18,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, Iterable
 from urllib.error import HTTPError, URLError
-from urllib.parse import urljoin, urlparse
+from urllib.parse import quote, urljoin, urlparse
 from urllib.request import Request, urlopen
 
 
@@ -72,7 +72,8 @@ VISUAL_HINT = re.compile(
 )
 VISUAL_NOISE = re.compile(
     r"\b(?:logo|favicon|icon|avatar|profile|social|instagram|facebook|twitter|"
-    r"tripadvisor|yelp|opentable|delivery|hero|banner|gallery|interior|exterior|team)\b",
+    r"tripadvisor|yelp|opentable|delivery|hero|banner|gallery|interior|exterior|team|"
+    r"privacy|terms|conditions|accessibility|cookies?|policy|careers?|franchis(?:e|ing))\b",
     re.I,
 )
 SUPPORTED_VISUAL_MIME = {"image/jpeg", "image/png", "image/webp", "image/gif", "application/pdf"}
@@ -114,15 +115,29 @@ class VisualAssetParser(HTMLParser):
         self.page_url = page_url
         self.assets: dict[str, dict[str, Any]] = {}
 
-    def add(self, value: str | None, label: str = "", width: str = "", height: str = "") -> None:
+    def add(
+        self,
+        value: str | None,
+        label: str = "",
+        width: str = "",
+        height: str = "",
+        srcset: bool = False,
+    ) -> None:
         if not value:
             return
-        candidate = normalize(value.split(",", 1)[0].split(" ", 1)[0]).strip("'\"")
+        candidate = value.split(",", 1)[0]
+        if srcset:
+            candidate = candidate.split(" ", 1)[0]
+        candidate = normalize(candidate).strip("'\"").replace("\\/", "/")
         if not candidate or candidate.startswith(("data:", "blob:", "javascript:")):
             return
         absolute = urljoin(self.page_url, candidate)
         parsed = urlparse(absolute)
-        absolute = parsed._replace(fragment="").geturl()
+        absolute = parsed._replace(
+            path=quote(parsed.path, safe="/%:@"),
+            query=quote(parsed.query, safe="=&%/:,+"),
+            fragment="",
+        ).geturl()
         if not safe_source_url(absolute):
             return
         descriptor = normalize(f"{label} {absolute}")
@@ -153,7 +168,13 @@ class VisualAssetParser(HTMLParser):
         label = " ".join(values.get(key, "") for key in ("alt", "title", "aria-label", "class", "id"))
         if tag in {"img", "source"}:
             for key in ("src", "data-src", "data-lazy-src", "data-original", "srcset", "data-srcset"):
-                self.add(values.get(key), label, values.get("width", ""), values.get("height", ""))
+                self.add(
+                    values.get(key),
+                    label,
+                    values.get("width", ""),
+                    values.get("height", ""),
+                    srcset=key.endswith("srcset"),
+                )
         elif tag == "a" and re.search(r"\.pdf(?:$|[?#])", values.get("href", ""), re.I):
             self.add(values.get("href"), label or "PDF menu")
         elif tag == "meta" and values.get("property", values.get("name", "")).lower() in {"og:image", "twitter:image"}:
@@ -798,10 +819,28 @@ def priority(candidate: dict[str, Any]) -> tuple[int, str, str]:
     return rank, name.casefold(), candidate["page"]["url"]
 
 
-def visual_priority(candidate: dict[str, Any]) -> tuple[int, int, str, str]:
+def visual_priority(candidate: dict[str, Any]) -> tuple[int, int, int, str, str]:
     rank, name, url = priority(candidate)
     best_asset_score = max((item.get("score", 0) for item in candidate.get("asset_candidates", [])), default=0)
-    return rank, -best_asset_score, name, url
+    reported_rank = 0 if rank == 0 else 1
+    return reported_rank, -best_asset_score, rank, name, url
+
+
+def select_visual_pages(candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    selected: list[dict[str, Any]] = []
+    overflow: list[dict[str, Any]] = []
+    seen_restaurants: set[str] = set()
+    for item in sorted(candidates, key=visual_priority):
+        restaurant = item["restaurant"]
+        identity = restaurant.get("place_id") or f"{restaurant.get('name', '')}|{restaurant.get('city', '')}"
+        if identity in seen_restaurants:
+            overflow.append(item)
+            continue
+        seen_restaurants.add(identity)
+        selected.append(item)
+        if len(selected) == MAX_VISUAL_PAGES_PER_RUN:
+            return selected
+    return (selected + overflow)[:MAX_VISUAL_PAGES_PER_RUN]
 
 
 def build_sources(pages: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -908,15 +947,13 @@ def main() -> int:
             item["content_hash"] = hashlib.sha256(rendered_context.encode("utf-8")).hexdigest()
             item["fetch_mode"] = "rendered"
 
-    visual_queue = sorted(
-        (
-            item
-            for item in fetched
-            if item.get("asset_candidates")
-            and (len(item.get("context", "")) < 240 or not VALUE_SIGNAL.search(item.get("context", "")))
-        ),
-        key=visual_priority,
-    )
+    visual_candidates = [
+        item
+        for item in fetched
+        if item.get("asset_candidates")
+        and (len(item.get("context", "")) < 240 or not VALUE_SIGNAL.search(item.get("context", "")))
+    ]
+    visual_queue = select_visual_pages(visual_candidates)
     visual_results: dict[str, dict[str, Any]] = {}
     visual_calls = 0
     visual_cache_hits = 0
@@ -1070,7 +1107,7 @@ def main() -> int:
             "reported_pages": sum(bool(item.get("page", {}).get("report_issue")) for item in pages),
             "render_attempts": sum(bool(item.get("render_attempted")) for item in fetched),
             "rendered_pages": sum(item.get("fetch_mode") == "rendered" for item in pages),
-            "visual_candidates": len(visual_queue),
+            "visual_candidates": len(visual_candidates),
             "visual_attempts": visual_calls,
             "visual_cache_hits": visual_cache_hits,
             "visual_assets_checked": visual_assets_checked,

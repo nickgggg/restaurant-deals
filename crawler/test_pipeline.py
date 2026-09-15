@@ -105,6 +105,28 @@ class ExtractionTests(unittest.TestCase):
 
         self.assertEqual(sorted([generic, specials], key=extract_with_gemini.visual_priority)[0], specials)
 
+    def test_visual_queue_spreads_calls_across_restaurants(self) -> None:
+        candidates = []
+        for restaurant, score in (("Alpha", 20), ("Alpha", 19), ("Bravo", 18), ("Charlie", 17), ("Delta", 16)):
+            candidates.append(
+                {
+                    "restaurant": {"name": restaurant, "city": "Huntington Beach"},
+                    "page": {"url": f"https://example.com/{restaurant}/{score}", "confidence": "high"},
+                    "asset_candidates": [{"url": f"https://example.com/{score}.jpg", "score": score}],
+                }
+            )
+
+        selected = extract_with_gemini.select_visual_pages(candidates)
+
+        self.assertEqual([item["restaurant"]["name"] for item in selected], ["Alpha", "Bravo", "Charlie", "Delta"])
+
+    def test_visual_asset_urls_are_unescaped_and_encoded(self) -> None:
+        page = '<img src="\\/\\/cdn.example.com/Happy Hour Menu.jpg" alt="Happy hour specials">'
+
+        assets = extract_with_gemini.visual_asset_candidates("https://example.com/specials", page)
+
+        self.assertEqual(assets[0]["url"], "https://cdn.example.com/Happy%20Hour%20Menu.jpg")
+
     def test_visual_deals_require_higher_confidence(self) -> None:
         raw = {
             "deals": [
