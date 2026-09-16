@@ -278,6 +278,36 @@ function logoForGroup(group) {
   return null;
 }
 
+function logoContrastsWithBackground(image, background) {
+  const match = /^#([0-9a-f]{6})$/i.exec(background || "");
+  if (!match) return false;
+  const value = Number.parseInt(match[1], 16);
+  const backdrop = [(value >> 16) & 255, (value >> 8) & 255, value & 255];
+  const canvas = document.createElement("canvas");
+  canvas.width = 32;
+  canvas.height = 32;
+  const context = canvas.getContext("2d", { willReadFrequently: true });
+  if (!context) return false;
+
+  try {
+    context.drawImage(image, 0, 0, canvas.width, canvas.height);
+    const pixels = context.getImageData(0, 0, canvas.width, canvas.height).data;
+    const distances = [];
+    for (let index = 0; index < pixels.length; index += 4) {
+      if (pixels[index + 3] < 64) continue;
+      const red = pixels[index] - backdrop[0];
+      const green = pixels[index + 1] - backdrop[1];
+      const blue = pixels[index + 2] - backdrop[2];
+      distances.push(Math.sqrt(red * red + green * green + blue * blue));
+    }
+    if (!distances.length) return false;
+    distances.sort((left, right) => left - right);
+    return distances[Math.floor(distances.length * 0.4)] >= 90;
+  } catch (_) {
+    return false;
+  }
+}
+
 function restaurantMark(group) {
   const mark = document.createElement("span");
   mark.className = "restaurant-mark";
@@ -291,7 +321,11 @@ function restaurantMark(group) {
     image.src = logo.path;
     image.alt = "";
     image.loading = "lazy";
-    if (logo.background) image.style.backgroundColor = logo.background;
+    if (logo.background) {
+      image.addEventListener("load", () => {
+        if (logoContrastsWithBackground(image, logo.background)) image.style.backgroundColor = logo.background;
+      }, { once: true });
+    }
     image.addEventListener("error", () => image.remove(), { once: true });
     mark.append(image);
   }

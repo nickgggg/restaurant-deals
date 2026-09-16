@@ -1,11 +1,11 @@
-const CACHE_VERSION = "v5";
+const CACHE_VERSION = "v6";
 const SHELL_CACHE = `restaurant-deals-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `restaurant-deals-data-${CACHE_VERSION}`;
 const SHELL_FILES = [
   "./",
   "./index.html",
   "./styles.css?v=17",
-  "./app.js?v=19",
+  "./app.js?v=20",
   "./analytics-config.js",
   "./favicon.svg",
   "./icon-192.png",
