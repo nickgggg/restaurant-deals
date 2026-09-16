@@ -47,6 +47,9 @@ class LogoCacheTests(unittest.TestCase):
         self.assertIsNone(cache_logos.brand_background("https://example.com/", '<meta name="theme-color" content="#fff">'))
         self.assertIsNone(cache_logos.normalize_brand_color("url(javascript:alert(1))"))
 
+    def test_brand_background_uses_verified_site_fallback(self) -> None:
+        self.assertEqual(cache_logos.brand_background("https://beachwoodpizza.com/", ""), "#09a1bf")
+
 
 class SourceDiscoveryTests(unittest.TestCase):
     def test_rendered_navigation_recovers_specials_routes(self) -> None:

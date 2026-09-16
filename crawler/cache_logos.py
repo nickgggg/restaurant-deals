@@ -29,6 +29,10 @@ MAX_IMAGE_BYTES = 600_000
 SELECTION_VERSION = 3
 BAD_ASSET_HINT = re.compile(r"(?:qr|qrcode|cart|shopping|table[-_ ]?setting|menu[-_ ]?item|food[-_ ]?photo)", re.I)
 CHAIN_HOST_HINT = re.compile(r"(?:^|\.)(?:kfc|tacobell|wienerschnitzel|rubios|ikea|pollyspies)\.com$", re.I)
+BRAND_BACKGROUND_OVERRIDES = {
+    "anatoliamediterranean.com": "#173f73",
+    "beachwoodpizza.com": "#09a1bf",
+}
 
 
 def utc_now() -> datetime:
@@ -114,7 +118,7 @@ def normalize_brand_color(value: str) -> str | None:
 def brand_background(page_url: str, page_html: str) -> str | None:
     parser = IconParser(page_url)
     parser.feed(page_html)
-    return parser.brand_colors[0] if parser.brand_colors else None
+    return parser.brand_colors[0] if parser.brand_colors else BRAND_BACKGROUND_OVERRIDES.get(host_key(page_url))
 
 
 def icon_candidates(page_url: str, page_html: str) -> list[str]:
