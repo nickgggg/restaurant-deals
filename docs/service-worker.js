@@ -1,4 +1,4 @@
-const CACHE_VERSION = "v7";
+const CACHE_VERSION = "v8";
 const SHELL_CACHE = `restaurant-deals-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `restaurant-deals-data-${CACHE_VERSION}`;
 const SHELL_FILES = [
