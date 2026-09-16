@@ -1,7 +1,302 @@
 {
-  "generated_at": "2026-09-16T23:23:48Z",
+  "generated_at": "2026-09-16T23:29:20Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$3 Pretzel Bun Chili Dog Price is $3 Original Pretzel Bun Chili Dog only Cheese extra Coupon good for TWO orders on same visit Must be surrendered at time of purchase Tax extra",
+      "canonical_id": "7d83b635b3ac7464",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price is $3",
+        "Original Pretzel Bun Chili Dog only",
+        "Cheese extra",
+        "Coupon good for TWO orders on same visit",
+        "Must be surrendered at time of purchase",
+        "Tax extra",
+        "Price: $3",
+        "Item: Pretzel Bun Chili Dog"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "d9f3b5732975b650",
+      "is_stale": true,
+      "last_seen": "2026-09-16T23:23:48Z",
+      "location": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
+      },
+      "quality_score": 50,
+      "restaurant": "Wienerschnitzel",
+      "retired_at": "2026-09-16T23:29:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
+        "Original Pretzel Bun Chili Dog only. (Cheese extra.)",
+        "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/",
+      "source_urls": [
+        "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/",
+        "http://www.wienerschnitzel.com/coupons/"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$3 Pretzel Bun Chili Dog",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$3"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Price: $7 Items: Chili Cheese Dog, Chili Cheese Fries, Small Soda Must show coupon at time of purchase",
+      "canonical_id": "81b97cbb5a42f946",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $7",
+        "Items: Chili Cheese Dog, Chili Cheese Fries, Small Soda",
+        "Must show coupon at time of purchase"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "340c357134f83c71",
+      "is_stale": true,
+      "last_seen": "2026-09-16T23:23:48Z",
+      "location": {
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+      },
+      "quality_score": 50,
+      "restaurant": "Wienerschnitzel",
+      "retired_at": "2026-09-16T23:29:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.wienerschnitzel.com/coupons/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$7"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$8 Deluxe Cheeseburger, Small Fries & Small Soda Price: $8 Items: Deluxe Cheeseburger, Small Fries, Small Soda Must show coupon at time of purchase",
+      "canonical_id": "69d59391d59f8227",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $8",
+        "Items: Deluxe Cheeseburger, Small Fries, Small Soda",
+        "Must show coupon at time of purchase"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "f3eab6d68bf68e74",
+      "is_stale": true,
+      "last_seen": "2026-09-16T23:23:48Z",
+      "location": {
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+      },
+      "quality_score": 50,
+      "restaurant": "Wienerschnitzel",
+      "retired_at": "2026-09-16T23:29:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.wienerschnitzel.com/coupons/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$8"
+    },
     {
       "ai_confidence": 0.9,
       "applies_days": [],
@@ -705,102 +1000,6 @@
       "time_window": "5:00 PM \u2013 6:30 PM",
       "valid_through": null,
       "validity": "Mon, Tue, Wed, Thu, 5:00 PM \u2013 6:30 PM"
-    },
-    {
-      "ai_confidence": 0.95,
-      "applies_days": [],
-      "applies_month_days": [],
-      "candidate_text": "$3 Pretzel Bun Chili Dog Price is $3 Original Pretzel Bun Chili Dog only Cheese extra Coupon good for TWO orders on same visit Must be surrendered at time of purchase Tax extra",
-      "canonical_id": "7d83b635b3ac7464",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Price is $3",
-        "Original Pretzel Bun Chili Dog only",
-        "Cheese extra",
-        "Coupon good for TWO orders on same visit",
-        "Must be surrendered at time of purchase",
-        "Tax extra"
-      ],
-      "first_seen": "2026-09-15T20:26:33Z",
-      "id": "d9f3b5732975b650",
-      "is_stale": true,
-      "last_seen": "2026-09-16T18:25:41Z",
-      "location": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
-      },
-      "restaurant": "Wienerschnitzel",
-      "retired_at": "2026-09-16T18:34:31Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
-        "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "$3 Pretzel Bun Chili Dog",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "valid_through": null,
-      "validity": "Check source"
     },
     {
       "ai_confidence": 0.95,

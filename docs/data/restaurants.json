@@ -49,7 +49,7 @@
     "last_scanned_cities": [
       "Costa Mesa"
     ],
-    "last_source_scan_at": "2026-09-16T23:20:33Z",
+    "last_source_scan_at": "2026-09-16T23:27:04Z",
     "map_cells": 179,
     "official_websites": 848,
     "operational_count": 1010,
@@ -61,11 +61,11 @@
     ],
     "restaurant_count": 1050,
     "source_sites_checked": 12,
-    "specials_pages_found": 194,
+    "specials_pages_found": 197,
     "successful_map_cells": 49
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-16T23:20:33Z",
+  "generated_at": "2026-09-16T23:27:04Z",
   "refresh_after": "2026-09-17T16:26:21Z",
   "restaurants": [
     {
@@ -7337,7 +7337,7 @@
       "phone": "(657) 215-6944",
       "place_id": "ChIJcaE-fn4n3YARl7BCy-xcOsI",
       "primary_type": "fast_food_restaurant",
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-cws2r7c4/Default'",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-jmmoubqk/Default'",
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -15753,7 +15753,16 @@
       "phone": "(877) 899-2767",
       "place_id": "ChIJpVe5kGcn3YARWpptSSGReJQ",
       "primary_type": "coffee_shop",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-16T23:26:37Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.dutchbros.com/support/articles/how-do-your-promotions-work/"
+        }
+      ],
       "types": [
         "coffee_shop",
         "juice_shop",
@@ -15822,7 +15831,16 @@
       "phone": "(877) 899-2767",
       "place_id": "ChIJx4khPQMn3YARxJB1jXVUwHc",
       "primary_type": "coffee_shop",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-16T23:26:37Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.dutchbros.com/support/articles/how-do-your-promotions-work/"
+        }
+      ],
       "types": [
         "coffee_shop",
         "tea_house",
@@ -15891,7 +15909,16 @@
       "phone": "(714) 274-9432",
       "place_id": "ChIJp2rBRp4h3YARfCr4XUCAVGU",
       "primary_type": "mediterranean_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-16T23:26:37Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://hb.dvineexperience.com/shop/lunch-special/QQ2K3DMMAVNYWMRPZDHLQTRA"
+        }
+      ],
       "types": [
         "mediterranean_restaurant",
         "restaurant",
@@ -15938,9 +15965,12 @@
       "phone": "(714) 536-8083",
       "place_id": "ChIJJfkWCEwh3YARFKkkT2531is",
       "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-09-16T23:26:37Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Special Edition",
           "url": "https://www.dwightscheesestrips.com/product-page/dwight-s-iconic-apron"
         }
@@ -16009,6 +16039,8 @@
       "phone": "(657) 210-4934",
       "place_id": "ChIJ_wOP7OHf3IARJZBCMCILhwg",
       "primary_type": "breakfast_restaurant",
+      "specials_checked_at": "2026-09-16T23:26:37Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "breakfast_restaurant",
@@ -16074,6 +16106,8 @@
       "phone": "(714) 641-5010",
       "place_id": "ChIJ2WMW1Rvf3IARzf89nzxpuAA",
       "primary_type": "vietnamese_restaurant",
+      "specials_checked_at": "2026-09-16T23:26:37Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
@@ -16133,6 +16167,8 @@
       "phone": "(657) 780-0068",
       "place_id": "ChIJ7fB_Mogn3YARrQ9LYooIv-c",
       "primary_type": "cafe",
+      "specials_checked_at": "2026-09-16T23:26:37Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
@@ -16197,9 +16233,12 @@
       "phone": "(714) 842-9440",
       "place_id": "ChIJQcy2P24m3YARpkXoJORXPkk",
       "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-09-16T23:26:37Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://joeshb.com/"
         }
@@ -16270,6 +16309,8 @@
       "phone": "(949) 650-2469",
       "place_id": "ChIJS3JftI7f3IARjrbp12f03-A",
       "primary_type": "breakfast_restaurant",
+      "specials_checked_at": "2026-09-16T23:26:37Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "breakfast_restaurant",
@@ -16360,9 +16401,12 @@
       "phone": "(714) 760-4107",
       "place_id": "ChIJAU6rrOXf3IARF3NaJmbvK3E",
       "primary_type": "japanese_restaurant",
+      "specials_checked_at": "2026-09-16T23:26:37Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://www.eatssushi.com/"
         }
@@ -16434,6 +16478,8 @@
       "phone": "(714) 378-1400",
       "place_id": "ChIJr2Tj_1wh3YARuOss4GTvCj8",
       "primary_type": "breakfast_restaurant",
+      "specials_checked_at": "2026-09-16T23:26:37Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "breakfast_restaurant",

@@ -1,6 +1,6 @@
 {
   "extraction_version": 5,
-  "generated_at": "2026-09-16T23:23:48Z",
+  "generated_at": "2026-09-16T23:29:20Z",
   "model": "gemini-3.5-flash-lite",
   "pages": [
     {
@@ -9979,9 +9979,9 @@
     {
       "content_hash": "c8d989c95bf58f1b250cd958df9d7ce0a39e31d0f778d3fca699ab3c08eb3cb8",
       "deals": [],
-      "extracted_at": "2026-09-16T23:23:27Z",
+      "extracted_at": "2026-09-16T23:28:06Z",
       "extraction_version": 5,
-      "fetch_mode": "static",
+      "fetch_mode": "visual",
       "key": "47bc37b3bd4bed52b02a",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -10092,7 +10092,334 @@
         ],
         "website_url": "https://www.dunkindonuts.com/locations/us/ca/fountain-valley/18022-brookhurst-st/store-352853/?utm_source=google&utm_medium=local&utm_campaign=localmaps&utm_content=352853&y_source=1_MTIxMDg0OTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 527595,
+          "content_hash": "5c10db65058b29001a00c9eb6c90d5cbdfcc4d282da65d4482edbcc633e40993",
+          "mime_type": "application/pdf",
+          "url": "https://assets.ctfassets.net/ubkcphxhphh0/4zSgulxInizXp52K1eizxO/8874a0423b75607ac0e0182cbf48fcf2/DD_W6_nutrition_guide.pdf"
+        },
+        {
+          "byte_size": 139949,
+          "content_hash": "ab1e22ef0662e6536c465809f6e4bf80b772370d6337f2bfe424857952c86f41",
+          "mime_type": "image/gif",
+          "url": "https://www.dunkindonuts.com/brands/inspire/heart.gif"
+        },
+        {
+          "byte_size": 21876,
+          "content_hash": "4cc49dd23cfac62c4e22bc3c3f0d39a805d914efbe1810ae304d28a4e53c1ec4",
+          "mime_type": "image/png",
+          "url": "https://www.dunkindonuts.com/brands/dun/apple-touch-icon.png"
+        }
+      ],
+      "visual_checked_at": "2026-09-16T23:28:06Z",
+      "visual_hash": "0ca761b72db8f05a87b2210908e8e453b4ee67e320e8bc14169e8be4a25beb5b",
+      "visual_status": "no_deals"
+    },
+    {
+      "content_hash": "c32982a630915653374eb56a8ce64dbb97224c7369431fe1055f19e2caab0874",
+      "deals": [],
+      "extracted_at": "2026-09-16T23:28:43Z",
+      "extraction_version": 5,
+      "fetch_mode": "static",
+      "key": "d0e83d6f35f2d64417eb",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "sitemap",
+        "label": "Specials",
+        "url": "https://www.dutchbros.com/support/articles/how-do-your-promotions-work/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "17954 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Fountain Valley",
+        "google_maps_url": "https://maps.google.com/?cid=10698460486970481242&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "05:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "05:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "05:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "05:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "05:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "05:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "05:00"
+            }
+          ]
+        },
+        "latitude": 33.701770599999996,
+        "longitude": -117.97108329999999,
+        "name": "Dutch Bros Coffee",
+        "phone": "(877) 899-2767",
+        "place_id": "ChIJpVe5kGcn3YARWpptSSGReJQ",
+        "primary_type": "coffee_shop",
+        "specials_checked_at": "2026-09-16T23:26:37Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dutchbros.com/support/articles/how-do-your-promotions-work/"
+          }
+        ],
+        "types": [
+          "coffee_shop",
+          "juice_shop",
+          "tea_house",
+          "cafe",
+          "food_store",
+          "store",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://www.dutchbros.com/locations/ca/fountain-valley/17954-magnolia-st?y_source=1_MTAxNTkwMDg2Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      },
       "status": "no_deals"
+    },
+    {
+      "content_hash": "c32982a630915653374eb56a8ce64dbb97224c7369431fe1055f19e2caab0874",
+      "deals": [],
+      "extracted_at": "2026-09-16T23:28:50Z",
+      "extraction_version": 5,
+      "fetch_mode": "static",
+      "key": "f047b96e5acd716b627e",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "sitemap",
+        "label": "Specials",
+        "url": "https://www.dutchbros.com/support/articles/how-do-your-promotions-work/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "9067 Warner Ave, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Fountain Valley",
+        "google_maps_url": "https://maps.google.com/?cid=8628989749903069380&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "05:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "05:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "05:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "05:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "05:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "05:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "05:00"
+            }
+          ]
+        },
+        "latitude": 33.716068899999996,
+        "longitude": -117.96801620000001,
+        "name": "Dutch Bros Coffee",
+        "phone": "(877) 899-2767",
+        "place_id": "ChIJx4khPQMn3YARxJB1jXVUwHc",
+        "primary_type": "coffee_shop",
+        "specials_checked_at": "2026-09-16T23:26:37Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dutchbros.com/support/articles/how-do-your-promotions-work/"
+          }
+        ],
+        "types": [
+          "coffee_shop",
+          "tea_house",
+          "juice_shop",
+          "cafe",
+          "food_store",
+          "store",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://www.dutchbros.com/locations/ca/fountain-valley/9067-warner-ave?y_source=1_MTAzNzk0NDM3OC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      },
+      "status": "no_deals"
+    },
+    {
+      "content_hash": "",
+      "deals": [],
+      "extracted_at": "2026-09-16T23:28:16Z",
+      "extraction_version": 5,
+      "fetch_mode": "visual",
+      "key": "a7443b0f03aaf75bc418",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "sitemap",
+        "label": "Specials",
+        "url": "https://hb.dvineexperience.com/shop/lunch-special/QQ2K3DMMAVNYWMRPZDHLQTRA"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "21006 Beach Blvd, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=7301601909817223804&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6572758,
+        "longitude": -117.98791749999998,
+        "name": "Dvine Mediterranean Experience",
+        "phone": "(714) 274-9432",
+        "place_id": "ChIJp2rBRp4h3YARfCr4XUCAVGU",
+        "primary_type": "mediterranean_restaurant",
+        "specials_checked_at": "2026-09-16T23:26:37Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://hb.dvineexperience.com/shop/lunch-special/QQ2K3DMMAVNYWMRPZDHLQTRA"
+          }
+        ],
+        "types": [
+          "mediterranean_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://hb.dvineexperience.com/"
+      },
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 19140,
+          "content_hash": "35060b4b655197fd146f03a986dd2caa970399570833297979cbcdaaa34fc5d4",
+          "mime_type": "image/jpeg",
+          "url": "https://hb.dvineexperience.com/uploads/b/0cae0ed0-458f-11f1-9b8a-a52cb8f20508/Dvine%20Logo%20White.jpg"
+        },
+        {
+          "byte_size": 4675,
+          "content_hash": "309fd95ac676a18a3b9c49e0118755251180aede8f496fd175b64e8805772141",
+          "mime_type": "image/png",
+          "url": "https://hb.dvineexperience.com/uploads/b/0cae0ed0-458f-11f1-9b8a-a52cb8f20508/Dvine%20favicon.png"
+        },
+        {
+          "byte_size": 7120,
+          "content_hash": "42d5637d359624ce97e6705e38438e9d3e7584b779ce8334a957d9afd8a43581",
+          "mime_type": "image/jpeg",
+          "url": "https://hb.dvineexperience.com/uploads/b/0cae0ed0-458f-11f1-9b8a-a52cb8f20508/icon_180x180_ios_NzAzND.png"
+        }
+      ],
+      "visual_checked_at": "2026-09-16T23:28:16Z",
+      "visual_hash": "b7e6cd9b0e3bd4e4434b934bc0d725a21d4f416544a551e28c4bbe642f4a4bb5",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "037427d63b033ba9b1c93f0ae01e47f74a14157dc12d7a19aa0f425e014ae1b7",
@@ -14085,17 +14412,130 @@
       "visual_status": "no_deals"
     },
     {
-      "content_hash": "",
-      "deals": [],
-      "error": "RuntimeError: HTTP Error 429: Too Many Requests",
+      "content_hash": "d9a8929664ae00adccdeaf8a3e8ead9dd06d91154b0105bc06c859278566f7ca",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "Only available in the Trenta Lounge",
+            "$2 OFF All Signature Cocktails, Wines by the Glass, and Beer"
+          ],
+          "source_evidence": [
+            "Monday through Thursday",
+            "From 5 to 6:30pm",
+            "All Signature Cocktails, Wines by the Glass, and Beer",
+            "$2 OFF"
+          ],
+          "summary": "Happy Hour: $2 off all Signature Cocktails, Wines by the Glass, and Beer",
+          "time_window": "5:00 PM \u2013 6:30 PM",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Only available in the Trenta Lounge",
+            "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
+            "Price: $20"
+          ],
+          "source_evidence": [
+            "CHARCUTERIE",
+            "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
+            "$20"
+          ],
+          "summary": "Charcuterie for $20 during Happy Hour",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Only available in the Trenta Lounge",
+            "Fried Calamari/lemon/garlic-chili aioli",
+            "Price: $18"
+          ],
+          "source_evidence": [
+            "CALAMARI FRITTI",
+            "Fried Calamari/lemon/garlic-chili aioli",
+            "$18"
+          ],
+          "summary": "Calamari Fritti for $18 during Happy Hour",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Only available in the Trenta Lounge",
+            "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
+            "Price: $12"
+          ],
+          "source_evidence": [
+            "CANNOLO SALATO",
+            "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
+            "$12"
+          ],
+          "summary": "Cannolo Salato for $12 during Happy Hour",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Only available in the Trenta Lounge",
+            "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
+            "Price: $10"
+          ],
+          "source_evidence": [
+            "BRUSCHETTA TRADIZIONALE",
+            "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
+            "$10"
+          ],
+          "summary": "Bruschetta Tradizionale for $10 during Happy Hour",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-16T23:28:59Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "ec3769ca9d91de54c740",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
         "label": "Learn more",
         "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2026-09-10-17-00"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "1661 Superior Ave Ste d, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -14199,7 +14639,7 @@
         ],
         "website_url": "https://trentapizza.com/"
       },
-      "status": "fetch_failed"
+      "status": "ok"
     },
     {
       "content_hash": "",
@@ -14669,6 +15109,328 @@
       "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
       "deals": [
         {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Pretzel Bun Chili Dog coupon",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
+          ],
+          "summary": "$3 Pretzel Bun Chili Dog Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Includes Corn Dog, Small Fries, and Small Soda",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$5 Corn Dog, Small Fries & Small Soda Coupon"
+          ],
+          "summary": "$5 Corn Dog, Small Fries & Small Soda Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Two Chili Dogs and Chili Cheese Fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$6 Two Chili Dogs & Chili Cheese Fries Coupon"
+          ],
+          "summary": "$6 Two Chili Dogs & Chili Cheese Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Two Sundaes",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$6 Two Sundaes Coupon"
+          ],
+          "summary": "$6 Two Sundaes Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Two Chili Dogs and Medium Fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$5 Two Chili Dogs & Medium Fries Coupon"
+          ],
+          "summary": "$5 Two Chili Dogs & Medium Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes two regular size classic chili cheese fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$6 Regular Size Two Classic Chili Cheese Fries Coupon"
+          ],
+          "summary": "$6 Regular Size Two Classic Chili Cheese Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Corn Dog, Chili Dog, and Chili Cheese Fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon"
+          ],
+          "summary": "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
+          ],
+          "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Includes Deluxe Cheeseburger, Small Fries, and Small Soda",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
+          ],
+          "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "$2 discount on any chili cheese fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$2 Off Any Chili Cheese Fries Coupon"
+          ],
+          "summary": "$2 Off Any Chili Cheese Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Four Chili Dogs and Two Chili Cheese Fries",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon"
+          ],
+          "summary": "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes Ten Chili Cheese Dogs",
+            "Must show coupon at time of purchase"
+          ],
+          "source_evidence": [
+            "$20 Ten Chili Cheese Dogs Coupon"
+          ],
+          "summary": "$20 Ten Chili Cheese Dogs Coupon",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T04:22:43Z",
+      "key": "07efdeef28eacc9b87a4",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Specials",
+        "url": "http://www.wienerschnitzel.com/coupons/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "name": "Wienerschnitzel",
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0",
+        "primary_type": "fast_food_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "http://www.wienerschnitzel.com/coupons/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "hot_dog_restaurant",
+          "american_restaurant",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.wienerschnitzel.com/location/351-warner-springdale-huntington-bch-5966-warner-avenue-huntington-bch-ca-92649/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
+      "deals": [
+        {
           "ai_confidence": 0.95,
           "applies_days": [],
           "applies_month_days": [],
@@ -15001,328 +15763,6 @@
     },
     {
       "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
-      "deals": [
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Pretzel Bun Chili Dog coupon",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
-          ],
-          "summary": "$3 Pretzel Bun Chili Dog Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "Includes Corn Dog, Small Fries, and Small Soda",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$5 Corn Dog, Small Fries & Small Soda Coupon"
-          ],
-          "summary": "$5 Corn Dog, Small Fries & Small Soda Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Two Chili Dogs and Chili Cheese Fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$6 Two Chili Dogs & Chili Cheese Fries Coupon"
-          ],
-          "summary": "$6 Two Chili Dogs & Chili Cheese Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Two Sundaes",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$6 Two Sundaes Coupon"
-          ],
-          "summary": "$6 Two Sundaes Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Two Chili Dogs and Medium Fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$5 Two Chili Dogs & Medium Fries Coupon"
-          ],
-          "summary": "$5 Two Chili Dogs & Medium Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes two regular size classic chili cheese fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$6 Regular Size Two Classic Chili Cheese Fries Coupon"
-          ],
-          "summary": "$6 Regular Size Two Classic Chili Cheese Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Corn Dog, Chili Dog, and Chili Cheese Fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon"
-          ],
-          "summary": "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
-          ],
-          "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "Includes Deluxe Cheeseburger, Small Fries, and Small Soda",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
-          ],
-          "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "$2 discount on any chili cheese fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$2 Off Any Chili Cheese Fries Coupon"
-          ],
-          "summary": "$2 Off Any Chili Cheese Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Four Chili Dogs and Two Chili Cheese Fries",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon"
-          ],
-          "summary": "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes Ten Chili Cheese Dogs",
-            "Must show coupon at time of purchase"
-          ],
-          "source_evidence": [
-            "$20 Ten Chili Cheese Dogs Coupon"
-          ],
-          "summary": "$20 Ten Chili Cheese Dogs Coupon",
-          "time_window": null,
-          "valid_through": null
-        }
-      ],
-      "extracted_at": "2026-09-10T04:22:43Z",
-      "key": "07efdeef28eacc9b87a4",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "high",
-        "label": "Specials",
-        "url": "http://www.wienerschnitzel.com/coupons/"
-      },
-      "rejected_candidates": [],
-      "restaurant": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
-        "name": "Wienerschnitzel",
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0",
-        "primary_type": "fast_food_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "http://www.wienerschnitzel.com/coupons/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-          }
-        ],
-        "types": [
-          "fast_food_restaurant",
-          "ice_cream_shop",
-          "dessert_shop",
-          "hot_dog_restaurant",
-          "american_restaurant",
-          "confectionery",
-          "food_store",
-          "store",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.wienerschnitzel.com/location/351-warner-springdale-huntington-bch-5966-warner-avenue-huntington-bch-ca-92649/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
-      },
-      "status": "ok"
-    },
-    {
-      "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
       "deals": [],
       "extracted_at": "2026-09-10T04:22:32Z",
       "key": "a3ff1d2a0f58f65098fd",
@@ -15435,6 +15875,135 @@
         "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "no_deals"
+    },
+    {
+      "content_hash": "0702eb0b0f7ed6ce6ef21efeecc1bc7b27bf7ade11c95d12aa2fcf93fed22826",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Price: $3",
+            "Item: Original Pretzel Bun Chili Dog only",
+            "Cheese extra",
+            "Coupon good for TWO orders on same visit and must be surrendered at time of purchase",
+            "Tax extra",
+            "Not valid with any other offer, discount or coupon",
+            "Good at participating restaurants only"
+          ],
+          "source_evidence": [
+            "$3 - Pretzel Bun Chili Dog - 230",
+            "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel",
+            "Original Pretzel Bun Chili Dog only. (Cheese extra.)",
+            "Coupon good for TWO orders on same visit and"
+          ],
+          "summary": "$3 Pretzel Bun Chili Dog",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T04:22:58Z",
+      "key": "0c293109935b1dadb298",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Specials",
+        "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "name": "Wienerschnitzel",
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0",
+        "primary_type": "fast_food_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "http://www.wienerschnitzel.com/coupons/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "hot_dog_restaurant",
+          "american_restaurant",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.wienerschnitzel.com/location/351-warner-springdale-huntington-bch-5966-warner-avenue-huntington-bch-ca-92649/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+      },
+      "status": "ok"
     },
     {
       "content_hash": "0702eb0b0f7ed6ce6ef21efeecc1bc7b27bf7ade11c95d12aa2fcf93fed22826",
@@ -15690,135 +16259,6 @@
       "status": "ok"
     },
     {
-      "content_hash": "0702eb0b0f7ed6ce6ef21efeecc1bc7b27bf7ade11c95d12aa2fcf93fed22826",
-      "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Price: $3",
-            "Item: Original Pretzel Bun Chili Dog only",
-            "Cheese extra",
-            "Coupon good for TWO orders on same visit and must be surrendered at time of purchase",
-            "Tax extra",
-            "Not valid with any other offer, discount or coupon",
-            "Good at participating restaurants only"
-          ],
-          "source_evidence": [
-            "$3 - Pretzel Bun Chili Dog - 230",
-            "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel",
-            "Original Pretzel Bun Chili Dog only. (Cheese extra.)",
-            "Coupon good for TWO orders on same visit and"
-          ],
-          "summary": "$3 Pretzel Bun Chili Dog",
-          "time_window": null,
-          "valid_through": null
-        }
-      ],
-      "extracted_at": "2026-09-10T04:22:58Z",
-      "key": "0c293109935b1dadb298",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "high",
-        "label": "Specials",
-        "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-      },
-      "rejected_candidates": [],
-      "restaurant": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
-        "name": "Wienerschnitzel",
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0",
-        "primary_type": "fast_food_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "http://www.wienerschnitzel.com/coupons/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-          }
-        ],
-        "types": [
-          "fast_food_restaurant",
-          "ice_cream_shop",
-          "dessert_shop",
-          "hot_dog_restaurant",
-          "american_restaurant",
-          "confectionery",
-          "food_store",
-          "store",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.wienerschnitzel.com/location/351-warner-springdale-huntington-bch-5966-warner-avenue-huntington-bch-ca-92649/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
-      },
-      "status": "ok"
-    },
-    {
       "content_hash": "cee065429487d19b0abcec053c23c8449451a81351a55a69463b50cf73a42609",
       "deals": [
         {
@@ -15959,6 +16399,133 @@
           "details": [
             "Price: $5",
             "Includes a corn dog, small fries, and a small soda",
+            "Coupon good for TWO orders on same visit",
+            "Tax extra",
+            "Not valid with any other offer, discount or coupon",
+            "Not valid in Sacramento, Stockton & Modesto areas"
+          ],
+          "source_evidence": [
+            "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+            "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
+          ],
+          "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T04:23:14Z",
+      "key": "4d95ceb6a3c19f22d9ce",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Specials",
+        "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "name": "Wienerschnitzel",
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0",
+        "primary_type": "fast_food_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "http://www.wienerschnitzel.com/coupons/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "hot_dog_restaurant",
+          "american_restaurant",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.wienerschnitzel.com/location/351-warner-springdale-huntington-bch-5966-warner-avenue-huntington-bch-ca-92649/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "cee065429487d19b0abcec053c23c8449451a81351a55a69463b50cf73a42609",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Price: $5",
+            "Includes a corn dog, small fries, and a small soda",
             "Coupon good for two orders on the same visit",
             "Tax extra",
             "Must be surrendered at time of purchase",
@@ -16070,133 +16637,6 @@
           "establishment"
         ],
         "website_url": "http://www.wienerschnitzel.com/location/239-beach-blvd-talbert-huntington-beach-18012-beach-blvd-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
-      },
-      "status": "ok"
-    },
-    {
-      "content_hash": "cee065429487d19b0abcec053c23c8449451a81351a55a69463b50cf73a42609",
-      "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "Price: $5",
-            "Includes a corn dog, small fries, and a small soda",
-            "Coupon good for TWO orders on same visit",
-            "Tax extra",
-            "Not valid with any other offer, discount or coupon",
-            "Not valid in Sacramento, Stockton & Modesto areas"
-          ],
-          "source_evidence": [
-            "$5 - Corn Dog, Small Fries and Small Soda Coupon",
-            "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
-          ],
-          "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
-          "time_window": null,
-          "valid_through": null
-        }
-      ],
-      "extracted_at": "2026-09-10T04:23:14Z",
-      "key": "4d95ceb6a3c19f22d9ce",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "high",
-        "label": "Specials",
-        "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-      },
-      "rejected_candidates": [],
-      "restaurant": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
-        "name": "Wienerschnitzel",
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0",
-        "primary_type": "fast_food_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "http://www.wienerschnitzel.com/coupons/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-          }
-        ],
-        "types": [
-          "fast_food_restaurant",
-          "ice_cream_shop",
-          "dessert_shop",
-          "hot_dog_restaurant",
-          "american_restaurant",
-          "confectionery",
-          "food_store",
-          "store",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.wienerschnitzel.com/location/351-warner-springdale-huntington-bch-5966-warner-avenue-huntington-bch-ca-92649/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "ok"
     },
@@ -18553,94 +18993,6 @@
     {
       "content_hash": "b9fce990c86015013d3f8f9f090495f55cbab7189f0fab11bcd8108262f139a4",
       "deals": [],
-      "extracted_at": "2026-09-10T19:04:54Z",
-      "key": "19cec4e1074e8465423c",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "medium",
-        "label": "Website specials",
-        "url": "http://www.carlitosdiner.com/"
-      },
-      "rejected_candidates": [
-        "Menudo and Pozole Everyday"
-      ],
-      "restaurant": {
-        "address": "7451 Warner Ave G, Huntington Beach, CA 92647, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=436858277318907960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "16:00",
-              "open": "08:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.716098,
-        "longitude": -117.99848000000001,
-        "name": "Carlitos Diner",
-        "phone": "(714) 841-9966",
-        "place_id": "ChIJB5cwb4om3YAROFjI5EkIEAY",
-        "primary_type": "mexican_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "medium",
-            "label": "Website specials",
-            "url": "http://www.carlitosdiner.com/"
-          }
-        ],
-        "types": [
-          "mexican_restaurant",
-          "american_restaurant",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.carlitosdiner.com/"
-      },
-      "status": "no_deals"
-    },
-    {
-      "content_hash": "b9fce990c86015013d3f8f9f090495f55cbab7189f0fab11bcd8108262f139a4",
-      "deals": [],
       "extracted_at": "2026-09-10T19:05:02Z",
       "key": "a48cca227805c135b5be",
       "model": "gemini-3.5-flash-lite",
@@ -18722,6 +19074,94 @@
           "diner",
           "breakfast_restaurant",
           "hamburger_restaurant",
+          "american_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.carlitosdiner.com/"
+      },
+      "status": "no_deals"
+    },
+    {
+      "content_hash": "b9fce990c86015013d3f8f9f090495f55cbab7189f0fab11bcd8108262f139a4",
+      "deals": [],
+      "extracted_at": "2026-09-10T19:04:54Z",
+      "key": "19cec4e1074e8465423c",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "medium",
+        "label": "Website specials",
+        "url": "http://www.carlitosdiner.com/"
+      },
+      "rejected_candidates": [
+        "Menudo and Pozole Everyday"
+      ],
+      "restaurant": {
+        "address": "7451 Warner Ave G, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=436858277318907960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "16:00",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.716098,
+        "longitude": -117.99848000000001,
+        "name": "Carlitos Diner",
+        "phone": "(714) 841-9966",
+        "place_id": "ChIJB5cwb4om3YAROFjI5EkIEAY",
+        "primary_type": "mexican_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "medium",
+            "label": "Website specials",
+            "url": "http://www.carlitosdiner.com/"
+          }
+        ],
+        "types": [
+          "mexican_restaurant",
           "american_restaurant",
           "restaurant",
           "food",
@@ -18877,20 +19317,18 @@
       "status": "ok"
     },
     {
-      "content_hash": "bb7b5f33ef14fd42964178ca31ae280d510777ad90777b9ea400bfb4af4fffdb",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-16T18:07:54Z",
-      "extraction_version": 4,
-      "fetch_mode": "visual",
+      "error": "No promotion text found",
+      "extraction_version": 5,
+      "fetch_mode": "static",
       "key": "41b265dde1aefae2fbd5",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "discovered_via": "site_link",
         "label": "Specials",
         "url": "https://casajimenezhb.com/specials/"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "19171 Magnolia St #6, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -18965,24 +19403,7 @@
         ],
         "website_url": "https://casajimenezhb.com/"
       },
-      "status": "no_deals",
-      "visual_assets": [
-        {
-          "byte_size": 34600,
-          "content_hash": "0e9b9dea6b152324fdda98e3a2f95cbaf72887ca256ebbac798dcd147eac38a3",
-          "mime_type": "image/webp",
-          "url": "https://casajimenezhb.com/wp-content/uploads/2020/05/casa-jimenez-specials.jpg"
-        },
-        {
-          "byte_size": 8854,
-          "content_hash": "ce53b9a03abfa52e2e96b80898bbff66886df8ebd15be01d25fe35da567c3fc2",
-          "mime_type": "image/webp",
-          "url": "https://casajimenezhb.com/wp-content/uploads/2020/05/Casa-Jimenez-Huntington-Beach-Mexican-Restaurant.png"
-        }
-      ],
-      "visual_checked_at": "2026-09-16T18:07:54Z",
-      "visual_hash": "d79a5cee548b13da23de11017bb83e2221e4f19213425257027e89485c66edc2",
-      "visual_status": "no_deals"
+      "status": "fetch_failed"
     },
     {
       "content_hash": "d1eeb5cd997bead2fbb312cea1215bdd6d9ecb64d07619f4c92706e807ba970f",
@@ -20138,18 +20559,20 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "",
+      "content_hash": "559ec59d64308283008716fc04a0faacd460b7a402a3bdef26a4b7d50b43c7d9",
       "deals": [],
-      "error": "RuntimeError: HTTP Error 429: Too Many Requests",
+      "extracted_at": "2026-09-16T23:28:24Z",
       "extraction_version": 5,
-      "fetch_mode": "static",
+      "fetch_mode": "visual",
       "key": "ddf585bfb1abde56db2b",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "discovered_via": "page_text",
         "label": "Website specials",
         "url": "https://www.dickchurchs.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "2698 Newport Blvd, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -20249,7 +20672,24 @@
         ],
         "website_url": "https://www.dickchurchs.com/"
       },
-      "status": "fetch_failed"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 476525,
+          "content_hash": "40e9a7edfb2d79a0dd4f86f01b84a44ae33061b3c89d0f52c84a6cee09fe74a2",
+          "mime_type": "image/png",
+          "url": "https://static.parastorage.com/services/santa-resources/resources/viewer/editorUI/fonts.v19.png"
+        },
+        {
+          "byte_size": 239613,
+          "content_hash": "a2d98691dd120ab266e5bb14350a52094424699227635a690bb3dbe119dada4e",
+          "mime_type": "image/png",
+          "url": "https://static.wixstatic.com/media/e9019d_0b5a8181cfda4521bfe8152660c5f2d1~mv2.png"
+        }
+      ],
+      "visual_checked_at": "2026-09-16T23:28:24Z",
+      "visual_hash": "86d5841fa98810ceb1403e92a325c4e92ede549767002f0558d34256747ffb81",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "5d197452931c38a0fb46843866829a07d8b07081d42dd60e448df3b4ff1cfe08",
@@ -24562,9 +25002,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "c15f267cd12fa07bacd4e73295c18942333ee66f84f674049e14e4d4c4201405",
+      "content_hash": "72b015e03ea6ea4d80a377f7819d10b49fa03f6683f09e8e808de187dd10e81e",
       "deals": [],
-      "extracted_at": "2026-09-16T23:23:35Z",
+      "extracted_at": "2026-09-16T23:29:06Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "b9be67241d188f5a98ba",
@@ -31434,7 +31874,9 @@
     {
       "content_hash": "5e157998306ff1007bb3b3ff5d59e22a47bc25f3dabb606e40662c29951a4325",
       "deals": [],
-      "extracted_at": "2026-09-14T19:38:03Z",
+      "extracted_at": "2026-09-16T23:28:35Z",
+      "extraction_version": 5,
+      "fetch_mode": "visual",
       "key": "9c665eecc5ee2c775645",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -31516,7 +31958,30 @@
         ],
         "website_url": "https://www.rubys.com/locations/costa-mesa-south-coast-plaza/"
       },
-      "status": "no_deals"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 172916,
+          "content_hash": "7a0af3311cd9bda42a7d60998829494bd0f0df2b473e7aee14911fccddb7bc20",
+          "mime_type": "image/webp",
+          "url": "https://rubys.b-cdn.net/dbcwp/wp-content/uploads/2022/11/South-Coast-Plaza-2-6.jpg.webp?origin=rubys"
+        },
+        {
+          "byte_size": 58930,
+          "content_hash": "363ef4f69092af6499b9f0d334d5cba395dc7de6c1279d2bc36291861abfac11",
+          "mime_type": "image/webp",
+          "url": "https://rubys.b-cdn.net/dbcwp/wp-content/uploads/2022/11/south_coast_plaza_2_v2.jpg.webp?origin=rubys"
+        },
+        {
+          "byte_size": 2604,
+          "content_hash": "a0b154cf576bf9d21e1f7605def4a6796bdb31bb03ffa39915886a9d47f651a5",
+          "mime_type": "image/png",
+          "url": "https://rubys.b-cdn.net/dbcwp/wp-content/themes/rubys2022/images/icons/map_pin.png?v=2"
+        }
+      ],
+      "visual_checked_at": "2026-09-16T23:28:35Z",
+      "visual_hash": "b9e2fefb0e158a1a70233de6922e2bab826d93af101e3838eced1609e2c756d1",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "933d09473a3a4c75e74efeac1f73c0b6df1e93550b5623f69deda2684406e97f",
@@ -35048,9 +35513,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "1345f31dd51df4c7aceb71155eea51386bf2af38a3c708d85f575418e356498f",
+      "content_hash": "3709d1f6a723930ad3717f2634b22713bf61c74852c11d45c541b0398dd45110",
       "deals": [],
-      "extracted_at": "2026-09-16T23:23:42Z",
+      "extracted_at": "2026-09-16T23:29:14Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "23d0d0c520f845b3127a",
@@ -41329,6 +41794,200 @@
       "url": "https://shanghaidroom.com/"
     },
     {
+      "city": "Costa Mesa",
+      "location": {
+        "address": "1661 Superior Ave Ste d, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=6654488974885952960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.6348445,
+        "longitude": -117.92543880000001,
+        "phone": "(949) 270-6652",
+        "place_id": "ChIJaxicd5Ah3YARwJ3UNXd-WVw"
+      },
+      "name": "Trenta Pizza & Cucina and Trenta Lounge",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "drink"
+            ],
+            "details": [
+              "Only available in the Trenta Lounge",
+              "$2 OFF All Signature Cocktails, Wines by the Glass, and Beer"
+            ],
+            "source_evidence": [
+              "Monday through Thursday",
+              "From 5 to 6:30pm",
+              "All Signature Cocktails, Wines by the Glass, and Beer",
+              "$2 OFF"
+            ],
+            "summary": "Happy Hour: $2 off all Signature Cocktails, Wines by the Glass, and Beer",
+            "time_window": "5:00 PM \u2013 6:30 PM",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Only available in the Trenta Lounge",
+              "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
+              "Price: $20"
+            ],
+            "source_evidence": [
+              "CHARCUTERIE",
+              "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
+              "$20"
+            ],
+            "summary": "Charcuterie for $20 during Happy Hour",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Only available in the Trenta Lounge",
+              "Fried Calamari/lemon/garlic-chili aioli",
+              "Price: $18"
+            ],
+            "source_evidence": [
+              "CALAMARI FRITTI",
+              "Fried Calamari/lemon/garlic-chili aioli",
+              "$18"
+            ],
+            "summary": "Calamari Fritti for $18 during Happy Hour",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Only available in the Trenta Lounge",
+              "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
+              "Price: $12"
+            ],
+            "source_evidence": [
+              "CANNOLO SALATO",
+              "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
+              "$12"
+            ],
+            "summary": "Cannolo Salato for $12 during Happy Hour",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Only available in the Trenta Lounge",
+              "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
+              "Price: $10"
+            ],
+            "source_evidence": [
+              "BRUSCHETTA TRADIZIONALE",
+              "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
+              "$10"
+            ],
+            "summary": "Bruschetta Tradizionale for $10 during Happy Hour",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2026-09-10-17-00"
+    },
+    {
       "city": "Huntington Beach",
       "location": {
         "address": "714 Adams Ave Unit 101, Huntington Beach, CA 92648, USA",
@@ -41422,6 +42081,289 @@
         ]
       },
       "url": "http://triplecrowntavern.com/happy-hour"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
+      },
+      "name": "Wienerschnitzel",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Pretzel Bun Chili Dog coupon",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
+            ],
+            "summary": "$3 Pretzel Bun Chili Dog Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Includes Corn Dog, Small Fries, and Small Soda",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$5 Corn Dog, Small Fries & Small Soda Coupon"
+            ],
+            "summary": "$5 Corn Dog, Small Fries & Small Soda Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Includes Two Chili Dogs and Chili Cheese Fries",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$6 Two Chili Dogs & Chili Cheese Fries Coupon"
+            ],
+            "summary": "$6 Two Chili Dogs & Chili Cheese Fries Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Includes Two Sundaes",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$6 Two Sundaes Coupon"
+            ],
+            "summary": "$6 Two Sundaes Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Includes Two Chili Dogs and Medium Fries",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$5 Two Chili Dogs & Medium Fries Coupon"
+            ],
+            "summary": "$5 Two Chili Dogs & Medium Fries Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Includes two regular size classic chili cheese fries",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$6 Regular Size Two Classic Chili Cheese Fries Coupon"
+            ],
+            "summary": "$6 Regular Size Two Classic Chili Cheese Fries Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Includes Corn Dog, Chili Dog, and Chili Cheese Fries",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon"
+            ],
+            "summary": "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
+            ],
+            "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Includes Deluxe Cheeseburger, Small Fries, and Small Soda",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
+            ],
+            "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "$2 discount on any chili cheese fries",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$2 Off Any Chili Cheese Fries Coupon"
+            ],
+            "summary": "$2 Off Any Chili Cheese Fries Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Includes Four Chili Dogs and Two Chili Cheese Fries",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon"
+            ],
+            "summary": "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Includes Ten Chili Cheese Dogs",
+              "Must show coupon at time of purchase"
+            ],
+            "source_evidence": [
+              "$20 Ten Chili Cheese Dogs Coupon"
+            ],
+            "summary": "$20 Ten Chili Cheese Dogs Coupon",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "http://www.wienerschnitzel.com/coupons/"
     },
     {
       "city": "Huntington Beach",
@@ -41779,227 +42721,34 @@
         "ai_extracted": true,
         "static_deals": [
           {
-            "ai_confidence": 0.9,
+            "ai_confidence": 0.95,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
               "food"
             ],
             "details": [
-              "Pretzel Bun Chili Dog coupon",
-              "Must show coupon at time of purchase"
+              "Price: $3",
+              "Item: Original Pretzel Bun Chili Dog only",
+              "Cheese extra",
+              "Coupon good for TWO orders on same visit and must be surrendered at time of purchase",
+              "Tax extra",
+              "Not valid with any other offer, discount or coupon",
+              "Good at participating restaurants only"
             ],
             "source_evidence": [
-              "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
+              "$3 - Pretzel Bun Chili Dog - 230",
+              "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel",
+              "Original Pretzel Bun Chili Dog only. (Cheese extra.)",
+              "Coupon good for TWO orders on same visit and"
             ],
-            "summary": "$3 Pretzel Bun Chili Dog Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "Includes Corn Dog, Small Fries, and Small Soda",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$5 Corn Dog, Small Fries & Small Soda Coupon"
-            ],
-            "summary": "$5 Corn Dog, Small Fries & Small Soda Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Includes Two Chili Dogs and Chili Cheese Fries",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$6 Two Chili Dogs & Chili Cheese Fries Coupon"
-            ],
-            "summary": "$6 Two Chili Dogs & Chili Cheese Fries Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Includes Two Sundaes",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$6 Two Sundaes Coupon"
-            ],
-            "summary": "$6 Two Sundaes Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Includes Two Chili Dogs and Medium Fries",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$5 Two Chili Dogs & Medium Fries Coupon"
-            ],
-            "summary": "$5 Two Chili Dogs & Medium Fries Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Includes two regular size classic chili cheese fries",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$6 Regular Size Two Classic Chili Cheese Fries Coupon"
-            ],
-            "summary": "$6 Regular Size Two Classic Chili Cheese Fries Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Includes Corn Dog, Chili Dog, and Chili Cheese Fries",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon"
-            ],
-            "summary": "$6 Corn Dog, Chili Dog & Chili Cheese Fries Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
-            ],
-            "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "Includes Deluxe Cheeseburger, Small Fries, and Small Soda",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
-            ],
-            "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "$2 discount on any chili cheese fries",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$2 Off Any Chili Cheese Fries Coupon"
-            ],
-            "summary": "$2 Off Any Chili Cheese Fries Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Includes Four Chili Dogs and Two Chili Cheese Fries",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon"
-            ],
-            "summary": "$16 Four Chili Dogs & Two Chili Cheese Fries Coupon",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Includes Ten Chili Cheese Dogs",
-              "Must show coupon at time of purchase"
-            ],
-            "source_evidence": [
-              "$20 Ten Chili Cheese Dogs Coupon"
-            ],
-            "summary": "$20 Ten Chili Cheese Dogs Coupon",
+            "summary": "$3 Pretzel Bun Chili Dog",
             "time_window": null,
             "valid_through": null
           }
         ]
       },
-      "url": "http://www.wienerschnitzel.com/coupons/"
+      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
     },
     {
       "city": "Huntington Beach",
@@ -42179,96 +42928,6 @@
     {
       "city": "Huntington Beach",
       "location": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
-      },
-      "name": "Wienerschnitzel",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Price: $3",
-              "Item: Original Pretzel Bun Chili Dog only",
-              "Cheese extra",
-              "Coupon good for TWO orders on same visit and must be surrendered at time of purchase",
-              "Tax extra",
-              "Not valid with any other offer, discount or coupon",
-              "Good at participating restaurants only"
-            ],
-            "source_evidence": [
-              "$3 - Pretzel Bun Chili Dog - 230",
-              "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel",
-              "Original Pretzel Bun Chili Dog only. (Cheese extra.)",
-              "Coupon good for TWO orders on same visit and"
-            ],
-            "summary": "$3 Pretzel Bun Chili Dog",
-            "time_window": null,
-            "valid_through": null
-          }
-        ]
-      },
-      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
         "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
         "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
@@ -42339,6 +42998,94 @@
               "Tax extra",
               "Good for two orders on same visit",
               "Must be surrendered at time of purchase",
+              "Not valid with any other offer, discount or coupon",
+              "Not valid in Sacramento, Stockton & Modesto areas"
+            ],
+            "source_evidence": [
+              "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+              "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
+            ],
+            "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
+      },
+      "name": "Wienerschnitzel",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Price: $5",
+              "Includes a corn dog, small fries, and a small soda",
+              "Coupon good for TWO orders on same visit",
+              "Tax extra",
               "Not valid with any other offer, discount or coupon",
               "Not valid in Sacramento, Stockton & Modesto areas"
             ],
@@ -42434,94 +43181,6 @@
             "source_evidence": [
               "$5 - Corn Dog, Small Fries and Small Soda Coupon",
               "$5 - Corn Dog, Small Fries and Small Soda - 251"
-            ],
-            "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
-            "time_window": null,
-            "valid_through": null
-          }
-        ]
-      },
-      "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
-      },
-      "name": "Wienerschnitzel",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "Price: $5",
-              "Includes a corn dog, small fries, and a small soda",
-              "Coupon good for TWO orders on same visit",
-              "Tax extra",
-              "Not valid with any other offer, discount or coupon",
-              "Not valid in Sacramento, Stockton & Modesto areas"
-            ],
-            "source_evidence": [
-              "$5 - Corn Dog, Small Fries and Small Soda Coupon",
-              "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
             ],
             "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
             "time_window": null,
@@ -49267,19 +49926,19 @@
     }
   ],
   "summary": {
-    "candidate_pages": 311,
-    "failed_pages": 14,
+    "candidate_pages": 314,
+    "failed_pages": 13,
     "pending_pages": 0,
-    "processed_pages": 297,
-    "published_deals": 221,
-    "published_sources": 102,
+    "processed_pages": 301,
+    "published_deals": 226,
+    "published_sources": 103,
     "render_attempts": 8,
     "rendered_pages": 1,
     "reported_pages": 0,
-    "visual_assets_checked": 12,
+    "visual_assets_checked": 11,
     "visual_attempts": 4,
     "visual_cache_hits": 0,
-    "visual_candidates": 84,
+    "visual_candidates": 85,
     "visual_deals": 8,
     "visual_pages": 4
   }
