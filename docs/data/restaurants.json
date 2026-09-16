@@ -49,7 +49,7 @@
     "last_scanned_cities": [
       "Costa Mesa"
     ],
-    "last_source_scan_at": "2026-09-16T18:06:27Z",
+    "last_source_scan_at": "2026-09-16T18:23:20Z",
     "map_cells": 179,
     "official_websites": 848,
     "operational_count": 1010,
@@ -61,11 +61,11 @@
     ],
     "restaurant_count": 1050,
     "source_sites_checked": 12,
-    "specials_pages_found": 189,
+    "specials_pages_found": 190,
     "successful_map_cells": 49
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-16T18:06:27Z",
+  "generated_at": "2026-09-16T18:23:20Z",
   "refresh_after": "2026-09-17T16:26:21Z",
   "restaurants": [
     {
@@ -7337,7 +7337,7 @@
       "phone": "(657) 215-6944",
       "place_id": "ChIJcaE-fn4n3YARl7BCy-xcOsI",
       "primary_type": "fast_food_restaurant",
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-gir4z7o2/Default'",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-w02ynius/Default'",
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -10830,6 +10830,8 @@
       "phone": "(949) 804-8255",
       "place_id": "ChIJaSOVFjcn3YARxZ-f91sGdNU",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-16T18:22:53Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -11034,6 +11036,8 @@
       "phone": "(714) 377-2698",
       "place_id": "ChIJF5xKG-An3YAR38con2EoIzo",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-16T18:22:53Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
@@ -11103,6 +11107,8 @@
       "phone": "(714) 968-4003",
       "place_id": "ChIJO5ebqjQn3YARfUpI22TTn20",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-16T18:22:53Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
@@ -11172,6 +11178,8 @@
       "phone": "(657) 502-0007",
       "place_id": "ChIJUVvGj5Yh3YAROFrNDP7_IRQ",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-16T18:22:53Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -11238,6 +11246,8 @@
       "phone": "(949) 646-1288",
       "place_id": "ChIJG4pS037f3IAROn-PpZGJ51o",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-16T18:22:53Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -11304,6 +11314,8 @@
       "phone": "(657) 212-3017",
       "place_id": "ChIJ1UiCV_vf3IAR9XRlJ6si3Zc",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-16T18:22:53Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -11370,6 +11382,8 @@
       "phone": "(949) 688-2868",
       "place_id": "ChIJSb9eJvDf3IARka-eHdzhB0c",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-16T18:22:53Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -11436,6 +11450,8 @@
       "phone": "(657) 204-7171",
       "place_id": "ChIJpfPHfrEm3YARKCFvb-Ow3mk",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-16T18:22:53Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -11502,6 +11518,8 @@
       "phone": "(714) 641-5654",
       "place_id": "ChIJpeKdn6rf3IAROwq2a74qrUg",
       "primary_type": "sushi_restaurant",
+      "specials_checked_at": "2026-09-16T18:22:53Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sushi_restaurant",
@@ -11612,7 +11630,28 @@
       "phone": "(714) 465-9249",
       "place_id": "ChIJ6a4hbEUh3YARVopsyFgrYFw",
       "primary_type": "taco_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-16T18:22:53Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.chronictacos.com/news/details/745/14-cinco-de-mayo-deals-and-freebies"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.chronictacos.com/news/details/747/cinco-de-mayo-2024-taco-bell-chipotle-tgi-fridays-deals"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.chronictacos.com/news/details/748/cinco-de-mayo-2024-where-to-find-the-best-deals-freebies"
+        }
+      ],
       "types": [
         "taco_restaurant",
         "catering_service",
@@ -11682,6 +11721,8 @@
       "phone": "(714) 698-8929",
       "place_id": "ChIJc-E8Mecn3YAR4BuXnka0230",
       "primary_type": "bar",
+      "specials_checked_at": "2026-09-16T18:22:53Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bar",
