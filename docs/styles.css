@@ -1660,6 +1660,29 @@ button,
   font-weight: 600;
 }
 
+.deal-title-line {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+}
+
+.deal-title-line h3 {
+  min-width: 0;
+}
+
+.new-badge {
+  flex: 0 0 auto;
+  padding: 2px 5px;
+  border: 0;
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--accent) 14%, var(--surface));
+  color: var(--accent);
+  font-family: var(--mono);
+  font-size: 0.58rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .deal-details {
   font-size: 0.78rem;
 }

@@ -13,6 +13,7 @@ const MAPLIBRE_URL = "https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js";
 const MAPLIBRE_CSS_URL = "https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css";
 const DEFAULT_TYPES = ["food", "drink"];
 const DEFAULT_KINDS = ["happy_hour", "other"];
+const NEW_DEAL_DAYS = 7;
 const CHAIN_PATTERN = /\b(?:applebee'?s|arby'?s|baja fresh|blaze pizza|burger king|carl'?s jr|chick-fil-a|chipotle|denny'?s|domino'?s|el pollo loco|five guys|habit burger|ihop|in-n-out|jack in the box|jersey mike'?s|kfc|little caesars|mcdonald'?s|panda express|panera|papa john'?s|pizza hut|popeyes|raising cane'?s|round table pizza|rubio'?s|shake shack|sonic|starbucks|subway|taco bell|wendy'?s|wienerschnitzel|wingstop)\b/i;
 
 const state = {
@@ -31,6 +32,7 @@ const state = {
   radius: "",
   availableNow: false,
   favoritesOnly: false,
+  newOnly: false,
   favorites: loadFavorites(),
   view: "list",
   spot: "",
@@ -68,6 +70,7 @@ const costNoteEl = document.querySelector("#cost-note");
 const roadmapListEl = document.querySelector("#roadmap-list");
 const availableNowEl = document.querySelector("#available-now");
 const favoritesOnlyEl = document.querySelector("#favorites-only");
+const newOnlyEl = document.querySelector("#new-only");
 const listViewEl = document.querySelector("#list-view");
 const mapViewEl = document.querySelector("#map-view");
 const shareViewEl = document.querySelector("#share-view");
@@ -162,6 +165,7 @@ function renderFilterSummary() {
     state.radius ? "radius" : "",
     state.availableNow ? "now" : "",
     state.favoritesOnly ? "favorites" : "",
+    state.newOnly ? "new" : "",
   ].filter(Boolean).length;
 
   filterSummaryEl.textContent = labels.join(" · ");
@@ -179,6 +183,17 @@ function formatDate(value) {
     timeZone: "America/Los_Angeles",
   }).format(new Date(value));
   return `${formatted} PT`;
+}
+
+function firstSeenTime(deal) {
+  const value = new Date(deal.first_seen || "").getTime();
+  return Number.isFinite(value) ? value : 0;
+}
+
+function isNewDeal(deal) {
+  const discovered = firstSeenTime(deal);
+  const age = Date.now() - discovered;
+  return discovered > 0 && age >= -86400000 && age <= NEW_DEAL_DAYS * 86400000;
 }
 
 function normalizeScheduleText(value = "") {
@@ -402,6 +417,7 @@ function matchesFilters(deal) {
     (!state.radius || distance <= Number(state.radius)) &&
     (!state.availableNow || dealAvailableNow(deal)) &&
     (!state.favoritesOnly || state.favorites.has(locationKeyForDeal(deal))) &&
+    (!state.newOnly || isNewDeal(deal)) &&
     matchesDay(deal)
   );
 }
@@ -441,6 +457,11 @@ function groupDeals(deals) {
     const distanceB = distanceToGroup(b);
     if (state.sort === "distance" && state.userLocation && Number.isFinite(distanceA) && Number.isFinite(distanceB)) {
       return distanceA - distanceB || a.restaurant.localeCompare(b.restaurant);
+    }
+    if (state.sort === "newest") {
+      const newestA = Math.max(...a.deals.map(firstSeenTime));
+      const newestB = Math.max(...b.deals.map(firstSeenTime));
+      return newestB - newestA || a.restaurant.localeCompare(b.restaurant);
     }
     return a.restaurant.localeCompare(b.restaurant) || a.city.localeCompare(b.city);
   });
@@ -692,6 +713,8 @@ function shareUrl(spot = "") {
   if (state.kinds.size !== DEFAULT_KINDS.length) params.set("offers", [...state.kinds].sort().join(","));
   if (!state.includeChains) params.set("chains", "0");
   if (state.availableNow) params.set("now", "1");
+  if (state.newOnly) params.set("new", "1");
+  if (state.sort === "newest") params.set("sort", "newest");
   if (state.view === "map") params.set("view", "map");
   if (spot) params.set("spot", spot);
   const query = params.toString();
@@ -729,9 +752,10 @@ function readUrlState() {
   state.types = new Set(oldType && DEFAULT_TYPES.includes(oldType) ? [oldType] : types);
   state.kinds = new Set(oldOffer && DEFAULT_KINDS.includes(oldOffer) ? [oldOffer] : kinds);
   state.includeChains = params.get("chains") !== "0";
-  state.sort = "alpha";
+  state.sort = params.get("sort") === "newest" ? "newest" : "alpha";
   state.radius = "";
   state.availableNow = params.get("now") === "1";
+  state.newOnly = params.get("new") === "1";
   state.view = params.get("view") === "map" ? "map" : "list";
   state.spot = params.get("spot") || "";
 }
@@ -747,10 +771,11 @@ function syncControls() {
   }
   radiusEl.value = state.radius;
   radiusEl.disabled = !state.userLocation;
-  sortLabelEl.textContent = state.sort === "distance" ? "Nearest" : "A-Z";
+  sortLabelEl.textContent = state.sort === "distance" ? "Nearest" : state.sort === "newest" ? "Newest" : "A-Z";
   updateOfferSummary();
   availableNowEl.setAttribute("aria-pressed", String(state.availableNow));
   favoritesOnlyEl.setAttribute("aria-pressed", String(state.favoritesOnly));
+  newOnlyEl.setAttribute("aria-pressed", String(state.newOnly));
   listViewEl.setAttribute("aria-pressed", String(state.view === "list"));
   mapViewEl.setAttribute("aria-pressed", String(state.view === "map"));
 }
@@ -762,9 +787,17 @@ function renderDealRow(deal) {
   const main = document.createElement("div");
   main.className = "deal-main";
 
+  const titleLine = document.createElement("div");
+  titleLine.className = "deal-title-line";
   const title = document.createElement("h3");
   title.textContent = normalizeScheduleText(deal.summary || deal.candidate_text);
-  main.append(title);
+  titleLine.append(title);
+  if (isNewDeal(deal)) {
+    const fresh = badge("New", "new-badge");
+    fresh.title = `First found ${formatDate(deal.first_seen)}`;
+    titleLine.append(fresh);
+  }
+  main.append(titleLine);
 
   const detailItems = (deal.details || []).filter((item) => item && item !== title.textContent).slice(0, 3);
   if (detailItems.length) {
@@ -818,10 +851,11 @@ function renderGroup(group, needsQualifier = false) {
   const baseLabel = restaurantLabel(group.restaurant, group.city);
   const qualifier = needsQualifier ? locationQualifier(group.location?.address) : "";
   title.textContent = qualifier ? `${baseLabel} · ${qualifier}` : baseLabel;
+  titleWrap.append(title);
   const sub = document.createElement("p");
   const bits = [group.city, distanceLabel(group), openStatus(group.location)].filter(Boolean);
   sub.textContent = bits.join(" · ");
-  titleWrap.append(title, sub);
+  titleWrap.append(sub);
 
   const preview = document.createElement("div");
   preview.className = "deal-preview";
@@ -870,7 +904,10 @@ function renderGroup(group, needsQualifier = false) {
   body.className = "location-body";
   const rows = document.createElement("div");
   rows.className = "deal-list";
-  for (const deal of group.deals) rows.append(renderDealRow(deal));
+  const displayDeals = state.sort === "newest"
+    ? group.deals.slice().sort((a, b) => firstSeenTime(b) - firstSeenTime(a))
+    : group.deals;
+  for (const deal of displayDeals) rows.append(renderDealRow(deal));
   body.append(rows);
   section.append(body);
   return section;
@@ -1269,6 +1306,14 @@ favoritesOnlyEl.addEventListener("click", () => {
   rerender();
 });
 
+newOnlyEl.addEventListener("click", () => {
+  state.newOnly = !state.newOnly;
+  state.spot = "";
+  renderFilterSummary();
+  trackEvent("filter_new", { enabled: state.newOnly });
+  rerender();
+});
+
 listViewEl.addEventListener("click", () => {
   state.view = "list";
   filtersEl.classList.remove("is-open");
@@ -1307,6 +1352,11 @@ sortMenuEl.addEventListener("click", (event) => {
       state.locationMessage = "Nearest first.";
       rerender();
     }
+  } else if (button.dataset.sort === "newest") {
+    state.sort = "newest";
+    state.locationMessage = "Newest discoveries first.";
+    trackEvent("sort_newest");
+    rerender();
   } else {
     state.sort = "alpha";
     state.locationMessage = "Sorted A-Z.";

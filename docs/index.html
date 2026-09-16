@@ -26,7 +26,7 @@
         document.head.append(tracker);
       }
     </script>
-    <link rel="stylesheet" href="styles.css?v=13">
+    <link rel="stylesheet" href="styles.css?v=14">
   </head>
   <body>
     <header class="topbar">
@@ -53,6 +53,7 @@
             </summary>
             <div class="sort-options">
               <button type="button" data-sort="alpha">A-Z</button>
+              <button type="button" data-sort="newest">Newest deals</button>
               <button type="button" data-sort="distance">Nearest</button>
             </div>
           </details>
@@ -135,6 +136,10 @@
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-2.9-5.6 2.9 1.1-6.2L3 9.6l6.2-.9L12 3Z"></path></svg>
             Favorites
           </button>
+          <button id="new-only" class="quick-toggle" type="button" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 1.7 4.3L18 9l-4.3 1.7L12 15l-1.7-4.3L6 9l4.3-1.7L12 3Z"></path><path d="m19 15 .8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8L19 15Z"></path></svg>
+            New this week
+          </button>
         </div>
         <div class="view-controls">
           <div class="view-switch" role="group" aria-label="Results view">
@@ -190,6 +195,6 @@
 
     <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
-    <script src="app.js?v=15"></script>
+    <script src="app.js?v=16"></script>
   </body>
 </html>

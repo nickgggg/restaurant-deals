@@ -70,7 +70,7 @@ Enable Pages in the repo settings:
 
 Once enabled, the frontend will read the latest `docs/data/deals.json` and show active/stale filters, city filtering, search, source links, and failed-source notices.
 
-The frontend also supports current-time filtering, device-only favorites, restorable filter URLs, restaurant sharing, and list/map views. Favorites use browser storage and may disappear when a private-browsing session closes.
+The frontend also supports current-time filtering, device-only favorites, new-this-week filtering, newest-first sorting, restorable filter URLs, restaurant sharing, and list/map views. New labels use the crawler's shared `first_seen` timestamp rather than browser history, so the same seven-day discovery window appears for every visitor. Favorites use browser storage and may disappear when a private-browsing session closes.
 
 The site can be installed from supported browser menus or added to an iPhone home screen from Safari's Share menu. Its interface and latest successful JSON feeds are cached on the device. When the network is unavailable, the site labels the cached feed with its saved timestamp and refreshes automatically after connectivity returns.
 

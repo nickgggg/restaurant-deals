@@ -38,6 +38,11 @@
       "status": "working",
       "title": "Installable offline app",
       "detail": "The site can be installed to a home screen and keeps the latest successful feed available offline with a clearly labeled saved timestamp."
+    },
+    {
+      "status": "working",
+      "title": "New deal discovery",
+      "detail": "New labels, filtering, and newest-first sorting use the crawler's shared first-seen timestamp, so everyone sees the same seven-day discovery window."
     }
   ]
 }
