@@ -1,7 +1,1342 @@
 {
-  "generated_at": "2026-09-15T22:07:45Z",
+  "generated_at": "2026-09-16T17:45:14Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Rainy Day Special: Large pizza, garden salad, and garlic knots for $29.99 Includes one large pizza, garden salad & garlic knots Price: $29.99",
+      "canonical_id": "ac993032f3b2bc15",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Includes one large pizza, garden salad & garlic knots",
+        "Price: $29.99"
+      ],
+      "first_seen": "2026-09-14T22:53:29Z",
+      "id": "ac23be60a6221570",
+      "is_stale": true,
+      "last_seen": "2026-09-15T22:07:45Z",
+      "location": {
+        "address": "17210 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=10304571258044845499&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "19:30",
+              "open": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "19:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "19:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "19:30",
+              "open": "12:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "19:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.712897999999996,
+        "longitude": -118.06346769999999,
+        "phone": "(714) 596-0024",
+        "place_id": "ChIJcyzeXkAl3YARu412lvYwAY8"
+      },
+      "restaurant": "Stoney's Pizza",
+      "retired_at": "2026-09-16T17:45:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Rainy Day Specials",
+        "Only available Sunday, Saturday",
+        "One large pizza, garden salad & garlic knots.",
+        "$29.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.stoneyspizzamenu.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Rainy Day Special: Large pizza, garden salad, and garlic knots for $29.99",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Weekend"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Pizza Kits for making pizza at home for $11.00 Includes 12-inch dough ball, cup of sauce cheese and 1 topping of choice",
+      "canonical_id": "36e72d70fdccf9bf",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Includes 12-inch dough ball, cup of sauce cheese and 1 topping of choice"
+      ],
+      "first_seen": "2026-09-14T22:53:29Z",
+      "id": "394b4515808ba4ef",
+      "is_stale": true,
+      "last_seen": "2026-09-15T22:07:45Z",
+      "location": {
+        "address": "17210 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=10304571258044845499&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "19:30",
+              "open": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "19:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "19:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "19:30",
+              "open": "12:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "19:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.712897999999996,
+        "longitude": -118.06346769999999,
+        "phone": "(714) 596-0024",
+        "place_id": "ChIJcyzeXkAl3YARu412lvYwAY8"
+      },
+      "restaurant": "Stoney's Pizza",
+      "retired_at": "2026-09-16T17:45:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Pizza Kits for making pizza at home",
+        "12-inch dough ball, cup of sauce cheese and 1 topping of choice. This is a pizza kit that has raw ingredients to make pizza at home",
+        "$11.00"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.stoneyspizzamenu.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Pizza Kits for making pizza at home for $11.00",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Tuesday Hand Roll Special - Select hand rolls for $5 Select hand rolls for only $5 Dine-in Only",
+      "canonical_id": "3d5f9484f1b32fe4",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Select hand rolls for only $5",
+        "Dine-in Only"
+      ],
+      "first_seen": "2026-09-14T22:53:29Z",
+      "id": "bbcb3d3ca83f00fb",
+      "is_stale": true,
+      "last_seen": "2026-09-15T22:07:45Z",
+      "location": {
+        "address": "427 E 17th St, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=4984613656531051935&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "15:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "15:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "15:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "15:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "15:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "15:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.629827999999996,
+        "longitude": -117.91141420000001,
+        "phone": "(949) 631-0403",
+        "place_id": "ChIJ1V7Bbu7f3IARnyUYBLbnLEU"
+      },
+      "restaurant": "SkyBay Sushi",
+      "retired_at": "2026-09-16T17:45:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Happy Tuesday Hand Roll Special! Select hand rolls for only $5 - Dine-in Only.",
+        "11:30 AM - 09:30 PM"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://skybaysushi.com/costa-mesa-cliff-haven-sky-bay-sushi-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Tuesday Hand Roll Special - Select hand rolls for $5",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "11:30 AM - 09:30 PM",
+      "valid_through": null,
+      "validity": "Tue, 11:30 AM - 09:30 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Everyday Happy Hour: $2 off beer/wine, $4 off pitchers/bottled wine $2 off all Bottled Beer and Draft Pints $2 off all Wine glasses $4 off Draft Pitchers, Bottled Wine, and Wine \u00bd Liters",
+      "canonical_id": "10e9523a430d8e58",
+      "categories": [
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "$2 off all Bottled Beer and Draft Pints",
+        "$2 off all Wine glasses",
+        "$4 off Draft Pitchers, Bottled Wine, and Wine \u00bd Liters"
+      ],
+      "first_seen": "2026-09-14T22:53:29Z",
+      "id": "2a58d889dd1d971c",
+      "is_stale": true,
+      "last_seen": "2026-09-15T22:07:45Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-16T17:45:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "EVERYDAY HAPPY HOUR 2pm-6pm",
+        "$2 off all Bottled Beer and Draft Pints",
+        "$2 off all Wine glasses",
+        "$4 off Draft Pitchers | Bottled Wine | Wine \u00bd Liters"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Everyday Happy Hour: $2 off beer/wine, $4 off pitchers/bottled wine",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "2pm-6pm",
+      "valid_through": null,
+      "validity": "Every day, 2pm-6pm"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Monday Industry Night: 30% off Food & Beverage 30% off Food & Beverage",
+      "canonical_id": "f1d2a8fa62a11408",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "30% off Food & Beverage"
+      ],
+      "first_seen": "2026-09-15T20:26:33Z",
+      "id": "a60b30f078a88b1e",
+      "is_stale": true,
+      "last_seen": "2026-09-15T22:07:45Z",
+      "location": {
+        "address": "21100 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17547021652932034871&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "14:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "14:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ]
+        },
+        "latitude": 33.6523927,
+        "longitude": -117.9935301,
+        "phone": "(714) 845-8460",
+        "place_id": "ChIJM-IrURMh3YARNwEaqTmLg_M"
+      },
+      "restaurant": "Offshore 9 Rooftop Lounge",
+      "retired_at": "2026-09-16T17:45:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Monday Industry Night:",
+        "30% off Food & Beverage"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://waterfrontresort.com/dining/offshore-9-rooftop-lounge?y_source=1_MjA1NjM2Mzg2OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Monday Industry Night: 30% off Food & Beverage",
+      "tags": [
+        "percent_off",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Mon"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Tuesday Locals Night: 30% off Food & Beverage 30% off Food & Beverage",
+      "canonical_id": "1bb76792730e7b9e",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "30% off Food & Beverage"
+      ],
+      "first_seen": "2026-09-15T20:26:33Z",
+      "id": "b21f490064dd4cd1",
+      "is_stale": true,
+      "last_seen": "2026-09-15T22:07:45Z",
+      "location": {
+        "address": "21100 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17547021652932034871&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "14:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "14:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ]
+        },
+        "latitude": 33.6523927,
+        "longitude": -117.9935301,
+        "phone": "(714) 845-8460",
+        "place_id": "ChIJM-IrURMh3YARNwEaqTmLg_M"
+      },
+      "restaurant": "Offshore 9 Rooftop Lounge",
+      "retired_at": "2026-09-16T17:45:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Tuesday Locals Night:",
+        "30% off Food & Beverage"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://waterfrontresort.com/dining/offshore-9-rooftop-lounge?y_source=1_MjA1NjM2Mzg2OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Tuesday Locals Night: 30% off Food & Beverage",
+      "tags": [
+        "percent_off",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour: Buy a double shot of kava, get a double shot free Buy a double shot of Kava get a double shot of kava free",
+      "canonical_id": "d151bc1032a76904",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Buy a double shot of Kava get a double shot of kava free"
+      ],
+      "first_seen": "2026-09-14T22:53:29Z",
+      "id": "39104dbb5b9113d8",
+      "is_stale": true,
+      "last_seen": "2026-09-15T22:07:45Z",
+      "location": {
+        "address": "7561 Center Ave #6, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=531254587814951031&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ]
+        },
+        "latitude": 33.735089699999996,
+        "longitude": -117.997063,
+        "phone": "(657) 227-7928",
+        "place_id": "ChIJf-HAPmom3YARd7gBoDtlXwc"
+      },
+      "restaurant": "Mystic Water Kava Bar Huntington Beach",
+      "retired_at": "2026-09-16T17:45:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Happy Hour Monday through Friday 4 PM till 7 PM. Buy a double shot of Kava get a double shot of kava free."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.mysticwaterkavabar.com/huntington-beach-located-inside-old-world-village-mystic-water-kava-bar-orange-county-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour: Buy a double shot of kava, get a double shot free",
+      "tags": [
+        "happy_hour",
+        "free"
+      ],
+      "time_window": "16:00 - 19:00",
+      "valid_through": null,
+      "validity": "Mon-Fri, 16:00 - 19:00"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour with discounted drinks, tacos, and plates Available for Dine-In Only House Margaritas starting at $7 Draft Beer for $5 Chicken, Carnitas & Al Pastor Tacos for $4 Asada Tacos for $5.50 Tacos de Rajas with Cheese for $3.50 Cheese Quesadillas for $10 Chile Verde Plate and Carnitas Plate for $18 served with rice, beans, and handmade tortillas",
+      "canonical_id": "8b8d3112d79021d7",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 1,
+      "details": [
+        "Available for Dine-In Only",
+        "House Margaritas starting at $7",
+        "Draft Beer for $5",
+        "Chicken, Carnitas & Al Pastor Tacos for $4",
+        "Asada Tacos for $5.50",
+        "Tacos de Rajas with Cheese for $3.50",
+        "Cheese Quesadillas for $10",
+        "Chile Verde Plate and Carnitas Plate for $18 served with rice, beans, and handmade tortillas"
+      ],
+      "first_seen": "2026-09-14T22:53:29Z",
+      "id": "caac1b197ca65c16",
+      "is_stale": true,
+      "last_seen": "2026-09-14T22:53:29Z",
+      "location": {
+        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7298377,
+        "longitude": -117.99953239999999,
+        "phone": "(657) 301-2017",
+        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
+      },
+      "restaurant": "Morena's Mexican Cuisine",
+      "retired_at": "2026-09-16T17:45:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Available Monday, Wednesday, Thursday & Friday from 3:00 PM \u2013 6:00 PM (Dine-In Only).",
+        "House Margaritas starting at $7, Draft Beer for $5, Chicken, Carnitas & Al Pastor Tacos for $4, Asada Tacos for $5.50, Tacos de Rajas with Cheese for $3.50, and Cheese Quesadillas for $10."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://hb.morenasmex.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour with discounted drinks, tacos, and plates",
+      "tags": [
+        "dollar_amount",
+        "happy_hour",
+        "deal_language"
+      ],
+      "time_window": "3:00 PM \u2013 6:00 PM",
+      "valid_through": null,
+      "validity": "Mon, Wed, Thu, Fri, 3:00 PM \u2013 6:00 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Bottomless Mimosa Brunch Buffet $39.99 Per Guest with Bottomless Mimosas $34.99 Per Guest Non-Alcoholic Option Kids Ages 6\u201312: $19.99 Kids Under 6 Eat Free Bottomless Mimosa service limited to 90 minutes per guest",
+      "canonical_id": "a5eab4e1cc7f1e5b",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "$39.99 Per Guest with Bottomless Mimosas",
+        "$34.99 Per Guest Non-Alcoholic Option",
+        "Kids Ages 6\u201312: $19.99",
+        "Kids Under 6 Eat Free",
+        "Bottomless Mimosa service limited to 90 minutes per guest"
+      ],
+      "first_seen": "2026-09-14T22:53:29Z",
+      "id": "fa54ffea49527d5b",
+      "is_stale": true,
+      "last_seen": "2026-09-15T22:07:45Z",
+      "location": {
+        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7298377,
+        "longitude": -117.99953239999999,
+        "phone": "(657) 301-2017",
+        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
+      },
+      "restaurant": "Morena's Mexican Cuisine",
+      "retired_at": "2026-09-16T17:45:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "BOTTOMLESS MIMOSA BRUNCH BUFFET",
+        "Every Sunday | 10:00 AM \u2013 3:00 PM",
+        "$39.99 Per Guest \u2013 Includes Bottomless Mimosas"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://hb.morenasmex.com/huntington-beach-bella-terra-morenas-mexican-cuisine-huntington-beach-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Bottomless Mimosa Brunch Buffet",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "free"
+      ],
+      "time_window": "10:00 AM \u2013 3:00 PM",
+      "valid_through": null,
+      "validity": "Sun, 10:00 AM \u2013 3:00 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Kids eat free every Wednesday Kids eat free promotion for IKEA Family members",
+      "canonical_id": "80cc5d2eb039b0fb",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Kids eat free promotion for IKEA Family members"
+      ],
+      "first_seen": "2026-09-14T22:53:29Z",
+      "id": "2665dfe4f70eb94f",
+      "is_stale": true,
+      "last_seen": "2026-09-15T22:07:45Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-09-16T17:45:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Kids eat free every Wednesday thru 9/30"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/offers/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Kids eat free every Wednesday",
+      "tags": [
+        "weekday_special",
+        "free",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-30",
+      "validity": "Wed"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [
+        29
+      ],
+      "candidate_text": "Gnocchi Day Buy One Get One Free Buy one get one free Gnocchi Valid on the 29th of the month",
+      "canonical_id": "2a89dd4599c7597d",
+      "categories": [
+        "food"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Buy one get one free Gnocchi",
+        "Valid on the 29th of the month"
+      ],
+      "first_seen": "2026-09-15T22:07:45Z",
+      "id": "f6ecc498e79058dc",
+      "is_stale": true,
+      "last_seen": "2026-09-15T22:07:45Z",
+      "location": {
+        "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=9498211700790055897&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7152463,
+        "longitude": -117.9758035,
+        "phone": "(714) 375-3305",
+        "place_id": "ChIJwddf-vwm3YAR2dMM2zdt0IM"
+      },
+      "restaurant": "Cambalache Grill Argentine & Italian Cuisine",
+      "retired_at": "2026-09-16T17:45:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Every 29th of the month is Gnocchi Day, buy one get one free!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cambalachegrill.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Gnocchi Day Buy One Get One Free",
+      "tags": [
+        "bogo",
+        "free"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Every month on the 29th"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday",
+        "thursday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "50% off tapas on Wednesdays and Thursdays Get 50% OFF tapas in Costa Mesa",
+      "canonical_id": "f9910f531deaafbf",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Get 50% OFF tapas in Costa Mesa"
+      ],
+      "first_seen": "2026-09-14T22:53:29Z",
+      "id": "27bce40f2e92c564",
+      "is_stale": true,
+      "last_seen": "2026-09-15T22:07:45Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "retired_at": "2026-09-16T17:45:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Get 50% OFF tapas Wednesdays & Thursdays in Costa Mesa!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-costa-mesa/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "50% off tapas on Wednesdays and Thursdays",
+      "tags": [
+        "percent_off"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Wed, Thu"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour with half off tapas and discounted drinks Half off all 26 tapas from dinner menu $7 beers, $7 wines, $8 sangrias, $8 well drinks, and select $10 craft cocktails",
+      "canonical_id": "3d8110e34f500972",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Half off all 26 tapas from dinner menu",
+        "$7 beers, $7 wines, $8 sangrias, $8 well drinks, and select $10 craft cocktails"
+      ],
+      "first_seen": "2026-09-14T22:53:29Z",
+      "id": "aee537b1cf680914",
+      "is_stale": true,
+      "last_seen": "2026-09-15T22:07:45Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "retired_at": "2026-09-16T17:45:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "TUESDAY 50% OFF TAPAS HAPPY HOUR ALL NIGHT | HAPPY HOUR PRICING ON DRINKS 5-7PM",
+        "WEDNESDAY-SUNDAY 5-7PM"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-costa-mesa/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour with half off tapas and discounted drinks",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "Tue all night for tapas and 5-7pm for drinks; Wed-Sun 5-7pm",
+      "valid_through": null,
+      "validity": "Tue all night for tapas and 5-7pm for drinks; Wed-Sun 5-7pm"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Pizza Twins deal Two large 14'' pizzas One topping each $28.99",
+      "canonical_id": "e42eeb9f5a45401d",
+      "categories": [
+        "food"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 1,
+      "details": [
+        "Two large 14'' pizzas",
+        "One topping each",
+        "$28.99"
+      ],
+      "first_seen": "2026-09-15T15:46:22Z",
+      "id": "15c6ab2c4d6bdaa9",
+      "is_stale": true,
+      "last_seen": "2026-09-15T16:06:33Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "restaurant": "Ameci Pizza & Pasta",
+      "retired_at": "2026-09-16T17:45:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Pizza Twins",
+        "Two large 14'' pizzas, One topping each.",
+        "$28.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Pizza Twins deal",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
     {
       "ai_confidence": 0.9,
       "applies_days": [],

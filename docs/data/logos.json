@@ -1,6 +1,176 @@
 {
-  "checks": {},
-  "generated_at": null,
-  "logos": {},
+  "checks": {
+    "alfornocaffe.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "status": "ok"
+    },
+    "anatoliamediterranean.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "error": "Not Found",
+      "status": "missing"
+    },
+    "anqibistro.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "status": "ok"
+    },
+    "basilicospastavino.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "status": "ok"
+    },
+    "beachwoodpizza.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "error": "no supported site icon found",
+      "status": "missing"
+    },
+    "cafesevilla.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "status": "ok"
+    },
+    "calico-restaurant.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "status": "ok"
+    },
+    "cambalachegrill.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "status": "ok"
+    },
+    "casadeondarestaurant.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "status": "ok"
+    },
+    "catalinafishkitchenmenu.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "status": "ok"
+    },
+    "crivelloristorante.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "status": "ok"
+    },
+    "darbarigrill.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "status": "ok"
+    },
+    "delinerds.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "status": "ok"
+    },
+    "descansorestaurant.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "status": "ok"
+    },
+    "don-jose.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "status": "ok"
+    },
+    "elpollonorteno.net": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "error": "asset is too large",
+      "status": "missing"
+    },
+    "germandeli.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "status": "ok"
+    },
+    "goathilltavern.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "status": "ok"
+    },
+    "orderamecipizzapasta.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "status": "ok"
+    },
+    "restaurants.bonchon.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "status": "ok"
+    }
+  },
+  "generated_at": "2026-09-16T17:45:15Z",
+  "logos": {
+    "alfornocaffe.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "path": "logos/alfornocaffe-com.webp",
+      "source_url": "https://img1.wsimg.com/isteam/ip/c3dd51f5-d116-4e14-9b61-943fcbf1ef40/logo/a0ce4f2b-9ac6-4d74-b3e8-50d0c562d771.jpg/:/rs=w:180,h:180,m"
+    },
+    "anqibistro.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "path": "logos/anqibistro-com.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/68503f5dc470d16316766ff4/c26bfe05-6441-4ecd-ae05-480e2e1f2b5e/favicon.ico?format=100w"
+    },
+    "basilicospastavino.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "path": "logos/basilicospastavino-com.png",
+      "source_url": "https://www.basilicospastavino.com/favicon.png"
+    },
+    "cafesevilla.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "path": "logos/cafesevilla-com.png",
+      "source_url": "https://media-cdn.getbento.com/accounts/87e6c33f30b217e4770d61b1d04abfaa/media/images/38169Sevilla_Favicon.png"
+    },
+    "calico-restaurant.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "path": "logos/calico-restaurant-com.png",
+      "source_url": "https://calico-restaurant.com/application/views/themes/theme-1/assets/images/favicon1.png"
+    },
+    "cambalachegrill.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "path": "logos/cambalachegrill-com.png",
+      "source_url": "https://static.spotapps.co/website_images/ab_websites/147469_website/favicons/apple-touch-icon.png"
+    },
+    "casadeondarestaurant.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "path": "logos/casadeondarestaurant-com.png",
+      "source_url": "https://casadeondarestaurant.com/wp-content/uploads/2026/02/Logo-512-PNG-300x300.png"
+    },
+    "catalinafishkitchenmenu.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "path": "logos/catalinafishkitchenmenu-com.webp",
+      "source_url": "https://img1.wsimg.com/isteam/ip/a6c06eb7-563e-4dae-9879-e7b789a161bc/new%20qr_code.png/:/rs=w:180,h:180,m"
+    },
+    "crivelloristorante.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "path": "logos/crivelloristorante-com.ico",
+      "source_url": "https://assets.squarespace.com/universal/default-favicon.ico"
+    },
+    "darbarigrill.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "path": "logos/darbarigrill-com.jpg",
+      "source_url": "https://darbarigrill.com/wp-content/uploads/2022/07/background-2-150x150.jpg"
+    },
+    "delinerds.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "path": "logos/delinerds-com.png",
+      "source_url": "https://delinerds.com/favicon.png"
+    },
+    "descansorestaurant.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "path": "logos/descansorestaurant-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6526e2d169661512ecfe53d5/788c6425-8745-48de-9b48-c178cc330252/favicon.ico?format=100w"
+    },
+    "don-jose.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "path": "logos/don-jose-com.png",
+      "source_url": "https://irp-cdn.multiscreensite.com/eed96003/dms3rep/multi/logo+new.png"
+    },
+    "germandeli.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "path": "logos/germandeli-com.webp",
+      "source_url": "https://germandeli.com/cdn/shop/files/Germandeli.com_Favicon.png?crop=center&height=48&v=1752776131&width=48"
+    },
+    "goathilltavern.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "path": "logos/goathilltavern-com.webp",
+      "source_url": "https://kylerassel.wpenginepowered.com/wp-content/uploads/2014/08/goat-hill-head-logo-copy-e1474610705509-192x192.png"
+    },
+    "orderamecipizzapasta.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "path": "logos/orderamecipizzapasta-com.png",
+      "source_url": "https://direct-web.prod.slicelife.com/static/favicon-180x180.png"
+    },
+    "restaurants.bonchon.com": {
+      "checked_at": "2026-09-16T17:45:15Z",
+      "path": "logos/restaurants-bonchon-com.png",
+      "source_url": "https://restaurants.bonchon.com/static/bonchon/favicon.png"
+    }
+  },
   "sites_per_run": 20
 }

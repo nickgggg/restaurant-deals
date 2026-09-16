@@ -49,7 +49,7 @@
     "last_scanned_cities": [
       "Costa Mesa"
     ],
-    "last_source_scan_at": "2026-09-15T22:03:07Z",
+    "last_source_scan_at": "2026-09-16T17:38:22Z",
     "map_cells": 179,
     "official_websites": 848,
     "operational_count": 1010,
@@ -65,7 +65,7 @@
     "successful_map_cells": 49
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-15T22:03:07Z",
+  "generated_at": "2026-09-16T17:38:22Z",
   "refresh_after": "2026-09-17T16:26:21Z",
   "restaurants": [
     {
@@ -7337,7 +7337,7 @@
       "phone": "(657) 215-6944",
       "place_id": "ChIJcaE-fn4n3YARl7BCy-xcOsI",
       "primary_type": "fast_food_restaurant",
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-3p08gwu4/Default'",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-8gj10o83/Default'",
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -9065,6 +9065,8 @@
       "phone": "(657) 237-5347",
       "place_id": "ChIJG_MNwOwn3YARwWUGrhlgzmw",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-16T17:37:55Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
@@ -9137,6 +9139,8 @@
       "phone": "(714) 593-2888",
       "place_id": "ChIJ3dEbnTMh3YARhAvz8VeCxJg",
       "primary_type": "italian_restaurant",
+      "specials_checked_at": "2026-09-16T17:37:55Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "italian_restaurant",
@@ -9274,6 +9278,8 @@
       "phone": "(949) 631-1079",
       "place_id": "ChIJkSTKngog3YARnn2GpKQLUf8",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-16T17:37:55Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -9343,6 +9349,8 @@
       "phone": "(714) 846-2422",
       "place_id": "ChIJf8QHyuol3YARgciJtJLOQV4",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-16T17:37:55Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -9412,6 +9420,8 @@
       "phone": "(714) 965-0293",
       "place_id": "ChIJ4x2skBEn3YARgzD3kylYmPs",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-16T17:37:55Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -9481,6 +9491,8 @@
       "phone": "(714) 374-8505",
       "place_id": "ChIJY3WvALAm3YARuSoVabUatt0",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-16T17:37:55Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -9549,6 +9561,8 @@
       "phone": "(714) 968-7374",
       "place_id": "ChIJ0fLCtMwm3YARFYUorpCrSdQ",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-16T17:37:55Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -9618,6 +9632,8 @@
       "phone": "(714) 842-7666",
       "place_id": "ChIJHd-SY30m3YARVThhT0Gplso",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-16T17:37:55Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -9687,6 +9703,8 @@
       "phone": "(714) 968-1934",
       "place_id": "ChIJtUmHFtgg3YARfJokONHiOi8",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-16T17:37:55Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -9756,9 +9774,12 @@
       "phone": "(714) 593-5350",
       "place_id": "ChIJJV5xGRcn3YARN2eoVYPHR5Y",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-16T17:37:55Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://www.carlitosdiner.com/"
         }
@@ -9833,9 +9854,12 @@
       "phone": "(714) 841-9966",
       "place_id": "ChIJB5cwb4om3YAROFjI5EkIEAY",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-16T17:37:55Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://www.carlitosdiner.com/"
         }
