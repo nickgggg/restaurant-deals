@@ -1,7 +1,201 @@
 {
-  "generated_at": "2026-09-16T18:25:41Z",
+  "generated_at": "2026-09-16T18:34:31Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$3 Pretzel Bun Chili Dog Price is $3 Original Pretzel Bun Chili Dog only Cheese extra Coupon good for TWO orders on same visit Must be surrendered at time of purchase Tax extra",
+      "canonical_id": "7d83b635b3ac7464",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price is $3",
+        "Original Pretzel Bun Chili Dog only",
+        "Cheese extra",
+        "Coupon good for TWO orders on same visit",
+        "Must be surrendered at time of purchase",
+        "Tax extra"
+      ],
+      "first_seen": "2026-09-15T20:26:33Z",
+      "id": "d9f3b5732975b650",
+      "is_stale": true,
+      "last_seen": "2026-09-16T18:25:41Z",
+      "location": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
+      },
+      "restaurant": "Wienerschnitzel",
+      "retired_at": "2026-09-16T18:34:31Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
+        "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$3 Pretzel Bun Chili Dog",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$5 Corn Dog, Small Fries and Small Soda Deal Price: $5 Includes a corn dog, small fries, and a small soda Coupon good for two orders on the same visit Tax extra Must be surrendered at time of purchase Not valid with any other offer, discount or coupon Not valid in Sacramento, Stockton & Modesto areas",
+      "canonical_id": "10114babb472275b",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $5",
+        "Includes a corn dog, small fries, and a small soda",
+        "Coupon good for two orders on the same visit",
+        "Tax extra",
+        "Must be surrendered at time of purchase",
+        "Not valid with any other offer, discount or coupon",
+        "Not valid in Sacramento, Stockton & Modesto areas"
+      ],
+      "first_seen": "2026-09-14T22:53:29Z",
+      "id": "8801129f1acf3799",
+      "is_stale": true,
+      "last_seen": "2026-09-16T18:25:41Z",
+      "location": {
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+      },
+      "restaurant": "Wienerschnitzel",
+      "retired_at": "2026-09-16T18:34:31Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+        "$5 - Corn Dog, Small Fries and Small Soda - 251"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [

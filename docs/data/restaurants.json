@@ -49,7 +49,7 @@
     "last_scanned_cities": [
       "Costa Mesa"
     ],
-    "last_source_scan_at": "2026-09-16T18:23:20Z",
+    "last_source_scan_at": "2026-09-16T18:32:17Z",
     "map_cells": 179,
     "official_websites": 848,
     "operational_count": 1010,
@@ -65,7 +65,7 @@
     "successful_map_cells": 49
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-16T18:23:20Z",
+  "generated_at": "2026-09-16T18:32:17Z",
   "refresh_after": "2026-09-17T16:26:21Z",
   "restaurants": [
     {
@@ -7337,7 +7337,7 @@
       "phone": "(657) 215-6944",
       "place_id": "ChIJcaE-fn4n3YARl7BCy-xcOsI",
       "primary_type": "fast_food_restaurant",
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-w02ynius/Default'",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-j8u4qbn5/Default'",
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -11857,6 +11857,8 @@
       "phone": "(714) 880-7400",
       "place_id": "ChIJv-EPw_0h3YARPfcbL5KVzaY",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-16T18:29:31Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -11909,6 +11911,8 @@
       "phone": "(657) 426-4749",
       "place_id": "ChIJs9IqUmQn3YARMFvN5595TJc",
       "primary_type": "meal_takeaway",
+      "specials_checked_at": "2026-09-16T18:29:31Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "pizza_restaurant",
@@ -12024,6 +12028,8 @@
       "phone": "(775) 468-3673",
       "place_id": "ChIJdy8ZsI7f3IARilAhij58DEU",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-16T18:29:31Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -12116,6 +12122,8 @@
       "phone": "(657) 259-0144",
       "place_id": "ChIJVSZp4okh3YARdS2aWCasQqc",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-16T18:29:31Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -12418,6 +12426,8 @@
       "phone": "(714) 852-3299",
       "place_id": "ChIJncpe-xbf3IARbstr-o_09T0",
       "primary_type": "peruvian_restaurant",
+      "specials_checked_at": "2026-09-16T18:29:31Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "peruvian_restaurant",
@@ -12486,6 +12496,8 @@
       "phone": "(714) 338-2183",
       "place_id": "ChIJuwF-qVAn3YARywbwzc_xlZI",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-09-16T18:29:31Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
@@ -12552,6 +12564,8 @@
       "phone": "",
       "place_id": "ChIJIwFQ_R0n3YARdvFMS1scgas",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-16T18:29:31Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -12619,6 +12633,8 @@
       "phone": "(657) 400-9009",
       "place_id": "ChIJERyPOWom3YARW1zq_zI1QJM",
       "primary_type": "french_restaurant",
+      "specials_checked_at": "2026-09-16T18:29:31Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "french_restaurant",
@@ -12713,19 +12729,36 @@
       "phone": "(714) 593-9099",
       "place_id": "ChIJLeGHncYg3YARIJk9l94OI9g",
       "primary_type": "italian_restaurant",
+      "specials_checked_at": "2026-09-16T18:29:31Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Happy Hour",
           "url": "http://www.crivelloristorante.com/current-events"
         },
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "HAPPY HOUR MENU",
           "url": "http://www.crivelloristorante.com/happy-hour-menu"
         },
         {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "LUNCH SPECIALS",
+          "url": "http://www.crivelloristorante.com/lunch"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://crivelloristorante.com/happy-hour-menu"
+        },
+        {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://www.crivelloristorante.com/"
         }
@@ -12801,6 +12834,8 @@
       "phone": "(714) 679-7226",
       "place_id": "ChIJH6LaPsXf3IARKdXm9gGfeys",
       "primary_type": "brunch_restaurant",
+      "specials_checked_at": "2026-09-16T18:29:31Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "brunch_restaurant",
@@ -12823,6 +12858,8 @@
       "phone": "",
       "place_id": "ChIJl8je-yzf3IAR61_IF-qKYso",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-09-16T18:29:31Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
