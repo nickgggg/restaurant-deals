@@ -110,6 +110,10 @@
       "checked_at": "2026-09-16T22:46:49Z",
       "status": "ok"
     },
+    "locations.wendys.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
     "mariecallenders.com": {
       "checked_at": "2026-09-16T22:46:49Z",
       "error": "<urlopen error [Errno 104] Connection reset by peer>",
@@ -152,20 +156,99 @@
       "checked_at": "2026-09-16T22:46:49Z",
       "status": "ok"
     },
+    "porkyspizza.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
+    "ranchoviejomexicanseafood.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
+    "redtablerestaurants.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
     "restaurants.bonchon.com": {
       "checked_at": "2026-09-16T18:34:31Z",
+      "status": "ok"
+    },
+    "riip.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
       "status": "ok"
     },
     "sazu-sushi.com": {
       "checked_at": "2026-09-16T22:46:49Z",
       "status": "ok"
     },
+    "sebastianis.net": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
+    "shanghaidroom.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
+    "skybaysushi.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
+    "stonefiregrill.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
+    "stoneyspizzamenu.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
+    "surfdogshb.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "missing"
+    },
+    "thaiwavehuntingtonbeach.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
+    "theboulevardoc.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
+    "thehangoutrestaurant.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
+    "thirdplacecm.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
+    "three13bar.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
+    "trentapizza.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "missing"
+    },
+    "triplecrowntavern.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
     "waterfrontresort.com": {
       "checked_at": "2026-09-16T22:46:49Z",
       "status": "ok"
+    },
+    "wendys.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
+    "zubiesdrydock.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "error": "asset is too large",
+      "status": "missing"
     }
   },
-  "generated_at": "2026-09-16T22:46:49Z",
+  "generated_at": "2026-09-16T23:17:10Z",
   "logos": {
     "alfornocaffe.com": {
       "background": "#0a4f39",
@@ -299,6 +382,11 @@
       "path": "logos/lacapillarestaurant-com.webp",
       "source_url": "https://lacapillarestaurant.com/cdn/shop/files/La_Capilla_Full_Logo_1.png?v=1723345288&width=600"
     },
+    "locations.wendys.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "path": "logos/locations-wendys-com.png",
+      "source_url": "https://locations.wendys.com/permanent-b0b701/assets/images/favicons/locations.wendys.com/apple-touch-icon-152x152-precomposed.42735f0b.png"
+    },
     "marketbroiler.com": {
       "checked_at": "2026-09-16T22:46:49Z",
       "path": "logos/marketbroiler-com.jpg",
@@ -342,20 +430,105 @@
       "path": "logos/point11persiangrill-com.png",
       "source_url": "https://point11persiangrill.com/wp-content/uploads/2022/05/Point11WebsiteLogo1.png"
     },
+    "porkyspizza.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "path": "logos/porkyspizza-com.png",
+      "source_url": "https://porkyspizza.com/images/main/logo.png"
+    },
+    "ranchoviejomexicanseafood.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "path": "logos/ranchoviejomexicanseafood-com.jpg",
+      "source_url": "http://www.ranchoviejomexicanseafood.com/uploads/1/2/4/6/124600257/01-image.jpg"
+    },
+    "redtablerestaurants.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "path": "logos/redtablerestaurants-com.png",
+      "source_url": "https://redtablerestaurants.com/wp-content/uploads/2026/03/red-table-wht-logo.png"
+    },
     "restaurants.bonchon.com": {
       "checked_at": "2026-09-16T18:34:31Z",
       "path": "logos/restaurants-bonchon-com.webp",
       "source_url": "https://restaurants.bonchon.com/_next/static/media/logo.2a5juvzhv2w8f.webp?dpl=609750fdb194606260cb87b85081622462cb59ef"
+    },
+    "riip.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "path": "logos/riip-com.png",
+      "source_url": "https://cdn.prod.website-files.com/65543018e5fc40f65ab026c2/656e8721a832bfb83dbe74d1_Riip%20PCH%20Logo%20Transparent%20(1).png"
     },
     "sazu-sushi.com": {
       "checked_at": "2026-09-16T22:46:49Z",
       "path": "logos/sazu-sushi-com.jpg",
       "source_url": "https://sazu-sushi.com/wp-content/uploads/2024/10/logo2.jpg"
     },
+    "sebastianis.net": {
+      "background": "#da532c",
+      "checked_at": "2026-09-16T23:17:10Z",
+      "path": "logos/sebastianis-net.png",
+      "source_url": "https://static.spotapps.co/website_images/ab_websites/17062_website_v1/logo_new.png"
+    },
+    "shanghaidroom.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "path": "logos/shanghaidroom-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6111c728e563497f6c9bd879/1629866621764-B754ZRU7RLM02VCVUJC2/Shanghaid+Circle+Logo+-+Shanghaid+Room+Home+Page.png"
+    },
+    "skybaysushi.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "path": "logos/skybaysushi-com.png",
+      "source_url": "https://static.spotapps.co/website_images/ab_websites/32174_website_v1/logo.png"
+    },
+    "stonefiregrill.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "path": "logos/stonefiregrill-com.png",
+      "source_url": "https://stonefiregrill2.b-cdn.net/dbcwp/wp-content/uploads/2022/08/cropped-sfg-favicon-512x512-1-192x192.png?webp=false"
+    },
+    "stoneyspizzamenu.com": {
+      "background": "#000000",
+      "checked_at": "2026-09-16T23:17:10Z",
+      "path": "logos/stoneyspizzamenu-com.webp",
+      "source_url": "https://shop-logos.imgix.net/shops/15655/original/image0.jpeg?auto=compress,format"
+    },
+    "thaiwavehuntingtonbeach.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "path": "logos/thaiwavehuntingtonbeach-com.png",
+      "source_url": "https://static.spotapps.co/website_images/ab_websites/147426_website_v1/logo.png"
+    },
+    "theboulevardoc.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "path": "logos/theboulevardoc-com.jpg",
+      "source_url": "http://theboulevardoc.com/wp-content/uploads/2021/03/andrew-paulsen-dru_0362-1024x683.jpg"
+    },
+    "thehangoutrestaurant.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "path": "logos/thehangoutrestaurant-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/5df7da085196cc464ddadfbb/1576524371447-NABNYGTZ2UEUGHB4DXWM/TheHangoutRestaurantLogo.png?format=1500w"
+    },
+    "thirdplacecm.com": {
+      "background": "#808080",
+      "checked_at": "2026-09-16T23:17:10Z",
+      "path": "logos/thirdplacecm-com.webp",
+      "source_url": "https://img1.wsimg.com/isteam/ip/39a8fc88-3b3d-4a2d-a8f4-9e12052c21f6/blob-394ac2b.png/:/rs=w:180,h:180,m"
+    },
+    "three13bar.com": {
+      "background": "#724a30",
+      "checked_at": "2026-09-16T23:17:10Z",
+      "path": "logos/three13bar-com.webp",
+      "source_url": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:180,h:180,m"
+    },
+    "triplecrowntavern.com": {
+      "checked_at": "2026-09-16T23:17:10Z",
+      "path": "logos/triplecrowntavern-com.webp",
+      "source_url": "https://irp.cdn-website.com/98f0985b/dms3rep/multi/opt/Triple+Crown+Tavern+logo-93e911ef-311h.png"
+    },
     "waterfrontresort.com": {
       "checked_at": "2026-09-16T22:46:49Z",
       "path": "logos/waterfrontresort-com.png",
       "source_url": "https://waterfrontresort.com/wp-content/uploads/2025/02/henrys-coastal-cuisine-logo.png"
+    },
+    "wendys.com": {
+      "background": "#cd2028",
+      "checked_at": "2026-09-16T23:17:10Z",
+      "path": "logos/wendys-com.png",
+      "source_url": "https://www.wendys.com/themes/custom/wendys_main/favicons/apple-touch-icon-180x180.png"
     }
   },
   "selection_version": 3,
