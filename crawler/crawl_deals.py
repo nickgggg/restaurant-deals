@@ -923,9 +923,11 @@ def main() -> int:
         all_deals.extend(deals)
         source_statuses.append(status)
 
+    rejected_ids = {deal["id"] for deal in all_deals if not is_verified_offer(deal)}
+    all_deals = [deal for deal in all_deals if deal["id"] not in rejected_ids]
     all_deals, suppressed_ids = merge_duplicate_deals(all_deals)
     all_deals = [annotate_deal(deal) for deal in all_deals]
-    seen_ids = {deal["id"] for deal in all_deals} | suppressed_ids
+    seen_ids = {deal["id"] for deal in all_deals} | suppressed_ids | rejected_ids
     all_deals.extend(carry_forward_stale(existing, seen_ids, now))
     all_deals, retired_variants = archive_replaced_variants(all_deals, now)
     history_count = write_history(retired_variants, now)
@@ -950,6 +952,7 @@ def main() -> int:
             "archived_variants": history_count,
             "retired_variants_this_run": len(retired_variants),
             "merged_duplicates": len(suppressed_ids),
+            "rejected_non_deals": len(rejected_ids),
         },
         "pipeline": load_ai_summary(),
         "sources": source_statuses,
