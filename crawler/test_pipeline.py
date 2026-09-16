@@ -488,6 +488,28 @@ class DealHistoryTests(unittest.TestCase):
         self.assertEqual(len(merged), 2)
         self.assertFalse(suppressed)
 
+    def test_same_price_lunch_and_dinner_specials_stay_separate(self) -> None:
+        lunch = self.deal("lunch", "Wednesday Lunch Special: Fish and Chips", "active")
+        dinner = self.deal("dinner", "Wednesday Dinner Special: Fish and Chips", "active")
+        for deal in (lunch, dinner):
+            deal.update({"candidate_text": deal["summary"] + " for $17", "tags": ["dollar_amount"], "categories": ["food"]})
+
+        merged, suppressed = crawl_deals.merge_duplicate_deals([lunch, dinner])
+
+        self.assertEqual(len(merged), 2)
+        self.assertFalse(suppressed)
+
+    def test_differently_worded_same_bundle_merges(self) -> None:
+        brief = self.deal("brief", "Feast Special for $49 includes pizza, salad, wings, knots, and soda", "active")
+        rich = self.deal("rich", "Feast Special: XL 2-topping pizza, large salad, wings, knots, and 2-liter soda for $49", "active")
+        for deal in (brief, rich):
+            deal.update({"candidate_text": deal["summary"], "tags": ["dollar_amount", "deal_language"], "categories": ["food", "drink"]})
+
+        merged, suppressed = crawl_deals.merge_duplicate_deals([brief, rich])
+
+        self.assertEqual(len(merged), 1)
+        self.assertEqual(len(suppressed), 1)
+
 
 if __name__ == "__main__":
     unittest.main()

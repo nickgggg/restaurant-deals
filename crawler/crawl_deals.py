@@ -764,6 +764,15 @@ def duplicate_offer(left: dict, right: dict) -> bool:
     right_time = normalize_line(right.get("time_window") or "").lower()
     if left_time and right_time and left_time != right_time:
         return False
+    variant_pattern = re.compile(
+        r"\b(?:mon(?:day)?|tue(?:sday)?|wed(?:nesday)?|thu(?:rsday)?|fri(?:day)?|"
+        r"sat(?:urday)?|sun(?:day)?|breakfast|brunch|lunch|dinner|late\s+night)\b",
+        re.I,
+    )
+    left_variants = {item.lower() for item in variant_pattern.findall(left.get("summary") or "")}
+    right_variants = {item.lower() for item in variant_pattern.findall(right.get("summary") or "")}
+    if left_variants and right_variants and left_variants.isdisjoint(right_variants):
+        return False
     if left_key == right_key:
         return True
     left_tokens, right_tokens = duplicate_tokens(left), duplicate_tokens(right)
@@ -774,7 +783,7 @@ def duplicate_offer(left: dict, right: dict) -> bool:
     same_value = bool(left_value and left_value == right_value)
     contained = left_tokens <= right_tokens or right_tokens <= left_tokens
     shared_words = {word for word in left_tokens & right_tokens if not word.isdigit()}
-    return same_value and (similarity >= 0.68 or (contained and bool(shared_words)))
+    return same_value and (similarity >= 0.58 or (contained and bool(shared_words)))
 
 
 def merge_duplicate_deals(deals: list[dict]) -> tuple[list[dict], set[str]]:
