@@ -27,7 +27,7 @@ STALE_AFTER_DAYS = 21
 DROP_AFTER_DAYS = 90
 HISTORY_DROP_AFTER_DAYS = 365
 REQUEST_TIMEOUT = 25
-CRAWLER_VERSION = 18
+CRAWLER_VERSION = 19
 
 DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 DAY_LABELS = {
@@ -74,6 +74,17 @@ TIME_RANGE = re.compile(
 )
 FOOD_TERMS = re.compile(r"\b(?:app|apps|appetizer|bite|brunch|breakfast|lunch|dinner|meal|taco|tacos|pizza|wing|wings|burger|sandwich|salad|pasta|chicken|steak|fish|seafood|soup|dessert|fries|entree|platter|combo|soda|meatloaf|spaghetti|prime rib|nachos|calamari|sliders)\b", re.I)
 DRINK_TERMS = re.compile(r"\b(?:beer|beers|wine|wines|vino|cocktail|cocktails|margarita|margaritas|martini|martinis|drink|drinks|bar|well|draft|pint|pints|mug|mugs|pitcher|pitchers|sangria|tequila|vodka|whiskey|bourbon|beverage)\b", re.I)
+NON_DINING_OFFER = re.compile(
+    r"\b(?:t-?shirts?|hoodies?|apparel|merch(?:andise)?|gift\s*cards?|free\s+shipping|"
+    r"shipping\s+on|subscription\s+orders?|copyright|all\s+rights\s+reserved)\b|(?:©|&copy;)",
+    re.I,
+)
+CONCRETE_PROMOTION = re.compile(
+    r"\b(?:off|free|bogo|buy\s+one|half\s+price|happy\s+hour|hoppy\s+hour|social\s+hour|"
+    r"specials?|deals?|coupon|promo(?:tion)?|value\s+menu|meal\s+deal|kids\s+eat)\b|"
+    r"\b(?:only|just)\s+\$\s*\d",
+    re.I,
+)
 
 
 class Candidate(TypedDict):
@@ -439,9 +450,9 @@ def build_static_deal(source: Source, raw: dict[str, Any], now: datetime, existi
     text = normalize_line(" ".join([raw["summary"], *details]))
     did = deal_id(source, text)
     previous = existing.get(did, {})
-    days = raw["applies_days"] if "applies_days" in raw else extract_days(text)
+    days = raw.get("applies_days") or extract_days(text)
     month_days = raw.get("applies_month_days") or extract_month_days(text)
-    time_window = raw["time_window"] if "time_window" in raw else extract_time_window(text)
+    time_window = raw.get("time_window") or extract_time_window(text)
     tags = dedupe([*raw.get("tags", []), *detect_tags(text)])
     categories = raw.get("categories") or category_for(text)
     return {
@@ -527,6 +538,107 @@ def has_explicit_discount(deal: dict) -> bool:
     return bool(tags.intersection({"percent_off", "bogo", "happy_hour", "free"}) or re.search(r"\b(?:off|coupon|limited time|starting at|happy hour|2-4-1|half price|with purchase|kids eat free)\b", text, re.I))
 
 
+def deal_text(deal: dict) -> str:
+    return normalize_line(" ".join([
+        deal.get("summary", ""),
+        *deal.get("details", []),
+        *deal.get("source_evidence", []),
+    ]))
+
+
+def is_verified_offer(deal: dict) -> bool:
+    text = deal_text(deal)
+    if not text or NON_DINING_OFFER.search(text):
+        return False
+    categories = set(deal.get("categories", []))
+    scheduled = bool(deal.get("applies_days") or deal.get("time_window") or extract_days(text))
+    scheduled_price = bool(
+        scheduled
+        and categories.intersection({"food", "drink"})
+        and re.search(r"\$\s*\d+(?:\.\d{1,2})?", text)
+    )
+    recurring_named_special = bool(
+        scheduled
+        and categories.intersection({"food", "drink"})
+        and re.search(
+            r"\b(?:slice\s+of\s+the\s+day|(?:mon(?:day)?|tue(?:sday)?|wed(?:nesday)?|"
+            r"thu(?:rsday)?|fri(?:day)?|sat(?:urday)?|sun(?:day)?)\s+(?:special|[a-z]+)|"
+            r"[a-z]+\s+(?:mon(?:day)?|tue(?:sday)?|wed(?:nesday)?|thu(?:rsday)?|"
+            r"fri(?:day)?|sat(?:urday)?|sun(?:day)?))\b",
+            deal.get("summary", ""),
+            re.I,
+        )
+        and "special" in (deal.get("source_notes") or "").lower()
+    )
+    return bool(
+        has_explicit_discount(deal)
+        or scheduled_price
+        or recurring_named_special
+        or (
+            CONCRETE_PROMOTION.search(text)
+            and (categories.intersection({"food", "drink"}) or scheduled)
+        )
+    )
+
+
+def offer_value_label(deal: dict) -> str | None:
+    text = deal_text(deal)
+    match = re.search(r"\b(\d{1,3})\s*%\s*off\b", text, re.I)
+    if match:
+        return f"{match.group(1)}% off"
+    if re.search(r"\b(?:half\s+price|1/2\s*off)\b", text, re.I):
+        return "50% off"
+    if re.search(r"\b(?:bogo|buy\s+one.{0,40}get\s+one|2-4-1)\b", text, re.I):
+        return "BOGO"
+    match = re.search(r"\$\s*(\d+(?:\.\d{1,2})?)\s*off\b", text, re.I)
+    if match:
+        return f"${match.group(1)} off"
+    match = re.search(r"(\$\s*\d+(?:\.\d{1,2})?\s*[-–—]\s*\$?\s*\d+(?:\.\d{1,2})?)", text)
+    if match:
+        return re.sub(r"\s+", "", match.group(1)).replace("–", "-").replace("—", "-")
+    if re.search(r"\bfree\b", text, re.I):
+        return "Free"
+    match = re.search(r"\b(?:starting\s+at|from)\s*(\$\s*\d+(?:\.\d{1,2})?)", text, re.I)
+    if match:
+        return re.sub(r"\s+", "", match.group(1)) + "+"
+    match = re.search(r"(?:^|\b(?:for|only|just)\s+)(\$\s*\d+(?:\.\d{1,2})?)", text, re.I)
+    return re.sub(r"\s+", "", match.group(1)) if match else None
+
+
+def quality_score(deal: dict) -> int:
+    text = deal_text(deal)
+    score = 25
+    tags = set(deal.get("tags", []))
+    if tags.intersection({"percent_off", "bogo", "free"}):
+        score += 25
+    if offer_value_label(deal):
+        score += 15
+    if tags.intersection({"happy_hour", "weekday_special"}):
+        score += 10
+    if deal.get("applies_days"):
+        score += 8
+    if deal.get("time_window"):
+        score += 7
+    if deal.get("source_evidence"):
+        score += 5
+    confidence = deal.get("ai_confidence")
+    if isinstance(confidence, (int, float)):
+        score += round(max(0, min(1, confidence)) * 5)
+    if not CONCRETE_PROMOTION.search(text):
+        score -= 15
+    return max(0, min(100, score))
+
+
+def annotate_deal(deal: dict) -> dict:
+    value = offer_value_label(deal)
+    annotated = {**deal, "quality_score": quality_score(deal)}
+    if value:
+        annotated["value_label"] = value
+    else:
+        annotated.pop("value_label", None)
+    return annotated
+
+
 def is_publishable_discovered(deal: dict) -> bool:
     if has_explicit_discount(deal):
         return True
@@ -565,6 +677,8 @@ def aggregate_deals(source: Source, deals: list[dict], now: datetime, existing: 
 def crawl_source(source: Source, now: datetime, existing: dict[str, dict]) -> tuple[list[dict], dict]:
     if source.options.get("static_deals"):
         deals = [build_static_deal(source, deal, now, existing) for deal in source.options["static_deals"]]
+        if source.options.get("ai_extracted"):
+            deals = [deal for deal in deals if is_verified_offer(deal)]
         mode = "ai_extracted" if source.options.get("ai_extracted") else "curated"
         return deals, source_status(source, True, len(deals), now, mode=mode)
 
@@ -634,6 +748,62 @@ def promotion_signature(deal: dict) -> str:
     normalized = re.sub(r"\b\d+(?:\.\d+)?\s*(?:percent|%)\b", " ", normalized)
     words = re.findall(r"[a-z0-9]+", normalized)
     return " ".join(word for word in words if word not in SIGNATURE_STOP_WORDS)
+
+
+def duplicate_tokens(deal: dict) -> set[str]:
+    words = re.findall(r"[a-z0-9]+", (deal.get("summary") or "").lower())
+    return {word for word in words if word not in SIGNATURE_STOP_WORDS and len(word) > 1}
+
+
+def duplicate_offer(left: dict, right: dict) -> bool:
+    if (left.get("restaurant"), left.get("city")) != (right.get("restaurant"), right.get("city")):
+        return False
+    left_key = re.sub(r"\W+", " ", (left.get("summary") or "").lower()).strip()
+    right_key = re.sub(r"\W+", " ", (right.get("summary") or "").lower()).strip()
+    left_time = normalize_line(left.get("time_window") or "").lower()
+    right_time = normalize_line(right.get("time_window") or "").lower()
+    if left_time and right_time and left_time != right_time:
+        return False
+    if left_key == right_key:
+        return True
+    left_tokens, right_tokens = duplicate_tokens(left), duplicate_tokens(right)
+    if not left_tokens or not right_tokens:
+        return False
+    similarity = len(left_tokens & right_tokens) / len(left_tokens | right_tokens)
+    left_value, right_value = offer_value_label(left), offer_value_label(right)
+    same_value = bool(left_value and left_value == right_value)
+    contained = left_tokens <= right_tokens or right_tokens <= left_tokens
+    shared_words = {word for word in left_tokens & right_tokens if not word.isdigit()}
+    return same_value and (similarity >= 0.68 or (contained and bool(shared_words)))
+
+
+def merge_duplicate_deals(deals: list[dict]) -> tuple[list[dict], set[str]]:
+    merged: list[dict] = []
+    suppressed: set[str] = set()
+    for deal in deals:
+        match_index = next((index for index, item in enumerate(merged) if duplicate_offer(item, deal)), None)
+        if match_index is None:
+            merged.append(deal)
+            continue
+        match = merged[match_index]
+        ranked = sorted(
+            (match, deal),
+            key=lambda item: (len(deal_text(item)), len(item.get("details", [])), item.get("ai_confidence") or 0),
+            reverse=True,
+        )
+        richer, other = ranked
+        suppressed.add(other["id"])
+        merged[match_index] = {
+            **richer,
+            "details": dedupe([*richer.get("details", []), *other.get("details", [])])[:8],
+            "source_evidence": dedupe([*richer.get("source_evidence", []), *other.get("source_evidence", [])])[:12],
+            "source_urls": dedupe([
+                *richer.get("source_urls", [richer.get("source_url", "")]),
+                *other.get("source_urls", [other.get("source_url", "")]),
+            ]),
+            "first_seen": min(richer.get("first_seen") or iso(utc_now()), other.get("first_seen") or iso(utc_now())),
+        }
+    return merged, suppressed
 
 
 def canonical_scope(deal: dict) -> tuple[str, str, str]:
@@ -744,7 +914,9 @@ def main() -> int:
         all_deals.extend(deals)
         source_statuses.append(status)
 
-    seen_ids = {deal["id"] for deal in all_deals}
+    all_deals, suppressed_ids = merge_duplicate_deals(all_deals)
+    all_deals = [annotate_deal(deal) for deal in all_deals]
+    seen_ids = {deal["id"] for deal in all_deals} | suppressed_ids
     all_deals.extend(carry_forward_stale(existing, seen_ids, now))
     all_deals, retired_variants = archive_replaced_variants(all_deals, now)
     history_count = write_history(retired_variants, now)
@@ -768,6 +940,7 @@ def main() -> int:
             "failed_sources": sum(1 for item in source_statuses if not item["ok"]),
             "archived_variants": history_count,
             "retired_variants_this_run": len(retired_variants),
+            "merged_duplicates": len(suppressed_ids),
         },
         "pipeline": load_ai_summary(),
         "sources": source_statuses,

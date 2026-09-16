@@ -29,7 +29,7 @@ const state = {
   types: new Set(DEFAULT_TYPES),
   kinds: new Set(DEFAULT_KINDS),
   includeChains: true,
-  sort: "alpha",
+  sort: "best",
   radius: "",
   availableNow: false,
   favoritesOnly: false,
@@ -543,6 +543,9 @@ function groupDeals(deals) {
       const newestB = Math.max(...b.deals.map(firstSeenTime));
       return newestB - newestA || a.restaurant.localeCompare(b.restaurant);
     }
+    if (state.sort === "best") {
+      return scoreGroup(b) - scoreGroup(a) || a.restaurant.localeCompare(b.restaurant);
+    }
     return a.restaurant.localeCompare(b.restaurant) || a.city.localeCompare(b.city);
   });
 }
@@ -775,11 +778,22 @@ function bestDeals(group) {
 
 function scoreDeal(deal) {
   const tags = deal.tags || [];
-  let score = 0;
+  let score = Number(deal.quality_score || 0);
   if (tags.includes("happy_hour")) score += 4;
   if (tags.includes("percent_off") || tags.includes("bogo") || tags.includes("free")) score += 3;
   if ((deal.applies_days || []).length) score += 2;
   if (deal.time_window) score += 1;
+  return score;
+}
+
+function scoreGroup(group) {
+  let score = Math.max(...group.deals.map(scoreDeal));
+  if (group.deals.some(dealAvailableNow)) score += 55;
+  else if (openStatus(group.location).startsWith("Open")) score += 16;
+  if (group.deals.some((deal) => deal.value_label)) score += 10;
+  if (group.deals.some((deal) => (deal.applies_days || []).includes(selectedDay()))) score += 8;
+  const distance = distanceToGroup(group);
+  if (state.userLocation && Number.isFinite(distance)) score += Math.max(0, 24 - distance * 3);
   return score;
 }
 
@@ -794,7 +808,7 @@ function shareUrl(spot = "") {
   if (!state.includeChains) params.set("chains", "0");
   if (state.availableNow) params.set("now", "1");
   if (state.newOnly) params.set("new", "1");
-  if (state.sort === "newest") params.set("sort", "newest");
+  if (state.sort !== "best") params.set("sort", state.sort);
   if (state.view === "map") params.set("view", "map");
   if (spot) params.set("spot", spot);
   const query = params.toString();
@@ -832,7 +846,7 @@ function readUrlState() {
   state.types = new Set(oldType && DEFAULT_TYPES.includes(oldType) ? [oldType] : types);
   state.kinds = new Set(oldOffer && DEFAULT_KINDS.includes(oldOffer) ? [oldOffer] : kinds);
   state.includeChains = params.get("chains") !== "0";
-  state.sort = params.get("sort") === "newest" ? "newest" : "alpha";
+  state.sort = ["alpha", "newest", "distance"].includes(params.get("sort")) ? params.get("sort") : "best";
   state.radius = "";
   state.availableNow = params.get("now") === "1";
   state.newOnly = params.get("new") === "1";
@@ -851,7 +865,7 @@ function syncControls() {
   }
   radiusEl.value = state.radius;
   radiusEl.disabled = !state.userLocation;
-  sortLabelEl.textContent = state.sort === "distance" ? "Nearest" : state.sort === "newest" ? "Newest" : "A-Z";
+  sortLabelEl.textContent = state.sort === "distance" ? "Nearest" : state.sort === "newest" ? "Newest" : state.sort === "alpha" ? "A-Z" : "Best";
   updateOfferSummary();
   availableNowEl.setAttribute("aria-pressed", String(state.availableNow));
   favoritesOnlyEl.setAttribute("aria-pressed", String(state.favoritesOnly));
@@ -894,6 +908,9 @@ function renderDealRow(deal) {
 
   const meta = document.createElement("div");
   meta.className = "deal-meta";
+  if (deal.value_label && !title.textContent.toLowerCase().includes(deal.value_label.toLowerCase())) {
+    meta.append(badge(deal.value_label, "value"));
+  }
   const visibleText = [title.textContent, ...detailItems].join(" ");
   if (!isValidityRedundant(deal, visibleText)) {
     meta.append(badge(normalizeScheduleText(deal.validity), "validity"));
@@ -1241,7 +1258,7 @@ function rerender() {
 function requestLocation() {
   if (!navigator.geolocation) {
     state.locationMessage = "Location is not available in this browser.";
-    state.sort = "alpha";
+    state.sort = "best";
     rerender();
     return;
   }
@@ -1262,8 +1279,8 @@ function requestLocation() {
     },
     () => {
       state.locationMessage = "Location permission was not enabled.";
-      state.sort = "alpha";
-      sortLabelEl.textContent = "A-Z";
+      state.sort = "best";
+      sortLabelEl.textContent = "Best";
       rerender();
     },
     { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 }
@@ -1439,12 +1456,17 @@ sortMenuEl.addEventListener("click", (event) => {
     state.locationMessage = "Newest discoveries first.";
     trackEvent("sort_newest");
     rerender();
-  } else {
+  } else if (button.dataset.sort === "alpha") {
     state.sort = "alpha";
     state.locationMessage = "Sorted A-Z.";
     state.radius = "";
     radiusEl.value = "";
     trackEvent("sort_alpha");
+    rerender();
+  } else {
+    state.sort = "best";
+    state.locationMessage = state.userLocation ? "Best nearby first." : "Best matches first.";
+    trackEvent("sort_best");
     rerender();
   }
   syncControls();

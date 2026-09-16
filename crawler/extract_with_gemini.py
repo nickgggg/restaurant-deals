@@ -36,7 +36,7 @@ MAX_VISUAL_ASSETS_PER_PAGE = 3
 MAX_VISUAL_ASSET_BYTES = 4_000_000
 MAX_VISUAL_REQUEST_BYTES = 11_000_000
 RENDER_TIMEOUT = 25
-EXTRACTION_VERSION = 4
+EXTRACTION_VERSION = 5
 TRUSTED_REPORTERS = {"nickgggg", "nickg-erg"}
 DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 DAY_ALIASES = {
@@ -63,6 +63,17 @@ VALUE_SIGNAL = re.compile(
 NOISE_SUMMARY = re.compile(
     r"^(?:about|contact|home|menu|order|order now|order online|our story|visit us|view menu|"
     r"full menu|get coupon|print|sign up|rewards?|instagram|facebook|main content|what.s included|expires?\b)",
+    re.I,
+)
+NON_DINING_OFFER = re.compile(
+    r"\b(?:t-?shirts?|hoodies?|apparel|merch(?:andise)?|gift\s*cards?|free\s+shipping|"
+    r"shipping\s+on|subscription\s+orders?|copyright|all\s+rights\s+reserved)\b|(?:©|&copy;)",
+    re.I,
+)
+CONCRETE_PROMOTION = re.compile(
+    r"\b(?:off|free|bogo|buy\s+one|half\s+price|happy\s+hour|hoppy\s+hour|social\s+hour|"
+    r"specials?|deals?|coupon|promo(?:tion)?|value\s+menu|meal\s+deal|kids\s+eat)\b|"
+    r"\b(?:only|just)\s+\$\s*\d",
     re.I,
 )
 VISUAL_HINT = re.compile(
@@ -458,6 +469,7 @@ Today: {date.today().isoformat()}
 Rules:
 - Return actual promotions, happy hours, weekday specials, coupons, or discounted bundles only.
 - Do not return ordinary menu items or ordinary menu prices.
+- Do not return merchandise, gift cards, shipping/subscription offers, copyright text, or ordinary catering/package prices.
 - Do not return headings, navigation, buttons, disclaimers, rewards invitations, or location hours as deals.
 - Keep one coherent promotion together. Do not turn each price, disclaimer, or bullet into a separate deal.
 - Split genuinely different weekday promotions into separate deals.
@@ -493,7 +505,7 @@ Today: {date.today().isoformat()}
 Rules:
 - First put a concise, exact transcription of relevant visible deal text in visual_text.
 - Return actual promotions, happy hours, weekday specials, coupons, or discounted bundles only.
-- Do not return ordinary menu items, ordinary menu prices, navigation, logos, or restaurant hours.
+- Do not return ordinary menu items, ordinary menu prices, merchandise, gift cards, shipping/subscription offers, copyright text, navigation, logos, or restaurant hours.
 - Keep one coherent promotion together; do not split every price or menu item into another deal.
 - When one promotion has several price tiers under one heading, return one deal and put each tier in details.
 - A schedule or restriction heading applies to every tier beneath it until a new section heading appears.
@@ -845,12 +857,20 @@ def validate_deals(
         useful_text = " ".join([summary, *details, *evidence])
         has_value = bool(VALUE_SIGNAL.search(useful_text))
         has_schedule = bool(days or time_window)
+        has_promotion = bool(CONCRETE_PROMOTION.search(useful_text))
+        has_scheduled_price = bool(
+            has_schedule
+            and set(categories).intersection({"food", "drink"})
+            and re.search(r"\$\s*\d+(?:\.\d{1,2})?", useful_text)
+        )
         if (
             not summary
             or NOISE_SUMMARY.search(summary)
             or confidence < min_confidence
             or not evidence_matches
             or not has_value
+            or NON_DINING_OFFER.search(useful_text)
+            or not (has_promotion or has_scheduled_price)
             or (summary.lower() in {"happy hour", "daily specials", "weekly specials"} and not has_schedule and not details)
             or (expires and expires < date.today())
         ):

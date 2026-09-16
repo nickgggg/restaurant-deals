@@ -86,6 +86,62 @@ class SourceDiscoveryTests(unittest.TestCase):
 
 
 class ExtractionTests(unittest.TestCase):
+    def test_validation_rejects_plain_package_pricing_but_keeps_scheduled_special(self) -> None:
+        package = "Family Package 2 for $90 serving 5-6 people"
+        scheduled = "$6 beers every Tuesday"
+        raw = {
+            "deals": [
+                {
+                    "summary": package,
+                    "details": [],
+                    "applies_days": [],
+                    "applies_month_days": [],
+                    "time_window": "",
+                    "categories": ["food"],
+                    "valid_through": "",
+                    "evidence": [package],
+                    "confidence": 0.96,
+                },
+                {
+                    "summary": scheduled,
+                    "details": [],
+                    "applies_days": ["tuesday"],
+                    "applies_month_days": [],
+                    "time_window": "",
+                    "categories": ["drink"],
+                    "valid_through": "",
+                    "evidence": [scheduled],
+                    "confidence": 0.96,
+                },
+            ]
+        }
+
+        accepted, rejected = extract_with_gemini.validate_deals(raw, f"{package}\n{scheduled}")
+
+        self.assertEqual([deal["summary"] for deal in accepted], [scheduled])
+        self.assertEqual(rejected, [package])
+
+    def test_validation_keeps_explicit_only_price_offer(self) -> None:
+        offer = "Lunch or dinner for just $1.99"
+        raw = {
+            "deals": [{
+                "summary": offer,
+                "details": [],
+                "applies_days": [],
+                "applies_month_days": [],
+                "time_window": "",
+                "categories": ["food"],
+                "valid_through": "",
+                "evidence": [offer],
+                "confidence": 0.96,
+            }]
+        }
+
+        accepted, rejected = extract_with_gemini.validate_deals(raw, offer)
+
+        self.assertEqual([deal["summary"] for deal in accepted], [offer])
+        self.assertEqual(rejected, [])
+
     def test_visual_assets_prioritize_specials_images_and_pdfs(self) -> None:
         page = """
             <html><body>
@@ -382,6 +438,55 @@ class DealHistoryTests(unittest.TestCase):
 
         self.assertEqual([item["id"] for item in public], ["newer"])
         self.assertEqual(archived[0]["canonical_id"], "newer")
+
+    def test_verified_offer_rejects_merchandise_and_plain_package_prices(self) -> None:
+        merchandise = self.deal("shirt", "All T-shirts $30 with free shipping", "active")
+        merchandise.update({"candidate_text": merchandise["summary"], "tags": ["free", "dollar_amount"], "categories": ["general"]})
+        package = self.deal("package", "Family Package 2 for $90 serving 5-6 people", "active")
+        package.update({"candidate_text": package["summary"], "tags": ["dollar_amount"], "categories": ["food"]})
+        special = self.deal("special", "Wednesday Fish and Chips Special for $17", "active")
+        special.update({"candidate_text": special["summary"], "tags": ["dollar_amount", "weekday_special"], "categories": ["food"], "applies_days": ["wednesday"]})
+
+        self.assertFalse(crawl_deals.is_verified_offer(merchandise))
+        self.assertFalse(crawl_deals.is_verified_offer(package))
+        self.assertTrue(crawl_deals.is_verified_offer(special))
+
+    def test_verified_offer_keeps_named_recurring_special_from_specials_page(self) -> None:
+        special = self.deal("prime-rib", "Prime Rib Friday", "active")
+        special.update({
+            "candidate_text": "Prime Rib Friday after 5 PM",
+            "tags": ["weekday_special"],
+            "categories": ["food"],
+            "applies_days": ["friday"],
+            "time_window": "After 5 PM",
+            "source_notes": "Official daily weekday specials page",
+        })
+
+        self.assertTrue(crawl_deals.is_verified_offer(special))
+
+    def test_semantic_duplicates_keep_the_richer_offer(self) -> None:
+        brief = self.deal("brief", "Feast Special for $49", "active")
+        brief.update({"candidate_text": brief["summary"], "details": [], "tags": ["dollar_amount", "deal_language"], "categories": ["food"]})
+        rich = self.deal("rich", "Feast Special for $49 includes pizza, salad, wings, knots, and soda", "active", "https://example.com/deals")
+        rich.update({"candidate_text": rich["summary"], "details": ["XL pizza and a 2-liter soda"], "tags": ["dollar_amount", "deal_language"], "categories": ["food"]})
+
+        merged, suppressed = crawl_deals.merge_duplicate_deals([brief, rich])
+
+        self.assertEqual(len(merged), 1)
+        self.assertEqual(merged[0]["id"], "rich")
+        self.assertEqual(suppressed, {"brief"})
+        self.assertEqual(len(merged[0]["source_urls"]), 2)
+
+    def test_same_offer_name_with_different_hours_stays_separate(self) -> None:
+        early = self.deal("early", "Happy Hour", "active")
+        late = self.deal("late", "Happy Hour", "active")
+        for deal, hours in ((early, "3pm-6pm"), (late, "9pm-11pm")):
+            deal.update({"candidate_text": deal["summary"], "details": [], "tags": ["happy_hour"], "categories": ["food"], "time_window": hours})
+
+        merged, suppressed = crawl_deals.merge_duplicate_deals([early, late])
+
+        self.assertEqual(len(merged), 2)
+        self.assertFalse(suppressed)
 
 
 if __name__ == "__main__":

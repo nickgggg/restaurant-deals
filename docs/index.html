@@ -27,7 +27,7 @@
         document.head.append(tracker);
       }
     </script>
-    <link rel="stylesheet" href="styles.css?v=17">
+    <link rel="stylesheet" href="styles.css?v=18">
   </head>
   <body>
     <header class="topbar">
@@ -50,9 +50,10 @@
           <details id="sort-menu" class="sort-menu">
             <summary title="Sort restaurants">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h8M8 18h4M4 4v16"></path></svg>
-              <span id="sort-label">A-Z</span>
+              <span id="sort-label">Best</span>
             </summary>
             <div class="sort-options">
+              <button type="button" data-sort="best">Best match</button>
               <button type="button" data-sort="alpha">A-Z</button>
               <button type="button" data-sort="newest">Newest deals</button>
               <button type="button" data-sort="distance">Nearest</button>
@@ -194,6 +195,6 @@
 
     <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
-    <script src="app.js?v=20"></script>
+    <script src="app.js?v=21"></script>
   </body>
 </html>

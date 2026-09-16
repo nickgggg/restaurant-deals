@@ -1764,6 +1764,13 @@ button,
   border-color: transparent;
 }
 
+.deal-meta .value {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
+  background: color-mix(in srgb, var(--accent) 12%, var(--surface));
+  color: var(--accent);
+  font-weight: 700;
+}
+
 .project-status {
   margin: 18px 0 0;
   background: transparent;
