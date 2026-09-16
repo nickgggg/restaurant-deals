@@ -1,7 +1,417 @@
 {
-  "generated_at": "2026-09-16T18:34:31Z",
+  "generated_at": "2026-09-16T22:46:48Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$5 Corn Dog, Small Fries and Small Soda Deal Includes a corn dog, small fries, and small soda for $5 Tax extra Good for two orders on same visit Must be surrendered at time of purchase Not valid with any other offer, discount or coupon Not valid in Sacramento, Stockton & Modesto areas",
+      "canonical_id": "8801129f1acf3799",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Includes a corn dog, small fries, and small soda for $5",
+        "Tax extra",
+        "Good for two orders on same visit",
+        "Must be surrendered at time of purchase",
+        "Not valid with any other offer, discount or coupon",
+        "Not valid in Sacramento, Stockton & Modesto areas"
+      ],
+      "first_seen": "2026-09-14T22:53:29Z",
+      "id": "10114babb472275b",
+      "is_stale": true,
+      "last_seen": "2026-09-16T18:34:31Z",
+      "location": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
+      },
+      "restaurant": "Wienerschnitzel",
+      "retired_at": "2026-09-16T22:46:48Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+        "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$3 Pretzel Bun Chili Dog Price: $3 Item: Original Pretzel Bun Chili Dog only Cheese extra Coupon good for TWO orders on same visit and must be surrendered at time of purchase Tax extra Not valid with any other offer, discount or coupon Good at participating restaurants only",
+      "canonical_id": "d9f3b5732975b650",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $3",
+        "Item: Original Pretzel Bun Chili Dog only",
+        "Cheese extra",
+        "Coupon good for TWO orders on same visit and must be surrendered at time of purchase",
+        "Tax extra",
+        "Not valid with any other offer, discount or coupon",
+        "Good at participating restaurants only"
+      ],
+      "first_seen": "2026-09-15T20:26:33Z",
+      "id": "7d83b635b3ac7464",
+      "is_stale": true,
+      "last_seen": "2026-09-16T18:34:31Z",
+      "location": {
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
+      },
+      "restaurant": "Wienerschnitzel",
+      "retired_at": "2026-09-16T22:46:48Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$3 - Pretzel Bun Chili Dog - 230",
+        "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel",
+        "Original Pretzel Bun Chili Dog only. (Cheese extra.)",
+        "Coupon good for TWO orders on same visit and"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$3 Pretzel Bun Chili Dog",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "saturday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$0 delivery fee all day Saturday during college football season Discount: $0 delivery fee Applies on Saturdays Order via the Wendy's app during college football season",
+      "canonical_id": "42e201de7ef2dcd3",
+      "categories": [
+        "general"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Discount: $0 delivery fee",
+        "Applies on Saturdays",
+        "Order via the Wendy's app during college football season"
+      ],
+      "first_seen": "2026-09-14T22:53:29Z",
+      "id": "ae591eb85ac19dd5",
+      "is_stale": true,
+      "last_seen": "2026-09-16T18:34:31Z",
+      "location": {
+        "address": "16401 Bolsa Chica St, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12377950337174173678&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "03:00",
+              "open": "06:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "02:00",
+              "open": "06:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "03:00",
+              "open": "06:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "03:00",
+              "open": "06:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "02:00",
+              "open": "06:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "02:00",
+              "open": "06:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "02:00",
+              "open": "06:00"
+            }
+          ]
+        },
+        "latitude": 33.7236391,
+        "longitude": -118.04187050000002,
+        "phone": "(714) 374-3020",
+        "place_id": "ChIJHZkjWgAl3YAR7nexHkBQx6s"
+      },
+      "restaurant": "Wendy's",
+      "retired_at": "2026-09-16T22:46:48Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "enjoy $0 delivery fee all day Saturday when you order via the app."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.wendys.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$0 delivery fee all day Saturday during college football season",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "all day",
+      "valid_through": null,
+      "validity": "Sat, all day"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour: $2 off all Signature Cocktails, Wines by the Glass, and Beer $2 off All Signature Cocktails, Wines by the Glass, and Beer Only available in the Trenta Lounge",
+      "canonical_id": "e6eb324b38fc75b8",
+      "categories": [
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "$2 off All Signature Cocktails, Wines by the Glass, and Beer",
+        "Only available in the Trenta Lounge"
+      ],
+      "first_seen": "2026-09-15T16:06:33Z",
+      "id": "a5374485976e269d",
+      "is_stale": true,
+      "last_seen": "2026-09-16T18:09:07Z",
+      "location": {
+        "address": "1661 Superior Ave Ste d, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=6654488974885952960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.6348445,
+        "longitude": -117.92543880000001,
+        "phone": "(949) 270-6652",
+        "place_id": "ChIJaxicd5Ah3YARwJ3UNXd-WVw"
+      },
+      "restaurant": "Trenta Pizza & Cucina and Trenta Lounge",
+      "retired_at": "2026-09-16T22:46:48Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Monday through Thursday",
+        "From 5 to 6:30pm",
+        "All Signature Cocktails, Wines by the Glass, and Beer",
+        "$2 OFF"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2026-09-10-17-00",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour: $2 off all Signature Cocktails, Wines by the Glass, and Beer",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "5:00 PM \u2013 6:30 PM",
+      "valid_through": null,
+      "validity": "Mon, Tue, Wed, Thu, 5:00 PM \u2013 6:30 PM"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [],
@@ -1707,103 +2117,6 @@
       "stale_after_days": 21,
       "status": "stale",
       "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "valid_through": null,
-      "validity": "Check source"
-    },
-    {
-      "ai_confidence": 0.95,
-      "applies_days": [],
-      "applies_month_days": [],
-      "candidate_text": "$5 Corn Dog, Small Fries and Small Soda Deal Includes a corn dog, small fries, and small soda for $5 Tax extra Good for two orders on same visit Must be surrendered at time of purchase Not valid with any other offer, discount or coupon Not valid in Sacramento, Stockton & Modesto areas",
-      "canonical_id": "8801129f1acf3799",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Includes a corn dog, small fries, and small soda for $5",
-        "Tax extra",
-        "Good for two orders on same visit",
-        "Must be surrendered at time of purchase",
-        "Not valid with any other offer, discount or coupon",
-        "Not valid in Sacramento, Stockton & Modesto areas"
-      ],
-      "first_seen": "2026-09-15T15:46:22Z",
-      "id": "10114babb472275b",
-      "is_stale": true,
-      "last_seen": "2026-09-15T20:33:32Z",
-      "location": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
-      },
-      "restaurant": "Wienerschnitzel",
-      "retired_at": "2026-09-15T22:07:45Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "$5 - Corn Dog, Small Fries and Small Soda Coupon",
-        "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
       "tags": [
         "dollar_amount",
         "deal_language"

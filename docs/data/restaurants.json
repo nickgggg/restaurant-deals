@@ -49,7 +49,7 @@
     "last_scanned_cities": [
       "Costa Mesa"
     ],
-    "last_source_scan_at": "2026-09-16T18:32:17Z",
+    "last_source_scan_at": "2026-09-16T22:42:57Z",
     "map_cells": 179,
     "official_websites": 848,
     "operational_count": 1010,
@@ -61,11 +61,11 @@
     ],
     "restaurant_count": 1050,
     "source_sites_checked": 12,
-    "specials_pages_found": 190,
+    "specials_pages_found": 191,
     "successful_map_cells": 49
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-16T18:32:17Z",
+  "generated_at": "2026-09-16T22:42:57Z",
   "refresh_after": "2026-09-17T16:26:21Z",
   "restaurants": [
     {
@@ -7337,7 +7337,7 @@
       "phone": "(657) 215-6944",
       "place_id": "ChIJcaE-fn4n3YARl7BCy-xcOsI",
       "primary_type": "fast_food_restaurant",
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-j8u4qbn5/Default'",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-hvcolifq/Default'",
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -12920,9 +12920,12 @@
       "phone": "(657) 339-0440",
       "place_id": "ChIJF3gH0Bsn3YARMvzCQAiA43c",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-09-16T22:42:29Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://crumblcookies.com/stores/ca/anaheim-area/cafountainvalley?utm_source=google+business&utm_medium=profile&utm_campaign=CRUMBL-US+%7C+GOOGLE+BUSINESS+%7C+STORE+PAGE+%7C+ONGOING+%7C+CONSIDERATION+%7C+PROFILE"
         }
@@ -12988,9 +12991,12 @@
       "phone": "(657) 339-2002",
       "place_id": "ChIJR5PRSx7f3IAR9off53wc8YI",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-09-16T22:42:29Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://crumblcookies.com/stores/ca/anaheim-area/cacostamesa?utm_source=google+business&utm_medium=profile&utm_campaign=CRUMBL-US+|+GOOGLE+BUSINESS+|+STORE+PAGE+|+ONGOING+|+CONSIDERATION+|+PROFILE"
         }
@@ -13062,6 +13068,8 @@
       "phone": "(714) 594-3083",
       "place_id": "ChIJfSK7K3oh3YARkFRw1qHf-Z4",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-09-16T22:42:29Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "ice_cream_shop",
@@ -13131,6 +13139,8 @@
       "phone": "(714) 969-2148",
       "place_id": "ChIJhQ9v2kYh3YARRRNuKW_Z49E",
       "primary_type": "italian_restaurant",
+      "specials_checked_at": "2026-09-16T22:42:29Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "italian_restaurant",
@@ -13234,6 +13244,8 @@
       "phone": "(714) 841-1800",
       "place_id": "ChIJ53DZsG8m3YARJJ37mM4EOnE",
       "primary_type": "indian_restaurant",
+      "specials_checked_at": "2026-09-16T22:42:29Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "indian_restaurant",
@@ -13294,6 +13306,8 @@
       "phone": "(714) 274-9099",
       "place_id": "ChIJw8YnJJon3YARVP69EempqKE",
       "primary_type": "chicken_wings_restaurant",
+      "specials_checked_at": "2026-09-16T22:42:29Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chicken_wings_restaurant",
@@ -13426,6 +13440,8 @@
       "phone": "(714) 968-8900",
       "place_id": "ChIJNbW-ZMQg3YARq5Jc5QBApGM",
       "primary_type": "hawaiian_restaurant",
+      "specials_checked_at": "2026-09-16T22:42:29Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "hawaiian_restaurant",
@@ -13492,7 +13508,40 @@
       "phone": "(714) 374-4408",
       "place_id": "ChIJU-Hx4EEh3YARX-o9E_Xdnbc",
       "primary_type": "fast_food_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-16T22:42:29Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.dairyqueen.com/en-us/menu/3-piece-chicken-strip-meal-deal/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.dairyqueen.com/en-us/menu/7-meal-deal/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.dairyqueen.com/en-us/menu/cheeseburger-meal-deal/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.dairyqueen.com/en-us/menu/food/meal-deals/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.dairyqueen.com/fr-ca/menu/10-blizzard-meal-deal-blizzard-cup/"
+        }
+      ],
       "types": [
         "fast_food_restaurant",
         "ice_cream_shop",
@@ -13584,9 +13633,12 @@
       "phone": "(949) 650-8080",
       "place_id": "ChIJDws44o7f3IARx0-fjDfFY2M",
       "primary_type": "persian_restaurant",
+      "specials_checked_at": "2026-09-16T22:42:29Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Specials",
           "url": "https://darbarigrill.com/specials/"
         }
@@ -13656,6 +13708,8 @@
       "phone": "(657) 383-7536",
       "place_id": "ChIJ9dw-j-4n3YAR3HT9XbJD6bc",
       "primary_type": "chicken_restaurant",
+      "specials_checked_at": "2026-09-16T22:42:29Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chicken_restaurant",
@@ -13716,6 +13770,8 @@
       "phone": "(714) 968-3445",
       "place_id": "ChIJl3JjuxYn3YARfWye9B9YN98",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-16T22:42:29Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",

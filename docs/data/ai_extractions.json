@@ -1,6 +1,6 @@
 {
   "extraction_version": 4,
-  "generated_at": "2026-09-16T18:34:30Z",
+  "generated_at": "2026-09-16T22:46:48Z",
   "model": "gemini-3.5-flash-lite",
   "pages": [
     {
@@ -7329,9 +7329,7 @@
         "label": "Specials",
         "url": "https://crivelloristorante.com/happy-hour-menu"
       },
-      "rejected_candidates": [
-        "Happy Hour Food Specials ($7-$9)"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "19881 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -7466,6 +7464,690 @@
         "website_url": "http://www.crivelloristorante.com/"
       },
       "status": "ok"
+    },
+    {
+      "content_hash": "ff913a4a950577b75cb5b86f9563f8d195e8ac86f54ad16ac532c321a5879500",
+      "deals": [],
+      "extracted_at": "2026-09-16T22:44:58Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "0cdfe99b4392d44e9998",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "sitemap",
+        "label": "Specials",
+        "url": "https://www.dairyqueen.com/en-us/menu/3-piece-chicken-strip-meal-deal/"
+      },
+      "rejected_candidates": [
+        "$7 3-Piece Chicken Strip Meal Deal"
+      ],
+      "restaurant": {
+        "address": "102 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=13230975324943936095&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6558632,
+        "longitude": -117.9997436,
+        "name": "Dairy Queen",
+        "phone": "(714) 374-4408",
+        "place_id": "ChIJU-Hx4EEh3YARX-o9E_Xdnbc",
+        "primary_type": "fast_food_restaurant",
+        "specials_checked_at": "2026-09-16T22:42:29Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/3-piece-chicken-strip-meal-deal/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/7-meal-deal/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/cheeseburger-meal-deal/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/food/meal-deals/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/fr-ca/menu/10-blizzard-meal-deal-blizzard-cup/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "confectionery",
+          "food_store",
+          "restaurant",
+          "food",
+          "store",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://www.dairyqueen.com/us-en/Locator/Detail/?localechange=1&store-id=2852"
+      },
+      "status": "no_deals"
+    },
+    {
+      "content_hash": "d26dfa60d41c00109c2133c0d51b9b1b7b9216c6f4af26b8fa9b3e28cb3001da",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday",
+            "sunday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Choose between an original cheeseburger or Chicken Strips",
+            "Includes crispy, full-size regular fries",
+            "Includes a drink",
+            "Includes a sundae made with DQ soft serve",
+            "Price is $7",
+            "Available at participating U.S. locations"
+          ],
+          "source_evidence": [
+            "$7 Meal Deal",
+            "Our $7 Meal Deal is available all day, every day."
+          ],
+          "summary": "$7 Meal Deal with cheeseburger or chicken strips, fries, drink, and sundae",
+          "time_window": "all day",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-16T22:45:06Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "b3f89676250abfaaf3ad",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "sitemap",
+        "label": "Specials",
+        "url": "https://www.dairyqueen.com/en-us/menu/7-meal-deal/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "102 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=13230975324943936095&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6558632,
+        "longitude": -117.9997436,
+        "name": "Dairy Queen",
+        "phone": "(714) 374-4408",
+        "place_id": "ChIJU-Hx4EEh3YARX-o9E_Xdnbc",
+        "primary_type": "fast_food_restaurant",
+        "specials_checked_at": "2026-09-16T22:42:29Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/3-piece-chicken-strip-meal-deal/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/7-meal-deal/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/cheeseburger-meal-deal/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/food/meal-deals/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/fr-ca/menu/10-blizzard-meal-deal-blizzard-cup/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "confectionery",
+          "food_store",
+          "restaurant",
+          "food",
+          "store",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://www.dairyqueen.com/us-en/Locator/Detail/?localechange=1&store-id=2852"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "5332415eeaae035ad04feb3b42e32fb328216b1b268664105fe112f659e24b74",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday",
+            "sunday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Includes an original cheeseburger, fries, a 21 oz. drink, and a small sundae",
+            "Upgrade to a small Blizzard Treat for only $2",
+            "Available at participating DQ locations, plus tax"
+          ],
+          "source_evidence": [
+            "$7 meal deal",
+            "Original Cheeseburger Meal Deal",
+            "bundled our favorites into a can't-miss Original Cheeseburger Meal Deal, available every day."
+          ],
+          "summary": "$7 Original Cheeseburger Meal Deal",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-16T22:45:14Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "18980b69ff087351aee4",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "sitemap",
+        "label": "Specials",
+        "url": "https://www.dairyqueen.com/en-us/menu/cheeseburger-meal-deal/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "102 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=13230975324943936095&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6558632,
+        "longitude": -117.9997436,
+        "name": "Dairy Queen",
+        "phone": "(714) 374-4408",
+        "place_id": "ChIJU-Hx4EEh3YARX-o9E_Xdnbc",
+        "primary_type": "fast_food_restaurant",
+        "specials_checked_at": "2026-09-16T22:42:29Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/3-piece-chicken-strip-meal-deal/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/7-meal-deal/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/cheeseburger-meal-deal/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/food/meal-deals/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/fr-ca/menu/10-blizzard-meal-deal-blizzard-cup/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "confectionery",
+          "food_store",
+          "restaurant",
+          "food",
+          "store",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://www.dairyqueen.com/us-en/Locator/Detail/?localechange=1&store-id=2852"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "9018ba183a8b33a90a467cbbe4a8137eab7e66b9110ba2d50a27b9436ffc2b9b",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes 4 items",
+            "Blizzard upgrade option available"
+          ],
+          "source_evidence": [
+            "$7 Meal Deals (includes 4 items with Blizzard upgrade option)"
+          ],
+          "summary": "$7 Meal Deals (includes 4 items with Blizzard upgrade option)",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-16T22:45:22Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "d9f792f7ca38f071d1de",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "sitemap",
+        "label": "Specials",
+        "url": "https://www.dairyqueen.com/en-us/menu/food/meal-deals/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "102 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=13230975324943936095&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6558632,
+        "longitude": -117.9997436,
+        "name": "Dairy Queen",
+        "phone": "(714) 374-4408",
+        "place_id": "ChIJU-Hx4EEh3YARX-o9E_Xdnbc",
+        "primary_type": "fast_food_restaurant",
+        "specials_checked_at": "2026-09-16T22:42:29Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/3-piece-chicken-strip-meal-deal/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/7-meal-deal/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/cheeseburger-meal-deal/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/food/meal-deals/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/fr-ca/menu/10-blizzard-meal-deal-blizzard-cup/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "confectionery",
+          "food_store",
+          "restaurant",
+          "food",
+          "store",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://www.dairyqueen.com/us-en/Locator/Detail/?localechange=1&store-id=2852"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "b4ef7c6112cd423c805eb2c3c714f7d88701b08d75aa519f3e0666ca8001610d",
+      "deals": [],
+      "extracted_at": "2026-09-16T22:45:29Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "1fbbd53f82fc4aa92e21",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "sitemap",
+        "label": "Specials",
+        "url": "https://www.dairyqueen.com/fr-ca/menu/10-blizzard-meal-deal-blizzard-cup/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "102 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=13230975324943936095&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6558632,
+        "longitude": -117.9997436,
+        "name": "Dairy Queen",
+        "phone": "(714) 374-4408",
+        "place_id": "ChIJU-Hx4EEh3YARX-o9E_Xdnbc",
+        "primary_type": "fast_food_restaurant",
+        "specials_checked_at": "2026-09-16T22:42:29Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/3-piece-chicken-strip-meal-deal/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/7-meal-deal/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/cheeseburger-meal-deal/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/en-us/menu/food/meal-deals/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://www.dairyqueen.com/fr-ca/menu/10-blizzard-meal-deal-blizzard-cup/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "confectionery",
+          "food_store",
+          "restaurant",
+          "food",
+          "store",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://www.dairyqueen.com/us-en/Locator/Detail/?localechange=1&store-id=2852"
+      },
+      "status": "no_deals"
     },
     {
       "content_hash": "cb15be2b878d06a5be86477652067b45e285cf7fda62fe5e306b0343864c5b3a",
@@ -11708,17 +12390,130 @@
       "visual_status": "no_deals"
     },
     {
-      "content_hash": "",
-      "deals": [],
-      "error": "RuntimeError: HTTP Error 429: Too Many Requests",
+      "content_hash": "d9a8929664ae00adccdeaf8a3e8ead9dd06d91154b0105bc06c859278566f7ca",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "Only available in the Trenta Lounge",
+            "$2 OFF All Signature Cocktails, Wines by the Glass, and Beer"
+          ],
+          "source_evidence": [
+            "Monday \u2013 Thursday",
+            "5 to 6:30 pm",
+            "All Signature Cocktails, Wines by the Glass, and Beer",
+            "$2 OFF"
+          ],
+          "summary": "Happy Hour: $2 off all Signature Cocktails, Wines by the Glass, and Beer",
+          "time_window": "5:00 PM \u2013 6:30 PM",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Only available in the Trenta Lounge",
+            "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
+            "Price: $20"
+          ],
+          "source_evidence": [
+            "CHARCUTERIE",
+            "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
+            "$20"
+          ],
+          "summary": "Happy Hour Charcuterie for $20",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Only available in the Trenta Lounge",
+            "Fried Calamari/lemon/garlic-chili aioli",
+            "Price: $18"
+          ],
+          "source_evidence": [
+            "CALAMARI FRITTI",
+            "Fried Calamari/lemon/garlic-chili aioli",
+            "$18"
+          ],
+          "summary": "Happy Hour Calamari Fritti for $18",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Only available in the Trenta Lounge",
+            "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
+            "Price: $12"
+          ],
+          "source_evidence": [
+            "CANNOLO SALATO",
+            "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
+            "$12"
+          ],
+          "summary": "Happy Hour Cannolo Salato for $12",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Only available in the Trenta Lounge",
+            "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
+            "Price: $10"
+          ],
+          "source_evidence": [
+            "BRUSCHETTA TRADIZIONALE",
+            "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
+            "$10"
+          ],
+          "summary": "Happy Hour Bruschetta Tradizionale for $10",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-16T22:45:39Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "ec3769ca9d91de54c740",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
         "label": "Learn more",
         "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2026-09-10-17-00"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "1661 Superior Ave Ste d, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -11822,20 +12617,134 @@
         ],
         "website_url": "https://trentapizza.com/"
       },
-      "status": "fetch_failed"
+      "status": "ok"
     },
     {
-      "content_hash": "",
-      "deals": [],
-      "error": "RuntimeError: HTTP Error 429: Too Many Requests",
+      "content_hash": "04bcb3e9bebc1f7c42f4bcef297b138c60d75e0354d65a7949d5dcb7c4e2cc60",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "Only available in the Trenta Lounge",
+            "Applies to all Signature Cocktails, Wines by the Glass, and Beer",
+            "$2 OFF"
+          ],
+          "source_evidence": [
+            "Monday through Thursday",
+            "From 5 to 6:30pm",
+            "All Signature Cocktails, Wines by the Glass, and Beer",
+            "$2 OFF"
+          ],
+          "summary": "Happy Hour: $2 OFF all signature cocktails, wines by the glass, and beer",
+          "time_window": "5:00 PM \u2013 6:30 PM",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Only available in the Trenta Lounge",
+            "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
+            "Price: $20"
+          ],
+          "source_evidence": [
+            "CHARCUTERIE",
+            "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
+            "$20"
+          ],
+          "summary": "Charcuterie Happy Hour Special for $20",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Only available in the Trenta Lounge",
+            "Fried Calamari/lemon/garlic-chili aioli",
+            "Price: $18"
+          ],
+          "source_evidence": [
+            "CALAMARI FRITTI",
+            "Fried Calamari/lemon/garlic-chili aioli",
+            "$18"
+          ],
+          "summary": "Calamari Fritti Happy Hour Special for $18",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Only available in the Trenta Lounge",
+            "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
+            "Price: $12"
+          ],
+          "source_evidence": [
+            "CANNOLO SALATO",
+            "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
+            "$12"
+          ],
+          "summary": "Cannolo Salato Happy Hour Special for $12",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Only available in the Trenta Lounge",
+            "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
+            "Price: $10"
+          ],
+          "source_evidence": [
+            "BRUSCHETTA TRADIZIONALE",
+            "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
+            "$10"
+          ],
+          "summary": "Bruschetta Tradizionale Happy Hour Special for $10",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-16T22:45:50Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "c5dfe3a5e43aa69be29a",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
         "label": "Happy Hour | Mon - Thur 5pm - 6:30pm",
         "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2027-02-16-17-00"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "1661 Superior Ave Ste d, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -11939,7 +12848,7 @@
         ],
         "website_url": "https://trentapizza.com/"
       },
-      "status": "fetch_failed"
+      "status": "ok"
     },
     {
       "content_hash": "eeebac38e7961dd99ee7ac4bbd0df1086b2dfde95025cb2d5114ed2d4a2e3e42",
@@ -12624,121 +13533,6 @@
     },
     {
       "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
-      "deals": [],
-      "extracted_at": "2026-09-10T04:22:32Z",
-      "key": "a3ff1d2a0f58f65098fd",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "high",
-        "label": "Specials",
-        "url": "http://www.wienerschnitzel.com/coupons/"
-      },
-      "rejected_candidates": [
-        "$3 Pretzel Bun Chili Dog Coupon",
-        "$5 Corn Dog, Small Fries & Small Soda",
-        "$6 Two Chili Dogs & Chili Cheese Fries",
-        "$6 Two Sundaes Coupon",
-        "$5 Two Chili Dogs & Medium Fries",
-        "$6 Regular Size Two Classic Chili Cheese Fries",
-        "$6 Corn Dog, Chili Dog & Chili Cheese Fries",
-        "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
-        "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
-        "$2 Off Any Chili Cheese Fries",
-        "$16 Four Chili Dogs & Two Chili Cheese Fries",
-        "$20 Ten Chili Cheese Dogs"
-      ],
-      "restaurant": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "name": "Wienerschnitzel",
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
-        "primary_type": "fast_food_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "http://www.wienerschnitzel.com/coupons/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-          }
-        ],
-        "types": [
-          "fast_food_restaurant",
-          "ice_cream_shop",
-          "dessert_shop",
-          "hot_dog_restaurant",
-          "american_restaurant",
-          "confectionery",
-          "food_store",
-          "store",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
-      },
-      "status": "no_deals"
-    },
-    {
-      "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
       "deals": [
         {
           "ai_confidence": 0.9,
@@ -13060,98 +13854,84 @@
       "status": "ok"
     },
     {
-      "content_hash": "0702eb0b0f7ed6ce6ef21efeecc1bc7b27bf7ade11c95d12aa2fcf93fed22826",
-      "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Price: $3",
-            "Item: Original Pretzel Bun Chili Dog only",
-            "Cheese extra",
-            "Coupon good for TWO orders on same visit and must be surrendered at time of purchase",
-            "Tax extra",
-            "Not valid with any other offer, discount or coupon",
-            "Good at participating restaurants only"
-          ],
-          "source_evidence": [
-            "$3 - Pretzel Bun Chili Dog - 230",
-            "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel",
-            "Original Pretzel Bun Chili Dog only. (Cheese extra.)",
-            "Coupon good for TWO orders on same visit and"
-          ],
-          "summary": "$3 Pretzel Bun Chili Dog",
-          "time_window": null,
-          "valid_through": null
-        }
-      ],
-      "extracted_at": "2026-09-10T04:22:58Z",
-      "key": "0c293109935b1dadb298",
+      "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
+      "deals": [],
+      "extracted_at": "2026-09-10T04:22:32Z",
+      "key": "a3ff1d2a0f58f65098fd",
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
         "label": "Specials",
-        "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+        "url": "http://www.wienerschnitzel.com/coupons/"
       },
-      "rejected_candidates": [],
+      "rejected_candidates": [
+        "$3 Pretzel Bun Chili Dog Coupon",
+        "$5 Corn Dog, Small Fries & Small Soda",
+        "$6 Two Chili Dogs & Chili Cheese Fries",
+        "$6 Two Sundaes Coupon",
+        "$5 Two Chili Dogs & Medium Fries",
+        "$6 Regular Size Two Classic Chili Cheese Fries",
+        "$6 Corn Dog, Chili Dog & Chili Cheese Fries",
+        "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
+        "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
+        "$2 Off Any Chili Cheese Fries",
+        "$16 Four Chili Dogs & Two Chili Cheese Fries",
+        "$20 Ten Chili Cheese Dogs"
+      ],
       "restaurant": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
         "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "hours": {
           "friday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "monday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "saturday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "sunday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "thursday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "tuesday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "wednesday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ]
         },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
         "name": "Wienerschnitzel",
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0",
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
         "primary_type": "fast_food_restaurant",
         "specials_pages": [
           {
@@ -13184,7 +13964,133 @@
           "point_of_interest",
           "establishment"
         ],
-        "website_url": "http://www.wienerschnitzel.com/location/351-warner-springdale-huntington-bch-5966-warner-avenue-huntington-bch-ca-92649/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+      },
+      "status": "no_deals"
+    },
+    {
+      "content_hash": "0702eb0b0f7ed6ce6ef21efeecc1bc7b27bf7ade11c95d12aa2fcf93fed22826",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Price is $3",
+            "Original Pretzel Bun Chili Dog only",
+            "Cheese extra",
+            "Coupon good for TWO orders on same visit",
+            "Must be surrendered at time of purchase",
+            "Tax extra"
+          ],
+          "source_evidence": [
+            "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
+            "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
+          ],
+          "summary": "$3 Pretzel Bun Chili Dog",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T04:22:51Z",
+      "key": "48fe406dac90084e8078",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Specials",
+        "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "name": "Wienerschnitzel",
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
+        "primary_type": "fast_food_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "http://www.wienerschnitzel.com/coupons/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "hot_dog_restaurant",
+          "american_restaurant",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "ok"
     },
@@ -13326,24 +14232,27 @@
             "food"
           ],
           "details": [
-            "Price is $3",
-            "Original Pretzel Bun Chili Dog only",
+            "Price: $3",
+            "Item: Original Pretzel Bun Chili Dog only",
             "Cheese extra",
-            "Coupon good for TWO orders on same visit",
-            "Must be surrendered at time of purchase",
-            "Tax extra"
+            "Coupon good for TWO orders on same visit and must be surrendered at time of purchase",
+            "Tax extra",
+            "Not valid with any other offer, discount or coupon",
+            "Good at participating restaurants only"
           ],
           "source_evidence": [
-            "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
-            "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
+            "$3 - Pretzel Bun Chili Dog - 230",
+            "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel",
+            "Original Pretzel Bun Chili Dog only. (Cheese extra.)",
+            "Coupon good for TWO orders on same visit and"
           ],
           "summary": "$3 Pretzel Bun Chili Dog",
           "time_window": null,
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-10T04:22:51Z",
-      "key": "48fe406dac90084e8078",
+      "extracted_at": "2026-09-10T04:22:58Z",
+      "key": "0c293109935b1dadb298",
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
@@ -13352,59 +14261,59 @@
       },
       "rejected_candidates": [],
       "restaurant": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
         "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "hours": {
           "friday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "monday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "saturday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "sunday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "thursday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "tuesday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "wednesday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ]
         },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
+        "latitude": 33.715162,
+        "longitude": -118.024705,
         "name": "Wienerschnitzel",
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0",
         "primary_type": "fast_food_restaurant",
         "specials_pages": [
           {
@@ -13437,134 +14346,7 @@
           "point_of_interest",
           "establishment"
         ],
-        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
-      },
-      "status": "ok"
-    },
-    {
-      "content_hash": "cee065429487d19b0abcec053c23c8449451a81351a55a69463b50cf73a42609",
-      "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "Includes a corn dog, small fries, and small soda for $5",
-            "Tax extra",
-            "Good for two orders on same visit",
-            "Must be surrendered at time of purchase",
-            "Not valid with any other offer, discount or coupon",
-            "Not valid in Sacramento, Stockton & Modesto areas"
-          ],
-          "source_evidence": [
-            "$5 - Corn Dog, Small Fries and Small Soda Coupon",
-            "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
-          ],
-          "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
-          "time_window": null,
-          "valid_through": null
-        }
-      ],
-      "extracted_at": "2026-09-10T04:23:29Z",
-      "key": "b722649edfad301a9018",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "high",
-        "label": "Specials",
-        "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-      },
-      "rejected_candidates": [],
-      "restaurant": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "name": "Wienerschnitzel",
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
-        "primary_type": "fast_food_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "http://www.wienerschnitzel.com/coupons/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-          }
-        ],
-        "types": [
-          "fast_food_restaurant",
-          "ice_cream_shop",
-          "dessert_shop",
-          "hot_dog_restaurant",
-          "american_restaurant",
-          "confectionery",
-          "food_store",
-          "store",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+        "website_url": "http://www.wienerschnitzel.com/location/351-warner-springdale-huntington-bch-5966-warner-avenue-huntington-bch-ca-92649/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "ok"
     },
@@ -13693,6 +14475,133 @@
           "establishment"
         ],
         "website_url": "http://www.wienerschnitzel.com/location/239-beach-blvd-talbert-huntington-beach-18012-beach-blvd-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "cee065429487d19b0abcec053c23c8449451a81351a55a69463b50cf73a42609",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Includes a corn dog, small fries, and small soda for $5",
+            "Tax extra",
+            "Good for two orders on same visit",
+            "Must be surrendered at time of purchase",
+            "Not valid with any other offer, discount or coupon",
+            "Not valid in Sacramento, Stockton & Modesto areas"
+          ],
+          "source_evidence": [
+            "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+            "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
+          ],
+          "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T04:23:29Z",
+      "key": "b722649edfad301a9018",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Specials",
+        "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "name": "Wienerschnitzel",
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
+        "primary_type": "fast_food_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "http://www.wienerschnitzel.com/coupons/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "hot_dog_restaurant",
+          "american_restaurant",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "ok"
     },
@@ -16207,94 +17116,6 @@
     {
       "content_hash": "b9fce990c86015013d3f8f9f090495f55cbab7189f0fab11bcd8108262f139a4",
       "deals": [],
-      "extracted_at": "2026-09-10T19:04:54Z",
-      "key": "19cec4e1074e8465423c",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "medium",
-        "label": "Website specials",
-        "url": "http://www.carlitosdiner.com/"
-      },
-      "rejected_candidates": [
-        "Menudo and Pozole Everyday"
-      ],
-      "restaurant": {
-        "address": "7451 Warner Ave G, Huntington Beach, CA 92647, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=436858277318907960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "16:00",
-              "open": "08:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.716098,
-        "longitude": -117.99848000000001,
-        "name": "Carlitos Diner",
-        "phone": "(714) 841-9966",
-        "place_id": "ChIJB5cwb4om3YAROFjI5EkIEAY",
-        "primary_type": "mexican_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "medium",
-            "label": "Website specials",
-            "url": "http://www.carlitosdiner.com/"
-          }
-        ],
-        "types": [
-          "mexican_restaurant",
-          "american_restaurant",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.carlitosdiner.com/"
-      },
-      "status": "no_deals"
-    },
-    {
-      "content_hash": "b9fce990c86015013d3f8f9f090495f55cbab7189f0fab11bcd8108262f139a4",
-      "deals": [],
       "extracted_at": "2026-09-10T19:05:02Z",
       "key": "a48cca227805c135b5be",
       "model": "gemini-3.5-flash-lite",
@@ -16376,6 +17197,94 @@
           "diner",
           "breakfast_restaurant",
           "hamburger_restaurant",
+          "american_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.carlitosdiner.com/"
+      },
+      "status": "no_deals"
+    },
+    {
+      "content_hash": "b9fce990c86015013d3f8f9f090495f55cbab7189f0fab11bcd8108262f139a4",
+      "deals": [],
+      "extracted_at": "2026-09-10T19:04:54Z",
+      "key": "19cec4e1074e8465423c",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "medium",
+        "label": "Website specials",
+        "url": "http://www.carlitosdiner.com/"
+      },
+      "rejected_candidates": [
+        "Menudo and Pozole Everyday"
+      ],
+      "restaurant": {
+        "address": "7451 Warner Ave G, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=436858277318907960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "16:00",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.716098,
+        "longitude": -117.99848000000001,
+        "name": "Carlitos Diner",
+        "phone": "(714) 841-9966",
+        "place_id": "ChIJB5cwb4om3YAROFjI5EkIEAY",
+        "primary_type": "mexican_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "medium",
+            "label": "Website specials",
+            "url": "http://www.carlitosdiner.com/"
+          }
+        ],
+        "types": [
+          "mexican_restaurant",
           "american_restaurant",
           "restaurant",
           "food",
@@ -16955,6 +17864,7 @@
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
+        "discovered_via": "page_text",
         "label": "Website specials",
         "url": "https://crumblcookies.com/stores/ca/anaheim-area/cacostamesa?utm_source=google+business&utm_medium=profile&utm_campaign=CRUMBL-US+|+GOOGLE+BUSINESS+|+STORE+PAGE+|+ONGOING+|+CONSIDERATION+|+PROFILE"
       },
@@ -17062,6 +17972,7 @@
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
+        "discovered_via": "page_text",
         "label": "Website specials",
         "url": "https://crumblcookies.com/stores/ca/anaheim-area/cafountainvalley?utm_source=google+business&utm_medium=profile&utm_campaign=CRUMBL-US+%7C+GOOGLE+BUSINESS+%7C+STORE+PAGE+%7C+ONGOING+%7C+CONSIDERATION+%7C+PROFILE"
       },
@@ -17196,6 +18107,7 @@
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
+        "discovered_via": "site_link",
         "label": "Specials",
         "url": "https://darbarigrill.com/specials/"
       },
@@ -17877,17 +18789,19 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "",
+      "content_hash": "559ec59d64308283008716fc04a0faacd460b7a402a3bdef26a4b7d50b43c7d9",
       "deals": [],
-      "error": "RuntimeError: HTTP Error 429: Too Many Requests",
+      "extracted_at": "2026-09-16T22:44:09Z",
       "extraction_version": 4,
-      "fetch_mode": "static",
+      "fetch_mode": "visual",
       "key": "ddf585bfb1abde56db2b",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://www.dickchurchs.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "2698 Newport Blvd, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -17984,7 +18898,24 @@
         ],
         "website_url": "https://www.dickchurchs.com/"
       },
-      "status": "fetch_failed"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 476525,
+          "content_hash": "40e9a7edfb2d79a0dd4f86f01b84a44ae33061b3c89d0f52c84a6cee09fe74a2",
+          "mime_type": "image/png",
+          "url": "https://static.parastorage.com/services/santa-resources/resources/viewer/editorUI/fonts.v19.png"
+        },
+        {
+          "byte_size": 239613,
+          "content_hash": "a2d98691dd120ab266e5bb14350a52094424699227635a690bb3dbe119dada4e",
+          "mime_type": "image/png",
+          "url": "https://static.wixstatic.com/media/e9019d_0b5a8181cfda4521bfe8152660c5f2d1~mv2.png"
+        }
+      ],
+      "visual_checked_at": "2026-09-16T22:44:09Z",
+      "visual_hash": "86d5841fa98810ceb1403e92a325c4e92ede549767002f0558d34256747ffb81",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "5d197452931c38a0fb46843866829a07d8b07081d42dd60e448df3b4ff1cfe08",
@@ -22023,7 +22954,9 @@
     {
       "content_hash": "638334a63658f0b2527e04b06ba221faddae59bbffeca0415d986a16e6cbbbe5",
       "deals": [],
-      "extracted_at": "2026-09-11T17:57:49Z",
+      "extracted_at": "2026-09-16T22:44:19Z",
+      "extraction_version": 4,
+      "fetch_mode": "visual",
       "key": "ff141cdaaf2be3a8700d",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -22103,7 +23036,30 @@
         ],
         "website_url": "http://www.lacapillarestaurant.com/"
       },
-      "status": "no_deals"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 140898,
+          "content_hash": "5f80c787014669820acbe7c9b4cc77f1cf3344a7f260130954a07ac164711884",
+          "mime_type": "image/jpeg",
+          "url": "https://lacapillarestaurant.com/cdn/shop/files/39281028_693171457707230_3717963896053563392_n.jpg?v=1723350341&width=3200"
+        },
+        {
+          "byte_size": 393051,
+          "content_hash": "f82f3e3dd3780d5edbc2a16ce477c13b4e7fb9282b240ba7e8fe0bca37bf4f39",
+          "mime_type": "image/jpeg",
+          "url": "https://lacapillarestaurant.com/cdn/shop/files/203630984_320429469617148_8654337238212013605_n.jpg?v=1723350329&width=3200"
+        },
+        {
+          "byte_size": 40396,
+          "content_hash": "66259ad283ad21d3bf809acc3d7f5e031f0e4e5e8b6c784c0d837f5850b66683",
+          "mime_type": "image/webp",
+          "url": "https://lacapillarestaurant.com/cdn/shop/files/La_Capilla_Full_Logo_1.png?height=628&pad_color=ffffff&v=1723345288&width=1200"
+        }
+      ],
+      "visual_checked_at": "2026-09-16T22:44:19Z",
+      "visual_hash": "1f6d90f770124121296a9558bbcef35c5e65a44f369a2f76ee5622b80d31501d",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "536b578587a0f71da8cb75d4731a521584bb7dffaf65355c997aa039cffd01c6",
@@ -22203,9 +23159,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "29750f06df106ba38575ca3c168e3f3e08e72916abf8afedecca37cf0c11fb4a",
+      "content_hash": "d732879821ca4ec92ed1066bc9063087b7f873a3707016c84bda520dccae857a",
       "deals": [],
-      "extracted_at": "2026-09-16T18:34:17Z",
+      "extracted_at": "2026-09-16T22:45:57Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "b9be67241d188f5a98ba",
@@ -23824,7 +24780,9 @@
     {
       "content_hash": "b57d9f8711aec2883e0901a16806a769436efd4d637e8f56386f613f3296d0d1",
       "deals": [],
-      "extracted_at": "2026-09-12T17:27:44Z",
+      "extracted_at": "2026-09-16T22:44:29Z",
+      "extraction_version": 4,
+      "fetch_mode": "visual",
       "key": "7812d83a51c38ac7e9a3",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -23937,7 +24895,30 @@
         ],
         "website_url": "https://amusecostamesa.com/"
       },
-      "status": "no_deals"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 5226,
+          "content_hash": "f3965d7718ffd0c038f323e09e2717f08ea729e1639c067e529f46c6c2d8bed5",
+          "mime_type": "image/png",
+          "url": "https://amusecostamesa.com/wp-content/plugins/ultimate-elementor/assets/img/ghost.png"
+        },
+        {
+          "byte_size": 4431,
+          "content_hash": "1eba40ffd2f4d4945ce4f04c69a5aec1706993c0185c4b5d02cc0dac10d6ce1d",
+          "mime_type": "image/png",
+          "url": "https://amusecostamesa.com/wp-content/plugins/ultimate-elementor/assets/img/gift.png"
+        },
+        {
+          "byte_size": 2286,
+          "content_hash": "3ad0d8baad2706db76f48b90da0fa6931d76cd02db6d0d7bdd1924f1698249b4",
+          "mime_type": "image/png",
+          "url": "https://amusecostamesa.com/wp-content/plugins/ultimate-elementor/assets/img/moon.png"
+        }
+      ],
+      "visual_checked_at": "2026-09-16T22:44:29Z",
+      "visual_hash": "e2c66ad2199a7620eb93ed7f105285a3bfc470fb03792bbe57d1cda8e6a9abb0",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "83f75fea2761070bd9a5a17950d9deaff6916ec367cc8b68e27a8200ba08290a",
@@ -26197,7 +27178,9 @@
     {
       "content_hash": "71dabdd26b84f50a93d86c7339986fe8aac60b8afb784026f215a46d1ecee976",
       "deals": [],
-      "extracted_at": "2026-09-13T17:39:11Z",
+      "extracted_at": "2026-09-16T22:44:50Z",
+      "extraction_version": 4,
+      "fetch_mode": "visual",
       "key": "79d93197f00175e557e3",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -26287,7 +27270,30 @@
         ],
         "website_url": "https://paulscoffeeshopfountainvalley.com/"
       },
-      "status": "no_deals"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 167156,
+          "content_hash": "9a8d3e45827a3f588262479598b12cb488b2238392f27fadc47ff663b5c0010a",
+          "mime_type": "image/png",
+          "url": "https://paulscoffeeshopfountainvalley.com/wp-content/uploads/2014/04/banner1c.png"
+        },
+        {
+          "byte_size": 7390,
+          "content_hash": "4bc76bde1a2f280a13b82098d1a1262793bfcb1b3c99df53091b1a9570e7a908",
+          "mime_type": "image/jpeg",
+          "url": "https://paulscoffeeshopfountainvalley.com/wp-content/uploads/2014/06/flag7.jpg"
+        },
+        {
+          "byte_size": 1487342,
+          "content_hash": "335e0a8bb93a31935d937e368be871907e79d5429f81e3ba66f9b16a41472b02",
+          "mime_type": "image/jpeg",
+          "url": "https://paulscoffeeshopfountainvalley.com/wp-content/uploads/2014/04/flagbackground.jpg"
+        }
+      ],
+      "visual_checked_at": "2026-09-16T22:44:50Z",
+      "visual_hash": "99bfb5921120e7af823ed698f5550548d34046327e99996d738fff19b32899a9",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "b6d9c34beb9caa7e1affbe605016efc26cbd9e86325e20510b0b4dbcff1a01bc",
@@ -29287,17 +30293,17 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "e2b8acbc58dc539ecc12f7fc63bab88864f6da9b7fc830f2ca892d6a1f8e7d44",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-14T19:38:17Z",
+      "error": "RuntimeError: HTTP Error 403: Forbidden",
+      "extraction_version": 4,
+      "fetch_mode": "static",
       "key": "0a843a8f21c07bcd5892",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://santamariabbqgrill.com/"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "7144 Edinger Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -29379,7 +30385,7 @@
         ],
         "website_url": "https://santamariabbqgrill.com/"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
       "content_hash": "3bc8bfed2ef118bcbcb209ae7266d1574fcdbe3c8ffb47699739b51422070320",
@@ -32496,35 +33502,17 @@
       "status": "ok"
     },
     {
-      "content_hash": "48c70f79362f4ca842f855b314b8989e1e9ca825d74e2e4f8fca2e1587b564ed",
-      "deals": [
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Includes 10 favorites each priced at $3 or less"
-          ],
-          "source_evidence": [
-            "The new Luxe Value Menu brings 10 favorites, each $3 or less."
-          ],
-          "summary": "Luxe Value Menu featuring 10 favorites for $3 or less",
-          "time_window": null,
-          "valid_through": null
-        }
-      ],
-      "extracted_at": "2026-09-14T22:11:49Z",
+      "content_hash": "",
+      "deals": [],
+      "error": "RuntimeError: <urlopen error [Errno 104] Connection reset by peer>",
+      "extraction_version": 4,
+      "fetch_mode": "static",
       "key": "bbef84dd537f4ae22e1d",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://locations.tacobell.com/ca/huntington-beach/19002-beach-blvd.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=028708&utm_content=website&y_source=1_NjE0NTU2Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "19002 Beach Blvd, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -32602,7 +33590,7 @@
         ],
         "website_url": "https://locations.tacobell.com/ca/huntington-beach/19002-beach-blvd.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=028708&utm_content=website&y_source=1_NjE0NTU2Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
-      "status": "ok"
+      "status": "fetch_failed"
     },
     {
       "content_hash": "944a712944284e0a75073a4d32352b65c7280b5963ae8cc9ad1e47c2cfff247e",
@@ -32806,9 +33794,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "026154986706b8e0504f0c11625679c19d330f67ed428db0d99ecb908527b5d0",
+      "content_hash": "47881821d9eddc8343ac8a773ab9ae5fb896068a2d9e1af5f5eeac34323719e3",
       "deals": [],
-      "extracted_at": "2026-09-16T18:34:24Z",
+      "extracted_at": "2026-09-16T22:46:25Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "23d0d0c520f845b3127a",
@@ -34971,7 +35959,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "67ae5c28cdafb8b38a983357770bfd6b0c69a1b151a9b2a58abc57e395491d90",
+      "content_hash": "e6754a1dc4f3cb1feef7eb4ad092f0d5a93dfa699ed0c279daa21d88b9347894",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -34986,42 +35974,19 @@
           ],
           "applies_month_days": [],
           "categories": [
-            "food",
-            "general"
+            "food"
           ],
           "details": [
-            "Price: $1.99",
-            "Items: 10 piece nuggets",
-            "Requires a purchase",
-            "Must be redeemed via the Wendy's App",
-            "Available daily"
+            "Score a $1.99 10 PC Nuggs with purchase via daily digital offer",
+            "Offer must be redeemed in the Wendy's App",
+            "App download and account registration required",
+            "Offer only available at participating U.S. Wendy's for a limited time"
           ],
           "source_evidence": [
             "App offer 10 piece Nuggs for $1.99 with purchase",
             "This deal doesn\u2019t take days off \u2014 score a $1.99 10 PC Nuggs with purchase via daily digital offer."
           ],
-          "summary": "10-piece nuggets for $1.99 with purchase",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food",
-            "general"
-          ],
-          "details": [
-            "Price: $1.99",
-            "Items: Kids' Meal",
-            "Requires a purchase coupon",
-            "Includes Frosty Frights toys"
-          ],
-          "source_evidence": [
-            "use your $1.99 Wendy\u2019s Kids\u2019 Meal\u00ae with purchase coupon to save and start collecting all 6 characters"
-          ],
-          "summary": "$1.99 Wendy's Kids' Meal with purchase coupon",
+          "summary": "10 piece Nuggs for $1.99 with purchase via app",
           "time_window": null,
           "valid_through": null
         },
@@ -35035,19 +36000,19 @@
             "general"
           ],
           "details": [
-            "Discount: $0 delivery fee",
-            "Applies on Saturdays",
-            "Order via the Wendy's app during college football season"
+            "Enjoy $0 delivery fee all day Saturday when you order via the app",
+            "Limited time only at participating U.S. Wendy's"
           ],
           "source_evidence": [
-            "enjoy $0 delivery fee all day Saturday when you order via the app."
+            "And during college football season, enjoy $0 delivery fee all day Saturday when you order via the app."
           ],
           "summary": "$0 delivery fee all day Saturday during college football season",
           "time_window": "all day",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-14T22:53:07Z",
+      "extracted_at": "2026-09-16T22:46:34Z",
+      "extraction_version": 4,
       "fetch_mode": "static",
       "key": "9e99b696b7c5f8c2a655",
       "model": "gemini-3.5-flash-lite",
@@ -35056,7 +36021,9 @@
         "label": "Website specials",
         "url": "https://www.wendys.com/"
       },
-      "rejected_candidates": [],
+      "rejected_candidates": [
+        "Save $3 on delivery orders of $20+"
+      ],
       "restaurant": {
         "address": "16401 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -35274,17 +36241,44 @@
       "status": "fetch_failed"
     },
     {
-      "content_hash": "",
-      "deals": [],
-      "error": "RuntimeError: HTTP Error 429: Too Many Requests",
+      "content_hash": "d9a1a8485b32056237f510a3f7c075d7262092804a24c37acf18aecf9897ef5f",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Available Monday through Friday between 11am and 6pm."
+          ],
+          "source_evidence": [
+            "Happy Hour: Mon-Fri 11am-6pm"
+          ],
+          "summary": "Happy Hour: Monday through Friday from 11am to 6pm",
+          "time_window": "11am-6pm",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-16T22:46:42Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "547b2e3b74ed9930d315",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "SPECIAL EVENTS",
         "url": "https://www.goosebar.com/specialevents"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "436 E 17th St, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -35369,7 +36363,7 @@
         ],
         "website_url": "http://www.goosebar.com/"
       },
-      "status": "fetch_failed"
+      "status": "ok"
     },
     {
       "content_hash": "6926a57b7711d0bfa7dd5c037fc9fd015746dab02efa748737e4b0c19618051f",
@@ -37004,6 +37998,277 @@
         ]
       },
       "url": "https://crivelloristorante.com/happy-hour-menu"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "102 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=13230975324943936095&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6558632,
+        "longitude": -117.9997436,
+        "phone": "(714) 374-4408",
+        "place_id": "ChIJU-Hx4EEh3YARX-o9E_Xdnbc"
+      },
+      "name": "Dairy Queen",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Choose between an original cheeseburger or Chicken Strips",
+              "Includes crispy, full-size regular fries",
+              "Includes a drink",
+              "Includes a sundae made with DQ soft serve",
+              "Price is $7",
+              "Available at participating U.S. locations"
+            ],
+            "source_evidence": [
+              "$7 Meal Deal",
+              "Our $7 Meal Deal is available all day, every day."
+            ],
+            "summary": "$7 Meal Deal with cheeseburger or chicken strips, fries, drink, and sundae",
+            "time_window": "all day",
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.dairyqueen.com/en-us/menu/7-meal-deal/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "102 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=13230975324943936095&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6558632,
+        "longitude": -117.9997436,
+        "phone": "(714) 374-4408",
+        "place_id": "ChIJU-Hx4EEh3YARX-o9E_Xdnbc"
+      },
+      "name": "Dairy Queen",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Includes an original cheeseburger, fries, a 21 oz. drink, and a small sundae",
+              "Upgrade to a small Blizzard Treat for only $2",
+              "Available at participating DQ locations, plus tax"
+            ],
+            "source_evidence": [
+              "$7 meal deal",
+              "Original Cheeseburger Meal Deal",
+              "bundled our favorites into a can't-miss Original Cheeseburger Meal Deal, available every day."
+            ],
+            "summary": "$7 Original Cheeseburger Meal Deal",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.dairyqueen.com/en-us/menu/cheeseburger-meal-deal/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "102 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=13230975324943936095&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:30",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6558632,
+        "longitude": -117.9997436,
+        "phone": "(714) 374-4408",
+        "place_id": "ChIJU-Hx4EEh3YARX-o9E_Xdnbc"
+      },
+      "name": "Dairy Queen",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Includes 4 items",
+              "Blizzard upgrade option available"
+            ],
+            "source_evidence": [
+              "$7 Meal Deals (includes 4 items with Blizzard upgrade option)"
+            ],
+            "summary": "$7 Meal Deals (includes 4 items with Blizzard upgrade option)",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.dairyqueen.com/en-us/menu/food/meal-deals/"
     },
     {
       "city": "Costa Mesa",
@@ -38836,6 +40101,311 @@
       "url": "https://www.stonefiregrill.com/promotions/"
     },
     {
+      "city": "Costa Mesa",
+      "location": {
+        "address": "1661 Superior Ave Ste d, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=6654488974885952960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.6348445,
+        "longitude": -117.92543880000001,
+        "phone": "(949) 270-6652",
+        "place_id": "ChIJaxicd5Ah3YARwJ3UNXd-WVw"
+      },
+      "name": "Trenta Pizza & Cucina and Trenta Lounge",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "drink"
+            ],
+            "details": [
+              "Only available in the Trenta Lounge",
+              "$2 OFF All Signature Cocktails, Wines by the Glass, and Beer"
+            ],
+            "source_evidence": [
+              "Monday \u2013 Thursday",
+              "5 to 6:30 pm",
+              "All Signature Cocktails, Wines by the Glass, and Beer",
+              "$2 OFF"
+            ],
+            "summary": "Happy Hour: $2 off all Signature Cocktails, Wines by the Glass, and Beer",
+            "time_window": "5:00 PM \u2013 6:30 PM",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Only available in the Trenta Lounge",
+              "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
+              "Price: $20"
+            ],
+            "source_evidence": [
+              "CHARCUTERIE",
+              "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
+              "$20"
+            ],
+            "summary": "Happy Hour Charcuterie for $20",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Only available in the Trenta Lounge",
+              "Fried Calamari/lemon/garlic-chili aioli",
+              "Price: $18"
+            ],
+            "source_evidence": [
+              "CALAMARI FRITTI",
+              "Fried Calamari/lemon/garlic-chili aioli",
+              "$18"
+            ],
+            "summary": "Happy Hour Calamari Fritti for $18",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Only available in the Trenta Lounge",
+              "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
+              "Price: $12"
+            ],
+            "source_evidence": [
+              "CANNOLO SALATO",
+              "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
+              "$12"
+            ],
+            "summary": "Happy Hour Cannolo Salato for $12",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Only available in the Trenta Lounge",
+              "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
+              "Price: $10"
+            ],
+            "source_evidence": [
+              "BRUSCHETTA TRADIZIONALE",
+              "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
+              "$10"
+            ],
+            "summary": "Happy Hour Bruschetta Tradizionale for $10",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2026-09-10-17-00"
+    },
+    {
+      "city": "Costa Mesa",
+      "location": {
+        "address": "1661 Superior Ave Ste d, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=6654488974885952960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.6348445,
+        "longitude": -117.92543880000001,
+        "phone": "(949) 270-6652",
+        "place_id": "ChIJaxicd5Ah3YARwJ3UNXd-WVw"
+      },
+      "name": "Trenta Pizza & Cucina and Trenta Lounge",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "drink"
+            ],
+            "details": [
+              "Only available in the Trenta Lounge",
+              "Applies to all Signature Cocktails, Wines by the Glass, and Beer",
+              "$2 OFF"
+            ],
+            "source_evidence": [
+              "Monday through Thursday",
+              "From 5 to 6:30pm",
+              "All Signature Cocktails, Wines by the Glass, and Beer",
+              "$2 OFF"
+            ],
+            "summary": "Happy Hour: $2 OFF all signature cocktails, wines by the glass, and beer",
+            "time_window": "5:00 PM \u2013 6:30 PM",
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2027-02-16-17-00"
+    },
+    {
       "city": "Huntington Beach",
       "location": {
         "address": "714 Adams Ave Unit 101, Huntington Beach, CA 92648, USA",
@@ -39511,6 +41081,181 @@
     {
       "city": "Huntington Beach",
       "location": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
+      },
+      "name": "Wienerschnitzel",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Price is $3",
+              "Original Pretzel Bun Chili Dog only",
+              "Cheese extra",
+              "Coupon good for TWO orders on same visit",
+              "Must be surrendered at time of purchase",
+              "Tax extra"
+            ],
+            "source_evidence": [
+              "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
+              "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
+            ],
+            "summary": "$3 Pretzel Bun Chili Dog",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+      },
+      "name": "Wienerschnitzel",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Price: $3",
+              "Item: Original Pretzel Bun Chili Dog",
+              "Cheese is extra",
+              "Coupon good for TWO orders on same visit and must be surrendered at time of purchase",
+              "Tax extra",
+              "Not valid with any other offer, discount or coupon",
+              "Good at participating restaurants only"
+            ],
+            "source_evidence": [
+              "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
+              "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
+            ],
+            "summary": "$3 Pretzel Bun Chili Dog coupon",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
         "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
         "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
@@ -39663,115 +41408,29 @@
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
-              "food"
+              "food",
+              "drink"
             ],
             "details": [
-              "Price: $3",
-              "Item: Original Pretzel Bun Chili Dog",
-              "Cheese is extra",
-              "Coupon good for TWO orders on same visit and must be surrendered at time of purchase",
+              "Price: $5",
+              "Includes a corn dog, small fries, and a small soda",
+              "Coupon good for two orders on the same visit",
               "Tax extra",
-              "Not valid with any other offer, discount or coupon",
-              "Good at participating restaurants only"
-            ],
-            "source_evidence": [
-              "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
-              "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
-            ],
-            "summary": "$3 Pretzel Bun Chili Dog coupon",
-            "time_window": null,
-            "valid_through": null
-          }
-        ]
-      },
-      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
-      },
-      "name": "Wienerschnitzel",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Price is $3",
-              "Original Pretzel Bun Chili Dog only",
-              "Cheese extra",
-              "Coupon good for TWO orders on same visit",
               "Must be surrendered at time of purchase",
-              "Tax extra"
+              "Not valid with any other offer, discount or coupon",
+              "Not valid in Sacramento, Stockton & Modesto areas"
             ],
             "source_evidence": [
-              "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
-              "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
+              "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+              "$5 - Corn Dog, Small Fries and Small Soda - 251"
             ],
-            "summary": "$3 Pretzel Bun Chili Dog",
+            "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
             "time_window": null,
             "valid_through": null
           }
         ]
       },
-      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+      "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
     },
     {
       "city": "Huntington Beach",
@@ -39852,95 +41511,6 @@
             "source_evidence": [
               "$5 - Corn Dog, Small Fries and Small Soda Coupon",
               "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
-            ],
-            "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
-            "time_window": null,
-            "valid_through": null
-          }
-        ]
-      },
-      "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
-        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.7009621,
-        "longitude": -117.9886627,
-        "phone": "(714) 596-0478",
-        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
-      },
-      "name": "Wienerschnitzel",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "Price: $5",
-              "Includes a corn dog, small fries, and a small soda",
-              "Coupon good for two orders on the same visit",
-              "Tax extra",
-              "Must be surrendered at time of purchase",
-              "Not valid with any other offer, discount or coupon",
-              "Not valid in Sacramento, Stockton & Modesto areas"
-            ],
-            "source_evidence": [
-              "$5 - Corn Dog, Small Fries and Small Soda Coupon",
-              "$5 - Corn Dog, Small Fries and Small Soda - 251"
             ],
             "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
             "time_window": null,
@@ -46307,87 +47877,6 @@
     {
       "city": "Huntington Beach",
       "location": {
-        "address": "19002 Beach Blvd, Huntington Beach, CA 92648, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=15563038828543356456&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "05:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "04:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "05:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "04:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "04:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "04:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "04:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.686433699999995,
-        "longitude": -117.98823819999998,
-        "phone": "(714) 593-9211",
-        "place_id": "ChIJH7Sa184m3YARKC7wqFsF-9c"
-      },
-      "name": "Taco Bell",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Includes 10 favorites each priced at $3 or less"
-            ],
-            "source_evidence": [
-              "The new Luxe Value Menu brings 10 favorites, each $3 or less."
-            ],
-            "summary": "Luxe Value Menu featuring 10 favorites for $3 or less",
-            "time_window": null,
-            "valid_through": null
-          }
-        ]
-      },
-      "url": "https://locations.tacobell.com/ca/huntington-beach/19002-beach-blvd.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=028708&utm_content=website&y_source=1_NjE0NTU2Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
         "address": "19051 Magnolia St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
         "google_maps_url": "https://maps.google.com/?cid=5466771088419721842&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
@@ -47218,42 +48707,19 @@
             ],
             "applies_month_days": [],
             "categories": [
-              "food",
-              "general"
+              "food"
             ],
             "details": [
-              "Price: $1.99",
-              "Items: 10 piece nuggets",
-              "Requires a purchase",
-              "Must be redeemed via the Wendy's App",
-              "Available daily"
+              "Score a $1.99 10 PC Nuggs with purchase via daily digital offer",
+              "Offer must be redeemed in the Wendy's App",
+              "App download and account registration required",
+              "Offer only available at participating U.S. Wendy's for a limited time"
             ],
             "source_evidence": [
               "App offer 10 piece Nuggs for $1.99 with purchase",
               "This deal doesn\u2019t take days off \u2014 score a $1.99 10 PC Nuggs with purchase via daily digital offer."
             ],
-            "summary": "10-piece nuggets for $1.99 with purchase",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food",
-              "general"
-            ],
-            "details": [
-              "Price: $1.99",
-              "Items: Kids' Meal",
-              "Requires a purchase coupon",
-              "Includes Frosty Frights toys"
-            ],
-            "source_evidence": [
-              "use your $1.99 Wendy\u2019s Kids\u2019 Meal\u00ae with purchase coupon to save and start collecting all 6 characters"
-            ],
-            "summary": "$1.99 Wendy's Kids' Meal with purchase coupon",
+            "summary": "10 piece Nuggs for $1.99 with purchase via app",
             "time_window": null,
             "valid_through": null
           },
@@ -47267,12 +48733,11 @@
               "general"
             ],
             "details": [
-              "Discount: $0 delivery fee",
-              "Applies on Saturdays",
-              "Order via the Wendy's app during college football season"
+              "Enjoy $0 delivery fee all day Saturday when you order via the app",
+              "Limited time only at participating U.S. Wendy's"
             ],
             "source_evidence": [
-              "enjoy $0 delivery fee all day Saturday when you order via the app."
+              "And during college football season, enjoy $0 delivery fee all day Saturday when you order via the app."
             ],
             "summary": "$0 delivery fee all day Saturday during college football season",
             "time_window": "all day",
@@ -47281,6 +48746,94 @@
         ]
       },
       "url": "https://www.wendys.com/"
+    },
+    {
+      "city": "Costa Mesa",
+      "location": {
+        "address": "436 E 17th St, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17421654055268646715&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.630139199999995,
+        "longitude": -117.91059930000002,
+        "phone": "(949) 722-9453",
+        "place_id": "ChIJZdpVYu7f3IARO_8HNA8mxvE"
+      },
+      "name": "Wild Goose Tavern",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Available Monday through Friday between 11am and 6pm."
+            ],
+            "source_evidence": [
+              "Happy Hour: Mon-Fri 11am-6pm"
+            ],
+            "summary": "Happy Hour: Monday through Friday from 11am to 6pm",
+            "time_window": "11am-6pm",
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.goosebar.com/specialevents"
     },
     {
       "city": "Huntington Beach",
@@ -47378,16 +48931,16 @@
     }
   ],
   "summary": {
-    "candidate_pages": 293,
-    "failed_pages": 12,
+    "candidate_pages": 298,
+    "failed_pages": 10,
     "pending_pages": 0,
-    "processed_pages": 281,
-    "published_deals": 236,
-    "published_sources": 103,
+    "processed_pages": 288,
+    "published_deals": 244,
+    "published_sources": 108,
     "render_attempts": 8,
     "rendered_pages": 1,
     "reported_pages": 0,
-    "visual_assets_checked": 8,
+    "visual_assets_checked": 11,
     "visual_attempts": 4,
     "visual_cache_hits": 0,
     "visual_candidates": 79,
