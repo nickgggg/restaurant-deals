@@ -49,7 +49,7 @@
     "last_scanned_cities": [
       "Costa Mesa"
     ],
-    "last_source_scan_at": "2026-09-16T17:38:22Z",
+    "last_source_scan_at": "2026-09-16T18:06:27Z",
     "map_cells": 179,
     "official_websites": 848,
     "operational_count": 1010,
@@ -61,11 +61,11 @@
     ],
     "restaurant_count": 1050,
     "source_sites_checked": 12,
-    "specials_pages_found": 188,
+    "specials_pages_found": 189,
     "successful_map_cells": 49
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-16T17:38:22Z",
+  "generated_at": "2026-09-16T18:06:27Z",
   "refresh_after": "2026-09-17T16:26:21Z",
   "restaurants": [
     {
@@ -7337,7 +7337,7 @@
       "phone": "(657) 215-6944",
       "place_id": "ChIJcaE-fn4n3YARl7BCy-xcOsI",
       "primary_type": "fast_food_restaurant",
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-8gj10o83/Default'",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-gir4z7o2/Default'",
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -9958,14 +9958,36 @@
       "phone": "(949) 612-2349",
       "place_id": "ChIJzyWFaRXf3IAReL82ygFIFmM",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-16T18:05:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Happy Hour",
           "url": "https://casadeondarestaurant.com/happy-hour/"
         },
         {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://casadeondarestaurant.com/wp-content/uploads/2026/07/weekday-happy-hour-flyer-768x1024.jpg"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://casadeondarestaurant.com/wp-content/uploads/2026/08/happy-hour-patio-casa-de-onda-costa-mesa.jpg"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://casadeondarestaurant.com/wp-content/uploads/2026/08/tiki-bar-happy-hour-casa-de-onda-costa-mesa.jpg"
+        },
+        {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://www.casadeondarestaurant.com/"
         }
@@ -10035,7 +10057,16 @@
       "phone": "(714) 593-9824",
       "place_id": "ChIJ71mZpion3YAR0WHDQ9ryBZk",
       "primary_type": "mexican_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-16T18:05:51Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Specials",
+          "url": "https://casajimenezhb.com/specials/"
+        }
+      ],
       "types": [
         "mexican_restaurant",
         "restaurant",
@@ -10057,9 +10088,12 @@
       "phone": "(714) 378-9600",
       "place_id": "ChIJiffvncwg3YARSi_-H9VmsPU",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-16T18:05:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://castanedasmexicanfood.net/"
         }
@@ -10122,9 +10156,12 @@
       "phone": "(949) 645-8873",
       "place_id": "ChIJk1zHxXUg3YAR1SYtbbUUhcE",
       "primary_type": "seafood_restaurant",
+      "specials_checked_at": "2026-09-16T18:05:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "*Now Open at 9:00am Breakfast and More.. See our Daily Specials Board!!",
           "url": "http://catalinafishkitchenmenu.com/"
         }
@@ -10197,6 +10234,8 @@
       "phone": "(657) 845-5534",
       "place_id": "ChIJWffxm1Uh3YARqbIHhGeE3Xk",
       "primary_type": "mediterranean_restaurant",
+      "specials_checked_at": "2026-09-16T18:05:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mediterranean_restaurant",
@@ -10267,31 +10306,50 @@
       "phone": "(949) 933-9067",
       "place_id": "ChIJoX9sJOHf3IARBOuLvRhPwrA",
       "primary_type": "cafe",
+      "specials_checked_at": "2026-09-16T18:05:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Admin Coupon Events",
           "url": "https://chailocoffeeclub.com/admin/coupon-events"
         },
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Admin Coupons",
           "url": "https://chailocoffeeclub.com/admin/coupons"
         },
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Admin Promotions",
           "url": "https://chailocoffeeclub.com/admin/promotions"
         },
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Admin Redeem Coupon",
           "url": "https://chailocoffeeclub.com/admin/redeem-coupon"
         },
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Admin Test Coupon System",
           "url": "https://chailocoffeeclub.com/admin/test-coupon-system"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Promotions",
+          "url": "https://chailocoffeeclub.com/promotions"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://chailocoffeeclub.com/"
         }
       ],
       "types": [
@@ -10366,6 +10424,8 @@
       "phone": "(657) 464-9016",
       "place_id": "ChIJiT-4idkn3YARoZjqaCQs4RA",
       "primary_type": "korean_restaurant",
+      "specials_checked_at": "2026-09-16T18:05:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "korean_restaurant",
@@ -10431,6 +10491,8 @@
       "phone": "(714) 892-2900",
       "place_id": "ChIJ8a2GOXQm3YAR8KvE3GL7t9k",
       "primary_type": "chicken_restaurant",
+      "specials_checked_at": "2026-09-16T18:05:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chicken_restaurant",
@@ -10563,6 +10625,8 @@
       "phone": "(714) 941-9940",
       "place_id": "ChIJGdHksCAn3YARscHj4Tl66SA",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-16T18:05:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -10629,6 +10693,8 @@
       "phone": "(714) 435-0145",
       "place_id": "ChIJ48e5R1ff3IARYQlrQldvVac",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-16T18:05:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -10695,6 +10761,8 @@
       "phone": "(657) 329-0494",
       "place_id": "ChIJjbvbopgn3YARsw3mu6ymXRs",
       "primary_type": "mediterranean_restaurant",
+      "specials_checked_at": "2026-09-16T18:05:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mediterranean_restaurant",

@@ -1,6 +1,6 @@
 {
   "extraction_version": 4,
-  "generated_at": "2026-09-16T17:45:14Z",
+  "generated_at": "2026-09-16T18:09:07Z",
   "model": "gemini-3.5-flash-lite",
   "pages": [
     {
@@ -1222,9 +1222,7 @@
         "label": "Dailyspecials",
         "url": "https://beachwoodpizza.com/dailyspecials"
       },
-      "rejected_candidates": [
-        "Rotating Slice-of-the-Day specialty pizza"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1431,9 +1429,7 @@
         "label": "Deals",
         "url": "https://beachwoodpizza.com/deals"
       },
-      "rejected_candidates": [
-        "Slice-of-the-Day rotating specialty pizza"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -4670,7 +4666,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "2f54da97e82d3d7151c2dd4d2bf2d5ed2520e7e1e3eab0801c5ed880aaebcbc5",
+      "content_hash": "4c9cdf8d4b492454235a0010b26ba03bfcb0f11b7120db5062c44a763618b12e",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -4682,12 +4678,12 @@
             "food"
           ],
           "details": [
-            "Buy one get one free on Gnocchi Day"
+            "Buy one gnocchi, get one free"
           ],
           "source_evidence": [
             "Every 29th of the month is Gnocchi Day, buy one get one free!"
           ],
-          "summary": "Gnocchi Day - Buy One Get One Free",
+          "summary": "Gnocchi Day BOGO: Buy one get one free every 29th",
           "time_window": null,
           "valid_through": null
         },
@@ -4701,7 +4697,7 @@
             "food"
           ],
           "details": [
-            "Buy one get one free",
+            "Buy one pizza, get one free",
             "Free pizza will be the lessor price"
           ],
           "source_evidence": [
@@ -4710,12 +4706,12 @@
             "(Free pizza will be the lessor price)",
             "11:00 AM - 08:00 PM"
           ],
-          "summary": "Pizza Bogo - Buy One Get One Free",
+          "summary": "Pizza BOGO: Buy one get one free on Wednesdays",
           "time_window": "11:00 AM - 08:00 PM",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-15T22:06:07Z",
+      "extracted_at": "2026-09-16T18:08:13Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "bb320af01f0227e17e6a",
@@ -4726,7 +4722,9 @@
         "label": "Specials",
         "url": "http://www.cambalachegrill.com/specials"
       },
-      "rejected_candidates": [],
+      "rejected_candidates": [
+        "Empanada Tuesday: All cooked empanadas are 1/2 price"
+      ],
       "restaurant": {
         "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -4875,9 +4873,7 @@
         "label": "Weekday Specials",
         "url": "http://www.cambalachegrill.com/weekday-specials"
       },
-      "rejected_candidates": [
-        "Empanada Tuesday: All cooked empanadas are 1/2 price"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -5095,6 +5091,391 @@
       "status": "ok"
     },
     {
+      "content_hash": "",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Casa Margarita: $10 (originally $15)",
+            "Onda Nachos: $9 (originally $13), Protein Add-Ons Available",
+            "Dine-in and bar area only."
+          ],
+          "source_evidence": [
+            "WEEKDAY HAPPY HOUR",
+            "Monday-Friday 4pm-6pm",
+            "Casa Margarita $15 $10",
+            "Onda Nachos $13 $9"
+          ],
+          "summary": "Weekday Happy Hour: Casa Margarita $10 and Onda Nachos $9",
+          "time_window": "4pm-6pm",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-16T18:07:35Z",
+      "extraction_version": 4,
+      "fetch_mode": "visual",
+      "key": "4c14e6625c4621e11070",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "sitemap",
+        "label": "Specials",
+        "url": "https://casadeondarestaurant.com/wp-content/uploads/2026/07/weekday-happy-hour-flyer-768x1024.jpg"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "1870 Harbor Blvd Second Level, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Costa Mesa",
+        "google_maps_url": "https://maps.google.com/?cid=7139973431767252856&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6425997,
+        "longitude": -117.9181264,
+        "name": "Casa de Onda",
+        "phone": "(949) 612-2349",
+        "place_id": "ChIJzyWFaRXf3IAReL82ygFIFmM",
+        "primary_type": "mexican_restaurant",
+        "specials_checked_at": "2026-09-16T18:05:51Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "site_link",
+            "label": "Happy Hour",
+            "url": "https://casadeondarestaurant.com/happy-hour/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://casadeondarestaurant.com/wp-content/uploads/2026/07/weekday-happy-hour-flyer-768x1024.jpg"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://casadeondarestaurant.com/wp-content/uploads/2026/08/happy-hour-patio-casa-de-onda-costa-mesa.jpg"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://casadeondarestaurant.com/wp-content/uploads/2026/08/tiki-bar-happy-hour-casa-de-onda-costa-mesa.jpg"
+          },
+          {
+            "confidence": "medium",
+            "discovered_via": "page_text",
+            "label": "Website specials",
+            "url": "https://www.casadeondarestaurant.com/"
+          }
+        ],
+        "types": [
+          "mexican_restaurant",
+          "event_venue",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://www.casadeondarestaurant.com/"
+      },
+      "status": "ok",
+      "visual_assets": [
+        {
+          "byte_size": 158583,
+          "content_hash": "90061473e20fd71c855f4f57bda509dd07d55cbb8fdada726d2845dcee6e0c4c",
+          "mime_type": "image/jpeg",
+          "url": "https://casadeondarestaurant.com/wp-content/uploads/2026/07/weekday-happy-hour-flyer-768x1024.jpg"
+        }
+      ],
+      "visual_checked_at": "2026-09-16T18:07:35Z",
+      "visual_hash": "3b5ab3478a674e96beee7b69b9647631d9f41d134eed34cdf646e7027301aead",
+      "visual_status": "verified"
+    },
+    {
+      "content_hash": "",
+      "deals": [],
+      "error": "RuntimeError: Page is not HTML",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "4864705f24fdd42f39c8",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "sitemap",
+        "label": "Specials",
+        "url": "https://casadeondarestaurant.com/wp-content/uploads/2026/08/happy-hour-patio-casa-de-onda-costa-mesa.jpg"
+      },
+      "restaurant": {
+        "address": "1870 Harbor Blvd Second Level, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Costa Mesa",
+        "google_maps_url": "https://maps.google.com/?cid=7139973431767252856&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6425997,
+        "longitude": -117.9181264,
+        "name": "Casa de Onda",
+        "phone": "(949) 612-2349",
+        "place_id": "ChIJzyWFaRXf3IAReL82ygFIFmM",
+        "primary_type": "mexican_restaurant",
+        "specials_checked_at": "2026-09-16T18:05:51Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "site_link",
+            "label": "Happy Hour",
+            "url": "https://casadeondarestaurant.com/happy-hour/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://casadeondarestaurant.com/wp-content/uploads/2026/07/weekday-happy-hour-flyer-768x1024.jpg"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://casadeondarestaurant.com/wp-content/uploads/2026/08/happy-hour-patio-casa-de-onda-costa-mesa.jpg"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://casadeondarestaurant.com/wp-content/uploads/2026/08/tiki-bar-happy-hour-casa-de-onda-costa-mesa.jpg"
+          },
+          {
+            "confidence": "medium",
+            "discovered_via": "page_text",
+            "label": "Website specials",
+            "url": "https://www.casadeondarestaurant.com/"
+          }
+        ],
+        "types": [
+          "mexican_restaurant",
+          "event_venue",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://www.casadeondarestaurant.com/"
+      },
+      "status": "fetch_failed"
+    },
+    {
+      "content_hash": "",
+      "deals": [],
+      "error": "RuntimeError: Page is not HTML",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "0d2a5468249ffcc5495d",
+      "page": {
+        "confidence": "high",
+        "discovered_via": "sitemap",
+        "label": "Specials",
+        "url": "https://casadeondarestaurant.com/wp-content/uploads/2026/08/tiki-bar-happy-hour-casa-de-onda-costa-mesa.jpg"
+      },
+      "restaurant": {
+        "address": "1870 Harbor Blvd Second Level, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Costa Mesa",
+        "google_maps_url": "https://maps.google.com/?cid=7139973431767252856&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6425997,
+        "longitude": -117.9181264,
+        "name": "Casa de Onda",
+        "phone": "(949) 612-2349",
+        "place_id": "ChIJzyWFaRXf3IAReL82ygFIFmM",
+        "primary_type": "mexican_restaurant",
+        "specials_checked_at": "2026-09-16T18:05:51Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "site_link",
+            "label": "Happy Hour",
+            "url": "https://casadeondarestaurant.com/happy-hour/"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://casadeondarestaurant.com/wp-content/uploads/2026/07/weekday-happy-hour-flyer-768x1024.jpg"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://casadeondarestaurant.com/wp-content/uploads/2026/08/happy-hour-patio-casa-de-onda-costa-mesa.jpg"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "sitemap",
+            "label": "Specials",
+            "url": "https://casadeondarestaurant.com/wp-content/uploads/2026/08/tiki-bar-happy-hour-casa-de-onda-costa-mesa.jpg"
+          },
+          {
+            "confidence": "medium",
+            "discovered_via": "page_text",
+            "label": "Website specials",
+            "url": "https://www.casadeondarestaurant.com/"
+          }
+        ],
+        "types": [
+          "mexican_restaurant",
+          "event_venue",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://www.casadeondarestaurant.com/"
+      },
+      "status": "fetch_failed"
+    },
+    {
       "content_hash": "3962f879f914fb3a2dd90b2a83d74ea87ba9eccba072dfd22944415d017434d6",
       "deals": [
         {
@@ -5205,6 +5586,7 @@
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
+        "discovered_via": "site_link",
         "label": "Admin Coupon Events",
         "url": "https://chailocoffeeclub.com/admin/coupon-events"
       },
@@ -5331,6 +5713,7 @@
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
+        "discovered_via": "site_link",
         "label": "Admin Coupons",
         "url": "https://chailocoffeeclub.com/admin/coupons"
       },
@@ -5457,6 +5840,7 @@
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
+        "discovered_via": "site_link",
         "label": "Admin Promotions",
         "url": "https://chailocoffeeclub.com/admin/promotions"
       },
@@ -5576,13 +5960,159 @@
     {
       "content_hash": "d246fb919423766718a8bb229f63fcbdde5a58b260211cbb58161771c9571528",
       "deals": [],
-      "extracted_at": "2026-09-10T16:29:24Z",
+      "extracted_at": "2026-09-16T18:07:44Z",
+      "extraction_version": 4,
+      "fetch_mode": "visual",
       "key": "e516da1e688a3c21b184",
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
+        "discovered_via": "site_link",
         "label": "Admin Redeem Coupon",
         "url": "https://chailocoffeeclub.com/admin/redeem-coupon"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "615 W 19th St, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Costa Mesa",
+        "google_maps_url": "https://maps.google.com/?cid=12736829663835056900&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "18:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "18:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "18:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "18:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.643251,
+        "longitude": -117.9241281,
+        "name": "CHAILO - Coffee Club in Costa Mesa",
+        "phone": "(949) 933-9067",
+        "place_id": "ChIJoX9sJOHf3IARBOuLvRhPwrA",
+        "primary_type": "cafe",
+        "specials_checked_at": "2026-09-16T18:05:51Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "site_link",
+            "label": "Admin Coupon Events",
+            "url": "https://chailocoffeeclub.com/admin/coupon-events"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "site_link",
+            "label": "Admin Coupons",
+            "url": "https://chailocoffeeclub.com/admin/coupons"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "site_link",
+            "label": "Admin Promotions",
+            "url": "https://chailocoffeeclub.com/admin/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "site_link",
+            "label": "Admin Redeem Coupon",
+            "url": "https://chailocoffeeclub.com/admin/redeem-coupon"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "site_link",
+            "label": "Admin Test Coupon System",
+            "url": "https://chailocoffeeclub.com/admin/test-coupon-system"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "site_link",
+            "label": "Promotions",
+            "url": "https://chailocoffeeclub.com/promotions"
+          },
+          {
+            "confidence": "medium",
+            "discovered_via": "page_text",
+            "label": "Website specials",
+            "url": "https://chailocoffeeclub.com/"
+          }
+        ],
+        "types": [
+          "cafe",
+          "tea_house",
+          "tea_store",
+          "coffee_shop",
+          "indian_restaurant",
+          "dessert_shop",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://chailocoffeeclub.com/"
+      },
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 581527,
+          "content_hash": "70e0349f0e1363ef33e051becf6bba3784de3da835c47e9db92bf9c07a8cb044",
+          "mime_type": "image/png",
+          "url": "https://media.base44.com/images/public/6a0beec3a3b6413c4de9d079/3c4265348_logo.png"
+        }
+      ],
+      "visual_checked_at": "2026-09-16T18:07:44Z",
+      "visual_hash": "cb1cf58bad16f3483aff29be3ca10039bcacc6520a11d96ef9340ec91ff8ce27",
+      "visual_status": "no_deals"
+    },
+    {
+      "content_hash": "33531ec3071635c37a94419d08944f0b3627aaf1758ad1deeed1b925975ea15f",
+      "deals": [],
+      "extracted_at": "2026-09-10T16:29:33Z",
+      "key": "4b24f6048c895561fa0f",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Admin Test Coupon System",
+        "url": "https://chailocoffeeclub.com/admin/test-coupon-system"
       },
       "rejected_candidates": [],
       "restaurant": {
@@ -5687,15 +6217,18 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "33531ec3071635c37a94419d08944f0b3627aaf1758ad1deeed1b925975ea15f",
+      "content_hash": "d601e0f60f34fd2ad1e8022b8ddfbed7f2b590529315fbefb351a1b36ee31dff",
       "deals": [],
-      "extracted_at": "2026-09-10T16:29:33Z",
-      "key": "4b24f6048c895561fa0f",
+      "extracted_at": "2026-09-16T18:08:21Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "d678f261b8fb6fff82c1",
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
-        "label": "Admin Test Coupon System",
-        "url": "https://chailocoffeeclub.com/admin/test-coupon-system"
+        "discovered_via": "site_link",
+        "label": "Promotions",
+        "url": "https://chailocoffeeclub.com/promotions"
       },
       "rejected_candidates": [],
       "restaurant": {
@@ -5753,31 +6286,50 @@
         "phone": "(949) 933-9067",
         "place_id": "ChIJoX9sJOHf3IARBOuLvRhPwrA",
         "primary_type": "cafe",
+        "specials_checked_at": "2026-09-16T18:05:51Z",
+        "specials_discovery_version": 4,
         "specials_pages": [
           {
             "confidence": "high",
+            "discovered_via": "site_link",
             "label": "Admin Coupon Events",
             "url": "https://chailocoffeeclub.com/admin/coupon-events"
           },
           {
             "confidence": "high",
+            "discovered_via": "site_link",
             "label": "Admin Coupons",
             "url": "https://chailocoffeeclub.com/admin/coupons"
           },
           {
             "confidence": "high",
+            "discovered_via": "site_link",
             "label": "Admin Promotions",
             "url": "https://chailocoffeeclub.com/admin/promotions"
           },
           {
             "confidence": "high",
+            "discovered_via": "site_link",
             "label": "Admin Redeem Coupon",
             "url": "https://chailocoffeeclub.com/admin/redeem-coupon"
           },
           {
             "confidence": "high",
+            "discovered_via": "site_link",
             "label": "Admin Test Coupon System",
             "url": "https://chailocoffeeclub.com/admin/test-coupon-system"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "site_link",
+            "label": "Promotions",
+            "url": "https://chailocoffeeclub.com/promotions"
+          },
+          {
+            "confidence": "medium",
+            "discovered_via": "page_text",
+            "label": "Website specials",
+            "url": "https://chailocoffeeclub.com/"
           }
         ],
         "types": [
@@ -10403,9 +10955,7 @@
         "label": "Learn more",
         "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2026-09-10-17-00"
       },
-      "rejected_candidates": [
-        "Happy Hour Appetizers: Charcuterie, Calamari Fritti, Cannolo Salato, and Bruschetta"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "1661 Superior Ave Ste d, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -13286,10 +13836,10 @@
       "status": "ok"
     },
     {
-      "content_hash": "7145564b978a717062dd89c40dc73eeb8429d4de6e437dcb3a86cc95fdf63564",
+      "content_hash": "8df6a2751cbb0e3fcb6ea7f888bbb2ca7fd3980f94eb2811dfb7b2f69379a86c",
       "deals": [
         {
-          "ai_confidence": 0.9,
+          "ai_confidence": 0.95,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
@@ -13298,20 +13848,19 @@
           "details": [
             "1 large 14'' cheese pizza",
             "1 Spaghetti with meatballs",
-            "1 antipasto salad",
-            "Price: $29.99"
+            "1 antipasto salad"
           ],
           "source_evidence": [
             "The Great Meal",
             "1 large 14'' cheese pizza,1 Spaghetti with meatballs,1 antipasto salad.",
             "$29.99"
           ],
-          "summary": "The Great Meal Bundle",
+          "summary": "The Great Meal for $29.99",
           "time_window": null,
           "valid_through": null
         },
         {
-          "ai_confidence": 0.9,
+          "ai_confidence": 0.95,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
@@ -13319,20 +13868,19 @@
           ],
           "details": [
             "Two large 14'' pizzas",
-            "One topping each",
-            "Price: $28.99"
+            "One topping each"
           ],
           "source_evidence": [
             "Pizza Twins",
             "Two large 14'' pizzas, One topping each.",
             "$28.99"
           ],
-          "summary": "Pizza Twins Deal",
+          "summary": "Pizza Twins for $28.99",
           "time_window": null,
           "valid_through": null
         },
         {
-          "ai_confidence": 0.9,
+          "ai_confidence": 0.95,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
@@ -13341,19 +13889,18 @@
           "details": [
             "Two Spaghetti With Meatballs",
             "One Dinner Salad",
-            "One Garlic Bread",
-            "Price: $26.99"
+            "One Garlic Bread"
           ],
           "source_evidence": [
             "Two Spaghetti With Meatballs, One Dinner Salad, One Garlic Bread",
             "$26.99"
           ],
-          "summary": "Pasta and Salad Dinner Bundle",
+          "summary": "Pasta and Salad Bundle for $26.99",
           "time_window": null,
           "valid_through": null
         },
         {
-          "ai_confidence": 0.9,
+          "ai_confidence": 0.95,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
@@ -13362,39 +13909,36 @@
           "details": [
             "Two Lasagna Dinner",
             "One Dinner Salad",
-            "One Garlic Bread",
-            "Price: $26.99"
+            "One Garlic Bread"
           ],
           "source_evidence": [
             "Two Lasagna Dinner, One Dinner Salad, One Garlic Bread",
             "$26.99"
           ],
-          "summary": "Lasagna Dinner Bundle",
+          "summary": "Lasagna Dinner Bundle for $26.99",
           "time_window": null,
           "valid_through": null
         },
         {
-          "ai_confidence": 0.9,
+          "ai_confidence": 0.95,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
             "food"
           ],
           "details": [
-            "Two Jumbo 16'' Pizzas",
-            "One Topping each",
-            "Price: $32.99"
+            "Two Jumbo 16'' Pizzas with One Topping"
           ],
           "source_evidence": [
             "Two Jumbo 16'' Pizzas with One Topping",
             "$32.99"
           ],
-          "summary": "Two Jumbo Pizzas Deal",
+          "summary": "Two Jumbo 16'' Pizzas for $32.99",
           "time_window": null,
           "valid_through": null
         },
         {
-          "ai_confidence": 0.9,
+          "ai_confidence": 0.95,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
@@ -13404,20 +13948,19 @@
           "details": [
             "Two 14'' Large Pizza with 1-Topping each",
             "9 Pieces Chicken Wings",
-            "2-Liter of Coke",
-            "Price: $39.99"
+            "2-Liter of Coke"
           ],
           "source_evidence": [
             "Manager Special",
             "Two 14'' Large Pizza with 1-Topping each, 9 Pieces Chicken Wings & 2-Liter of Coke",
             "$39.99"
           ],
-          "summary": "Manager Special",
+          "summary": "Manager Special for $39.99",
           "time_window": null,
           "valid_through": null
         },
         {
-          "ai_confidence": 0.9,
+          "ai_confidence": 0.95,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
@@ -13430,12 +13973,12 @@
             "Purchase $35 or More on Regular Menu Price and Get $5",
             "$5.00"
           ],
-          "summary": "$5 Off Regular Menu Purchase",
+          "summary": "Get $5 off on orders of $35 or more",
           "time_window": null,
           "valid_through": null
         },
         {
-          "ai_confidence": 0.9,
+          "ai_confidence": 0.95,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
@@ -13443,8 +13986,7 @@
           ],
           "details": [
             "Only available for pickup",
-            "One Large One Topping 14\" Pizza",
-            "Price: $10.99"
+            "One Large One Topping 14\" Pizza"
           ],
           "source_evidence": [
             "Pick Up Specials",
@@ -13452,7 +13994,7 @@
             "One Large One Topping 14\" Pizza Pick Up Special",
             "$10.99"
           ],
-          "summary": "One Large One Topping Pizza Pick Up Special",
+          "summary": "One Large One Topping 14\" Pizza Pick Up Special for $10.99",
           "time_window": null,
           "valid_through": null
         },
@@ -13465,20 +14007,19 @@
             "drink"
           ],
           "details": [
-            "Various lunch combos including pizza slices, personal pizzas, subs, salads, pastas, and calzones served with sides and drinks",
-            "Prices range from $9.99 to $14.99"
+            "Available from 11:00 AM - 4:00 PM",
+            "Includes various lunch combo options such as pizza slices, personal pizzas, subs, salads, and pasta dishes served with sides and drinks as specified per item."
           ],
           "source_evidence": [
             "Lunch Specials",
-            "Only available 11:00 AM - 4:00 PM",
-            "1. Two Jumbo Cheese Pizza Slices Lunch"
+            "Available from 11:00 AM - 4:00 PM"
           ],
-          "summary": "Lunch Special Deals",
+          "summary": "Lunch Specials starting at $9.99",
           "time_window": "11:00 AM - 4:00 PM",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-16T17:42:48Z",
+      "extracted_at": "2026-09-16T18:08:31Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "008dc9a8e159cab46b68",
@@ -15227,6 +15768,114 @@
       "status": "ok"
     },
     {
+      "content_hash": "bb7b5f33ef14fd42964178ca31ae280d510777ad90777b9ea400bfb4af4fffdb",
+      "deals": [],
+      "extracted_at": "2026-09-16T18:07:54Z",
+      "extraction_version": 4,
+      "fetch_mode": "visual",
+      "key": "41b265dde1aefae2fbd5",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "medium",
+        "discovered_via": "site_link",
+        "label": "Specials",
+        "url": "https://casajimenezhb.com/specials/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "19171 Magnolia St #6, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11026486281940197841&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.683938399999995,
+        "longitude": -117.9724469,
+        "name": "Casa Jimenez",
+        "phone": "(714) 593-9824",
+        "place_id": "ChIJ71mZpion3YAR0WHDQ9ryBZk",
+        "primary_type": "mexican_restaurant",
+        "specials_checked_at": "2026-09-16T18:05:51Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "medium",
+            "discovered_via": "site_link",
+            "label": "Specials",
+            "url": "https://casajimenezhb.com/specials/"
+          }
+        ],
+        "types": [
+          "mexican_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://casajimenezhb.com/"
+      },
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 34600,
+          "content_hash": "0e9b9dea6b152324fdda98e3a2f95cbaf72887ca256ebbac798dcd147eac38a3",
+          "mime_type": "image/webp",
+          "url": "https://casajimenezhb.com/wp-content/uploads/2020/05/casa-jimenez-specials.jpg"
+        },
+        {
+          "byte_size": 8854,
+          "content_hash": "ce53b9a03abfa52e2e96b80898bbff66886df8ebd15be01d25fe35da567c3fc2",
+          "mime_type": "image/webp",
+          "url": "https://casajimenezhb.com/wp-content/uploads/2020/05/Casa-Jimenez-Huntington-Beach-Mexican-Restaurant.png"
+        }
+      ],
+      "visual_checked_at": "2026-09-16T18:07:54Z",
+      "visual_hash": "d79a5cee548b13da23de11017bb83e2221e4f19213425257027e89485c66edc2",
+      "visual_status": "no_deals"
+    },
+    {
       "content_hash": "d1eeb5cd997bead2fbb312cea1215bdd6d9ecb64d07619f4c92706e807ba970f",
       "deals": [],
       "extracted_at": "2026-09-10T19:05:17Z",
@@ -15265,6 +15914,141 @@
           "establishment"
         ],
         "website_url": "http://castanedasmexicanfood.net/"
+      },
+      "status": "no_deals"
+    },
+    {
+      "content_hash": "0e7a92692c1a4699424d14711c0248a52621af1b487f0edd2f3e8ffa7b18cfee",
+      "deals": [],
+      "extracted_at": "2026-09-16T18:08:38Z",
+      "extraction_version": 4,
+      "fetch_mode": "static",
+      "key": "2c1c98b10eb438a17540",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "medium",
+        "discovered_via": "page_text",
+        "label": "Website specials",
+        "url": "https://chailocoffeeclub.com/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "615 W 19th St, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Costa Mesa",
+        "google_maps_url": "https://maps.google.com/?cid=12736829663835056900&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "18:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "18:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "18:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "18:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.643251,
+        "longitude": -117.9241281,
+        "name": "CHAILO - Coffee Club in Costa Mesa",
+        "phone": "(949) 933-9067",
+        "place_id": "ChIJoX9sJOHf3IARBOuLvRhPwrA",
+        "primary_type": "cafe",
+        "specials_checked_at": "2026-09-16T18:05:51Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "discovered_via": "site_link",
+            "label": "Admin Coupon Events",
+            "url": "https://chailocoffeeclub.com/admin/coupon-events"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "site_link",
+            "label": "Admin Coupons",
+            "url": "https://chailocoffeeclub.com/admin/coupons"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "site_link",
+            "label": "Admin Promotions",
+            "url": "https://chailocoffeeclub.com/admin/promotions"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "site_link",
+            "label": "Admin Redeem Coupon",
+            "url": "https://chailocoffeeclub.com/admin/redeem-coupon"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "site_link",
+            "label": "Admin Test Coupon System",
+            "url": "https://chailocoffeeclub.com/admin/test-coupon-system"
+          },
+          {
+            "confidence": "high",
+            "discovered_via": "site_link",
+            "label": "Promotions",
+            "url": "https://chailocoffeeclub.com/promotions"
+          },
+          {
+            "confidence": "medium",
+            "discovered_via": "page_text",
+            "label": "Website specials",
+            "url": "https://chailocoffeeclub.com/"
+          }
+        ],
+        "types": [
+          "cafe",
+          "tea_house",
+          "tea_store",
+          "coffee_shop",
+          "indian_restaurant",
+          "dessert_shop",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "https://chailocoffeeclub.com/"
       },
       "status": "no_deals"
     },
@@ -18377,7 +19161,9 @@
     {
       "content_hash": "578972c5200848fd226c89064951d22e24bb9968f57a783df319f6703219370f",
       "deals": [],
-      "extracted_at": "2026-09-11T17:55:22Z",
+      "extracted_at": "2026-09-16T18:08:04Z",
+      "extraction_version": 4,
+      "fetch_mode": "visual",
       "key": "af9a4d50c9b6f4c66a31",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -18464,7 +19250,30 @@
         ],
         "website_url": "https://www.greentomatogrill.com/"
       },
-      "status": "no_deals"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 476525,
+          "content_hash": "40e9a7edfb2d79a0dd4f86f01b84a44ae33061b3c89d0f52c84a6cee09fe74a2",
+          "mime_type": "image/png",
+          "url": "https://static.parastorage.com/services/santa-resources/resources/viewer/editorUI/fonts.v19.png"
+        },
+        {
+          "byte_size": 21931,
+          "content_hash": "af57dd0138048305c71bb776ceb172046fc26cfd51843f94e02f6cf699baac39",
+          "mime_type": "image/png",
+          "url": "https://static.wixstatic.com/media/3cd817_733b939d28374364b09be1c0b3069edd%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/3cd817_733b939d28374364b09be1c0b3069edd%7Emv2.png"
+        },
+        {
+          "byte_size": 19113,
+          "content_hash": "5aed65467013278466b9a9fc5b75308fb8aae303bb197ddcc390b2f19ad653fb",
+          "mime_type": "image/png",
+          "url": "https://static.wixstatic.com/media/3cd817_733b939d28374364b09be1c0b3069edd%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/3cd817_733b939d28374364b09be1c0b3069edd%7Emv2.png"
+        }
+      ],
+      "visual_checked_at": "2026-09-16T18:08:04Z",
+      "visual_hash": "51a0070b5beb10284ebdea4d9b81d34087dea7d81e6faa62aeb24d5cdba7dc05",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "238d31c679bbd72443d40febb3c6051804a6bef749dd20eaf869741375581415",
@@ -20491,9 +21300,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "b2b7fe2b70d44d148968aadd206f24a7150e15fceb11829b40491adb538fff0b",
+      "content_hash": "ae6b6bdfae01b81b57068ccaa0dd4264abb53da7268f498ef617a3c4c799fdb1",
       "deals": [],
-      "extracted_at": "2026-09-16T17:43:03Z",
+      "extracted_at": "2026-09-16T18:08:46Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "b9be67241d188f5a98ba",
@@ -28699,7 +29508,7 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "295ac0ad73b2c50411739f902c73c1ab3dea2b9c1d6880ed722efb380d054e43",
+      "content_hash": "f4f7aecb9ab5dd482b7d43e7ec4d1204635bef327f24a7b2d523eb5331ca663b",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -28712,18 +29521,16 @@
             "food"
           ],
           "details": [
-            "One large pizza",
-            "Garden salad",
-            "Garlic knots",
-            "Price: $29.99"
+            "Includes one large pizza, garden salad & garlic knots for $29.99"
           ],
           "source_evidence": [
             "Rainy Day Specials",
             "Only available Sunday, Saturday",
+            "Rainy Day Special",
             "One large pizza, garden salad & garlic knots.",
             "$29.99"
           ],
-          "summary": "Rainy Day Special: Large pizza, garden salad, and garlic knots for $29.99",
+          "summary": "Rainy Day Special for $29.99",
           "time_window": null,
           "valid_through": null
         },
@@ -28738,8 +29545,7 @@
             "food"
           ],
           "details": [
-            "Buy one large cheese pie, get second large cheese pie half off",
-            "Price: $17.99"
+            "Buy one large cheese pie, get the second large cheese pie half off for $17.99"
           ],
           "source_evidence": [
             "Thursday & Monday Night Football Special",
@@ -28747,35 +29553,12 @@
             "Buy One Large Cheese Pie, Get Second Large Cheese Pie Half Off",
             "$17.99"
           ],
-          "summary": "Monday & Thursday Night Football: Buy one large cheese pie, get second half off",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "12-inch dough ball",
-            "Cup of sauce",
-            "Cheese",
-            "1 topping of choice",
-            "Price: $11.00"
-          ],
-          "source_evidence": [
-            "Pizza Kits for making pizza at home",
-            "12-inch dough ball, cup of sauce cheese and 1 topping of choice.",
-            "$11.00"
-          ],
-          "summary": "Pizza Kits for making pizza at home for $11.00",
+          "summary": "Thursday & Monday Night Football Special: Buy One Large Cheese Pie, Get Second Half Off",
           "time_window": null,
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-16T17:44:35Z",
+      "extracted_at": "2026-09-16T18:08:54Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "5400d18f6af555a77c1d",
@@ -31120,9 +31903,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "d5fb29f591b143caab8b6b069f9555f2d416147c6020d6fbceeb5aa0ffb4a0b6",
+      "content_hash": "efa2801faf2e560579a11181cec4e3c37fc9e037562e283ead2a6e4ff0599040",
       "deals": [],
-      "extracted_at": "2026-09-16T17:44:42Z",
+      "extracted_at": "2026-09-16T18:09:01Z",
       "extraction_version": 4,
       "fetch_mode": "static",
       "key": "23d0d0c520f845b3127a",
@@ -31764,10 +32547,7 @@
         "label": "ALL SPECIALS",
         "url": "http://www.thaiwavehuntingtonbeach.com/huntington-beach-thai-wave-happy-hours-specials"
       },
-      "rejected_candidates": [
-        "Lunch Specials",
-        "Friday Lunch Specials"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "522 Main St, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -34782,6 +35562,99 @@
         ]
       },
       "url": "https://casadeondarestaurant.com/happy-hour/"
+    },
+    {
+      "city": "Costa Mesa",
+      "location": {
+        "address": "1870 Harbor Blvd Second Level, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7139973431767252856&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6425997,
+        "longitude": -117.9181264,
+        "phone": "(949) 612-2349",
+        "place_id": "ChIJzyWFaRXf3IAReL82ygFIFmM"
+      },
+      "name": "Casa de Onda",
+      "notes": "AI-extracted from official restaurant visual media; strict source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Casa Margarita: $10 (originally $15)",
+              "Onda Nachos: $9 (originally $13), Protein Add-Ons Available",
+              "Dine-in and bar area only."
+            ],
+            "source_evidence": [
+              "WEEKDAY HAPPY HOUR",
+              "Monday-Friday 4pm-6pm",
+              "Casa Margarita $15 $10",
+              "Onda Nachos $13 $9"
+            ],
+            "summary": "Weekday Happy Hour: Casa Margarita $10 and Onda Nachos $9",
+            "time_window": "4pm-6pm",
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://casadeondarestaurant.com/wp-content/uploads/2026/07/weekday-happy-hour-flyer-768x1024.jpg"
     },
     {
       "city": "Costa Mesa",
@@ -38741,7 +39614,7 @@
         "ai_extracted": true,
         "static_deals": [
           {
-            "ai_confidence": 0.9,
+            "ai_confidence": 0.95,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
@@ -38750,20 +39623,19 @@
             "details": [
               "1 large 14'' cheese pizza",
               "1 Spaghetti with meatballs",
-              "1 antipasto salad",
-              "Price: $29.99"
+              "1 antipasto salad"
             ],
             "source_evidence": [
               "The Great Meal",
               "1 large 14'' cheese pizza,1 Spaghetti with meatballs,1 antipasto salad.",
               "$29.99"
             ],
-            "summary": "The Great Meal Bundle",
+            "summary": "The Great Meal for $29.99",
             "time_window": null,
             "valid_through": null
           },
           {
-            "ai_confidence": 0.9,
+            "ai_confidence": 0.95,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
@@ -38771,20 +39643,19 @@
             ],
             "details": [
               "Two large 14'' pizzas",
-              "One topping each",
-              "Price: $28.99"
+              "One topping each"
             ],
             "source_evidence": [
               "Pizza Twins",
               "Two large 14'' pizzas, One topping each.",
               "$28.99"
             ],
-            "summary": "Pizza Twins Deal",
+            "summary": "Pizza Twins for $28.99",
             "time_window": null,
             "valid_through": null
           },
           {
-            "ai_confidence": 0.9,
+            "ai_confidence": 0.95,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
@@ -38793,19 +39664,18 @@
             "details": [
               "Two Spaghetti With Meatballs",
               "One Dinner Salad",
-              "One Garlic Bread",
-              "Price: $26.99"
+              "One Garlic Bread"
             ],
             "source_evidence": [
               "Two Spaghetti With Meatballs, One Dinner Salad, One Garlic Bread",
               "$26.99"
             ],
-            "summary": "Pasta and Salad Dinner Bundle",
+            "summary": "Pasta and Salad Bundle for $26.99",
             "time_window": null,
             "valid_through": null
           },
           {
-            "ai_confidence": 0.9,
+            "ai_confidence": 0.95,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
@@ -38814,39 +39684,36 @@
             "details": [
               "Two Lasagna Dinner",
               "One Dinner Salad",
-              "One Garlic Bread",
-              "Price: $26.99"
+              "One Garlic Bread"
             ],
             "source_evidence": [
               "Two Lasagna Dinner, One Dinner Salad, One Garlic Bread",
               "$26.99"
             ],
-            "summary": "Lasagna Dinner Bundle",
+            "summary": "Lasagna Dinner Bundle for $26.99",
             "time_window": null,
             "valid_through": null
           },
           {
-            "ai_confidence": 0.9,
+            "ai_confidence": 0.95,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
               "food"
             ],
             "details": [
-              "Two Jumbo 16'' Pizzas",
-              "One Topping each",
-              "Price: $32.99"
+              "Two Jumbo 16'' Pizzas with One Topping"
             ],
             "source_evidence": [
               "Two Jumbo 16'' Pizzas with One Topping",
               "$32.99"
             ],
-            "summary": "Two Jumbo Pizzas Deal",
+            "summary": "Two Jumbo 16'' Pizzas for $32.99",
             "time_window": null,
             "valid_through": null
           },
           {
-            "ai_confidence": 0.9,
+            "ai_confidence": 0.95,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
@@ -38856,20 +39723,19 @@
             "details": [
               "Two 14'' Large Pizza with 1-Topping each",
               "9 Pieces Chicken Wings",
-              "2-Liter of Coke",
-              "Price: $39.99"
+              "2-Liter of Coke"
             ],
             "source_evidence": [
               "Manager Special",
               "Two 14'' Large Pizza with 1-Topping each, 9 Pieces Chicken Wings & 2-Liter of Coke",
               "$39.99"
             ],
-            "summary": "Manager Special",
+            "summary": "Manager Special for $39.99",
             "time_window": null,
             "valid_through": null
           },
           {
-            "ai_confidence": 0.9,
+            "ai_confidence": 0.95,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
@@ -38882,12 +39748,12 @@
               "Purchase $35 or More on Regular Menu Price and Get $5",
               "$5.00"
             ],
-            "summary": "$5 Off Regular Menu Purchase",
+            "summary": "Get $5 off on orders of $35 or more",
             "time_window": null,
             "valid_through": null
           },
           {
-            "ai_confidence": 0.9,
+            "ai_confidence": 0.95,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
@@ -38895,8 +39761,7 @@
             ],
             "details": [
               "Only available for pickup",
-              "One Large One Topping 14\" Pizza",
-              "Price: $10.99"
+              "One Large One Topping 14\" Pizza"
             ],
             "source_evidence": [
               "Pick Up Specials",
@@ -38904,7 +39769,7 @@
               "One Large One Topping 14\" Pizza Pick Up Special",
               "$10.99"
             ],
-            "summary": "One Large One Topping Pizza Pick Up Special",
+            "summary": "One Large One Topping 14\" Pizza Pick Up Special for $10.99",
             "time_window": null,
             "valid_through": null
           },
@@ -38917,15 +39782,14 @@
               "drink"
             ],
             "details": [
-              "Various lunch combos including pizza slices, personal pizzas, subs, salads, pastas, and calzones served with sides and drinks",
-              "Prices range from $9.99 to $14.99"
+              "Available from 11:00 AM - 4:00 PM",
+              "Includes various lunch combo options such as pizza slices, personal pizzas, subs, salads, and pasta dishes served with sides and drinks as specified per item."
             ],
             "source_evidence": [
               "Lunch Specials",
-              "Only available 11:00 AM - 4:00 PM",
-              "1. Two Jumbo Cheese Pizza Slices Lunch"
+              "Available from 11:00 AM - 4:00 PM"
             ],
-            "summary": "Lunch Special Deals",
+            "summary": "Lunch Specials starting at $9.99",
             "time_window": "11:00 AM - 4:00 PM",
             "valid_through": null
           }
@@ -43958,18 +44822,16 @@
               "food"
             ],
             "details": [
-              "One large pizza",
-              "Garden salad",
-              "Garlic knots",
-              "Price: $29.99"
+              "Includes one large pizza, garden salad & garlic knots for $29.99"
             ],
             "source_evidence": [
               "Rainy Day Specials",
               "Only available Sunday, Saturday",
+              "Rainy Day Special",
               "One large pizza, garden salad & garlic knots.",
               "$29.99"
             ],
-            "summary": "Rainy Day Special: Large pizza, garden salad, and garlic knots for $29.99",
+            "summary": "Rainy Day Special for $29.99",
             "time_window": null,
             "valid_through": null
           },
@@ -43984,8 +44846,7 @@
               "food"
             ],
             "details": [
-              "Buy one large cheese pie, get second large cheese pie half off",
-              "Price: $17.99"
+              "Buy one large cheese pie, get the second large cheese pie half off for $17.99"
             ],
             "source_evidence": [
               "Thursday & Monday Night Football Special",
@@ -43993,30 +44854,7 @@
               "Buy One Large Cheese Pie, Get Second Large Cheese Pie Half Off",
               "$17.99"
             ],
-            "summary": "Monday & Thursday Night Football: Buy one large cheese pie, get second half off",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "12-inch dough ball",
-              "Cup of sauce",
-              "Cheese",
-              "1 topping of choice",
-              "Price: $11.00"
-            ],
-            "source_evidence": [
-              "Pizza Kits for making pizza at home",
-              "12-inch dough ball, cup of sauce cheese and 1 topping of choice.",
-              "$11.00"
-            ],
-            "summary": "Pizza Kits for making pizza at home for $11.00",
+            "summary": "Thursday & Monday Night Football Special: Buy One Large Cheese Pie, Get Second Half Off",
             "time_window": null,
             "valid_through": null
           }
@@ -45422,20 +46260,20 @@
     }
   ],
   "summary": {
-    "candidate_pages": 282,
-    "failed_pages": 11,
+    "candidate_pages": 288,
+    "failed_pages": 13,
     "pending_pages": 0,
-    "processed_pages": 271,
+    "processed_pages": 275,
     "published_deals": 231,
-    "published_sources": 101,
+    "published_sources": 102,
     "render_attempts": 8,
     "rendered_pages": 1,
     "reported_pages": 0,
-    "visual_assets_checked": 9,
+    "visual_assets_checked": 7,
     "visual_attempts": 4,
     "visual_cache_hits": 0,
-    "visual_candidates": 72,
-    "visual_deals": 2,
-    "visual_pages": 2
+    "visual_candidates": 78,
+    "visual_deals": 3,
+    "visual_pages": 3
   }
 }
