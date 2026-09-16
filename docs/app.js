@@ -270,12 +270,12 @@ function logoForGroup(group) {
   for (const url of urls) {
     try {
       const host = new URL(url).hostname.toLowerCase().replace(/^www\./, "");
-      if (logos[host]?.path) return logos[host].path;
+      if (logos[host]?.path) return logos[host];
     } catch (_) {
       // Ignore malformed legacy source URLs and keep the initials fallback.
     }
   }
-  return "";
+  return null;
 }
 
 function restaurantMark(group) {
@@ -288,9 +288,10 @@ function restaurantMark(group) {
   const logo = logoForGroup(group);
   if (logo) {
     const image = document.createElement("img");
-    image.src = logo;
+    image.src = logo.path;
     image.alt = "";
     image.loading = "lazy";
+    if (logo.background) image.style.backgroundColor = logo.background;
     image.addEventListener("error", () => image.remove(), { once: true });
     mark.append(image);
   }

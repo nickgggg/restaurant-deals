@@ -1565,6 +1565,9 @@ button,
 }
 
 .deal-source-link {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 25px;
   width: 25px;
   height: 25px;
   min-height: 25px;
@@ -1573,6 +1576,7 @@ button,
   border: 1px solid var(--line);
   border-radius: 6px;
   color: var(--muted);
+  line-height: 0;
 }
 
 .deal-source-link:hover {
@@ -1581,8 +1585,10 @@ button,
 }
 
 .deal-source-link svg {
+  display: block;
   width: 14px;
   height: 14px;
+  margin: auto;
 }
 
 .view-switch {

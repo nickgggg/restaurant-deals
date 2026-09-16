@@ -26,7 +26,7 @@ RETRY_MISSING_AFTER_DAYS = 14
 REQUEST_TIMEOUT = 15
 MAX_HTML_BYTES = 1_500_000
 MAX_IMAGE_BYTES = 600_000
-SELECTION_VERSION = 2
+SELECTION_VERSION = 3
 BAD_ASSET_HINT = re.compile(r"(?:qr|qrcode|cart|shopping|table[-_ ]?setting|menu[-_ ]?item|food[-_ ]?photo)", re.I)
 CHAIN_HOST_HINT = re.compile(r"(?:^|\.)(?:kfc|tacobell|wienerschnitzel|rubios|ikea|pollyspies)\.com$", re.I)
 
@@ -61,12 +61,18 @@ class IconParser(HTMLParser):
         self.page_url = page_url
         self.icons: list[dict[str, Any]] = []
         self.logos: list[dict[str, Any]] = []
+        self.brand_colors: list[str] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         values = {key.lower(): (value or "") for key, value in attrs}
         if tag.lower() == "meta":
             prop = values.get("property", "").lower()
+            name = values.get("name", "").lower()
             content = values.get("content", "").strip()
+            if name in {"theme-color", "msapplication-tilecolor"}:
+                color = normalize_brand_color(content)
+                if color:
+                    self.brand_colors.append(color)
             if prop in {"og:logo", "og:image"} and content and not BAD_ASSET_HINT.search(content):
                 self.logos.append({"url": urljoin(self.page_url, content), "score": 650 if prop == "og:logo" else 350})
             return
@@ -89,6 +95,26 @@ class IconParser(HTMLParser):
         if "mask-icon" in rel:
             score -= 150
         self.icons.append({"url": urljoin(self.page_url, href), "score": score})
+
+
+def normalize_brand_color(value: str) -> str | None:
+    value = value.strip().lower()
+    if re.fullmatch(r"#[0-9a-f]{3}", value):
+        value = "#" + "".join(character * 2 for character in value[1:])
+    if re.fullmatch(r"#[0-9a-f]{6}", value):
+        channels = [int(value[index : index + 2], 16) for index in (1, 3, 5)]
+        return None if min(channels) >= 238 else value
+    match = re.fullmatch(r"rgb\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*\)", value)
+    if match:
+        channels = [min(int(channel), 255) for channel in match.groups()]
+        return None if min(channels) >= 238 else "#{:02x}{:02x}{:02x}".format(*channels)
+    return None
+
+
+def brand_background(page_url: str, page_html: str) -> str | None:
+    parser = IconParser(page_url)
+    parser.feed(page_html)
+    return parser.brand_colors[0] if parser.brand_colors else None
 
 
 def icon_candidates(page_url: str, page_html: str) -> list[str]:
@@ -176,13 +202,14 @@ def active_deal_hosts() -> set[str]:
 def fetch_logo(host: str, page_url: str) -> dict[str, Any]:
     html_bytes, _, final_url = request_bytes(page_url, "text/html,application/xhtml+xml", MAX_HTML_BYTES)
     page_html = html_bytes.decode("utf-8", errors="replace")
+    background = brand_background(final_url, page_html)
     errors: list[str] = []
     for icon_url in icon_candidates(final_url, page_html):
         try:
             content, content_type, resolved_url = request_bytes(icon_url, "image/png,image/webp,image/jpeg,image/gif,image/x-icon,*/*;q=0.2", MAX_IMAGE_BYTES)
             extension = image_extension(content, content_type)
             if extension and len(content) >= 32:
-                return {"content": content, "extension": extension, "source_url": resolved_url}
+                return {"content": content, "extension": extension, "source_url": resolved_url, "background": background}
         except (HTTPError, URLError, OSError, ValueError) as exc:
             errors.append(str(getattr(exc, "reason", exc)))
     raise RuntimeError(errors[-1] if errors else "no supported site icon found")
@@ -238,6 +265,8 @@ def main() -> int:
                 "source_url": result["source_url"],
                 "checked_at": iso(now),
             }
+            if result.get("background"):
+                logos[host]["background"] = result["background"]
             checks[host] = {"checked_at": iso(now), "status": "ok"}
             successes += 1
         else:

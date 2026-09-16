@@ -38,6 +38,15 @@ class LogoCacheTests(unittest.TestCase):
         self.assertEqual(cache_logos.image_extension(png, "application/octet-stream"), "png")
         self.assertIsNone(cache_logos.image_extension(b"not an image", "text/html"))
 
+    def test_brand_background_uses_published_theme_color(self) -> None:
+        page = '<meta name="theme-color" content="#09A1BF">'
+
+        self.assertEqual(cache_logos.brand_background("https://example.com/", page), "#09a1bf")
+
+    def test_brand_background_rejects_near_white_and_unsafe_css(self) -> None:
+        self.assertIsNone(cache_logos.brand_background("https://example.com/", '<meta name="theme-color" content="#fff">'))
+        self.assertIsNone(cache_logos.normalize_brand_color("url(javascript:alert(1))"))
+
 
 class SourceDiscoveryTests(unittest.TestCase):
     def test_rendered_navigation_recovers_specials_routes(self) -> None:
