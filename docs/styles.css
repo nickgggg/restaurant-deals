@@ -1546,9 +1546,9 @@ button,
 .quick-toggle,
 .view-switch button,
 .toolbar-icon {
-  border-color: transparent;
+  border-color: var(--line);
   border-radius: 6px;
-  background: transparent;
+  background: var(--surface);
   font-family: inherit;
   font-weight: 600;
 }
@@ -1559,8 +1559,30 @@ button,
 }
 
 .quick-toggle[aria-pressed="true"] {
-  border-color: transparent;
-  background: color-mix(in srgb, var(--accent) 13%, var(--surface));
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 18%, var(--surface));
+  color: var(--accent);
+}
+
+.deal-source-link {
+  width: 25px;
+  height: 25px;
+  min-height: 25px;
+  margin-left: auto;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--muted);
+}
+
+.deal-source-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.deal-source-link svg {
+  width: 14px;
+  height: 14px;
 }
 
 .view-switch {
@@ -1831,13 +1853,20 @@ footer {
 
   .filter-fields {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+      "search search"
+      "restaurant city"
+      "offer offer"
+      "day radius";
     gap: 8px;
   }
 
-  .search-control,
-  .offer-control {
-    grid-column: 1 / -1;
-  }
+  .search-control { grid-area: search; }
+  .restaurant-control { grid-area: restaurant; }
+  .city-control { grid-area: city; }
+  .day-control { grid-area: day; }
+  .offer-control { grid-area: offer; }
+  .radius-control { grid-area: radius; }
 
   #search {
     font-size: 16px;

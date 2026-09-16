@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f3f4ef" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#111718" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f3f4ef">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="Deals">
@@ -13,7 +12,9 @@
     <link rel="apple-touch-icon" href="icon-192.png">
     <link rel="manifest" href="manifest.webmanifest">
     <script>
-      document.documentElement.dataset.theme = localStorage.getItem("theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      const initialTheme = localStorage.getItem("theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      document.documentElement.dataset.theme = initialTheme;
+      document.querySelector('meta[name="theme-color"]').content = initialTheme === "dark" ? "#111718" : "#f3f4ef";
     </script>
     <script src="analytics-config.js"></script>
     <script>
@@ -26,7 +27,7 @@
         document.head.append(tracker);
       }
     </script>
-    <link rel="stylesheet" href="styles.css?v=15">
+    <link rel="stylesheet" href="styles.css?v=16">
   </head>
   <body>
     <header class="topbar">
@@ -68,7 +69,7 @@
           Search
           <input id="search" type="search" placeholder="happy hour, tacos, beer">
           </label>
-          <label>
+          <label class="restaurant-control">
           Restaurant
           <select id="restaurant">
             <option value="">All restaurants</option>
@@ -81,7 +82,7 @@
               <div id="city-options" class="multi-select-options"></div>
             </details>
           </div>
-          <label>
+          <label class="day-control">
           Day
           <select id="day">
             <option value="today">Today</option>
@@ -111,7 +112,7 @@
               </div>
             </details>
           </div>
-          <label>
+          <label class="radius-control">
           Within
           <select id="radius" disabled>
             <option value="">Any distance</option>
@@ -152,9 +153,6 @@
               Map
             </button>
           </div>
-          <button id="share-view" class="toolbar-icon" type="button" aria-label="Share these results" title="Share these results">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2.5"></circle><circle cx="6" cy="12" r="2.5"></circle><circle cx="18" cy="19" r="2.5"></circle><path d="m8.2 10.8 7.6-4.5M8.2 13.2l7.6 4.5"></path></svg>
-          </button>
         </div>
       </section>
       <section class="map-panel" id="map-panel" aria-label="Restaurant deal map" hidden>
@@ -195,6 +193,6 @@
 
     <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
-    <script src="app.js?v=17"></script>
+    <script src="app.js?v=18"></script>
   </body>
 </html>

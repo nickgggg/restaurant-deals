@@ -463,6 +463,7 @@ Rules:
 - Split genuinely different weekday promotions into separate deals.
 - Reject expired promotions and offers explicitly limited to another restaurant location.
 - Summary must describe the offer itself in under 90 characters.
+- Preserve every explicit price, percentage, dollar discount, BOGO ratio, and purchase requirement from the source. Put the key offer value in the summary when practical and the remaining exact terms in details.
 - Details should contain only useful terms such as items, prices, restrictions, or purchase requirements.
 - Use all seven applies_days values only when the source explicitly says daily or every day.
 - Put calendar-date recurrence such as "every 29th of the month" in applies_month_days. Do not turn it into every day.
@@ -499,6 +500,7 @@ Rules:
 - Split genuinely different weekday promotions into separate deals.
 - Reject expired offers and offers explicitly limited to another restaurant location.
 - Summary must describe the offer itself in under 90 characters.
+- Preserve every explicit price, percentage, dollar discount, BOGO ratio, and purchase requirement from the visual. Put the key offer value in the summary when practical and the remaining exact terms in details.
 - Details should contain only useful terms such as items, prices, restrictions, or purchase requirements.
 - Use all seven applies_days values only when the visual says daily/every day or explicit ranges cover all seven days.
 - Put calendar-date recurrence such as "every 29th of the month" in applies_month_days.

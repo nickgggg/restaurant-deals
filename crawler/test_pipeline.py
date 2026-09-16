@@ -8,16 +8,29 @@ from crawler import cache_logos, crawl_deals, discover_restaurants, extract_with
 
 
 class LogoCacheTests(unittest.TestCase):
-    def test_icon_candidates_prefer_large_touch_icon(self) -> None:
+    def test_icon_candidates_prefer_semantic_logo_over_touch_icon(self) -> None:
         page = """
             <link rel="icon" href="/favicon-32.png" sizes="32x32">
             <link rel="apple-touch-icon" href="/touch.png" sizes="180x180">
+            <header><img class="site-logo" src="/actual-logo.png" alt="Example logo"></header>
         """
 
         candidates = cache_logos.icon_candidates("https://example.com/menu", page)
 
-        self.assertEqual(candidates[0], "https://example.com/touch.png")
+        self.assertEqual(candidates[0], "https://example.com/actual-logo.png")
         self.assertEqual(candidates[-1], "https://example.com/favicon.ico")
+
+    def test_icon_candidates_reject_obvious_utility_artwork(self) -> None:
+        page = """
+            <meta property="og:image" content="/table-setting.jpg">
+            <img class="logo" src="/images/qrcode-logo.png" alt="Order QR logo">
+            <img class="brand-logo" src="/images/restaurant-logo.png" alt="Restaurant logo">
+        """
+
+        candidates = cache_logos.icon_candidates("https://example.com/", page)
+
+        self.assertEqual(candidates[0], "https://example.com/images/restaurant-logo.png")
+        self.assertFalse(any("qr" in url or "table-setting" in url for url in candidates))
 
     def test_image_extension_uses_file_signature(self) -> None:
         png = b"\x89PNG\r\n\x1a\n" + b"x" * 40

@@ -26,6 +26,9 @@ RETRY_MISSING_AFTER_DAYS = 14
 REQUEST_TIMEOUT = 15
 MAX_HTML_BYTES = 1_500_000
 MAX_IMAGE_BYTES = 600_000
+SELECTION_VERSION = 2
+BAD_ASSET_HINT = re.compile(r"(?:qr|qrcode|cart|shopping|table[-_ ]?setting|menu[-_ ]?item|food[-_ ]?photo)", re.I)
+CHAIN_HOST_HINT = re.compile(r"(?:^|\.)(?:kfc|tacobell|wienerschnitzel|rubios|ikea|pollyspies)\.com$", re.I)
 
 
 def utc_now() -> datetime:
@@ -57,11 +60,25 @@ class IconParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.page_url = page_url
         self.icons: list[dict[str, Any]] = []
+        self.logos: list[dict[str, Any]] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        values = {key.lower(): (value or "") for key, value in attrs}
+        if tag.lower() == "meta":
+            prop = values.get("property", "").lower()
+            content = values.get("content", "").strip()
+            if prop in {"og:logo", "og:image"} and content and not BAD_ASSET_HINT.search(content):
+                self.logos.append({"url": urljoin(self.page_url, content), "score": 650 if prop == "og:logo" else 350})
+            return
+        if tag.lower() == "img":
+            source = values.get("src") or values.get("data-src") or values.get("data-lazy-src") or ""
+            description = " ".join(values.get(key, "") for key in ("alt", "class", "id", "itemprop", "src"))
+            if source and re.search(r"\b(?:logo|brand|wordmark)\b", description, re.I) and not BAD_ASSET_HINT.search(description):
+                score = 1000 if re.search(r"\b(?:logo|wordmark)\b", description, re.I) else 850
+                self.logos.append({"url": urljoin(self.page_url, source), "score": score})
+            return
         if tag.lower() != "link":
             return
-        values = {key.lower(): (value or "") for key, value in attrs}
         rel = values.get("rel", "").lower()
         href = values.get("href", "").strip()
         if "icon" not in rel or not href or href.startswith("data:"):
@@ -77,10 +94,10 @@ class IconParser(HTMLParser):
 def icon_candidates(page_url: str, page_html: str) -> list[str]:
     parser = IconParser(page_url)
     parser.feed(page_html)
-    ranked = sorted(parser.icons, key=lambda item: item["score"], reverse=True)
+    ranked = sorted([*parser.logos, *parser.icons], key=lambda item: item["score"], reverse=True)
     urls = [item["url"] for item in ranked]
     urls.append(urljoin(page_url, "/favicon.ico"))
-    return list(dict.fromkeys(urls))[:5]
+    return [url for url in dict.fromkeys(urls) if not BAD_ASSET_HINT.search(url)][:8]
 
 
 def request_bytes(url: str, accept: str, limit: int) -> tuple[bytes, str, str]:
@@ -176,8 +193,9 @@ def main() -> int:
     websites = website_inventory()
     active_hosts = active_deal_hosts()
     previous = load_json(OUTPUT_PATH, {})
-    logos = previous.get("logos", {})
-    checks = previous.get("checks", {})
+    compatible = previous.get("selection_version") == SELECTION_VERSION
+    logos = previous.get("logos", {}) if compatible else {}
+    checks = previous.get("checks", {}) if compatible else {}
     force = os.environ.get("LOGO_CACHE_FORCE") == "1"
 
     def needs_check(host: str) -> bool:
@@ -189,7 +207,12 @@ def main() -> int:
 
     queue = sorted(
         websites.items(),
-        key=lambda item: (item[0] not in active_hosts, item[0] in logos, parse_iso(checks.get(item[0], {}).get("checked_at"))),
+        key=lambda item: (
+            CHAIN_HOST_HINT.search(item[0]) is not None,
+            item[0] not in active_hosts,
+            item[0] in logos,
+            parse_iso(checks.get(item[0], {}).get("checked_at")),
+        ),
     )
     queue = [item for item in queue if needs_check(item[0])][:MAX_SITES_PER_RUN]
 
@@ -226,6 +249,7 @@ def main() -> int:
 
     payload = {
         "generated_at": iso(now),
+        "selection_version": SELECTION_VERSION,
         "sites_per_run": MAX_SITES_PER_RUN,
         "logos": {host: logos[host] for host in sorted(logos) if host in websites},
         "checks": {host: checks[host] for host in sorted(checks) if host in websites},

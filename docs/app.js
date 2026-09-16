@@ -74,7 +74,6 @@ const favoritesOnlyEl = document.querySelector("#favorites-only");
 const newOnlyEl = document.querySelector("#new-only");
 const listViewEl = document.querySelector("#list-view");
 const mapViewEl = document.querySelector("#map-view");
-const shareViewEl = document.querySelector("#share-view");
 const mapPanelEl = document.querySelector("#map-panel");
 const mapMessageEl = document.querySelector("#map-message");
 const toastEl = document.querySelector("#toast");
@@ -843,6 +842,11 @@ function renderDealRow(deal) {
     fresh.title = `First found ${formatDate(deal.first_seen)}`;
     titleLine.append(fresh);
   }
+  if (deal.source_url) {
+    const source = actionLink(deal.source_url, `Open source for ${title.textContent}`, "source", true);
+    source.classList.add("deal-source-link");
+    titleLine.append(source);
+  }
   main.append(titleLine);
 
   const detailItems = (deal.details || []).filter((item) => item && item !== title.textContent).slice(0, 3);
@@ -931,10 +935,6 @@ function renderGroup(group, needsQualifier = false) {
   }
   if (group.location?.phone) {
     actions.append(actionLink(telUrl(group.location.phone), `Call ${group.location.phone}`, "phone"));
-  }
-  for (const [index, url] of [...group.urls].entries()) {
-    const label = group.urls.size > 1 ? `Official source ${index + 1}` : "Official source";
-    actions.append(actionLink(url, label, "source", true));
   }
   actions.append(actionButton("Share restaurant", "share", () => {
     trackEvent("share_restaurant");
@@ -1382,11 +1382,6 @@ mapViewEl.addEventListener("click", () => {
   rerender();
 });
 
-shareViewEl.addEventListener("click", () => {
-  trackEvent("share_results");
-  shareResults();
-});
-
 filterToggleEl.addEventListener("click", () => {
   const expanded = filtersEl.classList.toggle("is-open");
   filterToggleEl.setAttribute("aria-expanded", String(expanded));
@@ -1423,6 +1418,7 @@ sortMenuEl.addEventListener("click", (event) => {
 
 function syncThemeButton() {
   const dark = document.documentElement.dataset.theme === "dark";
+  document.querySelector('meta[name="theme-color"]').content = dark ? "#111718" : "#f3f4ef";
   const label = dark ? "Use light mode" : "Use dark mode";
   themeToggleEl.setAttribute("aria-label", label);
   themeToggleEl.title = label;
