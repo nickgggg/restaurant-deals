@@ -49,7 +49,7 @@
     "last_scanned_cities": [
       "Costa Mesa"
     ],
-    "last_source_scan_at": "2026-09-16T23:14:35Z",
+    "last_source_scan_at": "2026-09-16T23:20:33Z",
     "map_cells": 179,
     "official_websites": 848,
     "operational_count": 1010,
@@ -61,11 +61,11 @@
     ],
     "restaurant_count": 1050,
     "source_sites_checked": 12,
-    "specials_pages_found": 191,
+    "specials_pages_found": 194,
     "successful_map_cells": 49
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-16T23:14:35Z",
+  "generated_at": "2026-09-16T23:20:33Z",
   "refresh_after": "2026-09-17T16:26:21Z",
   "restaurants": [
     {
@@ -7337,7 +7337,7 @@
       "phone": "(657) 215-6944",
       "place_id": "ChIJcaE-fn4n3YARl7BCy-xcOsI",
       "primary_type": "fast_food_restaurant",
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-af4d6sqr/Default'",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-cws2r7c4/Default'",
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -14506,16 +14506,56 @@
       "phone": "(714) 486-3798",
       "place_id": "ChIJr7Nswz7f3IAR0eIt56JYZtU",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-16T23:19:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Happy Hour",
           "url": "http://www.descansorestaurant.com/happyhour"
         },
         {
-          "confidence": "medium",
-          "label": "Website specials",
-          "url": "http://www.descansorestaurant.com/"
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://descansorestaurant.com/best-cocktails-happy-hour-before-the-fair"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://descansorestaurant.com/costa-mesa-happy-hour-early-evening-elevated"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://descansorestaurant.com/happy-hour-cocktails-near-oc-fairgrounds"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://descansorestaurant.com/happy-hour-in-costa-mesa-mondayfriday-36-pm"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://descansorestaurant.com/happyhour"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://descansorestaurant.com/happyhour-menu"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://descansorestaurant.com/midweek-dinner-specials-deals-near-newport-blvd"
         }
       ],
       "types": [
@@ -14583,6 +14623,8 @@
       "phone": "(949) 264-3352",
       "place_id": "ChIJHTuTVSAn3YAR_YqDUDIXzRM",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-16T23:19:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -14737,9 +14779,12 @@
       "phone": "(714) 884-4522",
       "place_id": "ChIJpUraOAnf3IAR6HHXqG751UY",
       "primary_type": "diner",
+      "specials_checked_at": "2026-09-16T23:19:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://www.dickchurchs.com/"
         }
@@ -14883,9 +14928,12 @@
       "phone": "(714) 962-7911",
       "place_id": "ChIJvcTRMdgg3YARbq5DHz2ahCc",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-16T23:19:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://www.don-jose.com/"
         }
@@ -14965,7 +15013,16 @@
       "phone": "(714) 847-4767",
       "place_id": "ChIJj1hfAYgm3YARfpQduiPFBTE",
       "primary_type": "mexican_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-16T23:19:57Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "http://donramonsrestaurant.com/"
+        }
+      ],
       "types": [
         "mexican_restaurant",
         "latin_american_restaurant",
@@ -15168,6 +15225,8 @@
       "phone": "(657) 900-3285",
       "place_id": "ChIJXZLmvUwn3YARtseaObhoYI8",
       "primary_type": "donut_shop",
+      "specials_checked_at": "2026-09-16T23:19:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "donut_shop",
@@ -15235,9 +15294,12 @@
       "phone": "(714) 751-8777",
       "place_id": "ChIJC8LEuGDf3IAR4JR-3LLcp70",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-09-16T23:19:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://hausofpizzacostamesa.com/"
         }
@@ -15309,6 +15371,8 @@
       "phone": "(714) 492-1994",
       "place_id": "ChIJH0OmRwwh3YARNaIyNXs1BWg",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-16T23:19:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
@@ -15368,6 +15432,8 @@
       "phone": "(714) 374-9100",
       "place_id": "ChIJWbudKfrN3IARs36whfVdzWU",
       "primary_type": "asian_fusion_restaurant",
+      "specials_checked_at": "2026-09-16T23:19:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "asian_fusion_restaurant",
@@ -15502,7 +15568,22 @@
       "phone": "(714) 374-6446",
       "place_id": "ChIJg6yePEIh3YAR9jvzwIJzPoA",
       "primary_type": "seafood_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-16T23:19:57Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.dukeshuntington.com/event/gift-card-promotion-day-copy/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.dukeshuntington.com/event/gift-card-promotion-day/"
+        }
+      ],
       "types": [
         "seafood_restaurant",
         "steak_house",
@@ -15571,7 +15652,34 @@
       "phone": "(714) 376-4668",
       "place_id": "ChIJ3zqv2Dsn3YARGRnnHAoEN28",
       "primary_type": "coffee_shop",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-16T23:19:57Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.dunkindonuts.com/menu/categories/6-meal-deal/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.dunkindonuts.com/menu/categories/6-meal-deal/6-meal-deal/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.dunkindonuts.com/menu/categories/8-meal-deal/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.dunkindonuts.com/menu/categories/8-meal-deal/8-meal-deal/"
+        }
+      ],
       "types": [
         "coffee_shop",
         "fast_food_restaurant",

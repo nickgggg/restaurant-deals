@@ -1,7 +1,301 @@
 {
-  "generated_at": "2026-09-16T23:17:09Z",
+  "generated_at": "2026-09-16T23:23:48Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda Must show coupon at time of purchase",
+      "canonical_id": "340c357134f83c71",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda",
+        "Must show coupon at time of purchase"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "81b97cbb5a42f946",
+      "is_stale": true,
+      "last_seen": "2026-09-16T23:17:09Z",
+      "location": {
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
+      },
+      "quality_score": 49,
+      "restaurant": "Wienerschnitzel",
+      "retired_at": "2026-09-16T23:23:48Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.wienerschnitzel.com/coupons/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$7"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$8 Deluxe Cheeseburger, Small Fries & Small Soda Includes Deluxe Cheeseburger, Small Fries, and Small Soda Must show coupon at time of purchase",
+      "canonical_id": "f3eab6d68bf68e74",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Includes Deluxe Cheeseburger, Small Fries, and Small Soda",
+        "Must show coupon at time of purchase"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "69d59391d59f8227",
+      "is_stale": true,
+      "last_seen": "2026-09-16T23:17:09Z",
+      "location": {
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
+      },
+      "quality_score": 49,
+      "restaurant": "Wienerschnitzel",
+      "retired_at": "2026-09-16T23:23:48Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.wienerschnitzel.com/coupons/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$8"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$5 Corn Dog, Small Fries and Small Soda Deal Price: $5 Includes a corn dog, small fries, and a small soda Coupon good for TWO orders on same visit Tax extra Not valid with any other offer, discount or coupon Not valid in Sacramento, Stockton & Modesto areas",
+      "canonical_id": "10114babb472275b",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $5",
+        "Includes a corn dog, small fries, and a small soda",
+        "Coupon good for TWO orders on same visit",
+        "Tax extra",
+        "Not valid with any other offer, discount or coupon",
+        "Not valid in Sacramento, Stockton & Modesto areas",
+        "Includes Corn Dog, Small Fries, and Small Soda",
+        "Must show coupon at time of purchase"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "260ba6163cef8bf4",
+      "is_stale": true,
+      "last_seen": "2026-09-16T23:17:09Z",
+      "location": {
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
+      },
+      "quality_score": 50,
+      "restaurant": "Wienerschnitzel",
+      "retired_at": "2026-09-16T23:23:48Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+        "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251",
+        "$5 Corn Dog, Small Fries & Small Soda Coupon"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/",
+      "source_urls": [
+        "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/",
+        "http://www.wienerschnitzel.com/coupons/"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$5"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [],
@@ -1933,190 +2227,6 @@
       "stale_after_days": 21,
       "status": "stale",
       "summary": "Pizza Twins deal",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "valid_through": null,
-      "validity": "Check source"
-    },
-    {
-      "ai_confidence": 0.9,
-      "applies_days": [],
-      "applies_month_days": [],
-      "candidate_text": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda Must show coupon at time of purchase",
-      "canonical_id": "340c357134f83c71",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda",
-        "Must show coupon at time of purchase"
-      ],
-      "first_seen": "2026-09-15T16:06:33Z",
-      "id": "81b97cbb5a42f946",
-      "is_stale": true,
-      "last_seen": "2026-09-15T16:06:33Z",
-      "location": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
-      },
-      "restaurant": "Wienerschnitzel",
-      "retired_at": "2026-09-15T22:07:45Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://www.wienerschnitzel.com/coupons/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "valid_through": null,
-      "validity": "Check source"
-    },
-    {
-      "ai_confidence": 0.9,
-      "applies_days": [],
-      "applies_month_days": [],
-      "candidate_text": "$8 Deluxe Cheeseburger, Small Fries & Small Soda Includes Deluxe Cheeseburger, Small Fries, and Small Soda Must show coupon at time of purchase",
-      "canonical_id": "f3eab6d68bf68e74",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Includes Deluxe Cheeseburger, Small Fries, and Small Soda",
-        "Must show coupon at time of purchase"
-      ],
-      "first_seen": "2026-09-15T16:06:33Z",
-      "id": "69d59391d59f8227",
-      "is_stale": true,
-      "last_seen": "2026-09-15T16:06:33Z",
-      "location": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
-      },
-      "restaurant": "Wienerschnitzel",
-      "retired_at": "2026-09-15T22:07:45Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://www.wienerschnitzel.com/coupons/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
       "tags": [
         "dollar_amount",
         "deal_language"
