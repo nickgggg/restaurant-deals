@@ -73,6 +73,10 @@ jobs:
         if: steps.freshness.outputs.should_run == 'true'
         run: python crawler/crawl_deals.py
 
+      - name: Cache official site icons
+        if: steps.freshness.outputs.should_run == 'true'
+        run: python crawler/cache_logos.py
+
       - name: Publish report crawl results
         if: steps.freshness.outputs.should_run == 'true'
         uses: actions/github-script@v8
@@ -132,8 +136,8 @@ jobs:
       - name: Commit updated data
         if: steps.freshness.outputs.should_run == 'true'
         run: |
-          files=(docs/data/deals.json docs/data/restaurants.json docs/data/ai_extractions.json crawler/data/deal_history.json)
-          if git diff --quiet -- "${files[@]}"; then
+          files=(docs/data/deals.json docs/data/restaurants.json docs/data/ai_extractions.json docs/data/logos.json docs/logos crawler/data/deal_history.json)
+          if [ -z "$(git status --porcelain -- "${files[@]}")" ]; then
             echo "No data changes to publish"
             exit 0
           fi

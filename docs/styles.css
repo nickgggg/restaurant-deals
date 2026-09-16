@@ -792,7 +792,41 @@ button {
 }
 
 .location-title {
+  display: flex;
+  align-items: center;
+  gap: 9px;
   min-width: 0;
+}
+
+.location-title-copy {
+  min-width: 0;
+}
+
+.restaurant-mark {
+  position: relative;
+  display: grid;
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--wash);
+  color: var(--accent);
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  font-weight: 800;
+}
+
+.restaurant-mark img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+  object-fit: contain;
+  background: #fff;
 }
 
 .location h2,
@@ -1852,6 +1886,13 @@ footer {
 
   .location h2 {
     font-size: 0.9rem;
+  }
+
+  .restaurant-mark {
+    width: 28px;
+    height: 28px;
+    flex-basis: 28px;
+    font-size: 0.61rem;
   }
 
   .location-title p {

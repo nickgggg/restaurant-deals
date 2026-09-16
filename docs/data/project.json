@@ -30,9 +30,9 @@
       "detail": "Trusted official URLs move to the front of the next crawl, and verified or inconclusive results are posted back to the report automatically."
     },
     {
-      "status": "later",
+      "status": "working",
       "title": "Restaurant logos",
-      "detail": "Cache logos from official sites carefully without slowing or cluttering the deal list."
+      "detail": "Official site icons are cached in a bounded rotating batch and shown with an initials fallback, without using paid APIs."
     },
     {
       "status": "working",

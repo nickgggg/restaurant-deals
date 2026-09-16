@@ -20,6 +20,7 @@ const state = {
   payload: null,
   restaurants: null,
   project: null,
+  logos: null,
   query: "",
   restaurant: "",
   cities: new Set(),
@@ -250,6 +251,51 @@ function categoryLabel(categories = []) {
 function restaurantLabel(name, city) {
   const suffix = ` - ${city}`;
   return city && name.endsWith(suffix) ? name.slice(0, -suffix.length) : name;
+}
+
+function restaurantInitials(name = "") {
+  return name
+    .replace(/[^a-z0-9' ]/gi, " ")
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((part) => part[0])
+    .join("")
+    .toUpperCase() || "RD";
+}
+
+function logoForGroup(group) {
+  const logos = state.logos?.logos || {};
+  const official = (state.restaurants?.restaurants || []).find((item) => item.name === group.restaurant && item.city === group.city)?.website_url;
+  const urls = [official, ...group.urls].filter(Boolean);
+  for (const url of urls) {
+    try {
+      const host = new URL(url).hostname.toLowerCase().replace(/^www\./, "");
+      if (logos[host]?.path) return logos[host].path;
+    } catch (_) {
+      // Ignore malformed legacy source URLs and keep the initials fallback.
+    }
+  }
+  return "";
+}
+
+function restaurantMark(group) {
+  const mark = document.createElement("span");
+  mark.className = "restaurant-mark";
+  mark.setAttribute("aria-hidden", "true");
+  const fallback = document.createElement("span");
+  fallback.textContent = restaurantInitials(restaurantLabel(group.restaurant, group.city));
+  mark.append(fallback);
+  const logo = logoForGroup(group);
+  if (logo) {
+    const image = document.createElement("img");
+    image.src = logo;
+    image.alt = "";
+    image.loading = "lazy";
+    image.addEventListener("error", () => image.remove(), { once: true });
+    mark.append(image);
+  }
+  return mark;
 }
 
 function locationKeyForDeal(deal) {
@@ -847,15 +893,18 @@ function renderGroup(group, needsQualifier = false) {
 
   const titleWrap = document.createElement("div");
   titleWrap.className = "location-title";
+  const titleCopy = document.createElement("div");
+  titleCopy.className = "location-title-copy";
   const title = document.createElement("h2");
   const baseLabel = restaurantLabel(group.restaurant, group.city);
   const qualifier = needsQualifier ? locationQualifier(group.location?.address) : "";
   title.textContent = qualifier ? `${baseLabel} · ${qualifier}` : baseLabel;
-  titleWrap.append(title);
+  titleCopy.append(title);
   const sub = document.createElement("p");
   const bits = [group.city, distanceLabel(group), openStatus(group.location)].filter(Boolean);
   sub.textContent = bits.join(" · ");
-  titleWrap.append(sub);
+  titleCopy.append(sub);
+  titleWrap.append(restaurantMark(group), titleCopy);
 
   const preview = document.createElement("div");
   preview.className = "deal-preview";
@@ -1127,6 +1176,7 @@ function renderProjectStatus() {
     ["Browser renders", `${compactNumber(pipeline.rendered_pages)}/${compactNumber(pipeline.render_attempts)}`],
     ["Visual deal pages", compactNumber(pipeline.visual_pages)],
     ["Visual checks", `${compactNumber(pipeline.visual_attempts)} calls · ${compactNumber(pipeline.visual_cache_hits)} cached`],
+    ["Site icons", compactNumber(Object.keys(state.logos?.logos || {}).length)],
     ["Sites checked", `${state.project?.max_source_sites_per_run || 12}/run`],
     ["Gemini batch", `${state.project?.gemini_pages_per_run || 30}/run`],
     ["Gemini visual", `${state.project?.gemini_visual_pages_per_run || 4}/run`],
@@ -1186,14 +1236,16 @@ function requestLocation() {
 }
 
 async function init() {
-  const [dealsResponse, restaurantsResponse, projectResponse] = await Promise.all([
+  const [dealsResponse, restaurantsResponse, projectResponse, logosResponse] = await Promise.all([
     fetch("data/deals.json", { cache: "no-store" }),
     fetch("data/restaurants.json", { cache: "no-store" }).catch(() => null),
     fetch("data/project.json", { cache: "no-store" }).catch(() => null),
+    fetch("data/logos.json", { cache: "no-store" }).catch(() => null),
   ]);
   state.payload = await dealsResponse.json();
   state.restaurants = restaurantsResponse?.ok ? await restaurantsResponse.json() : null;
   state.project = projectResponse?.ok ? await projectResponse.json() : null;
+  state.logos = logosResponse?.ok ? await logosResponse.json() : { logos: {} };
   renderConnectionStatus();
   readUrlState();
   renderFilterOptions();

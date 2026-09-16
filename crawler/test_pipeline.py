@@ -4,7 +4,26 @@ import unittest
 from datetime import date, datetime, timezone
 from unittest.mock import patch
 
-from crawler import crawl_deals, discover_restaurants, extract_with_gemini
+from crawler import cache_logos, crawl_deals, discover_restaurants, extract_with_gemini
+
+
+class LogoCacheTests(unittest.TestCase):
+    def test_icon_candidates_prefer_large_touch_icon(self) -> None:
+        page = """
+            <link rel="icon" href="/favicon-32.png" sizes="32x32">
+            <link rel="apple-touch-icon" href="/touch.png" sizes="180x180">
+        """
+
+        candidates = cache_logos.icon_candidates("https://example.com/menu", page)
+
+        self.assertEqual(candidates[0], "https://example.com/touch.png")
+        self.assertEqual(candidates[-1], "https://example.com/favicon.ico")
+
+    def test_image_extension_uses_file_signature(self) -> None:
+        png = b"\x89PNG\r\n\x1a\n" + b"x" * 40
+
+        self.assertEqual(cache_logos.image_extension(png, "application/octet-stream"), "png")
+        self.assertIsNone(cache_logos.image_extension(b"not an image", "text/html"))
 
 
 class SourceDiscoveryTests(unittest.TestCase):

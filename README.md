@@ -16,6 +16,7 @@ The project runs entirely on GitHub:
 - The crawler uses only the Python standard library, so there are no package installs.
 - MapLibre and OpenFreeMap provide the optional custom map without an API key.
 - A service worker and web app manifest make the site installable and keep the latest successful deal feed available offline.
+- Official-site icons are cached in a rotating batch of 20 sites per run, with no third-party logo service or paid API.
 
 ## Current Scope
 
