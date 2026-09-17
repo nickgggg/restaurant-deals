@@ -51,7 +51,7 @@
     "last_scanned_cities": [
       "Westminster"
     ],
-    "last_source_scan_at": "2026-09-17T16:13:29Z",
+    "last_source_scan_at": "2026-09-17T18:30:38Z",
     "map_cells": 233,
     "official_websites": 967,
     "operational_count": 1209,
@@ -61,12 +61,12 @@
       "Garden Grove"
     ],
     "restaurant_count": 1258,
-    "source_sites_checked": 111,
+    "source_sites_checked": 12,
     "specials_pages_found": 231,
     "successful_map_cells": 54
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-17T16:13:29Z",
+  "generated_at": "2026-09-17T18:30:38Z",
   "refresh_after": "2026-09-24T16:13:29Z",
   "restaurants": [
     {
@@ -8427,7 +8427,7 @@
       "phone": "(657) 215-6944",
       "place_id": "ChIJcaE-fn4n3YARl7BCy-xcOsI",
       "primary_type": "fast_food_restaurant",
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-jmmoubqk/Default'",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-ubjr7a77/Default'",
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -20129,6 +20129,8 @@
       "phone": "(714) 378-8612",
       "place_id": "ChIJX2Y6NcEg3YAR3GY9K07V2X4",
       "primary_type": "chinese_restaurant",
+      "specials_checked_at": "2026-09-17T18:30:03Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chinese_restaurant",
@@ -20218,6 +20220,8 @@
       "phone": "(949) 548-3978",
       "place_id": "ChIJLWyaR3_f3IARhzvVLKHOklI",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-17T18:30:03Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
@@ -20353,6 +20357,8 @@
       "phone": "(949) 220-7254",
       "place_id": "ChIJ405Qk23f3IARZ9FL715IH-s",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-17T18:30:03Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -20417,9 +20423,12 @@
       "phone": "(714) 775-5250",
       "place_id": "ChIJbWnnp2gn3YAR0ahwIJJ1Xpw",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-17T18:30:03Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://restaurants.elpolloloco.com/ca/fountain-valley/11025-warner-ave?utm_source=gmb&utm_medium=yext"
         }
@@ -20572,9 +20581,12 @@
       "phone": "(714) 964-2422",
       "place_id": "ChIJH4BPY8wm3YAR0l2BRVKewDw",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-17T18:30:03Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://restaurants.elpolloloco.com/ca/huntington-beach/19171-brookhurst-st?utm_source=gmb&utm_medium=yext"
         }
@@ -20648,14 +20660,42 @@
       "phone": "(714) 434-9250",
       "place_id": "ChIJTxlQjFnf3IARw-3DO_DflGk",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-17T18:30:03Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.elpolloloco.com/promotions/bring-the-fire"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Coupon Policy",
           "url": "https://www.elpolloloco.com/promotions/coupon-policy.html"
         },
         {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.elpolloloco.com/promotions/general-offers"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.elpolloloco.com/promotions/protein-menu.html"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.elpolloloco.com/promotions/social-sweepstakes"
+        },
+        {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://elpolloloco.com/locations/store/3969?utm_source=gmb&utm_medium=yext"
         }
@@ -20711,14 +20751,18 @@
       "phone": "(949) 948-8548",
       "place_id": "ChIJ2SRloRXf3IARj0YgBK_r3yw",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-17T18:30:03Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Specials",
           "url": "https://www.elpollonorteno.net/?location=East+1st+Street&menu=specials"
         },
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Specials",
           "url": "https://www.elpollonorteno.net/specials"
         }
@@ -20824,6 +20868,8 @@
       "phone": "(714) 369-6969",
       "place_id": "ChIJERxxdmol3YARqv7NxMZqx30",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-17T18:30:03Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
@@ -20954,6 +21000,8 @@
       "phone": "(714) 716-5850",
       "place_id": "ChIJ3yWSRNYh3YARra1hkdmtLTo",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-09-17T18:30:03Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
@@ -21036,6 +21084,8 @@
       "phone": "(714) 825-0570",
       "place_id": "ChIJi7397vze3IARHZM4CT-EG1E",
       "primary_type": "cafe",
+      "specials_checked_at": "2026-09-17T18:30:03Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
@@ -21112,6 +21162,8 @@
       "phone": "(949) 281-6406",
       "place_id": "ChIJ_3LRWtgh3YARquE-6VIOmiw",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-17T18:30:03Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
