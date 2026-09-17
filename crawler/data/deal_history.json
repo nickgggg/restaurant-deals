@@ -1,7 +1,624 @@
 {
-  "generated_at": "2026-09-16T23:29:20Z",
+  "generated_at": "2026-09-17T16:21:00Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda Must show coupon at time of purchase",
+      "canonical_id": "340c357134f83c71",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda",
+        "Must show coupon at time of purchase"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "81b97cbb5a42f946",
+      "is_stale": true,
+      "last_seen": "2026-09-16T23:29:20Z",
+      "location": {
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
+      },
+      "quality_score": 49,
+      "restaurant": "Wienerschnitzel",
+      "retired_at": "2026-09-17T16:21:00Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.wienerschnitzel.com/coupons/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$7"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$8 Deluxe Cheeseburger, Small Fries & Small Soda Includes Deluxe Cheeseburger, Small Fries, and Small Soda Must show coupon at time of purchase",
+      "canonical_id": "f3eab6d68bf68e74",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Includes Deluxe Cheeseburger, Small Fries, and Small Soda",
+        "Must show coupon at time of purchase"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "69d59391d59f8227",
+      "is_stale": true,
+      "last_seen": "2026-09-16T23:29:20Z",
+      "location": {
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
+      },
+      "quality_score": 49,
+      "restaurant": "Wienerschnitzel",
+      "retired_at": "2026-09-17T16:21:00Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.wienerschnitzel.com/coupons/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$8"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$5 Corn Dog, Small Fries and Small Soda Deal Includes a corn dog, small fries, and small soda for $5 Tax extra Good for two orders on same visit Must be surrendered at time of purchase Not valid with any other offer, discount or coupon Not valid in Sacramento, Stockton & Modesto areas",
+      "canonical_id": "8801129f1acf3799",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Includes a corn dog, small fries, and small soda for $5",
+        "Tax extra",
+        "Good for two orders on same visit",
+        "Must be surrendered at time of purchase",
+        "Not valid with any other offer, discount or coupon",
+        "Not valid in Sacramento, Stockton & Modesto areas",
+        "Includes Corn Dog, Small Fries, and Small Soda",
+        "Must show coupon at time of purchase"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "10114babb472275b",
+      "is_stale": true,
+      "last_seen": "2026-09-16T23:29:20Z",
+      "location": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
+      },
+      "quality_score": 50,
+      "restaurant": "Wienerschnitzel",
+      "retired_at": "2026-09-17T16:21:00Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+        "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251",
+        "$5 Corn Dog, Small Fries & Small Soda Coupon"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/",
+      "source_urls": [
+        "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/",
+        "http://www.wienerschnitzel.com/coupons/"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$5"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$3 Pretzel Bun Chili Dog Price: $3 Item: Original Pretzel Bun Chili Dog only Cheese extra Coupon good for TWO orders on same visit and must be surrendered at time of purchase Tax extra Not valid with any other offer, discount or coupon Good at participating restaurants only",
+      "canonical_id": "d9f3b5732975b650",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $3",
+        "Item: Original Pretzel Bun Chili Dog only",
+        "Cheese extra",
+        "Coupon good for TWO orders on same visit and must be surrendered at time of purchase",
+        "Tax extra",
+        "Not valid with any other offer, discount or coupon",
+        "Good at participating restaurants only",
+        "Pretzel Bun Chili Dog coupon"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "7d83b635b3ac7464",
+      "is_stale": true,
+      "last_seen": "2026-09-16T23:29:20Z",
+      "location": {
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
+      },
+      "quality_score": 50,
+      "restaurant": "Wienerschnitzel",
+      "retired_at": "2026-09-17T16:21:00Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$3 - Pretzel Bun Chili Dog - 230",
+        "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel",
+        "Original Pretzel Bun Chili Dog only. (Cheese extra.)",
+        "Coupon good for TWO orders on same visit and"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/",
+      "source_urls": [
+        "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/",
+        "http://www.wienerschnitzel.com/coupons/"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$3 Pretzel Bun Chili Dog",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$3"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour: $2 OFF all signature cocktails, wines by the glass, and beer Only available in the Trenta Lounge Applies to all Signature Cocktails, Wines by the Glass, and Beer $2 OFF",
+      "canonical_id": "191ffec5e004545f",
+      "categories": [
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Only available in the Trenta Lounge",
+        "Applies to all Signature Cocktails, Wines by the Glass, and Beer",
+        "$2 OFF"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "1927ed85ba824682",
+      "is_stale": true,
+      "last_seen": "2026-09-16T23:17:09Z",
+      "location": {
+        "address": "1661 Superior Ave Ste d, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=6654488974885952960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "21:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "20:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.6348445,
+        "longitude": -117.92543880000001,
+        "phone": "(949) 270-6652",
+        "place_id": "ChIJaxicd5Ah3YARwJ3UNXd-WVw"
+      },
+      "quality_score": 75,
+      "restaurant": "Trenta Pizza & Cucina and Trenta Lounge",
+      "retired_at": "2026-09-17T16:21:00Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Monday through Thursday",
+        "From 5 to 6:30pm",
+        "All Signature Cocktails, Wines by the Glass, and Beer",
+        "$2 OFF"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2027-02-16-17-00",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour: $2 OFF all signature cocktails, wines by the glass, and beer",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "5:00 PM \u2013 6:30 PM",
+      "valid_through": null,
+      "validity": "Mon, Tue, Wed, Thu, 5:00 PM \u2013 6:30 PM",
+      "value_label": "$2 off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Kids eat free every Wednesday Kids eat free promotion for IKEA Family members.",
+      "canonical_id": "b5066918d389b43e",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Kids eat free promotion for IKEA Family members."
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "80cc5d2eb039b0fb",
+      "is_stale": true,
+      "last_seen": "2026-09-16T23:29:20Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 93,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-09-17T16:21:00Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Kids eat free every Wednesday thru 9/30"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/offers/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Kids eat free every Wednesday",
+      "tags": [
+        "weekday_special",
+        "free",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-30",
+      "validity": "Wed",
+      "value_label": "Free"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [],
@@ -298,194 +915,6 @@
       "value_label": "$8"
     },
     {
-      "ai_confidence": 0.9,
-      "applies_days": [],
-      "applies_month_days": [],
-      "candidate_text": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda Must show coupon at time of purchase",
-      "canonical_id": "340c357134f83c71",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Includes Chili Cheese Dog, Chili Cheese Fries, and Small Soda",
-        "Must show coupon at time of purchase"
-      ],
-      "first_seen": "2026-09-16T23:17:09Z",
-      "id": "81b97cbb5a42f946",
-      "is_stale": true,
-      "last_seen": "2026-09-16T23:17:09Z",
-      "location": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
-      },
-      "quality_score": 49,
-      "restaurant": "Wienerschnitzel",
-      "retired_at": "2026-09-16T23:23:48Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://www.wienerschnitzel.com/coupons/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "valid_through": null,
-      "validity": "Check source",
-      "value_label": "$7"
-    },
-    {
-      "ai_confidence": 0.9,
-      "applies_days": [],
-      "applies_month_days": [],
-      "candidate_text": "$8 Deluxe Cheeseburger, Small Fries & Small Soda Includes Deluxe Cheeseburger, Small Fries, and Small Soda Must show coupon at time of purchase",
-      "canonical_id": "f3eab6d68bf68e74",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Includes Deluxe Cheeseburger, Small Fries, and Small Soda",
-        "Must show coupon at time of purchase"
-      ],
-      "first_seen": "2026-09-16T23:17:09Z",
-      "id": "69d59391d59f8227",
-      "is_stale": true,
-      "last_seen": "2026-09-16T23:17:09Z",
-      "location": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
-      },
-      "quality_score": 49,
-      "restaurant": "Wienerschnitzel",
-      "retired_at": "2026-09-16T23:23:48Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://www.wienerschnitzel.com/coupons/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "valid_through": null,
-      "validity": "Check source",
-      "value_label": "$8"
-    },
-    {
       "ai_confidence": 0.95,
       "applies_days": [],
       "applies_month_days": [],
@@ -590,202 +1019,6 @@
       "valid_through": null,
       "validity": "Check source",
       "value_label": "$5"
-    },
-    {
-      "ai_confidence": 0.95,
-      "applies_days": [],
-      "applies_month_days": [],
-      "candidate_text": "$5 Corn Dog, Small Fries and Small Soda Deal Includes a corn dog, small fries, and small soda for $5 Tax extra Good for two orders on same visit Must be surrendered at time of purchase Not valid with any other offer, discount or coupon Not valid in Sacramento, Stockton & Modesto areas",
-      "canonical_id": "8801129f1acf3799",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Includes a corn dog, small fries, and small soda for $5",
-        "Tax extra",
-        "Good for two orders on same visit",
-        "Must be surrendered at time of purchase",
-        "Not valid with any other offer, discount or coupon",
-        "Not valid in Sacramento, Stockton & Modesto areas"
-      ],
-      "first_seen": "2026-09-14T22:53:29Z",
-      "id": "10114babb472275b",
-      "is_stale": true,
-      "last_seen": "2026-09-16T18:34:31Z",
-      "location": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
-      },
-      "restaurant": "Wienerschnitzel",
-      "retired_at": "2026-09-16T22:46:48Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "$5 - Corn Dog, Small Fries and Small Soda Coupon",
-        "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "valid_through": null,
-      "validity": "Check source"
-    },
-    {
-      "ai_confidence": 0.95,
-      "applies_days": [],
-      "applies_month_days": [],
-      "candidate_text": "$3 Pretzel Bun Chili Dog Price: $3 Item: Original Pretzel Bun Chili Dog only Cheese extra Coupon good for TWO orders on same visit and must be surrendered at time of purchase Tax extra Not valid with any other offer, discount or coupon Good at participating restaurants only",
-      "canonical_id": "d9f3b5732975b650",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Price: $3",
-        "Item: Original Pretzel Bun Chili Dog only",
-        "Cheese extra",
-        "Coupon good for TWO orders on same visit and must be surrendered at time of purchase",
-        "Tax extra",
-        "Not valid with any other offer, discount or coupon",
-        "Good at participating restaurants only"
-      ],
-      "first_seen": "2026-09-15T20:26:33Z",
-      "id": "7d83b635b3ac7464",
-      "is_stale": true,
-      "last_seen": "2026-09-16T18:34:31Z",
-      "location": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
-      },
-      "restaurant": "Wienerschnitzel",
-      "retired_at": "2026-09-16T22:46:48Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "$3 - Pretzel Bun Chili Dog - 230",
-        "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel",
-        "Original Pretzel Bun Chili Dog only. (Cheese extra.)",
-        "Coupon good for TWO orders on same visit and"
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "$3 Pretzel Bun Chili Dog",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "valid_through": null,
-      "validity": "Check source"
     },
     {
       "ai_confidence": 0.95,
@@ -4470,99 +4703,6 @@
       "time_window": "Mon-Fri 3pm-6:30pm; Sat-Sun 1pm-5pm",
       "valid_through": null,
       "validity": "Mon-Fri 3pm-6:30pm; Sat-Sun 1pm-5pm"
-    },
-    {
-      "ai_confidence": 0.95,
-      "applies_days": [
-        "wednesday"
-      ],
-      "applies_month_days": [],
-      "candidate_text": "Kids eat free every Wednesday Kids eat free promotion for IKEA Family members.",
-      "canonical_id": "2665dfe4f70eb94f",
-      "categories": [
-        "food"
-      ],
-      "city": "Costa Mesa",
-      "days_since_seen": 0,
-      "details": [
-        "Kids eat free promotion for IKEA Family members."
-      ],
-      "first_seen": "2026-09-14T22:53:29Z",
-      "id": "80cc5d2eb039b0fb",
-      "is_stale": true,
-      "last_seen": "2026-09-14T22:53:29Z",
-      "location": {
-        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "20:00",
-              "open": "09:30"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:00",
-              "open": "09:30"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "20:00",
-              "open": "09:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "20:00",
-              "open": "09:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "20:00",
-              "open": "09:30"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:00",
-              "open": "09:30"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "20:00",
-              "open": "09:30"
-            }
-          ]
-        },
-        "latitude": 33.6910441,
-        "longitude": -117.91629560000001,
-        "phone": "(888) 888-4532",
-        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
-      },
-      "restaurant": "IKEA Restaurant",
-      "retired_at": "2026-09-15T22:07:45Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "Kids eat free every Wednesday thru 9/30"
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "https://www.ikea.com/us/en/offers/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Kids eat free every Wednesday",
-      "tags": [
-        "weekday_special",
-        "free",
-        "deal_language"
-      ],
-      "time_window": null,
-      "valid_through": "2026-09-30",
-      "validity": "Wed"
     },
     {
       "ai_confidence": 0.95,
