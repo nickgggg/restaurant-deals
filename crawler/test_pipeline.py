@@ -85,6 +85,52 @@ class SourceDiscoveryTests(unittest.TestCase):
         self.assertEqual(urls, ["https://example.com/happy-hour", "https://example.com/weekday-specials"])
 
 
+class AreaQueueTests(unittest.TestCase):
+    def queue_fixture(self) -> tuple[dict, dict]:
+        config = {
+            "queue_activation_days": 7,
+            "area_refresh_days": 35,
+            "max_areas_per_run": 1,
+            "areas": [
+                {"city": "Costa Mesa"},
+                {"city": "Westminster"},
+            ],
+        }
+        existing = {
+            "area_status": {
+                "Costa Mesa": {
+                    "status": "active",
+                    "activated_at": "2026-09-10T16:26:21Z",
+                    "last_refreshed": "2026-09-10T16:26:21Z",
+                },
+                "Westminster": {
+                    "status": "queued",
+                    "activated_at": None,
+                    "last_refreshed": None,
+                },
+            }
+        }
+        return config, existing
+
+    def test_city_activates_anytime_on_its_scheduled_day(self) -> None:
+        config, existing = self.queue_fixture()
+        before_exact_timestamp = datetime(2026, 9, 17, 14, 37, tzinfo=timezone.utc)
+
+        with patch.object(discover_restaurants, "utc_now", return_value=before_exact_timestamp):
+            selected, _ = discover_restaurants.select_areas(config, existing, force=False)
+
+        self.assertEqual([area["city"] for area in selected], ["Westminster"])
+
+    def test_city_stays_queued_before_its_scheduled_day(self) -> None:
+        config, existing = self.queue_fixture()
+        day_before = datetime(2026, 9, 16, 23, 59, tzinfo=timezone.utc)
+
+        with patch.object(discover_restaurants, "utc_now", return_value=day_before):
+            selected, _ = discover_restaurants.select_areas(config, existing, force=False)
+
+        self.assertEqual(selected, [])
+
+
 class ExtractionTests(unittest.TestCase):
     def test_validation_rejects_plain_package_pricing_but_keeps_scheduled_special(self) -> None:
         package = "Family Package 2 for $90 serving 5-6 people"

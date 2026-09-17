@@ -562,7 +562,8 @@ def select_areas(config: dict[str, Any], existing: dict[str, Any], force: bool) 
         if status.get("status") == "active"
     ]
     latest_activation = max((value for value in activation_dates if value), default=None)
-    if queued and (not latest_activation or now - latest_activation >= activation_interval):
+    activation_due = latest_activation + activation_interval if latest_activation else None
+    if queued and (not activation_due or now.date() >= activation_due.date()):
         return queued[:limit], statuses
 
     refresh_interval = timedelta(days=int(config.get("area_refresh_days", 35)))
