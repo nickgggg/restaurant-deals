@@ -1,7 +1,483 @@
 {
-  "generated_at": "2026-09-17T18:36:19Z",
+  "generated_at": "2026-09-18T18:00:35Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 1.0,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$5 Breakfast Burrito Special Full-sized, scratch-made breakfast burrito Choice of protein Cage-free eggs, crispy hash browns, cheddar, house salsa Price: $5",
+      "canonical_id": "1198c2f83797eec2",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Full-sized, scratch-made breakfast burrito",
+        "Choice of protein",
+        "Cage-free eggs, crispy hash browns, cheddar, house salsa",
+        "Price: $5"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "e6a17702be2cb924",
+      "is_stale": true,
+      "last_seen": "2026-09-17T18:36:19Z",
+      "location": {
+        "address": "1525 Mesa Verde Dr E Ste 117, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1827828436789330286&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "19:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.669763599999996,
+        "longitude": -117.9208274,
+        "phone": "(714) 486-1777",
+        "place_id": "ChIJYRZbxcLf3IARboEvbUfAXRk"
+      },
+      "quality_score": 90,
+      "restaurant": "Deli Nerds",
+      "retired_at": "2026-09-18T18:00:35Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$5 weekdays 8\u20139 AM.",
+        "$5 Breakfast Burrito Special",
+        "Weekdays 8\u20139 AM \u00b7 Full-sized, scratch-made, choice of protein."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.delinerds.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$5 Breakfast Burrito Special",
+      "tags": [
+        "dollar_amount",
+        "free",
+        "deal_language"
+      ],
+      "time_window": "Weekdays 8\u20139 AM \u00b7 Full-sized, scratch-made, choice of protein.",
+      "valid_through": null,
+      "validity": "Weekdays 8\u20139 AM \u00b7 Full-sized, scratch-made, choice of protein.",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$5 Breakfast Burrito Special Full-sized breakfast burrito In-store only Choice of protein",
+      "canonical_id": "ccfc498c0629df24",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Full-sized breakfast burrito",
+        "In-store only",
+        "Choice of protein"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "3d910c7e18a9ca8a",
+      "is_stale": true,
+      "last_seen": "2026-09-17T18:36:19Z",
+      "location": {
+        "address": "1525 Mesa Verde Dr E Ste 117, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1827828436789330286&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "19:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.669763599999996,
+        "longitude": -117.9208274,
+        "phone": "(714) 486-1777",
+        "place_id": "ChIJYRZbxcLf3IARboEvbUfAXRk"
+      },
+      "quality_score": 65,
+      "restaurant": "Deli Nerds",
+      "retired_at": "2026-09-18T18:00:35Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$5 Breakfast Burrito Special \u2014 full-sized, Monday\u2013Friday 8\u20139 AM, in-store only."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.delinerds.com/breakfast-burrito-costa-mesa",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$5 Breakfast Burrito Special",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": "$5 Breakfast Burrito Special \u2014 full-sized, Mon\u2013Fri 8\u20139 AM, in-store only.",
+      "valid_through": null,
+      "validity": "$5 Breakfast Burrito Special \u2014 full-sized, Mon\u2013Fri 8\u20139 AM, in-store only.",
+      "value_label": "$5"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "15% off for Service Appreciation 15% off food bill for active and retired military members and their families Must show Military ID Dine-in only",
+      "canonical_id": "646514b3309bf7ac",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "15% off food bill for active and retired military members and their families",
+        "Must show Military ID",
+        "Dine-in only"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "f8f8f0ff0552b491",
+      "is_stale": true,
+      "last_seen": "2026-09-17T18:36:19Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "quality_score": 75,
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "retired_at": "2026-09-18T18:00:35Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "To show our appreciation, we offer active and retired military members and their families 15% off their food bill."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-costa-mesa/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "15% off for Service Appreciation",
+      "tags": [
+        "percent_off"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "15% off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "One Large One Topping 14\" Pizza Pick Up Special for $10.99 Only available for pickup",
+      "canonical_id": "9c1a831e38c85504",
+      "categories": [
+        "food"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Only available for pickup"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "f7b5a0b84f93bde5",
+      "is_stale": true,
+      "last_seen": "2026-09-17T18:36:19Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "quality_score": 50,
+      "restaurant": "Ameci Pizza & Pasta",
+      "retired_at": "2026-09-18T18:00:35Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "One Large One Topping 14\" Pizza Pick Up Special",
+        "$10.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "One Large One Topping 14\" Pizza Pick Up Special for $10.99",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$10.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Personal Pizza Lunch Special for $13.49 One Topping House salad and medium drink",
+      "canonical_id": "5e790cd08baa15d7",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 1,
+      "details": [
+        "One Topping",
+        "House salad and medium drink"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "66e4d3cbc810fa5e",
+      "is_stale": true,
+      "last_seen": "2026-09-17T16:21:00Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "quality_score": 57,
+      "restaurant": "Ameci Pizza & Pasta",
+      "retired_at": "2026-09-18T18:00:35Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Lunch Specials",
+        "Only available 11:00 AM - 4:00 PM",
+        "2. Personal Pizza with One Topping Lunch",
+        "House salad and medium drink.",
+        "$13.49"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Personal Pizza Lunch Special for $13.49",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": "11:00 AM - 4:00 PM",
+      "valid_through": null,
+      "validity": "11:00 AM - 4:00 PM",
+      "value_label": "$13.49"
+    },
     {
       "ai_confidence": 0.9,
       "applies_days": [],

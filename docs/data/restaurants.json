@@ -51,7 +51,7 @@
     "last_scanned_cities": [
       "Westminster"
     ],
-    "last_source_scan_at": "2026-09-17T18:30:38Z",
+    "last_source_scan_at": "2026-09-18T17:51:11Z",
     "map_cells": 233,
     "official_websites": 967,
     "operational_count": 1209,
@@ -62,11 +62,11 @@
     ],
     "restaurant_count": 1258,
     "source_sites_checked": 12,
-    "specials_pages_found": 231,
+    "specials_pages_found": 233,
     "successful_map_cells": 54
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-17T18:30:38Z",
+  "generated_at": "2026-09-18T17:51:11Z",
   "refresh_after": "2026-09-24T16:13:29Z",
   "restaurants": [
     {
@@ -8427,7 +8427,7 @@
       "phone": "(657) 215-6944",
       "place_id": "ChIJcaE-fn4n3YARl7BCy-xcOsI",
       "primary_type": "fast_food_restaurant",
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-ubjr7a77/Default'",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-449oskcg/Default'",
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -21231,7 +21231,22 @@
       "phone": "(714) 922-0180",
       "place_id": "ChIJjzHVIgDf3IARg0MWmEfOQv4",
       "primary_type": "bar",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-18T17:50:19Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "WEEKLY SPECIALS",
+          "url": "https://bit.ly/entrenosbar-weeklyspecials?r=lp&m=Mp2rkQPTxh1"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://bit.ly/m/entrenosbar"
+        }
+      ],
       "types": [
         "bar",
         "point_of_interest",
@@ -21311,7 +21326,34 @@
       "phone": "(714) 841-4266",
       "place_id": "ChIJK6gMm30m3YARMdV_ugtEshA",
       "primary_type": "american_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-18T17:50:19Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Daily Specials",
+          "url": "https://esthersplacetogo.com/daily-specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Dailyspecials",
+          "url": "https://esthersplacetogo.com/dailyspecials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Happy Hour",
+          "url": "https://esthersplacetogo.com/happy-hour"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Weekday Specials",
+          "url": "https://esthersplacetogo.com/weekday-specials"
+        }
+      ],
       "types": [
         "american_restaurant",
         "restaurant",
@@ -21364,6 +21406,8 @@
       "phone": "(657) 231-6222",
       "place_id": "ChIJT7MF6pjf3IARfyKqLhHQ8nE",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-18T17:50:19Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -21546,6 +21590,8 @@
       "phone": "(312) 229-0170",
       "place_id": "ChIJ57Lothkn3YARbOAvwbvwH1c",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-18T17:50:19Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafeteria",
@@ -21569,6 +21615,8 @@
       "phone": "(312) 229-0099",
       "place_id": "ChIJDdQNgNEn3YARpjOBe83Hp3M",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-18T17:50:19Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafeteria",
@@ -21592,6 +21640,8 @@
       "phone": "(312) 229-0099",
       "place_id": "ChIJdyP6jR3f3IARzwDcDvzx2qE",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-18T17:50:19Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafeteria",
@@ -21711,6 +21761,8 @@
       "phone": "(714) 969-7689",
       "place_id": "ChIJs2uOmVEh3YARfWR76tp-7s0",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-18T17:50:19Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
@@ -21776,6 +21828,8 @@
       "phone": "(949) 877-0119",
       "place_id": "ChIJkz-wbPjf3IARdb2mgHY8PKw",
       "primary_type": "italian_restaurant",
+      "specials_checked_at": "2026-09-18T17:50:19Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "italian_restaurant",
@@ -21848,6 +21902,8 @@
       "phone": "(714) 316-0183",
       "place_id": "ChIJAQEuEa8n3YARSzx2N-hI-68",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-09-18T17:50:19Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -21913,6 +21969,7 @@
       "phone": "(657) 232-9570",
       "place_id": "ChIJ0ShDJWHf3IARiW7v3TH8i24",
       "primary_type": "sandwich_shop",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-u9hofcg9/Default'",
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -21981,9 +22038,12 @@
       "phone": "(714) 964-4800",
       "place_id": "ChIJK3yO9jMn3YARaaakBBYkGfY",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-09-18T17:50:19Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Specials",
           "url": "https://ilovefcp.com/specials/"
         }
