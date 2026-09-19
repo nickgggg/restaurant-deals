@@ -51,7 +51,7 @@
     "last_scanned_cities": [
       "Westminster"
     ],
-    "last_source_scan_at": "2026-09-18T17:51:11Z",
+    "last_source_scan_at": "2026-09-19T17:24:30Z",
     "map_cells": 233,
     "official_websites": 967,
     "operational_count": 1209,
@@ -62,11 +62,11 @@
     ],
     "restaurant_count": 1258,
     "source_sites_checked": 12,
-    "specials_pages_found": 233,
+    "specials_pages_found": 234,
     "successful_map_cells": 54
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-18T17:51:11Z",
+  "generated_at": "2026-09-19T17:24:30Z",
   "refresh_after": "2026-09-24T16:13:29Z",
   "restaurants": [
     {
@@ -8427,6 +8427,8 @@
       "phone": "(657) 215-6944",
       "place_id": "ChIJcaE-fn4n3YARl7BCy-xcOsI",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-19T17:24:02Z",
+      "specials_discovery_version": 4,
       "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-449oskcg/Default'",
       "specials_pages": [],
       "types": [
@@ -21969,7 +21971,7 @@
       "phone": "(657) 232-9570",
       "place_id": "ChIJ0ShDJWHf3IARiW7v3TH8i24",
       "primary_type": "sandwich_shop",
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-u9hofcg9/Default'",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-f6lplkq7/Default'",
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -22112,6 +22114,8 @@
       "phone": "(714) 475-0940",
       "place_id": "ChIJoUEw5uHp3IARXnFA3IkHhhs",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-09-19T17:24:02Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "pizza_restaurant",
@@ -22177,6 +22181,8 @@
       "phone": "(714) 540-5850",
       "place_id": "ChIJd8Pj-kHf3IARJBzoy4pnr1A",
       "primary_type": "korean_restaurant",
+      "specials_checked_at": "2026-09-19T17:24:02Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "korean_restaurant",
@@ -22245,6 +22251,8 @@
       "phone": "(714) 241-1650",
       "place_id": "ChIJhSTDR1ff3IARR2_0keS33yc",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-19T17:24:02Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -22311,6 +22319,8 @@
       "phone": "(714) 625-3442",
       "place_id": "ChIJC6Sp0N0l3YARNXct0dXkDAs",
       "primary_type": "korean_restaurant",
+      "specials_checked_at": "2026-09-19T17:24:02Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "korean_restaurant",
@@ -22373,6 +22383,8 @@
       "phone": "(657) 301-3033",
       "place_id": "ChIJg6PHrV4n3YAR8Knbxv3U20c",
       "primary_type": "korean_restaurant",
+      "specials_checked_at": "2026-09-19T17:24:02Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "korean_restaurant",
@@ -22435,6 +22447,8 @@
       "phone": "(714) 847-2255",
       "place_id": "ChIJA_0cLuom3YARSlBmc6qaPL0",
       "primary_type": "korean_restaurant",
+      "specials_checked_at": "2026-09-19T17:24:02Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "korean_restaurant",
@@ -22502,6 +22516,8 @@
       "phone": "(714) 617-4888",
       "place_id": "ChIJ07NrEy7f3IARrHS-yLltPKY",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-09-19T17:24:02Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "pizza_restaurant",
@@ -22631,6 +22647,8 @@
       "phone": "(714) 584-7501",
       "place_id": "ChIJnZvRb74m3YARqXYkOL4XR9Q",
       "primary_type": "brewpub",
+      "specials_checked_at": "2026-09-19T17:24:02Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "brewpub",
@@ -22699,6 +22717,8 @@
       "phone": "(949) 722-8725",
       "place_id": "ChIJu_Jsdp7f3IARSDE8sRKrYPk",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-19T17:24:02Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -22824,7 +22844,16 @@
       "phone": "(714) 839-4481",
       "place_id": "ChIJMdpkrw4n3YARi4XWP3M8Pu0",
       "primary_type": "chinese_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-19T17:24:02Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Happy Hour",
+          "url": "http://fu-wing-low.jany.io/happy-hour"
+        }
+      ],
       "types": [
         "chinese_restaurant",
         "cantonese_restaurant",
