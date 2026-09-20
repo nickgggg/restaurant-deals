@@ -51,7 +51,7 @@
     "last_scanned_cities": [
       "Westminster"
     ],
-    "last_source_scan_at": "2026-09-19T17:24:30Z",
+    "last_source_scan_at": "2026-09-20T17:38:40Z",
     "map_cells": 233,
     "official_websites": 967,
     "operational_count": 1209,
@@ -66,7 +66,7 @@
     "successful_map_cells": 54
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-19T17:24:30Z",
+  "generated_at": "2026-09-20T17:38:40Z",
   "refresh_after": "2026-09-24T16:13:29Z",
   "restaurants": [
     {
@@ -21971,7 +21971,7 @@
       "phone": "(657) 232-9570",
       "place_id": "ChIJ0ShDJWHf3IARiW7v3TH8i24",
       "primary_type": "sandwich_shop",
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-f6lplkq7/Default'",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-kpagrjz3/Default'",
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -22919,6 +22919,8 @@
       "phone": "(714) 593-6400",
       "place_id": "ChIJ9ZAQmzMh3YAR0mJnztMHjR4",
       "primary_type": "asian_fusion_restaurant",
+      "specials_checked_at": "2026-09-20T17:38:14Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "asian_fusion_restaurant",
@@ -23118,6 +23120,8 @@
       "phone": "(562) 513-2122",
       "place_id": "ChIJP9O8t4Qn3YAR99mpd6V6Hmg",
       "primary_type": "japanese_restaurant",
+      "specials_checked_at": "2026-09-20T17:38:14Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "japanese_restaurant",
@@ -23581,6 +23585,8 @@
       "phone": "(714) 892-5775",
       "place_id": "ChIJU5LLEHQm3YARbj7nv8uwhM0",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-20T17:38:14Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
@@ -23647,9 +23653,12 @@
       "phone": "(714) 897-1470",
       "place_id": "ChIJQcp-P2om3YARAhV8Ljs6yf0",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-09-20T17:38:14Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://www.germandeli.com/"
         }
@@ -23786,6 +23795,8 @@
       "phone": "(714) 434-1311",
       "place_id": "ChIJ0ShDJWHf3IARtXw9nSMxtYc",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-09-20T17:38:14Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "pizza_restaurant",
@@ -23851,6 +23862,8 @@
       "phone": "(714) 531-0288",
       "place_id": "ChIJKS1WHQcn3YAR0tkHe9yjCG4",
       "primary_type": "breakfast_restaurant",
+      "specials_checked_at": "2026-09-20T17:38:14Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "breakfast_restaurant",
@@ -23924,6 +23937,8 @@
       "phone": "(949) 646-9420",
       "place_id": "ChIJzSxCv3kg3YARECf_cfgNwDA",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-20T17:38:14Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
@@ -23989,19 +24004,24 @@
       "phone": "(949) 548-8428",
       "place_id": "ChIJGZdoxY7f3IARFzUHoNXzJ28",
       "primary_type": "bar",
+      "specials_checked_at": "2026-09-20T17:38:14Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "See What's on Tap",
           "url": "http://www.goathilltavern.com/drink-specials/"
         },
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Specials",
           "url": "https://www.goathilltavern.com/drink-specials/"
         },
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://www.goathilltavern.com/"
         }
@@ -24155,6 +24175,8 @@
       "phone": "(949) 642-7162",
       "place_id": "ChIJYbh9l4bf3IAR_uWRcoXUjRc",
       "primary_type": "chinese_restaurant",
+      "specials_checked_at": "2026-09-20T17:38:14Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chinese_restaurant",
@@ -24220,9 +24242,12 @@
       "phone": "(714) 840-8249",
       "place_id": "ChIJuxfQf6gl3YARhTjRhOZhp-8",
       "primary_type": "mediterranean_restaurant",
+      "specials_checked_at": "2026-09-20T17:38:14Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "SPECIALS",
           "url": "http://www.goldenolive.net/seafood"
         }
@@ -24350,6 +24375,8 @@
       "phone": "(714) 486-1870",
       "place_id": "ChIJ62DBzxvf3IARREH9edYPE-0",
       "primary_type": "donut_shop",
+      "specials_checked_at": "2026-09-20T17:38:14Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "donut_shop",

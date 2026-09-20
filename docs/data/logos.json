@@ -442,6 +442,81 @@
       "checked_at": "2026-09-16T18:34:31Z",
       "status": "ok"
     },
+    "cava.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "chailocoffeeclub.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "status": "ok"
+    },
+    "chanchanmenu.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "error": "HTTP Error 404: Not Found",
+      "status": "missing"
+    },
+    "charochicken.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "status": "ok"
+    },
+    "chick-fil-a.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "status": "ok"
+    },
+    "chickenmaison.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "status": "ok"
+    },
+    "chickenonricehb.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "chopstop.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "status": "ok"
+    },
+    "chronictacos.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "status": "ok"
+    },
+    "cirlounge.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "missing"
+    },
+    "coachslounge.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "status": "ok"
+    },
+    "coast.pizza": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "status": "ok"
+    },
+    "coffee-nature.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "error": "Remote end closed connection without response",
+      "status": "missing"
+    },
+    "coffeedose.cafe": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "status": "ok"
+    },
+    "coffeenaturehb.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "missing"
+    },
+    "comtamthienhao.shop": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "error": "Not Found",
+      "status": "missing"
+    },
+    "costaoc.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "status": "ok"
+    },
     "crivelloristorante.com": {
       "checked_at": "2026-09-16T18:34:31Z",
       "status": "ok"
@@ -548,6 +623,14 @@
     },
     "locations.carlsjr.com": {
       "checked_at": "2026-09-19T17:30:53Z",
+      "status": "ok"
+    },
+    "locations.chipotle.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "status": "ok"
+    },
+    "locations.cinnabon.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
       "status": "ok"
     },
     "locations.wendys.com": {
@@ -706,6 +789,11 @@
       "checked_at": "2026-09-18T18:00:36Z",
       "status": "ok"
     },
+    "thechobophouse.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
+      "status": "missing"
+    },
     "thedinospizza.com": {
       "checked_at": "2026-09-17T16:21:01Z",
       "status": "ok"
@@ -753,7 +841,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-09-19T17:30:53Z",
+  "generated_at": "2026-09-20T17:44:41Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -1194,6 +1282,57 @@
       "path": "logos/catalinafishkitchenmenu-com.webp",
       "source_url": "https://img1.wsimg.com/isteam/ip/a6c06eb7-563e-4dae-9879-e7b789a161bc/Content-Creator-ProjecCFK%20Logot.png"
     },
+    "chailocoffeeclub.com": {
+      "background": "#0a0a0a",
+      "checked_at": "2026-09-20T17:44:41Z",
+      "path": "logos/chailocoffeeclub-com.png",
+      "source_url": "https://media.base44.com/images/public/6a0beec3a3b6413c4de9d079/3c4265348_logo.png"
+    },
+    "charochicken.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "path": "logos/charochicken-com.png",
+      "source_url": "https://charochicken.com/wp-content/uploads/2019/04/cropped-cclogobkicon-1.png"
+    },
+    "chick-fil-a.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "path": "logos/chick-fil-a-com.png",
+      "source_url": "https://www.chick-fil-a.com/wp-content/themes/cfa/favicon/apple-touch-icon.png"
+    },
+    "chickenmaison.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "path": "logos/chickenmaison-com.png",
+      "source_url": "https://chickenmaison.com/wp-content/uploads/2025/10/favicon.png"
+    },
+    "chopstop.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "path": "logos/chopstop-com.png",
+      "source_url": "https://chopstop.com/wp-content/themes/chopstop/images/logo.png"
+    },
+    "chronictacos.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "path": "logos/chronictacos-com.png",
+      "source_url": "https://cp1.inkrefuge.com/admin/asset/uploads/224/on_page_element/footer-logo.png"
+    },
+    "coachslounge.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "path": "logos/coachslounge-com.png",
+      "source_url": "https://coachslounge.com/_assets/images/725b756a69a7d4c235070e51acd85560.png"
+    },
+    "coast.pizza": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "path": "logos/coast-pizza.webp",
+      "source_url": "https://img1.wsimg.com/isteam/ip/c52dcf4e-3f19-4f99-9a69-19c806690c04/downloads/292a81e0-3c8a-4d5b-a883-c5751ca76cef/Coast_Transparent.PNG/:/rs=w:800"
+    },
+    "coffeedose.cafe": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "path": "logos/coffeedose-cafe.webp",
+      "source_url": "https://coffeedose.cafe/cdn/shop/files/coffee-dose-logo-26.png?v=1775881781&width=130"
+    },
+    "costaoc.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "path": "logos/costaoc-com.png",
+      "source_url": "https://costaoc.com/wp-content/uploads/2019/10/Costa_Logo.png"
+    },
     "crivelloristorante.com": {
       "checked_at": "2026-09-16T18:34:31Z",
       "path": "logos/crivelloristorante-com.webp",
@@ -1306,6 +1445,16 @@
       "checked_at": "2026-09-19T17:30:53Z",
       "path": "logos/locations-carlsjr-com.ico",
       "source_url": "https://llp-assets.meetsoci.com/live/assets/carljrsites/images/favicon.010d13fc.ico"
+    },
+    "locations.chipotle.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "path": "logos/locations-chipotle-com.webp",
+      "source_url": "https://dyn.mktgcdn.com/p/iLviLozWKHiGOmm3JeU1roRK6HIz7fn1S0AJ4sbJRCs/width=500,height=500"
+    },
+    "locations.cinnabon.com": {
+      "checked_at": "2026-09-20T17:44:41Z",
+      "path": "logos/locations-cinnabon-com.webp",
+      "source_url": "https://a.mktgcdn.com/p/jzjgS3q7jKvNg3NyTYDUVe4VlICU_X792EALV25_zlY/361x361.webp"
     },
     "locations.wendys.com": {
       "checked_at": "2026-09-16T23:17:10Z",
