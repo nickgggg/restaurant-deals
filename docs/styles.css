@@ -546,6 +546,19 @@ button {
   align-items: start;
 }
 
+.roadmap-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.roadmap-heading span {
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.59rem;
+}
+
 .roadmap-list strong {
   font-size: 0.74rem;
 }
@@ -564,12 +577,16 @@ button {
   text-transform: uppercase;
 }
 
-.roadmap-state.working {
+.roadmap-state.now {
   color: var(--accent);
 }
 
 .roadmap-state.next {
   color: var(--fresh);
+}
+
+.roadmap-state.later {
+  color: var(--muted);
 }
 
 .location-actions a,

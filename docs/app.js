@@ -69,6 +69,7 @@ const coverageCitiesEl = document.querySelector("#coverage-cities");
 const coverageMetricsEl = document.querySelector("#coverage-metrics");
 const costNoteEl = document.querySelector("#cost-note");
 const roadmapListEl = document.querySelector("#roadmap-list");
+const roadmapReviewedEl = document.querySelector("#roadmap-reviewed");
 const availableNowEl = document.querySelector("#available-now");
 const favoritesOnlyEl = document.querySelector("#favorites-only");
 const newOnlyEl = document.querySelector("#new-only");
@@ -1239,6 +1240,9 @@ function renderProjectStatus() {
     .map(([label, value]) => `<div><strong>${value}</strong><span>${label}</span></div>`)
     .join("");
   costNoteEl.textContent = state.project?.cost_note || "The pipeline is configured around free-tier limits.";
+  roadmapReviewedEl.textContent = state.project?.updated_at
+    ? `Reviewed ${dateOnly(state.project.updated_at)}`
+    : "";
 
   roadmapListEl.innerHTML = (state.project?.roadmap || [])
     .map((item) => `

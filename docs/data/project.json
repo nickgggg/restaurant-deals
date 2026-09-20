@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15",
+  "updated_at": "2026-09-20T12:00:00Z",
   "queue_activation_days": 7,
   "area_refresh_days": 35,
   "max_areas_per_run": 1,
@@ -10,39 +10,34 @@
   "cost_note": "Built to stay inside the configured Google Places quota, Gemini free tier, GitHub Actions, and GitHub Pages. Budget alerts remain the final safety net.",
   "roadmap": [
     {
-      "status": "working",
-      "title": "Browser-rendered source fallback",
-      "detail": "Up to eight JavaScript-heavy pages per run are rendered only when ordinary HTML does not contain enough deal evidence."
+      "status": "now",
+      "title": "Deal detail accuracy",
+      "detail": "Keep improving exact prices, discounts, schedules, and per-offer source links when restaurant sites split details across pages or images."
     },
     {
-      "status": "working",
-      "title": "Image and PDF specials",
-      "detail": "Weak text pages now get a bounded Gemini vision fallback for likely specials images and PDFs, with strict evidence checks and content-hash caching."
+      "status": "now",
+      "title": "Source coverage",
+      "detail": "Find more specials hidden in JavaScript pages, PDFs, images, sitemaps, and secondary menu pages without increasing the paid-service footprint."
     },
     {
-      "status": "working",
-      "title": "Extraction quality",
-      "detail": "Shared visual schedules now carry across related price tiers, which are grouped into one readable offer while preserving exact source evidence."
+      "status": "next",
+      "title": "Logo quality",
+      "detail": "Improve brand-mark selection and contrast handling, reuse chain assets, and reject utility icons or unrelated page artwork more reliably."
     },
     {
-      "status": "working",
-      "title": "Report source queue",
-      "detail": "Trusted official URLs move to the front of the next crawl, and verified or inconclusive results are posted back to the report automatically."
+      "status": "next",
+      "title": "Report resolution",
+      "detail": "Automatically close a visitor report only after its correction is verified and visible in the published feed; ambiguous reports stay open for review."
     },
     {
-      "status": "working",
-      "title": "Restaurant logos",
-      "detail": "Official site icons are cached in a bounded rotating batch and shown with an initials fallback, without using paid APIs."
+      "status": "later",
+      "title": "Freshness confidence",
+      "detail": "Show stronger confidence cues for recently verified, changed, and potentially expired offers without adding noisy timestamps to every row."
     },
     {
-      "status": "working",
-      "title": "Installable offline app",
-      "detail": "The site can be installed to a home screen and keeps the latest successful feed available offline with a clearly labeled saved timestamp."
-    },
-    {
-      "status": "working",
-      "title": "New deal discovery",
-      "detail": "New labels, filtering, and newest-first sorting use the crawler's shared first-seen timestamp, so everyone sees the same seven-day discovery window."
+      "status": "later",
+      "title": "Map refinement",
+      "detail": "Polish clustering, selected-place context, and dark-mode legibility as coverage expands into denser neighboring cities."
     }
   ]
 }

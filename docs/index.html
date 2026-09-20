@@ -27,7 +27,7 @@
         document.head.append(tracker);
       }
     </script>
-    <link rel="stylesheet" href="styles.css?v=18">
+    <link rel="stylesheet" href="styles.css?v=19">
   </head>
   <body>
     <header class="topbar">
@@ -179,7 +179,10 @@
             <p class="cost-note" id="cost-note"></p>
           </section>
           <section class="roadmap" aria-labelledby="roadmap-heading">
-            <h2 id="roadmap-heading">Backburner</h2>
+            <div class="roadmap-heading">
+              <h2 id="roadmap-heading">Backburner</h2>
+              <span id="roadmap-reviewed"></span>
+            </div>
             <div class="roadmap-list" id="roadmap-list"></div>
           </section>
         </div>
@@ -195,6 +198,6 @@
 
     <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
-    <script src="app.js?v=21"></script>
+    <script src="app.js?v=22"></script>
   </body>
 </html>
