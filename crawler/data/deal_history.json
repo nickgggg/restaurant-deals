@@ -1,7 +1,989 @@
 {
-  "generated_at": "2026-09-20T17:44:40Z",
+  "generated_at": "2026-09-21T19:48:48Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Rainy Day Special for $29.99 Includes one large pizza, garden salad & garlic knots for $29.99",
+      "canonical_id": "71d3f8b51d08fac2",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 2,
+      "details": [
+        "Includes one large pizza, garden salad & garlic knots for $29.99"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "c263615e29da3d1b",
+      "is_stale": true,
+      "last_seen": "2026-09-19T17:30:52Z",
+      "location": {
+        "address": "17210 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=10304571258044845499&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "19:30",
+              "open": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "19:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "19:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "19:30",
+              "open": "12:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "19:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.712897999999996,
+        "longitude": -118.06346769999999,
+        "phone": "(714) 596-0024",
+        "place_id": "ChIJcyzeXkAl3YARu412lvYwAY8"
+      },
+      "quality_score": 58,
+      "restaurant": "Stoney's Pizza",
+      "retired_at": "2026-09-21T19:48:48Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Rainy Day Specials",
+        "Only available Sunday, Saturday",
+        "Rainy Day Special",
+        "One large pizza, garden salad & garlic knots.",
+        "$29.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.stoneyspizzamenu.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Rainy Day Special for $29.99",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Weekend",
+      "value_label": "$29.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$2 off all Bottled Beer and Draft Pints Applies to bottled beer and draft pints including Modelo Especial, Coors Lite, House IPA, Corona, Peroni, Menebrea Amber, and Newcastle.",
+      "canonical_id": "aed5299883ac9226",
+      "categories": [
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 2,
+      "details": [
+        "Applies to bottled beer and draft pints including Modelo Especial, Coors Lite, House IPA, Corona, Peroni, Menebrea Amber, and Newcastle."
+      ],
+      "first_seen": "2026-09-19T17:30:52Z",
+      "id": "a238039ecf041180",
+      "is_stale": true,
+      "last_seen": "2026-09-19T17:30:52Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 65,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-21T19:48:48Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "EVERYDAY HAPPY HOUR 2pm-6pm",
+        "$2 off all Bottled Beer and Draft Pints"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$2 off all Bottled Beer and Draft Pints",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": "14:00-18:00",
+      "valid_through": null,
+      "validity": "Every day, 14:00-18:00",
+      "value_label": "$2 off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$2 off all Wine glasses Applies to Chianti, Blush, Chardonnay, Cabernet, Pinot Noir, Sauv Blanc, and Bubbly Rose'.",
+      "canonical_id": "90a8c33d6342117c",
+      "categories": [
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 2,
+      "details": [
+        "Applies to Chianti, Blush, Chardonnay, Cabernet, Pinot Noir, Sauv Blanc, and Bubbly Rose'."
+      ],
+      "first_seen": "2026-09-19T17:30:52Z",
+      "id": "074e9168bc6bee41",
+      "is_stale": true,
+      "last_seen": "2026-09-19T17:30:52Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 65,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-21T19:48:48Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "EVERYDAY HAPPY HOUR 2pm-6pm",
+        "$2 off all Wine glasses"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$2 off all Wine glasses",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": "14:00-18:00",
+      "valid_through": null,
+      "validity": "Every day, 14:00-18:00",
+      "value_label": "$2 off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$4 off Draft Pitchers, Bottled Wine, and Wine \u00bd Liters Applies to draft pitchers, bottled wine, and wine 1/2 liters.",
+      "canonical_id": "190a59fa06d03336",
+      "categories": [
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 2,
+      "details": [
+        "Applies to draft pitchers, bottled wine, and wine 1/2 liters."
+      ],
+      "first_seen": "2026-09-19T17:30:52Z",
+      "id": "d59aa97e4fe151cb",
+      "is_stale": true,
+      "last_seen": "2026-09-19T17:30:52Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 65,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-21T19:48:48Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "EVERYDAY HAPPY HOUR 2pm-6pm",
+        "$4 off Draft Pitchers | Bottled Wine | Wine \u00bd Liters"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$4 off Draft Pitchers, Bottled Wine, and Wine \u00bd Liters",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": "14:00-18:00",
+      "valid_through": null,
+      "validity": "Every day, 14:00-18:00",
+      "value_label": "$4 off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Lasagna for $12.95 or Large Lasagna for 2 for $19.95 Lasagna only $12.95 Large Lasagna for 2 for $19.95 Includes Salad and Garlic Bread Choose between Beef Lasagna in meat sauce or Spinach Lasagna in Marinara",
+      "canonical_id": "c8e8c3945bae43d8",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Lasagna only $12.95",
+        "Large Lasagna for 2 for $19.95",
+        "Includes Salad and Garlic Bread",
+        "Choose between Beef Lasagna in meat sauce or Spinach Lasagna in Marinara"
+      ],
+      "first_seen": "2026-09-20T17:44:40Z",
+      "id": "0fe613fb25e10560",
+      "is_stale": true,
+      "last_seen": "2026-09-20T17:44:40Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 83,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-21T19:48:48Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Monday September 21st",
+        "Lasagna only $12.95!",
+        "Large Lasagna for 2 for $19.95",
+        "3-course meal includes Salad and Garlic Bread every Monday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Lasagna for $12.95 or Large Lasagna for 2 for $19.95",
+      "tags": [
+        "dollar_amount",
+        "bogo"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Mon",
+      "value_label": "$12.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "thursday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Tortellini Spinach Alfredo for $15.95 or Fettucine Alfredo for $14.45 Tortellini Spinach Alfredo for $15.95 Fettucine Alfredo for Only $14.45 Includes salad and garlic bread Add Chicken parmesan strips for $5",
+      "canonical_id": "a78fdb07871e1b7c",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Tortellini Spinach Alfredo for $15.95",
+        "Fettucine Alfredo for Only $14.45",
+        "Includes salad and garlic bread",
+        "Add Chicken parmesan strips for $5"
+      ],
+      "first_seen": "2026-09-19T17:30:52Z",
+      "id": "a71c9a3cc2cac8b6",
+      "is_stale": true,
+      "last_seen": "2026-09-20T17:44:40Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-21T19:48:48Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Thursday September 24th",
+        "Tortellini Spinach Alfredo for $15.95 or",
+        "Fettucine Alfredo for Only $14.45!",
+        "3-course feasts include salad and garlic bread every Thursday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Tortellini Spinach Alfredo for $15.95 or Fettucine Alfredo for $14.45",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Thu",
+      "value_label": "$15.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Monday Industry Night: 30% off Food & Beverage 30% off Food & Beverage.",
+      "canonical_id": "cb2e095d7ae5a5a6",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 1,
+      "details": [
+        "30% off Food & Beverage."
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "f1d2a8fa62a11408",
+      "is_stale": true,
+      "last_seen": "2026-09-20T17:44:40Z",
+      "location": {
+        "address": "21100 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17547021652932034871&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "14:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "14:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ]
+        },
+        "latitude": 33.6523927,
+        "longitude": -117.9935301,
+        "phone": "(714) 845-8460",
+        "place_id": "ChIJM-IrURMh3YARNwEaqTmLg_M"
+      },
+      "quality_score": 93,
+      "restaurant": "Offshore 9 Rooftop Lounge",
+      "retired_at": "2026-09-21T19:48:48Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Monday Industry Night:",
+        "30% off Food & Beverage"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://waterfrontresort.com/dining/offshore-9-rooftop-lounge?y_source=1_MjA1NjM2Mzg2OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Monday Industry Night: 30% off Food & Beverage",
+      "tags": [
+        "percent_off",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Mon",
+      "value_label": "30% off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Tuesday Locals Night: 30% off Food & Beverage 30% off Food & Beverage.",
+      "canonical_id": "9cefd304c21b7560",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 1,
+      "details": [
+        "30% off Food & Beverage."
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "1bb76792730e7b9e",
+      "is_stale": true,
+      "last_seen": "2026-09-20T17:44:40Z",
+      "location": {
+        "address": "21100 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17547021652932034871&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "14:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "14:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ]
+        },
+        "latitude": 33.6523927,
+        "longitude": -117.9935301,
+        "phone": "(714) 845-8460",
+        "place_id": "ChIJM-IrURMh3YARNwEaqTmLg_M"
+      },
+      "quality_score": 93,
+      "restaurant": "Offshore 9 Rooftop Lounge",
+      "retired_at": "2026-09-21T19:48:48Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Tuesday Locals Night:",
+        "30% off Food & Beverage"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://waterfrontresort.com/dining/offshore-9-rooftop-lounge?y_source=1_MjA1NjM2Mzg2OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Tuesday Locals Night: 30% off Food & Beverage",
+      "tags": [
+        "percent_off",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "30% off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Kids eat free every Wednesday thru 9/30 Kids eat free promotion available in-store Valid through September 30, 2026",
+      "canonical_id": "13c8409120ad462a",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 3,
+      "details": [
+        "Kids eat free promotion available in-store",
+        "Valid through September 30, 2026"
+      ],
+      "first_seen": "2026-09-18T18:00:35Z",
+      "id": "5b7315cdf540a781",
+      "is_stale": true,
+      "last_seen": "2026-09-18T18:00:35Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 93,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-09-21T19:48:48Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Kids eat free every Wednesday thru 9/30"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/offers/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Kids eat free every Wednesday thru 9/30",
+      "tags": [
+        "weekday_special",
+        "free",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-30",
+      "validity": "Wed",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "One Large One Topping 14\" Pizza Pick Up Special for $10.99 Only available for pickup One Large One Topping 14\" Pizza",
+      "canonical_id": "f7b5a0b84f93bde5",
+      "categories": [
+        "food"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 1,
+      "details": [
+        "Only available for pickup",
+        "One Large One Topping 14\" Pizza"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "9c1a831e38c85504",
+      "is_stale": true,
+      "last_seen": "2026-09-20T17:44:40Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "quality_score": 50,
+      "restaurant": "Ameci Pizza & Pasta",
+      "retired_at": "2026-09-21T19:48:48Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Pick Up Specials",
+        "Only available for pickup",
+        "One Large One Topping 14\" Pizza Pick Up Special",
+        "$10.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "One Large One Topping 14\" Pizza Pick Up Special for $10.99",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$10.99"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [

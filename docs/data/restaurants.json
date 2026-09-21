@@ -51,7 +51,7 @@
     "last_scanned_cities": [
       "Westminster"
     ],
-    "last_source_scan_at": "2026-09-20T17:38:40Z",
+    "last_source_scan_at": "2026-09-21T19:42:22Z",
     "map_cells": 233,
     "official_websites": 967,
     "operational_count": 1209,
@@ -66,7 +66,7 @@
     "successful_map_cells": 54
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-20T17:38:40Z",
+  "generated_at": "2026-09-21T19:42:22Z",
   "refresh_after": "2026-09-24T16:13:29Z",
   "restaurants": [
     {
@@ -21971,7 +21971,7 @@
       "phone": "(657) 232-9570",
       "place_id": "ChIJ0ShDJWHf3IARiW7v3TH8i24",
       "primary_type": "sandwich_shop",
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-kpagrjz3/Default'",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-9d1tg628/Default'",
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -24432,6 +24432,8 @@
       "phone": "(424) 426-0191",
       "place_id": "ChIJU9Ro8Boh3YARwLGLEgOKni4",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-09-21T19:41:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
@@ -24623,6 +24625,8 @@
       "phone": "(949) 645-1884",
       "place_id": "ChIJbSjqoJ_f3IAR_VNzhHguVpY",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-21T19:41:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
@@ -24697,6 +24701,8 @@
       "phone": "(714) 846-6588",
       "place_id": "ChIJvWzGyw4l3YARt7ufgT0pEL8",
       "primary_type": "chinese_restaurant",
+      "specials_checked_at": "2026-09-21T19:41:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chinese_restaurant",
@@ -24762,9 +24768,12 @@
       "phone": "(657) 329-0207",
       "place_id": "ChIJk6Br6-kn3YARyn4DLJdmWSI",
       "primary_type": "mediterranean_restaurant",
+      "specials_checked_at": "2026-09-21T19:41:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Specials",
           "url": "https://greenolivehb.com/"
         }
@@ -24838,6 +24847,8 @@
       "phone": "(714) 846-4949",
       "place_id": "ChIJoXPS6bcl3YARZOsKaECvn8Q",
       "primary_type": "cafe",
+      "specials_checked_at": "2026-09-21T19:41:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
@@ -24902,14 +24913,18 @@
       "phone": "(714) 465-2277",
       "place_id": "ChIJtbFV7_8n3YARMJVyq7OgyTQ",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-21T19:41:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://www.greentomatogrill.com/"
         },
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "CHEF'S SPECIALS",
           "url": "https://www.greentomatogrill.com/chef-s-specials"
         }
@@ -25002,6 +25017,8 @@
       "phone": "",
       "place_id": "ChIJjZ4kuabf3IAR3KSUyYOiol8",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-21T19:41:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -25140,6 +25157,8 @@
       "phone": "(714) 895-2800",
       "place_id": "ChIJ-85dOWom3YARsIRhklcC308",
       "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-09-21T19:41:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "american_restaurant",
@@ -25270,6 +25289,8 @@
       "phone": "(714) 842-8333",
       "place_id": "ChIJLRBjFPQm3YARBOUllaZN0MQ",
       "primary_type": "japanese_restaurant",
+      "specials_checked_at": "2026-09-21T19:41:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "japanese_restaurant",
@@ -25338,6 +25359,8 @@
       "phone": "(714) 964-7482",
       "place_id": "ChIJcQ0-nsYg3YARyY2zevoM41A",
       "primary_type": "mediterranean_restaurant",
+      "specials_checked_at": "2026-09-21T19:41:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mediterranean_restaurant",
@@ -25403,6 +25426,8 @@
       "phone": "(714) 589-0214",
       "place_id": "ChIJN5xADh0n3YARbmh4Chk1ZcM",
       "primary_type": "japanese_restaurant",
+      "specials_checked_at": "2026-09-21T19:41:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "japanese_restaurant",

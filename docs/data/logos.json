@@ -513,25 +513,90 @@
       "error": "Not Found",
       "status": "missing"
     },
+    "comtamthuankieu.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "error": "HTTP Error 404: ",
+      "status": "missing"
+    },
     "costaoc.com": {
       "checked_at": "2026-09-20T17:44:41Z",
+      "status": "ok"
+    },
+    "costco.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "error": "asset is too large",
+      "status": "missing"
+    },
+    "cremedelacrepe.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
       "status": "ok"
     },
     "crivelloristorante.com": {
       "checked_at": "2026-09-16T18:34:31Z",
       "status": "ok"
     },
+    "crockersthewelldressedfrank.square.site": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "status": "ok"
+    },
+    "crumblcookies.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "status": "ok"
+    },
+    "crzookie.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "status": "ok"
+    },
+    "cucinaalessarestaurants.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "status": "ok"
+    },
+    "cuptopiacafe.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "currykababoc.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "status": "ok"
+    },
+    "cyberwings.us": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "status": "ok"
+    },
+    "dahawaiiankitchen.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "status": "ok"
+    },
     "dairyqueen.com": {
       "checked_at": "2026-09-16T22:46:49Z",
+      "status": "ok"
+    },
+    "damascushb.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
       "status": "ok"
     },
     "darbarigrill.com": {
       "checked_at": "2026-09-16T18:34:31Z",
       "status": "ok"
     },
+    "daviencoffee.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "status": "ok"
+    },
+    "delilicioushb.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "error": "Unsupported Media Type",
+      "status": "missing"
+    },
     "delinerds.com": {
       "checked_at": "2026-09-16T18:34:31Z",
       "status": "ok"
+    },
+    "deliseoulfood.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)>",
+      "status": "missing"
     },
     "descansorestaurant.com": {
       "checked_at": "2026-09-16T18:34:31Z",
@@ -596,6 +661,10 @@
       "checked_at": "2026-09-16T22:46:49Z",
       "status": "ok"
     },
+    "hotplate.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "status": "ok"
+    },
     "jugosacapulco.com": {
       "checked_at": "2026-09-16T22:46:49Z",
       "status": "ok"
@@ -631,6 +700,10 @@
     },
     "locations.cinnabon.com": {
       "checked_at": "2026-09-20T17:44:41Z",
+      "status": "ok"
+    },
+    "locations.deltaco.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
       "status": "ok"
     },
     "locations.wendys.com": {
@@ -715,6 +788,10 @@
       "checked_at": "2026-09-16T23:17:10Z",
       "status": "ok"
     },
+    "pos.chowbus.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "status": "ok"
+    },
     "ranchoviejomexicanseafood.com": {
       "checked_at": "2026-09-16T23:17:10Z",
       "status": "ok"
@@ -725,6 +802,10 @@
     },
     "restaurants.bonchon.com": {
       "checked_at": "2026-09-16T18:34:31Z",
+      "status": "ok"
+    },
+    "restaurants.daveshotchicken.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
       "status": "ok"
     },
     "riip.com": {
@@ -819,6 +900,10 @@
       "checked_at": "2026-09-16T23:17:10Z",
       "status": "ok"
     },
+    "tropicalmicheladamix.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "status": "ok"
+    },
     "verderestaurantcm.com": {
       "checked_at": "2026-09-17T16:21:01Z",
       "status": "ok"
@@ -841,7 +926,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-09-20T17:44:41Z",
+  "generated_at": "2026-09-21T19:48:49Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -1333,20 +1418,76 @@
       "path": "logos/costaoc-com.png",
       "source_url": "https://costaoc.com/wp-content/uploads/2019/10/Costa_Logo.png"
     },
+    "cremedelacrepe.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "path": "logos/cremedelacrepe-com.png",
+      "source_url": "https://www.cremedelacrepe.com/wp-content/uploads/2021/01/new-logo.png"
+    },
     "crivelloristorante.com": {
       "checked_at": "2026-09-16T18:34:31Z",
       "path": "logos/crivelloristorante-com.webp",
       "source_url": "https://images.squarespace-cdn.com/content/v1/58a52b85d2b85773b5beb66b/13da1876-4954-4328-ae1c-3d4874203225/crivello.jpg?format=1500w"
+    },
+    "crockersthewelldressedfrank.square.site": {
+      "background": "#8c5749",
+      "checked_at": "2026-09-21T19:48:49Z",
+      "path": "logos/crockersthewelldressedfrank-square-site.webp",
+      "source_url": "https://crockersthewelldressedfrank.square.site/uploads/b/7e2768a0-6960-11ea-bf77-6f1ab4a3f196/icon_180x180_ios.png?width=180"
+    },
+    "crumblcookies.com": {
+      "background": "#000000",
+      "checked_at": "2026-09-21T19:48:49Z",
+      "path": "logos/crumblcookies-com.webp",
+      "source_url": "https://crumbl.video/cdn-cgi/image/width=1080,format=auto,quality=80/https://crumbl.video/bae5e6c3-bdef-419a-abca-e4ce5e332352_Biscoff_Inside_stand-alone_stamp_RGB_1_.png"
+    },
+    "crzookie.com": {
+      "background": "#6b9fd4",
+      "checked_at": "2026-09-21T19:48:49Z",
+      "path": "logos/crzookie-com.png",
+      "source_url": "https://www.crzookie.com/logo.png"
+    },
+    "cucinaalessarestaurants.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "path": "logos/cucinaalessarestaurants-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/611302eef125b670144f53ee/803d4753-f68b-4f83-b9f4-75dd99d5acde/Alessa+Logo+SameFont+final+.jpg?format=1500w"
+    },
+    "currykababoc.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "path": "logos/currykababoc-com.png",
+      "source_url": "http://www.currykababoc.com/images/logo.png"
+    },
+    "cyberwings.us": {
+      "background": "#000000",
+      "checked_at": "2026-09-21T19:48:49Z",
+      "path": "logos/cyberwings-us.webp",
+      "source_url": "https://img1.wsimg.com/isteam/ip/18df6a65-3491-4778-bb3c-4a9d780c8037/favicon/6018fbcc-9d26-44eb-b076-93746aaf19e6/f4941395-571e-4444-b1da-2ca1cae06f25.jpg/:/rs=w:180,h:180,m"
+    },
+    "dahawaiiankitchen.com": {
+      "background": "#283878",
+      "checked_at": "2026-09-21T19:48:49Z",
+      "path": "logos/dahawaiiankitchen-com.webp",
+      "source_url": "https://img1.wsimg.com/isteam/ip/1428a966-28df-460c-b580-214ec1bb5bd8/logo/96ee2745-11c5-453c-9588-6b43ecedf93f.png/:/rs=h:80,cg:true,m/qt=q:95"
     },
     "dairyqueen.com": {
       "checked_at": "2026-09-16T22:46:49Z",
       "path": "logos/dairyqueen-com.png",
       "source_url": "https://dairyqueen-prod.dotcdn.io/application/images/favicons/apple-touch-icon-152x152.png"
     },
+    "damascushb.com": {
+      "background": "#969696",
+      "checked_at": "2026-09-21T19:48:49Z",
+      "path": "logos/damascushb-com.webp",
+      "source_url": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:180,h:180,m"
+    },
     "darbarigrill.com": {
       "checked_at": "2026-09-16T18:34:31Z",
       "path": "logos/darbarigrill-com.png",
       "source_url": "http://new.darbarigrill.com/wp-content/uploads/2022/08/Postmates-Logo-2012.png"
+    },
+    "daviencoffee.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "path": "logos/daviencoffee-com.png",
+      "source_url": "https://static.wixstatic.com/media/d6799e_fda9aef0204e4601951f55b6ec7b9eee%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/d6799e_fda9aef0204e4601951f55b6ec7b9eee%7Emv2.png"
     },
     "delinerds.com": {
       "background": "#3a7052",
@@ -1416,6 +1557,11 @@
       "path": "logos/hb-morenasmex-com.png",
       "source_url": "https://static.spotapps.co/website_images/ab_websites/271559_website_v1/logo.png"
     },
+    "hotplate.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "path": "logos/hotplate-com.webp",
+      "source_url": "https://framerusercontent.com/images/mXOEkLAlrYl4yqvlmqISjHcMGU.png"
+    },
     "jugosacapulco.com": {
       "checked_at": "2026-09-16T22:46:49Z",
       "path": "logos/jugosacapulco-com.png",
@@ -1455,6 +1601,11 @@
       "checked_at": "2026-09-20T17:44:41Z",
       "path": "logos/locations-cinnabon-com.webp",
       "source_url": "https://a.mktgcdn.com/p/jzjgS3q7jKvNg3NyTYDUVe4VlICU_X792EALV25_zlY/361x361.webp"
+    },
+    "locations.deltaco.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "path": "logos/locations-deltaco-com.png",
+      "source_url": "https://locations.deltaco.com/content/images/deltaco/DelTaco-logo.png"
     },
     "locations.wendys.com": {
       "checked_at": "2026-09-16T23:17:10Z",
@@ -1550,6 +1701,11 @@
       "path": "logos/porkyspizza-com.png",
       "source_url": "https://porkyspizza.com/images/main/logo.png"
     },
+    "pos.chowbus.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "path": "logos/pos-chowbus-com.png",
+      "source_url": "https://cdn.prod.website-files.com/6779a2f99727a85f07c60031/6820433f65a36dfb5f461788_ChowbusLogo.png"
+    },
     "ranchoviejomexicanseafood.com": {
       "checked_at": "2026-09-16T23:17:10Z",
       "path": "logos/ranchoviejomexicanseafood-com.jpg",
@@ -1564,6 +1720,11 @@
       "checked_at": "2026-09-16T18:34:31Z",
       "path": "logos/restaurants-bonchon-com.webp",
       "source_url": "https://restaurants.bonchon.com/_next/static/media/logo.2a5juvzhv2w8f.webp?dpl=609750fdb194606260cb87b85081622462cb59ef"
+    },
+    "restaurants.daveshotchicken.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "path": "logos/restaurants-daveshotchicken-com.ico",
+      "source_url": "https://assets.restaurants.daveshotchicken.com/images/favicon.ico"
     },
     "riip.com": {
       "checked_at": "2026-09-16T23:17:10Z",
@@ -1660,6 +1821,11 @@
       "checked_at": "2026-09-16T23:17:10Z",
       "path": "logos/triplecrowntavern-com.webp",
       "source_url": "https://irp.cdn-website.com/98f0985b/dms3rep/multi/opt/Triple+Crown+Tavern+logo-93e911ef-311h.png"
+    },
+    "tropicalmicheladamix.com": {
+      "checked_at": "2026-09-21T19:48:49Z",
+      "path": "logos/tropicalmicheladamix-com.webp",
+      "source_url": "https://tropicalmicheladamix.com/cdn/shop/files/1_15_2025_4_45_24_PM.png?v=1736988378&width=600"
     },
     "verderestaurantcm.com": {
       "checked_at": "2026-09-17T16:21:01Z",
