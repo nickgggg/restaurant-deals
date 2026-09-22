@@ -598,20 +598,81 @@
       "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)>",
       "status": "missing"
     },
+    "dempseysbeachside.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "status": "ok"
+    },
     "descansorestaurant.com": {
       "checked_at": "2026-09-16T18:34:31Z",
+      "status": "ok"
+    },
+    "dexcoffeebar.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "status": "ok"
+    },
+    "dickchurchs.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "missing"
+    },
+    "district36diner.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
       "status": "ok"
     },
     "don-jose.com": {
       "checked_at": "2026-09-16T18:34:31Z",
       "status": "ok"
     },
+    "donramonsrestaurant.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "status": "ok"
+    },
+    "donutsbyamarithfarmhouse.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "error": "no supported site icon found",
+      "status": "missing"
+    },
+    "dosamigoshb.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "dragon-grill.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
     "drinkcalinutrition.com": {
       "checked_at": "2026-09-19T17:30:53Z",
       "status": "ok"
     },
+    "dukeshuntington.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "status": "ok"
+    },
     "dunkindonuts.com": {
       "checked_at": "2026-09-17T16:21:01Z",
+      "status": "ok"
+    },
+    "dutchbros.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "status": "ok"
+    },
+    "dwightscheesestrips.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "error": "asset is too large",
+      "status": "missing"
+    },
+    "earlybirdbreakfastburritos.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "status": "ok"
+    },
+    "east-borough.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "status": "ok"
+    },
+    "easterntales.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
       "status": "ok"
     },
     "eatahba.com": {
@@ -620,6 +681,10 @@
     },
     "eatatpizzadoro.com": {
       "checked_at": "2026-09-16T22:46:49Z",
+      "status": "ok"
+    },
+    "eatchow.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
       "status": "ok"
     },
     "elpolloloco.com": {
@@ -657,12 +722,28 @@
       "error": "asset is too large",
       "status": "missing"
     },
+    "hausofpizzacostamesa.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "status": "ok"
+    },
+    "hb.dvineexperience.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "status": "ok"
+    },
     "hb.morenasmex.com": {
       "checked_at": "2026-09-16T22:46:49Z",
       "status": "ok"
     },
     "hotplate.com": {
       "checked_at": "2026-09-21T19:48:49Z",
+      "status": "ok"
+    },
+    "instagram.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "status": "ok"
+    },
+    "joeshb.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
       "status": "ok"
     },
     "jugosacapulco.com": {
@@ -704,6 +785,10 @@
     },
     "locations.deltaco.com": {
       "checked_at": "2026-09-21T19:48:49Z",
+      "status": "ok"
+    },
+    "locations.dennys.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
       "status": "ok"
     },
     "locations.wendys.com": {
@@ -926,7 +1011,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-09-21T19:48:49Z",
+  "generated_at": "2026-09-22T18:28:30Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -1495,25 +1580,71 @@
       "path": "logos/delinerds-com.webp",
       "source_url": "https://delinerds.com/_astro/deli-nerds-logo-white.CIfjb4iV_I8PtT.webp"
     },
+    "dempseysbeachside.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "path": "logos/dempseysbeachside-com.png",
+      "source_url": "https://www.dempseysbeachside.com/logo.png"
+    },
     "descansorestaurant.com": {
       "checked_at": "2026-09-16T18:34:31Z",
       "path": "logos/descansorestaurant-com.webp",
       "source_url": "https://images.squarespace-cdn.com/content/6526e2d169661512ecfe53d5/e44b12f9-a6b7-4c49-b0b9-65d7efb83112/Descanso_symbol_only.png?content-type=image%2Fpng"
+    },
+    "dexcoffeebar.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "path": "logos/dexcoffeebar-com.webp",
+      "source_url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/9xomXxs8vfZFsSBT/dex-logo-3nHbYc2uIAQKQFF3.png"
+    },
+    "district36diner.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "path": "logos/district36diner-com.webp",
+      "source_url": "https://cdn01.s4shops.com/skytabweb/uploads/94a339f2-9438-ee11-b8f0-6045bd7ff6de/83e31c4a-ee00-ef11-aaf0-000d3ae3f879.png"
     },
     "don-jose.com": {
       "checked_at": "2026-09-16T18:34:31Z",
       "path": "logos/don-jose-com.webp",
       "source_url": "https://irp.cdn-website.com//eed96003/dms3rep/multi/opt/logo+new-658w.png"
     },
+    "donramonsrestaurant.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "path": "logos/donramonsrestaurant-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/5c6e471f16b6405b29e1597e/fa2f319a-1366-4daf-86b0-11ac3873794c/DonRamonsLogoBlack2.png"
+    },
     "drinkcalinutrition.com": {
       "checked_at": "2026-09-19T17:30:53Z",
       "path": "logos/drinkcalinutrition-com.webp",
       "source_url": "https://loadedtealab.store/cdn/shop/files/loaded_tea_lab.png?v=1785372532&width=500"
     },
+    "dukeshuntington.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "path": "logos/dukeshuntington-com.webp",
+      "source_url": "https://www.dukeshuntington.com/wp-content/uploads/2018/04/logo.png"
+    },
     "dunkindonuts.com": {
       "checked_at": "2026-09-17T16:21:01Z",
       "path": "logos/dunkindonuts-com.png",
       "source_url": "https://www.dunkindonuts.com/brands/dun/apple-touch-icon.png"
+    },
+    "dutchbros.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "path": "logos/dutchbros-com.webp",
+      "source_url": "https://www.dutchbros.com/favicon/apple-touch-icon.png"
+    },
+    "earlybirdbreakfastburritos.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "path": "logos/earlybirdbreakfastburritos-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/639159734064115f8e6e3ce1/23b4fe44-9f39-4456-b0db-1b268086d336/og+eb+logo.png"
+    },
+    "east-borough.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "path": "logos/east-borough-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/54ea5254e4b07c3f656138bd/1642200084486-DTEW366LHON7JGN9HF5T/IMG_0520.jpeg?format=1500w&content-type=image%2Fjpeg"
+    },
+    "easterntales.com": {
+      "background": "#510e13",
+      "checked_at": "2026-09-22T18:28:30Z",
+      "path": "logos/easterntales-com.png",
+      "source_url": "https://www.easterntales.com/uploads/b/51530e10-fdbb-11ee-aa44-8b9a3b208ba5/icon_180x180_ios_OTc0Mj.png?width=180"
     },
     "eatahba.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -1524,6 +1655,11 @@
       "checked_at": "2026-09-16T22:46:49Z",
       "path": "logos/eatatpizzadoro-com.png",
       "source_url": "https://static.spotapps.co/website_images/ab_websites/33754_website_v1/logo.png"
+    },
+    "eatchow.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "path": "logos/eatchow-com.webp",
+      "source_url": "https://eatchow.com/wp-content/uploads/2026/04/Horizontal-Oval-Logo-1.png"
     },
     "elpolloloco.com": {
       "checked_at": "2026-09-17T18:36:20Z",
@@ -1551,6 +1687,17 @@
       "path": "logos/goathilltavern-com.webp",
       "source_url": "https://kylerassel.wpenginepowered.com/wp-content/uploads/2018/11/goat-hill-tavern-logo.png"
     },
+    "hausofpizzacostamesa.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "path": "logos/hausofpizzacostamesa-com.ico",
+      "source_url": "https://assets.squarespace.com/universal/default-favicon.ico"
+    },
+    "hb.dvineexperience.com": {
+      "background": "#274b3a",
+      "checked_at": "2026-09-22T18:28:30Z",
+      "path": "logos/hb-dvineexperience-com.webp",
+      "source_url": "https://hb.dvineexperience.com/uploads/b/0cae0ed0-458f-11f1-9b8a-a52cb8f20508/icon_180x180_ios_NzAzND.png?width=180"
+    },
     "hb.morenasmex.com": {
       "background": "#da532c",
       "checked_at": "2026-09-16T22:46:49Z",
@@ -1561,6 +1708,17 @@
       "checked_at": "2026-09-21T19:48:49Z",
       "path": "logos/hotplate-com.webp",
       "source_url": "https://framerusercontent.com/images/mXOEkLAlrYl4yqvlmqISjHcMGU.png"
+    },
+    "instagram.com": {
+      "background": "#000000",
+      "checked_at": "2026-09-22T18:28:30Z",
+      "path": "logos/instagram-com.webp",
+      "source_url": "https://static.cdninstagram.com/rsrc.php/yw/r/icwX0xAk0pz.webp"
+    },
+    "joeshb.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "path": "logos/joeshb-com.jpg",
+      "source_url": "http://joeshb.com/uploads/1/2/3/5/123581016/published/logo-36-inch-black-and-white.jpg?1544645205"
     },
     "jugosacapulco.com": {
       "checked_at": "2026-09-16T22:46:49Z",
@@ -1606,6 +1764,11 @@
       "checked_at": "2026-09-21T19:48:49Z",
       "path": "logos/locations-deltaco-com.png",
       "source_url": "https://locations.deltaco.com/content/images/deltaco/DelTaco-logo.png"
+    },
+    "locations.dennys.com": {
+      "checked_at": "2026-09-22T18:28:30Z",
+      "path": "logos/locations-dennys-com.png",
+      "source_url": "https://locations.dennys.com/content/img/dennys-logo-red.png"
     },
     "locations.wendys.com": {
       "checked_at": "2026-09-16T23:17:10Z",

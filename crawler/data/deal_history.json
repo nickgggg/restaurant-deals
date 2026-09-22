@@ -1,7 +1,1184 @@
 {
-  "generated_at": "2026-09-21T19:48:48Z",
+  "generated_at": "2026-09-22T18:28:29Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Rainy Day Special for $29.99 Includes one large pizza, garden salad, and garlic knots. Price is $29.99.",
+      "canonical_id": "a2716fca8af6c08a",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Includes one large pizza, garden salad, and garlic knots.",
+        "Price is $29.99."
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "71d3f8b51d08fac2",
+      "is_stale": true,
+      "last_seen": "2026-09-21T19:48:48Z",
+      "location": {
+        "address": "17210 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=10304571258044845499&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "19:30",
+              "open": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "19:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "19:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "19:30",
+              "open": "12:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "19:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.712897999999996,
+        "longitude": -118.06346769999999,
+        "phone": "(714) 596-0024",
+        "place_id": "ChIJcyzeXkAl3YARu412lvYwAY8"
+      },
+      "quality_score": 58,
+      "restaurant": "Stoney's Pizza",
+      "retired_at": "2026-09-22T18:28:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Rainy Day Specials",
+        "Only available Sunday, Saturday",
+        "Rainy Day Special",
+        "One large pizza, garden salad & garlic knots.",
+        "$29.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.stoneyspizzamenu.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Rainy Day Special for $29.99",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Weekend",
+      "value_label": "$29.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "thursday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Buy One Large Cheese Pie, Get Second Large Cheese Pie Half Off Buy one large cheese pie, get second large cheese pie half off. Price listed as $17.99.",
+      "canonical_id": "9e6b3719fd310a15",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Buy one large cheese pie, get second large cheese pie half off.",
+        "Price listed as $17.99."
+      ],
+      "first_seen": "2026-09-21T19:48:48Z",
+      "id": "41c2c2a3325f3457",
+      "is_stale": true,
+      "last_seen": "2026-09-21T19:48:48Z",
+      "location": {
+        "address": "17210 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=10304571258044845499&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "19:30",
+              "open": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "19:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "19:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "19:30",
+              "open": "12:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "19:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.712897999999996,
+        "longitude": -118.06346769999999,
+        "phone": "(714) 596-0024",
+        "place_id": "ChIJcyzeXkAl3YARu412lvYwAY8"
+      },
+      "quality_score": 75,
+      "restaurant": "Stoney's Pizza",
+      "retired_at": "2026-09-22T18:28:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Thursday & Monday Night Football Special",
+        "Available from 11:00 AM - 7:30 PM",
+        "Buy One Large Cheese Pie, Get Second Large Cheese Pie Half Off",
+        "$17.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.stoneyspizzamenu.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Buy One Large Cheese Pie, Get Second Large Cheese Pie Half Off",
+      "tags": [
+        "dollar_amount",
+        "bogo"
+      ],
+      "time_window": "11:00 AM - 7:30 PM",
+      "valid_through": null,
+      "validity": "Mon, Thu, 11:00 AM - 7:30 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$4 off draft pitchers, bottled wine, and wine 1/2 liters $4 off Draft Pitchers | Bottled Wine | Wine \u00bd Liters",
+      "canonical_id": "91c227bfcd7f899b",
+      "categories": [
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 2,
+      "details": [
+        "$4 off Draft Pitchers | Bottled Wine | Wine \u00bd Liters"
+      ],
+      "first_seen": "2026-09-20T17:44:40Z",
+      "id": "1567c747151ccbc6",
+      "is_stale": true,
+      "last_seen": "2026-09-20T17:44:40Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 65,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-22T18:28:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "EVERYDAY HAPPY HOUR 2pm-6pm",
+        "$4 off Draft Pitchers | Bottled Wine | Wine \u00bd Liters"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$4 off draft pitchers, bottled wine, and wine 1/2 liters",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": "2pm-6pm",
+      "valid_through": null,
+      "validity": "Every day, 2pm-6pm",
+      "value_label": "$4 off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$3 off any small, medium or large pizza Limit 2 pizza discounts per person",
+      "canonical_id": "ce9cabe008231c87",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 2,
+      "details": [
+        "Limit 2 pizza discounts per person"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "6a229335fde88f29",
+      "is_stale": true,
+      "last_seen": "2026-09-20T17:44:40Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-22T18:28:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Tuesday September 22nd",
+        "Get $3 off any small, medium or large pizza!",
+        "Limit 2 pizza discounts per person"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$3 off any small, medium or large pizza",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "$3 off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Sausage Cacciatorie 3-course Feast for $14.95 Enjoy sauteed bell peppers, mushroom, and marinara with sliced Italian sausages over Penne or Spaghetti Includes salad and garlic bread",
+      "canonical_id": "9f65fc7452689628",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 2,
+      "details": [
+        "Enjoy sauteed bell peppers, mushroom, and marinara with sliced Italian sausages over Penne or Spaghetti",
+        "Includes salad and garlic bread"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "21a11262c7ad6406",
+      "is_stale": true,
+      "last_seen": "2026-09-20T17:44:40Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-22T18:28:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Tuesday September 22nd",
+        "Sausage Cacciatorie only $14.95",
+        "3-course Feast includes salad and garlic bread every Tuesday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Sausage Cacciatorie 3-course Feast for $14.95",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "$14.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "All-You-Can-Eat Spaghetti 3-Course Meal for $8.95 Includes salad and garlic bread Choose between spaghetti in meat sauce or marinara Add two home-made meatballs for $5 or two Italian sausages for $6",
+      "canonical_id": "b3bdfa22a3e4fb98",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 4,
+      "details": [
+        "Includes salad and garlic bread",
+        "Choose between spaghetti in meat sauce or marinara",
+        "Add two home-made meatballs for $5 or two Italian sausages for $6"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "108ca46f796652a0",
+      "is_stale": true,
+      "last_seen": "2026-09-18T18:00:35Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-22T18:28:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Wednesday September 16th",
+        "All-You-Can-Eat Spaghetti only $8.95!",
+        "3-course meal includes salad and garlic bread every Wednesday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "All-You-Can-Eat Spaghetti 3-Course Meal for $8.95",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-16",
+      "validity": "Wed",
+      "value_label": "$8.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Chicken or Eggplant Parmigian 3-Course Meal for $14.95 Includes salad and garlic bread Served with spaghetti in meat sauce or marinara Add deep fried mozzarella, small fried zucchini, small fried artichokes, or 2 large meatballs for $5",
+      "canonical_id": "ca4163fac2cb9562",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 4,
+      "details": [
+        "Includes salad and garlic bread",
+        "Served with spaghetti in meat sauce or marinara",
+        "Add deep fried mozzarella, small fried zucchini, small fried artichokes, or 2 large meatballs for $5"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "fcbd818857592e4b",
+      "is_stale": true,
+      "last_seen": "2026-09-18T18:00:35Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-22T18:28:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Friday September 18th",
+        "Chicken Parmigian with Spaghetti or",
+        "Eggplant Parmigian with Spaghetti in Meat Sauce or Marinara",
+        "Every Friday only $14.95"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Chicken or Eggplant Parmigian 3-Course Meal for $14.95",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-18",
+      "validity": "Fri",
+      "value_label": "$14.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "saturday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Sauteed Garlic Linguini 3-course meal for $14.45 Includes garlic bread and salad Make it a Shrimp Scampi Garlic Linguini or Spicy Shrimp Fra diablo for only $6 more",
+      "canonical_id": "33db7eca4f6c65f8",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 2,
+      "details": [
+        "Includes garlic bread and salad",
+        "Make it a Shrimp Scampi Garlic Linguini or Spicy Shrimp Fra diablo for only $6 more"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "a9e82941e134b122",
+      "is_stale": true,
+      "last_seen": "2026-09-20T17:44:40Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-22T18:28:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Saturday September 26th",
+        "Sauteed Garlic Linguini only $14.45!",
+        "3- course meal with garlic bread and salad every Saturday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Sauteed Garlic Linguini 3-course meal for $14.45",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Sat",
+      "value_label": "$14.45"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Late Night One-Topping Pizza for $11.00 One topping pizza Each additional topping $3 each Excludes Carnitas, Carne Asada & Chicken",
+      "canonical_id": "4a61ee10bc3ef331",
+      "categories": [
+        "food"
+      ],
+      "city": "Westminster",
+      "days_since_seen": 2,
+      "details": [
+        "One topping pizza",
+        "Each additional topping $3 each",
+        "Excludes Carnitas, Carne Asada & Chicken"
+      ],
+      "first_seen": "2026-09-18T18:00:35Z",
+      "id": "9f018492f1f4ad7e",
+      "is_stale": true,
+      "last_seen": "2026-09-20T17:44:40Z",
+      "location": {
+        "address": "15192 Goldenwest St, Westminster, CA 92683, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17109665813535675568&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "02:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7416816,
+        "longitude": -118.00632030000001,
+        "phone": "(714) 373-5665",
+        "place_id": "ChIJVdk7_hEm3YARsFRwEWi-ce0"
+      },
+      "quality_score": 52,
+      "restaurant": "Michael's Sports Pub & Grill",
+      "retired_at": "2026-09-22T18:28:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "LATE NIGHT PIZZA",
+        "Served Every Night From 9:00pm - 12:00am",
+        "ONE TOPPING PIZZA.",
+        "$11.00"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.michaelssportspubandgrill.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Late Night One-Topping Pizza for $11.00",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "9:00pm - 12:00am",
+      "valid_through": null,
+      "validity": "9:00pm - 12:00am",
+      "value_label": "$11.00"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$5 Breakfast Burrito Cage-free eggs, crispy hash browns, cheddar, house salsa. Full-sized, scratch-made, choice of protein.",
+      "canonical_id": "08b77f0b85c4d775",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Cage-free eggs, crispy hash browns, cheddar, house salsa.",
+        "Full-sized, scratch-made, choice of protein."
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "816295ebb89293ed",
+      "is_stale": true,
+      "last_seen": "2026-09-21T19:48:48Z",
+      "location": {
+        "address": "1525 Mesa Verde Dr E Ste 117, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1827828436789330286&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "19:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.669763599999996,
+        "longitude": -117.9208274,
+        "phone": "(714) 486-1777",
+        "place_id": "ChIJYRZbxcLf3IARboEvbUfAXRk"
+      },
+      "quality_score": 90,
+      "restaurant": "Deli Nerds",
+      "retired_at": "2026-09-22T18:28:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Cage-free eggs, crispy hash browns, cheddar, house salsa \u2014 $5 weekdays 8\u20139 AM.",
+        "$5 Breakfast Burrito Special",
+        "Weekdays 8\u20139 AM \u00b7 Full-sized, scratch-made, choice of protein."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.delinerds.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$5 Breakfast Burrito",
+      "tags": [
+        "dollar_amount",
+        "free"
+      ],
+      "time_window": "Cage-free eggs, crispy hash browns, cheddar, house salsa \u2014 $5 weekdays 8\u20139 AM.",
+      "valid_through": null,
+      "validity": "Cage-free eggs, crispy hash browns, cheddar, house salsa \u2014 $5 weekdays 8\u20139 AM.",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour See daily specials at the counter.",
+      "canonical_id": "1d024f4099684b27",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 3,
+      "details": [
+        "See daily specials at the counter."
+      ],
+      "first_seen": "2026-09-19T17:30:52Z",
+      "id": "c61d6ab72640f23a",
+      "is_stale": true,
+      "last_seen": "2026-09-19T17:30:52Z",
+      "location": {
+        "address": "1525 Mesa Verde Dr E Ste 117, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1827828436789330286&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "19:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.669763599999996,
+        "longitude": -117.9208274,
+        "phone": "(714) 486-1777",
+        "place_id": "ChIJYRZbxcLf3IARboEvbUfAXRk"
+      },
+      "quality_score": 59,
+      "restaurant": "Deli Nerds",
+      "retired_at": "2026-09-22T18:28:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Happy Hour 3\u20136 PM",
+        "Monday\u2013Saturday \u00b7 See daily specials at the counter."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.delinerds.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "3:00 PM \u2013 6:00 PM",
+      "valid_through": null,
+      "validity": "Mon, Tue, Wed, Thu, Fri, Sat, 3:00 PM \u2013 6:00 PM"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour: Mon\u2013Fri, 4\u20136pm Mon\u2013Fri, 4\u20136pm",
+      "canonical_id": "c5857a511b970cca",
+      "categories": [
+        "food",
+        "drink",
+        "general"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 2,
+      "details": [
+        "Mon\u2013Fri, 4\u20136pm"
+      ],
+      "first_seen": "2026-09-18T18:00:35Z",
+      "id": "8755f60a6ec94131",
+      "is_stale": true,
+      "last_seen": "2026-09-20T17:44:40Z",
+      "location": {
+        "address": "1870 Harbor Blvd Second Level, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7139973431767252856&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6425997,
+        "longitude": -117.9181264,
+        "phone": "(949) 612-2349",
+        "place_id": "ChIJzyWFaRXf3IAReL82ygFIFmM"
+      },
+      "quality_score": 59,
+      "restaurant": "Casa de Onda",
+      "retired_at": "2026-09-22T18:28:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Mon\u2013Fri, 4\u20136pm"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.casadeondarestaurant.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour: Mon\u2013Fri, 4\u20136pm",
+      "tags": [
+        "happy_hour"
+      ],
+      "time_window": "Mon\u2013Fri, 4\u20136pm",
+      "valid_through": null,
+      "validity": "Mon\u2013Fri, 4\u20136pm"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [

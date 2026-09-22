@@ -51,7 +51,7 @@
     "last_scanned_cities": [
       "Westminster"
     ],
-    "last_source_scan_at": "2026-09-21T19:42:22Z",
+    "last_source_scan_at": "2026-09-22T18:15:34Z",
     "map_cells": 233,
     "official_websites": 967,
     "operational_count": 1209,
@@ -62,11 +62,11 @@
     ],
     "restaurant_count": 1258,
     "source_sites_checked": 12,
-    "specials_pages_found": 234,
+    "specials_pages_found": 240,
     "successful_map_cells": 54
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-21T19:42:22Z",
+  "generated_at": "2026-09-22T18:15:34Z",
   "refresh_after": "2026-09-24T16:13:29Z",
   "restaurants": [
     {
@@ -21971,7 +21971,7 @@
       "phone": "(657) 232-9570",
       "place_id": "ChIJ0ShDJWHf3IARiW7v3TH8i24",
       "primary_type": "sandwich_shop",
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-9d1tg628/Default'",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-az7wetsm/Default'",
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -25499,6 +25499,8 @@
       "phone": "(657) 329-0001",
       "place_id": "ChIJnTpyc_4h3YARmqEMwGdXRkg",
       "primary_type": "japanese_restaurant",
+      "specials_checked_at": "2026-09-22T18:14:47Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "japanese_restaurant",
@@ -25570,7 +25572,16 @@
       "phone": "(714) 556-0176",
       "place_id": "ChIJ53Vy0hvf3IARDvCvR3_Ca-c",
       "primary_type": "cuban_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-22T18:14:47Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.restauranthabana.com/menus/food-specials"
+        }
+      ],
       "types": [
         "cuban_restaurant",
         "cocktail_bar",
@@ -25637,7 +25648,28 @@
       "phone": "(714) 241-1873",
       "place_id": "ChIJ8YJLwmDf3IARIPG_ucmpoRs",
       "primary_type": "hamburger_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-22T18:14:47Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "$9 Gotta Habit\u2122 Box Deal w/ Santa Barbara Char 750 - 1340 Cal $9.00",
+          "url": "https://order.habitburger.com/store/cfe6f1ee-c4dc-e811-822e-02eaf1e04748/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/03191d0b-dac1-4d5c-8cf2-bd1ad18e4f48"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "$9 Gotta Habit\u2122 Box Deal w/ California Chicken 730 - 1320 Cal $9.00",
+          "url": "https://order.habitburger.com/store/cfe6f1ee-c4dc-e811-822e-02eaf1e04748/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/e94baaa4-8286-40ee-bd28-77cb971de06c"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://order.habitburger.com/store/60/category"
+        }
+      ],
       "types": [
         "hamburger_restaurant",
         "meal_takeaway",
@@ -25705,7 +25737,28 @@
       "phone": "(657) 777-0877",
       "place_id": "ChIJ5Thj0Tkn3YARuJQ1QUJwb0c",
       "primary_type": "hamburger_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-22T18:14:47Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "$9 Gotta Habit\u2122 Box Deal w/ Santa Barbara Char 750 - 1340 Cal $9.00",
+          "url": "https://order.habitburger.com/store/e237b4fa-9399-e911-822e-02838e5eb552/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/03191d0b-dac1-4d5c-8cf2-bd1ad18e4f48"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "$9 Gotta Habit\u2122 Box Deal w/ California Chicken 730 - 1320 Cal $9.00",
+          "url": "https://order.habitburger.com/store/e237b4fa-9399-e911-822e-02838e5eb552/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/e94baaa4-8286-40ee-bd28-77cb971de06c"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://order.habitburger.com/store/227/category"
+        }
+      ],
       "types": [
         "hamburger_restaurant",
         "fast_food_restaurant",
@@ -25772,7 +25825,34 @@
       "phone": "(714) 378-0154",
       "place_id": "ChIJMRDQWBEn3YARxdvO20cfars",
       "primary_type": "hamburger_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-22T18:14:47Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "$9 Gotta Habit\u2122 Box Deal w/ Santa Barbara Char 750 - 1340 Cal $9.00",
+          "url": "https://order.habitburger.com/store/6be7f1ee-c4dc-e811-822e-02eaf1e04748/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/03191d0b-dac1-4d5c-8cf2-bd1ad18e4f48"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "$10 Gotta Habit\u2122 Box Deal w/ Wraps 930 - 1580 Cal $10.00",
+          "url": "https://order.habitburger.com/store/6be7f1ee-c4dc-e811-822e-02eaf1e04748/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/39cfd379-2dff-439b-b4cb-d089291b1fab"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "$9 Gotta Habit\u2122 Box Deal w/ California Chicken 730 - 1320 Cal $9.00",
+          "url": "https://order.habitburger.com/store/6be7f1ee-c4dc-e811-822e-02eaf1e04748/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/e94baaa4-8286-40ee-bd28-77cb971de06c"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://order.habitburger.com/store/237/category"
+        }
+      ],
       "types": [
         "hamburger_restaurant",
         "fast_food_restaurant",
@@ -25839,7 +25919,28 @@
       "phone": "(714) 596-2200",
       "place_id": "ChIJ0SseIeom3YARwu4GstrDlrg",
       "primary_type": "hamburger_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-22T18:14:47Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "$9 Gotta Habit\u2122 Box Deal w/ Santa Barbara Char 750 - 1340 Cal $9.00",
+          "url": "https://order.habitburger.com/store/c7e6f1ee-c4dc-e811-822e-02eaf1e04748/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/03191d0b-dac1-4d5c-8cf2-bd1ad18e4f48"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "$9 Gotta Habit\u2122 Box Deal w/ California Chicken 730 - 1320 Cal $9.00",
+          "url": "https://order.habitburger.com/store/c7e6f1ee-c4dc-e811-822e-02eaf1e04748/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/e94baaa4-8286-40ee-bd28-77cb971de06c"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://order.habitburger.com/store/58/category"
+        }
+      ],
       "types": [
         "hamburger_restaurant",
         "fast_food_restaurant",
@@ -25907,7 +26008,34 @@
       "phone": "(714) 282-7291",
       "place_id": "ChIJRWM6JQAh3YARm4Woz5_qSpg",
       "primary_type": "american_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-22T18:14:47Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "$9 Gotta Habit\u2122 Box Deal w/ Santa Barbara Char 750 - 1340 Cal $9.00",
+          "url": "https://order.habitburger.com/store/a0a4e751-2d2a-f111-ac11-061d143ee1a7/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/03191d0b-dac1-4d5c-8cf2-bd1ad18e4f48"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "$10 Gotta Habit\u2122 Box Deal w/ Wraps 930 - 1580 Cal $10.00",
+          "url": "https://order.habitburger.com/store/a0a4e751-2d2a-f111-ac11-061d143ee1a7/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/39cfd379-2dff-439b-b4cb-d089291b1fab"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "$9 Gotta Habit\u2122 Box Deal w/ California Chicken 730 - 1320 Cal $9.00",
+          "url": "https://order.habitburger.com/store/a0a4e751-2d2a-f111-ac11-061d143ee1a7/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/e94baaa4-8286-40ee-bd28-77cb971de06c"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://order.habitburger.com/store/546/category"
+        }
+      ],
       "types": [
         "american_restaurant",
         "restaurant",
@@ -26067,6 +26195,8 @@
       "phone": "(714) 850-0880",
       "place_id": "ChIJE5VjfDrf3IARfYOMrCwTMLc",
       "primary_type": "sushi_restaurant",
+      "specials_checked_at": "2026-09-22T18:14:47Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sushi_restaurant",
@@ -26124,6 +26254,8 @@
       "phone": "(714) 545-2800",
       "place_id": "ChIJ62DBzxvf3IAREwjxJY9D6BM",
       "primary_type": "sushi_restaurant",
+      "specials_checked_at": "2026-09-22T18:14:47Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sushi_restaurant",
@@ -26184,6 +26316,8 @@
       "phone": "(657) 571-7388",
       "place_id": "ChIJqV4-8rPf3IAROplpDi2ntxY",
       "primary_type": "thai_restaurant",
+      "specials_checked_at": "2026-09-22T18:14:47Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "thai_restaurant",
@@ -26249,6 +26383,8 @@
       "phone": "(714) 377-3893",
       "place_id": "ChIJlyQrZrol3YARo5AzoQnbmEY",
       "primary_type": "bar_and_grill",
+      "specials_checked_at": "2026-09-22T18:14:47Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bar_and_grill",
