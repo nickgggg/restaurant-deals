@@ -1,7 +1,1146 @@
 {
-  "generated_at": "2026-09-22T18:28:29Z",
+  "generated_at": "2026-09-23T18:43:16Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "thursday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Tortellini Spinach Alfredo for $15.95 or Fettucine Alfredo for $14.45 3-course feasts include salad and garlic bread. Add chicken parmesan strips for $5.",
+      "canonical_id": "a53446d60b994151",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "3-course feasts include salad and garlic bread.",
+        "Add chicken parmesan strips for $5."
+      ],
+      "first_seen": "2026-09-19T17:30:52Z",
+      "id": "a78fdb07871e1b7c",
+      "is_stale": true,
+      "last_seen": "2026-09-22T18:28:29Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-23T18:43:16Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Tortellini Spinach Alfredo for $15.95 or",
+        "Fettucine Alfredo for Only $14.45!",
+        "3-course feasts include salad and garlic bread every Thursday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Tortellini Spinach Alfredo for $15.95 or Fettucine Alfredo for $14.45",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-24",
+      "validity": "Thu",
+      "value_label": "$15.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "All-You-Can-Eat Spaghetti 3-course meal for $8.95 Includes salad and garlic bread. Choose between spaghetti in meat sauce or marinara, with a 2nd helping included. Add two homemade meatballs for $5 or two Italian sausages for $6.",
+      "canonical_id": "5c208e1d56ffc492",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Includes salad and garlic bread.",
+        "Choose between spaghetti in meat sauce or marinara, with a 2nd helping included.",
+        "Add two homemade meatballs for $5 or two Italian sausages for $6."
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "b3bdfa22a3e4fb98",
+      "is_stale": true,
+      "last_seen": "2026-09-22T18:28:29Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-23T18:43:16Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "All-You-Can-Eat Spaghetti only $8.95!",
+        "3-course meal includes salad and garlic bread every Wednesday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "All-You-Can-Eat Spaghetti 3-course meal for $8.95",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-23",
+      "validity": "Wed",
+      "value_label": "$8.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Chicken or Eggplant Parmigian 3-course meal for $14.95 Includes spaghetti with meat sauce or marinara, salad, and garlic bread. Add deep fried mozzarella, small fried zucchini, small fried artichokes, or 2 large meatballs for $5.",
+      "canonical_id": "0a71dd67c267495f",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Includes spaghetti with meat sauce or marinara, salad, and garlic bread.",
+        "Add deep fried mozzarella, small fried zucchini, small fried artichokes, or 2 large meatballs for $5."
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "ca4163fac2cb9562",
+      "is_stale": true,
+      "last_seen": "2026-09-22T18:28:29Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-23T18:43:16Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Chicken Parmigian with Spaghetti or",
+        "Eggplant Parmigian with Spaghetti in Meat Sauce or Marinara",
+        "Every Friday only $14.95"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Chicken or Eggplant Parmigian 3-course meal for $14.95",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-25",
+      "validity": "Fri",
+      "value_label": "$14.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "saturday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Sauteed Garlic Linguini 3-course meal for $14.45 Includes salad and garlic bread. Make it a Shrimp Scampi Garlic Linguini or Spicy Shrimp Fra diablo for $6 more.",
+      "canonical_id": "36171987afd5c485",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Includes salad and garlic bread.",
+        "Make it a Shrimp Scampi Garlic Linguini or Spicy Shrimp Fra diablo for $6 more."
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "33db7eca4f6c65f8",
+      "is_stale": true,
+      "last_seen": "2026-09-22T18:28:29Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-23T18:43:16Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Sauteed Garlic Linguini only $14.45!",
+        "3- course meal with garlic bread and salad every Saturday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Sauteed Garlic Linguini 3-course meal for $14.45",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-26",
+      "validity": "Sat",
+      "value_label": "$14.45"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Beef or Spinach Lasagna 3-course feast for $14.95 Includes salad, garlic bread, and paired with spaghetti or penne pasta. Can pair Lasagna combo with deep fried mozzarella, fried artichokes, fried zucchini, or 2 homemade meatballs instead of pasta for $17.95.",
+      "canonical_id": "a9429089f7f7fe44",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Includes salad, garlic bread, and paired with spaghetti or penne pasta.",
+        "Can pair Lasagna combo with deep fried mozzarella, fried artichokes, fried zucchini, or 2 homemade meatballs instead of pasta for $17.95."
+      ],
+      "first_seen": "2026-09-22T18:28:29Z",
+      "id": "9a92f2a33581a500",
+      "is_stale": true,
+      "last_seen": "2026-09-22T18:28:29Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 50,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-23T18:43:16Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "3-course Feast with salad & garlic bread!",
+        "Only $14.95",
+        "You can also pair your Lasagna combo with deep fried mozzarella, fried artichokes, fried zucchini or 2 home-made meatballs instead of Pasta for $17.95!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Beef or Spinach Lasagna 3-course feast for $14.95",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-27",
+      "validity": "Check source",
+      "value_label": "$14.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Lasagna 3-Course Meal Specials starting at $12.95 Lasagna only $12.95 Large Lasagna for 2 for $19.95 Includes salad and garlic bread Choose between Beef Lasagna in meat sauce or Spinach Lasagna in Marinara",
+      "canonical_id": "76090a4d9d1126a3",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 5,
+      "details": [
+        "Lasagna only $12.95",
+        "Large Lasagna for 2 for $19.95",
+        "Includes salad and garlic bread",
+        "Choose between Beef Lasagna in meat sauce or Spinach Lasagna in Marinara"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "2aeeed546307cf74",
+      "is_stale": true,
+      "last_seen": "2026-09-18T18:00:35Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 83,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-23T18:43:16Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Monday September 21st",
+        "Lasagna only $12.95!",
+        "Large Lasagna for 2 for $19.95",
+        "3-course meal includes Salad and Garlic Bread every Monday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Lasagna 3-Course Meal Specials starting at $12.95",
+      "tags": [
+        "dollar_amount",
+        "bogo",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-21",
+      "validity": "Mon",
+      "value_label": "$12.95+"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Lasagna, Manicotti and Ravioli Platter 3-Course Meal for $14.95 Includes salad and garlic bread Sampler platter of baked cheese manicotti, Beef or Spinach Lasagna, and Cheese ravioli baked with mozzarella",
+      "canonical_id": "18f17e757892754a",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 5,
+      "details": [
+        "Includes salad and garlic bread",
+        "Sampler platter of baked cheese manicotti, Beef or Spinach Lasagna, and Cheese ravioli baked with mozzarella"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "5225592e1b863e5e",
+      "is_stale": true,
+      "last_seen": "2026-09-18T18:00:35Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-23T18:43:16Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Tuesday September 22nd",
+        "Lasagna, Manicotti and Ravioli platter only $14.95",
+        "3-course meal includes salad and garlic bread every Tuesday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Lasagna, Manicotti and Ravioli Platter 3-Course Meal for $14.95",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-22",
+      "validity": "Tue",
+      "value_label": "$14.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$3 off any small, medium, or large pizza Limit 2 pizza discounts per person.",
+      "canonical_id": "6a229335fde88f29",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Limit 2 pizza discounts per person."
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "ce9cabe008231c87",
+      "is_stale": true,
+      "last_seen": "2026-09-22T18:28:29Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 50,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-23T18:43:16Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Get $3 off any small, medium or large pizza!",
+        "Limit 2 pizza discounts per person"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$3 off any small, medium, or large pizza",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-22",
+      "validity": "Check source",
+      "value_label": "$3 off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Sausage Cacciatorie 3-course feast for $14.95 Includes salad and garlic bread. Features sauteed bell peppers, mushroom, and marinara with sliced Italian sausages over Penne or Spaghetti.",
+      "canonical_id": "abde57f2ada58333",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Includes salad and garlic bread.",
+        "Features sauteed bell peppers, mushroom, and marinara with sliced Italian sausages over Penne or Spaghetti."
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "9f65fc7452689628",
+      "is_stale": true,
+      "last_seen": "2026-09-22T18:28:29Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-23T18:43:16Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Sausage Cacciatorie only $14.95",
+        "3-course Feast includes salad and garlic bread every Tuesday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Sausage Cacciatorie 3-course feast for $14.95",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-22",
+      "validity": "Tue",
+      "value_label": "$14.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Kids eat free every Wednesday thru 9/30 IKEA Family price See full Terms and Conditions. Discount applied at checkout. While supplies last.",
+      "canonical_id": "33c57324a311dbb6",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "IKEA Family price",
+        "See full Terms and Conditions.",
+        "Discount applied at checkout. While supplies last."
+      ],
+      "first_seen": "2026-09-18T18:00:35Z",
+      "id": "13c8409120ad462a",
+      "is_stale": true,
+      "last_seen": "2026-09-21T19:48:48Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 93,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-09-23T18:43:16Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Kids eat free every Wednesday thru 9/30"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/offers/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Kids eat free every Wednesday thru 9/30",
+      "tags": [
+        "weekday_special",
+        "free",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-30",
+      "validity": "Wed",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Penne pasta with plant or traditional Swedish meatballs for $1.99 Six ounces of penne pasta served with your choice of plant or traditional Swedish meatballs Price: $1.99 Valid in-store only at IKEA Burbank, IKEA Carson, IKEA Costa Mesa, and IKEA Covina",
+      "canonical_id": "dbf7c89c5193aab1",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 5,
+      "details": [
+        "Six ounces of penne pasta served with your choice of plant or traditional Swedish meatballs",
+        "Price: $1.99",
+        "Valid in-store only at IKEA Burbank, IKEA Carson, IKEA Costa Mesa, and IKEA Covina"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "6bc967f8f0b52f3b",
+      "is_stale": true,
+      "last_seen": "2026-09-18T18:00:35Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 50,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-09-23T18:43:16Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Lunch or dinner for just $1.99*",
+        "Six ounces of penne pasta served with your choice of plant or traditional Swedish meatballs for $1.99."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Penne pasta with plant or traditional Swedish meatballs for $1.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$1.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Free delivery during lunch hours Fast, free delivery on all favorites during lunch hours Valid from 11 am to 2 pm",
+      "canonical_id": "1b59a1457f8b4096",
+      "categories": [
+        "food"
+      ],
+      "city": "Westminster",
+      "days_since_seen": 1,
+      "details": [
+        "Fast, free delivery on all favorites during lunch hours",
+        "Valid from 11 am to 2 pm"
+      ],
+      "first_seen": "2026-09-17T18:36:19Z",
+      "id": "fe2bd9a4b3cb5df5",
+      "is_stale": true,
+      "last_seen": "2026-09-22T18:28:29Z",
+      "location": {
+        "address": "6391 Westminster Blvd., Westminster, CA 92683, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=16468165219604346299&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7599647,
+        "longitude": -118.01782029999998,
+        "phone": "(714) 897-1552",
+        "place_id": "ChIJeXi5Waso3YARu7X14AOtiuQ"
+      },
+      "quality_score": 82,
+      "restaurant": "Dino's Italian Restaurant",
+      "retired_at": "2026-09-23T18:43:16Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Free Delivery 11 am to 2 pm",
+        "Enjoy lunch with Dino's free delivery 11 AM to 2 PM!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://thedinospizza.com/specials/free-delivery-11-am-to-2-pm/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Free delivery during lunch hours",
+      "tags": [
+        "free"
+      ],
+      "time_window": "11:00 am to 2:00 pm",
+      "valid_through": null,
+      "validity": "11:00 am to 2:00 pm",
+      "value_label": "Free"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
@@ -2350,102 +3489,6 @@
       "valid_through": "2026-09-22",
       "validity": "Tue",
       "value_label": "$14.95"
-    },
-    {
-      "ai_confidence": 0.95,
-      "applies_days": [
-        "thursday"
-      ],
-      "applies_month_days": [],
-      "candidate_text": "Tortellini Spinach Alfredo for $15.95 or Fettucine Alfredo for $14.45 3-course feasts include salad and garlic bread. Add Chicken parmesan strips for $5.",
-      "canonical_id": "a71c9a3cc2cac8b6",
-      "categories": [
-        "food"
-      ],
-      "city": "Costa Mesa",
-      "days_since_seen": 1,
-      "details": [
-        "3-course feasts include salad and garlic bread.",
-        "Add Chicken parmesan strips for $5."
-      ],
-      "first_seen": "2026-09-19T17:30:52Z",
-      "id": "a78fdb07871e1b7c",
-      "is_stale": true,
-      "last_seen": "2026-09-19T17:30:52Z",
-      "location": {
-        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "10:30"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "10:30"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "10:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "10:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "10:30"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "10:30"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "10:30"
-            }
-          ]
-        },
-        "latitude": 33.6797705,
-        "longitude": -117.9047406,
-        "phone": "(714) 549-0685",
-        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
-      },
-      "quality_score": 58,
-      "restaurant": "Pizza D'Oro",
-      "retired_at": "2026-09-20T17:44:40Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "Thursday September 24th",
-        "Tortellini Spinach Alfredo for $15.95 or",
-        "Fettucine Alfredo for Only $14.45!"
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Tortellini Spinach Alfredo for $15.95 or Fettucine Alfredo for $14.45",
-      "tags": [
-        "dollar_amount"
-      ],
-      "time_window": null,
-      "valid_through": "2026-09-24",
-      "validity": "Thu",
-      "value_label": "$15.95"
     },
     {
       "ai_confidence": 0.95,

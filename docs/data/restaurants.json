@@ -51,7 +51,7 @@
     "last_scanned_cities": [
       "Westminster"
     ],
-    "last_source_scan_at": "2026-09-22T18:15:34Z",
+    "last_source_scan_at": "2026-09-23T18:35:09Z",
     "map_cells": 233,
     "official_websites": 967,
     "operational_count": 1209,
@@ -62,11 +62,11 @@
     ],
     "restaurant_count": 1258,
     "source_sites_checked": 12,
-    "specials_pages_found": 240,
+    "specials_pages_found": 241,
     "successful_map_cells": 54
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-22T18:15:34Z",
+  "generated_at": "2026-09-23T18:35:09Z",
   "refresh_after": "2026-09-24T16:13:29Z",
   "restaurants": [
     {
@@ -21971,7 +21971,7 @@
       "phone": "(657) 232-9570",
       "place_id": "ChIJ0ShDJWHf3IARiW7v3TH8i24",
       "primary_type": "sandwich_shop",
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-az7wetsm/Default'",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-qx_sr2xm/Default'",
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -26452,6 +26452,8 @@
       "phone": "(714) 898-1699",
       "place_id": "ChIJz_6Qi_wl3YARHgbNp1plmp8",
       "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-09-23T18:34:38Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "american_restaurant",
@@ -26518,6 +26520,8 @@
       "phone": "(714) 962-8881",
       "place_id": "ChIJdXutsDMh3YARop1ZiiYfmys",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-09-23T18:34:38Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
@@ -26665,6 +26669,8 @@
       "phone": "(657) 231-9991",
       "place_id": "ChIJC836SQrf3IARpafI5YvOq8w",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-23T18:34:38Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "juice_shop",
@@ -26805,19 +26811,24 @@
       "phone": "(949) 204-1454",
       "place_id": "ChIJKWLYz47f3IARI4-0-swlMlA",
       "primary_type": "bar_and_grill",
+      "specials_checked_at": "2026-09-23T18:34:38Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "See What's on Tap",
           "url": "http://www.goathilltavern.com/drink-specials/"
         },
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Specials",
           "url": "https://www.goathilltavern.com/drink-specials/"
         },
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://www.goathilltavern.com/"
         }
@@ -26869,6 +26880,8 @@
       "phone": "(949) 436-7141",
       "place_id": "ChIJ81Uwdzvf3IARpq6SXDtVW4A",
       "primary_type": "snack_bar",
+      "specials_checked_at": "2026-09-23T18:34:38Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "snack_bar",
@@ -26935,6 +26948,8 @@
       "phone": "(562) 592-9080",
       "place_id": "ChIJf6k7QXIl3YARCeUDrrV0SB0",
       "primary_type": "indian_restaurant",
+      "specials_checked_at": "2026-09-23T18:34:38Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "indian_restaurant",
@@ -27134,6 +27149,8 @@
       "phone": "(949) 329-8987",
       "place_id": "ChIJkwZZb3jf3IARqexbsTbZr2k",
       "primary_type": "cafe",
+      "specials_checked_at": "2026-09-23T18:34:38Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
@@ -27223,9 +27240,12 @@
       "phone": "(714) 841-3474",
       "place_id": "ChIJiY_04-0m3YARprUTRE-Y-EU",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-23T18:34:38Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://www.holemole.com/"
         }
@@ -27295,9 +27315,12 @@
       "phone": "(714) 677-0531",
       "place_id": "ChIJb1FsWnHf3IARdGcYWmJOrcs",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-23T18:34:38Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://www.holesmokes.com/"
         }
@@ -27359,6 +27382,8 @@
       "phone": "(714) 839-8689",
       "place_id": "ChIJmeUJu5zY3IARo1kTNrUoAJg",
       "primary_type": "sushi_restaurant",
+      "specials_checked_at": "2026-09-23T18:34:38Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sushi_restaurant",
@@ -27419,7 +27444,16 @@
       "phone": "(866) 492-4267",
       "place_id": "ChIJa0_bxM4m3YARsoCoRVPqPqU",
       "primary_type": "cafe",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-23T18:34:38Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://www.honeybaked.com/"
+        }
+      ],
       "types": [
         "cafe",
         "food",
