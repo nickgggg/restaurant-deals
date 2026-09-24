@@ -27,9 +27,10 @@
       "status": "queued"
     },
     "Seal Beach": {
-      "activated_at": null,
-      "last_refreshed": null,
-      "status": "queued"
+      "activated_at": "2026-09-24T18:38:28Z",
+      "last_refreshed": "2026-09-24T18:38:28Z",
+      "restaurant_count": 80,
+      "status": "active"
     },
     "Westminster": {
       "activated_at": "2026-09-17T16:13:29Z",
@@ -43,31 +44,31 @@
       "Huntington Beach",
       "Fountain Valley",
       "Costa Mesa",
-      "Westminster"
+      "Westminster",
+      "Seal Beach"
     ],
-    "closed_count": 49,
+    "closed_count": 50,
     "failed_map_cells": 0,
-    "last_scan_map_cells": 54,
+    "last_scan_map_cells": 42,
     "last_scanned_cities": [
-      "Westminster"
+      "Seal Beach"
     ],
-    "last_source_scan_at": "2026-09-23T18:35:09Z",
-    "map_cells": 233,
-    "official_websites": 967,
-    "operational_count": 1209,
+    "last_source_scan_at": "2026-09-24T18:38:28Z",
+    "map_cells": 275,
+    "official_websites": 1033,
+    "operational_count": 1288,
     "queued_cities": [
-      "Seal Beach",
       "Newport Beach",
       "Garden Grove"
     ],
-    "restaurant_count": 1258,
-    "source_sites_checked": 12,
-    "specials_pages_found": 241,
-    "successful_map_cells": 54
+    "restaurant_count": 1338,
+    "source_sites_checked": 63,
+    "specials_pages_found": 267,
+    "successful_map_cells": 42
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-23T18:35:09Z",
-  "refresh_after": "2026-09-24T16:13:29Z",
+  "generated_at": "2026-09-24T18:38:28Z",
+  "refresh_after": "2026-10-01T18:38:28Z",
   "restaurants": [
     {
       "address": "369 E 17th St #18, Costa Mesa, CA 92627, USA",
@@ -628,6 +629,27 @@
       "website_url": "https://sliceofnewyorkca.com/"
     },
     {
+      "address": "103 Main St, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=16709318054750407917&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {},
+      "latitude": 33.740203099999995,
+      "longitude": -118.1058587,
+      "name": "Abbie",
+      "phone": "(562) 799-4246",
+      "place_id": "ChIJVQdfnfsv3YAR7UxrtD1s4-c",
+      "primary_type": "restaurant",
+      "specials_pages": [],
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
       "address": "5061 Warner Ave, Huntington Beach, CA 92649, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -766,6 +788,74 @@
         "restaurant",
         "food",
         "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.acairepublic.com/"
+    },
+    {
+      "address": "148 Main St Ste B, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=2969460301024699581&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:00",
+            "open": "08:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:00",
+            "open": "08:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:00",
+            "open": "08:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "08:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "08:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:00",
+            "open": "08:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:00",
+            "open": "08:00"
+          }
+        ]
+      },
+      "latitude": 33.741121299999996,
+      "longitude": -118.1046325,
+      "name": "Acai Republic Seal Beach",
+      "phone": "(657) 888-0976",
+      "place_id": "ChIJ5b9vL5wv3YARvaQzMWmkNSk",
+      "primary_type": "acai_shop",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "acai_shop",
+        "brazilian_restaurant",
+        "restaurant",
+        "food",
         "point_of_interest",
         "establishment"
       ],
@@ -1116,6 +1206,32 @@
         "establishment"
       ],
       "website_url": "https://www.eatahba.com/"
+    },
+    {
+      "address": "12353 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=17741278465469144301&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {},
+      "latitude": 33.7832192,
+      "longitude": -118.07235809999999,
+      "name": "Ahipoki",
+      "phone": "(310) 279-8833",
+      "place_id": "ChIJ7flhTFwv3YAR7VyTW8SuNfY",
+      "primary_type": "seafood_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "seafood_restaurant",
+        "hawaiian_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.ahipokibowl.com/"
     },
     {
       "address": "17931 Beach Blvd Suite 102, Huntington Beach, CA 92647, USA",
@@ -4292,6 +4408,80 @@
       "website_url": ""
     },
     {
+      "address": "12800 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=16708492245065562058&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ]
+      },
+      "latitude": 33.7768254,
+      "longitude": -118.07209449999998,
+      "name": "Baja Fresh",
+      "phone": "(562) 598-1555",
+      "place_id": "ChIJDXCOAqwv3YARyneA5yt94Oc",
+      "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://www.bajafresh.com/stores/mexican-food-seal-beach/30640?utm_source=gmb&utm_medium=gmb&utm_campaign=gmb&utm_id=gmb"
+        }
+      ],
+      "types": [
+        "mexican_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.bajafresh.com/stores/mexican-food-seal-beach/30640?utm_source=gmb&utm_medium=gmb&utm_campaign=gmb&utm_id=gmb"
+    },
+    {
       "address": "2052 Placentia Ave, Costa Mesa, CA 92627, USA",
       "business_status": "OPERATIONAL",
       "city": "Costa Mesa",
@@ -6132,6 +6322,60 @@
       "website_url": ""
     },
     {
+      "address": "3020 Old Ranch Pkwy #120, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=11496958388578914546&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "16:00",
+            "open": "07:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "16:30",
+            "open": "07:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "16:30",
+            "open": "07:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "16:30",
+            "open": "07:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "16:30",
+            "open": "07:00"
+          }
+        ]
+      },
+      "latitude": 33.7753391,
+      "longitude": -118.0757422,
+      "name": "Bixby Plaza Cafe",
+      "phone": "(562) 799-9001",
+      "place_id": "ChIJu_xrC64v3YAR8pCxrL1mjZ8",
+      "primary_type": "sandwich_shop",
+      "specials_pages": [],
+      "types": [
+        "sandwich_shop",
+        "cafe",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
       "address": "14092 Magnolia St, Westminster, CA 92683, USA",
       "business_status": "OPERATIONAL",
       "city": "Westminster",
@@ -6264,6 +6508,84 @@
         "establishment"
       ],
       "website_url": "https://blackangus.com/menu-order/blackangusfountainvalley"
+    },
+    {
+      "address": "12380 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=15900370466141767437&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ]
+      },
+      "latitude": 33.7822019,
+      "longitude": -118.07138859999999,
+      "name": "Blaze Pizza",
+      "phone": "(562) 245-5566",
+      "place_id": "ChIJ38X1P08v3YARDQd-97F2qdw",
+      "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://locations.blazepizza.com/us/ca/seal-beach/blazepizza-1408"
+        }
+      ],
+      "types": [
+        "pizza_restaurant",
+        "fast_food_restaurant",
+        "pizza_delivery",
+        "meal_delivery",
+        "food_delivery",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://locations.blazepizza.com/us/ca/seal-beach/blazepizza-1408"
     },
     {
       "address": "17150 Brookhurst St #D, Fountain Valley, CA 92708, USA",
@@ -6947,6 +7269,82 @@
         "establishment"
       ],
       "website_url": "https://bobsburgersrestaurant.shop/"
+    },
+    {
+      "address": "905 Ocean Ave, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=10844165020012647005&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:00",
+            "open": "06:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:00",
+            "open": "06:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:00",
+            "open": "07:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "07:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "06:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:00",
+            "open": "06:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:00",
+            "open": "06:00"
+          }
+        ]
+      },
+      "latitude": 33.7398343,
+      "longitude": -118.1055241,
+      "name": "Bogart's Coffee House",
+      "phone": "(562) 431-2226",
+      "place_id": "ChIJ3eGDm_sv3YARXRKSf6E2fpY",
+      "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "http://www.bogartscoffee.com/"
+        }
+      ],
+      "types": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "http://www.bogartscoffee.com/"
     },
     {
       "address": "270 Bristol St #114, Costa Mesa, CA 92626, USA",
@@ -8574,6 +8972,73 @@
         "establishment"
       ],
       "website_url": ""
+    },
+    {
+      "address": "12420 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=15936907073639871951&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:00",
+            "open": "09:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "22:00",
+            "open": "09:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:00",
+            "open": "09:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "22:00",
+            "open": "09:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "22:00",
+            "open": "09:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "22:00",
+            "open": "09:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "22:00",
+            "open": "09:00"
+          }
+        ]
+      },
+      "latitude": 33.7817921,
+      "longitude": -118.07137610000001,
+      "name": "Burros & Fries Seal Beach",
+      "phone": "(562) 939-9003",
+      "place_id": "ChIJbwcgGcUv3YARz_W2zotEK90",
+      "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "mexican_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "http://www.burrosandfries.com/"
     },
     {
       "address": "7101 Yorktown Ave Unit 107, Huntington Beach, CA 92648, USA",
@@ -10508,6 +10973,86 @@
       "website_url": "https://www.cafishgrill.com/"
     },
     {
+      "address": "12171 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=16604011040319943110&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ]
+      },
+      "latitude": 33.785647499999996,
+      "longitude": -118.07248500000001,
+      "name": "California Pizza Kitchen",
+      "phone": "(562) 430-2695",
+      "place_id": "ChIJJ559lFMu3YARxjHvwBFMbeY",
+      "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "pizza_restaurant",
+        "cocktail_bar",
+        "salad_shop",
+        "catering_service",
+        "soup_restaurant",
+        "bar",
+        "pizza_delivery",
+        "meal_delivery",
+        "food_delivery",
+        "american_restaurant",
+        "food_store",
+        "meal_takeaway",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "website_url": "https://order.cpk.com/menu/california-pizza-kitchen-rossmoor-center/?utm_source=GMB&utm_medium=GMB"
+    },
+    {
       "address": "18908 Brookhurst St, Fountain Valley, CA 92708, USA",
       "business_status": "OPERATIONAL",
       "city": "Fountain Valley",
@@ -11296,6 +11841,76 @@
         "establishment"
       ],
       "website_url": "https://locations.carlsjr.com/ca/westminster/13425-beach-blvd"
+    },
+    {
+      "address": "13902 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=4906909387717292384&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "23:00",
+            "open": "06:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "23:00",
+            "open": "06:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "23:00",
+            "open": "06:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "23:00",
+            "open": "06:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "23:00",
+            "open": "06:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "23:00",
+            "open": "06:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "23:00",
+            "open": "06:00"
+          }
+        ]
+      },
+      "latitude": 33.761299099999995,
+      "longitude": -118.0780906,
+      "name": "Carl's Jr.",
+      "phone": "(562) 430-2739",
+      "place_id": "ChIJU4UwOL0v3YARYDHrFxfYGEQ",
+      "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "fast_food_restaurant",
+        "chicken_restaurant",
+        "hamburger_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://locations.carlsjr.com/ca/seal-beach/13902-seal-beach-blvd"
     },
     {
       "address": "1501 Newport Blvd, Costa Mesa, CA 92627, USA",
@@ -12660,6 +13275,75 @@
       "website_url": "http://chanchanmenu.com/"
     },
     {
+      "address": "333 Main St, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=13142978172414169142&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ]
+      },
+      "latitude": 33.7440089,
+      "longitude": -118.10312350000001,
+      "name": "Charo Chicken",
+      "phone": "(562) 594-0909",
+      "place_id": "ChIJ5fcuL-Uv3YARNpB1aQM9ZbY",
+      "primary_type": "chicken_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "chicken_restaurant",
+        "mexican_restaurant",
+        "fast_food_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "http://www.charochicken.com/"
+    },
+    {
       "address": "6531 Edinger Ave, Huntington Beach, CA 92647, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -12798,6 +13482,74 @@
         "establishment"
       ],
       "website_url": ""
+    },
+    {
+      "address": "12101 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=18172601189482355558&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:00",
+            "open": "06:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "22:00",
+            "open": "06:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:00",
+            "open": "06:30"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "22:00",
+            "open": "06:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "22:00",
+            "open": "06:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "22:00",
+            "open": "06:30"
+          }
+        ]
+      },
+      "latitude": 33.7867955,
+      "longitude": -118.07249519999999,
+      "name": "Chick-fil-A",
+      "phone": "(562) 430-3060",
+      "place_id": "ChIJl1ER4VMu3YARZtvvz38MMvw",
+      "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "fast_food_restaurant",
+        "chicken_restaurant",
+        "catering_service",
+        "breakfast_restaurant",
+        "family_restaurant",
+        "shipping_service",
+        "food_delivery",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "website_url": "https://www.chick-fil-a.com/locations/ca/shops-at-rossmoor?utm_source=google&utm_medium=gmb"
     },
     {
       "address": "16961 Goldenwest St, Huntington Beach, CA 92647, USA",
@@ -13263,6 +14015,81 @@
         "establishment"
       ],
       "website_url": ""
+    },
+    {
+      "address": "12359 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=3518502626477258942&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "23:00",
+            "open": "10:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "23:00",
+            "open": "10:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "23:00",
+            "open": "10:30"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "23:00",
+            "open": "10:30"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "23:00",
+            "open": "10:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "23:00",
+            "open": "10:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "23:00",
+            "open": "10:30"
+          }
+        ]
+      },
+      "latitude": 33.782980699999996,
+      "longitude": -118.0723415,
+      "name": "Chipotle Mexican Grill",
+      "phone": "(562) 375-6983",
+      "place_id": "ChIJZX22aFMu3YARvrh0OH871DA",
+      "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "fast_food_restaurant",
+        "taco_restaurant",
+        "catering_service",
+        "shipping_service",
+        "mexican_restaurant",
+        "food_delivery",
+        "burrito_restaurant",
+        "meal_takeaway",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "website_url": "https://locations.chipotle.com/ca/seal-beach/12359-seal-beach-blvd?utm_source=google&utm_medium=yext&utm_campaign=yext_listings?restaurant=1511"
     },
     {
       "address": "17150 Brookhurst St, Fountain Valley, CA 92708, USA",
@@ -14275,6 +15102,70 @@
         "food_store",
         "store",
         "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
+      "address": "111 Main St, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=13129545732464500046&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "02:00",
+            "open": "08:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "02:00",
+            "open": "08:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "02:00",
+            "open": "08:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "02:00",
+            "open": "08:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "02:00",
+            "open": "08:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "02:00",
+            "open": "08:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "02:00",
+            "open": "08:00"
+          }
+        ]
+      },
+      "latitude": 33.7403513,
+      "longitude": -118.10579409999998,
+      "name": "Clancy's",
+      "phone": "(562) 594-8143",
+      "place_id": "ChIJ-bgMefsv3YARTt3KxUeENbY",
+      "primary_type": "bar",
+      "specials_pages": [],
+      "types": [
+        "bar",
+        "cocktail_bar",
         "point_of_interest",
         "establishment"
       ],
@@ -16619,6 +17510,142 @@
       "website_url": "https://restaurants.daveshotchicken.com/ca/fountain-valley/10832-warner-ave.-1013?utm_campaign=google_maps&utm_medium=organic&utm_source=google&utm_content=website&utm_term=1013"
     },
     {
+      "address": "12380 Seal Beach Blvd B, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=1756344655437944718&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:45",
+            "open": "11:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:45",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:45",
+            "open": "11:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:45",
+            "open": "11:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:45",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:45",
+            "open": "11:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:45",
+            "open": "11:00"
+          }
+        ]
+      },
+      "latitude": 33.7822362,
+      "longitude": -118.0715268,
+      "name": "Dave's Hot Chicken",
+      "phone": "(562) 286-6844",
+      "place_id": "ChIJSfsHMekv3YARjteImijKXxg",
+      "primary_type": "chicken_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "chicken_restaurant",
+        "halal_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://restaurants.daveshotchicken.com/ca/seal-beach/12380-seal-beach-blvd-1071?utm_campaign=google_maps&utm_medium=organic&utm_source=google&utm_content=website&utm_term=1071"
+    },
+    {
+      "address": "1500 CA-1 C, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=18333111787066356181&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "00:00",
+            "open": "11:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "23:00",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "00:00",
+            "open": "11:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "23:00",
+            "open": "11:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "23:00",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "23:00",
+            "open": "11:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "23:00",
+            "open": "11:00"
+          }
+        ]
+      },
+      "latitude": 33.7416789,
+      "longitude": -118.0976996,
+      "name": "Dave's Other Place",
+      "phone": "(562) 596-2833",
+      "place_id": "ChIJW9RI_PAv3YAR1fGdjwlMbP4",
+      "primary_type": "bar",
+      "specials_pages": [],
+      "types": [
+        "bar",
+        "sports_bar",
+        "pub",
+        "sandwich_shop",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.instagram.com/daves_other_place/"
+    },
+    {
       "address": "9870 Bolsa Ave, Westminster, CA 92683, USA",
       "business_status": "OPERATIONAL",
       "city": "Westminster",
@@ -17006,6 +18033,86 @@
         "establishment"
       ],
       "website_url": "https://locations.deltaco.com/us/ca/huntington-beach/21401-brookhurst-st?utm_source=G&utm_medium=local&utm_campaign=google-local"
+    },
+    {
+      "address": "2900 Westminster Blvd., Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=18116367668487902969&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "02:00",
+            "open": "06:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "01:00",
+            "open": "06:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "02:00",
+            "open": "06:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "01:00",
+            "open": "06:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "01:00",
+            "open": "06:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "01:00",
+            "open": "06:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "01:00",
+            "open": "06:00"
+          }
+        ]
+      },
+      "latitude": 33.7591879,
+      "longitude": -118.08116260000001,
+      "name": "Del Taco",
+      "phone": "(562) 596-8508",
+      "place_id": "ChIJG64eir0v3YAR-daX7GhEavs",
+      "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://locations.deltaco.com/us/ca/seal-beach/2900-westminster-ave?utm_source=G&utm_medium=local&utm_campaign=google-local"
+        }
+      ],
+      "types": [
+        "fast_food_restaurant",
+        "taco_restaurant",
+        "breakfast_restaurant",
+        "hamburger_restaurant",
+        "mexican_restaurant",
+        "american_restaurant",
+        "meal_takeaway",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://locations.deltaco.com/us/ca/seal-beach/2900-westminster-ave?utm_source=G&utm_medium=local&utm_campaign=google-local"
     },
     {
       "address": "2956 Bristol St, Costa Mesa, CA 92626, USA",
@@ -18390,6 +19497,73 @@
       "name": "Donut Boss",
       "phone": "(714) 892-0050",
       "place_id": "ChIJeWLSr54o3YARat9l9vNg3Cs",
+      "primary_type": "donut_shop",
+      "specials_pages": [],
+      "types": [
+        "donut_shop",
+        "bakery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
+      "address": "1210 CA-1, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=7699443266987688043&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "14:00",
+            "open": "05:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "14:00",
+            "open": "05:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "14:00",
+            "open": "05:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "15:00",
+            "open": "05:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "14:00",
+            "open": "05:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "14:00",
+            "open": "05:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "14:00",
+            "open": "05:00"
+          }
+        ]
+      },
+      "latitude": 33.7427928,
+      "longitude": -118.0997126,
+      "name": "Donut City",
+      "phone": "(562) 799-7007",
+      "place_id": "ChIJ1Ru6bfAv3YARawATodvq2Wo",
       "primary_type": "donut_shop",
       "specials_pages": [],
       "types": [
@@ -19982,6 +21156,73 @@
       "website_url": "http://www.eatssushi.com/"
     },
     {
+      "address": "12430 Seal Beach Blvd E, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=8166236587125677204&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "14:00",
+            "open": "07:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "14:00",
+            "open": "07:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "16:00",
+            "open": "07:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "16:00",
+            "open": "07:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "14:00",
+            "open": "07:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "14:00",
+            "open": "07:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "14:00",
+            "open": "07:00"
+          }
+        ]
+      },
+      "latitude": 33.7814334,
+      "longitude": -118.07171629999999,
+      "name": "Eggbred",
+      "phone": "(562) 596-0636",
+      "place_id": "ChIJaQ3vw90v3YARlJxsz-hMVHE",
+      "primary_type": "breakfast_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "breakfast_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://eggbred.com/"
+    },
+    {
       "address": "9120 Adams Ave Unit 15, Huntington Beach, CA 92646, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -20162,6 +21403,71 @@
       "specials_pages": [],
       "types": [
         "bar",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
+      "address": "909 Ocean Ave, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=3971789347086852175&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ]
+      },
+      "latitude": 33.7397359,
+      "longitude": -118.10536590000001,
+      "name": "El Burrito Jr",
+      "phone": "(562) 431-8483",
+      "place_id": "ChIJfTkamvsv3YART-DKI16hHjc",
+      "primary_type": "mexican_restaurant",
+      "specials_pages": [],
+      "types": [
+        "mexican_restaurant",
+        "restaurant",
+        "food",
         "point_of_interest",
         "establishment"
       ],
@@ -21850,6 +23156,108 @@
       "website_url": "https://filomenascostamesa.com/"
     },
     {
+      "address": "1041 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=693466324176653806&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ]
+      },
+      "latitude": 33.7445792,
+      "longitude": -118.10073279999999,
+      "name": "Finbars Italian Kitchen",
+      "phone": "(562) 346-2277",
+      "place_id": "ChIJW1vaY-Qv3YAR7s0-nPKvnwk",
+      "primary_type": "italian_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Daily Specials",
+          "url": "http://finbarsitalian.com/daily-specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Specials",
+          "url": "http://finbarsitalian.com/specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Weekday Specials",
+          "url": "http://finbarsitalian.com/weekday-specials"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "http://finbarsitalian.com/"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Specials",
+          "url": "http://finbarsitalian.com/happy-hours-specials"
+        }
+      ],
+      "types": [
+        "italian_restaurant",
+        "dessert_restaurant",
+        "bar",
+        "pizza_restaurant",
+        "european_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "http://finbarsitalian.com/"
+    },
+    {
       "address": "7251 Warner Ave Ste L, Huntington Beach, CA 92647, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -22591,6 +23999,74 @@
         "establishment"
       ],
       "website_url": ""
+    },
+    {
+      "address": "12235 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=4749925763178551545&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ]
+      },
+      "latitude": 33.784639299999995,
+      "longitude": -118.073324,
+      "name": "Fortune Cookies Restaurant | Los Alamitos",
+      "phone": "(562) 493-0058",
+      "place_id": "ChIJ9R2hxF0u3YAR-di7v1Ag60E",
+      "primary_type": "chinese_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "chinese_restaurant",
+        "asian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.fortunecookiesrestaurant.com/"
     },
     {
       "address": "18421 Gothard St Ste 100, Huntington Beach, CA 92648, USA",
@@ -25594,6 +27070,94 @@
       "website_url": "https://www.restauranthabana.com/habana-the-lab"
     },
     {
+      "address": "12380 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=1169248123539374359&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ]
+      },
+      "latitude": 33.7822999,
+      "longitude": -118.07137089999999,
+      "name": "Habit Burger & Grill",
+      "phone": "(562) 825-0130",
+      "place_id": "ChIJqZq9Bdkv3YARF0HbMfkAOhA",
+      "primary_type": "hamburger_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "$9 Gotta Habit\u2122 Box Deal w/ Santa Barbara Char 750 - 1340 Cal $9.00",
+          "url": "https://order.habitburger.com/store/01e1ed2d-2d9b-ec11-ab22-06d9b436ed5c/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/03191d0b-dac1-4d5c-8cf2-bd1ad18e4f48"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "$9 Gotta Habit\u2122 Box Deal w/ California Chicken 730 - 1320 Cal $9.00",
+          "url": "https://order.habitburger.com/store/01e1ed2d-2d9b-ec11-ab22-06d9b436ed5c/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/e94baaa4-8286-40ee-bd28-77cb971de06c"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://order.habitburger.com/store/351/category"
+        }
+      ],
+      "types": [
+        "hamburger_restaurant",
+        "fast_food_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://order.habitburger.com/store/351/category"
+    },
+    {
       "address": "1510 Adams Ave, Costa Mesa, CA 92626, USA",
       "business_status": "OPERATIONAL",
       "city": "Costa Mesa",
@@ -26757,6 +28321,123 @@
       "website_url": ""
     },
     {
+      "address": "143 Main St, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=9799931606402795997&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "02:00",
+            "open": "09:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "02:00",
+            "open": "09:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "02:00",
+            "open": "08:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "02:00",
+            "open": "08:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "02:00",
+            "open": "09:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "02:00",
+            "open": "09:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "02:00",
+            "open": "09:00"
+          }
+        ]
+      },
+      "latitude": 33.7413672,
+      "longitude": -118.10520969999997,
+      "name": "Hennessey's Grill",
+      "phone": "(562) 598-6456",
+      "place_id": "ChIJewiSa_sv3YAR3QnDrt9ZAIg",
+      "primary_type": "bar_and_grill",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Happy Hour",
+          "url": "https://www.hennesseystavern.com/happy-hour"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Promotions",
+          "url": "https://www.hennesseystavern.com/promotions"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Folder: Promotions & Rewards",
+          "url": "https://www.hennesseystavern.com/promotions-rewards"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.hennesseystavern.com/promotions/bloody-mary"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.hennesseystavern.com/promotions/cocktail-of-the-month"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.hennesseystavern.com/promotions/half-century-highball"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.hennesseystavern.com/promotions/happy-hours"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.hennesseystavern.com/promotions/monday-all-you-can-eat-ribs"
+        }
+      ],
+      "types": [
+        "bar_and_grill",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.hennesseystavern.com/locations-seal-beach"
+    },
+    {
       "address": "1832 Newport Blvd, Costa Mesa, CA 92627, USA",
       "business_status": "OPERATIONAL",
       "city": "Costa Mesa",
@@ -27093,6 +28774,103 @@
         "establishment"
       ],
       "website_url": "http://hoanggiasecret.com/"
+    },
+    {
+      "address": "12489 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=18283239265289721699&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:00",
+            "open": "07:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:00",
+            "open": "07:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:00",
+            "open": "07:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "07:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "07:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:00",
+            "open": "07:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:00",
+            "open": "07:00"
+          }
+        ]
+      },
+      "latitude": 33.7814066,
+      "longitude": -118.07252849999999,
+      "name": "Hof's Hut Restaurant & Bakery",
+      "phone": "(562) 799-9552",
+      "place_id": "ChIJY72dLmcu3YARY1cRNz4du_0",
+      "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "click here to learn more",
+          "url": "https://hofshut.com/promotions/fall-winter-gather-together-2026"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "View the Happy Hour menu",
+          "url": "https://hofshut.com/promotions/happy-hour"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "click here to Learn more",
+          "url": "https://hofshut.com/promotions/wine-wednesday"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://hofshut.com/"
+        }
+      ],
+      "types": [
+        "american_restaurant",
+        "breakfast_restaurant",
+        "hamburger_restaurant",
+        "bakery",
+        "food_store",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://hofshut.com/"
     },
     {
       "address": "120 Virginia Pl #101, Costa Mesa, CA 92627, USA",
@@ -27756,6 +29534,80 @@
       "website_url": ""
     },
     {
+      "address": "12800 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=3282600472187289455&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "20:00",
+            "open": "07:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:00",
+            "open": "07:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "20:00",
+            "open": "07:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:00",
+            "open": "07:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:00",
+            "open": "07:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:00",
+            "open": "07:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:00",
+            "open": "07:00"
+          }
+        ]
+      },
+      "latitude": 33.776836800000005,
+      "longitude": -118.07188119999999,
+      "name": "Hot Off The Grill",
+      "phone": "(562) 493-2722",
+      "place_id": "ChIJW7hfqa4v3YARb79AzLwjji0",
+      "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://orderhotoffthegrill.com/"
+        }
+      ],
+      "types": [
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://orderhotoffthegrill.com/"
+    },
+    {
       "address": "16522 Bolsa Chica St, Huntington Beach, CA 92649, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -28215,6 +30067,75 @@
         "establishment"
       ],
       "website_url": "https://www.hueoivietnamesecuisine.com/"
+    },
+    {
+      "address": "350 Main St Unit A, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=778679387003957327&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "17:00",
+            "open": "07:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "17:00",
+            "open": "07:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "17:00",
+            "open": "07:30"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "16:00",
+            "open": "07:30"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "17:00",
+            "open": "07:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "17:00",
+            "open": "07:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "17:00",
+            "open": "07:30"
+          }
+        ]
+      },
+      "latitude": 33.744056199999996,
+      "longitude": -118.10246339999999,
+      "name": "Humblemaker Coffee Co.",
+      "phone": "(562) 430-9009",
+      "place_id": "ChIJk4MpMtgv3YARTzBK4MZszgo",
+      "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://humblemaker.coffee/"
     },
     {
       "address": "15348 Beach Blvd, Westminster, CA 92683, USA",
@@ -29284,6 +31205,76 @@
       "website_url": "https://www.il-girasole.com/"
     },
     {
+      "address": "12365 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=6116411546483400915&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "01:30",
+            "open": "10:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "01:00",
+            "open": "10:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "01:30",
+            "open": "10:30"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "01:00",
+            "open": "10:30"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "01:00",
+            "open": "10:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "01:00",
+            "open": "10:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "01:00",
+            "open": "10:30"
+          }
+        ]
+      },
+      "latitude": 33.7822186,
+      "longitude": -118.0724689,
+      "name": "In-N-Out Burger",
+      "phone": "(800) 786-1000",
+      "place_id": "ChIJNQzTsiLczYAR06A9OOXb4VQ",
+      "primary_type": "hamburger_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "hamburger_restaurant",
+        "diner",
+        "fast_food_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://locations.in-n-out.com/271"
+    },
+    {
       "address": "18062 Beach Blvd, Huntington Beach, CA 92646, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -29787,6 +31778,160 @@
         "establishment"
       ],
       "website_url": ""
+    },
+    {
+      "address": "121 Main St, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=13283151764535510104&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "02:00",
+            "open": "08:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "02:00",
+            "open": "08:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "02:00",
+            "open": "08:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "02:00",
+            "open": "08:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "02:00",
+            "open": "08:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "02:00",
+            "open": "08:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "02:00",
+            "open": "08:00"
+          }
+        ]
+      },
+      "latitude": 33.740718799999996,
+      "longitude": -118.10567469999998,
+      "name": "Irisher By-The-Sea",
+      "phone": "(562) 596-1427",
+      "place_id": "ChIJeROAcPsv3YARWAS-Fic8V7g",
+      "primary_type": "cocktail_bar",
+      "specials_pages": [],
+      "types": [
+        "cocktail_bar",
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
+      "address": "12320 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=15860907358827053254&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ]
+      },
+      "latitude": 33.783139999999996,
+      "longitude": -118.07166000000001,
+      "name": "Islands Restaurant Seal Beach",
+      "phone": "(562) 431-6400",
+      "place_id": "ChIJ3c5MZlMu3YARxgBESjVDHdw",
+      "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Happy Hour",
+          "url": "https://www.islandsrestaurants.com/menu/happy-hour/"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://www.islandsrestaurants.com/locations/seal-beach"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Specials",
+          "url": "https://www.islandsrestaurants.com/specials/"
+        }
+      ],
+      "types": [
+        "american_restaurant",
+        "bar_and_grill",
+        "family_restaurant",
+        "hamburger_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.islandsrestaurants.com/locations/seal-beach"
     },
     {
       "address": "Warner Avenue &, Nectarine St, Fountain Valley, CA 92708, USA",
@@ -30919,6 +33064,71 @@
       "website_url": "https://www.janshealthbar.com/"
     },
     {
+      "address": "907 Ocean Ave, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=3973591718599353677&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "23:00",
+            "open": "10:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "23:00",
+            "open": "10:30"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ]
+      },
+      "latitude": 33.7397961,
+      "longitude": -118.1054726,
+      "name": "Jane's Corndogs",
+      "phone": "(562) 431-2854",
+      "place_id": "ChIJL5MYYxIv3YARTWWMdZ0IJTc",
+      "primary_type": "fast_food_restaurant",
+      "specials_pages": [],
+      "types": [
+        "fast_food_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
       "address": "686 W 19th St, Costa Mesa, CA 92627, USA",
       "business_status": "OPERATIONAL",
       "city": "Costa Mesa",
@@ -30981,6 +33191,76 @@
         "establishment"
       ],
       "website_url": ""
+    },
+    {
+      "address": "148 Main St, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=7759240428420481739&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:00",
+            "open": "05:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:00",
+            "open": "05:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:00",
+            "open": "06:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "06:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "05:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:00",
+            "open": "05:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:00",
+            "open": "05:30"
+          }
+        ]
+      },
+      "latitude": 33.741225,
+      "longitude": -118.104773,
+      "name": "Javatinis Espresso",
+      "phone": "(562) 626-8202",
+      "place_id": "ChIJS_8xEvsv3YARy0LaNg9crms",
+      "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "coffee_shop",
+        "coffee_roastery",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://javatinisespresso.com/"
     },
     {
       "address": "17431 Brookhurst St # B, Fountain Valley, CA 92708, USA",
@@ -31121,6 +33401,81 @@
         "establishment"
       ],
       "website_url": "https://www.jerseymikes.com/20014/huntington-beach-ca?utm_source=google&utm_medium=organic&utm_campaign=listings"
+    },
+    {
+      "address": "12430 Seal Beach Blvd Unit F, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=12350052859069723806&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:30",
+            "open": "10:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:30",
+            "open": "10:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:30",
+            "open": "10:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:30",
+            "open": "10:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:30",
+            "open": "10:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:30",
+            "open": "10:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:30",
+            "open": "10:00"
+          }
+        ]
+      },
+      "latitude": 33.7815708,
+      "longitude": -118.07161819999999,
+      "name": "Jersey Mike's Subs",
+      "phone": "(562) 386-0500",
+      "place_id": "ChIJTyiqMrgv3YARnvQlVqQzZKs",
+      "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "sandwich_shop",
+        "catering_service",
+        "fast_food_restaurant",
+        "deli",
+        "food_delivery",
+        "food_store",
+        "meal_takeaway",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "website_url": "https://www.jerseymikes.com/20269/seal-beach-ca?utm_source=google&utm_medium=organic&utm_campaign=listings"
     },
     {
       "address": "18120 Brookhurst St Ste. 7, Fountain Valley, CA 92708, USA",
@@ -31633,6 +33988,75 @@
         "establishment"
       ],
       "website_url": "http://joeyspizzafv.com/"
+    },
+    {
+      "address": "550 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=332931580015996954&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "19:00",
+            "open": "10:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "17:00",
+            "open": "10:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "19:00",
+            "open": "10:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "19:00",
+            "open": "10:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "19:00",
+            "open": "10:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "19:00",
+            "open": "10:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "19:00",
+            "open": "10:00"
+          }
+        ]
+      },
+      "latitude": 33.7452489,
+      "longitude": -118.1058532,
+      "name": "John's Philly Grille",
+      "phone": "(562) 493-8678",
+      "place_id": "ChIJ-_J1gl4x3YARGvBcEYLPngQ",
+      "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "sandwich_shop",
+        "american_restaurant",
+        "meal_takeaway",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "http://www.phillygrille.com/"
     },
     {
       "address": "20379 Beach Blvd, Huntington Beach, CA 92648, USA",
@@ -32419,6 +34843,103 @@
         "establishment"
       ],
       "website_url": "http://www.kababgrillwestminster.com/?utm_source=gmb&utm_medium=website"
+    },
+    {
+      "address": "Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=6374953044594278778&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {},
+      "latitude": 33.74172010000001,
+      "longitude": -118.0976112,
+      "name": "KABUTO GRILL",
+      "phone": "",
+      "place_id": "ChIJq3qbAvEv3YARekHWogRieFg",
+      "primary_type": "restaurant",
+      "specials_pages": [],
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
+      "address": "2365 Seal Beach Blvd Ste 106, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=11921435538699303094&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "15:00",
+            "open": "11:30"
+          },
+          {
+            "close": "19:30",
+            "open": "16:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "15:00",
+            "open": "11:30"
+          },
+          {
+            "close": "19:30",
+            "open": "16:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "15:00",
+            "open": "11:30"
+          },
+          {
+            "close": "19:30",
+            "open": "16:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "15:00",
+            "open": "11:30"
+          },
+          {
+            "close": "19:30",
+            "open": "16:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "15:00",
+            "open": "11:30"
+          },
+          {
+            "close": "19:30",
+            "open": "16:00"
+          }
+        ]
+      },
+      "latitude": 33.758805699999996,
+      "longitude": -118.08213590000001,
+      "name": "Kabuto Restaurant",
+      "phone": "(562) 594-3889",
+      "place_id": "ChIJmRW4AvEv3YARtrjjwHVycaU",
+      "primary_type": "japanese_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "japanese_restaurant",
+        "sushi_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "http://kabutorestaurant.com/"
     },
     {
       "address": "2574 Newport Blvd, Costa Mesa, CA 92627, USA",
@@ -34272,6 +36793,147 @@
       "website_url": "https://www.klatchcoffee.com/pages/locations"
     },
     {
+      "address": "3001 Old Ranch Pkwy, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=12005032557907783837&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:30",
+            "open": "16:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:00",
+            "open": "16:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:30",
+            "open": "16:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "14:00",
+            "open": "10:30"
+          },
+          {
+            "close": "21:00",
+            "open": "16:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:30",
+            "open": "16:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:00",
+            "open": "16:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:00",
+            "open": "16:30"
+          }
+        ]
+      },
+      "latitude": 33.777089,
+      "longitude": -118.07317309999998,
+      "name": "Kobe Steakhouse & Lounge",
+      "phone": "(562) 596-9969",
+      "place_id": "ChIJ9yuUL6wv3YARnbAXi4FxmqY",
+      "primary_type": "japanese_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "cocktail_bar",
+        "steak_house",
+        "sushi_restaurant",
+        "brunch_restaurant",
+        "bar",
+        "live_music_venue",
+        "event_venue",
+        "japanese_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://kobesealbeach.com/"
+    },
+    {
+      "address": "600 CA-1 #100, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=2526937142961101587&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:30",
+            "open": "17:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:30",
+            "open": "17:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "17:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "17:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:00",
+            "open": "17:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:00",
+            "open": "17:00"
+          }
+        ]
+      },
+      "latitude": 33.746288899999996,
+      "longitude": -118.10546619999998,
+      "name": "Koi Japanese Cuisine",
+      "phone": "(562) 431-1186",
+      "place_id": "ChIJy5IrbuQv3YARE9vvd_F7ESM",
+      "primary_type": "sushi_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "sushi_restaurant",
+        "asian_restaurant",
+        "japanese_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "http://koi-sealbeach.com/"
+    },
+    {
       "address": "21071 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -35514,6 +38176,85 @@
         "establishment"
       ],
       "website_url": "https://lavieenrosebakeryandcoffee.azcpos.com/home/menu"
+    },
+    {
+      "address": "136 Main St, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=12243010907821144300&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:00",
+            "open": "12:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:00",
+            "open": "12:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:00",
+            "open": "12:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:00",
+            "open": "12:00"
+          }
+        ]
+      },
+      "latitude": 33.74088,
+      "longitude": -118.10491820000001,
+      "name": "lalc Smoked BBQ & Seafood",
+      "phone": "(562) 357-4031",
+      "place_id": "ChIJwT8NrDcv3YAR7Hjp7Y3p56k",
+      "primary_type": "barbecue_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Special Offers",
+          "url": "https://lalcrestaurant.com/contact-us/"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Special",
+          "url": "https://lalcrestaurant.com/special-offers/"
+        }
+      ],
+      "types": [
+        "barbecue_restaurant",
+        "hamburger_restaurant",
+        "seafood_restaurant",
+        "sandwich_shop",
+        "bar",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.lalcrestaurant.com/"
     },
     {
       "address": "10130 Warner Ave H, Fountain Valley, CA 92708, USA",
@@ -38959,6 +41700,77 @@
       "website_url": "https://www.magnoliacafefountainvalley.com/"
     },
     {
+      "address": "1400 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=9027320319422543270&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:00",
+            "open": "16:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:30",
+            "open": "16:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:00",
+            "open": "16:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:30",
+            "open": "16:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:30",
+            "open": "16:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:30",
+            "open": "16:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:30",
+            "open": "16:00"
+          }
+        ]
+      },
+      "latitude": 33.7419666,
+      "longitude": -118.0984657,
+      "name": "Mah\u00e9",
+      "phone": "(562) 431-3022",
+      "place_id": "ChIJq71JWPAv3YARprXYcAB8R30",
+      "primary_type": "seafood_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "seafood_restaurant",
+        "steak_house",
+        "sushi_restaurant",
+        "bar",
+        "japanese_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "http://eatatmahe.com/"
+    },
+    {
       "address": "8415 Westminster Blvd., Westminster, CA 92683, USA",
       "business_status": "OPERATIONAL",
       "city": "Westminster",
@@ -39276,6 +42088,79 @@
       "website_url": "https://www.makiyaki19.com/"
     },
     {
+      "address": "12420 Seal Beach Blvd suite a, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=804854150698493087&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:30",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:30",
+            "open": "11:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:30",
+            "open": "11:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:30",
+            "open": "11:00"
+          }
+        ]
+      },
+      "latitude": 33.7817991,
+      "longitude": -118.07134389999999,
+      "name": "Mako Ramen",
+      "phone": "(562) 449-4625",
+      "place_id": "ChIJgd89zJ4v3YARn-Rh9JVqKws",
+      "primary_type": "ramen_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "ramen_restaurant",
+        "salad_shop",
+        "sushi_restaurant",
+        "asian_restaurant",
+        "vegetarian_restaurant",
+        "japanese_curry_restaurant",
+        "japanese_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://makoramen.com/?utm_source=google"
+    },
+    {
       "address": "9090 Bolsa Ave, Westminster, CA 92683, USA",
       "business_status": "OPERATIONAL",
       "city": "Westminster",
@@ -39495,6 +42380,74 @@
         "establishment"
       ],
       "website_url": "https://www.mamason39.com/"
+    },
+    {
+      "address": "12171 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=17604029421056482698&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ]
+      },
+      "latitude": 33.7855549,
+      "longitude": -118.07239469999999,
+      "name": "Man vs Fries",
+      "phone": "(888) 416-7997",
+      "place_id": "ChIJTys0Uaov3YARit2YAX0TTvQ",
+      "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "restaurant",
+        "shipping_service",
+        "food",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "website_url": "http://www.manvsfries.com/"
     },
     {
       "address": "16079 Goldenwest St, Huntington Beach, CA 92647, USA",
@@ -39802,6 +42755,77 @@
         "establishment"
       ],
       "website_url": "https://www.mariecallenders.com/"
+    },
+    {
+      "address": "101 Main St, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=17736634455750886414&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "20:00",
+            "open": "08:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:00",
+            "open": "08:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "20:00",
+            "open": "08:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:00",
+            "open": "08:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:00",
+            "open": "08:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:00",
+            "open": "08:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:00",
+            "open": "08:00"
+          }
+        ]
+      },
+      "latitude": 33.7401634,
+      "longitude": -118.10592000000001,
+      "name": "Marina Cafe",
+      "phone": "(562) 357-4077",
+      "place_id": "ChIJbxSM7Hsv3YARDkT8lRAvJfY",
+      "primary_type": "cafe",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "cafe",
+        "health_food_store",
+        "tea_house",
+        "food_store",
+        "store",
+        "health",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.marinacafeca.com/"
     },
     {
       "address": "15964 Springdale St, Huntington Beach, CA 92649, USA",
@@ -40290,6 +43314,93 @@
         "establishment"
       ],
       "website_url": ""
+    },
+    {
+      "address": "620 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=15547770826590689950&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "23:00",
+            "open": "11:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "23:00",
+            "open": "08:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "22:00",
+            "open": "08:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ]
+      },
+      "latitude": 33.745675999999996,
+      "longitude": -118.10547330000001,
+      "name": "Marni's",
+      "phone": "(562) 594-3800",
+      "place_id": "ChIJfVDjlAMv3YARnpoe8DDHxNc",
+      "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://marnisoc.com/events/the-real-deal-trow44"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "See the deals \u2192",
+          "url": "https://www.marnisoc.com/menu"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://www.marnisoc.com/"
+        }
+      ],
+      "types": [
+        "restaurant",
+        "sports_bar",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.marnisoc.com/"
     },
     {
       "address": "15362 Goldenwest St, Westminster, CA 92683, USA",
@@ -41554,6 +44665,81 @@
         "establishment"
       ],
       "website_url": "https://www.mcdonalds.com/us/en-us/location/CA/HUNTINGTON-BEACH/5095-WARNER-AVE/19320.html?cid=RF:YXT:GMB::Clicks"
+    },
+    {
+      "address": "630 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=11523614637894996786&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "23:00",
+            "open": "06:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "23:00",
+            "open": "05:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "23:00",
+            "open": "06:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "23:00",
+            "open": "05:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "23:00",
+            "open": "05:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "23:00",
+            "open": "05:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "23:00",
+            "open": "05:00"
+          }
+        ]
+      },
+      "latitude": 33.745463199999996,
+      "longitude": -118.10514560000001,
+      "name": "McDonald's",
+      "phone": "(562) 594-4801",
+      "place_id": "ChIJQRdiiuQv3YARMhM5XHUa7J8",
+      "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "fast_food_restaurant",
+        "breakfast_restaurant",
+        "hamburger_restaurant",
+        "sandwich_shop",
+        "coffee_shop",
+        "cafe",
+        "american_restaurant",
+        "food_store",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.mcdonalds.com/us/en-us/location/CA/SEAL-BEACH/630-PACIFIC-COAST-HIGHWAY/5338.html?cid=RF:YXT:GMB::Clicks"
     },
     {
       "address": "635 W 19th St, Costa Mesa, CA 92627, USA",
@@ -46184,6 +49370,73 @@
       "website_url": "https://norms.com/"
     },
     {
+      "address": "350 Main St Unit A, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=18431472599126800263&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "17:00",
+            "open": "07:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "17:00",
+            "open": "07:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "16:00",
+            "open": "07:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "16:00",
+            "open": "07:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "17:00",
+            "open": "07:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "17:00",
+            "open": "07:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "17:00",
+            "open": "07:00"
+          }
+        ]
+      },
+      "latitude": 33.744056199999996,
+      "longitude": -118.10246339999999,
+      "name": "Nowadays Coffee",
+      "phone": "",
+      "place_id": "ChIJtwFJRQAv3YARh3dMvqy-yf8",
+      "primary_type": "coffee_shop",
+      "specials_pages": [],
+      "types": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
       "address": "6441 W McFadden Ave, Huntington Beach, CA 92647, USA",
       "business_status": "CLOSED_TEMPORARILY",
       "city": "Huntington Beach",
@@ -46427,6 +49680,90 @@
         "establishment"
       ],
       "website_url": "http://www.hboconnells.com/"
+    },
+    {
+      "address": "140 Main St, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=8913357448073451363&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "00:00",
+            "open": "12:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "22:00",
+            "open": "12:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "00:00",
+            "open": "09:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "23:00",
+            "open": "09:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "22:00",
+            "open": "12:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "22:00",
+            "open": "12:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "22:00",
+            "open": "12:00"
+          }
+        ]
+      },
+      "latitude": 33.7409861,
+      "longitude": -118.1047766,
+      "name": "O'Malley's On Main",
+      "phone": "(562) 430-0631",
+      "place_id": "ChIJ18lDDfsv3YARYxeAwF-bsns",
+      "primary_type": "irish_pub",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Happy Hour",
+          "url": "http://www.omalleyssealbeach.com/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Happy Hour Menu",
+          "url": "http://www.omalleyssealbeach.com/wp-content/uploads/2021/07/Omalleys-on-Main-Happy-Hour-Menu-July-1-2021.pdf"
+        }
+      ],
+      "types": [
+        "irish_pub",
+        "pub",
+        "bar",
+        "american_restaurant",
+        "european_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "http://www.omalleyssealbeach.com/"
     },
     {
       "address": "21010 Pacific Coast Hwy Ste B110, Huntington Beach, CA 92648, USA",
@@ -47827,6 +51164,61 @@
       "website_url": "http://www.pioneer.bar/"
     },
     {
+      "address": "1025 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=12265050838704280978&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "20:30",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "20:30",
+            "open": "11:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:00",
+            "open": "15:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:00",
+            "open": "15:00"
+          }
+        ]
+      },
+      "latitude": 33.7446615,
+      "longitude": -118.1009584,
+      "name": "Pacific Coast Fish Co",
+      "phone": "(562) 431-5222",
+      "place_id": "ChIJbxsuJ_Qv3YARklUTOcE2Nqo",
+      "primary_type": "seafood_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "seafood_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "http://pacificcoastfishco.com/"
+    },
+    {
       "address": "575 Anton Blvd, Costa Mesa, CA 92626, USA",
       "business_status": "OPERATIONAL",
       "city": "Costa Mesa",
@@ -48198,6 +51590,197 @@
         "establishment"
       ],
       "website_url": "https://www.pandaexpress.com/locations/ca/fountain-valley/1086?utm_source=google_gbp&utm_medium=organic&utm_campaign=websitelink"
+    },
+    {
+      "address": "347 Main St Ste b, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=17746358245233623740&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ]
+      },
+      "latitude": 33.744211899999996,
+      "longitude": -118.10310079999998,
+      "name": "Panda Poke",
+      "phone": "(562) 206-8000",
+      "place_id": "ChIJAf4xIfYv3YARvIL5v8y6R_Y",
+      "primary_type": "hawaiian_restaurant",
+      "specials_pages": [],
+      "types": [
+        "hawaiian_restaurant",
+        "sushi_restaurant",
+        "american_restaurant",
+        "japanese_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
+      "address": "12241 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=11620067037866943920&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:00",
+            "open": "06:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:00",
+            "open": "06:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:00",
+            "open": "06:30"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "06:30"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "06:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:00",
+            "open": "06:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:00",
+            "open": "06:30"
+          }
+        ]
+      },
+      "latitude": 33.784635800000004,
+      "longitude": -118.07271019999999,
+      "name": "Panera Bread",
+      "phone": "(562) 240-2987",
+      "place_id": "ChIJh1WSd1Mu3YARsOVIumfFQqE",
+      "primary_type": "cafe",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.panerabread.com/en-us/articles/family-feast-family-sized-meal-deal.html"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.panerabread.com/en-us/panera-promo-codes-discount-coupons-deals.html"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.panerabread.com/en-us/press/press-room/love-is-in-the-air-with-nationwide-baegal-valentines-day-deal-and-mypanera-days-celebration.html"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.panerabread.com/en-us/press/press-room/panera-bread-warms-up-national-soup-month-with-launch-of-new-toasted-sourdough-melts-sandwiches-and-1-dollar-cup-of-soup-deal.html"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.panerabread.com/en-us/press/press-room/panera-brings-the-cozy-this-holiday-season-with-new-sips-sweet-treats-and-a-1-dollar-soup-deal.html"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.panerabread.com/en-us/press/press-room/panera-brings-the-flavor-with-a-swicy-deal-five-irresistible-new-bakery-items-and-new-croissant-breakfast-sandwiches.html"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.panerabread.com/en-us/press/press-room/panera-launches-week-long-celebration-featuring-mypanera-week-deals.html"
+        }
+      ],
+      "types": [
+        "cafe",
+        "salad_shop",
+        "catering_service",
+        "breakfast_restaurant",
+        "soup_restaurant",
+        "shipping_service",
+        "sandwich_shop",
+        "coffee_shop",
+        "bakery",
+        "food_delivery",
+        "food_store",
+        "meal_takeaway",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "website_url": "https://www.panerabread.com/en-us/cafe/locations/ca/seal-beach/12241-seal-beach-blvd?utm_medium=local&utm_source=google&utm_campaign=dpm-dist&utm_term=203264&utm_content=main"
     },
     {
       "address": "19461 Main St, Huntington Beach, CA 92648, USA",
@@ -48792,6 +52375,67 @@
       "website_url": ""
     },
     {
+      "address": "500 Pacific Coast Hwy #104, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=3460357033985562471&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:00",
+            "open": "16:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:00",
+            "open": "16:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "10:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "16:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:00",
+            "open": "16:00"
+          }
+        ]
+      },
+      "latitude": 33.745539199999996,
+      "longitude": -118.10609009999999,
+      "name": "Patty's Place",
+      "phone": "(562) 431-4898",
+      "place_id": "ChIJpbiXf-Qv3YARZ9e7fmOoBTA",
+      "primary_type": "fine_dining_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "fine_dining_restaurant",
+        "cocktail_bar",
+        "wine_bar",
+        "steak_house",
+        "seafood_restaurant",
+        "bar",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "http://pattysplacerestaurant.com/"
+    },
+    {
       "address": "16947 Bushard St, Fountain Valley, CA 92708, USA",
       "business_status": "OPERATIONAL",
       "city": "Fountain Valley",
@@ -49016,6 +52660,75 @@
         "establishment"
       ],
       "website_url": ""
+    },
+    {
+      "address": "12203 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=14792613967216482299&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "20:00",
+            "open": "05:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:00",
+            "open": "05:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "20:00",
+            "open": "05:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "19:30",
+            "open": "05:30"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:00",
+            "open": "05:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:00",
+            "open": "05:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:00",
+            "open": "05:00"
+          }
+        ]
+      },
+      "latitude": 33.7854891,
+      "longitude": -118.07336740000001,
+      "name": "Peet's Coffee",
+      "phone": "(562) 546-0007",
+      "place_id": "ChIJTZpF41Mu3YAR-5drTwfsSc0",
+      "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.peets.com/pages/store-locator?stockist-query=Seal%20Beach,%20CA,%20USA&selected=Seal%20Beach"
     },
     {
       "address": "16400 CA-1, Huntington Beach, CA 92649, USA",
@@ -51356,6 +55069,80 @@
       "website_url": "https://piccolostivale.com/"
     },
     {
+      "address": "12430 Seal Beach Blvd Ste A, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=4520053006382418612&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:30",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:30",
+            "open": "11:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:30",
+            "open": "11:00"
+          }
+        ]
+      },
+      "latitude": 33.7813233,
+      "longitude": -118.0716202,
+      "name": "Pick Up Stix Fresh Asian Flavors",
+      "phone": "(562) 596-3255",
+      "place_id": "ChIJxRuQrqwv3YARtEpc00J0uj4",
+      "primary_type": "chinese_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "chinese_restaurant",
+        "catering_service",
+        "asian_fusion_restaurant",
+        "fusion_restaurant",
+        "asian_restaurant",
+        "shipping_service",
+        "food_delivery",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "website_url": "https://www.pickupstix.com/"
+    },
+    {
       "address": "7041 Yorktown Ave #106, Huntington Beach, CA 92648, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -52206,6 +55993,38 @@
         "establishment"
       ],
       "website_url": "http://205.pizzaguys.com/"
+    },
+    {
+      "address": "640 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=5379569855699759629&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {},
+      "latitude": 33.7453583,
+      "longitude": -118.1049505,
+      "name": "Pizza Hut",
+      "phone": "(562) 430-5412",
+      "place_id": "ChIJc-S09OQv3YARDTJiFUgSqEo",
+      "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://locations.pizzahut.com/ca/seal-beach/640-pacific-coast-hwy?utm_medium=organic&utm_source=local&utm_campaign=googlelistings&utm_content=website&utm_term=291585"
+        }
+      ],
+      "types": [
+        "pizza_restaurant",
+        "meal_takeaway",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://locations.pizzahut.com/ca/seal-beach/640-pacific-coast-hwy?utm_medium=organic&utm_source=local&utm_campaign=googlelistings&utm_content=website&utm_term=291585"
     },
     {
       "address": "200 Westminster Mall, Westminster, CA 92683, USA",
@@ -53770,6 +57589,71 @@
       "primary_type": "restaurant",
       "specials_pages": [],
       "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
+      "address": "13956 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=16589018546724398888&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "20:00",
+            "open": "07:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:00",
+            "open": "07:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "20:00",
+            "open": "07:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:00",
+            "open": "07:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:00",
+            "open": "07:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:00",
+            "open": "07:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:00",
+            "open": "07:00"
+          }
+        ]
+      },
+      "latitude": 33.760785999999996,
+      "longitude": -118.07879699999998,
+      "name": "Primrose Restaurant",
+      "phone": "(562) 799-6799",
+      "place_id": "ChIJS71nMb0v3YARKOff0XkIOOY",
+      "primary_type": "american_restaurant",
+      "specials_pages": [],
+      "types": [
+        "american_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -56066,6 +59950,95 @@
         "establishment"
       ],
       "website_url": ""
+    },
+    {
+      "address": "600 CA-1 #108, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=3339139193804845016&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "14:30",
+            "open": "11:00"
+          },
+          {
+            "close": "21:00",
+            "open": "16:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "14:30",
+            "open": "11:00"
+          },
+          {
+            "close": "21:00",
+            "open": "16:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:00",
+            "open": "12:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "12:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "14:30",
+            "open": "11:00"
+          },
+          {
+            "close": "21:00",
+            "open": "16:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "14:30",
+            "open": "11:00"
+          },
+          {
+            "close": "21:00",
+            "open": "16:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "14:30",
+            "open": "11:00"
+          },
+          {
+            "close": "21:00",
+            "open": "16:30"
+          }
+        ]
+      },
+      "latitude": 33.7462231,
+      "longitude": -118.10585709999998,
+      "name": "Rocharin Thai Bistro",
+      "phone": "(562) 596-5156",
+      "place_id": "ChIJy5IrbuQv3YAR2G9SvmcBVy4",
+      "primary_type": "thai_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "thai_restaurant",
+        "asian_restaurant",
+        "diner",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "http://rocharinthaibistro.com/"
     },
     {
       "address": "8943 Atlanta Ave, Huntington Beach, CA 92646, USA",
@@ -58601,6 +62574,146 @@
       "website_url": ""
     },
     {
+      "address": "101 Main St, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=16518474327906942569&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:00",
+            "open": "11:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:00",
+            "open": "10:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "10:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ]
+      },
+      "latitude": 33.7402303,
+      "longitude": -118.1058449,
+      "name": "Seal Beach Grill",
+      "phone": "(562) 794-9393",
+      "place_id": "ChIJ3zlWSmsv3YARaX5N8uFoPeU",
+      "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://sealbeachgrill.com/"
+        }
+      ],
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://sealbeachgrill.com/"
+    },
+    {
+      "address": "456 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=5066531930710665593&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      },
+      "latitude": 33.747295099999995,
+      "longitude": -118.1061262,
+      "name": "Seal Beach Teriyaki",
+      "phone": "(562) 357-4023",
+      "place_id": "ChIJaadtbwAv3YAReekuhfLvT0Y",
+      "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "restaurant",
+        "fast_food_restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "http://sbteriyaki.com/"
+    },
+    {
       "address": "17851 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -60560,6 +64673,71 @@
       "website_url": "https://slicehouse.com/"
     },
     {
+      "address": "142 Main St, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=9613006016997980527&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:00",
+            "open": "12:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:00",
+            "open": "12:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:00",
+            "open": "12:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "12:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "12:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:00",
+            "open": "12:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:00",
+            "open": "12:00"
+          }
+        ]
+      },
+      "latitude": 33.741089099999996,
+      "longitude": -118.1048039,
+      "name": "Slice of New York Pizza",
+      "phone": "(562) 493-4430",
+      "place_id": "ChIJvRS9Dfsv3YARb3nbYgpCaIU",
+      "primary_type": "pizza_restaurant",
+      "specials_pages": [],
+      "types": [
+        "pizza_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
       "address": "21500 State Rte 39, Huntington Beach, CA 92646, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -60838,6 +65016,27 @@
       "name": "Sol Vida Cafe",
       "phone": "",
       "place_id": "ChIJH__iCaDZ3IARSt1ULuV7gUA",
+      "primary_type": "restaurant",
+      "specials_pages": [],
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
+      "address": "13550 Del Monte Dr, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=5339732965363541258&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {},
+      "latitude": 33.766720899999996,
+      "longitude": -118.0781521,
+      "name": "Solana beach",
+      "phone": "",
+      "place_id": "ChIJbdV8YQAv3YARCuXvQ9eKGko",
       "primary_type": "restaurant",
       "specials_pages": [],
       "types": [
@@ -61282,6 +65481,83 @@
       "website_url": "https://sourdoughandco.com/california-huntington-beach-goldenwest-street"
     },
     {
+      "address": "3005 Old Ranch Pkwy, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=15403272498189247221&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:00",
+            "open": "11:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:00",
+            "open": "11:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:00",
+            "open": "15:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "14:00",
+            "open": "10:00"
+          },
+          {
+            "close": "21:00",
+            "open": "16:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "11:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:00",
+            "open": "11:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:00",
+            "open": "11:30"
+          }
+        ]
+      },
+      "latitude": 33.7764941,
+      "longitude": -118.0736304,
+      "name": "Spaghettini",
+      "phone": "(562) 596-2199",
+      "place_id": "ChIJ_T-Yg64v3YAR9SIdIbpqw9U",
+      "primary_type": "italian_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "italian_restaurant",
+        "cocktail_bar",
+        "bar",
+        "live_music_venue",
+        "event_venue",
+        "night_club",
+        "european_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://spaghettini.com/"
+    },
+    {
       "address": "15389 Chemical Ln, Huntington Beach, CA 92649, USA",
       "business_status": "CLOSED_TEMPORARILY",
       "city": "Huntington Beach",
@@ -61416,6 +65692,75 @@
         "establishment"
       ],
       "website_url": ""
+    },
+    {
+      "address": "12470 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=5675291124339117861&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "18:00",
+            "open": "05:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "18:00",
+            "open": "05:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "18:00",
+            "open": "05:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "18:00",
+            "open": "05:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "18:00",
+            "open": "05:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "18:00",
+            "open": "05:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "18:00",
+            "open": "05:00"
+          }
+        ]
+      },
+      "latitude": 33.7814,
+      "longitude": -118.06971,
+      "name": "Starbucks",
+      "phone": "(562) 598-3128",
+      "place_id": "ChIJlZ8RVgov3YARJQ8pZzWvwk4",
+      "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.starbucks.com/store-locator/store/1016325"
     },
     {
       "address": "20100 Magnolia St, Huntington Beach, CA 92646, USA",
@@ -61560,6 +65905,30 @@
       "website_url": "https://www.starbucks.com/store-locator/store/1024851"
     },
     {
+      "address": "Target, 12300 Seal Beach Blvd #1328, Seal Beach, CA 90740, USA",
+      "business_status": "CLOSED_TEMPORARILY",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=1028545141588640583&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {},
+      "latitude": 33.7829443,
+      "longitude": -118.0694689,
+      "name": "Starbucks",
+      "phone": "(562) 596-9887",
+      "place_id": "ChIJ____y1Qu3YARR0PYV1sgRg4",
+      "primary_type": "coffee_shop",
+      "specials_pages": [],
+      "types": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.starbucks.com/store-locator?map=33.78816,-118.07129,12z&place=12300%20Seal%20Beach%20Blvd,%20Seal%20Beach,%20CA%2090740,%20USA"
+    },
+    {
       "address": "10001 Adams Ave, Huntington Beach, CA 92646, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -61629,6 +65998,79 @@
         "establishment"
       ],
       "website_url": "https://www.starbucks.com/store-locator/store/17222/"
+    },
+    {
+      "address": "12430 Seal Beach Boulevard, Old Ranch Pkwy Town Center, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=172927245654611364&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "20:00",
+            "open": "05:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:00",
+            "open": "05:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "20:00",
+            "open": "05:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:00",
+            "open": "05:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:00",
+            "open": "05:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:00",
+            "open": "05:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:00",
+            "open": "05:00"
+          }
+        ]
+      },
+      "latitude": 33.781670399999996,
+      "longitude": -118.07157240000001,
+      "name": "Starbucks Coffee Company",
+      "phone": "(562) 431-7973",
+      "place_id": "ChIJT1a1VFMu3YARpNU66WlcZgI",
+      "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "coffee_shop",
+        "breakfast_restaurant",
+        "internet_cafe",
+        "cafe",
+        "food_store",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "website_url": "https://www.starbucks.com/store-locator/store/11811/"
     },
     {
       "address": "13102 Goldenwest St, Westminster, CA 92683, USA",
@@ -63455,6 +67897,79 @@
       "website_url": "https://www.starbucks.com/store-locator/store/8912/"
     },
     {
+      "address": "Pacific Getaway Plaza, 2311 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=14586574356523462688&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "20:00",
+            "open": "04:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:00",
+            "open": "04:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "20:00",
+            "open": "05:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:00",
+            "open": "05:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:00",
+            "open": "04:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:00",
+            "open": "04:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:00",
+            "open": "04:00"
+          }
+        ]
+      },
+      "latitude": 33.758089999999996,
+      "longitude": -118.08202,
+      "name": "Starbucks Coffee Company",
+      "phone": "(562) 430-9290",
+      "place_id": "ChIJeawB35cv3YARIDBnIhjsbco",
+      "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "coffee_shop",
+        "breakfast_restaurant",
+        "internet_cafe",
+        "cafe",
+        "food_store",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "website_url": "https://www.starbucks.com/store-locator/store/18258/"
+    },
+    {
       "address": "Peter's Landing Retail Center, 16470 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -64853,6 +69368,85 @@
       "website_url": "https://www.subway.com/en-us"
     },
     {
+      "address": "2365 Seal Beach Blvd Ste 107, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=1074067195846980043&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "20:00",
+            "open": "09:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:00",
+            "open": "09:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "20:00",
+            "open": "09:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:00",
+            "open": "09:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:00",
+            "open": "09:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:00",
+            "open": "09:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:00",
+            "open": "09:00"
+          }
+        ]
+      },
+      "latitude": 33.7589909,
+      "longitude": -118.08213440000002,
+      "name": "Subway",
+      "phone": "(562) 370-4216",
+      "place_id": "ChIJzzMCHZYv3YARy_FbiWza5w4",
+      "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://restaurants.subway.com/united-states/ca/seal-beach/2365-seal-beach-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=40842&utm_campaign=evergreen-2020&y_source=1_MTQ5MTI0OTUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+        }
+      ],
+      "types": [
+        "sandwich_shop",
+        "catering_service",
+        "fast_food_restaurant",
+        "food_delivery",
+        "meal_takeaway",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "website_url": "https://restaurants.subway.com/united-states/ca/seal-beach/2365-seal-beach-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=40842&utm_campaign=evergreen-2020&y_source=1_MTQ5MTI0OTUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    },
+    {
       "address": "3801 Warner Ave Unit D, Huntington Beach, CA 92649, USA",
       "business_status": "CLOSED_TEMPORARILY",
       "city": "Huntington Beach",
@@ -65279,6 +69873,85 @@
         "establishment"
       ],
       "website_url": "https://order.subway.com/en-us/restaurant/12954/menu/?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=12954&utm_campaign=evergreen-2020"
+    },
+    {
+      "address": "914 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=10461453174017473709&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "20:00",
+            "open": "08:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:00",
+            "open": "08:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "20:00",
+            "open": "08:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:00",
+            "open": "08:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:00",
+            "open": "08:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:00",
+            "open": "08:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:00",
+            "open": "08:00"
+          }
+        ]
+      },
+      "latitude": 33.7439979,
+      "longitude": -118.10219029999999,
+      "name": "Subway",
+      "phone": "(562) 493-1923",
+      "place_id": "ChIJ2eh7NuUv3YARrbyxDzyMLpE",
+      "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://restaurants.subway.com/united-states/ca/seal-beach/914-pacific-coast-hwy?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=11550&utm_campaign=evergreen-2020&y_source=1_MTQ5MDM1NTctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+        }
+      ],
+      "types": [
+        "sandwich_shop",
+        "catering_service",
+        "fast_food_restaurant",
+        "food_delivery",
+        "meal_takeaway",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "website_url": "https://restaurants.subway.com/united-states/ca/seal-beach/914-pacific-coast-hwy?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=11550&utm_campaign=evergreen-2020&y_source=1_MTQ5MDM1NTctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     },
     {
       "address": "9985 Ellis Ave Suite 5, Fountain Valley, CA 92708, USA",
@@ -65756,6 +70429,79 @@
         "establishment"
       ],
       "website_url": ""
+    },
+    {
+      "address": "2940 Westminster Blvd., Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=15141213093137905864&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "15:00",
+            "open": "07:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "15:00",
+            "open": "07:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "15:00",
+            "open": "07:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "15:00",
+            "open": "07:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "15:00",
+            "open": "07:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "15:00",
+            "open": "07:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "15:00",
+            "open": "07:00"
+          }
+        ]
+      },
+      "latitude": 33.759336999999995,
+      "longitude": -118.0796687,
+      "name": "Sunny Side Cafe | Seal Beach",
+      "phone": "(562) 431-6625",
+      "place_id": "ChIJCwGr0pAv3YARyHj6LBZlINI",
+      "primary_type": "cafe",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "http://sunnysidesb.com/"
+        }
+      ],
+      "types": [
+        "cafe",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "http://sunnysidesb.com/"
     },
     {
       "address": "2949 Fairview Rd, Costa Mesa, CA 92626, USA",
@@ -66241,6 +70987,75 @@
       "website_url": ""
     },
     {
+      "address": "131 Main St, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=11451976417305363696&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:30",
+            "open": "16:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:30",
+            "open": "16:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "15:00",
+            "open": "12:00"
+          },
+          {
+            "close": "21:30",
+            "open": "16:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "15:00",
+            "open": "12:00"
+          },
+          {
+            "close": "21:00",
+            "open": "16:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:30",
+            "open": "16:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:30",
+            "open": "16:00"
+          }
+        ]
+      },
+      "latitude": 33.7409883,
+      "longitude": -118.10537550000001,
+      "name": "Sushi hama",
+      "phone": "(562) 588-3883",
+      "place_id": "ChIJs5qpWmcv3YAR8ASjWeCX7Z4",
+      "primary_type": "japanese_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "japanese_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://sushihama.co/"
+    },
+    {
       "address": "3313 Hyland Ave a1, Costa Mesa, CA 92626, USA",
       "business_status": "OPERATIONAL",
       "city": "Costa Mesa",
@@ -66569,6 +71384,99 @@
         "establishment"
       ],
       "website_url": "https://yukitheoddy.wixsite.com/sushi-plus"
+    },
+    {
+      "address": "1013 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=11564144298036452355&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:30",
+            "open": "11:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:30",
+            "open": "11:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:30",
+            "open": "11:30"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:30",
+            "open": "15:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:30",
+            "open": "11:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:30",
+            "open": "11:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:30",
+            "open": "11:30"
+          }
+        ]
+      },
+      "latitude": 33.7446609,
+      "longitude": -118.1011443,
+      "name": "Sushi Ryokan",
+      "phone": "(562) 598-8283",
+      "place_id": "ChIJm7a2TeUv3YARA1zSN_gXfKA",
+      "primary_type": "sushi_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Daily Specials",
+          "url": "http://sushiryokan2go.com/daily-specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Specials",
+          "url": "http://sushiryokan2go.com/specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Weekday Specials",
+          "url": "http://sushiryokan2go.com/weekday-specials"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Specials",
+          "url": "http://sushiryokan2go.com/seal-beach-sushi-ryokan-happy-hours-specials"
+        }
+      ],
+      "types": [
+        "sushi_restaurant",
+        "japanese_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "http://sushiryokan2go.com/"
     },
     {
       "address": "2263 Fairview Rd J, Costa Mesa, CA 92627, USA",
@@ -66929,6 +71837,72 @@
         "establishment"
       ],
       "website_url": "https://www.sweetelleonline.com/"
+    },
+    {
+      "address": "123 1/2 Main St, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=1434462003993193646&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "23:00",
+            "open": "05:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "22:00",
+            "open": "05:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "23:00",
+            "open": "05:30"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "22:00",
+            "open": "05:30"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "22:00",
+            "open": "05:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "22:00",
+            "open": "05:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "22:00",
+            "open": "05:30"
+          }
+        ]
+      },
+      "latitude": 33.7407366,
+      "longitude": -118.10558119999999,
+      "name": "Sweet Jill's Bakery",
+      "phone": "(562) 598-3445",
+      "place_id": "ChIJd8ZvcPsv3YARrizPr5c76BM",
+      "primary_type": "bakery",
+      "specials_pages": [],
+      "types": [
+        "bakery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
     },
     {
       "address": "6441 McFadden Ave, Huntington Beach, CA 92647, USA",
@@ -68031,6 +73005,84 @@
       "website_url": "https://locations.tacobell.com/ca/fountain-valley/9925-warner-ave.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=039617&utm_content=website&y_source=1_NjE0MTU1MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     },
     {
+      "address": "640 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=12218164174646190875&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "04:00",
+            "open": "09:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "02:00",
+            "open": "09:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "04:00",
+            "open": "09:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "02:00",
+            "open": "09:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "02:00",
+            "open": "09:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "02:00",
+            "open": "09:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "02:00",
+            "open": "09:00"
+          }
+        ]
+      },
+      "latitude": 33.745339099999995,
+      "longitude": -118.10494670000001,
+      "name": "Taco Bell / Pizza Hut",
+      "phone": "(562) 430-5412",
+      "place_id": "ChIJCXOP9OQv3YARG6MwDZWjj6k",
+      "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://locations.tacobell.com/ca/seal-beach/640-pacific-coast-hwy.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=002669&utm_content=website&y_source=1_NjE0MjY1MC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+        }
+      ],
+      "types": [
+        "fast_food_restaurant",
+        "taco_restaurant",
+        "mexican_restaurant",
+        "burrito_restaurant",
+        "meal_takeaway",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://locations.tacobell.com/ca/seal-beach/640-pacific-coast-hwy.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=002669&utm_content=website&y_source=1_NjE0MjY1MC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    },
+    {
       "address": "Downtown, Costa Mesa, CA 92657, USA",
       "business_status": "OPERATIONAL",
       "city": "Costa Mesa",
@@ -68159,6 +73211,85 @@
         "establishment"
       ],
       "website_url": "http://www.tacomesa.com/"
+    },
+    {
+      "address": "115 Main St, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=8464728259166926859&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:30",
+            "open": "11:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ]
+      },
+      "latitude": 33.7404833,
+      "longitude": -118.1056667,
+      "name": "Taco Surf Seal Beach",
+      "phone": "(562) 594-0600",
+      "place_id": "ChIJVYdxd_sv3YARC_ja74DBeHU",
+      "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "HAPPY HOUR",
+          "url": "http://www.tacosurf.com/happyhour"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "http://www.tacosurf.com/"
+        }
+      ],
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "http://www.tacosurf.com/"
     },
     {
       "address": "Westminster, CA 92683, USA",
@@ -69810,6 +74941,43 @@
       "website_url": "https://www.tenderfix.com/info/faq"
     },
     {
+      "address": "211 10th St, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=7520577001807738709&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "saturday": [
+          {
+            "close": "12:00",
+            "open": "09:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "12:00",
+            "open": "09:00"
+          }
+        ]
+      },
+      "latitude": 33.741543,
+      "longitude": -118.10387390000001,
+      "name": "Tenth Street Bagels",
+      "phone": "(562) 410-7274",
+      "place_id": "ChIJe9OTEjgv3YARVfe4-u90Xmg",
+      "primary_type": "bagel_shop",
+      "specials_pages": [],
+      "types": [
+        "bagel_shop",
+        "bakery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.toasttab.com/local/order/tenth-street-bagels-seal-beach"
+    },
+    {
       "address": "20100 Magnolia St Unit 103, Huntington Beach, CA 92646, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -70199,6 +75367,89 @@
       "website_url": "http://eatthaionfire.com/"
     },
     {
+      "address": "117 Main St, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=2357858596873151945&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:00",
+            "open": "11:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:00",
+            "open": "11:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:00",
+            "open": "11:30"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "11:30"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "11:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:00",
+            "open": "11:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:00",
+            "open": "11:30"
+          }
+        ]
+      },
+      "latitude": 33.7405198,
+      "longitude": -118.10562489999998,
+      "name": "Thai on Main",
+      "phone": "(562) 598-7030",
+      "place_id": "ChIJK9gVevsv3YARyaU5webLuCA",
+      "primary_type": "thai_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "See Happy Hour",
+          "url": "https://thaionmain.com/happy-hour/"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://thaionmain.com/"
+        }
+      ],
+      "types": [
+        "thai_restaurant",
+        "wine_bar",
+        "asian_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://thaionmain.com/"
+    },
+    {
       "address": "18023 Beach Blvd, Huntington Beach, CA 92648, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -70492,6 +75743,80 @@
         "establishment"
       ],
       "website_url": "https://epicburritoshack.com/?utm_source=google"
+    },
+    {
+      "address": "15 1st St, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=2529920050020622724&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:00",
+            "open": "08:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "22:00",
+            "open": "08:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:00",
+            "open": "08:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "22:00",
+            "open": "08:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "22:00",
+            "open": "08:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "22:00",
+            "open": "08:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "22:00",
+            "open": "08:00"
+          }
+        ]
+      },
+      "latitude": 33.7423565,
+      "longitude": -118.1144282,
+      "name": "The Beach House",
+      "phone": "(562) 240-5444",
+      "place_id": "ChIJ8XqPTRox3YARhCGeo-EUHCM",
+      "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Event Packages",
+          "url": "https://www.beachhousesb.com/special-occastions"
+        }
+      ],
+      "types": [
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.beachhousesb.com/"
     },
     {
       "address": "6431 Edinger Ave, Huntington Beach, CA 92647, USA",
@@ -71799,6 +77124,99 @@
       "website_url": "https://www.thehangoutrestaurant.com/huntington-beach-restaurant#GMB-HB"
     },
     {
+      "address": "901 Ocean Ave, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=2729333274264484888&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:00",
+            "open": "07:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:30",
+            "open": "07:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:00",
+            "open": "07:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:30",
+            "open": "07:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:30",
+            "open": "07:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:30",
+            "open": "07:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:30",
+            "open": "07:00"
+          }
+        ]
+      },
+      "latitude": 33.739995,
+      "longitude": -118.10567010000001,
+      "name": "The Hangout Restaurant & Beach Bar",
+      "phone": "(562) 431-4888",
+      "place_id": "ChIJpTNKm_sv3YARGDww_iaK4CU",
+      "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Daily Specials",
+          "url": "https://www.thehangoutrestaurant.com/daily-specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Happy Hour",
+          "url": "https://www.thehangoutrestaurant.com/happy-hour"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://www.thehangoutrestaurant.com/"
+        }
+      ],
+      "types": [
+        "american_restaurant",
+        "cocktail_bar",
+        "breakfast_restaurant",
+        "hamburger_restaurant",
+        "brunch_restaurant",
+        "seafood_restaurant",
+        "barbecue_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.thehangoutrestaurant.com/"
+    },
+    {
       "address": "19022 Beach Blvd, Huntington Beach, CA 92648, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -71976,6 +77394,73 @@
         "establishment"
       ],
       "website_url": "http://www.theirishman.com/"
+    },
+    {
+      "address": "12430 Seal Beach Blvd Ste 240, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=8747179196118391103&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ]
+      },
+      "latitude": 33.7815708,
+      "longitude": -118.07161819999999,
+      "name": "The Kebab Shop",
+      "phone": "(562) 725-2706",
+      "place_id": "ChIJYeSZFckv3YARP9lSYyI5ZHk",
+      "primary_type": "mediterranean_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "mediterranean_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://thekebabshop.com/locations/ca/orange-county/seal-beach/"
     },
     {
       "address": "1555 Adams Ave, Costa Mesa, CA 92626, USA",
@@ -80271,6 +85756,81 @@
       "website_url": "https://www.yubuyasushi.com/"
     },
     {
+      "address": "550 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=6382446024215524895&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:00",
+            "open": "09:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "20:00",
+            "open": "09:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:00",
+            "open": "11:00"
+          }
+        ]
+      },
+      "latitude": 33.7452458,
+      "longitude": -118.1061526,
+      "name": "Yucatan Grill",
+      "phone": "",
+      "place_id": "ChIJ7SwQWlEu3YARH3Z459cAk1g",
+      "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Taco Tuesday Specials",
+          "url": "http://yucatangrill.com/taco-tuesday-specials.html"
+        }
+      ],
+      "types": [
+        "mexican_restaurant",
+        "caribbean_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "http://yucatangrill.com/"
+    },
+    {
       "address": "14041 Goldenwest St, Westminster, CA 92683, USA",
       "business_status": "OPERATIONAL",
       "city": "Westminster",
@@ -80590,6 +86150,73 @@
         "establishment"
       ],
       "website_url": ""
+    },
+    {
+      "address": "12470 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=10980664775587234392&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "19:00",
+            "open": "09:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "19:00",
+            "open": "09:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "19:00",
+            "open": "09:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "19:00",
+            "open": "09:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "19:00",
+            "open": "09:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "19:00",
+            "open": "09:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "19:00",
+            "open": "09:00"
+          }
+        ]
+      },
+      "latitude": 33.7811312,
+      "longitude": -118.06965179999999,
+      "name": "ZENSHI Handcrafted Sushi",
+      "phone": "(562) 598-3128",
+      "place_id": "ChIJ98m3H7sv3YARWIKFcm8oY5g",
+      "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "restaurant",
+        "meal_takeaway",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.zenshisushi.com/"
     },
     {
       "address": "18405 Brookhurst St, Fountain Valley, CA 92708, USA",
