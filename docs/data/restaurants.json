@@ -53,7 +53,7 @@
     "last_scanned_cities": [
       "Seal Beach"
     ],
-    "last_source_scan_at": "2026-09-24T18:38:28Z",
+    "last_source_scan_at": "2026-09-25T18:50:58Z",
     "map_cells": 275,
     "official_websites": 1033,
     "operational_count": 1288,
@@ -62,12 +62,12 @@
       "Garden Grove"
     ],
     "restaurant_count": 1338,
-    "source_sites_checked": 63,
+    "source_sites_checked": 12,
     "specials_pages_found": 267,
     "successful_map_cells": 42
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-24T18:38:28Z",
+  "generated_at": "2026-09-25T18:50:58Z",
   "refresh_after": "2026-10-01T18:38:28Z",
   "restaurants": [
     {
@@ -23379,6 +23379,8 @@
       "phone": "(657) 232-9570",
       "place_id": "ChIJ0ShDJWHf3IARiW7v3TH8i24",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-09-25T18:50:28Z",
+      "specials_discovery_version": 4,
       "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-qx_sr2xm/Default'",
       "specials_pages": [],
       "types": [
@@ -29501,6 +29503,8 @@
       "phone": "(949) 423-7169",
       "place_id": "ChIJUdDlpwYg3YARQ5jwLdPgZzU",
       "primary_type": "seafood_restaurant",
+      "specials_checked_at": "2026-09-25T18:50:28Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "seafood_restaurant",
@@ -29662,9 +29666,12 @@
       "phone": "(714) 377-0238",
       "place_id": "ChIJRTJBT8cl3YAR1Hm4ck2qpNw",
       "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-09-25T18:50:28Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://www.orderhotoffthegrill.com/"
         }
@@ -29733,9 +29740,12 @@
       "phone": "(714) 593-3000",
       "place_id": "ChIJV7VJlREn3YARUYh-_sFGSkw",
       "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-09-25T18:50:28Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://www.orderhotoffthegrill.com/"
         }
@@ -29799,6 +29809,8 @@
       "phone": "",
       "place_id": "ChIJF7ApuvAl3YARaOhV-60NxKs",
       "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-09-25T18:50:28Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "american_restaurant",
@@ -29931,6 +29943,8 @@
       "phone": "(714) 227-2544",
       "place_id": "ChIJdbCq5son3YAR7xZG8fUiDH0",
       "primary_type": "hot_pot_restaurant",
+      "specials_checked_at": "2026-09-25T18:50:28Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "hot_pot_restaurant",
@@ -30057,6 +30071,8 @@
       "phone": "(714) 531-1305",
       "place_id": "ChIJt8iNpQ4n3YARMaDUA8iLoik",
       "primary_type": "vietnamese_restaurant",
+      "specials_checked_at": "2026-09-25T18:50:28Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
@@ -30295,6 +30311,8 @@
       "phone": "(657) 247-4867",
       "place_id": "ChIJJ2VlYaYn3YAR3pTwIMwB3Uc",
       "primary_type": "thai_restaurant",
+      "specials_checked_at": "2026-09-25T18:50:28Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "thai_restaurant",
@@ -30567,6 +30585,8 @@
       "phone": "(657) 244-8187",
       "place_id": "ChIJGfOqXQAn3YARyqETy7PKlF0",
       "primary_type": "korean_restaurant",
+      "specials_checked_at": "2026-09-25T18:50:28Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "korean_restaurant",
@@ -30614,9 +30634,12 @@
       "phone": "(714) 962-4400",
       "place_id": "ChIJ5QwYVs8m3YAROLUTODG22ho",
       "primary_type": "breakfast_restaurant",
+      "specials_checked_at": "2026-09-25T18:50:28Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Specials In Huntington Beach",
           "url": "https://restaurants.ihop.com/en-us/ca/huntington-beach/breakfast-18782-beach-blvd-918/specials"
         }
@@ -30689,9 +30712,12 @@
       "phone": "(714) 545-0800",
       "place_id": "ChIJo8UPkFnf3IARQnP1XJLyTGk",
       "primary_type": "breakfast_restaurant",
+      "specials_checked_at": "2026-09-25T18:50:28Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Specials In Costa Mesa",
           "url": "https://restaurants.ihop.com/en-us/ca/costa-mesa/breakfast-3125-harbor-blvd-922/specials"
         }
@@ -30764,6 +30790,8 @@
       "phone": "(714) 486-1777",
       "place_id": "ChIJdYkw6vLZ3IARLnvNtMkpzHE",
       "primary_type": "mediterranean_restaurant",
+      "specials_checked_at": "2026-09-25T18:50:28Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mediterranean_restaurant",

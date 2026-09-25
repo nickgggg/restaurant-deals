@@ -506,6 +506,11 @@
       "error": "HTTP Error 429: Too Many Requests",
       "status": "missing"
     },
+    "cmgoldendragon.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "error": "no supported site icon found",
+      "status": "missing"
+    },
     "coachslounge.com": {
       "checked_at": "2026-09-20T17:44:41Z",
       "status": "ok"
@@ -650,6 +655,11 @@
     "donutsbyamarithfarmhouse.com": {
       "checked_at": "2026-09-22T18:28:30Z",
       "error": "no supported site icon found",
+      "status": "missing"
+    },
+    "doordash.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
     "dosamigoshb.com": {
@@ -838,17 +848,78 @@
       "checked_at": "2026-09-24T18:49:22Z",
       "status": "ok"
     },
+    "gaburiusa.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "status": "ok"
+    },
+    "georgesmexicanfood.net": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "error": "timed out",
+      "status": "missing"
+    },
     "germandeli.com": {
       "checked_at": "2026-09-16T18:34:31Z",
+      "status": "ok"
+    },
+    "ginaspizza.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "status": "ok"
+    },
+    "gleedonutscafe.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "status": "ok"
+    },
+    "gloriascostamesa.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
       "status": "ok"
     },
     "goathilltavern.com": {
       "checked_at": "2026-09-16T18:34:31Z",
       "status": "ok"
     },
+    "goldenolive.net": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "status": "ok"
+    },
+    "greatmexgrill.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "greatwokca.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "status": "ok"
+    },
+    "greenhouse.aramarkcafe.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "status": "ok"
+    },
+    "greenolivehb.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "error": "Not Found",
+      "status": "missing"
+    },
+    "greenstreetcafehb.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "status": "ok"
+    },
     "greentomatogrill.com": {
       "checked_at": "2026-09-16T22:46:49Z",
       "error": "asset is too large",
+      "status": "missing"
+    },
+    "grinderzhb.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)>",
+      "status": "missing"
+    },
+    "gyu-kaku.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "status": "ok"
+    },
+    "habachihanagrill.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
     "hausofpizzacostamesa.com": {
@@ -861,6 +932,10 @@
     },
     "hb.morenasmex.com": {
       "checked_at": "2026-09-16T22:46:49Z",
+      "status": "ok"
+    },
+    "hbpitagrill.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
       "status": "ok"
     },
     "hennesseystavern.com": {
@@ -901,6 +976,10 @@
     },
     "lacapillarestaurant.com": {
       "checked_at": "2026-09-16T22:46:49Z",
+      "status": "ok"
+    },
+    "lalcrestaurant.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
       "status": "ok"
     },
     "local.albertsons.com": {
@@ -1108,6 +1187,10 @@
       "checked_at": "2026-09-24T18:49:22Z",
       "status": "ok"
     },
+    "tacosurf.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "status": "ok"
+    },
     "thaiwavehuntingtonbeach.com": {
       "checked_at": "2026-09-16T23:17:10Z",
       "status": "ok"
@@ -1131,6 +1214,10 @@
     },
     "thehangoutrestaurant.com": {
       "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
+    "thelab.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
       "status": "ok"
     },
     "thirdplacecm.com": {
@@ -1176,7 +1263,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-09-24T18:49:22Z",
+  "generated_at": "2026-09-25T18:59:56Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -1978,15 +2065,60 @@
       "path": "logos/fujigrill-com.png",
       "source_url": "https://static.wixstatic.com/media/21ca92_b107fefbcdae4146a9943e23b00ec1c5%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/21ca92_b107fefbcdae4146a9943e23b00ec1c5%7Emv2.png"
     },
+    "gaburiusa.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "path": "logos/gaburiusa-com.webp",
+      "source_url": "https://gaburiusa.com/wp-content/uploads/2024/09/headerlogo.webp"
+    },
     "germandeli.com": {
       "checked_at": "2026-09-16T18:34:31Z",
       "path": "logos/germandeli-com.webp",
       "source_url": "https://germandeli.com/cdn/shop/files/Germandeli.com_Favicon.png?crop=center&height=48&v=1752776131&width=48"
     },
+    "ginaspizza.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "path": "logos/ginaspizza-com.webp",
+      "source_url": "https://ginaspizza.com/wp-content/uploads/2016/05/cropped-ginaspizzalogo.png"
+    },
+    "gleedonutscafe.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "path": "logos/gleedonutscafe-com.webp",
+      "source_url": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3-us-west-2.amazonaws.com/media/photosV2/f5b11efe-01c2-4f5d-a36f-87bc2f464846-retina-large.png"
+    },
+    "gloriascostamesa.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "path": "logos/gloriascostamesa-com.webp",
+      "source_url": "https://static.wixstatic.com/media/44ccf2_c84f38e8b9ee426da6b84c1f8ff275e0~mv2.png/v1/fill/w_368,h_187,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Glorias%20Logo%20All%20White.png"
+    },
     "goathilltavern.com": {
       "checked_at": "2026-09-16T18:34:31Z",
       "path": "logos/goathilltavern-com.webp",
       "source_url": "https://kylerassel.wpenginepowered.com/wp-content/uploads/2018/11/goat-hill-tavern-logo.png"
+    },
+    "goldenolive.net": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "path": "logos/goldenolive-net.png",
+      "source_url": "https://cdn.prod.website-files.com/67fc9a9a62992acc83d3d0a7/6823b79988e2cdaceb73cdf3_GO-Logo-WEB.png"
+    },
+    "greatwokca.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "path": "logos/greatwokca-com.png",
+      "source_url": "https://greatwokca.com/assets/images/ico/apple-touch-icon-144-precomposed.png"
+    },
+    "greenhouse.aramarkcafe.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "path": "logos/greenhouse-aramarkcafe-com.png",
+      "source_url": "https://www.campusdish.com/Assets/Images/addtohomescreen/icon-152x152.png"
+    },
+    "greenstreetcafehb.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "path": "logos/greenstreetcafehb-com.png",
+      "source_url": "https://greenstreetcafehb.com/wp-content/uploads/2016/05/GreenstreetONLY-1000x300n.png"
+    },
+    "gyu-kaku.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "path": "logos/gyu-kaku-com.png",
+      "source_url": "https://www.gyu-kaku.com/wp-content/uploads/2017/02/gyukaku_logo1104_white_horizontal-copy-e1461718107174.png"
     },
     "hausofpizzacostamesa.com": {
       "checked_at": "2026-09-22T18:28:30Z",
@@ -2004,6 +2136,11 @@
       "checked_at": "2026-09-16T22:46:49Z",
       "path": "logos/hb-morenasmex-com.png",
       "source_url": "https://static.spotapps.co/website_images/ab_websites/271559_website_v1/logo.png"
+    },
+    "hbpitagrill.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "path": "logos/hbpitagrill-com.png",
+      "source_url": "https://hbpitagrill.com/wp-content/uploads/2021/01/logo.png"
     },
     "hennesseystavern.com": {
       "checked_at": "2026-09-24T18:49:22Z",
@@ -2055,6 +2192,11 @@
       "checked_at": "2026-09-16T22:46:49Z",
       "path": "logos/lacapillarestaurant-com.webp",
       "source_url": "https://lacapillarestaurant.com/cdn/shop/files/La_Capilla_Full_Logo_1.png?v=1723345288&width=600"
+    },
+    "lalcrestaurant.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "path": "logos/lalcrestaurant-com.png",
+      "source_url": "https://lalcrestaurant.com/wp-content/uploads/2023/12/logo-3.png"
     },
     "locations.auntieannes.com": {
       "checked_at": "2026-09-17T16:21:01Z",
@@ -2292,6 +2434,11 @@
       "path": "logos/sushiryokan2go-com.png",
       "source_url": "https://static.spotapps.co/website_images/ab_websites/31553_website_v1/logo.png"
     },
+    "tacosurf.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "path": "logos/tacosurf-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/64bcab288cbe5168d8340eba/65b7305a-ed1b-4be9-8a69-5a885555963c/jBYVldwary.png?content-type=image%2Fpng"
+    },
     "thaiwavehuntingtonbeach.com": {
       "checked_at": "2026-09-16T23:17:10Z",
       "path": "logos/thaiwavehuntingtonbeach-com.png",
@@ -2316,6 +2463,11 @@
       "checked_at": "2026-09-16T23:17:10Z",
       "path": "logos/thehangoutrestaurant-com.webp",
       "source_url": "https://images.squarespace-cdn.com/content/v1/5df7da085196cc464ddadfbb/1576524371447-NABNYGTZ2UEUGHB4DXWM/TheHangoutRestaurantLogo.png?format=1500w"
+    },
+    "thelab.com": {
+      "checked_at": "2026-09-25T18:59:56Z",
+      "path": "logos/thelab-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/6283f20aeb82ba0b5111fe51/6d36c73b-07a5-41df-be72-8f522e2de122/6lzkCSNc.jpeg?format=1500w&content-type=image%2Fjpeg"
     },
     "thirdplacecm.com": {
       "background": "#808080",

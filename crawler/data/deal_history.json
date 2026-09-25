@@ -1,7 +1,298 @@
 {
-  "generated_at": "2026-09-24T18:49:21Z",
+  "generated_at": "2026-09-25T18:59:55Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Kids eat free every Wednesday thru 9/30 Kids eat free offer valid for IKEA Family members.",
+      "canonical_id": "04345eaf34e77e76",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Kids eat free offer valid for IKEA Family members."
+      ],
+      "first_seen": "2026-09-18T18:00:35Z",
+      "id": "8b9ba7a2f8d9a36b",
+      "is_stale": true,
+      "last_seen": "2026-09-24T18:49:21Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 93,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-09-25T18:59:55Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Kids eat free every Wednesday thru 9/30"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/offers/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Kids eat free every Wednesday thru 9/30",
+      "tags": [
+        "weekday_special",
+        "free",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-30",
+      "validity": "Wed",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Free kids meals for IKEA Family members on Wednesdays IKEA Family members enjoy free kids meals Valid at the IKEA Swedish Restaurant Now thru 9/30",
+      "canonical_id": "298b60610598a8e4",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 7,
+      "details": [
+        "IKEA Family members enjoy free kids meals",
+        "Valid at the IKEA Swedish Restaurant",
+        "Now thru 9/30"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "bfa7e7950f357462",
+      "is_stale": true,
+      "last_seen": "2026-09-18T18:00:35Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 83,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-09-25T18:59:55Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Kids eat free on Wednesdays",
+        "Delicious, fun and free! IKEA Family members enjoy free kids\u2019 meals on Wednesdays only at the IKEA Swedish Restaurant. Now thru 9/30."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Free kids meals for IKEA Family members on Wednesdays",
+      "tags": [
+        "free"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-30",
+      "validity": "Wed",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour specials Mon-Fri 4-6pm Available Monday through Friday from 4 to 6 PM.",
+      "canonical_id": "03a6a1975950f1c1",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Available Monday through Friday from 4 to 6 PM."
+      ],
+      "first_seen": "2026-09-18T18:00:35Z",
+      "id": "c5857a511b970cca",
+      "is_stale": true,
+      "last_seen": "2026-09-24T18:49:21Z",
+      "location": {
+        "address": "1870 Harbor Blvd Second Level, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7139973431767252856&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6425997,
+        "longitude": -117.9181264,
+        "phone": "(949) 612-2349",
+        "place_id": "ChIJzyWFaRXf3IAReL82ygFIFmM"
+      },
+      "quality_score": 59,
+      "restaurant": "Casa de Onda",
+      "retired_at": "2026-09-25T18:59:55Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Mon\u2013Fri, 4\u20136pm",
+        "happy hour Monday through Friday"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.casadeondarestaurant.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour specials Mon-Fri 4-6pm",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "Mon\u2013Fri, 4\u20136pm",
+      "valid_through": null,
+      "validity": "Mon\u2013Fri, 4\u20136pm"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
