@@ -53,7 +53,7 @@
     "last_scanned_cities": [
       "Seal Beach"
     ],
-    "last_source_scan_at": "2026-09-25T18:50:58Z",
+    "last_source_scan_at": "2026-09-26T17:58:05Z",
     "map_cells": 275,
     "official_websites": 1033,
     "operational_count": 1288,
@@ -63,11 +63,11 @@
     ],
     "restaurant_count": 1338,
     "source_sites_checked": 12,
-    "specials_pages_found": 267,
+    "specials_pages_found": 268,
     "successful_map_cells": 42
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-25T18:50:58Z",
+  "generated_at": "2026-09-26T17:58:05Z",
   "refresh_after": "2026-10-01T18:38:28Z",
   "restaurants": [
     {
@@ -30932,6 +30932,8 @@
       "phone": "(714) 375-0880",
       "place_id": "ChIJ2-xgSDEn3YARMN3R-3T2YpI",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-09-26T17:57:39Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -31005,14 +31007,18 @@
       "phone": "(888) 888-4532",
       "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY",
       "primary_type": "scandinavian_restaurant",
+      "specials_checked_at": "2026-09-26T17:57:39Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Deals",
           "url": "https://www.ikea.com/us/en/offers/"
         },
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Offers, sales, & deals",
           "url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa"
         }
@@ -31078,6 +31084,8 @@
       "phone": "(714) 861-2125",
       "place_id": "ChIJX7mRMM8m3YARP3KJpnu-pYY",
       "primary_type": "japanese_restaurant",
+      "specials_checked_at": "2026-09-26T17:57:39Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "japanese_restaurant",
@@ -31146,6 +31154,8 @@
       "phone": "(714) 964-5726",
       "place_id": "ChIJa76VxxEn3YARPM9QO-tOsNQ",
       "primary_type": "turkish_restaurant",
+      "specials_checked_at": "2026-09-26T17:57:39Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "turkish_restaurant",
@@ -31217,9 +31227,24 @@
       "phone": "(657) 218-9439",
       "place_id": "ChIJVfCtk3Yn3YARzBtAeM6qXuo",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-26T17:57:39Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.il-girasole.com/la-merenda-happy-hour-italian-style"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.il-girasole.com/three-course-lunch-special-at-soco"
+        },
+        {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://www.il-girasole.com/"
         }
@@ -31357,6 +31382,8 @@
       "phone": "(800) 786-1000",
       "place_id": "ChIJTyLb8Okm3YARCF-rZAsJIO0",
       "primary_type": "hamburger_restaurant",
+      "specials_checked_at": "2026-09-26T17:57:39Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "hamburger_restaurant",
@@ -31425,6 +31452,8 @@
       "phone": "(800) 786-1000",
       "place_id": "ChIJQfmLI1ff3IARmz2onB6YoqM",
       "primary_type": "hamburger_restaurant",
+      "specials_checked_at": "2026-09-26T17:57:39Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "hamburger_restaurant",
@@ -31563,6 +31592,8 @@
       "phone": "(714) 852-3040",
       "place_id": "ChIJ_eOc7iff3IARxhNMBE0Uo1c",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-09-26T17:57:39Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -31630,6 +31661,8 @@
       "phone": "(714) 965-4600",
       "place_id": "ChIJ7YAErTAn3YARrrx2PJIf9RI",
       "primary_type": "peruvian_restaurant",
+      "specials_checked_at": "2026-09-26T17:57:39Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "peruvian_restaurant",
@@ -31697,6 +31730,8 @@
       "phone": "(949) 216-8537",
       "place_id": "ChIJBxwD6onf3IARKQpomJDKqdI",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-26T17:57:39Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -31718,6 +31753,8 @@
       "phone": "(949) 216-8537",
       "place_id": "ChIJMTvTt0zf3IAR5-74bfP9VYk",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-26T17:57:39Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -32038,7 +32075,16 @@
       "phone": "(714) 430-1434",
       "place_id": "ChIJC0ipZVAn3YARVu-BthkeVpg",
       "primary_type": "turkish_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-26T17:57:39Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://www.istanbulgrillca.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
+        }
+      ],
       "types": [
         "turkish_restaurant",
         "mediterranean_restaurant",

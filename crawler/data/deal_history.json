@@ -1,7 +1,765 @@
 {
-  "generated_at": "2026-09-25T18:59:55Z",
+  "generated_at": "2026-09-26T18:03:51Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Sunday Brunch Buffet with Bottomless Mimosas for $39.99 per guest $39.99 Per Guest \u2013 Includes Bottomless Mimosas $34.99 Per Guest \u2013 Non-Alcoholic Option (Valid only for guests not consuming champagne) Kids Ages 6\u201312: $19.99 Kids Under 6 Eat Free Includes soft drinks, iced teas, coffee, juices, and aguas frescas Bottomless Mimosa service limited to 90 minutes per guest Features Omelette Station, Chilaquiles Station, 12 rotating hot buffet selections, fresh salad bar, desserts, and handmade Mexican brunch favorites",
+      "canonical_id": "79a1660c77bf7a67",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 8,
+      "details": [
+        "$39.99 Per Guest \u2013 Includes Bottomless Mimosas",
+        "$34.99 Per Guest \u2013 Non-Alcoholic Option (Valid only for guests not consuming champagne)",
+        "Kids Ages 6\u201312: $19.99",
+        "Kids Under 6 Eat Free",
+        "Includes soft drinks, iced teas, coffee, juices, and aguas frescas",
+        "Bottomless Mimosa service limited to 90 minutes per guest",
+        "Features Omelette Station, Chilaquiles Station, 12 rotating hot buffet selections, fresh salad bar, desserts, and handmade Mexican brunch favorites"
+      ],
+      "first_seen": "2026-09-18T18:00:35Z",
+      "id": "90168fe616a2897c",
+      "is_stale": true,
+      "last_seen": "2026-09-18T18:00:35Z",
+      "location": {
+        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7298377,
+        "longitude": -117.99953239999999,
+        "phone": "(657) 301-2017",
+        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
+      },
+      "quality_score": 100,
+      "restaurant": "Morena's Mexican Cuisine",
+      "retired_at": "2026-09-26T18:03:51Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Every Sunday | 10:00 AM \u2013 3:00 PM",
+        "$39.99 Per Guest \u2013 Includes Bottomless Mimosas"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://hb.morenasmex.com/huntington-beach-bella-terra-morenas-mexican-cuisine-huntington-beach-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Sunday Brunch Buffet with Bottomless Mimosas for $39.99 per guest",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "free"
+      ],
+      "time_window": "10:00 AM \u2013 3:00 PM",
+      "valid_through": null,
+      "validity": "Sun, 10:00 AM \u2013 3:00 PM",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Kids eat free every Wednesday thru 9/30 IKEA Family price Valid thru 9/30",
+      "canonical_id": "8b9ba7a2f8d9a36b",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "IKEA Family price",
+        "Valid thru 9/30"
+      ],
+      "first_seen": "2026-09-18T18:00:35Z",
+      "id": "04345eaf34e77e76",
+      "is_stale": true,
+      "last_seen": "2026-09-25T18:59:55Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 93,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-09-26T18:03:51Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Kids eat free every Wednesday thru 9/30"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/offers/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Kids eat free every Wednesday thru 9/30",
+      "tags": [
+        "weekday_special",
+        "free"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-30",
+      "validity": "Wed",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Penne pasta with plant or traditional Swedish meatballs for $1.99 Six ounces of penne pasta served with your choice of plant or traditional Swedish meatballs Valid in-store only at IKEA Costa Mesa, IKEA Burbank, IKEA Carson, and IKEA Covina",
+      "canonical_id": "7ccf9e5d25ea1149",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Six ounces of penne pasta served with your choice of plant or traditional Swedish meatballs",
+        "Valid in-store only at IKEA Costa Mesa, IKEA Burbank, IKEA Carson, and IKEA Covina"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "dbf7c89c5193aab1",
+      "is_stale": true,
+      "last_seen": "2026-09-24T18:49:21Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 50,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-09-26T18:03:51Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Lunch or dinner for just $1.99*",
+        "Six ounces of penne pasta served with your choice of plant or traditional Swedish meatballs for $1.99.",
+        "*Valid in-store only at IKEA Burbank, IKEA Carson, IKEA Costa Mesa, and IKEA Covina."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Penne pasta with plant or traditional Swedish meatballs for $1.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$1.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Select textiles priced at just $5 each on Tuesdays Shop select textiles priced at just $5 each Look for items marked Textiles Tuesday to score the deal",
+      "canonical_id": "a9bdb5436aa89305",
+      "categories": [
+        "general"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Shop select textiles priced at just $5 each",
+        "Look for items marked Textiles Tuesday to score the deal"
+      ],
+      "first_seen": "2026-09-23T18:43:16Z",
+      "id": "57c384f6703cf28f",
+      "is_stale": true,
+      "last_seen": "2026-09-24T18:49:21Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 68,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-09-26T18:03:51Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Join us at IKEA Costa Mesa every Tuesday, Wednesday & Friday for special offers in our As-is department!*",
+        "Textiles Tuesdays:",
+        "Every Tuesday, shop select textiles priced at just $5 each! Look for items marked \"Textiles Tuesday\" to score the deal.*"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Select textiles priced at just $5 each on Tuesdays",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "$5"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Free delivery during lunch hours Valid for lunch orders Applies to all favorites",
+      "canonical_id": "3d83b2aa7f1e75a2",
+      "categories": [
+        "food",
+        "general"
+      ],
+      "city": "Westminster",
+      "days_since_seen": 0,
+      "details": [
+        "Valid for lunch orders",
+        "Applies to all favorites"
+      ],
+      "first_seen": "2026-09-17T18:36:19Z",
+      "id": "1b59a1457f8b4096",
+      "is_stale": true,
+      "last_seen": "2026-09-25T18:59:55Z",
+      "location": {
+        "address": "6391 Westminster Blvd., Westminster, CA 92683, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=16468165219604346299&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7599647,
+        "longitude": -118.01782029999998,
+        "phone": "(714) 897-1552",
+        "place_id": "ChIJeXi5Waso3YARu7X14AOtiuQ"
+      },
+      "quality_score": 82,
+      "restaurant": "Dino's Italian Restaurant",
+      "retired_at": "2026-09-26T18:03:51Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Free Delivery 11 am to 2 pm",
+        "Enjoy lunch with Dino's free delivery 11 AM to 2 PM!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://thedinospizza.com/specials/free-delivery-11-am-to-2-pm/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Free delivery during lunch hours",
+      "tags": [
+        "free"
+      ],
+      "time_window": "11:00 am to 2:00 pm",
+      "valid_through": null,
+      "validity": "11:00 am to 2:00 pm",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "One Large One Topping 14\" Pizza Pick Up Special for $10.99 Only available for pickup",
+      "canonical_id": "9c1a831e38c85504",
+      "categories": [
+        "food"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Only available for pickup"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "f7b5a0b84f93bde5",
+      "is_stale": true,
+      "last_seen": "2026-09-25T18:59:55Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "quality_score": 50,
+      "restaurant": "Ameci Pizza & Pasta",
+      "retired_at": "2026-09-26T18:03:51Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "One Large One Topping 14\" Pizza Pick Up Special",
+        "$10.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "One Large One Topping 14\" Pizza Pick Up Special for $10.99",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$10.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Lasagna Dinner Deal for $26.99 Two Lasagna Dinner One Dinner Salad One Garlic Bread",
+      "canonical_id": "e55db08c376eac4b",
+      "categories": [
+        "food"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Two Lasagna Dinner",
+        "One Dinner Salad",
+        "One Garlic Bread"
+      ],
+      "first_seen": "2026-09-21T19:48:48Z",
+      "id": "d28177fdbd269c77",
+      "is_stale": true,
+      "last_seen": "2026-09-25T18:59:55Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "quality_score": 50,
+      "restaurant": "Ameci Pizza & Pasta",
+      "retired_at": "2026-09-26T18:03:51Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Two Lasagna Dinner, One Dinner Salad, One Garlic Bread",
+        "$26.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Lasagna Dinner Deal for $26.99",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$26.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Get $5 off on purchase of $35 or more Purchase $35 or More on Regular Menu Price and Get $5",
+      "canonical_id": "8e6fb4f6213c5ec0",
+      "categories": [
+        "food"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Purchase $35 or More on Regular Menu Price and Get $5"
+      ],
+      "first_seen": "2026-09-21T19:48:48Z",
+      "id": "bdd6a0f54f0862c9",
+      "is_stale": true,
+      "last_seen": "2026-09-25T18:59:55Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "quality_score": 50,
+      "restaurant": "Ameci Pizza & Pasta",
+      "retired_at": "2026-09-26T18:03:51Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Purchase $35 or More on Regular Menu Price and Get $5",
+        "$5.00"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Get $5 off on purchase of $35 or more",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$5 off"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
@@ -5201,99 +5959,6 @@
       "valid_through": null,
       "validity": "Check source",
       "value_label": "15% off"
-    },
-    {
-      "ai_confidence": 0.95,
-      "applies_days": [],
-      "applies_month_days": [],
-      "candidate_text": "One Large One Topping 14\" Pizza Pick Up Special for $10.99 Only available for pickup",
-      "canonical_id": "9c1a831e38c85504",
-      "categories": [
-        "food"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "Only available for pickup"
-      ],
-      "first_seen": "2026-09-16T23:17:09Z",
-      "id": "f7b5a0b84f93bde5",
-      "is_stale": true,
-      "last_seen": "2026-09-17T18:36:19Z",
-      "location": {
-        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.702737899999995,
-        "longitude": -117.97054569999999,
-        "phone": "(714) 963-5790",
-        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
-      },
-      "quality_score": 50,
-      "restaurant": "Ameci Pizza & Pasta",
-      "retired_at": "2026-09-18T18:00:35Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "One Large One Topping 14\" Pizza Pick Up Special",
-        "$10.99"
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "One Large One Topping 14\" Pizza Pick Up Special for $10.99",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "valid_through": null,
-      "validity": "Check source",
-      "value_label": "$10.99"
     },
     {
       "ai_confidence": 0.95,
