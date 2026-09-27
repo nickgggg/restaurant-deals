@@ -1,7 +1,593 @@
 {
-  "generated_at": "2026-09-26T18:03:51Z",
+  "generated_at": "2026-09-27T18:43:40Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "thursday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Thursday & Monday Night Football Special: Buy One Large Cheese Pie, Get Second Half Off Buy one large cheese pie, get the second large cheese pie half off for $17.99",
+      "canonical_id": "4cac669a259374f0",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 8,
+      "details": [
+        "Buy one large cheese pie, get the second large cheese pie half off for $17.99"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "7f68fe900f248ab5",
+      "is_stale": true,
+      "last_seen": "2026-09-19T17:30:52Z",
+      "location": {
+        "address": "17210 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=10304571258044845499&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "19:30",
+              "open": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "19:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "19:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "19:30",
+              "open": "12:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "19:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.712897999999996,
+        "longitude": -118.06346769999999,
+        "phone": "(714) 596-0024",
+        "place_id": "ChIJcyzeXkAl3YARu412lvYwAY8"
+      },
+      "quality_score": 93,
+      "restaurant": "Stoney's Pizza",
+      "retired_at": "2026-09-27T18:43:40Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Thursday & Monday Night Football Special",
+        "Only available Monday, Thursday",
+        "Buy One Large Cheese Pie, Get Second Large Cheese Pie Half Off",
+        "$17.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.stoneyspizzamenu.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Thursday & Monday Night Football Special: Buy One Large Cheese Pie, Get Second Half Off",
+      "tags": [
+        "dollar_amount",
+        "bogo",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Mon, Thu",
+      "value_label": "$17.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Everyday Happy Hour: $2 off beer and wine, $4 off pitchers and bottled wine $2 off all Bottled Beer and Draft Pints $2 off all Wine glasses $4 off Draft Pitchers, Bottled Wine, and Wine \u00bd Liters",
+      "canonical_id": "1a8e113723aacfe4",
+      "categories": [
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 9,
+      "details": [
+        "$2 off all Bottled Beer and Draft Pints",
+        "$2 off all Wine glasses",
+        "$4 off Draft Pitchers, Bottled Wine, and Wine \u00bd Liters"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "10e9523a430d8e58",
+      "is_stale": true,
+      "last_seen": "2026-09-18T18:00:35Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 75,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-27T18:43:40Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "EVERYDAY HAPPY HOUR 2pm-6pm",
+        "$2 off all Bottled Beer and Draft Pints",
+        "$2 off all Wine glasses",
+        "$4 off Draft Pitchers | Bottled Wine | Wine \u00bd Liters"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Everyday Happy Hour: $2 off beer and wine, $4 off pitchers and bottled wine",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "14:00-18:00",
+      "valid_through": null,
+      "validity": "Every day, 14:00-18:00",
+      "value_label": "$2 off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Kids eat free every Wednesday Kids eat free every Wednesday Valid through 9/30",
+      "canonical_id": "f7784aefd4df01c9",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 7,
+      "details": [
+        "Kids eat free every Wednesday",
+        "Valid through 9/30"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "37bd3820dc752319",
+      "is_stale": true,
+      "last_seen": "2026-09-20T17:44:40Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 93,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-09-27T18:43:40Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Kids eat free every Wednesday thru 9/30"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/offers/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Kids eat free every Wednesday",
+      "tags": [
+        "weekday_special",
+        "free"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-30",
+      "validity": "Wed",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "10% off sausages when you spend $50+ 10% off sausages Minimum spend of $50",
+      "canonical_id": "3a33fdf122229019",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 8,
+      "details": [
+        "10% off sausages",
+        "Minimum spend of $50"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "ed9a59641ed24079",
+      "is_stale": true,
+      "last_seen": "2026-09-19T17:30:52Z",
+      "location": {
+        "address": "7561 Center Ave #49A, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=18287211787771974914&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7345372,
+        "longitude": -117.9964394,
+        "phone": "(714) 897-1470",
+        "place_id": "ChIJQcp-P2om3YARAhV8Ljs6yf0"
+      },
+      "quality_score": 75,
+      "restaurant": "GermanDeli.com",
+      "retired_at": "2026-09-27T18:43:40Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Oktoberfest Sale: 10% off sausages when you spend $50+"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.germandeli.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "10% off sausages when you spend $50+",
+      "tags": [
+        "percent_off",
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "10% off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "One Large One Topping 14\" Pizza Pick Up Special for $10.99 Only available for pickup One Large One Topping 14\" Pizza",
+      "canonical_id": "712b38655e297732",
+      "categories": [
+        "food"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 1,
+      "details": [
+        "Only available for pickup",
+        "One Large One Topping 14\" Pizza"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "9c1a831e38c85504",
+      "is_stale": true,
+      "last_seen": "2026-09-26T18:03:51Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "quality_score": 50,
+      "restaurant": "Ameci Pizza & Pasta",
+      "retired_at": "2026-09-27T18:43:40Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Pick Up Specials",
+        "Only available for pickup",
+        "One Large One Topping 14\" Pizza Pick Up Special",
+        "$10.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "One Large One Topping 14\" Pizza Pick Up Special for $10.99",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$10.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Manager Special for $39.99 Two 14'' Large Pizza with 1-Topping each 9 Pieces Chicken Wings 2-Liter of Coke",
+      "canonical_id": "114bcc47e8c2ae43",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 1,
+      "details": [
+        "Two 14'' Large Pizza with 1-Topping each",
+        "9 Pieces Chicken Wings",
+        "2-Liter of Coke"
+      ],
+      "first_seen": "2026-09-17T18:36:19Z",
+      "id": "afdbfdafdea85ddd",
+      "is_stale": true,
+      "last_seen": "2026-09-26T18:03:51Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "quality_score": 50,
+      "restaurant": "Ameci Pizza & Pasta",
+      "retired_at": "2026-09-27T18:43:40Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Manager Special",
+        "Two 14'' Large Pizza with 1-Topping each, 9 Pieces Chicken Wings & 2-Liter of Coke",
+        "$39.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Manager Special for $39.99",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$39.99"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
@@ -4347,102 +4933,6 @@
       "valid_through": "2026-09-30",
       "validity": "Wed",
       "value_label": "Free"
-    },
-    {
-      "ai_confidence": 0.95,
-      "applies_days": [],
-      "applies_month_days": [],
-      "candidate_text": "One Large One Topping 14\" Pizza Pick Up Special for $10.99 Only available for pickup One Large One Topping 14\" Pizza",
-      "canonical_id": "f7b5a0b84f93bde5",
-      "categories": [
-        "food"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 1,
-      "details": [
-        "Only available for pickup",
-        "One Large One Topping 14\" Pizza"
-      ],
-      "first_seen": "2026-09-16T23:17:09Z",
-      "id": "9c1a831e38c85504",
-      "is_stale": true,
-      "last_seen": "2026-09-20T17:44:40Z",
-      "location": {
-        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.702737899999995,
-        "longitude": -117.97054569999999,
-        "phone": "(714) 963-5790",
-        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
-      },
-      "quality_score": 50,
-      "restaurant": "Ameci Pizza & Pasta",
-      "retired_at": "2026-09-21T19:48:48Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "Pick Up Specials",
-        "Only available for pickup",
-        "One Large One Topping 14\" Pizza Pick Up Special",
-        "$10.99"
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "One Large One Topping 14\" Pizza Pick Up Special for $10.99",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "valid_through": null,
-      "validity": "Check source",
-      "value_label": "$10.99"
     },
     {
       "ai_confidence": 0.95,
