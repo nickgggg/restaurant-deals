@@ -1,7 +1,875 @@
 {
-  "generated_at": "2026-09-27T18:43:40Z",
+  "generated_at": "2026-09-28T20:59:27Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Tuesday 3-Course Sampler Platter for $14.95 Includes salad and garlic bread Includes baked cheese manicotti, Beef or Spinach Lasagna and Cheese ravioli baked with mozzarella cheese in choice of Marinara or Meat Sauce",
+      "canonical_id": "f3af8800ace1d850",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Includes salad and garlic bread",
+        "Includes baked cheese manicotti, Beef or Spinach Lasagna and Cheese ravioli baked with mozzarella cheese in choice of Marinara or Meat Sauce"
+      ],
+      "first_seen": "2026-09-27T18:43:40Z",
+      "id": "0c97922415aa073d",
+      "is_stale": true,
+      "last_seen": "2026-09-27T18:43:40Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 68,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-28T20:59:27Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Tuesday September 29th",
+        "Lasagna, Manicotti and Ravioli platter only $14.95",
+        "3-course meal includes salad and garlic bread every Tuesday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Tuesday 3-Course Sampler Platter for $14.95",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-29",
+      "validity": "Tue",
+      "value_label": "$14.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$3 off any small, medium, or large pizza on Tuesday Limit 2 pizza discounts per person",
+      "canonical_id": "6c683df38f654be1",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Limit 2 pizza discounts per person"
+      ],
+      "first_seen": "2026-09-27T18:43:40Z",
+      "id": "4d275658dae22c27",
+      "is_stale": true,
+      "last_seen": "2026-09-27T18:43:40Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 68,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-28T20:59:27Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Tuesday September 29th",
+        "Get $3 off any small, medium or large pizza!",
+        "Limit 2 pizza discounts per person"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$3 off any small, medium, or large pizza on Tuesday",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-29",
+      "validity": "Tue",
+      "value_label": "$3 off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Wednesday All-You-Can-Eat Spaghetti 3-Course Meal for $8.95 Includes salad and garlic bread Choose between Spaghetti in meat sauce or Marinara and enjoy a 2nd helping Add two home-made Meatballs for $5 or two Italian Sausages for $6",
+      "canonical_id": "d95203ad93f4d319",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Includes salad and garlic bread",
+        "Choose between Spaghetti in meat sauce or Marinara and enjoy a 2nd helping",
+        "Add two home-made Meatballs for $5 or two Italian Sausages for $6"
+      ],
+      "first_seen": "2026-09-27T18:43:40Z",
+      "id": "82ae7e2a01454cae",
+      "is_stale": true,
+      "last_seen": "2026-09-27T18:43:40Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 68,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-09-28T20:59:27Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Wednesday September 30th",
+        "All-You-Can-Eat Spaghetti only $8.95!",
+        "3-course meal includes salad and garlic bread every Wednesday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Wednesday All-You-Can-Eat Spaghetti 3-Course Meal for $8.95",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-30",
+      "validity": "Wed",
+      "value_label": "$8.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Power Hour Happy Hour: $6 beer, La Marca Prosecco, and selected lite bites All beer, La Marca Prosecco, and selected lite bites for $6 each.",
+      "canonical_id": "45865b80e9dde821",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 8,
+      "details": [
+        "All beer, La Marca Prosecco, and selected lite bites for $6 each."
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "8cdbbef240462816",
+      "is_stale": true,
+      "last_seen": "2026-09-20T17:44:40Z",
+      "location": {
+        "address": "21100 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17547021652932034871&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "14:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "14:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ]
+        },
+        "latitude": 33.6523927,
+        "longitude": -117.9935301,
+        "phone": "(714) 845-8460",
+        "place_id": "ChIJM-IrURMh3YARNwEaqTmLg_M"
+      },
+      "quality_score": 75,
+      "restaurant": "Offshore 9 Rooftop Lounge",
+      "retired_at": "2026-09-28T20:59:27Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Power Hour Happy Hour",
+        "Monday \u2013 Thursday:",
+        "4pm \u2013 5pm",
+        "All beer, La Marca Prosecco and selected lite bites $6 each"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://waterfrontresort.com/dining/offshore-9-rooftop-lounge?y_source=1_MjA1NjM2Mzg2OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Power Hour Happy Hour: $6 beer, La Marca Prosecco, and selected lite bites",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "4pm \u2013 5pm",
+      "valid_through": null,
+      "validity": "Mon, Tue, Wed, Thu, 4pm \u2013 5pm",
+      "value_label": "$6"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Monday Industry Night: 30% off Food & Beverage Get 30% off Food & Beverage.",
+      "canonical_id": "a60b30f078a88b1e",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 1,
+      "details": [
+        "Get 30% off Food & Beverage."
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "cb2e095d7ae5a5a6",
+      "is_stale": true,
+      "last_seen": "2026-09-27T18:43:40Z",
+      "location": {
+        "address": "21100 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17547021652932034871&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "14:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "14:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ]
+        },
+        "latitude": 33.6523927,
+        "longitude": -117.9935301,
+        "phone": "(714) 845-8460",
+        "place_id": "ChIJM-IrURMh3YARNwEaqTmLg_M"
+      },
+      "quality_score": 93,
+      "restaurant": "Offshore 9 Rooftop Lounge",
+      "retired_at": "2026-09-28T20:59:27Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Monday Industry Night:",
+        "30% off Food & Beverage"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://waterfrontresort.com/dining/offshore-9-rooftop-lounge?y_source=1_MjA1NjM2Mzg2OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Monday Industry Night: 30% off Food & Beverage",
+      "tags": [
+        "percent_off",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Mon",
+      "value_label": "30% off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Tuesday Locals Night: 30% off Food & Beverage Get 30% off Food & Beverage.",
+      "canonical_id": "b21f490064dd4cd1",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 1,
+      "details": [
+        "Get 30% off Food & Beverage."
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "9cefd304c21b7560",
+      "is_stale": true,
+      "last_seen": "2026-09-27T18:43:40Z",
+      "location": {
+        "address": "21100 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17547021652932034871&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "14:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "14:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ]
+        },
+        "latitude": 33.6523927,
+        "longitude": -117.9935301,
+        "phone": "(714) 845-8460",
+        "place_id": "ChIJM-IrURMh3YARNwEaqTmLg_M"
+      },
+      "quality_score": 93,
+      "restaurant": "Offshore 9 Rooftop Lounge",
+      "retired_at": "2026-09-28T20:59:27Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Tuesday Locals Night:",
+        "30% off Food & Beverage"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://waterfrontresort.com/dining/offshore-9-rooftop-lounge?y_source=1_MjA1NjM2Mzg2OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Tuesday Locals Night: 30% off Food & Beverage",
+      "tags": [
+        "percent_off",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "30% off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour: Margaritas from $7, Draft Beer $5, Tacos from $3.50, and Plates $18 Dine-In Only House Margaritas starting at $7 Draft Beer for $5 Chicken, Carnitas & Al Pastor Tacos for $4 Asada Tacos for $5.50 Tacos de Rajas with Cheese for $3.50 Cheese Quesadillas for $10 Chile Verde Plate and Carnitas Plate for $18 served with rice, beans, and handmade tortillas",
+      "canonical_id": "fe97e72c0b88cc27",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 3,
+      "details": [
+        "Dine-In Only",
+        "House Margaritas starting at $7",
+        "Draft Beer for $5",
+        "Chicken, Carnitas & Al Pastor Tacos for $4",
+        "Asada Tacos for $5.50",
+        "Tacos de Rajas with Cheese for $3.50",
+        "Cheese Quesadillas for $10",
+        "Chile Verde Plate and Carnitas Plate for $18 served with rice, beans, and handmade tortillas"
+      ],
+      "first_seen": "2026-09-23T18:43:16Z",
+      "id": "4568c6d8b8ffa039",
+      "is_stale": true,
+      "last_seen": "2026-09-25T18:59:55Z",
+      "location": {
+        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7298377,
+        "longitude": -117.99953239999999,
+        "phone": "(657) 301-2017",
+        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
+      },
+      "quality_score": 75,
+      "restaurant": "Morena's Mexican Cuisine",
+      "retired_at": "2026-09-28T20:59:27Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Available Monday, Wednesday, Thursday & Friday from 3:00 PM \u2013 6:00 PM (Dine-In Only)."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://hb.morenasmex.com/huntington-beach-bella-terra-morenas-mexican-cuisine-huntington-beach-happy-hours-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour: Margaritas from $7, Draft Beer $5, Tacos from $3.50, and Plates $18",
+      "tags": [
+        "dollar_amount",
+        "happy_hour",
+        "deal_language"
+      ],
+      "time_window": "3:00 PM \u2013 6:00 PM",
+      "valid_through": null,
+      "validity": "Mon, Wed, Thu, Fri, 3:00 PM \u2013 6:00 PM",
+      "value_label": "$7+"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Friday Lunch Special: Lasagna meal for $12.99 with free delivery Includes lasagna, garlic bread, salad, and a soda Price: $12.99 Free delivery included",
+      "canonical_id": "9119e1f2108861ac",
+      "categories": [
+        "food"
+      ],
+      "city": "Westminster",
+      "days_since_seen": 1,
+      "details": [
+        "Includes lasagna, garlic bread, salad, and a soda",
+        "Price: $12.99",
+        "Free delivery included"
+      ],
+      "first_seen": "2026-09-26T18:03:51Z",
+      "id": "bcc20f39d10409ed",
+      "is_stale": true,
+      "last_seen": "2026-09-27T18:43:40Z",
+      "location": {
+        "address": "6391 Westminster Blvd., Westminster, CA 92683, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=16468165219604346299&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7599647,
+        "longitude": -118.01782029999998,
+        "phone": "(714) 897-1552",
+        "place_id": "ChIJeXi5Waso3YARu7X14AOtiuQ"
+      },
+      "quality_score": 100,
+      "restaurant": "Dino's Italian Restaurant",
+      "retired_at": "2026-09-28T20:59:27Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "For Dino\u2019s lunch special, we offer free delivery from 11 am to 2 pm and an amazing plate of lasagna with garlic bread, salad, and a soda for $12.99."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://thedinospizza.com/specials/friday-specials/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Friday Lunch Special: Lasagna meal for $12.99 with free delivery",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "free",
+        "deal_language"
+      ],
+      "time_window": "11:00 am to 2:00 pm",
+      "valid_through": null,
+      "validity": "Fri, 11:00 am to 2:00 pm",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Family Specials Combos starting at $45.99 Includes thick-crust pizza, handcrafted pasta, salad, and garlic bread starting at $45.99.",
+      "canonical_id": "32d4432b946f0a62",
+      "categories": [
+        "food"
+      ],
+      "city": "Westminster",
+      "days_since_seen": 6,
+      "details": [
+        "Includes thick-crust pizza, handcrafted pasta, salad, and garlic bread starting at $45.99."
+      ],
+      "first_seen": "2026-09-17T18:36:19Z",
+      "id": "65a4823271ed4f6e",
+      "is_stale": true,
+      "last_seen": "2026-09-22T18:28:29Z",
+      "location": {
+        "address": "6391 Westminster Blvd., Westminster, CA 92683, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=16468165219604346299&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7599647,
+        "longitude": -118.01782029999998,
+        "phone": "(714) 897-1552",
+        "place_id": "ChIJeXi5Waso3YARu7X14AOtiuQ"
+      },
+      "quality_score": 50,
+      "restaurant": "Dino's Italian Restaurant",
+      "retired_at": "2026-09-28T20:59:27Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Complete, authentic Italian meals featuring our thick-crust pizza, handcrafted pasta, salad, and garlic bread\u2014starting at just $45.99!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://thedinospizza.com/specials/family-specials/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Family Specials Combos starting at $45.99",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$45.99+"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [

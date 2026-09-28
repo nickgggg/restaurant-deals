@@ -53,7 +53,7 @@
     "last_scanned_cities": [
       "Seal Beach"
     ],
-    "last_source_scan_at": "2026-09-27T18:37:46Z",
+    "last_source_scan_at": "2026-09-28T20:43:47Z",
     "map_cells": 275,
     "official_websites": 1033,
     "operational_count": 1288,
@@ -63,11 +63,11 @@
     ],
     "restaurant_count": 1338,
     "source_sites_checked": 12,
-    "specials_pages_found": 268,
+    "specials_pages_found": 269,
     "successful_map_cells": 42
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-27T18:37:46Z",
+  "generated_at": "2026-09-28T20:43:47Z",
   "refresh_after": "2026-10-01T18:38:28Z",
   "restaurants": [
     {
@@ -33006,6 +33006,8 @@
       "phone": "(949) 631-0282",
       "place_id": "ChIJ04sBywvf3IARQvv8zcbsgpk",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-28T20:43:34Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -33079,6 +33081,8 @@
       "phone": "(714) 846-2235",
       "place_id": "ChIJ3-1FYd4l3YARmrtsB66okoY",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-09-28T20:43:34Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -33152,6 +33156,8 @@
       "phone": "(714) 536-4856",
       "place_id": "ChIJA6tNzUYh3YARcx8ICqCawg8",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-28T20:43:34Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -33415,6 +33421,8 @@
       "phone": "(714) 465-9303",
       "place_id": "ChIJedDmKtsn3YARHQgvFoir_J0",
       "primary_type": "donut_shop",
+      "specials_checked_at": "2026-09-28T20:43:34Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "donut_shop",
@@ -33482,6 +33490,8 @@
       "phone": "(714) 963-7400",
       "place_id": "ChIJ86Bb68Yg3YAR0D3T_AFaOvI",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-09-28T20:43:34Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -33630,6 +33640,8 @@
       "phone": "(714) 965-9888",
       "place_id": "ChIJmYsbojkn3YARAMYG69PpMUY",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-09-28T20:43:34Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -33703,6 +33715,8 @@
       "phone": "(714) 969-9700",
       "place_id": "ChIJh8c_FBYh3YARaxqVuL1D5QU",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-09-28T20:43:34Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -33776,6 +33790,8 @@
       "phone": "(714) 891-1222",
       "place_id": "ChIJfdKRi_wl3YARLKqAGzrk-Cg",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-09-28T20:43:34Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -33849,6 +33865,8 @@
       "phone": "(714) 374-3600",
       "place_id": "ChIJ8QD9VNgn3YARZw0lzJRllR8",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-09-28T20:43:34Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -33922,6 +33940,8 @@
       "phone": "(714) 486-1034",
       "place_id": "ChIJO_6bFFAn3YARUttoG4-L4xU",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-09-28T20:43:34Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -33987,6 +34007,8 @@
       "phone": "(714) 960-5285",
       "place_id": "ChIJS2KX190l3YARkK46GG2_nKk",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-09-28T20:43:34Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -34073,7 +34095,22 @@
       "phone": "(714) 964-1610",
       "place_id": "ChIJT9ZIPion3YARBnvFWiRvFCI",
       "primary_type": "pizza_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-28T20:43:34Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Deals",
+          "url": "https://www.joeyspizzafv.com/online-ordering-ordering-page-2"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "http://joeyspizzafv.com/"
+        }
+      ],
       "types": [
         "pizza_restaurant",
         "italian_restaurant",
