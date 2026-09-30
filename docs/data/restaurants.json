@@ -53,7 +53,7 @@
     "last_scanned_cities": [
       "Seal Beach"
     ],
-    "last_source_scan_at": "2026-09-29T19:36:30Z",
+    "last_source_scan_at": "2026-09-30T19:36:15Z",
     "map_cells": 275,
     "official_websites": 1033,
     "operational_count": 1288,
@@ -63,11 +63,11 @@
     ],
     "restaurant_count": 1338,
     "source_sites_checked": 12,
-    "specials_pages_found": 269,
+    "specials_pages_found": 270,
     "successful_map_cells": 42
   },
   "discovery_version": 4,
-  "generated_at": "2026-09-29T19:36:30Z",
+  "generated_at": "2026-09-30T19:36:15Z",
   "refresh_after": "2026-10-01T18:38:28Z",
   "restaurants": [
     {
@@ -35686,6 +35686,8 @@
       "phone": "(949) 287-6559",
       "place_id": "ChIJXTw35Off3IARQKqJ18eYfr4",
       "primary_type": "japanese_restaurant",
+      "specials_checked_at": "2026-09-30T19:35:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "japanese_restaurant",
@@ -35821,6 +35823,8 @@
       "phone": "(657) 210-4266",
       "place_id": "ChIJTVtQsXTf3IARGb4fBVNxFJg",
       "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-09-30T19:35:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "american_restaurant",
@@ -35886,9 +35890,12 @@
       "phone": "(657) 531-2327",
       "place_id": "ChIJ4zrxshYn3YARh7P9IIKxj7k",
       "primary_type": "chicken_restaurant",
+      "specials_checked_at": "2026-09-30T19:35:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://locations.kfc.com/ca/fountain-valley/17239-brookhurst-street"
         }
@@ -35958,9 +35965,12 @@
       "phone": "(657) 531-2433",
       "place_id": "ChIJ8RWkgswg3YARIHhtRUW09Hc",
       "primary_type": "chicken_restaurant",
+      "specials_checked_at": "2026-09-30T19:35:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://locations.kfc.com/ca/huntington-beach/19091-brookhurst-street"
         }
@@ -36030,9 +36040,12 @@
       "phone": "(949) 629-7984",
       "place_id": "ChIJYU8-V-7f3IAR_upfF9LXyTA",
       "primary_type": "chicken_restaurant",
+      "specials_checked_at": "2026-09-30T19:35:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://locations.kfc.com/ca/costa-mesa/465-e-17th-st"
         }
@@ -36177,9 +36190,12 @@
       "phone": "(714) 596-0549",
       "place_id": "ChIJb9a2x-km3YARgdeK-i3l_Ns",
       "primary_type": "chicken_restaurant",
+      "specials_checked_at": "2026-09-30T19:35:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://locations.kfc.com/ca/huntington-beach/8142-talbert-ave"
         }
@@ -36388,9 +36404,12 @@
       "phone": "(949) 688-6961",
       "place_id": "ChIJYd8E_nkn3YARsK_OBBkrIsk",
       "primary_type": "ramen_restaurant",
+      "specials_checked_at": "2026-09-30T19:35:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://www.keiconcepts.info/brands/kin"
         }
@@ -36460,6 +36479,8 @@
       "phone": "(714) 377-7788",
       "place_id": "ChIJC6Korykl3YAR6iZKHql5Iwg",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-09-30T19:35:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -36567,6 +36588,7 @@
       "phone": "(714) 557-2947",
       "place_id": "ChIJEZBPWxbf3IARaKwlKV2Z9So",
       "primary_type": "ramen_restaurant",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-26d7m2wd/Default'",
       "specials_pages": [],
       "types": [
         "ramen_restaurant",
@@ -36657,6 +36679,7 @@
       "phone": "(714) 884-3124",
       "place_id": "ChIJFYLxGjsn3YARTANfxquyjIE",
       "primary_type": "ramen_restaurant",
+      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-eg0g7hav/Default'",
       "specials_pages": [],
       "types": [
         "ramen_restaurant",
@@ -36727,9 +36750,12 @@
       "phone": "",
       "place_id": "ChIJC9HxWhbf3IARRO5W6Skw_q8",
       "primary_type": "bar",
+      "specials_checked_at": "2026-09-30T19:35:48Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://www.kitschbar.com/"
         }
@@ -36815,7 +36841,16 @@
       "phone": "(949) 323-3333",
       "place_id": "ChIJ5fILxLol3YAR-spjaPlibj8",
       "primary_type": "japanese_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-09-30T19:35:48Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "http://www.kiwami.restaurant/"
+        }
+      ],
       "types": [
         "japanese_restaurant",
         "sushi_restaurant",

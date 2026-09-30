@@ -1,6 +1,6 @@
 {
   "extraction_version": 5,
-  "generated_at": "2026-09-29T19:43:39Z",
+  "generated_at": "2026-09-30T19:42:38Z",
   "model": "gemini-3.5-flash-lite",
   "pages": [
     {
@@ -1032,7 +1032,7 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "a0e70c4f18b8d9889f4274842e8ac7c750c736f6782eba6039ee288e22f0b667",
+      "content_hash": "8d17cb8ecca37e414998c8314885c937effa43acd58e4cbb32f97d671840304a",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -1050,33 +1050,38 @@
             "food"
           ],
           "details": [
-            "Valid with purchase of any food item"
+            "$2 off draft wine & beer",
+            "Requires purchase of any food item"
           ],
           "source_evidence": [
             "Monday - Thursday 3pm - 5pm",
             "Friday & Saturday 8:30pm - 10pm",
             "$2 off draft wine & beer with purchase of any food item"
           ],
-          "summary": "Happy Hour: $2 off draft wine & beer",
+          "summary": "Happy Hour: $2 off draft wine & beer with food purchase",
           "time_window": "Monday - Thursday 3pm - 5pm, Friday & Saturday 8:30pm - 10pm",
           "valid_through": null
         },
         {
           "ai_confidence": 0.95,
-          "applies_days": [],
+          "applies_days": [
+            "monday"
+          ],
           "applies_month_days": [],
           "categories": [
             "drink",
             "food"
           ],
           "details": [
-            "Full pours of beer & seltzers for only $6 with purchase of food item"
+            "Full pours of beer & seltzers for $6",
+            "Requires purchase of food item"
           ],
           "source_evidence": [
+            "MONDAY",
             "$6 Pints | All Day",
             "Full Pours of beer & seltzers for only $6 with purchase of food item!"
           ],
-          "summary": "$6 Pints of beer & seltzers all day Monday",
+          "summary": "Monday Special: $6 Pints of beer & seltzers with food purchase",
           "time_window": "All Day",
           "valid_through": null
         },
@@ -1093,15 +1098,16 @@
             "50% off 1/2 Liter & Liter pours of house wines"
           ],
           "source_evidence": [
+            "WEDNESDAY",
             "Wine Wednesday | All Day",
             "50% off 1/2 Liter & Liter pours of house wines"
           ],
-          "summary": "Wine Wednesday: 50% off 1/2 Liter & Liter pours",
+          "summary": "Wine Wednesday: 50% off 1/2 Liter & Liter house wines",
           "time_window": "All Day",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-19T17:26:27Z",
+      "extracted_at": "2026-09-30T19:38:27Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "f444d9c80854b3e8751b",
@@ -1235,7 +1241,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "a0e70c4f18b8d9889f4274842e8ac7c750c736f6782eba6039ee288e22f0b667",
+      "content_hash": "8d17cb8ecca37e414998c8314885c937effa43acd58e4cbb32f97d671840304a",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -1253,35 +1259,39 @@
             "food"
           ],
           "details": [
-            "$2 off draft wine and beer",
-            "Requires purchase of any food item"
+            "Valid with purchase of any food item",
+            "Applies to draft wine & beer"
           ],
           "source_evidence": [
+            "HAPPY HOUR",
             "Monday - Thursday 3pm - 5pm",
             "Friday & Saturday 8:30pm - 10pm",
             "$2 off draft wine & beer with purchase of any food item"
           ],
-          "summary": "Happy Hour: $2 off draft wine & beer with food purchase",
+          "summary": "Happy Hour: $2 off draft wine & beer",
           "time_window": "Monday - Thursday 3pm - 5pm, Friday & Saturday 8:30pm - 10pm",
           "valid_through": null
         },
         {
           "ai_confidence": 0.95,
-          "applies_days": [],
+          "applies_days": [
+            "monday"
+          ],
           "applies_month_days": [],
           "categories": [
             "drink",
             "food"
           ],
           "details": [
-            "Full pours of beer and seltzers for only $6",
+            "Full pours of beer & seltzers for only $6",
             "Requires purchase of food item"
           ],
           "source_evidence": [
+            "MONDAY",
             "$6 Pints | All Day",
             "Full Pours of beer & seltzers for only $6 with purchase of food item!"
           ],
-          "summary": "Monday: $6 Pints of beer and seltzers with food purchase",
+          "summary": "Monday: $6 Pints of beer & seltzers",
           "time_window": "All Day",
           "valid_through": null
         },
@@ -1295,18 +1305,19 @@
             "drink"
           ],
           "details": [
-            "50% off 1/2 Liter and Liter pours of house wines"
+            "50% off 1/2 Liter & Liter pours of house wines"
           ],
           "source_evidence": [
+            "WEDNESDAY",
             "Wine Wednesday | All Day",
             "50% off 1/2 Liter & Liter pours of house wines"
           ],
-          "summary": "Wine Wednesday: 50% off 1/2 Liter & Liter pours of house wines",
+          "summary": "Wednesday: 50% off 1/2 Liter & Liter house wines",
           "time_window": "All Day",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-19T17:26:36Z",
+      "extracted_at": "2026-09-30T19:38:35Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "2974ac4af2749472b627",
@@ -1440,47 +1451,8 @@
       "status": "ok"
     },
     {
-      "content_hash": "a0e70c4f18b8d9889f4274842e8ac7c750c736f6782eba6039ee288e22f0b667",
+      "content_hash": "8d17cb8ecca37e414998c8314885c937effa43acd58e4cbb32f97d671840304a",
       "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food",
-            "general"
-          ],
-          "details": [
-            "Join Pizza Club for free via the app",
-            "Redeem a free featured pizza of the month on dine-in visits",
-            "Requires a $100+ spend"
-          ],
-          "source_evidence": [
-            "Join Pizza Club (it\u2019s free). Every month, members can redeem a free featured \u201cpizza of the month\u201d on dine-in visits ($100+)."
-          ],
-          "summary": "Free Pizza of the Month for Pizza Club Members",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food",
-            "general"
-          ],
-          "details": [
-            "Order pizza through the app to earn ten punches",
-            "Work toward an eleventh pizza for free"
-          ],
-          "source_evidence": [
-            "Order pizza, earn ten punches, and work toward an eleventh pizza for free."
-          ],
-          "summary": "Free Eleventh Pizza with Punch Card",
-          "time_window": null,
-          "valid_through": null
-        },
         {
           "ai_confidence": 0.95,
           "applies_days": [
@@ -1497,7 +1469,7 @@
             "food"
           ],
           "details": [
-            "Requires purchase of any food item"
+            "Available with purchase of any food item"
           ],
           "source_evidence": [
             "HAPPY HOUR",
@@ -1506,7 +1478,7 @@
             "$2 off draft wine & beer with purchase of any food item"
           ],
           "summary": "$2 off draft wine & beer during Happy Hour",
-          "time_window": "Monday - Thursday 3pm - 5pm, Friday & Saturday 8:30pm - 10pm",
+          "time_window": "Mon-Thu 3pm-5pm, Fri-Sat 8:30pm-10pm",
           "valid_through": null
         },
         {
@@ -1520,15 +1492,14 @@
             "food"
           ],
           "details": [
-            "Full pours of beer & seltzers for only $6",
-            "Requires purchase of food item"
+            "Full pours of beer & seltzers for only $6 with purchase of food item"
           ],
           "source_evidence": [
             "MONDAY",
             "$6 Pints | All Day",
             "Full Pours of beer & seltzers for only $6 with purchase of food item!"
           ],
-          "summary": "$6 Pints on Mondays",
+          "summary": "$6 Pints of beer & seltzers all day Monday",
           "time_window": "All Day",
           "valid_through": null
         },
@@ -1542,19 +1513,19 @@
             "drink"
           ],
           "details": [
-            "50% off 1/2 Liter & Liter pours of house wines"
+            "Wine Wednesday | All Day"
           ],
           "source_evidence": [
             "WEDNESDAY",
             "Wine Wednesday | All Day",
             "50% off 1/2 Liter & Liter pours of house wines"
           ],
-          "summary": "50% off house wines on Wine Wednesday",
+          "summary": "50% off 1/2 Liter & Liter pours of house wines on Wednesday",
           "time_window": "All Day",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-19T17:26:45Z",
+      "extracted_at": "2026-09-30T19:38:44Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "cd30e38d4c6182384eb4",
@@ -1688,7 +1659,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "a0e70c4f18b8d9889f4274842e8ac7c750c736f6782eba6039ee288e22f0b667",
+      "content_hash": "8d17cb8ecca37e414998c8314885c937effa43acd58e4cbb32f97d671840304a",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -1699,13 +1670,14 @@
             "general"
           ],
           "details": [
-            "Join Pizza Club for free via the app",
-            "Redeem a free featured pizza of the month on dine-in visits of $100 or more"
+            "Join free Pizza Club on the app",
+            "Redeem a free featured pizza of the month",
+            "Requires dine-in visit with $100+ spend"
           ],
           "source_evidence": [
             "Every month, members can redeem a free featured \u201cpizza of the month\u201d on dine-in visits ($100+)."
           ],
-          "summary": "Free Pizza of the Month for Pizza Club members on dine-in visits ($100+)",
+          "summary": "Free pizza of the month for Pizza Club members on dine-in visits ($100+)",
           "time_window": null,
           "valid_through": null
         },
@@ -1718,17 +1690,18 @@
             "general"
           ],
           "details": [
-            "Order pizza in the app to earn ten punches and work toward an eleventh pizza for free"
+            "Order pizza in the app to earn ten punches",
+            "Work toward an eleventh pizza for free"
           ],
           "source_evidence": [
             "Order pizza, earn ten punches, and work toward an eleventh pizza for free."
           ],
-          "summary": "Buy 10 pizzas, get the 11th free with Pizza Punch Card",
+          "summary": "Earn an eleventh pizza for free after ten punches on the Pizza Punch Card",
           "time_window": null,
           "valid_through": null
         },
         {
-          "ai_confidence": 0.95,
+          "ai_confidence": 0.98,
           "applies_days": [
             "monday",
             "tuesday",
@@ -1750,12 +1723,12 @@
             "Friday & Saturday 8:30pm - 10pm",
             "$2 off draft wine & beer with purchase of any food item"
           ],
-          "summary": "$2 off draft wine & beer during Happy Hour with food purchase",
-          "time_window": "Monday - Thursday 3pm - 5pm, Friday & Saturday 8:30pm - 10pm",
+          "summary": "$2 off draft wine & beer during happy hour",
+          "time_window": "Monday - Thursday 3pm - 5pm; Friday & Saturday 8:30pm - 10pm",
           "valid_through": null
         },
         {
-          "ai_confidence": 0.95,
+          "ai_confidence": 0.98,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
@@ -1763,18 +1736,19 @@
             "food"
           ],
           "details": [
-            "Full pours of beer and seltzers for only $6 with purchase of food item"
+            "Full pours of beer & seltzers for only $6",
+            "Requires purchase of food item"
           ],
           "source_evidence": [
             "$6 Pints | All Day",
             "Full Pours of beer & seltzers for only $6 with purchase of food item!"
           ],
-          "summary": "$6 Pints of beer & seltzers all day Monday with food purchase",
+          "summary": "$6 pints of beer & seltzers all day Monday",
           "time_window": "All Day",
           "valid_through": null
         },
         {
-          "ai_confidence": 0.95,
+          "ai_confidence": 0.98,
           "applies_days": [
             "wednesday"
           ],
@@ -1783,7 +1757,8 @@
             "drink"
           ],
           "details": [
-            "Wine Wednesday all day discount"
+            "Wine Wednesday all day",
+            "50% off 1/2 Liter & Liter pours of house wines"
           ],
           "source_evidence": [
             "Wine Wednesday | All Day",
@@ -1794,7 +1769,7 @@
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-19T17:26:54Z",
+      "extracted_at": "2026-09-30T19:38:53Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "f061e9c13e10fd8acec8",
@@ -1928,45 +1903,8 @@
       "status": "ok"
     },
     {
-      "content_hash": "a0e70c4f18b8d9889f4274842e8ac7c750c736f6782eba6039ee288e22f0b667",
+      "content_hash": "8d17cb8ecca37e414998c8314885c937effa43acd58e4cbb32f97d671840304a",
       "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food",
-            "general"
-          ],
-          "details": [
-            "Free for Pizza Club app members",
-            "Redeemable every month on dine-in visits with a spend of $100 or more"
-          ],
-          "source_evidence": [
-            "Every month, members can redeem a free featured \u201cpizza of the month\u201d on dine-in visits ($100+)."
-          ],
-          "summary": "Pizza Club: Free featured pizza of the month on dine-in visits ($100+)",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food",
-            "general"
-          ],
-          "details": [
-            "Order pizza, earn ten punches, and work toward an eleventh pizza for free in the app"
-          ],
-          "source_evidence": [
-            "Order pizza, earn ten punches, and work toward an eleventh pizza for free."
-          ],
-          "summary": "Pizza Punch Card: Buy 10 pizzas, get the 11th free",
-          "time_window": null,
-          "valid_through": null
-        },
         {
           "ai_confidence": 0.95,
           "applies_days": [
@@ -1983,14 +1921,17 @@
             "food"
           ],
           "details": [
+            "Monday - Thursday 3pm - 5pm",
+            "Friday & Saturday 8:30pm - 10pm",
             "Requires purchase of any food item"
           ],
           "source_evidence": [
+            "HAPPY HOUR",
             "Monday - Thursday 3pm - 5pm",
             "Friday & Saturday 8:30pm - 10pm",
             "$2 off draft wine & beer with purchase of any food item"
           ],
-          "summary": "$2 off draft wine & beer during Happy Hour",
+          "summary": "Happy Hour: $2 off draft wine & beer with food purchase",
           "time_window": "Monday - Thursday 3pm - 5pm, Friday & Saturday 8:30pm - 10pm",
           "valid_through": null
         },
@@ -2005,14 +1946,15 @@
             "food"
           ],
           "details": [
-            "Full pours of beer & seltzers for only $6 with purchase of food item"
+            "Full Pours of beer & seltzers for only $6",
+            "Requires purchase of food item"
           ],
           "source_evidence": [
             "MONDAY",
             "$6 Pints | All Day",
             "Full Pours of beer & seltzers for only $6 with purchase of food item!"
           ],
-          "summary": "$6 Pints of beer & seltzers all day on Monday",
+          "summary": "$6 Pints of beer & seltzers with food purchase",
           "time_window": "All Day",
           "valid_through": null
         },
@@ -2026,7 +1968,7 @@
             "drink"
           ],
           "details": [
-            "Available all day on Wednesday"
+            "50% off 1/2 Liter & Liter pours of house wines"
           ],
           "source_evidence": [
             "WEDNESDAY",
@@ -2038,7 +1980,7 @@
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-19T17:27:03Z",
+      "extracted_at": "2026-09-30T19:39:02Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "cd2084152f7e369b0d19",
@@ -2049,7 +1991,9 @@
         "label": "Promotions",
         "url": "https://beachwoodpizza.com/promotions"
       },
-      "rejected_candidates": [],
+      "rejected_candidates": [
+        "Slice-of-the-Day: Rotating specialty pizza by the slice"
+      ],
       "restaurant": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2172,84 +2116,57 @@
       "status": "ok"
     },
     {
-      "content_hash": "a0e70c4f18b8d9889f4274842e8ac7c750c736f6782eba6039ee288e22f0b667",
+      "content_hash": "8d17cb8ecca37e414998c8314885c937effa43acd58e4cbb32f97d671840304a",
       "deals": [
         {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food",
-            "general"
-          ],
-          "details": [
-            "Join free Pizza Club on the app",
-            "Redeem a free featured pizza of the month on dine-in visits",
-            "Minimum purchase of $100+"
-          ],
-          "source_evidence": [
-            "Join Pizza Club (it\u2019s free). Every month, members can redeem a free featured \u201cpizza of the month\u201d on dine-in visits ($100+)."
-          ],
-          "summary": "Free Pizza of the Month for Pizza Club Members",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.9,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food",
-            "general"
-          ],
-          "details": [
-            "Order pizza in the app to earn ten punches",
-            "Work toward an eleventh pizza for free"
-          ],
-          "source_evidence": [
-            "Order pizza, earn ten punches, and work toward an eleventh pizza for free."
-          ],
-          "summary": "Pizza Punch Card: 10 Punches for 1 Free Pizza",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
           "ai_confidence": 0.95,
-          "applies_days": [],
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday"
+          ],
           "applies_month_days": [],
           "categories": [
-            "food",
-            "drink"
+            "drink",
+            "food"
           ],
           "details": [
-            "Requires purchase of any food item",
-            "Happy hour times: Monday - Thursday 3pm - 5pm and Friday & Saturday 8:30pm - 10pm"
+            "Valid on draft wine and beer",
+            "Requires purchase of any food item"
           ],
           "source_evidence": [
+            "HAPPY HOUR",
+            "Monday - Thursday 3pm - 5pm",
+            "Friday & Saturday 8:30pm - 10pm",
             "$2 off draft wine & beer with purchase of any food item"
           ],
-          "summary": "$2 off draft wine & beer during Happy Hour",
-          "time_window": null,
+          "summary": "Happy Hour: $2 off draft wine & beer with purchase of any food item",
+          "time_window": "3pm-5pm and 8:30pm-10pm",
           "valid_through": null
         },
         {
           "ai_confidence": 0.95,
-          "applies_days": [],
+          "applies_days": [
+            "monday"
+          ],
           "applies_month_days": [],
           "categories": [
-            "food",
-            "drink"
+            "drink",
+            "food"
           ],
           "details": [
-            "Full pours of beer & seltzers for only $6",
-            "Requires purchase of a food item",
-            "Available all day on Monday"
+            "Full pours of beer and seltzers for only $6",
+            "Requires purchase of food item"
           ],
           "source_evidence": [
+            "MONDAY",
             "$6 Pints | All Day",
             "Full Pours of beer & seltzers for only $6 with purchase of food item!"
           ],
-          "summary": "$6 Pints of beer & seltzers on Monday",
+          "summary": "Monday: $6 Pints of beer & seltzers",
           "time_window": "All Day",
           "valid_through": null
         },
@@ -2263,19 +2180,19 @@
             "drink"
           ],
           "details": [
-            "Wine Wednesday offer",
-            "Available all day on Wednesday"
+            "50% off 1/2 Liter and Liter pours of house wines"
           ],
           "source_evidence": [
+            "WEDNESDAY",
             "Wine Wednesday | All Day",
             "50% off 1/2 Liter & Liter pours of house wines"
           ],
-          "summary": "50% off 1/2 Liter & Liter pours of house wines on Wednesday",
+          "summary": "Wednesday: 50% off 1/2 Liter & Liter pours of house wines",
           "time_window": "All Day",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-19T17:27:13Z",
+      "extracted_at": "2026-09-30T19:39:11Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "e4b46e99188b112fc64e",
@@ -2286,7 +2203,9 @@
         "label": "Specials",
         "url": "https://beachwoodpizza.com/specials"
       },
-      "rejected_candidates": [],
+      "rejected_candidates": [
+        "Slice-of-the-Day: Rotating specialty pizza by the slice"
+      ],
       "restaurant": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2409,7 +2328,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "a0e70c4f18b8d9889f4274842e8ac7c750c736f6782eba6039ee288e22f0b667",
+      "content_hash": "8d17cb8ecca37e414998c8314885c937effa43acd58e4cbb32f97d671840304a",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -2450,14 +2369,16 @@
             "food"
           ],
           "details": [
-            "Full pours of beer & seltzers for only $6 with purchase of food item"
+            "Full pours of beer & seltzers for only $6",
+            "Requires purchase of food item",
+            "Valid all day"
           ],
           "source_evidence": [
             "MONDAY",
             "$6 Pints | All Day",
             "Full Pours of beer & seltzers for only $6 with purchase of food item!"
           ],
-          "summary": "$6 Pints of beer & seltzers all day Monday",
+          "summary": "Monday: $6 Pints of beer & seltzers",
           "time_window": "All Day",
           "valid_through": null
         },
@@ -2471,19 +2392,20 @@
             "drink"
           ],
           "details": [
-            "50% off 1/2 Liter & Liter pours of house wines available all day"
+            "50% off 1/2 Liter & Liter pours of house wines",
+            "Valid all day"
           ],
           "source_evidence": [
             "WEDNESDAY",
             "Wine Wednesday | All Day",
             "50% off 1/2 Liter & Liter pours of house wines"
           ],
-          "summary": "Wine Wednesday: 50% off 1/2 Liter & Liter pours of house wines",
+          "summary": "Wine Wednesday: 50% off house wines",
           "time_window": "All Day",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-19T17:27:21Z",
+      "extracted_at": "2026-09-30T19:39:20Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "ad25074958d5abe6208e",
@@ -2617,7 +2539,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "a0e70c4f18b8d9889f4274842e8ac7c750c736f6782eba6039ee288e22f0b667",
+      "content_hash": "8d17cb8ecca37e414998c8314885c937effa43acd58e4cbb32f97d671840304a",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -2635,8 +2557,7 @@
             "food"
           ],
           "details": [
-            "$2 off draft wine & beer",
-            "Requires purchase of any food item"
+            "Get $2 off draft wine & beer with purchase of any food item."
           ],
           "source_evidence": [
             "HAPPY HOUR",
@@ -2644,7 +2565,7 @@
             "Friday & Saturday 8:30pm - 10pm",
             "$2 off draft wine & beer with purchase of any food item"
           ],
-          "summary": "$2 off draft wine & beer during Happy Hour",
+          "summary": "Happy Hour: $2 off draft wine & beer",
           "time_window": "Monday - Thursday 3pm - 5pm, Friday & Saturday 8:30pm - 10pm",
           "valid_through": null
         },
@@ -2659,8 +2580,7 @@
             "food"
           ],
           "details": [
-            "Full pours of beer & seltzers for only $6",
-            "Requires purchase of food item"
+            "Full pours of beer & seltzers for only $6 with purchase of a food item."
           ],
           "source_evidence": [
             "MONDAY",
@@ -2681,19 +2601,19 @@
             "drink"
           ],
           "details": [
-            "50% off 1/2 Liter & Liter pours of house wines"
+            "50% off 1/2 Liter & Liter pours of house wines."
           ],
           "source_evidence": [
             "WEDNESDAY",
             "Wine Wednesday | All Day",
             "50% off 1/2 Liter & Liter pours of house wines"
           ],
-          "summary": "50% off 1/2 Liter & Liter pours of house wines on Wednesday",
+          "summary": "Wine Wednesday: 50% off house wines",
           "time_window": "All Day",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-19T17:27:30Z",
+      "extracted_at": "2026-09-30T19:39:28Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "28f43aac911b2d5adc01",
@@ -3067,10 +2987,7 @@
         "label": "View Costa Mesa Promotions",
         "url": "https://www.cafesevilla.com/promos-costa-mesa/"
       },
-      "rejected_candidates": [
-        "Holiday celebration booking bonus: free platter, cava, and flamenco show",
-        "$10 Craft Cocktails Thursday & Sunday Night"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -3225,10 +3142,7 @@
         "label": "View San Diego Promotions",
         "url": "https://www.cafesevilla.com/promos-san-diego/"
       },
-      "rejected_candidates": [
-        "Holiday Celebration Bonus: Complimentary platter, cava, and show with $2,000 F&B spend",
-        "Taco Tuesday Specials: $8.50-$10.50 taco plates, $7 drinks, and more"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -4663,7 +4577,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "2f54da97e82d3d7151c2dd4d2bf2d5ed2520e7e1e3eab0801c5ed880aaebcbc5",
+      "content_hash": "4c9cdf8d4b492454235a0010b26ba03bfcb0f11b7120db5062c44a763618b12e",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -4675,12 +4589,12 @@
             "food"
           ],
           "details": [
-            "Buy one get one free Gnocchi"
+            "Buy one gnocchi, get one free on the 29th of every month"
           ],
           "source_evidence": [
             "Every 29th of the month is Gnocchi Day, buy one get one free!"
           ],
-          "summary": "Gnocchi Day BOGO on the 29th of every month",
+          "summary": "Gnocchi Day BOGO: Buy one, get one free",
           "time_window": null,
           "valid_through": null
         },
@@ -4694,7 +4608,6 @@
             "food"
           ],
           "details": [
-            "Buy one get one free pizza",
             "Free pizza will be the lessor price"
           ],
           "source_evidence": [
@@ -4703,12 +4616,12 @@
             "(Free pizza will be the lessor price)",
             "11:00 AM - 08:00 PM"
           ],
-          "summary": "Pizza BOGO - Buy one, get one free",
+          "summary": "Pizza BOGO: Buy one, get one free",
           "time_window": "11:00 AM - 08:00 PM",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-24T18:42:07Z",
+      "extracted_at": "2026-09-30T19:39:36Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "5ec842ef062a1961f366",
@@ -4719,7 +4632,9 @@
         "label": "Daily Specials",
         "url": "http://www.cambalachegrill.com/daily-specials"
       },
-      "rejected_candidates": [],
+      "rejected_candidates": [
+        "Empanada Tuesday: All cooked empanadas are 1/2 price"
+      ],
       "restaurant": {
         "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -4961,7 +4876,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "2f54da97e82d3d7151c2dd4d2bf2d5ed2520e7e1e3eab0801c5ed880aaebcbc5",
+      "content_hash": "4c9cdf8d4b492454235a0010b26ba03bfcb0f11b7120db5062c44a763618b12e",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -4973,12 +4888,12 @@
             "food"
           ],
           "details": [
-            "Buy one get one free on gnocchi."
+            "Every 29th of the month is Gnocchi Day, buy one get one free!"
           ],
           "source_evidence": [
             "Every 29th of the month is Gnocchi Day, buy one get one free!"
           ],
-          "summary": "Gnocchi Day BOGO on the 29th of the month",
+          "summary": "Gnocchi Day BOGO: Buy one get one free",
           "time_window": null,
           "valid_through": null
         },
@@ -4992,8 +4907,8 @@
             "food"
           ],
           "details": [
-            "Buy one, get one free on pizza.",
-            "Free pizza will be the lessor price."
+            "Free pizza will be the lessor price",
+            "Available from 11:00 AM to 08:00 PM"
           ],
           "source_evidence": [
             "Wednesday",
@@ -5001,12 +4916,12 @@
             "(Free pizza will be the lessor price)",
             "11:00 AM - 08:00 PM"
           ],
-          "summary": "Pizza BOGO - Buy one, get one free",
+          "summary": "Wednesday Pizza BOGO: Buy one get one free",
           "time_window": "11:00 AM - 08:00 PM",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-24T18:42:27Z",
+      "extracted_at": "2026-09-30T19:39:45Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "82242d92e8187e33fda7",
@@ -5017,7 +4932,9 @@
         "label": "Weekday Specials",
         "url": "http://www.cambalachegrill.com/weekday-specials"
       },
-      "rejected_candidates": [],
+      "rejected_candidates": [
+        "Empanada Tuesday: All cooked empanadas are 1/2 price"
+      ],
       "restaurant": {
         "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -5110,10 +5027,10 @@
       "status": "ok"
     },
     {
-      "content_hash": "359768397cffda93817f41931a01c5177b9ba8cd6b97525c6b4d10180b56b039",
+      "content_hash": "5ea7acc33ace406e999a670860be7384039190fea7046171de600742fb56fa88",
       "deals": [
         {
-          "ai_confidence": 1.0,
+          "ai_confidence": 0.95,
           "applies_days": [
             "monday",
             "tuesday",
@@ -5135,18 +5052,18 @@
             "Dine-in and bar area only"
           ],
           "source_evidence": [
-            "Casa de Onda Weekday Happy Hour flyer - Monday through Friday 4pm to 6pm. Casa Margarita $10, Onda Nachos $9.",
+            "Monday through Friday, 4:00 to 6:00 pm",
             "Casa Margarita \u2014 $10",
             "La Crema Chardonnay \u2014 $9",
             "Starmont Cabernet \u2014 $9",
             "Elote Corn Riblets \u2014 $10"
           ],
           "summary": "Onda Hour Happy Hour: Drinks and Bites from $9 to $10",
-          "time_window": "16:00-18:00",
+          "time_window": "Mon-Fri, 4:00pm-6pm:00 pm",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-22T18:18:18Z",
+      "extracted_at": "2026-09-30T19:39:53Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "461741170d0c888a66b4",
@@ -12866,7 +12783,7 @@
       "visual_status": "no_deals"
     },
     {
-      "content_hash": "827b2c88c24c684f34bb416b6580a42e28201728021ba4b23e0d4876df5cc975",
+      "content_hash": "f6a049d4bc73546c279314d58a01860a10f3b3062ade0af71ae04981cd9566dc",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -12881,10 +12798,11 @@
             "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
           ],
           "source_evidence": [
-            "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95"
+            "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95.",
+            "11:00 AM - 03:00 PM"
           ],
-          "summary": "Lunch Specials starting at $13.95",
-          "time_window": null,
+          "summary": "Lunch Specials: Pizza/Pasta or Bottomless Soup with Half Salad $15.25",
+          "time_window": "11:00 AM - 03:00 PM",
           "valid_through": null
         },
         {
@@ -12902,14 +12820,15 @@
             "Cocktails and Martinis $8.00"
           ],
           "source_evidence": [
-            "Happy Hour $4.00 to $8.00 from 3 to 6! Pizza and Appetizers $8.00. Bottle beers start at $4.00. Wine and Well Drinks $7.00, Cocktails and Martinis $8.00."
+            "Happy Hour $4.00 to $8.00 from 3 to 6! Pizza and Appetizers $8.00. Bottle beers start at $4.00. Wine and Well Drinks $7.00, Cocktails and Martinis $8.00.",
+            "03:00 PM - 06:00 PM"
           ],
-          "summary": "Happy Hour specials $4.00 to $8.00",
-          "time_window": null,
+          "summary": "Happy Hour: Pizza, Appetizers, Drinks $4.00 to $8.00",
+          "time_window": "03:00 PM - 06:00 PM",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-29T19:39:48Z",
+      "extracted_at": "2026-09-30T19:40:02Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "19155ebce847fe3ab2eb",
@@ -13186,7 +13105,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "827b2c88c24c684f34bb416b6580a42e28201728021ba4b23e0d4876df5cc975",
+      "content_hash": "f6a049d4bc73546c279314d58a01860a10f3b3062ade0af71ae04981cd9566dc",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -13201,11 +13120,10 @@
             "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
           ],
           "source_evidence": [
-            "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95",
-            "11:00 AM - 03:00 PM"
+            "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95."
           ],
-          "summary": "Lunch Specials starting at $13.95 to $15.25",
-          "time_window": "11:00 AM - 03:00 PM",
+          "summary": "Lunch Specials from $13.95 to $15.25",
+          "time_window": null,
           "valid_through": null
         },
         {
@@ -13223,15 +13141,14 @@
             "Cocktails and Martinis $8.00"
           ],
           "source_evidence": [
-            "Happy Hour $4.00 to $8.00 from 3 to 6! Pizza and Appetizers $8.00. Bottle beers start at $4.00. Wine and Well Drinks $7.00, Cocktails and Martinis $8.00.",
-            "03:00 PM - 06:00 PM"
+            "Happy Hour $4.00 to $8.00 from 3 to 6! Pizza and Appetizers $8.00. Bottle beers start at $4.00. Wine and Well Drinks $7.00, Cocktails and Martinis $8.00."
           ],
-          "summary": "Happy Hour drinks and food specials from $4.00 to $8.00",
-          "time_window": "03:00 PM - 06:00 PM",
+          "summary": "Happy Hour $4.00 to $8.00 Drinks and Apps",
+          "time_window": null,
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-29T19:40:05Z",
+      "extracted_at": "2026-09-30T19:40:10Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "99db10121dec05c8c578",
@@ -17465,7 +17382,7 @@
       "visual_status": "no_deals"
     },
     {
-      "content_hash": "d92833399d8270f592fda8ddcf53cf56793a1a521195f1634e208ec9711f8dea",
+      "content_hash": "9a01672266430039ae5a1b41b1bb554742e7c8c1eb093d8116996e5f759f7d1f",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -17477,9 +17394,9 @@
             "food"
           ],
           "details": [
-            "IKEA Family price",
-            "Discount applied at checkout",
-            "While supplies last"
+            "Valid for kids meals",
+            "Offer valid thru 9/30",
+            "IKEA Family price"
           ],
           "source_evidence": [
             "Kids eat free every Wednesday thru 9/30"
@@ -17489,7 +17406,7 @@
           "valid_through": "2026-09-30"
         }
       ],
-      "extracted_at": "2026-09-29T19:40:13Z",
+      "extracted_at": "2026-09-30T19:40:18Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "f566f804ead8d7087856",
@@ -17587,7 +17504,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "23627e1f77d922efd173a952ae93e6ede4783cb9a027093bde8ac7da7665cca8",
+      "content_hash": "c00bf4fa23d5b3b62bda924ce0753e5abb9dd08e5d04afffaf48b0a255e06760",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -17597,14 +17514,14 @@
             "food"
           ],
           "details": [
-            "Six ounces of penne pasta served with your choice of plant or traditional Swedish meatballs",
-            "Valid in-store only at IKEA Burbank, IKEA Carson, IKEA Costa Mesa, and IKEA Covina"
+            "Six ounces of penne pasta served with your choice of plant or traditional Swedish meatballs for $1.99.",
+            "Valid in-store only at IKEA Burbank, IKEA Carson, IKEA Costa Mesa, and IKEA Covina."
           ],
           "source_evidence": [
             "Lunch or dinner for just $1.99*",
             "Six ounces of penne pasta served with your choice of plant or traditional Swedish meatballs for $1.99."
           ],
-          "summary": "Penne pasta with plant or traditional Swedish meatballs for $1.99",
+          "summary": "Penne pasta with meatballs for $1.99",
           "time_window": null,
           "valid_through": null
         },
@@ -17618,13 +17535,14 @@
             "general"
           ],
           "details": [
-            "Look for items marked 'Textiles Tuesday' to score the deal in the As-is department"
+            "Shop select textiles priced at just $5 each.",
+            "Look for items marked \"Textiles Tuesday\" to score the deal."
           ],
           "source_evidence": [
             "Textiles Tuesdays:",
             "Every Tuesday, shop select textiles priced at just $5 each!"
           ],
-          "summary": "Select textiles priced at just $5 each on Tuesdays",
+          "summary": "Textiles Tuesdays: Select textiles for $5 each",
           "time_window": null,
           "valid_through": null
         },
@@ -17638,15 +17556,155 @@
             "general"
           ],
           "details": [
-            "Look for the tag labeled 'WOW Wednesday' in the As-is department"
+            "Each week, one select item will be marked 75% off.",
+            "Look for the tag labeled \"WOW Wednesday.\""
           ],
           "source_evidence": [
             "Wow Wednesdays:",
-            "Each week, one select item will be marked 75% off, just look for the tag labeled 'WOW Wednesday.'"
+            "Each week, one select item will be marked 75% off, just look for the tag labeled \"WOW Wednesday.\""
           ],
-          "summary": "One select item marked 75% off each week on Wednesdays",
+          "summary": "Wow Wednesdays: One select item 75% off",
           "time_window": null,
           "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "friday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "general"
+          ],
+          "details": [
+            "Shop our as-is department and scan your IKEA Family card at the checkout to save 10%."
+          ],
+          "source_evidence": [
+            "IKEA Family Fridays:",
+            "Shop our as-is department, scan your IKEA Family card at the checkout, and save 10%!"
+          ],
+          "summary": "IKEA Family Fridays: 10% off as-is department",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "general"
+          ],
+          "details": [
+            "Applies to all LILLES\u00c4TER sofas & accent chairs for IKEA Family members."
+          ],
+          "source_evidence": [
+            "15% off all LILLES\u00c4TER sofas & accent chairs thru 10/12*"
+          ],
+          "summary": "15% off all LILLES\u00c4TER sofas & accent chairs",
+          "time_window": null,
+          "valid_through": "2026-10-12"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "general"
+          ],
+          "details": [
+            "Applies to select STOCKHOLM sofas, sectionals & armchairs for IKEA Family members."
+          ],
+          "source_evidence": [
+            "15% off select STOCKHOLM sofas, sectionals & armchairs thru 10/12*"
+          ],
+          "summary": "15% off select STOCKHOLM sofas & armchairs",
+          "time_window": null,
+          "valid_through": "2026-10-12"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "general"
+          ],
+          "details": [
+            "Applies to select kitchen islands for IKEA Family members."
+          ],
+          "source_evidence": [
+            "10% off select kitchen islands thru 10/12*"
+          ],
+          "summary": "10% off select kitchen islands",
+          "time_window": null,
+          "valid_through": "2026-10-12"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "general"
+          ],
+          "details": [
+            "Applies to select baby cribs, kids beds & mattresses for IKEA Family members."
+          ],
+          "source_evidence": [
+            "20% off select baby cribs, kids beds & mattresses thru 10/12*"
+          ],
+          "summary": "20% off select baby cribs, kids beds & mattresses",
+          "time_window": null,
+          "valid_through": "2026-10-12"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "general"
+          ],
+          "details": [
+            "Applies to select KUSTFYR Halloween collection items for IKEA Family members."
+          ],
+          "source_evidence": [
+            "20% off select KUSTFYR Halloween collection thru 10/12*"
+          ],
+          "summary": "20% off select KUSTFYR Halloween collection",
+          "time_window": null,
+          "valid_through": "2026-10-12"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "general"
+          ],
+          "details": [
+            "Applies to select mirrors for IKEA Family members, in-store only."
+          ],
+          "source_evidence": [
+            "25% off select mirrors (in-store only) thru 10/12*"
+          ],
+          "summary": "25% off select mirrors (in-store only)",
+          "time_window": null,
+          "valid_through": "2026-10-12"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "general"
+          ],
+          "details": [
+            "IKEA Family members get 10% off purchases of $3,000+ on SEKTION kitchens, countertops and select appliances."
+          ],
+          "source_evidence": [
+            "IKEA Family members get 10% off purchases of $3,000+ on SEKTION kitchens, countertops and select appliances now through 10/27/26."
+          ],
+          "summary": "10% off SEKTION kitchens, countertops and select appliances",
+          "time_window": null,
+          "valid_through": "2026-10-27"
         },
         {
           "ai_confidence": 0.95,
@@ -17658,18 +17716,18 @@
             "food"
           ],
           "details": [
-            "IKEA Family members enjoy free kids\u2019 meals on Wednesdays only at the IKEA Swedish Restaurant"
+            "IKEA Family members enjoy free kids\u2019 meals on Wednesdays only at the IKEA Swedish Restaurant."
           ],
           "source_evidence": [
             "Kids eat free on Wednesdays",
             "Delicious, fun and free! IKEA Family members enjoy free kids\u2019 meals on Wednesdays only at the IKEA Swedish Restaurant. Now thru 9/30."
           ],
-          "summary": "Free kids' meals for IKEA Family members on Wednesdays thru 9/30",
+          "summary": "Free kids\u2019 meals on Wednesdays for IKEA Family",
           "time_window": null,
           "valid_through": "2026-09-30"
         }
       ],
-      "extracted_at": "2026-09-26T18:00:34Z",
+      "extracted_at": "2026-09-30T19:40:30Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "c58851b52546601e171d",
@@ -22747,19 +22805,17 @@
       "status": "ok"
     },
     {
-      "content_hash": "059e8bede813a4c370f3f53fb2c3116d25058f1cc70b214c1e15e0e2148b3d1a",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-23T18:36:29Z",
+      "error": "RuntimeError: HTTP Error 403: Forbidden",
       "extraction_version": 5,
-      "fetch_mode": "visual",
+      "fetch_mode": "static",
       "key": "ca5d8f3fe5c267fcedf6",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
         "label": "Daily Specials",
         "url": "https://santamariabbqgrill.com/menu/daily-specials"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "7144 Edinger Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -22841,30 +22897,7 @@
         ],
         "website_url": "https://santamariabbqgrill.com/"
       },
-      "status": "no_deals",
-      "visual_assets": [
-        {
-          "byte_size": 672235,
-          "content_hash": "26febea7b50708eee860be9180a1dab716c49a9871eefcb5042ced703d4ecb60",
-          "mime_type": "image/png",
-          "url": "https://image-cdn.chowlyinc.com/650%2Cfit/https%3A%2F%2Fitems-images-production.s3.us-west-2.amazonaws.com%2Ffiles%2F18071c250dc7ca161580f5e621e6881871e9f9b5%2Foriginal.png"
-        },
-        {
-          "byte_size": 859874,
-          "content_hash": "b1884ffcb28def500bf3398b4d09db45ee18264619aafc14fb72f1d7d591824a",
-          "mime_type": "image/png",
-          "url": "https://image-cdn.chowlyinc.com/650%2Cfit/https%3A%2F%2Fitems-images-production.s3.us-west-2.amazonaws.com%2Ffiles%2F2461d5c35630fc6980cb61650c79c1d46dd550b2%2Foriginal.jpeg"
-        },
-        {
-          "byte_size": 760509,
-          "content_hash": "be68dc0130a396657f9ad30a055b900050cfc906c3e614474794cbbc3207c4da",
-          "mime_type": "image/png",
-          "url": "https://image-cdn.chowlyinc.com/650%2Cfit/https%3A%2F%2Fitems-images-production.s3.us-west-2.amazonaws.com%2Ffiles%2F856cb65604f5ea3ac447521847adb9dfe1a0ab40%2Foriginal.jpeg"
-        }
-      ],
-      "visual_checked_at": "2026-09-23T18:36:29Z",
-      "visual_hash": "c47ff062eb2ed387a0f2d6581e3ed446c4d15391e612228eb86563d2695e3197",
-      "visual_status": "no_deals"
+      "status": "fetch_failed"
     },
     {
       "content_hash": "4168f5fc17cddf2125a1f21d677c5f75cb5c51787572138eb55ca5c71ba3e0e4",
@@ -23303,7 +23336,7 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "0be6373c405c3ba5f67e95dd8bddf065be997e5c499004781e6c1c990067701d",
+      "content_hash": "6a8788820dd5c9504f7de6cd3ad7ec8f5436ede968d36b4d2292bf5b9dae0c1d",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -23315,30 +23348,29 @@
           ],
           "applies_month_days": [],
           "categories": [
-            "food",
-            "drink"
+            "food"
           ],
           "details": [
             "Includes Shishito pepper Tempura, Fried Calamari, Jalapeno Bomb, White Fish Tempura, Crispy Rice With Spicy Tuna, and Stuffed Mushroom",
-            "Dine in only",
-            "Take-out is regular price",
-            "Last call for Happy Hour 5.15 pm",
-            "Any substitution gluten free or Special request can not be part of the Happy Hour offer",
+            "Dine in Only",
+            "Take-out is Regular Price",
+            "Last call for Happy Hour 5:15 pm",
+            "Any substitution gluten free or Special request cannot be part of the Happy Hour offer",
             "Happy Hour offer cannot be combined with any other offer"
           ],
           "source_evidence": [
-            "Happy",
             "MONDAY - THURSDAY",
             "(Dine in Only)",
             "Last call for Happy Hour 5.15 pm",
-            "7$"
+            "7$",
+            "APPETIZER"
           ],
-          "summary": "Happy Hour Appetizers for $7 each",
-          "time_window": "Until 5:15 PM last call",
+          "summary": "Happy Hour Appetizers for $7",
+          "time_window": "Until 5:15 pm",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-24T18:49:14Z",
+      "extracted_at": "2026-09-30T19:40:38Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "786d0534f9876626f998",
@@ -23558,7 +23590,7 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "0be6373c405c3ba5f67e95dd8bddf065be997e5c499004781e6c1c990067701d",
+      "content_hash": "6a8788820dd5c9504f7de6cd3ad7ec8f5436ede968d36b4d2292bf5b9dae0c1d",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -23570,29 +23602,31 @@
           ],
           "applies_month_days": [],
           "categories": [
-            "food"
+            "food",
+            "drink"
           ],
           "details": [
-            "Includes Shishito pepper Tempura, Fried Calamari, Jalapeno Bomb, White Fish Tempura, Crispy Rice With Spicy Tuna, and Stuffed Mushroom",
             "Dine in only",
-            "Take-out is regular price",
-            "Last call for Happy Hour 5.15 pm",
-            "Any substitution gluten free or Special request can not be part of the Happy Hour offer",
-            "Happy Hour offer cannot be combined with any other offer"
+            "Take-out at regular price",
+            "Last call for Happy Hour 5:15 pm",
+            "Any substitution gluten free or Special request cannot be part of the Happy Hour offer",
+            "Happy Hour offer cannot be combined with any other offer",
+            "Appetizers include Shishito pepper Tempura, Fried Calamari, Jalapeno Bomb, White Fish Tempura, Crispy Rice With Spicy Tuna, Stuffed Mushroom",
+            "Price is 7$ each"
           ],
           "source_evidence": [
             "MONDAY - THURSDAY",
+            "(Dine in Only)",
             "Last call for Happy Hour 5.15 pm",
             "7$",
-            "APPETIZER",
-            "Shishito pepper Tempura"
+            "APPETIZER"
           ],
-          "summary": "Happy Hour Appetizers for $7 each",
-          "time_window": "Until 5:15 PM last call",
+          "summary": "7$ Happy Hour Appetizers",
+          "time_window": "until 5:15 pm",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-25T18:53:59Z",
+      "extracted_at": "2026-09-30T19:40:46Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "1ce01b4dce2232c5243b",
@@ -24407,7 +24441,7 @@
       "visual_status": "no_deals"
     },
     {
-      "content_hash": "86c738deef219e21e15548a07dbb1291f3d34dbf16fb2adbe2499805c1b1ae20",
+      "content_hash": "62136cc0a40f1300d0643fc89740106bbf25d794bd2dbaad0a7deb2ba0edb155",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -24419,21 +24453,19 @@
           ],
           "applies_month_days": [],
           "categories": [
-            "drink",
-            "food"
+            "drink"
           ],
           "details": [
-            "All Signature Cocktails, Wines by the Glass, and Beer are $2 OFF",
-            "Only available in the Trenta Lounge"
+            "Only available in the Trenta Lounge",
+            "$2 OFF All Signature Cocktails, Wines by the Glass, and Beer"
           ],
           "source_evidence": [
-            "Monday through Thursday",
-            "From 5 to 6:30pm",
+            "Monday \u2013 Thursday",
+            "5 to 6:30 pm",
             "All Signature Cocktails, Wines by the Glass, and Beer",
-            "$2 OFF",
-            "Only Available in the Trenta Lounge"
+            "$2 OFF"
           ],
-          "summary": "Happy Hour: $2 off drinks",
+          "summary": "Happy Hour: $2 OFF All Signature Cocktails, Wines by the Glass, and Beer",
           "time_window": "5:00 PM \u2013 6:30 PM",
           "valid_through": null
         },
@@ -24446,15 +24478,15 @@
           ],
           "details": [
             "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
-            "Only available in the Trenta Lounge"
+            "Only available in the Trenta Lounge",
+            "Price: $20"
           ],
           "source_evidence": [
             "CHARCUTERIE",
             "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
-            "$20",
-            "Only Available in the Trenta Lounge"
+            "$20"
           ],
-          "summary": "Happy Hour Charcuterie for $20",
+          "summary": "Charcuterie Happy Hour Special for $20",
           "time_window": null,
           "valid_through": null
         },
@@ -24467,15 +24499,15 @@
           ],
           "details": [
             "Fried Calamari/lemon/garlic-chili aioli",
-            "Only available in the Trenta Lounge"
+            "Only available in the Trenta Lounge",
+            "Price: $18"
           ],
           "source_evidence": [
             "CALAMARI FRITTI",
             "Fried Calamari/lemon/garlic-chili aioli",
-            "$18",
-            "Only Available in the Trenta Lounge"
+            "$18"
           ],
-          "summary": "Happy Hour Calamari Fritti for $18",
+          "summary": "Calamari Fritti Happy Hour Special for $18",
           "time_window": null,
           "valid_through": null
         },
@@ -24488,15 +24520,15 @@
           ],
           "details": [
             "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
-            "Only available in the Trenta Lounge"
+            "Only available in the Trenta Lounge",
+            "Price: $12"
           ],
           "source_evidence": [
             "CANNOLO SALATO",
             "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
-            "$12",
-            "Only Available in the Trenta Lounge"
+            "$12"
           ],
-          "summary": "Happy Hour Cannolo Salato for $12",
+          "summary": "Cannolo Salato Happy Hour Special for $12",
           "time_window": null,
           "valid_through": null
         },
@@ -24509,20 +24541,20 @@
           ],
           "details": [
             "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
-            "Only available in the Trenta Lounge"
+            "Only available in the Trenta Lounge",
+            "Price: $10"
           ],
           "source_evidence": [
             "BRUSCHETTA TRADIZIONALE",
             "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
-            "$10",
-            "Only Available in the Trenta Lounge"
+            "$10"
           ],
-          "summary": "Happy Hour Bruschetta Tradizionale for $10",
+          "summary": "Bruschetta Tradizionale Happy Hour Special for $10",
           "time_window": null,
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-29T19:40:22Z",
+      "extracted_at": "2026-09-30T19:40:55Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "ec3769ca9d91de54c740",
@@ -24639,7 +24671,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "de21f925acc3b2dad230bb2aa7328a2a0b1b80420dcd5fdb231597b1e51885d6",
+      "content_hash": "ff7148317ec6c5c28c695ed5e5c17450fcc6aa30b21e610bd47c23aa9e093797",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -24651,23 +24683,22 @@
           ],
           "applies_month_days": [],
           "categories": [
-            "drink",
-            "food"
+            "drink"
           ],
           "details": [
-            "Applies to All Signature Cocktails, Wines by the Glass, and Beer",
+            "All Signature Cocktails, Wines by the Glass, and Beer",
             "$2 OFF",
             "Only available in the Trenta Lounge"
           ],
           "source_evidence": [
-            "Monday \u2013 Thursday",
-            "5 to 6:30 pm",
+            "Monday through Thursday",
+            "From 5 to 6:30pm",
             "All Signature Cocktails, Wines by the Glass, and Beer",
             "$2 OFF"
           ],
-          "summary": "Happy Hour: $2 off all signature cocktails, wines by the glass, and beer",
+          "summary": "Happy Hour: $2 off drinks",
           "time_window": "5:00 PM \u2013 6:30 PM",
-          "valid_through": null
+          "valid_through": "2027-02-16"
         },
         {
           "ai_confidence": 0.95,
@@ -24692,9 +24723,9 @@
             "CHARCUTERIE",
             "$20"
           ],
-          "summary": "Happy Hour Charcuterie for $20",
+          "summary": "Happy Hour Appetizers: Charcuterie $20",
           "time_window": "5:00 PM \u2013 6:30 PM",
-          "valid_through": null
+          "valid_through": "2027-02-16"
         },
         {
           "ai_confidence": 0.95,
@@ -24719,9 +24750,9 @@
             "CALAMARI FRITTI",
             "$18"
           ],
-          "summary": "Happy Hour Calamari Fritti for $18",
+          "summary": "Happy Hour Appetizers: Calamari Fritti $18",
           "time_window": "5:00 PM \u2013 6:30 PM",
-          "valid_through": null
+          "valid_through": "2027-02-16"
         },
         {
           "ai_confidence": 0.95,
@@ -24746,9 +24777,9 @@
             "CANNOLO SALATO",
             "$12"
           ],
-          "summary": "Happy Hour Cannolo Salato for $12",
+          "summary": "Happy Hour Appetizers: Cannolo Salato $12",
           "time_window": "5:00 PM \u2013 6:30 PM",
-          "valid_through": null
+          "valid_through": "2027-02-16"
         },
         {
           "ai_confidence": 0.95,
@@ -24773,12 +24804,12 @@
             "BRUSCHETTA TRADIZIONALE",
             "$10"
           ],
-          "summary": "Happy Hour Bruschetta Tradizionale for $10",
+          "summary": "Happy Hour Appetizers: Bruschetta Tradizionale $10",
           "time_window": "5:00 PM \u2013 6:30 PM",
-          "valid_through": null
+          "valid_through": "2027-02-16"
         }
       ],
-      "extracted_at": "2026-09-29T19:40:32Z",
+      "extracted_at": "2026-09-30T19:41:05Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "c5dfe3a5e43aa69be29a",
@@ -25357,9 +25388,9 @@
       "visual_status": "no_deals"
     },
     {
-      "content_hash": "7a9b509b46a76036912579484cfd7d5c52ac0d16ef78035ed510ef02a579bfcf",
+      "content_hash": "708cbdb3b2ac24faf78ed78a713d8005824f48a257e648bf58f993a69b5e2c09",
       "deals": [],
-      "extracted_at": "2026-09-29T19:40:39Z",
+      "extracted_at": "2026-09-30T19:41:12Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "1c9b6a02a50ed908b1c2",
@@ -25630,9 +25661,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "e951ecfec70cb591d42c0a3b50e7ba793036b296cce3ef61a249f6e33be58946",
+      "content_hash": "bcdc91541ca03bafb7024ccba89b31eb54e803f495b4ba1e0ea9d4325c0cc0e1",
       "deals": [],
-      "extracted_at": "2026-09-29T19:40:47Z",
+      "extracted_at": "2026-09-30T19:41:19Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "2b9316fdded3877baf5b",
@@ -25721,9 +25752,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "9556f3466cb254e9c48ebd6782a96ee31a71e5969292e5277f9ee746fe8b02f4",
+      "content_hash": "cd36b8f9134f3062fc4f518bab2554ffae9230b8c54398cd94343bcd940f6753",
       "deals": [],
-      "extracted_at": "2026-09-29T19:40:54Z",
+      "extracted_at": "2026-09-30T19:41:26Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "d8096deee83e54d34732",
@@ -25994,9 +26025,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "4c25fbc9e1ace58efea2650e64aa8fb7befb5df1653b409fa4990c8cbafd471b",
+      "content_hash": "467c0fc3bc2d86f44b68d43ac1e868448eb74977f42d5e28c77b34e837e8eacd",
       "deals": [],
-      "extracted_at": "2026-09-29T19:41:01Z",
+      "extracted_at": "2026-09-30T19:41:34Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "203a2c3030b742df88e5",
@@ -26779,121 +26810,6 @@
     },
     {
       "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
-      "deals": [],
-      "extracted_at": "2026-09-10T04:22:32Z",
-      "key": "a3ff1d2a0f58f65098fd",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "high",
-        "label": "Specials",
-        "url": "http://www.wienerschnitzel.com/coupons/"
-      },
-      "rejected_candidates": [
-        "$3 Pretzel Bun Chili Dog Coupon",
-        "$5 Corn Dog, Small Fries & Small Soda",
-        "$6 Two Chili Dogs & Chili Cheese Fries",
-        "$6 Two Sundaes Coupon",
-        "$5 Two Chili Dogs & Medium Fries",
-        "$6 Regular Size Two Classic Chili Cheese Fries",
-        "$6 Corn Dog, Chili Dog & Chili Cheese Fries",
-        "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
-        "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
-        "$2 Off Any Chili Cheese Fries",
-        "$16 Four Chili Dogs & Two Chili Cheese Fries",
-        "$20 Ten Chili Cheese Dogs"
-      ],
-      "restaurant": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "name": "Wienerschnitzel",
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
-        "primary_type": "fast_food_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "http://www.wienerschnitzel.com/coupons/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-          }
-        ],
-        "types": [
-          "fast_food_restaurant",
-          "ice_cream_shop",
-          "dessert_shop",
-          "hot_dog_restaurant",
-          "american_restaurant",
-          "confectionery",
-          "food_store",
-          "store",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
-      },
-      "status": "no_deals"
-    },
-    {
-      "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
       "deals": [
         {
           "ai_confidence": 0.9,
@@ -27215,6 +27131,121 @@
       "status": "ok"
     },
     {
+      "content_hash": "7782238b5a363e826969d79cff49fce362fb172b6142b6993c73d78bd3966b8e",
+      "deals": [],
+      "extracted_at": "2026-09-10T04:22:32Z",
+      "key": "a3ff1d2a0f58f65098fd",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Specials",
+        "url": "http://www.wienerschnitzel.com/coupons/"
+      },
+      "rejected_candidates": [
+        "$3 Pretzel Bun Chili Dog Coupon",
+        "$5 Corn Dog, Small Fries & Small Soda",
+        "$6 Two Chili Dogs & Chili Cheese Fries",
+        "$6 Two Sundaes Coupon",
+        "$5 Two Chili Dogs & Medium Fries",
+        "$6 Regular Size Two Classic Chili Cheese Fries",
+        "$6 Corn Dog, Chili Dog & Chili Cheese Fries",
+        "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
+        "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
+        "$2 Off Any Chili Cheese Fries",
+        "$16 Four Chili Dogs & Two Chili Cheese Fries",
+        "$20 Ten Chili Cheese Dogs"
+      ],
+      "restaurant": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "name": "Wienerschnitzel",
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
+        "primary_type": "fast_food_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "http://www.wienerschnitzel.com/coupons/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "hot_dog_restaurant",
+          "american_restaurant",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+      },
+      "status": "no_deals"
+    },
+    {
       "content_hash": "0702eb0b0f7ed6ce6ef21efeecc1bc7b27bf7ade11c95d12aa2fcf93fed22826",
       "deals": [
         {
@@ -27516,6 +27547,132 @@
             "food"
           ],
           "details": [
+            "Price is $3",
+            "Original Pretzel Bun Chili Dog only",
+            "Cheese extra",
+            "Coupon good for TWO orders on same visit",
+            "Must be surrendered at time of purchase",
+            "Tax extra"
+          ],
+          "source_evidence": [
+            "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
+            "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
+          ],
+          "summary": "$3 Pretzel Bun Chili Dog",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T04:22:51Z",
+      "key": "48fe406dac90084e8078",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Specials",
+        "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "name": "Wienerschnitzel",
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
+        "primary_type": "fast_food_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "http://www.wienerschnitzel.com/coupons/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "hot_dog_restaurant",
+          "american_restaurant",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "0702eb0b0f7ed6ce6ef21efeecc1bc7b27bf7ade11c95d12aa2fcf93fed22826",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
             "Price: $3",
             "Item: Original Pretzel Bun Chili Dog only",
             "Cheese extra",
@@ -27635,95 +27792,97 @@
       "status": "ok"
     },
     {
-      "content_hash": "0702eb0b0f7ed6ce6ef21efeecc1bc7b27bf7ade11c95d12aa2fcf93fed22826",
+      "content_hash": "cee065429487d19b0abcec053c23c8449451a81351a55a69463b50cf73a42609",
       "deals": [
         {
           "ai_confidence": 0.95,
           "applies_days": [],
           "applies_month_days": [],
           "categories": [
-            "food"
+            "food",
+            "drink"
           ],
           "details": [
-            "Price is $3",
-            "Original Pretzel Bun Chili Dog only",
-            "Cheese extra",
-            "Coupon good for TWO orders on same visit",
+            "Price: $5",
+            "Includes a corn dog, small fries, and a small soda",
+            "Coupon good for two orders on the same visit",
+            "Tax extra",
             "Must be surrendered at time of purchase",
-            "Tax extra"
+            "Not valid with any other offer, discount or coupon",
+            "Not valid in Sacramento, Stockton & Modesto areas"
           ],
           "source_evidence": [
-            "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
-            "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
+            "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+            "$5 - Corn Dog, Small Fries and Small Soda - 251"
           ],
-          "summary": "$3 Pretzel Bun Chili Dog",
+          "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
           "time_window": null,
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-10T04:22:51Z",
-      "key": "48fe406dac90084e8078",
+      "extracted_at": "2026-09-10T04:23:21Z",
+      "key": "95b5880670224ea72a79",
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
         "label": "Specials",
-        "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+        "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
       },
       "rejected_candidates": [],
       "restaurant": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
         "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "hours": {
           "friday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "monday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "saturday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "sunday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "thursday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "tuesday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "wednesday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ]
         },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
         "name": "Wienerschnitzel",
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ",
         "primary_type": "fast_food_restaurant",
         "specials_pages": [
           {
@@ -27756,7 +27915,7 @@
           "point_of_interest",
           "establishment"
         ],
-        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+        "website_url": "http://www.wienerschnitzel.com/location/239-beach-blvd-talbert-huntington-beach-18012-beach-blvd-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "ok"
     },
@@ -27924,134 +28083,6 @@
           "establishment"
         ],
         "website_url": "http://www.wienerschnitzel.com/location/177-goldenwest-wyoming-westminster-13872-goldenwest-westminster-ca-92683/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
-      },
-      "status": "ok"
-    },
-    {
-      "content_hash": "cee065429487d19b0abcec053c23c8449451a81351a55a69463b50cf73a42609",
-      "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "applies_month_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "Price: $5",
-            "Includes a corn dog, small fries, and a small soda",
-            "Coupon good for two orders on the same visit",
-            "Tax extra",
-            "Must be surrendered at time of purchase",
-            "Not valid with any other offer, discount or coupon",
-            "Not valid in Sacramento, Stockton & Modesto areas"
-          ],
-          "source_evidence": [
-            "$5 - Corn Dog, Small Fries and Small Soda Coupon",
-            "$5 - Corn Dog, Small Fries and Small Soda - 251"
-          ],
-          "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
-          "time_window": null,
-          "valid_through": null
-        }
-      ],
-      "extracted_at": "2026-09-10T04:23:21Z",
-      "key": "95b5880670224ea72a79",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "high",
-        "label": "Specials",
-        "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-      },
-      "rejected_candidates": [],
-      "restaurant": {
-        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.7009621,
-        "longitude": -117.9886627,
-        "name": "Wienerschnitzel",
-        "phone": "(714) 596-0478",
-        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ",
-        "primary_type": "fast_food_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "http://www.wienerschnitzel.com/coupons/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-          }
-        ],
-        "types": [
-          "fast_food_restaurant",
-          "ice_cream_shop",
-          "dessert_shop",
-          "hot_dog_restaurant",
-          "american_restaurant",
-          "confectionery",
-          "food_store",
-          "store",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.wienerschnitzel.com/location/239-beach-blvd-talbert-huntington-beach-18012-beach-blvd-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "ok"
     },
@@ -30624,11 +30655,7 @@
         "label": "Website specials",
         "url": "https://www.orderamecipizzapasta.com/?utm_source=gbp"
       },
-      "rejected_candidates": [
-        "The Great Meal for $29.99",
-        "Pizza Twins for $28.99",
-        "Two Jumbo 16'' Pizzas for $32.99"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -31418,13 +31445,16 @@
       "status": "ok"
     },
     {
-      "content_hash": "4922726b30e87dd49467993585f26a3ad3631739aeddf87a379611f1a0fb7700",
+      "content_hash": "38efd17d7907f06471dd368225871847343d4c9ef4444d655e2d36e6dbc7e8cc",
       "deals": [],
-      "extracted_at": "2026-09-10T19:03:52Z",
+      "extracted_at": "2026-09-30T19:41:41Z",
+      "extraction_version": 5,
+      "fetch_mode": "static",
       "key": "f77ee250313d2e5fed9a",
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
+        "discovered_via": "page_text",
         "label": "Website specials",
         "url": "http://bearflagfishco.com/"
       },
@@ -31484,9 +31514,12 @@
         "phone": "(714) 374-0558",
         "place_id": "ChIJDXUocmoh3YAR1IfwKVKjb0o",
         "primary_type": "seafood_restaurant",
+        "specials_checked_at": "2026-09-15T18:26:25Z",
+        "specials_discovery_version": 4,
         "specials_pages": [
           {
             "confidence": "medium",
+            "discovered_via": "page_text",
             "label": "Website specials",
             "url": "http://bearflagfishco.com/"
           }
@@ -32545,7 +32578,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "2f54da97e82d3d7151c2dd4d2bf2d5ed2520e7e1e3eab0801c5ed880aaebcbc5",
+      "content_hash": "4c9cdf8d4b492454235a0010b26ba03bfcb0f11b7120db5062c44a763618b12e",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -32557,12 +32590,12 @@
             "food"
           ],
           "details": [
-            "Buy one gnocchi, get one free."
+            "Buy one get one free gnocchi"
           ],
           "source_evidence": [
             "Every 29th of the month is Gnocchi Day, buy one get one free!"
           ],
-          "summary": "Gnocchi Day BOGO Free",
+          "summary": "Gnocchi Day BOGO: Buy one get one free every 29th of the month",
           "time_window": null,
           "valid_through": null
         },
@@ -32576,8 +32609,8 @@
             "food"
           ],
           "details": [
-            "Buy one pizza, get one free.",
-            "Free pizza will be the lessor price."
+            "Buy one, get one free",
+            "Free pizza will be the lessor price"
           ],
           "source_evidence": [
             "Wednesday",
@@ -32585,12 +32618,12 @@
             "(Free pizza will be the lessor price)",
             "11:00 AM - 08:00 PM"
           ],
-          "summary": "Pizza BOGO Free",
+          "summary": "Pizza BOGO: Buy one, get one free on Wednesdays",
           "time_window": "11:00 AM - 08:00 PM",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-25T18:56:51Z",
+      "extracted_at": "2026-09-30T19:41:49Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "633e78a0db6b8487f1fb",
@@ -32601,7 +32634,9 @@
         "label": "Specials",
         "url": "http://www.cambalachegrill.com/fountain-valley-fountain-valley-cambalache-grill-argentine-and-italian-cuisine-happy-hours-specials"
       },
-      "rejected_candidates": [],
+      "rejected_candidates": [
+        "Empanada Tuesday: All cooked empanadas are 1/2 price"
+      ],
       "restaurant": {
         "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -32929,10 +32964,10 @@
       "visual_status": "no_deals"
     },
     {
-      "content_hash": "43d2629659597ed5bbb48c0c1edb35c72048ce903c03f4f2f36b81bb806558c7",
+      "content_hash": "9a3653a0478739cfa6b978ce15840b2141f96f5d60b5e4ba401c1e1cfaa0d4d4",
       "deals": [
         {
-          "ai_confidence": 0.95,
+          "ai_confidence": 0.9,
           "applies_days": [
             "monday",
             "tuesday",
@@ -32943,17 +32978,17 @@
           "applies_month_days": [],
           "categories": [
             "food",
-            "drink",
-            "general"
+            "drink"
           ],
           "details": [
-            "Available Monday to Friday from 4 to 6pm."
+            "Available Monday through Friday",
+            "Time window from 4pm to 6pm"
           ],
           "source_evidence": [
             "Mon\u2013Fri, 4\u20136pm",
             "Happy hour in Costa Mesa... Monday to Friday, 4 to 6pm."
           ],
-          "summary": "Happy Hour Mon-Fri 4-6pm",
+          "summary": "Happy Hour: Monday to Friday from 4pm to 6pm",
           "time_window": "Happy hour in Costa Mesa... Mon-Fri, 4 to 6pm.",
           "valid_through": null
         },
@@ -32968,21 +33003,21 @@
             "drink"
           ],
           "details": [
-            "Tacos from $4, $10 margaritas, DJ at 7pm.",
-            "Ground beef $4, Smoked pork belly $4, Fish $6, Sirloin $7, Lobster $8, Birria $8.",
-            "$6 Modelo and $10 Casa Margarita all day."
+            "Tacos starting at $4 all day",
+            "$10 margaritas all day",
+            "DJ starts at 7pm",
+            "Taco varieties include birria, sirloin, lobster, fish, smoked pork belly, and ground beef"
           ],
           "source_evidence": [
             "Tuesdays all day \u2014 tacos from $4, $10 margaritas, DJ at 7pm",
-            "Ground beef $4 \u00b7 Smoked pork belly $4 \u00b7 Fish $6 \u00b7 Sirloin $7 \u00b7 Lobster $8 \u00b7 Birria $8",
-            "$6 Modelo and $10 Casa Margarita all day."
+            "Tulum Tuesday. Tacos starting at $4, all day."
           ],
-          "summary": "Tulum Tuesdays Tacos from $4 and $10 Margaritas",
+          "summary": "Tulum Tuesdays: Tacos starting at $4 and $10 margaritas all day",
           "time_window": "all day",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-29T19:41:22Z",
+      "extracted_at": "2026-09-30T19:41:58Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "63b417f4f740268d385a",
@@ -32993,9 +33028,7 @@
         "label": "Website specials",
         "url": "https://www.casadeondarestaurant.com/"
       },
-      "rejected_candidates": [
-        "Homemade Shrimp Tamales 2 for $8"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "1870 Harbor Blvd Second Level, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -33098,18 +33131,20 @@
       "status": "ok"
     },
     {
-      "content_hash": "",
+      "content_hash": "bb7b5f33ef14fd42964178ca31ae280d510777ad90777b9ea400bfb4af4fffdb",
       "deals": [],
-      "error": "No promotion text found",
+      "extracted_at": "2026-09-30T19:37:54Z",
       "extraction_version": 5,
-      "fetch_mode": "static",
+      "fetch_mode": "visual",
       "key": "41b265dde1aefae2fbd5",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "discovered_via": "site_link",
         "label": "Specials",
         "url": "https://casajimenezhb.com/specials/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "19171 Magnolia St #6, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -33184,7 +33219,24 @@
         ],
         "website_url": "https://casajimenezhb.com/"
       },
-      "status": "fetch_failed"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 34600,
+          "content_hash": "0e9b9dea6b152324fdda98e3a2f95cbaf72887ca256ebbac798dcd147eac38a3",
+          "mime_type": "image/webp",
+          "url": "https://casajimenezhb.com/wp-content/uploads/2020/05/casa-jimenez-specials.jpg"
+        },
+        {
+          "byte_size": 8854,
+          "content_hash": "ce53b9a03abfa52e2e96b80898bbff66886df8ebd15be01d25fe35da567c3fc2",
+          "mime_type": "image/webp",
+          "url": "https://casajimenezhb.com/wp-content/uploads/2020/05/Casa-Jimenez-Huntington-Beach-Mexican-Restaurant.png"
+        }
+      ],
+      "visual_checked_at": "2026-09-30T19:37:54Z",
+      "visual_hash": "d79a5cee548b13da23de11017bb83e2221e4f19213425257027e89485c66edc2",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "d1eeb5cd997bead2fbb312cea1215bdd6d9ecb64d07619f4c92706e807ba970f",
@@ -37743,11 +37795,13 @@
       "status": "ok"
     },
     {
-      "content_hash": "827b2c88c24c684f34bb416b6580a42e28201728021ba4b23e0d4876df5cc975",
+      "content_hash": "f6a049d4bc73546c279314d58a01860a10f3b3062ade0af71ae04981cd9566dc",
       "deals": [
         {
           "ai_confidence": 0.95,
-          "applies_days": [],
+          "applies_days": [
+            "wednesday"
+          ],
           "applies_month_days": [],
           "categories": [
             "food"
@@ -37758,10 +37812,12 @@
             "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
           ],
           "source_evidence": [
-            "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95"
+            "Wednesday",
+            "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95.",
+            "11:00 AM - 03:00 PM"
           ],
-          "summary": "Lunch Specials: Pizza or Pasta with soup or salad $15.25",
-          "time_window": null,
+          "summary": "Wednesday Lunch Specials $13.95 to $15.25",
+          "time_window": "11:00 AM - 03:00 PM",
           "valid_through": null
         },
         {
@@ -37779,14 +37835,153 @@
             "Cocktails and Martinis $8.00"
           ],
           "source_evidence": [
-            "Happy Hour $4.00 to $8.00 from 3 to 6! Pizza and Appetizers $8.00. Bottle beers start at $4.00. Wine and Well Drinks $7.00, Cocktails and Martinis $8.00."
+            "Happy Hour $4.00 to $8.00 from 3 to 6! Pizza and Appetizers $8.00. Bottle beers start at $4.00. Wine and Well Drinks $7.00, Cocktails and Martinis $8.00.",
+            "03:00 PM - 06:00 PM"
           ],
-          "summary": "Happy Hour: Pizza & Appetizers $8, Drinks $4-$8",
-          "time_window": null,
+          "summary": "Happy Hour drinks and food specials $4.00 to $8.00",
+          "time_window": "03:00 PM - 06:00 PM",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "thursday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Pizza or Pasta with your choice of soup or salad for $15.25",
+            "Bottomless soup with any half salad for $15.25",
+            "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
+          ],
+          "source_evidence": [
+            "Thursday",
+            "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95.",
+            "11:00 AM - 03:00 PM"
+          ],
+          "summary": "Thursday Lunch Specials $13.95 to $15.25",
+          "time_window": "11:00 AM - 03:00 PM",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "friday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Pizza or Pasta with your choice of soup or salad for $15.25",
+            "Bottomless soup with any half salad for $15.25",
+            "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
+          ],
+          "source_evidence": [
+            "Friday",
+            "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95",
+            "11:00 AM - 03:00 PM"
+          ],
+          "summary": "Friday Lunch Specials $13.95 to $15.25",
+          "time_window": "11:00 AM - 03:00 PM",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "saturday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Pizza or Pasta with your choice of soup or salad for $15.25",
+            "Bottomless soup with any half salad for $15.25",
+            "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
+          ],
+          "source_evidence": [
+            "Saturday",
+            "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95. WE WILL BE CLOSED ON JULY4th INDEPENDENCE DAY.",
+            "11:00 AM - 03:00 PM"
+          ],
+          "summary": "Saturday Lunch Specials $13.95 to $15.25",
+          "time_window": "11:00 AM - 03:00 PM",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "sunday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Pizza or Pasta with your choice of soup or salad for $15.25",
+            "Bottomless soup with any half salad for $15.25",
+            "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
+          ],
+          "source_evidence": [
+            "Sunday",
+            "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95.",
+            "11:00 AM - 03:00 PM"
+          ],
+          "summary": "Sunday Lunch Specials $13.95 to $15.25",
+          "time_window": "11:00 AM - 03:00 PM",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Pizza or Pasta with your choice of soup or salad for $15.25",
+            "Bottomless soup with any half salad for $15.25",
+            "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
+          ],
+          "source_evidence": [
+            "Monday",
+            "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95.",
+            "11:00 AM - 03:00 PM"
+          ],
+          "summary": "Monday Lunch Specials $13.95 to $15.25",
+          "time_window": "11:00 AM - 03:00 PM",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "applies_month_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Pizza or Pasta with your choice of soup or salad for $15.25",
+            "Bottomless soup with any half salad for $15.25",
+            "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
+          ],
+          "source_evidence": [
+            "Tuesday",
+            "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95",
+            "11:00 AM - 03:00 PM"
+          ],
+          "summary": "Tuesday Lunch Specials $13.95 to $15.25",
+          "time_window": "11:00 AM - 03:00 PM",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-29T19:41:31Z",
+      "extracted_at": "2026-09-30T19:42:10Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "4e3545f7c0f2af85d024",
@@ -40232,15 +40427,16 @@
       "visual_status": "no_deals"
     },
     {
-      "content_hash": "8cd9287280425a4ad89581a60d7bd9d8cbfc8da526b0b3f91fa34692e42bc4e4",
+      "content_hash": "8de062ffe92c5b461f51b14999b6c12ec1f6f0ad1afb36a48d2650618a34298d",
       "deals": [],
-      "extracted_at": "2026-09-15T15:44:50Z",
-      "extraction_version": 3,
+      "extracted_at": "2026-09-30T19:42:17Z",
+      "extraction_version": 5,
       "fetch_mode": "static",
       "key": "ec9e88881a6cf734528c",
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
+        "discovered_via": "site_link",
         "label": "Specials In Costa Mesa",
         "url": "https://restaurants.ihop.com/en-us/ca/costa-mesa/breakfast-3125-harbor-blvd-922/specials"
       },
@@ -40300,9 +40496,12 @@
         "phone": "(714) 545-0800",
         "place_id": "ChIJo8UPkFnf3IARQnP1XJLyTGk",
         "primary_type": "breakfast_restaurant",
+        "specials_checked_at": "2026-09-25T18:50:28Z",
+        "specials_discovery_version": 4,
         "specials_pages": [
           {
             "confidence": "medium",
+            "discovered_via": "site_link",
             "label": "Specials In Costa Mesa",
             "url": "https://restaurants.ihop.com/en-us/ca/costa-mesa/breakfast-3125-harbor-blvd-922/specials"
           }
@@ -40323,15 +40522,16 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "cc06e96f3ef20f291dfacfd2aea3bc5016ac0e4c3d26f7e2235682199d002b05",
+      "content_hash": "78b683ddd42ed744d5ec13e3ad6c2003a2c6d4657881fbaa7adc7b1d1aff64c1",
       "deals": [],
-      "extracted_at": "2026-09-15T15:44:57Z",
-      "extraction_version": 3,
+      "extracted_at": "2026-09-30T19:42:24Z",
+      "extraction_version": 5,
       "fetch_mode": "static",
       "key": "500c96bc135b2f83350f",
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
+        "discovered_via": "site_link",
         "label": "Specials In Huntington Beach",
         "url": "https://restaurants.ihop.com/en-us/ca/huntington-beach/breakfast-18782-beach-blvd-918/specials"
       },
@@ -40373,9 +40573,12 @@
         "phone": "(714) 962-4400",
         "place_id": "ChIJ5QwYVs8m3YAROLUTODG22ho",
         "primary_type": "breakfast_restaurant",
+        "specials_checked_at": "2026-09-25T18:50:28Z",
+        "specials_discovery_version": 4,
         "specials_pages": [
           {
             "confidence": "medium",
+            "discovered_via": "site_link",
             "label": "Specials In Huntington Beach",
             "url": "https://restaurants.ihop.com/en-us/ca/huntington-beach/breakfast-18782-beach-blvd-918/specials"
           }
@@ -41095,13 +41298,14 @@
     {
       "content_hash": "c80d239316098875890260d0583199915444f994632f85abfbc7e8551b1757fd",
       "deals": [],
-      "extracted_at": "2026-09-22T18:23:10Z",
+      "extracted_at": "2026-09-30T19:38:09Z",
       "extraction_version": 5,
-      "fetch_mode": "static",
+      "fetch_mode": "visual",
       "key": "151630e98d5f28a84747",
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
+        "discovered_via": "page_text",
         "label": "Website specials",
         "url": "http://www.jojocakes.net/content/about-us"
       },
@@ -41155,14 +41359,18 @@
         "phone": "(714) 227-7740",
         "place_id": "ChIJnaTLpaLY3IARjDWm_LqyFjM",
         "primary_type": "cake_shop",
+        "specials_checked_at": "2026-09-29T19:36:15Z",
+        "specials_discovery_version": 4,
         "specials_pages": [
           {
             "confidence": "medium",
+            "discovered_via": "site_link",
             "label": "JoJo Special",
             "url": "http://www.jojocakes.net/categories/jojo-special"
           },
           {
             "confidence": "medium",
+            "discovered_via": "page_text",
             "label": "Website specials",
             "url": "http://www.jojocakes.net/content/about-us"
           }
@@ -41181,7 +41389,30 @@
         ],
         "website_url": "http://www.jojocakes.net/content/about-us"
       },
-      "status": "no_deals"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 200773,
+          "content_hash": "977995864b91a277d692434b5f4661622de22ec1b79256078d203b7d429f3949",
+          "mime_type": "image/png",
+          "url": "http://www.jojocakes.net/sites/default/files/images/3400WMaywood92704.png"
+        },
+        {
+          "byte_size": 382260,
+          "content_hash": "f2b3e91286543ed92c54887d5bfcb9d6a04bd16bc93bda499bd35fac18172ed8",
+          "mime_type": "image/jpeg",
+          "url": "http://www.jojocakes.net/sites/default/files/images/jojo-red-heart.jpg"
+        },
+        {
+          "byte_size": 92947,
+          "content_hash": "68b714bae659b186bcc48ece55cc0e0e7489bad58f73632e71336d52a991867d",
+          "mime_type": "image/jpeg",
+          "url": "http://www.jojocakes.net/sites/default/files/images/kitchen.jpg"
+        }
+      ],
+      "visual_checked_at": "2026-09-30T19:38:09Z",
+      "visual_hash": "48bc9e8aab7c329a0978294389a033d75c642b415669840ffd05e698f5447833",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "124adc67744e097521f1be7aa98b23f67b2c5dd8982ce4017d7035e9082a5adc",
@@ -42260,6 +42491,139 @@
       "status": "ok"
     },
     {
+      "content_hash": "",
+      "deals": [],
+      "extracted_at": "2026-09-30T19:38:18Z",
+      "extraction_version": 5,
+      "fetch_mode": "visual",
+      "key": "d89ef0cc7561cf77b659",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "medium",
+        "discovered_via": "page_text",
+        "label": "Website specials",
+        "url": "http://www.kiwami.restaurant/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "5145 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=4570699495165381370&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.7158595,
+        "longitude": -118.03892579999999,
+        "name": "KIWAMI SUSHI & RAMEN",
+        "phone": "(949) 323-3333",
+        "place_id": "ChIJ5fILxLol3YAR-spjaPlibj8",
+        "primary_type": "japanese_restaurant",
+        "specials_checked_at": "2026-09-30T19:35:48Z",
+        "specials_discovery_version": 4,
+        "specials_pages": [
+          {
+            "confidence": "medium",
+            "discovered_via": "page_text",
+            "label": "Website specials",
+            "url": "http://www.kiwami.restaurant/"
+          }
+        ],
+        "types": [
+          "japanese_restaurant",
+          "sushi_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.kiwami.restaurant/"
+      },
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 223729,
+          "content_hash": "8552addefc4343bea66e7bd9497d0cd7b3ed6388030cf1e706964d7b2645879f",
+          "mime_type": "image/png",
+          "url": "https://irp.cdn-website.com/bd0fd466/dms3rep/multi/---1.png"
+        },
+        {
+          "byte_size": 237026,
+          "content_hash": "c15edd90825bdd7abaaf872b19b69cb44fddd33bba1ab4e999174d2e959c78ec",
+          "mime_type": "image/jpeg",
+          "url": "https://irp.cdn-website.com/bd0fd466/dms3rep/multi/10002.jpg"
+        },
+        {
+          "byte_size": 341557,
+          "content_hash": "532aa919f400d67407d1e1c1c656dd9c95d0822b345a7955b3a4a9435d965f6b",
+          "mime_type": "image/jpeg",
+          "url": "https://irp.cdn-website.com/bd0fd466/dms3rep/multi/10003.jpg"
+        }
+      ],
+      "visual_checked_at": "2026-09-30T19:38:18Z",
+      "visual_hash": "580173c0965940a9e3b8117de6251501274e6b1cfdeec2894084c812f566ec26",
+      "visual_status": "no_deals"
+    },
+    {
       "content_hash": "253dd91941e87bb7bb073dbbf93ac68b76dab8d684434f1b265bde19d996ee34",
       "deals": [],
       "extracted_at": "2026-09-17T16:14:57Z",
@@ -42817,9 +43181,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "8a04d72db24644c0a1039e5b0243baa49a9f6d69546e3262bebead223c1d4754",
+      "content_hash": "c632c5a10c4563628c36e7d018262855997f25f008021171d2a2bade95959659",
       "deals": [],
-      "extracted_at": "2026-09-29T19:41:54Z",
+      "extracted_at": "2026-09-30T19:42:31Z",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "b9be67241d188f5a98ba",
@@ -49047,11 +49411,11 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "e15ee6bc8498f9ee49ac15bd453b204c2f086e7f21146b00dd44d5bc1982beee",
+      "content_hash": "12cc0843bf054f4af723ad41eae0f3a8a37e9094a0e957d2757f22a8e0476a51",
       "deals": [],
-      "extracted_at": "2026-09-27T18:42:03Z",
+      "extracted_at": "2026-09-30T19:37:38Z",
       "extraction_version": 5,
-      "fetch_mode": "static",
+      "fetch_mode": "visual",
       "key": "ede7bca78bdbdaaa6048",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -49133,7 +49497,30 @@
         ],
         "website_url": "https://plumscafe.com/"
       },
-      "status": "no_deals"
+      "status": "no_deals",
+      "visual_assets": [
+        {
+          "byte_size": 983403,
+          "content_hash": "a75c9f225c5088f1324aa0722754f483d5bae0b61d8ebae1fa0fa228dcda1c4c",
+          "mime_type": "application/pdf",
+          "url": "https://plumscafe.com/wp-content/uploads/2023/01/plumscafe_kids_dec2022_11x8-final.pdf"
+        },
+        {
+          "byte_size": 563679,
+          "content_hash": "14cbba5137288a67642e9b4afbe4dfa33757ada98cede7f3974703a0af93411e",
+          "mime_type": "application/pdf",
+          "url": "https://plumscafe.com/wp-content/uploads/2024/04/plums-catering-menu-3.20-compressed.pdf"
+        },
+        {
+          "byte_size": 167518,
+          "content_hash": "9266122b556231118e07d687bc60c2abe35738dbd3208468f4abc91be75b7b73",
+          "mime_type": "image/jpeg",
+          "url": "https://plumscafe.com/wp-content/uploads/2023/03/plums-cafe-kids-menu-pancakes.jpg"
+        }
+      ],
+      "visual_checked_at": "2026-09-30T19:37:38Z",
+      "visual_hash": "e708ba2d71b556356000e91430acf2c2dba0162fd2b735eacfa8cc63a0e624ee",
+      "visual_status": "no_deals"
     },
     {
       "content_hash": "0fe95226952756c8a865789fbdd9e170e2d68cf12c4e7b7f66143e1f0d6813c7",
@@ -51376,19 +51763,17 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "e2b8acbc58dc539ecc12f7fc63bab88864f6da9b7fc830f2ca892d6a1f8e7d44",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-23T18:42:54Z",
+      "error": "RuntimeError: HTTP Error 403: Forbidden",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "0a843a8f21c07bcd5892",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://santamariabbqgrill.com/"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "7144 Edinger Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -51470,7 +51855,7 @@
         ],
         "website_url": "https://santamariabbqgrill.com/"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
       "content_hash": "99f2adec8827f03e1878b121015ca30d866fe0b1c5ae4881b7ce7cc6306e699e",
@@ -52765,17 +53150,17 @@
       "status": "ok"
     },
     {
-      "content_hash": "941a5de8765195f2dfa09db5af1b5417d2147dc02639cdde9d7ecda47706b5c3",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-14T22:10:13Z",
+      "error": "RuntimeError: HTTP Error 404: Not Found",
+      "extraction_version": 5,
+      "fetch_mode": "static",
       "key": "f51f1975ebceae2fd078",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/costa-mesa/1175-baker-street?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=49775&utm_campaign=evergreen-2020&y_source=1_MTQ5MDU4MDUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "1175 Baker St Spc E23, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -52852,20 +53237,20 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/costa-mesa/1175-baker-street?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=49775&utm_campaign=evergreen-2020&y_source=1_MTQ5MDU4MDUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
-      "content_hash": "bd07965000cee159b500756dde16ba62de2645257fba7b016377aa91e46e4281",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-14T22:10:20Z",
+      "error": "RuntimeError: HTTP Error 404: Not Found",
+      "extraction_version": 5,
+      "fetch_mode": "static",
       "key": "46b075146690b3dc53da",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/costa-mesa/901-s-coast-drive?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=23665&utm_campaign=evergreen-2020&y_source=1_MTQ5MTEyNDgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "901 S Coast Dr Unit D190, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -52942,20 +53327,20 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/costa-mesa/901-s-coast-drive?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=23665&utm_campaign=evergreen-2020&y_source=1_MTQ5MTEyNDgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
-      "content_hash": "22e352b71c678b81d15274979bd7a5cb7b59a19b4e4a8e4edcd7d031b70b965f",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-10T03:29:33Z",
+      "error": "RuntimeError: HTTP Error 404: Not Found",
+      "extraction_version": 5,
+      "fetch_mode": "static",
       "key": "e10aa9273a4cbf8e0538",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/fountain-valley/16373-harbor-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=1276&utm_campaign=evergreen-2020&y_source=1_MTQ5MTQyNTAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "16373 S Harbor Blvd, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -52989,20 +53374,20 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/fountain-valley/16373-harbor-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=1276&utm_campaign=evergreen-2020&y_source=1_MTQ5MTQyNTAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
-      "content_hash": "d39e54203811b90e6b92cb89e1e3f02caf61cc4820271ec1df8f8f11f2379555",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-10T03:29:40Z",
+      "error": "RuntimeError: HTTP Error 404: Not Found",
+      "extraction_version": 5,
+      "fetch_mode": "static",
       "key": "02a956ef014e128b88e2",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/fountain-valley/17900-magnolia-street?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=23749&utm_campaign=evergreen-2020&y_source=1_MTQ5MDA2NzUtNzE1LWxvY2F0aW9uLndlYnNpdGU="
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "17900 Magnolia St Unit B, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -53079,20 +53464,20 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/fountain-valley/17900-magnolia-street?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=23749&utm_campaign=evergreen-2020&y_source=1_MTQ5MDA2NzUtNzE1LWxvY2F0aW9uLndlYnNpdGU="
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
-      "content_hash": "f987c3ccb487d89deab120feb239482f754cf70479cecca91d4fdc661194af51",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-10T03:29:48Z",
+      "error": "RuntimeError: HTTP Error 404: Not Found",
+      "extraction_version": 5,
+      "fetch_mode": "static",
       "key": "8e8e01662de89c29d454",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/fountain-valley/9985-ellis-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=3265&utm_campaign=evergreen-2020&y_source=1_MTQ4OTQ0NTktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "9985 Ellis Ave Suite 5, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -53169,20 +53554,20 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/fountain-valley/9985-ellis-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=3265&utm_campaign=evergreen-2020&y_source=1_MTQ4OTQ0NTktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
-      "content_hash": "440f1b825f26608c8625045829a5ebcc68bca62bc008bbd062e8975f0052c2a1",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-10T03:29:55Z",
+      "error": "RuntimeError: HTTP Error 404: Not Found",
+      "extraction_version": 5,
+      "fetch_mode": "static",
       "key": "27a4824bb85fda105802",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/huntington-beach/16055-bolsa-chica-street?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=38347&utm_campaign=evergreen-2020&y_source=1_MTQ5MDk1NDYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "16055 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -53259,20 +53644,20 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/huntington-beach/16055-bolsa-chica-street?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=38347&utm_campaign=evergreen-2020&y_source=1_MTQ5MDk1NDYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
-      "content_hash": "552bf34222925c57e6873ff88d314dfff8613e20223147dd043caa6159abd7f7",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-10T03:30:03Z",
+      "error": "RuntimeError: HTTP Error 404: Not Found",
+      "extraction_version": 5,
+      "fetch_mode": "static",
       "key": "2048f95998bf2d349753",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/huntington-beach/16502-beach-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=32574&utm_campaign=evergreen-2020&y_source=1_MTQ5MTU5NjQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "16502 Beach Blvd, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -53349,20 +53734,20 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/huntington-beach/16502-beach-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=32574&utm_campaign=evergreen-2020&y_source=1_MTQ5MTU5NjQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
-      "content_hash": "e7541794b4a724d68a623555164eb6b26925539b1a0c5955ab1176ff41626926",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-10T03:30:10Z",
+      "error": "RuntimeError: HTTP Error 404: Not Found",
+      "extraction_version": 5,
+      "fetch_mode": "static",
       "key": "8b3c6974e4e139c43626",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/huntington-beach/6014-warner-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=46616&utm_campaign=evergreen-2020&y_source=1_MTQ5MDI0MTctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "6014 Warner Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -53439,20 +53824,20 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/huntington-beach/6014-warner-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=46616&utm_campaign=evergreen-2020&y_source=1_MTQ5MDI0MTctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
-      "content_hash": "0c636e196603cb29e10fa6344cf12b8cdf0568ab834cec70223cb2e3c8ff35f0",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-10T03:30:17Z",
+      "error": "RuntimeError: HTTP Error 404: Not Found",
+      "extraction_version": 5,
+      "fetch_mode": "static",
       "key": "9dee23481239ea38c518",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/huntington-beach/6490-edinger-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=2288&utm_campaign=evergreen-2020&y_source=1_MTQ5MTA5NTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "6490 Edinger Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -53529,20 +53914,20 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/huntington-beach/6490-edinger-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=2288&utm_campaign=evergreen-2020&y_source=1_MTQ5MTA5NTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
-      "content_hash": "96f5b3c6c0484b1b459961d855cccb2605d1474591f4207af07dab3120e3dcfb",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-10T03:30:24Z",
+      "error": "RuntimeError: HTTP Error 404: Not Found",
+      "extraction_version": 5,
+      "fetch_mode": "static",
       "key": "856dec2f10c2ffafddac",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/huntington-beach/9025-e-adams-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=46691&utm_campaign=evergreen-2020&y_source=1_MTQ4OTM2NTItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "9025 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -53619,23 +54004,21 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/huntington-beach/9025-e-adams-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=46691&utm_campaign=evergreen-2020&y_source=1_MTQ4OTM2NTItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
-      "content_hash": "29153fc626f6b87a5ce30d4bd843f7bf00e00037908fb6658593e7429b202561",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-27T18:42:34Z",
+      "error": "RuntimeError: HTTP Error 404: Not Found",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "16c5576b59080b67cc46",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "discovered_via": "page_text",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/seal-beach/2365-seal-beach-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=40842&utm_campaign=evergreen-2020&y_source=1_MTQ5MTI0OTUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "2365 Seal Beach Blvd Ste 107, Seal Beach, CA 90740, USA",
         "business_status": "OPERATIONAL",
@@ -53715,23 +54098,21 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/seal-beach/2365-seal-beach-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=40842&utm_campaign=evergreen-2020&y_source=1_MTQ5MTI0OTUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
-      "content_hash": "59514f1222e805b12ca659cff7220014697c0a7881930f656049bad2c0062aeb",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-27T18:42:41Z",
+      "error": "RuntimeError: HTTP Error 404: Not Found",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "576748773e4be7c0b1c2",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "discovered_via": "page_text",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/seal-beach/914-pacific-coast-hwy?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=11550&utm_campaign=evergreen-2020&y_source=1_MTQ5MDM1NTctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "914 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
         "business_status": "OPERATIONAL",
@@ -53811,23 +54192,21 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/seal-beach/914-pacific-coast-hwy?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=11550&utm_campaign=evergreen-2020&y_source=1_MTQ5MDM1NTctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
-      "content_hash": "1acae1837af3f7b4f274f8fbf1ef02af9a5d33c4fb5dcb232c7747c593254e17",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-20T17:43:39Z",
+      "error": "RuntimeError: HTTP Error 404: Not Found",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "14923a4a72858a738cea",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "discovered_via": "page_text",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/westminster/14004-beach-boulevard?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=33458&utm_campaign=evergreen-2020&y_source=1_MTQ4OTcwNzYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "14004 Beach Blvd, Westminster, CA 92683, USA",
         "business_status": "OPERATIONAL",
@@ -53907,23 +54286,21 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/westminster/14004-beach-boulevard?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=33458&utm_campaign=evergreen-2020&y_source=1_MTQ4OTcwNzYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
-      "content_hash": "d549968e529f08b2234f336662f489a3e46e1602452d029f8b0bee7886bab5ab",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-20T17:43:46Z",
+      "error": "RuntimeError: HTTP Error 404: Not Found",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "50cf6f2f4567a0fe5285",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "discovered_via": "page_text",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/westminster/14022-springdale-st?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=6517&utm_campaign=evergreen-2020&y_source=1_MTQ4OTY5NDAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "14022 Springdale St, Westminster, CA 92683, USA",
         "business_status": "OPERATIONAL",
@@ -54003,23 +54380,21 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/westminster/14022-springdale-st?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=6517&utm_campaign=evergreen-2020&y_source=1_MTQ4OTY5NDAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
-      "content_hash": "bd1147df5683f68493a415198831f833bb228cbf929b78baf3c3f3a0a085afa4",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-20T17:43:53Z",
+      "error": "RuntimeError: HTTP Error 404: Not Found",
       "extraction_version": 5,
       "fetch_mode": "static",
       "key": "fad77291e6dd9c4e83e9",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "discovered_via": "page_text",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/westminster/14920-beach-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=230&utm_campaign=evergreen-2020&y_source=1_MTQ5MDYxMTUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "14920 Beach Blvd, Westminster, CA 92683, USA",
         "business_status": "OPERATIONAL",
@@ -54099,7 +54474,7 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/westminster/14920-beach-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=230&utm_campaign=evergreen-2020&y_source=1_MTQ5MDYxMTUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
       "content_hash": "6af427633534d8f70fa9c642fc27c9e9dccb73b805194e60d4466d7a4937ca82",
@@ -56259,19 +56634,17 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "330a27b12972f41e69683a1ff721d28c2472a93888bf32201203cdd310e649a6",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-15T20:32:40Z",
-      "extraction_version": 4,
-      "fetch_mode": "visual",
+      "error": "RuntimeError: HTTP Error 403: Forbidden",
+      "extraction_version": 5,
+      "fetch_mode": "static",
       "key": "69993f3ebb6637ab3c6a",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Golfer\u2019s Specials",
         "url": "https://www.costamesacountryclub.com/course/golfers-specials/"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "1701 Golf Course Dr, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -56343,30 +56716,7 @@
         ],
         "website_url": "https://www.costamesacountryclub.com/restaurant/"
       },
-      "status": "no_deals",
-      "visual_assets": [
-        {
-          "byte_size": 7121,
-          "content_hash": "4b08356a30efdbfd664ac91a19c8e1662a90055ae3479d67dd502b3f16faa094",
-          "mime_type": "image/png",
-          "url": "https://www.costamesacountryclub.com/wp-content/plugins/golfnow-customize/assets/images/GN_Primary_Logo_RGB_Full_Color.png"
-        },
-        {
-          "byte_size": 14784,
-          "content_hash": "662bd75eeaa0f63d9763004d94868735f9438e4aa85851e2849f84bf81ee36ef",
-          "mime_type": "image/jpeg",
-          "url": "https://www.costamesacountryclub.com/wp-content/uploads/sites/7766/2019/07/golfers-specials.jpg"
-        },
-        {
-          "byte_size": 5264,
-          "content_hash": "4d257d1b1cc6b86d0608ed8657368b40b11b9d8fcd4a5a0d42982b73019545cf",
-          "mime_type": "image/webp",
-          "url": "https://www.costamesacountryclub.com/wp-content/uploads/sites/7766/2021/07/MAINLOGO_COLOR.png"
-        }
-      ],
-      "visual_checked_at": "2026-09-15T20:32:40Z",
-      "visual_hash": "61ee7e9069986b6f5b2e68b21d31afb097fd6ee21e48eb1930e67fd90e665180",
-      "visual_status": "no_deals"
+      "status": "fetch_failed"
     },
     {
       "content_hash": "4c37a6071349aa54d6af00b34c838baa43ce30ee838294de12a2bc67f5b1bd25",
@@ -59569,33 +59919,38 @@
               "food"
             ],
             "details": [
-              "Valid with purchase of any food item"
+              "$2 off draft wine & beer",
+              "Requires purchase of any food item"
             ],
             "source_evidence": [
               "Monday - Thursday 3pm - 5pm",
               "Friday & Saturday 8:30pm - 10pm",
               "$2 off draft wine & beer with purchase of any food item"
             ],
-            "summary": "Happy Hour: $2 off draft wine & beer",
+            "summary": "Happy Hour: $2 off draft wine & beer with food purchase",
             "time_window": "Monday - Thursday 3pm - 5pm, Friday & Saturday 8:30pm - 10pm",
             "valid_through": null
           },
           {
             "ai_confidence": 0.95,
-            "applies_days": [],
+            "applies_days": [
+              "monday"
+            ],
             "applies_month_days": [],
             "categories": [
               "drink",
               "food"
             ],
             "details": [
-              "Full pours of beer & seltzers for only $6 with purchase of food item"
+              "Full pours of beer & seltzers for $6",
+              "Requires purchase of food item"
             ],
             "source_evidence": [
+              "MONDAY",
               "$6 Pints | All Day",
               "Full Pours of beer & seltzers for only $6 with purchase of food item!"
             ],
-            "summary": "$6 Pints of beer & seltzers all day Monday",
+            "summary": "Monday Special: $6 Pints of beer & seltzers with food purchase",
             "time_window": "All Day",
             "valid_through": null
           },
@@ -59612,10 +59967,11 @@
               "50% off 1/2 Liter & Liter pours of house wines"
             ],
             "source_evidence": [
+              "WEDNESDAY",
               "Wine Wednesday | All Day",
               "50% off 1/2 Liter & Liter pours of house wines"
             ],
-            "summary": "Wine Wednesday: 50% off 1/2 Liter & Liter pours",
+            "summary": "Wine Wednesday: 50% off 1/2 Liter & Liter house wines",
             "time_window": "All Day",
             "valid_through": null
           }
@@ -59685,45 +60041,6 @@
         "static_deals": [
           {
             "ai_confidence": 0.95,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food",
-              "general"
-            ],
-            "details": [
-              "Join Pizza Club for free via the app",
-              "Redeem a free featured pizza of the month on dine-in visits",
-              "Requires a $100+ spend"
-            ],
-            "source_evidence": [
-              "Join Pizza Club (it\u2019s free). Every month, members can redeem a free featured \u201cpizza of the month\u201d on dine-in visits ($100+)."
-            ],
-            "summary": "Free Pizza of the Month for Pizza Club Members",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food",
-              "general"
-            ],
-            "details": [
-              "Order pizza through the app to earn ten punches",
-              "Work toward an eleventh pizza for free"
-            ],
-            "source_evidence": [
-              "Order pizza, earn ten punches, and work toward an eleventh pizza for free."
-            ],
-            "summary": "Free Eleventh Pizza with Punch Card",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
             "applies_days": [
               "monday",
               "tuesday",
@@ -59738,7 +60055,8 @@
               "food"
             ],
             "details": [
-              "Requires purchase of any food item"
+              "Valid with purchase of any food item",
+              "Applies to draft wine & beer"
             ],
             "source_evidence": [
               "HAPPY HOUR",
@@ -59746,57 +60064,13 @@
               "Friday & Saturday 8:30pm - 10pm",
               "$2 off draft wine & beer with purchase of any food item"
             ],
-            "summary": "$2 off draft wine & beer during Happy Hour",
+            "summary": "Happy Hour: $2 off draft wine & beer",
             "time_window": "Monday - Thursday 3pm - 5pm, Friday & Saturday 8:30pm - 10pm",
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [
-              "monday"
-            ],
-            "applies_month_days": [],
-            "categories": [
-              "drink",
-              "food"
-            ],
-            "details": [
-              "Full pours of beer & seltzers for only $6",
-              "Requires purchase of food item"
-            ],
-            "source_evidence": [
-              "MONDAY",
-              "$6 Pints | All Day",
-              "Full Pours of beer & seltzers for only $6 with purchase of food item!"
-            ],
-            "summary": "$6 Pints on Mondays",
-            "time_window": "All Day",
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [
-              "wednesday"
-            ],
-            "applies_month_days": [],
-            "categories": [
-              "drink"
-            ],
-            "details": [
-              "50% off 1/2 Liter & Liter pours of house wines"
-            ],
-            "source_evidence": [
-              "WEDNESDAY",
-              "Wine Wednesday | All Day",
-              "50% off 1/2 Liter & Liter pours of house wines"
-            ],
-            "summary": "50% off house wines on Wine Wednesday",
-            "time_window": "All Day",
             "valid_through": null
           }
         ]
       },
-      "url": "https://beachwoodpizza.com/deals"
+      "url": "https://beachwoodpizza.com/dailyspecials"
     },
     {
       "city": "Huntington Beach",
@@ -59867,102 +60141,80 @@
               "general"
             ],
             "details": [
-              "Join Pizza Club for free via the app",
-              "Redeem a free featured pizza of the month on dine-in visits of $100 or more"
+              "Join free Pizza Club on the app",
+              "Redeem a free featured pizza of the month",
+              "Requires dine-in visit with $100+ spend"
             ],
             "source_evidence": [
               "Every month, members can redeem a free featured \u201cpizza of the month\u201d on dine-in visits ($100+)."
             ],
-            "summary": "Free Pizza of the Month for Pizza Club members on dine-in visits ($100+)",
+            "summary": "Free pizza of the month for Pizza Club members on dine-in visits ($100+)",
             "time_window": null,
             "valid_through": null
-          }
-        ]
-      },
-      "url": "https://beachwoodpizza.com/happy-hour"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
-        "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=15543086224621872833&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "15:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "11:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "15:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "15:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "15:00"
-            }
-          ]
-        },
-        "latitude": 33.7166198,
-        "longitude": -118.03861239999999,
-        "phone": "(657) 301-2063",
-        "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc"
-      },
-      "name": "Beachwood Pizza & Beer",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
+          },
           {
             "ai_confidence": 0.95,
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
               "food",
+              "general"
+            ],
+            "details": [
+              "Order pizza in the app to earn ten punches",
+              "Work toward an eleventh pizza for free"
+            ],
+            "source_evidence": [
+              "Order pizza, earn ten punches, and work toward an eleventh pizza for free."
+            ],
+            "summary": "Earn an eleventh pizza for free after ten punches on the Pizza Punch Card",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.98,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "drink",
+              "food"
+            ],
+            "details": [
+              "Full pours of beer & seltzers for only $6",
+              "Requires purchase of food item"
+            ],
+            "source_evidence": [
+              "$6 Pints | All Day",
+              "Full Pours of beer & seltzers for only $6 with purchase of food item!"
+            ],
+            "summary": "$6 pints of beer & seltzers all day Monday",
+            "time_window": "All Day",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.98,
+            "applies_days": [
+              "wednesday"
+            ],
+            "applies_month_days": [],
+            "categories": [
               "drink"
             ],
             "details": [
-              "Requires purchase of any food item",
-              "Happy hour times: Monday - Thursday 3pm - 5pm and Friday & Saturday 8:30pm - 10pm"
+              "Wine Wednesday all day",
+              "50% off 1/2 Liter & Liter pours of house wines"
             ],
             "source_evidence": [
-              "$2 off draft wine & beer with purchase of any food item"
+              "Wine Wednesday | All Day",
+              "50% off 1/2 Liter & Liter pours of house wines"
             ],
-            "summary": "$2 off draft wine & beer during Happy Hour",
-            "time_window": null,
+            "summary": "50% off 1/2 Liter & Liter pours of house wines on Wednesday",
+            "time_window": "All Day",
             "valid_through": null
           }
         ]
       },
-      "url": "https://beachwoodpizza.com/specials"
+      "url": "https://beachwoodpizza.com/happy-hour"
     },
     {
       "city": "Costa Mesa",
@@ -60492,12 +60744,12 @@
               "food"
             ],
             "details": [
-              "Buy one get one free Gnocchi"
+              "Buy one gnocchi, get one free on the 29th of every month"
             ],
             "source_evidence": [
               "Every 29th of the month is Gnocchi Day, buy one get one free!"
             ],
-            "summary": "Gnocchi Day BOGO on the 29th of every month",
+            "summary": "Gnocchi Day BOGO: Buy one, get one free",
             "time_window": null,
             "valid_through": null
           },
@@ -60511,7 +60763,6 @@
               "food"
             ],
             "details": [
-              "Buy one get one free pizza",
               "Free pizza will be the lessor price"
             ],
             "source_evidence": [
@@ -60520,7 +60771,7 @@
               "(Free pizza will be the lessor price)",
               "11:00 AM - 08:00 PM"
             ],
-            "summary": "Pizza BOGO - Buy one, get one free",
+            "summary": "Pizza BOGO: Buy one, get one free",
             "time_window": "11:00 AM - 08:00 PM",
             "valid_through": null
           }
@@ -60589,7 +60840,7 @@
         "ai_extracted": true,
         "static_deals": [
           {
-            "ai_confidence": 1.0,
+            "ai_confidence": 0.95,
             "applies_days": [
               "monday",
               "tuesday",
@@ -60611,14 +60862,14 @@
               "Dine-in and bar area only"
             ],
             "source_evidence": [
-              "Casa de Onda Weekday Happy Hour flyer - Monday through Friday 4pm to 6pm. Casa Margarita $10, Onda Nachos $9.",
+              "Monday through Friday, 4:00 to 6:00 pm",
               "Casa Margarita \u2014 $10",
               "La Crema Chardonnay \u2014 $9",
               "Starmont Cabernet \u2014 $9",
               "Elote Corn Riblets \u2014 $10"
             ],
             "summary": "Onda Hour Happy Hour: Drinks and Bites from $9 to $10",
-            "time_window": "16:00-18:00",
+            "time_window": "Mon-Fri, 4:00pm-6pm:00 pm",
             "valid_through": null
           }
         ]
@@ -62271,10 +62522,11 @@
               "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
             ],
             "source_evidence": [
-              "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95"
+              "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95.",
+              "11:00 AM - 03:00 PM"
             ],
-            "summary": "Lunch Specials starting at $13.95",
-            "time_window": null,
+            "summary": "Lunch Specials: Pizza/Pasta or Bottomless Soup with Half Salad $15.25",
+            "time_window": "11:00 AM - 03:00 PM",
             "valid_through": null
           },
           {
@@ -62292,10 +62544,11 @@
               "Cocktails and Martinis $8.00"
             ],
             "source_evidence": [
-              "Happy Hour $4.00 to $8.00 from 3 to 6! Pizza and Appetizers $8.00. Bottle beers start at $4.00. Wine and Well Drinks $7.00, Cocktails and Martinis $8.00."
+              "Happy Hour $4.00 to $8.00 from 3 to 6! Pizza and Appetizers $8.00. Bottle beers start at $4.00. Wine and Well Drinks $7.00, Cocktails and Martinis $8.00.",
+              "03:00 PM - 06:00 PM"
             ],
-            "summary": "Happy Hour specials $4.00 to $8.00",
-            "time_window": null,
+            "summary": "Happy Hour: Pizza, Appetizers, Drinks $4.00 to $8.00",
+            "time_window": "03:00 PM - 06:00 PM",
             "valid_through": null
           }
         ]
@@ -62370,16 +62623,15 @@
               "food"
             ],
             "details": [
-              "Pizza or Pasta with your choice of soup or salad for $15.25",
-              "Bottomless soup with any half salad for $15.25",
+              "Pizza or Pasta with your choice of soup or salad $15.25",
+              "Bottomless soup with any half salad $15.25",
               "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
             ],
             "source_evidence": [
-              "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95",
-              "11:00 AM - 03:00 PM"
+              "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95"
             ],
-            "summary": "Lunch Specials starting at $13.95 to $15.25",
-            "time_window": "11:00 AM - 03:00 PM",
+            "summary": "Lunch Specials: Pizza or Pasta, Sandwiches and Burgers from $13.95",
+            "time_window": null,
             "valid_through": null
           },
           {
@@ -62397,16 +62649,15 @@
               "Cocktails and Martinis $8.00"
             ],
             "source_evidence": [
-              "Happy Hour $4.00 to $8.00 from 3 to 6! Pizza and Appetizers $8.00. Bottle beers start at $4.00. Wine and Well Drinks $7.00, Cocktails and Martinis $8.00.",
-              "03:00 PM - 06:00 PM"
+              "Happy Hour $4.00 to $8.00 from 3 to 6! Pizza and Appetizers $8.00. Bottle beers start at $4.00. Wine and Well Drinks $7.00, Cocktails and Martinis $8.00."
             ],
-            "summary": "Happy Hour drinks and food specials from $4.00 to $8.00",
-            "time_window": "03:00 PM - 06:00 PM",
+            "summary": "Happy Hour: Pizza, Apps, Beer, Wine & Cocktails $4.00 to $8.00",
+            "time_window": null,
             "valid_through": null
           }
         ]
       },
-      "url": "http://finbarsitalian.com/weekday-specials"
+      "url": "http://finbarsitalian.com/specials"
     },
     {
       "city": "Costa Mesa",
@@ -63532,9 +63783,9 @@
               "food"
             ],
             "details": [
-              "IKEA Family price",
-              "Discount applied at checkout",
-              "While supplies last"
+              "Valid for kids meals",
+              "Offer valid thru 9/30",
+              "IKEA Family price"
             ],
             "source_evidence": [
               "Kids eat free every Wednesday thru 9/30"
@@ -63615,14 +63866,14 @@
               "food"
             ],
             "details": [
-              "Six ounces of penne pasta served with your choice of plant or traditional Swedish meatballs",
-              "Valid in-store only at IKEA Burbank, IKEA Carson, IKEA Costa Mesa, and IKEA Covina"
+              "Six ounces of penne pasta served with your choice of plant or traditional Swedish meatballs for $1.99.",
+              "Valid in-store only at IKEA Burbank, IKEA Carson, IKEA Costa Mesa, and IKEA Covina."
             ],
             "source_evidence": [
               "Lunch or dinner for just $1.99*",
               "Six ounces of penne pasta served with your choice of plant or traditional Swedish meatballs for $1.99."
             ],
-            "summary": "Penne pasta with plant or traditional Swedish meatballs for $1.99",
+            "summary": "Penne pasta with meatballs for $1.99",
             "time_window": null,
             "valid_through": null
           },
@@ -63636,13 +63887,14 @@
               "general"
             ],
             "details": [
-              "Look for items marked 'Textiles Tuesday' to score the deal in the As-is department"
+              "Shop select textiles priced at just $5 each.",
+              "Look for items marked \"Textiles Tuesday\" to score the deal."
             ],
             "source_evidence": [
               "Textiles Tuesdays:",
               "Every Tuesday, shop select textiles priced at just $5 each!"
             ],
-            "summary": "Select textiles priced at just $5 each on Tuesdays",
+            "summary": "Textiles Tuesdays: Select textiles for $5 each",
             "time_window": null,
             "valid_through": null
           },
@@ -63656,15 +63908,155 @@
               "general"
             ],
             "details": [
-              "Look for the tag labeled 'WOW Wednesday' in the As-is department"
+              "Each week, one select item will be marked 75% off.",
+              "Look for the tag labeled \"WOW Wednesday.\""
             ],
             "source_evidence": [
               "Wow Wednesdays:",
-              "Each week, one select item will be marked 75% off, just look for the tag labeled 'WOW Wednesday.'"
+              "Each week, one select item will be marked 75% off, just look for the tag labeled \"WOW Wednesday.\""
             ],
-            "summary": "One select item marked 75% off each week on Wednesdays",
+            "summary": "Wow Wednesdays: One select item 75% off",
             "time_window": null,
             "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "friday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "general"
+            ],
+            "details": [
+              "Shop our as-is department and scan your IKEA Family card at the checkout to save 10%."
+            ],
+            "source_evidence": [
+              "IKEA Family Fridays:",
+              "Shop our as-is department, scan your IKEA Family card at the checkout, and save 10%!"
+            ],
+            "summary": "IKEA Family Fridays: 10% off as-is department",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "general"
+            ],
+            "details": [
+              "Applies to all LILLES\u00c4TER sofas & accent chairs for IKEA Family members."
+            ],
+            "source_evidence": [
+              "15% off all LILLES\u00c4TER sofas & accent chairs thru 10/12*"
+            ],
+            "summary": "15% off all LILLES\u00c4TER sofas & accent chairs",
+            "time_window": null,
+            "valid_through": "2026-10-12"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "general"
+            ],
+            "details": [
+              "Applies to select STOCKHOLM sofas, sectionals & armchairs for IKEA Family members."
+            ],
+            "source_evidence": [
+              "15% off select STOCKHOLM sofas, sectionals & armchairs thru 10/12*"
+            ],
+            "summary": "15% off select STOCKHOLM sofas & armchairs",
+            "time_window": null,
+            "valid_through": "2026-10-12"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "general"
+            ],
+            "details": [
+              "Applies to select kitchen islands for IKEA Family members."
+            ],
+            "source_evidence": [
+              "10% off select kitchen islands thru 10/12*"
+            ],
+            "summary": "10% off select kitchen islands",
+            "time_window": null,
+            "valid_through": "2026-10-12"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "general"
+            ],
+            "details": [
+              "Applies to select baby cribs, kids beds & mattresses for IKEA Family members."
+            ],
+            "source_evidence": [
+              "20% off select baby cribs, kids beds & mattresses thru 10/12*"
+            ],
+            "summary": "20% off select baby cribs, kids beds & mattresses",
+            "time_window": null,
+            "valid_through": "2026-10-12"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "general"
+            ],
+            "details": [
+              "Applies to select KUSTFYR Halloween collection items for IKEA Family members."
+            ],
+            "source_evidence": [
+              "20% off select KUSTFYR Halloween collection thru 10/12*"
+            ],
+            "summary": "20% off select KUSTFYR Halloween collection",
+            "time_window": null,
+            "valid_through": "2026-10-12"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "general"
+            ],
+            "details": [
+              "Applies to select mirrors for IKEA Family members, in-store only."
+            ],
+            "source_evidence": [
+              "25% off select mirrors (in-store only) thru 10/12*"
+            ],
+            "summary": "25% off select mirrors (in-store only)",
+            "time_window": null,
+            "valid_through": "2026-10-12"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "general"
+            ],
+            "details": [
+              "IKEA Family members get 10% off purchases of $3,000+ on SEKTION kitchens, countertops and select appliances."
+            ],
+            "source_evidence": [
+              "IKEA Family members get 10% off purchases of $3,000+ on SEKTION kitchens, countertops and select appliances now through 10/27/26."
+            ],
+            "summary": "10% off SEKTION kitchens, countertops and select appliances",
+            "time_window": null,
+            "valid_through": "2026-10-27"
           },
           {
             "ai_confidence": 0.95,
@@ -63676,13 +64068,13 @@
               "food"
             ],
             "details": [
-              "IKEA Family members enjoy free kids\u2019 meals on Wednesdays only at the IKEA Swedish Restaurant"
+              "IKEA Family members enjoy free kids\u2019 meals on Wednesdays only at the IKEA Swedish Restaurant."
             ],
             "source_evidence": [
               "Kids eat free on Wednesdays",
               "Delicious, fun and free! IKEA Family members enjoy free kids\u2019 meals on Wednesdays only at the IKEA Swedish Restaurant. Now thru 9/30."
             ],
-            "summary": "Free kids' meals for IKEA Family members on Wednesdays thru 9/30",
+            "summary": "Free kids\u2019 meals on Wednesdays for IKEA Family",
             "time_window": null,
             "valid_through": "2026-09-30"
           }
@@ -65663,126 +66055,30 @@
             ],
             "applies_month_days": [],
             "categories": [
-              "food",
-              "drink"
+              "food"
             ],
             "details": [
               "Includes Shishito pepper Tempura, Fried Calamari, Jalapeno Bomb, White Fish Tempura, Crispy Rice With Spicy Tuna, and Stuffed Mushroom",
-              "Dine in only",
-              "Take-out is regular price",
-              "Last call for Happy Hour 5.15 pm",
-              "Any substitution gluten free or Special request can not be part of the Happy Hour offer",
+              "Dine in Only",
+              "Take-out is Regular Price",
+              "Last call for Happy Hour 5:15 pm",
+              "Any substitution gluten free or Special request cannot be part of the Happy Hour offer",
               "Happy Hour offer cannot be combined with any other offer"
             ],
             "source_evidence": [
-              "Happy",
               "MONDAY - THURSDAY",
               "(Dine in Only)",
               "Last call for Happy Hour 5.15 pm",
-              "7$"
+              "7$",
+              "APPETIZER"
             ],
-            "summary": "Happy Hour Appetizers for $7 each",
-            "time_window": "Until 5:15 PM last call",
+            "summary": "Happy Hour Appetizers for $7",
+            "time_window": "Until 5:15 pm",
             "valid_through": null
           }
         ]
       },
       "url": "http://sushiryokan2go.com/daily-specials"
-    },
-    {
-      "city": "Seal Beach",
-      "location": {
-        "address": "1013 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=11564144298036452355&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:30",
-              "open": "11:30"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:30",
-              "open": "11:30"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:30",
-              "open": "11:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "20:30",
-              "open": "15:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "20:30",
-              "open": "11:30"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:30",
-              "open": "11:30"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "20:30",
-              "open": "11:30"
-            }
-          ]
-        },
-        "latitude": 33.7446609,
-        "longitude": -118.1011443,
-        "phone": "(562) 598-8283",
-        "place_id": "ChIJm7a2TeUv3YARA1zSN_gXfKA"
-      },
-      "name": "Sushi Ryokan",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [
-              "monday",
-              "tuesday",
-              "wednesday",
-              "thursday"
-            ],
-            "applies_month_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Includes Shishito pepper Tempura, Fried Calamari, Jalapeno Bomb, White Fish Tempura, Crispy Rice With Spicy Tuna, and Stuffed Mushroom",
-              "Dine in only",
-              "Take-out is regular price",
-              "Last call for Happy Hour 5.15 pm",
-              "Any substitution gluten free or Special request can not be part of the Happy Hour offer",
-              "Happy Hour offer cannot be combined with any other offer"
-            ],
-            "source_evidence": [
-              "MONDAY - THURSDAY",
-              "Last call for Happy Hour 5.15 pm",
-              "7$",
-              "APPETIZER",
-              "Shishito pepper Tempura"
-            ],
-            "summary": "Happy Hour Appetizers for $7 each",
-            "time_window": "Until 5:15 PM last call",
-            "valid_through": null
-          }
-        ]
-      },
-      "url": "http://sushiryokan2go.com/weekday-specials"
     },
     {
       "city": "Seal Beach",
@@ -66136,21 +66432,19 @@
             ],
             "applies_month_days": [],
             "categories": [
-              "drink",
-              "food"
+              "drink"
             ],
             "details": [
-              "All Signature Cocktails, Wines by the Glass, and Beer are $2 OFF",
-              "Only available in the Trenta Lounge"
+              "Only available in the Trenta Lounge",
+              "$2 OFF All Signature Cocktails, Wines by the Glass, and Beer"
             ],
             "source_evidence": [
-              "Monday through Thursday",
-              "From 5 to 6:30pm",
+              "Monday \u2013 Thursday",
+              "5 to 6:30 pm",
               "All Signature Cocktails, Wines by the Glass, and Beer",
-              "$2 OFF",
-              "Only Available in the Trenta Lounge"
+              "$2 OFF"
             ],
-            "summary": "Happy Hour: $2 off drinks",
+            "summary": "Happy Hour: $2 OFF All Signature Cocktails, Wines by the Glass, and Beer",
             "time_window": "5:00 PM \u2013 6:30 PM",
             "valid_through": null
           },
@@ -66163,15 +66457,15 @@
             ],
             "details": [
               "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
-              "Only available in the Trenta Lounge"
+              "Only available in the Trenta Lounge",
+              "Price: $20"
             ],
             "source_evidence": [
               "CHARCUTERIE",
               "Assorted selection of three meats and three cheeses imported from Italy. Served with honey, almonds, berries, crostini.",
-              "$20",
-              "Only Available in the Trenta Lounge"
+              "$20"
             ],
-            "summary": "Happy Hour Charcuterie for $20",
+            "summary": "Charcuterie Happy Hour Special for $20",
             "time_window": null,
             "valid_through": null
           },
@@ -66184,15 +66478,15 @@
             ],
             "details": [
               "Fried Calamari/lemon/garlic-chili aioli",
-              "Only available in the Trenta Lounge"
+              "Only available in the Trenta Lounge",
+              "Price: $18"
             ],
             "source_evidence": [
               "CALAMARI FRITTI",
               "Fried Calamari/lemon/garlic-chili aioli",
-              "$18",
-              "Only Available in the Trenta Lounge"
+              "$18"
             ],
-            "summary": "Happy Hour Calamari Fritti for $18",
+            "summary": "Calamari Fritti Happy Hour Special for $18",
             "time_window": null,
             "valid_through": null
           },
@@ -66205,15 +66499,15 @@
             ],
             "details": [
               "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
-              "Only available in the Trenta Lounge"
+              "Only available in the Trenta Lounge",
+              "Price: $12"
             ],
             "source_evidence": [
               "CANNOLO SALATO",
               "Pastry shell stuffed with Cream Cheese, Salmon, lemon zest and Pistacchio",
-              "$12",
-              "Only Available in the Trenta Lounge"
+              "$12"
             ],
-            "summary": "Happy Hour Cannolo Salato for $12",
+            "summary": "Cannolo Salato Happy Hour Special for $12",
             "time_window": null,
             "valid_through": null
           },
@@ -66226,15 +66520,15 @@
             ],
             "details": [
               "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
-              "Only available in the Trenta Lounge"
+              "Only available in the Trenta Lounge",
+              "Price: $10"
             ],
             "source_evidence": [
               "BRUSCHETTA TRADIZIONALE",
               "Crostini/ricotta cheese/heirloom tomatoes/basil/garlic/olive oil",
-              "$10",
-              "Only Available in the Trenta Lounge"
+              "$10"
             ],
-            "summary": "Happy Hour Bruschetta Tradizionale for $10",
+            "summary": "Bruschetta Tradizionale Happy Hour Special for $10",
             "time_window": null,
             "valid_through": null
           }
@@ -66332,23 +66626,22 @@
             ],
             "applies_month_days": [],
             "categories": [
-              "drink",
-              "food"
+              "drink"
             ],
             "details": [
-              "Applies to All Signature Cocktails, Wines by the Glass, and Beer",
+              "All Signature Cocktails, Wines by the Glass, and Beer",
               "$2 OFF",
               "Only available in the Trenta Lounge"
             ],
             "source_evidence": [
-              "Monday \u2013 Thursday",
-              "5 to 6:30 pm",
+              "Monday through Thursday",
+              "From 5 to 6:30pm",
               "All Signature Cocktails, Wines by the Glass, and Beer",
               "$2 OFF"
             ],
-            "summary": "Happy Hour: $2 off all signature cocktails, wines by the glass, and beer",
+            "summary": "Happy Hour: $2 off drinks",
             "time_window": "5:00 PM \u2013 6:30 PM",
-            "valid_through": null
+            "valid_through": "2027-02-16"
           },
           {
             "ai_confidence": 0.95,
@@ -66373,9 +66666,9 @@
               "CHARCUTERIE",
               "$20"
             ],
-            "summary": "Happy Hour Charcuterie for $20",
+            "summary": "Happy Hour Appetizers: Charcuterie $20",
             "time_window": "5:00 PM \u2013 6:30 PM",
-            "valid_through": null
+            "valid_through": "2027-02-16"
           },
           {
             "ai_confidence": 0.95,
@@ -66400,9 +66693,9 @@
               "CALAMARI FRITTI",
               "$18"
             ],
-            "summary": "Happy Hour Calamari Fritti for $18",
+            "summary": "Happy Hour Appetizers: Calamari Fritti $18",
             "time_window": "5:00 PM \u2013 6:30 PM",
-            "valid_through": null
+            "valid_through": "2027-02-16"
           },
           {
             "ai_confidence": 0.95,
@@ -66427,9 +66720,9 @@
               "CANNOLO SALATO",
               "$12"
             ],
-            "summary": "Happy Hour Cannolo Salato for $12",
+            "summary": "Happy Hour Appetizers: Cannolo Salato $12",
             "time_window": "5:00 PM \u2013 6:30 PM",
-            "valid_through": null
+            "valid_through": "2027-02-16"
           },
           {
             "ai_confidence": 0.95,
@@ -66454,9 +66747,9 @@
               "BRUSCHETTA TRADIZIONALE",
               "$10"
             ],
-            "summary": "Happy Hour Bruschetta Tradizionale for $10",
+            "summary": "Happy Hour Appetizers: Bruschetta Tradizionale $10",
             "time_window": "5:00 PM \u2013 6:30 PM",
-            "valid_through": null
+            "valid_through": "2027-02-16"
           }
         ]
       },
@@ -67618,6 +67911,93 @@
     {
       "city": "Huntington Beach",
       "location": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
+      },
+      "name": "Wienerschnitzel",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Price is $3",
+              "Original Pretzel Bun Chili Dog only",
+              "Cheese extra",
+              "Coupon good for TWO orders on same visit",
+              "Must be surrendered at time of purchase",
+              "Tax extra"
+            ],
+            "source_evidence": [
+              "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
+              "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
+            ],
+            "summary": "$3 Pretzel Bun Chili Dog",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
         "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
         "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
@@ -67708,57 +68088,57 @@
     {
       "city": "Huntington Beach",
       "location": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "hours": {
           "friday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "monday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "saturday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "sunday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "thursday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "tuesday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "wednesday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ]
         },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
       },
       "name": "Wienerschnitzel",
       "notes": "AI-extracted from an official restaurant page; source evidence checked",
@@ -67770,27 +68150,29 @@
             "applies_days": [],
             "applies_month_days": [],
             "categories": [
-              "food"
+              "food",
+              "drink"
             ],
             "details": [
-              "Price is $3",
-              "Original Pretzel Bun Chili Dog only",
-              "Cheese extra",
-              "Coupon good for TWO orders on same visit",
+              "Price: $5",
+              "Includes a corn dog, small fries, and a small soda",
+              "Coupon good for two orders on the same visit",
+              "Tax extra",
               "Must be surrendered at time of purchase",
-              "Tax extra"
+              "Not valid with any other offer, discount or coupon",
+              "Not valid in Sacramento, Stockton & Modesto areas"
             ],
             "source_evidence": [
-              "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
-              "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
+              "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+              "$5 - Corn Dog, Small Fries and Small Soda - 251"
             ],
-            "summary": "$3 Pretzel Bun Chili Dog",
+            "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
             "time_window": null,
             "valid_through": null
           }
         ]
       },
-      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+      "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
     },
     {
       "city": "Westminster",
@@ -67875,95 +68257,6 @@
               "$5 Corn Dog, Small Fries & Small Soda Coupon"
             ],
             "summary": "$5 Corn Dog, Small Fries and Small Soda Coupon",
-            "time_window": null,
-            "valid_through": null
-          }
-        ]
-      },
-      "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
-        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.7009621,
-        "longitude": -117.9886627,
-        "phone": "(714) 596-0478",
-        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
-      },
-      "name": "Wienerschnitzel",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "applies_month_days": [],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "Price: $5",
-              "Includes a corn dog, small fries, and a small soda",
-              "Coupon good for two orders on the same visit",
-              "Tax extra",
-              "Must be surrendered at time of purchase",
-              "Not valid with any other offer, discount or coupon",
-              "Not valid in Sacramento, Stockton & Modesto areas"
-            ],
-            "source_evidence": [
-              "$5 - Corn Dog, Small Fries and Small Soda Coupon",
-              "$5 - Corn Dog, Small Fries and Small Soda - 251"
-            ],
-            "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
             "time_window": null,
             "valid_through": null
           }
@@ -69759,7 +70052,7 @@
         "ai_extracted": true,
         "static_deals": [
           {
-            "ai_confidence": 0.95,
+            "ai_confidence": 0.9,
             "applies_days": [
               "monday",
               "tuesday",
@@ -69770,17 +70063,17 @@
             "applies_month_days": [],
             "categories": [
               "food",
-              "drink",
-              "general"
+              "drink"
             ],
             "details": [
-              "Available Monday to Friday from 4 to 6pm."
+              "Available Monday through Friday",
+              "Time window from 4pm to 6pm"
             ],
             "source_evidence": [
               "Mon\u2013Fri, 4\u20136pm",
               "Happy hour in Costa Mesa... Monday to Friday, 4 to 6pm."
             ],
-            "summary": "Happy Hour Mon-Fri 4-6pm",
+            "summary": "Happy Hour: Monday to Friday from 4pm to 6pm",
             "time_window": "Happy hour in Costa Mesa... Mon-Fri, 4 to 6pm.",
             "valid_through": null
           },
@@ -69795,16 +70088,16 @@
               "drink"
             ],
             "details": [
-              "Tacos from $4, $10 margaritas, DJ at 7pm.",
-              "Ground beef $4, Smoked pork belly $4, Fish $6, Sirloin $7, Lobster $8, Birria $8.",
-              "$6 Modelo and $10 Casa Margarita all day."
+              "Tacos starting at $4 all day",
+              "$10 margaritas all day",
+              "DJ starts at 7pm",
+              "Taco varieties include birria, sirloin, lobster, fish, smoked pork belly, and ground beef"
             ],
             "source_evidence": [
               "Tuesdays all day \u2014 tacos from $4, $10 margaritas, DJ at 7pm",
-              "Ground beef $4 \u00b7 Smoked pork belly $4 \u00b7 Fish $6 \u00b7 Sirloin $7 \u00b7 Lobster $8 \u00b7 Birria $8",
-              "$6 Modelo and $10 Casa Margarita all day."
+              "Tulum Tuesday. Tacos starting at $4, all day."
             ],
-            "summary": "Tulum Tuesdays Tacos from $4 and $10 Margaritas",
+            "summary": "Tulum Tuesdays: Tacos starting at $4 and $10 margaritas all day",
             "time_window": "all day",
             "valid_through": null
           }
@@ -71346,6 +71639,231 @@
         ]
       },
       "url": "http://finbarsitalian.com/"
+    },
+    {
+      "city": "Seal Beach",
+      "location": {
+        "address": "1041 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=693466324176653806&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7445792,
+        "longitude": -118.10073279999999,
+        "phone": "(562) 346-2277",
+        "place_id": "ChIJW1vaY-Qv3YAR7s0-nPKvnwk"
+      },
+      "name": "Finbars Italian Kitchen",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "wednesday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Pizza or Pasta with your choice of soup or salad for $15.25",
+              "Bottomless soup with any half salad for $15.25",
+              "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
+            ],
+            "source_evidence": [
+              "Wednesday",
+              "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95.",
+              "11:00 AM - 03:00 PM"
+            ],
+            "summary": "Wednesday Lunch Specials $13.95 to $15.25",
+            "time_window": "11:00 AM - 03:00 PM",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "thursday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Pizza or Pasta with your choice of soup or salad for $15.25",
+              "Bottomless soup with any half salad for $15.25",
+              "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
+            ],
+            "source_evidence": [
+              "Thursday",
+              "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95.",
+              "11:00 AM - 03:00 PM"
+            ],
+            "summary": "Thursday Lunch Specials $13.95 to $15.25",
+            "time_window": "11:00 AM - 03:00 PM",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "friday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Pizza or Pasta with your choice of soup or salad for $15.25",
+              "Bottomless soup with any half salad for $15.25",
+              "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
+            ],
+            "source_evidence": [
+              "Friday",
+              "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95",
+              "11:00 AM - 03:00 PM"
+            ],
+            "summary": "Friday Lunch Specials $13.95 to $15.25",
+            "time_window": "11:00 AM - 03:00 PM",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "saturday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Pizza or Pasta with your choice of soup or salad for $15.25",
+              "Bottomless soup with any half salad for $15.25",
+              "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
+            ],
+            "source_evidence": [
+              "Saturday",
+              "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95. WE WILL BE CLOSED ON JULY4th INDEPENDENCE DAY.",
+              "11:00 AM - 03:00 PM"
+            ],
+            "summary": "Saturday Lunch Specials $13.95 to $15.25",
+            "time_window": "11:00 AM - 03:00 PM",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "sunday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Pizza or Pasta with your choice of soup or salad for $15.25",
+              "Bottomless soup with any half salad for $15.25",
+              "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
+            ],
+            "source_evidence": [
+              "Sunday",
+              "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95.",
+              "11:00 AM - 03:00 PM"
+            ],
+            "summary": "Sunday Lunch Specials $13.95 to $15.25",
+            "time_window": "11:00 AM - 03:00 PM",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Pizza or Pasta with your choice of soup or salad for $15.25",
+              "Bottomless soup with any half salad for $15.25",
+              "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
+            ],
+            "source_evidence": [
+              "Monday",
+              "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95.",
+              "11:00 AM - 03:00 PM"
+            ],
+            "summary": "Monday Lunch Specials $13.95 to $15.25",
+            "time_window": "11:00 AM - 03:00 PM",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "tuesday"
+            ],
+            "applies_month_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Pizza or Pasta with your choice of soup or salad for $15.25",
+              "Bottomless soup with any half salad for $15.25",
+              "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
+            ],
+            "source_evidence": [
+              "Tuesday",
+              "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95",
+              "11:00 AM - 03:00 PM"
+            ],
+            "summary": "Tuesday Lunch Specials $13.95 to $15.25",
+            "time_window": "11:00 AM - 03:00 PM",
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "http://finbarsitalian.com/happy-hours-specials"
     },
     {
       "city": "Huntington Beach",
@@ -77166,19 +77684,19 @@
     }
   ],
   "summary": {
-    "candidate_pages": 477,
-    "failed_pages": 36,
+    "candidate_pages": 478,
+    "failed_pages": 53,
     "pending_pages": 2,
-    "processed_pages": 439,
-    "published_deals": 335,
-    "published_sources": 158,
+    "processed_pages": 423,
+    "published_deals": 347,
+    "published_sources": 157,
     "render_attempts": 8,
     "rendered_pages": 1,
     "reported_pages": 0,
-    "visual_assets_checked": 10,
+    "visual_assets_checked": 11,
     "visual_attempts": 4,
     "visual_cache_hits": 0,
-    "visual_candidates": 143,
+    "visual_candidates": 141,
     "visual_deals": 17,
     "visual_pages": 7
   }

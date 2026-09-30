@@ -1,7 +1,651 @@
 {
-  "generated_at": "2026-09-29T19:43:39Z",
+  "generated_at": "2026-09-30T19:42:38Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Kids eat free every Wednesday IKEA Family price Discount applied at checkout While supplies last",
+      "canonical_id": "3b1a3aaf24bb290a",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "IKEA Family price",
+        "Discount applied at checkout",
+        "While supplies last"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "b17500b8e0617e2c",
+      "is_stale": true,
+      "last_seen": "2026-09-29T19:43:39Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 93,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-09-30T19:42:38Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Kids eat free every Wednesday thru 9/30"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/offers/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Kids eat free every Wednesday",
+      "tags": [
+        "weekday_special",
+        "free",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-30",
+      "validity": "Wed",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "15% off all LILLES\u00c4TER sofas and accent chairs Applies to all LILLES\u00c4TER sofas and accent chairs",
+      "canonical_id": "4f49aa7132937682",
+      "categories": [
+        "general"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 6,
+      "details": [
+        "Applies to all LILLES\u00c4TER sofas and accent chairs"
+      ],
+      "first_seen": "2026-09-23T18:43:16Z",
+      "id": "8ca9bfb44de602ca",
+      "is_stale": true,
+      "last_seen": "2026-09-24T18:49:21Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 75,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-09-30T19:42:38Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "15% off all LILLES\u00c4TER sofas & accent chairs thru 10/12*"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "15% off all LILLES\u00c4TER sofas and accent chairs",
+      "tags": [
+        "percent_off"
+      ],
+      "time_window": null,
+      "valid_through": "2026-10-12",
+      "validity": "Check source",
+      "value_label": "15% off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "10% off select kitchen islands Applies to select kitchen islands",
+      "canonical_id": "81ab35d0779cb7ab",
+      "categories": [
+        "general"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 6,
+      "details": [
+        "Applies to select kitchen islands"
+      ],
+      "first_seen": "2026-09-23T18:43:16Z",
+      "id": "b21542dc51f4266c",
+      "is_stale": true,
+      "last_seen": "2026-09-24T18:49:21Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 75,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-09-30T19:42:38Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "10% off select kitchen islands thru 10/12*"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "10% off select kitchen islands",
+      "tags": [
+        "percent_off"
+      ],
+      "time_window": null,
+      "valid_through": "2026-10-12",
+      "validity": "Check source",
+      "value_label": "10% off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "20% off select baby cribs, kids beds & mattresses Applies to select baby cribs, kids beds and mattresses",
+      "canonical_id": "4577c5e994225258",
+      "categories": [
+        "general"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 6,
+      "details": [
+        "Applies to select baby cribs, kids beds and mattresses"
+      ],
+      "first_seen": "2026-09-23T18:43:16Z",
+      "id": "5448416ed1b75b1c",
+      "is_stale": true,
+      "last_seen": "2026-09-24T18:49:21Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 75,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-09-30T19:42:38Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "20% off select baby cribs, kids beds & mattresses thru 10/12*"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "20% off select baby cribs, kids beds & mattresses",
+      "tags": [
+        "percent_off"
+      ],
+      "time_window": null,
+      "valid_through": "2026-10-12",
+      "validity": "Check source",
+      "value_label": "20% off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "20% off select KUSTFYR Halloween collection Applies to select KUSTFYR Halloween collection items",
+      "canonical_id": "81fd311a81b7f3e4",
+      "categories": [
+        "general"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 6,
+      "details": [
+        "Applies to select KUSTFYR Halloween collection items"
+      ],
+      "first_seen": "2026-09-23T18:43:16Z",
+      "id": "57a32b058e1a0a02",
+      "is_stale": true,
+      "last_seen": "2026-09-24T18:49:21Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 75,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-09-30T19:42:38Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "20% off select KUSTFYR Halloween collection thru 10/12*"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "20% off select KUSTFYR Halloween collection",
+      "tags": [
+        "percent_off"
+      ],
+      "time_window": null,
+      "valid_through": "2026-10-12",
+      "validity": "Check source",
+      "value_label": "20% off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "25% off select mirrors (in-store only) Valid in-store only on select mirrors",
+      "canonical_id": "16e8620ab31e1fdd",
+      "categories": [
+        "general"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 6,
+      "details": [
+        "Valid in-store only on select mirrors"
+      ],
+      "first_seen": "2026-09-23T18:43:16Z",
+      "id": "a3b30397baf97af3",
+      "is_stale": true,
+      "last_seen": "2026-09-24T18:49:21Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 75,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-09-30T19:42:38Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "25% off select mirrors (in-store only) thru 10/12*"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "25% off select mirrors (in-store only)",
+      "tags": [
+        "percent_off"
+      ],
+      "time_window": null,
+      "valid_through": "2026-10-12",
+      "validity": "Check source",
+      "value_label": "25% off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Pizza BOGO - Buy one, get one free Buy one get one free pizza Free pizza will be the lessor price",
+      "canonical_id": "0331560da1da3d42",
+      "categories": [
+        "food"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Buy one get one free pizza",
+        "Free pizza will be the lessor price"
+      ],
+      "first_seen": "2026-09-24T18:49:21Z",
+      "id": "f14c96f7f5263d9a",
+      "is_stale": true,
+      "last_seen": "2026-09-29T19:43:39Z",
+      "location": {
+        "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=9498211700790055897&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7152463,
+        "longitude": -117.9758035,
+        "phone": "(714) 375-3305",
+        "place_id": "ChIJwddf-vwm3YAR2dMM2zdt0IM"
+      },
+      "quality_score": 90,
+      "restaurant": "Cambalache Grill Argentine & Italian Cuisine",
+      "retired_at": "2026-09-30T19:42:38Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Wednesday",
+        "Pizza Bogo- Buy one, get one free!",
+        "(Free pizza will be the lessor price)",
+        "11:00 AM - 08:00 PM"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cambalachegrill.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Pizza BOGO - Buy one, get one free",
+      "tags": [
+        "bogo",
+        "free"
+      ],
+      "time_window": "11:00 AM - 08:00 PM",
+      "valid_through": null,
+      "validity": "Wed, 11:00 AM - 08:00 PM",
+      "value_label": "BOGO"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
