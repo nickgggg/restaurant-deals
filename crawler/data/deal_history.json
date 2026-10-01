@@ -1,7 +1,103 @@
 {
-  "generated_at": "2026-09-30T19:42:38Z",
+  "generated_at": "2026-10-01T19:54:41Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Pizza BOGO: Buy one, get one free Free pizza will be the lessor price",
+      "canonical_id": "f14c96f7f5263d9a",
+      "categories": [
+        "food"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 1,
+      "details": [
+        "Free pizza will be the lessor price",
+        "Buy one gnocchi, get one free on the 29th of every month"
+      ],
+      "first_seen": "2026-09-24T18:49:21Z",
+      "id": "0331560da1da3d42",
+      "is_stale": true,
+      "last_seen": "2026-09-30T19:42:38Z",
+      "location": {
+        "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=9498211700790055897&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7152463,
+        "longitude": -117.9758035,
+        "phone": "(714) 375-3305",
+        "place_id": "ChIJwddf-vwm3YAR2dMM2zdt0IM"
+      },
+      "quality_score": 90,
+      "restaurant": "Cambalache Grill Argentine & Italian Cuisine",
+      "retired_at": "2026-10-01T19:54:41Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Wednesday",
+        "Pizza Bogo- Buy one, get one free!",
+        "(Free pizza will be the lessor price)",
+        "11:00 AM - 08:00 PM",
+        "Every 29th of the month is Gnocchi Day, buy one get one free!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cambalachegrill.com/daily-specials",
+      "source_urls": [
+        "http://www.cambalachegrill.com/daily-specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Pizza BOGO: Buy one, get one free",
+      "tags": [
+        "bogo",
+        "free"
+      ],
+      "time_window": "11:00 AM - 08:00 PM",
+      "valid_through": null,
+      "validity": "Wed, 11:00 AM - 08:00 PM",
+      "value_label": "BOGO"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
