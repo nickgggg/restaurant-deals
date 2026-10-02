@@ -89,6 +89,7 @@ VISUAL_NOISE = re.compile(
     re.I,
 )
 SUPPORTED_VISUAL_MIME = {"image/jpeg", "image/png", "image/webp", "image/gif", "application/pdf"}
+DIRECT_VISUAL_URL = re.compile(r"\.(?:jpe?g|png|webp|gif|pdf)(?:$|[?#])", re.I)
 
 
 class VisibleTextParser(HTMLParser):
@@ -301,8 +302,8 @@ def relevant_context(page_html: str) -> str:
 
 def visual_asset_candidates(page_url: str, page_html: str = "") -> list[dict[str, Any]]:
     parser = VisualAssetParser(page_url)
-    if re.search(r"\.pdf(?:$|[?#])", page_url, re.I):
-        parser.add(page_url, "Specials PDF")
+    if DIRECT_VISUAL_URL.search(page_url):
+        parser.add(page_url, "Direct specials image or PDF")
     if page_html:
         try:
             parser.feed(page_html)
@@ -1011,6 +1012,15 @@ def candidate_pages(inventory: dict[str, Any]) -> list[dict[str, Any]]:
 
 def fetch_candidate(candidate: dict[str, Any]) -> dict[str, Any]:
     page_url = candidate["page"]["url"]
+    if DIRECT_VISUAL_URL.search(page_url):
+        return {
+            **candidate,
+            "context": "",
+            "content_hash": "",
+            "fetch_mode": "visual_candidate",
+            "asset_candidates": visual_asset_candidates(page_url),
+            "needs_render": False,
+        }
     page_html = fetch_page(page_url)
     context = relevant_context(page_html)
     return {
@@ -1033,6 +1043,22 @@ def priority(candidate: dict[str, Any]) -> tuple[int, str, str]:
     else:
         rank = 2
     return rank, name.casefold(), candidate["page"]["url"]
+
+
+def rotating_render_queue(candidates: list[dict[str, Any]], today: date | None = None) -> list[dict[str, Any]]:
+    reported = sorted(
+        (item for item in candidates if item["page"].get("confidence") == "reported"),
+        key=priority,
+    )
+    ordinary = sorted(
+        (item for item in candidates if item["page"].get("confidence") != "reported"),
+        key=priority,
+    )
+    if not ordinary:
+        return reported
+    current_day = today or utc_now().date()
+    offset = (current_day.toordinal() * MAX_RENDERED_PAGES_PER_RUN) % len(ordinary)
+    return [*reported, *ordinary[offset:], *ordinary[:offset]]
 
 
 def visual_priority(candidate: dict[str, Any]) -> tuple[int, int, str, int, int, str, str]:
@@ -1142,11 +1168,11 @@ def main() -> int:
                         "fetch_error": f"{type(exc).__name__}: {exc}",
                         "fetch_mode": "static",
                         "asset_candidates": visual_asset_candidates(candidate["page"]["url"]),
-                        "needs_render": not re.search(r"\.pdf(?:$|[?#])", candidate["page"]["url"], re.I),
+                        "needs_render": not DIRECT_VISUAL_URL.search(candidate["page"]["url"]),
                     }
                 )
 
-    render_queue = sorted((item for item in fetched if item.get("needs_render")), key=priority)
+    render_queue = rotating_render_queue([item for item in fetched if item.get("needs_render")])
     for item in render_queue[:MAX_RENDERED_PAGES_PER_RUN]:
         item["render_attempted"] = True
         try:

@@ -202,6 +202,38 @@ class ExtractionTests(unittest.TestCase):
         self.assertEqual(assets[1]["url"], "https://example.com/images/tuesday-specials.jpg")
         self.assertLess(assets[-1]["score"], assets[1]["score"])
 
+    def test_direct_specials_image_enters_visual_queue_without_html_fetch(self) -> None:
+        url = "https://example.com/uploads/weekday-specials.jpg"
+        candidate = {
+            "key": "direct-image",
+            "restaurant": {"name": "Example Grill", "city": "Huntington Beach"},
+            "page": {"url": url, "confidence": "high"},
+        }
+
+        with patch.object(extract_with_gemini, "fetch_page") as fetch_page:
+            fetched = extract_with_gemini.fetch_candidate(candidate)
+
+        fetch_page.assert_not_called()
+        self.assertFalse(fetched["needs_render"])
+        self.assertEqual(fetched["fetch_mode"], "visual_candidate")
+        self.assertEqual(fetched["asset_candidates"][0]["url"], url)
+
+    def test_browser_render_queue_rotates_by_day(self) -> None:
+        candidates = [
+            {
+                "key": str(index),
+                "restaurant": {"name": f"Restaurant {index:02d}"},
+                "page": {"url": f"https://example.com/{index}", "confidence": "high"},
+            }
+            for index in range(10)
+        ]
+
+        first = extract_with_gemini.rotating_render_queue(candidates, date(2026, 10, 1))
+        second = extract_with_gemini.rotating_render_queue(candidates, date(2026, 10, 2))
+
+        self.assertEqual({item["key"] for item in first}, {item["key"] for item in second})
+        self.assertNotEqual([item["key"] for item in first[:4]], [item["key"] for item in second[:4]])
+
     def test_visual_cache_requires_matching_asset_hash(self) -> None:
         previous = {
             "visual_hash": "same",
