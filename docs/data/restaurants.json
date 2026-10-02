@@ -55,7 +55,7 @@
     "last_scanned_cities": [
       "Newport Beach"
     ],
-    "last_source_scan_at": "2026-10-02T16:22:43Z",
+    "last_source_scan_at": "2026-10-02T16:38:00Z",
     "map_cells": 395,
     "official_websites": 1301,
     "operational_count": 1582,
@@ -64,11 +64,11 @@
     ],
     "restaurant_count": 1647,
     "source_sites_checked": 12,
-    "specials_pages_found": 359,
+    "specials_pages_found": 360,
     "successful_map_cells": 120
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-02T16:22:43Z",
+  "generated_at": "2026-10-02T16:38:00Z",
   "refresh_after": "2026-10-08T19:48:50Z",
   "restaurants": [
     {
@@ -47226,6 +47226,8 @@
       "phone": "(949) 722-8330",
       "place_id": "ChIJ4apLylch3YARLTzxXU2vCOI",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-10-02T16:37:44Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
@@ -47627,14 +47629,24 @@
       "phone": "(714) 968-6128",
       "place_id": "ChIJyXtqsxMn3YARsJeV7G9nVQw",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-10-02T16:37:44Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Lunch Specials",
+          "url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-menu"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Happy Hour",
           "url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials"
         },
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://www.bestpizzafountainvalleyca.com/"
         }
@@ -47769,6 +47781,8 @@
       "phone": "(714) 536-2616",
       "place_id": "ChIJuwaSRhYh3YARB8uzgOGkbjE",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-10-02T16:37:44Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
@@ -47965,9 +47979,12 @@
       "phone": "(949) 650-2600",
       "place_id": "ChIJ50Tz-p3f3IARzQNuEOPocpg",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-10-02T16:37:44Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Special",
           "url": "http://orderlassalsastaqueriaca.mobile-webview2.com/special.php"
         }
@@ -48142,6 +48159,8 @@
       "phone": "",
       "place_id": "ChIJV8cq1Rkn3YARqy6OyvhBgjk",
       "primary_type": "thai_restaurant",
+      "specials_checked_at": "2026-10-02T16:37:44Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "thai_restaurant",
@@ -48232,24 +48251,36 @@
       "phone": "(714) 549-0300 ext. 406",
       "place_id": "ChIJ0zuQ7gDf3IARzEe8SKH9QmE",
       "primary_type": "french_restaurant",
+      "specials_checked_at": "2026-10-02T16:37:44Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "menu item link Happy Hour Menu",
           "url": "https://www.ayreshotels.com/ayres-hotel-costa-mesa-newport-beach/dining/happy-hour-menu"
         },
         {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.ayreshotels.com/ayres-hotel-manhattan-beach-hawthorne/dining/happy-hour"
+        },
+        {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://www.ayreshotels.com/ayres-hotel-costa-mesa-newport-beach/dining"
         },
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Special Offers",
           "url": "https://www.ayreshotels.com/ayres-hotel-costa-mesa-newport-beach/special-offers"
         },
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Special Offers",
           "url": "https://www.ayreshotels.com/special-offers"
         }
@@ -48344,6 +48375,8 @@
       "phone": "(714) 884-4693",
       "place_id": "ChIJoxqlZKDf3IARzotLUHCpIrU",
       "primary_type": "asian_restaurant",
+      "specials_checked_at": "2026-10-02T16:37:44Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "asian_restaurant",
@@ -48411,9 +48444,12 @@
       "phone": "(714) 847-1588",
       "place_id": "ChIJB8-DJm4m3YARQZgr9E4FiYU",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-10-02T16:37:44Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://leesandwiches.com/store-locator/"
         }
@@ -48963,6 +48999,8 @@
       "phone": "(714) 979-5522",
       "place_id": "ChIJp0CIJELf3IAR8LRCDEnnjXs",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-10-02T16:37:44Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -49071,6 +49109,8 @@
       "phone": "(949) 992-8058",
       "place_id": "ChIJ2VMlzcAn3YARCfEbu_f8pIo",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-02T16:37:44Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -49136,6 +49176,8 @@
       "phone": "",
       "place_id": "ChIJPYM_UfLf3IARGfqE5jHBmMY",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-02T16:37:44Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -49274,7 +49316,52 @@
       "phone": "(714) 968-1186",
       "place_id": "ChIJw7Mk4QQn3YAR5jIP5m8Vn38",
       "primary_type": "pizza_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-02T16:37:44Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://littlecaesars.com/deals/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://littlecaesars.com/en-us/contact-us/pressroom/leadership-promotions/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://littlecaesars.com/en-us/contact-us/pressroom/technology-promotions/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://littlecaesars.com/en-us/contact-us/pressroom/the-real-deal/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://littlecaesars.com/es-us/contact-us/pressroom/leadership-promotions/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://littlecaesars.com/es-us/contact-us/pressroom/technology-promotions/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://littlecaesars.com/es-us/contact-us/pressroom/the-real-deal/"
+        }
+      ],
       "types": [
         "pizza_restaurant",
         "pizza_delivery",
