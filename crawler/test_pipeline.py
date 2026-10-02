@@ -259,6 +259,54 @@ class ExtractionTests(unittest.TestCase):
     def test_social_hour_uses_the_happy_hour_filter(self) -> None:
         self.assertIn("happy_hour", crawl_deals.detect_tags("$8-$13 Social Hour"))
 
+    def test_offer_value_uses_price_from_verified_headline(self) -> None:
+        deal = {
+            "summary": "Red Hour Happy Hour with $10 cocktails and $10 bites",
+            "details": ["Bar only"],
+            "source_evidence": [],
+        }
+
+        self.assertEqual(crawl_deals.offer_value_label(deal), "$10")
+
+    def test_offer_value_ignores_comparison_price(self) -> None:
+        deal = {
+            "summary": "Thursday $7 Smash Burger (regularly $18)",
+            "details": [],
+            "source_evidence": [],
+        }
+
+        self.assertEqual(crawl_deals.offer_value_label(deal), "$7")
+
+    def test_offer_value_normalizes_ranges_and_ratios(self) -> None:
+        ranged = {
+            "summary": "Happy Hour: Pizza, Appetizers, Drinks $4.00 to $8.00",
+            "details": [],
+            "source_evidence": [],
+        }
+        ratio = {
+            "summary": "2-for-1 Happy Hour on regular-priced drinks",
+            "details": [],
+            "source_evidence": [],
+        }
+        half_price = {
+            "summary": "Half-Priced Drinks",
+            "details": [],
+            "source_evidence": [],
+        }
+
+        self.assertEqual(crawl_deals.offer_value_label(ranged), "$4-$8")
+        self.assertEqual(crawl_deals.offer_value_label(ratio), "2-for-1")
+        self.assertEqual(crawl_deals.offer_value_label(half_price), "50% off")
+
+    def test_offer_value_preserves_fractional_currency_precision(self) -> None:
+        deal = {
+            "summary": "$4.20 pints and $6 cocktails",
+            "details": [],
+            "source_evidence": [],
+        }
+
+        self.assertEqual(crawl_deals.offer_value_label(deal), "$4.20-$6")
+
     def test_visual_queue_rotates_oldest_checked_pages_first(self) -> None:
         old = {
             "restaurant": {"name": "Old", "city": "Huntington Beach"},

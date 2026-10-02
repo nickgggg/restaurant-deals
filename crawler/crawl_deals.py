@@ -9,6 +9,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
+from decimal import Decimal
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, Iterable, TypedDict
@@ -581,28 +582,76 @@ def is_verified_offer(deal: dict) -> bool:
     )
 
 
+def format_price(value: str) -> str:
+    amount = value.strip().removeprefix("$")
+    decimal = Decimal(amount)
+    if decimal == decimal.to_integral_value():
+        return f"${decimal:.0f}"
+    return f"${decimal:.2f}"
+
+
+def promotional_prices(text: str) -> list[str]:
+    comparison_price = re.compile(
+        r"\b(?:regularly|normally|originally|reg(?:ular)?\.?\s*price|was)\s*(?:priced\s+at\s*)?\$\s*\d+(?:\.\d{1,2})?",
+        re.I,
+    )
+    cleaned = comparison_price.sub("", text)
+    values: list[str] = []
+    for match in re.finditer(r"\$\s*(\d+(?:\.\d{1,2})?)", cleaned):
+        value = format_price(match.group(1))
+        if value not in values:
+            values.append(value)
+    return values
+
+
+def price_range_label(prices: list[str]) -> str | None:
+    if not prices:
+        return None
+    if len(prices) == 1:
+        return prices[0]
+    amounts = sorted({Decimal(price.removeprefix("$")) for price in prices})
+    if len(amounts) == 1:
+        return format_price(str(amounts[0]))
+    return f"{format_price(str(amounts[0]))}-{format_price(str(amounts[-1]))}"
+
+
 def offer_value_label(deal: dict) -> str | None:
     text = deal_text(deal)
+    summary = normalize_line(deal.get("summary", ""))
     match = re.search(r"\b(\d{1,3})\s*%\s*off\b", text, re.I)
     if match:
         return f"{match.group(1)}% off"
-    if re.search(r"\b(?:half\s+price|1/2\s*off)\b", text, re.I):
+    if re.search(r"\b(?:half[ -]priced?|1/2\s*off)\b", text, re.I):
         return "50% off"
     if re.search(r"\b(?:bogo|buy\s+one.{0,40}get\s+one|2-4-1)\b", text, re.I):
         return "BOGO"
+    if re.search(r"\b(?:2\s*[- ]?for\s*[- ]?1|two\s+for\s+one)\b", text, re.I):
+        return "2-for-1"
     match = re.search(r"\$\s*(\d+(?:\.\d{1,2})?)\s*off\b", text, re.I)
     if match:
-        return f"${match.group(1)} off"
-    match = re.search(r"(\$\s*\d+(?:\.\d{1,2})?\s*[-–—]\s*\$?\s*\d+(?:\.\d{1,2})?)", text)
+        return f"{format_price(match.group(1))} off"
+    match = re.search(
+        r"\$\s*(\d+(?:\.\d{1,2})?)\s*(?:[-–—]|\bto\b)\s*\$?\s*(\d+(?:\.\d{1,2})?)",
+        text,
+        re.I,
+    )
     if match:
-        return re.sub(r"\s+", "", match.group(1)).replace("–", "-").replace("—", "-")
+        return f"{format_price(match.group(1))}-{format_price(match.group(2))}"
     if re.search(r"\bfree\b", text, re.I):
         return "Free"
     match = re.search(r"\b(?:starting\s+at|from)\s*(\$\s*\d+(?:\.\d{1,2})?)", text, re.I)
     if match:
-        return re.sub(r"\s+", "", match.group(1)) + "+"
-    match = re.search(r"(?:^|\b(?:for|only|just)\s+)(\$\s*\d+(?:\.\d{1,2})?)", text, re.I)
-    return re.sub(r"\s+", "", match.group(1)) if match else None
+        return format_price(match.group(1)) + "+"
+    match = re.search(r"(\$\s*\d+(?:\.\d{1,2})?)\s+or\s+less\b", text, re.I)
+    if match:
+        return f"{format_price(match.group(1))} or less"
+    summary_value = price_range_label(promotional_prices(summary))
+    if summary_value:
+        return summary_value
+    detail_value = price_range_label(promotional_prices(" ".join(deal.get("details", []))))
+    if detail_value:
+        return detail_value
+    return price_range_label(promotional_prices(" ".join(deal.get("source_evidence", []))))
 
 
 def quality_score(deal: dict) -> int:
