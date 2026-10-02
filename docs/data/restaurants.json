@@ -55,7 +55,7 @@
     "last_scanned_cities": [
       "Newport Beach"
     ],
-    "last_source_scan_at": "2026-10-01T19:48:50Z",
+    "last_source_scan_at": "2026-10-02T16:22:43Z",
     "map_cells": 395,
     "official_websites": 1301,
     "operational_count": 1582,
@@ -63,12 +63,12 @@
       "Garden Grove"
     ],
     "restaurant_count": 1647,
-    "source_sites_checked": 259,
-    "specials_pages_found": 358,
+    "source_sites_checked": 12,
+    "specials_pages_found": 359,
     "successful_map_cells": 120
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-01T19:48:50Z",
+  "generated_at": "2026-10-02T16:22:43Z",
   "refresh_after": "2026-10-08T19:48:50Z",
   "restaurants": [
     {
@@ -45532,6 +45532,8 @@
       "phone": "(714) 557-2947",
       "place_id": "ChIJEZBPWxbf3IARaKwlKV2Z9So",
       "primary_type": "ramen_restaurant",
+      "specials_checked_at": "2026-10-02T16:22:32Z",
+      "specials_discovery_version": 4,
       "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-26d7m2wd/Default'",
       "specials_pages": [],
       "types": [
@@ -45623,6 +45625,8 @@
       "phone": "(714) 884-3124",
       "place_id": "ChIJFYLxGjsn3YARTANfxquyjIE",
       "primary_type": "ramen_restaurant",
+      "specials_checked_at": "2026-10-02T16:22:32Z",
+      "specials_discovery_version": 4,
       "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-eg0g7hav/Default'",
       "specials_pages": [],
       "types": [
@@ -45854,6 +45858,8 @@
       "phone": "(657) 247-0064",
       "place_id": "ChIJqzm93Ubf3IARa-fIpy6WU-0",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-02T16:22:32Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -45918,6 +45924,8 @@
       "phone": "(714) 587-4060",
       "place_id": "ChIJf83Rz4En3YARXJRu2TRewTM",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-02T16:22:32Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -46202,6 +46210,8 @@
       "phone": "(714) 374-5600",
       "place_id": "ChIJa537cmoh3YARW7JCYUyedj4",
       "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-10-02T16:22:32Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "american_restaurant",
@@ -46267,6 +46277,8 @@
       "phone": "(657) 215-4426",
       "place_id": "ChIJDc3c1yYn3YARGmHOHzntAgk",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-02T16:22:32Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -46335,7 +46347,16 @@
       "phone": "(714) 594-3412",
       "place_id": "ChIJKVgn9BMh3YAR3HhU4HtLgLw",
       "primary_type": "japanese_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-02T16:22:32Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://komeyasushiandgrill.square.site/product/lunch-special/222"
+        }
+      ],
       "types": [
         "japanese_restaurant",
         "restaurant",
@@ -46451,6 +46472,8 @@
       "phone": "(714) 842-7262",
       "place_id": "ChIJ4TiMj3Em3YAR4IkMAJ1MeOo",
       "primary_type": "chinese_restaurant",
+      "specials_checked_at": "2026-10-02T16:22:32Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chinese_restaurant",
@@ -46523,6 +46546,8 @@
       "phone": "(714) 714-0909",
       "place_id": "ChIJH78ANDvf3IAR-0ZJc7ZnLcU",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-10-02T16:22:32Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "pizza_restaurant",
@@ -46658,6 +46683,8 @@
       "phone": "(714) 968-1898",
       "place_id": "ChIJ5c1hpTMh3YARrqVMJ8wgeDM",
       "primary_type": "hawaiian_restaurant",
+      "specials_checked_at": "2026-10-02T16:22:32Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "hawaiian_restaurant",
@@ -46801,9 +46828,12 @@
       "phone": "(714) 374-0342",
       "place_id": "ChIJWwRktTYh3YARzEdDxBYps-Y",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-10-02T16:22:32Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://www.lacapillarestaurant.com/"
         }
@@ -46932,6 +46962,8 @@
       "phone": "(949) 646-7944",
       "place_id": "ChIJKehtEu_f3IAR8tfuI44yi78",
       "primary_type": "steak_house",
+      "specials_checked_at": "2026-10-02T16:22:32Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "steak_house",
