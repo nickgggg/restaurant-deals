@@ -55,7 +55,7 @@
     "last_scanned_cities": [
       "Newport Beach"
     ],
-    "last_source_scan_at": "2026-10-02T19:29:21Z",
+    "last_source_scan_at": "2026-10-03T18:09:22Z",
     "map_cells": 395,
     "official_websites": 1301,
     "operational_count": 1582,
@@ -64,11 +64,11 @@
     ],
     "restaurant_count": 1647,
     "source_sites_checked": 12,
-    "specials_pages_found": 366,
+    "specials_pages_found": 367,
     "successful_map_cells": 120
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-02T19:29:21Z",
+  "generated_at": "2026-10-03T18:09:22Z",
   "refresh_after": "2026-10-08T19:48:50Z",
   "restaurants": [
     {
@@ -50875,6 +50875,8 @@
       "phone": "(949) 287-6827",
       "place_id": "ChIJPfvDJ8bf3IAR_ZblUthIbBY",
       "primary_type": "vietnamese_restaurant",
+      "specials_checked_at": "2026-10-03T18:08:06Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
@@ -51099,6 +51101,8 @@
       "phone": "(714) 391-4977",
       "place_id": "ChIJv-eKJ3El3YARELE44eWQW5o",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-03T18:08:06Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -51232,6 +51236,8 @@
       "phone": "(714) 377-2000",
       "place_id": "ChIJ4xIymTMh3YARnZ6y0BrHyPA",
       "primary_type": "mediterranean_restaurant",
+      "specials_checked_at": "2026-10-03T18:08:06Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mediterranean_restaurant",
@@ -51300,6 +51306,8 @@
       "phone": "(714) 892-7252",
       "place_id": "ChIJ1zn5h_sl3YARbB4H3ZLyHNQ",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-10-03T18:08:06Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
@@ -51436,6 +51444,8 @@
       "phone": "(949) 574-9196",
       "place_id": "ChIJES6lGILf3IARE04imqII4ZQ",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-03T18:08:06Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "latin_american_restaurant",
@@ -51848,6 +51858,8 @@
       "phone": "(949) 631-2731",
       "place_id": "ChIJgcVTDO7f3IARawz4tj4KE0Y",
       "primary_type": "thai_restaurant",
+      "specials_checked_at": "2026-10-03T18:08:06Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "thai_restaurant",
@@ -52137,6 +52149,8 @@
       "phone": "(714) 842-2844",
       "place_id": "ChIJ6UwWcv0m3YARFyqxOakpPqE",
       "primary_type": "cafe",
+      "specials_checked_at": "2026-10-03T18:08:06Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
@@ -52370,6 +52384,8 @@
       "phone": "(714) 963-4929",
       "place_id": "ChIJWURhdiAn3YARJVhhswUAv0g",
       "primary_type": "thai_restaurant",
+      "specials_checked_at": "2026-10-03T18:08:06Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "thai_restaurant",
@@ -52458,6 +52474,8 @@
       "phone": "(714) 969-7400",
       "place_id": "ChIJOU1pQ0Eh3YARDDml4dFLr_o",
       "primary_type": "wine_bar",
+      "specials_checked_at": "2026-10-03T18:08:06Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "wine_bar",
@@ -52525,6 +52543,8 @@
       "phone": "(714) 966-2099",
       "place_id": "ChIJzZipPUDf3IARIFkkYDNVY8s",
       "primary_type": "japanese_restaurant",
+      "specials_checked_at": "2026-10-03T18:08:06Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "japanese_restaurant",
@@ -52817,9 +52837,12 @@
       "phone": "(714) 274-9723",
       "place_id": "ChIJuXV7RAAh3YARsC8LPkiyTac",
       "primary_type": "asian_restaurant",
+      "specials_checked_at": "2026-10-03T18:08:06Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://www.mamaonmain.com/"
         }
@@ -52888,7 +52911,22 @@
       "phone": "(714) 374-1166",
       "place_id": "ChIJcxp0SBYh3YARf8J5hVTUIto",
       "primary_type": "american_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-03T18:08:06Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.mamason39.com/deals"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.mamason39.com/menus/happy-hour"
+        }
+      ],
       "types": [
         "american_restaurant",
         "brunch_restaurant",
