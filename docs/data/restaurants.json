@@ -55,7 +55,7 @@
     "last_scanned_cities": [
       "Newport Beach"
     ],
-    "last_source_scan_at": "2026-10-03T18:09:22Z",
+    "last_source_scan_at": "2026-10-04T18:20:35Z",
     "map_cells": 395,
     "official_websites": 1301,
     "operational_count": 1582,
@@ -64,11 +64,11 @@
     ],
     "restaurant_count": 1647,
     "source_sites_checked": 12,
-    "specials_pages_found": 367,
+    "specials_pages_found": 368,
     "successful_map_cells": 120
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-03T18:09:22Z",
+  "generated_at": "2026-10-04T18:20:35Z",
   "refresh_after": "2026-10-08T19:48:50Z",
   "restaurants": [
     {
@@ -53061,6 +53061,8 @@
       "phone": "(714) 841-8887",
       "place_id": "ChIJufOtKm4m3YARD6CDS8EQ3kc",
       "primary_type": "italian_restaurant",
+      "specials_checked_at": "2026-10-04T18:20:01Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "italian_restaurant",
@@ -53216,14 +53218,18 @@
       "phone": "(714) 708-3290",
       "place_id": "ChIJC9HxWhbf3IAR-8my8okMmV0",
       "primary_type": "yakiniku_restaurant",
+      "specials_checked_at": "2026-10-04T18:20:01Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Labor Day Special Omakase | September 3 (Thu) \u2013 7 (Mon), 2026",
           "url": "http://www.manpukuus.com/news-and-events/labor-day-special-omakase-september-3-thu---7-mon-2026"
         },
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Labor Day Special Omakase\uff5cStarts Today",
           "url": "http://www.manpukuus.com/news-and-events/labor-day-special-omakase-starts-today"
         }
@@ -53358,9 +53364,18 @@
       "phone": "(714) 963-6791",
       "place_id": "ChIJ51DnXjMn3YARn340SndDBhQ",
       "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-10-04T18:20:01Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.mariecallenders.com/coupon/"
+        },
+        {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://www.mariecallenders.com/"
         }
@@ -53503,6 +53518,8 @@
       "phone": "(714) 894-2896",
       "place_id": "ChIJ-4VSd94l3YARyvVPlmQKdDk",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-10-04T18:20:01Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
@@ -53777,6 +53794,8 @@
       "phone": "(949) 650-8272",
       "place_id": "ChIJt-_cthkh3YAR8gVUxZ6j3dI",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-10-04T18:20:01Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
@@ -53912,14 +53931,18 @@
       "phone": "(714) 963-7796",
       "place_id": "ChIJpU8K4MMg3YARPPBH-C53mpM",
       "primary_type": "seafood_restaurant",
+      "specials_checked_at": "2026-10-04T18:20:01Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Happy Hour Menu",
           "url": "https://www.marketbroiler.com/_files/ugd/7c662d_6b31428d4d6a403f9402ced846046229.pdf"
         },
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://www.marketbroiler.com/huntington"
         }
@@ -54106,16 +54129,56 @@
       "phone": "(714) 594-6850",
       "place_id": "ChIJkz9UN3Yh3YARNcJvqz5GEkE",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-10-04T18:20:01Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
-          "confidence": "medium",
-          "label": "Special Diets",
-          "url": "https://www.wholefoodsmarket.com/special-diets"
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.wholefoodsmarket.com/tips-and-ideas/archive/calendar-coupons-and-change"
         },
         {
-          "confidence": "medium",
-          "label": "Website specials",
-          "url": "https://www.wholefoodsmarket.com/stores/brookhurst"
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.wholefoodsmarket.com/tips-and-ideas/archive/calendar-doing-good-great-coupons"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.wholefoodsmarket.com/tips-and-ideas/archive/celebrate-latest-issue-whole-deal"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.wholefoodsmarket.com/tips-and-ideas/archive/its-here-e2-80-a6-new-issue-whole-deal-value-guide"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.wholefoodsmarket.com/tips-and-ideas/archive/pick-our-december-whole-deal-now"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.wholefoodsmarket.com/tips-and-ideas/archive/welcome-fall-whole-deal"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.wholefoodsmarket.com/tips-and-ideas/archive/welcome-new-year-whole-deal"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.wholefoodsmarket.com/tips-and-ideas/archive/welcome-spring-savings-whole-deal"
         }
       ],
       "types": [
@@ -54542,6 +54605,8 @@
       "phone": "(657) 329-0008",
       "place_id": "ChIJv3NQ0lMn3YARGOJFz1mJZro",
       "primary_type": "indian_restaurant",
+      "specials_checked_at": "2026-10-04T18:20:01Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "indian_restaurant",
@@ -54607,6 +54672,8 @@
       "phone": "(714) 964-1888",
       "place_id": "ChIJMQyAt1Ag3YARY65Dh33UwLY",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-10-04T18:20:01Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "pizza_restaurant",
@@ -54672,7 +54739,16 @@
       "phone": "(949) 631-0255",
       "place_id": "ChIJh3hZCfLf3IARmLuMQmssUxw",
       "primary_type": "restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-04T18:20:01Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://massimospizza.com/blog/costa-mesa-lunch-specials-under-15-best-pizza-combos-2026-09-19"
+        }
+      ],
       "types": [
         "restaurant",
         "food",
@@ -54817,9 +54893,18 @@
       "phone": "(714) 546-7405",
       "place_id": "ChIJVS-XHiTf3IARX5n1WyXQqXE",
       "primary_type": "steak_house",
+      "specials_checked_at": "2026-10-04T18:20:01Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://www.mastrosrestaurants.com/Locations/CA/Costa-Mesa/"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Features",
           "url": "https://www.mastrosrestaurants.com/specials/"
         }
@@ -54960,6 +55045,8 @@
       "phone": "(714) 848-4404",
       "place_id": "ChIJEx-whKgn3YARzphS75Rd4eU",
       "primary_type": "japanese_restaurant",
+      "specials_checked_at": "2026-10-04T18:20:01Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "japanese_restaurant",
