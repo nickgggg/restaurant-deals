@@ -132,6 +132,13 @@ class AreaQueueTests(unittest.TestCase):
 
 
 class ExtractionTests(unittest.TestCase):
+    def test_generation_config_uses_supported_thinking_level_without_sampling_overrides(self) -> None:
+        config = extract_with_gemini.generation_config({"type": "object"})
+
+        self.assertEqual(config["thinkingConfig"], {"thinkingLevel": "minimal"})
+        for deprecated in ("temperature", "topP", "topK", "thinkingBudget"):
+            self.assertNotIn(deprecated, config)
+
     def test_validation_rejects_plain_package_pricing_but_keeps_scheduled_special(self) -> None:
         package = "Family Package 2 for $90 serving 5-6 people"
         scheduled = "$6 beers every Tuesday"

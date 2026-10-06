@@ -27,6 +27,7 @@ RESTAURANTS_PATH = ROOT / "docs" / "data" / "restaurants.json"
 OUTPUT_PATH = ROOT / "docs" / "data" / "ai_extractions.json"
 MODEL = "gemini-3.5-flash-lite"
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
+THINKING_LEVEL = "minimal"
 REQUEST_TIMEOUT = 25
 MAX_PAGES_PER_RUN = 30
 MAX_RENDERED_PAGES_PER_RUN = 8
@@ -526,15 +527,19 @@ Rules:
 """
 
 
+def generation_config(schema: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "maxOutputTokens": 4096,
+        "responseMimeType": "application/json",
+        "responseSchema": schema,
+        "thinkingConfig": {"thinkingLevel": THINKING_LEVEL},
+    }
+
+
 def generate_content(api_key: str, parts: list[dict[str, Any]], schema: dict[str, Any]) -> dict[str, Any]:
     payload = {
         "contents": [{"role": "user", "parts": parts}],
-        "generationConfig": {
-            "temperature": 0.1,
-            "maxOutputTokens": 4096,
-            "responseMimeType": "application/json",
-            "responseSchema": schema,
-        },
+        "generationConfig": generation_config(schema),
     }
     request = Request(
         GEMINI_URL,
