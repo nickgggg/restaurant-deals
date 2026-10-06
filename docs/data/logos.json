@@ -1843,8 +1843,79 @@
       "checked_at": "2026-10-05T21:43:32Z",
       "status": "ok"
     },
+    "mainstreetwinecompany.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "status": "ok"
+    },
+    "maithairestaurantfv.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "missing"
+    },
+    "makiyaki19.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "error": "<urlopen error [Errno -2] Name or service not known>",
+      "status": "missing"
+    },
+    "makoramen.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "malarkyspub.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "missing"
+    },
+    "mamahieusoc.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "status": "ok"
+    },
+    "mamaonmain.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "status": "ok"
+    },
+    "mamason39.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "mangiamangiarestaurant.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "status": "ok"
+    },
+    "manpukuus.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "status": "ok"
+    },
+    "manvsfries.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "status": "ok"
+    },
+    "marchemoderne.net": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "status": "ok"
+    },
     "mariecallenders.com": {
       "checked_at": "2026-10-01T19:54:42Z",
+      "status": "ok"
+    },
+    "marinacafeca.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "missing"
+    },
+    "mariosmexican.shop": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "error": "no supported site icon found",
+      "status": "missing"
+    },
+    "mariosnewport.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "status": "ok"
+    },
+    "mariscoslacostaoc.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
       "status": "ok"
     },
     "marketbroiler.com": {
@@ -1853,6 +1924,14 @@
     },
     "marnisoc.com": {
       "checked_at": "2026-09-26T18:03:52Z",
+      "status": "ok"
+    },
+    "marusushiupland.net": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "status": "ok"
+    },
+    "masalawaves.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
       "status": "ok"
     },
     "maximkaraoke.com": {
@@ -1870,6 +1949,11 @@
     "michaelssportspubandgrill.com": {
       "checked_at": "2026-09-18T18:00:36Z",
       "status": "ok"
+    },
+    "miguelsjr.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "error": "Not Found",
+      "status": "missing"
     },
     "moonlightpizzaandchicken.com": {
       "checked_at": "2026-09-16T22:46:49Z",
@@ -2098,6 +2182,10 @@
       "checked_at": "2026-09-16T23:17:10Z",
       "status": "ok"
     },
+    "stores.neimanmarcus.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "status": "ok"
+    },
     "surfcityeats.com": {
       "checked_at": "2026-09-19T17:30:53Z",
       "status": "ok"
@@ -2240,7 +2328,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-10-05T21:43:32Z",
+  "generated_at": "2026-10-06T19:53:15Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -4021,10 +4109,56 @@
       "path": "logos/mai-phung-poi-place.png",
       "source_url": "https://edan.io/img/favicon.png"
     },
+    "mainstreetwinecompany.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "path": "logos/mainstreetwinecompany-com.png",
+      "source_url": "http://mainstreetwinecompany.com/wineco/wp-content/uploads/2017/08/mswc_sm_notag_logo.png"
+    },
+    "mamahieusoc.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "path": "logos/mamahieusoc-com.png",
+      "source_url": "https://static.wixstatic.com/media/75e419_a2846921c5bd4d69ae7db250cd5dae96%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/75e419_a2846921c5bd4d69ae7db250cd5dae96%7Emv2.png"
+    },
+    "mamaonmain.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "path": "logos/mamaonmain-com.png",
+      "source_url": "https://www.mamaonmain.com/images/logo.png"
+    },
+    "mangiamangiarestaurant.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "path": "logos/mangiamangiarestaurant-com.png",
+      "source_url": "https://mangiamangiarestaurant.com/wp-content/uploads/2023/02/cropped-Mangia-Mangia-Icon2-192x192.png"
+    },
+    "manpukuus.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "path": "logos/manpukuus-com.png",
+      "source_url": "https://cdn.prod.website-files.com/661efa9d470f5d8cafff397a/67d333a934f29c81181a2216_OGP%20image%201200px%C3%97630px.png"
+    },
+    "manvsfries.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "path": "logos/manvsfries-com.webp",
+      "source_url": "https://www.manvsfries.com/wp-content/uploads/2023/11/man-vs-fries-logo.png"
+    },
+    "marchemoderne.net": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "path": "logos/marchemoderne-net.png",
+      "source_url": "https://www.marchemoderne.net/images/logo.png"
+    },
     "mariecallenders.com": {
       "checked_at": "2026-10-01T19:54:42Z",
       "path": "logos/mariecallenders-com.webp",
       "source_url": "https://www.mariecallenders.com/wp-content/uploads/2021/04/marie-callenders-logo.png"
+    },
+    "mariosnewport.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "path": "logos/mariosnewport-com.png",
+      "source_url": "https://static.spotapps.co/web/mariosnewport--com/custom/logo.png"
+    },
+    "mariscoslacostaoc.com": {
+      "background": "#000000",
+      "checked_at": "2026-10-06T19:53:15Z",
+      "path": "logos/mariscoslacostaoc-com.webp",
+      "source_url": "https://static.cdninstagram.com/rsrc.php/yw/r/icwX0xAk0pz.webp"
     },
     "marketbroiler.com": {
       "checked_at": "2026-09-16T22:46:49Z",
@@ -4036,6 +4170,16 @@
       "checked_at": "2026-09-26T18:03:52Z",
       "path": "logos/marnisoc-com.png",
       "source_url": "https://marnisoc.com/favicons/apple-touch-icon.png"
+    },
+    "marusushiupland.net": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "path": "logos/marusushiupland-net.ico",
+      "source_url": "http://www.marusushiupland.net/favicon.ico"
+    },
+    "masalawaves.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "path": "logos/masalawaves-com.png",
+      "source_url": "https://masalawaves.com/AdminBoard/uploads/site/c86aa-untitled-design-2024-02-15t175313.444.png"
     },
     "maximkaraoke.com": {
       "checked_at": "2026-09-17T18:36:20Z",
@@ -4310,6 +4454,11 @@
       "checked_at": "2026-09-16T23:17:10Z",
       "path": "logos/stoneyspizzamenu-com.webp",
       "source_url": "https://shop-logos.imgix.net/shops/15655/original/image0.jpeg?auto=compress,format"
+    },
+    "stores.neimanmarcus.com": {
+      "checked_at": "2026-10-06T19:53:15Z",
+      "path": "logos/stores-neimanmarcus-com.ico",
+      "source_url": "https://stores.neimanmarcus.com/favicon.ico"
     },
     "surfcityeats.com": {
       "background": "#000000",

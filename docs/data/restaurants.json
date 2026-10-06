@@ -55,7 +55,7 @@
     "last_scanned_cities": [
       "Newport Beach"
     ],
-    "last_source_scan_at": "2026-10-05T21:36:09Z",
+    "last_source_scan_at": "2026-10-06T19:47:07Z",
     "map_cells": 395,
     "official_websites": 1301,
     "operational_count": 1582,
@@ -64,11 +64,11 @@
     ],
     "restaurant_count": 1647,
     "source_sites_checked": 12,
-    "specials_pages_found": 368,
+    "specials_pages_found": 369,
     "successful_map_cells": 120
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-05T21:36:09Z",
+  "generated_at": "2026-10-06T19:47:07Z",
   "refresh_after": "2026-10-08T19:48:50Z",
   "restaurants": [
     {
@@ -56398,14 +56398,18 @@
       "phone": "(714) 957-1100",
       "place_id": "ChIJqQEbmLXf3IARzDrRkZdZYLQ",
       "primary_type": "bistro",
+      "specials_checked_at": "2026-10-06T19:46:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Sign Up For EmaiL Promotions",
           "url": "https://amusecostamesa.com/promotions/"
         },
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://amusecostamesa.com/"
         }
@@ -56572,6 +56576,8 @@
       "phone": "(714) 545-5175",
       "place_id": "ChIJ5bWucB7f3IARzL9C6LphLX8",
       "primary_type": "japanese_restaurant",
+      "specials_checked_at": "2026-10-06T19:46:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "asian_restaurant",
@@ -56699,14 +56705,18 @@
       "phone": "(714) 432-7685",
       "place_id": "ChIJp7BLNhrf3IARXdQ1Daes-yY",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-06T19:46:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "HAPPY HOUR",
           "url": "http://memphiscafe.com/happyhour"
         },
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://memphiscafe.com/"
         }
@@ -56777,6 +56787,8 @@
       "phone": "(714) 845-5882",
       "place_id": "ChIJ-2CAVB8h3YARz3j3d_8lT5E",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-10-06T19:46:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -56843,6 +56855,8 @@
       "phone": "(949) 548-2500",
       "place_id": "ChIJQbVg9O7f3IARl4S2IK-xaOk",
       "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-10-06T19:46:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
@@ -56869,6 +56883,8 @@
       "phone": "(800) 801-2871",
       "place_id": "ChIJs9lFyuUl3YARMkNiaXi19I0",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-06T19:46:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -57164,6 +57180,8 @@
       "phone": "(775) 468-3673",
       "place_id": "ChIJm1Vvdfzf3IAR9d4c4N2duIE",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-06T19:46:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -57231,7 +57249,34 @@
       "phone": "(714) 888-2255",
       "place_id": "ChIJeymWaDMh3YARKOsMDRFcdyg",
       "primary_type": "mexican_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-06T19:46:51Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://miguelsjr.com/blogs/stories/miguels-jr-celebrates-national-burrito-day-with-an-unbeatable-deal-two-of-our-legendary-burritos-for-5"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://miguelsjr.com/blogs/stories/miguels-jr-launches-new-summer-happy-hour-menu-and-original-burrito-box-combo"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://miguelsjr.com/blogs/stories/miguels-jr-rings-in-new-year-with-fresh-deals"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://miguelsjr.com/blogs/stories/national-burrito-day-2025-where-to-score-burrito-deals-and-freebies-in-california"
+        }
+      ],
       "types": [
         "mexican_restaurant",
         "fast_food_restaurant",
@@ -57299,6 +57344,8 @@
       "phone": "(714) 962-5541",
       "place_id": "ChIJQ8eOIAAn3YAR_abJ0WLdotM",
       "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-10-06T19:46:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "american_restaurant",
@@ -57364,6 +57411,8 @@
       "phone": "(714) 536-8400",
       "place_id": "ChIJQWN5LkEh3YARseIvqQLa4aQ",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-06T19:46:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -57542,6 +57591,8 @@
       "phone": "(714) 964-2533",
       "place_id": "ChIJsfm0LDEn3YAR6dCdiyhVfiY",
       "primary_type": "bistro",
+      "specials_checked_at": "2026-10-06T19:46:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bistro",
@@ -57620,6 +57671,8 @@
       "phone": "(714) 536-4555",
       "place_id": "ChIJuypg9Ukh3YARk-n2wcmTDEg",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-10-06T19:46:51Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",

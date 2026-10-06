@@ -1,7 +1,582 @@
 {
-  "generated_at": "2026-10-05T21:43:30Z",
+  "generated_at": "2026-10-06T19:53:14Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Wed. All Night Happy Hour Not Available On Holidays",
+      "canonical_id": "49e0f5537b7abe3d",
+      "categories": [
+        "food",
+        "drink",
+        "general"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 2,
+      "details": [
+        "Not Available On Holidays"
+      ],
+      "first_seen": "2026-10-02T16:30:35Z",
+      "id": "56a190b9713ae162",
+      "is_stale": true,
+      "last_seen": "2026-10-04T18:26:08Z",
+      "location": {
+        "address": "2801 West Coast Hwy, Newport Beach, CA 92663, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=3089260228579932592&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:30",
+              "open": "16:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:30",
+              "open": "16:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ]
+        },
+        "latitude": 33.6199808,
+        "longitude": -117.925045,
+        "phone": "(949) 720-1800",
+        "place_id": "ChIJVVXlgAcg3YARsLk_b89B3yo"
+      },
+      "quality_score": 60,
+      "restaurant": "Louie's By The Bay",
+      "retired_at": "2026-10-06T19:53:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Wed. All Night Happy Hour",
+        "4 PM - Close"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://louiesnewport.com/menu-happy-hour.html",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Wed. All Night Happy Hour",
+      "tags": [
+        "happy_hour"
+      ],
+      "time_window": "4 PM - Close",
+      "valid_through": null,
+      "validity": "Wed, 4 PM - Close"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Breakfast Burrito with Free 16oz drink or coffee Options: Bacon or Ham or Hotdog Links or Chorizo",
+      "canonical_id": "6e3a0621d375c8ff",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 2,
+      "details": [
+        "Options: Bacon or Ham or Hotdog Links or Chorizo"
+      ],
+      "first_seen": "2026-09-22T18:28:29Z",
+      "id": "e0e4dcb34e2c1d3e",
+      "is_stale": true,
+      "last_seen": "2026-10-04T18:26:08Z",
+      "location": {
+        "address": "745 W 19th St Ste b, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14684051447708196191&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ]
+        },
+        "latitude": 33.6431383,
+        "longitude": -117.9297037,
+        "phone": "(949) 722-8513",
+        "place_id": "ChIJZQBi6Xkg3YARXx01BP46yMs"
+      },
+      "quality_score": 90,
+      "restaurant": "Jugos Acapulco",
+      "retired_at": "2026-10-06T19:53:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "EVERYDAY*: Breakfast Burrito",
+        "*From 6am to 11am: Includes a FREE 16oz drink or coffee."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.jugosacapulco.com/daily-specials/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Breakfast Burrito with Free 16oz drink or coffee",
+      "tags": [
+        "free"
+      ],
+      "time_window": "06:00 - 11:00",
+      "valid_through": null,
+      "validity": "Every day, 06:00 - 11:00",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour drinks and food from $4.00 to $8.00 Pizza and Appetizers $8.00 Bottle beers start at $4.00 Wine and Well Drinks $7.00 Cocktails and Martinis $8.00 NO HAPPY HOUR ON LABOR DAY!",
+      "canonical_id": "7375931f4e05c51e",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Seal Beach",
+      "days_since_seen": 9,
+      "details": [
+        "Pizza and Appetizers $8.00",
+        "Bottle beers start at $4.00",
+        "Wine and Well Drinks $7.00",
+        "Cocktails and Martinis $8.00",
+        "NO HAPPY HOUR ON LABOR DAY!"
+      ],
+      "first_seen": "2026-09-27T18:43:40Z",
+      "id": "e1f22aae884cfeec",
+      "is_stale": true,
+      "last_seen": "2026-09-27T18:43:40Z",
+      "location": {
+        "address": "1041 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=693466324176653806&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7445792,
+        "longitude": -118.10073279999999,
+        "phone": "(562) 346-2277",
+        "place_id": "ChIJW1vaY-Qv3YAR7s0-nPKvnwk"
+      },
+      "quality_score": 67,
+      "restaurant": "Finbars Italian Kitchen",
+      "retired_at": "2026-10-06T19:53:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Happy Hour $4.00 to $8.00 from 3 to 6! Pizza and Appetizers $8.00. Bottle beers start at $4.00. Wine and Well Drinks $7.00, Cocktails and Martinis $8.00.",
+        "03:00 PM - 06:00 PM"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://finbarsitalian.com/daily-specials",
+      "source_urls": [
+        "http://finbarsitalian.com/daily-specials",
+        "http://finbarsitalian.com/weekday-specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour drinks and food from $4.00 to $8.00",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "03:00 PM - 06:00 PM",
+      "valid_through": null,
+      "validity": "03:00 PM - 06:00 PM",
+      "value_label": "$4.00+"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Social Mimosas for $20.99 Includes a full bottle of champagne and a carafe of orange juice.",
+      "canonical_id": "67bcd0fc12defdee",
+      "categories": [
+        "drink"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Includes a full bottle of champagne and a carafe of orange juice."
+      ],
+      "first_seen": "2026-10-01T19:54:41Z",
+      "id": "121da1e4e0824fad",
+      "is_stale": true,
+      "last_seen": "2026-10-05T21:43:30Z",
+      "location": {
+        "address": "100 Main St, Newport Beach, CA 92661, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:30",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6013728,
+        "longitude": -117.89955119999999,
+        "phone": "(949) 675-7760",
+        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
+      },
+      "quality_score": 50,
+      "restaurant": "Cabo Cantina",
+      "retired_at": "2026-10-06T19:53:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Social Mimosas! A full bottle of champagne and a carafe of orange juice, perfect for sharing! Only $20.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cabocantina.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Social Mimosas for $20.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$20.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "All You Can Eat Taco Tuesdays for $9.99 Choice of grilled chicken, carne asada, ground beef or veggie tacos served with rice and beans. One beverage minimum purchase required.",
+      "canonical_id": "89c9311cafc9248d",
+      "categories": [
+        "food"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Choice of grilled chicken, carne asada, ground beef or veggie tacos served with rice and beans.",
+        "One beverage minimum purchase required."
+      ],
+      "first_seen": "2026-10-02T16:30:35Z",
+      "id": "dc86441427f8b400",
+      "is_stale": true,
+      "last_seen": "2026-10-05T21:43:30Z",
+      "location": {
+        "address": "100 Main St, Newport Beach, CA 92661, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:30",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6013728,
+        "longitude": -117.89955119999999,
+        "phone": "(949) 675-7760",
+        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
+      },
+      "quality_score": 43,
+      "restaurant": "Cabo Cantina",
+      "retired_at": "2026-10-06T19:53:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "All You Can Eat Taco Tuesdays! $9.99 per person, your choice of grilled chicken, carne asada, ground beef or veggie tacos server with rice and beans. One beverage min purchase required."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cabocantina.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "All You Can Eat Taco Tuesdays for $9.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "$9.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "2-for-1 Happy Hour on regular priced drinks All regular priced drinks are 2-for-1 or make your drink a double for the regular price. Mega Margaritas and other discounted items are not included.",
+      "canonical_id": "cebcb2bfec9e4f93",
+      "categories": [
+        "drink"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 0,
+      "details": [
+        "All regular priced drinks are 2-for-1 or make your drink a double for the regular price.",
+        "Mega Margaritas and other discounted items are not included."
+      ],
+      "first_seen": "2026-10-05T21:43:30Z",
+      "id": "292b6d006f139248",
+      "is_stale": true,
+      "last_seen": "2026-10-05T21:43:30Z",
+      "location": {
+        "address": "100 Main St, Newport Beach, CA 92661, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:30",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6013728,
+        "longitude": -117.89955119999999,
+        "phone": "(949) 675-7760",
+        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
+      },
+      "quality_score": 60,
+      "restaurant": "Cabo Cantina",
+      "retired_at": "2026-10-06T19:53:14Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Home of the 2-for-1 Happy Hour! Where all regular priced drinks are 2-for-1! Or make your drink a double for the regular price!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cabocantina.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "2-for-1 Happy Hour on regular priced drinks",
+      "tags": [
+        "happy_hour"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "2-for-1"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
