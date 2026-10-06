@@ -55,7 +55,7 @@
     "last_scanned_cities": [
       "Newport Beach"
     ],
-    "last_source_scan_at": "2026-10-06T19:47:07Z",
+    "last_source_scan_at": "2026-10-06T23:38:22Z",
     "map_cells": 395,
     "official_websites": 1301,
     "operational_count": 1582,
@@ -68,7 +68,7 @@
     "successful_map_cells": 120
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-06T19:47:07Z",
+  "generated_at": "2026-10-06T23:38:22Z",
   "refresh_after": "2026-10-08T19:48:50Z",
   "restaurants": [
     {
@@ -57805,6 +57805,8 @@
       "phone": "(949) 678-2311",
       "place_id": "ChIJwV45wDgn3YARV57l6Q9e4pw",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-06T23:37:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -57931,6 +57933,8 @@
       "phone": "(714) 714-0300",
       "place_id": "ChIJ6zP3Exjf3IARwUr6Z73A93c",
       "primary_type": "vietnamese_restaurant",
+      "specials_checked_at": "2026-10-06T23:37:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
@@ -57996,6 +58000,8 @@
       "phone": "(714) 617-4761",
       "place_id": "ChIJLXg_MkPf3IARYkOAPB6RfpY",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-10-06T23:37:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
@@ -58062,6 +58068,8 @@
       "phone": "(714) 477-6298",
       "place_id": "ChIJYRq9PLIm3YARt0QRu6Du0Bk",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-10-06T23:37:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "pizza_restaurant",
@@ -58480,6 +58488,8 @@
       "phone": "(657) 210-4881",
       "place_id": "ChIJGa4LH6cn3YARWJbBadCVbNQ",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-06T23:37:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -58562,6 +58572,8 @@
       "phone": "(714) 714-0514",
       "place_id": "ChIJaVMNLiAn3YARxhtTvqLZHeg",
       "primary_type": "sushi_restaurant",
+      "specials_checked_at": "2026-10-06T23:37:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sushi_restaurant",
@@ -58628,6 +58640,8 @@
       "phone": "(714) 965-9900",
       "place_id": "ChIJPckWF9gg3YARTLuKvZti9rI",
       "primary_type": "italian_restaurant",
+      "specials_checked_at": "2026-10-06T23:37:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "italian_restaurant",
@@ -58701,9 +58715,12 @@
       "phone": "(949) 844-1812",
       "place_id": "ChIJh6qKbYch3YARQ9N6yUkw3lk",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-10-06T23:37:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Folder: SPECIAL OCCASIONS",
           "url": "http://www.monstermuffins.com/SPECIALOCCASIONS"
         }
@@ -58791,6 +58808,8 @@
       "phone": "(626) 731-5957",
       "place_id": "ChIJ35td1iDf3IARz7mdp1W5Jsk",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-06T23:37:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -58922,6 +58941,8 @@
       "phone": "(949) 612-2875",
       "place_id": "ChIJNzvzBUgh3YARGNsGOsKF2GQ",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-06T23:37:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -58992,6 +59013,8 @@
       "phone": "(949) 695-0534",
       "place_id": "ChIJi4P7W1Tf3IARpNeLa_wZrNo",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-06T23:37:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -59063,19 +59086,24 @@
       "phone": "(714) 963-4488",
       "place_id": "ChIJqdFhuREn3YAR4y4t8WaGUZ0",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-10-06T23:37:57Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Special",
           "url": "http://moonlightpizzaandchicken.com/"
         },
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Special Pizza $8.25 Out of stock 6 Toppings.",
           "url": "http://moonlightpizzaandchicken.com/?category-id=1000074600&item-id=1000549303"
         },
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Moonlight Special $31.00 Out of stock Ex large pizza 2 toppings, whole chicken, served with rice, pita bread homemade pickles, garlic sauce.",
           "url": "http://moonlightpizzaandchicken.com/?category-id=1000074620&item-id=1000549408"
         }
