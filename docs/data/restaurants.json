@@ -55,7 +55,7 @@
     "last_scanned_cities": [
       "Newport Beach"
     ],
-    "last_source_scan_at": "2026-10-06T23:38:22Z",
+    "last_source_scan_at": "2026-10-07T20:07:13Z",
     "map_cells": 395,
     "official_websites": 1301,
     "operational_count": 1582,
@@ -64,11 +64,11 @@
     ],
     "restaurant_count": 1647,
     "source_sites_checked": 12,
-    "specials_pages_found": 369,
+    "specials_pages_found": 370,
     "successful_map_cells": 120
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-06T23:38:22Z",
+  "generated_at": "2026-10-07T20:07:13Z",
   "refresh_after": "2026-10-08T19:48:50Z",
   "restaurants": [
     {
@@ -59172,14 +59172,36 @@
       "phone": "(657) 301-2017",
       "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-07T20:06:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Daily Specials",
+          "url": "https://hb.morenasmex.com/daily-specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Specials",
+          "url": "https://hb.morenasmex.com/specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Weekday Specials",
+          "url": "https://hb.morenasmex.com/weekday-specials"
+        },
+        {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://hb.morenasmex.com/"
         },
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "ALL SPECIALS",
           "url": "https://hb.morenasmex.com/huntington-beach-bella-terra-morenas-mexican-cuisine-huntington-beach-happy-hours-specials"
         }
@@ -59324,6 +59346,8 @@
       "phone": "(657) 247-0574",
       "place_id": "ChIJh9n6QIAn3YARXeQ_2xJIIsg",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-10-07T20:06:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
@@ -59395,6 +59419,8 @@
       "phone": "(949) 409-6792",
       "place_id": "ChIJXemlwnHf3IARgLfzhSEPUdQ",
       "primary_type": "french_restaurant",
+      "specials_checked_at": "2026-10-07T20:06:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "french_restaurant",
@@ -59464,7 +59490,28 @@
       "phone": "(657) 231-9674",
       "place_id": "ChIJD1J9DGEn3YARPOYD-jfW8bo",
       "primary_type": "pizza_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-07T20:06:58Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.mountainmikespizza.com/july-4-deals/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.mountainmikespizza.com/my-meal-deal/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.mountainmikespizza.com/weekday-lunch-buffet/"
+        }
+      ],
       "types": [
         "pizza_restaurant",
         "family_restaurant",
@@ -59493,6 +59540,8 @@
       "phone": "(877) 232-7898",
       "place_id": "ChIJ4QDnkRIh3YAR-qO53Le3MGY",
       "primary_type": "hamburger_restaurant",
+      "specials_checked_at": "2026-10-07T20:06:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "hamburger_restaurant",
@@ -59646,6 +59695,8 @@
       "phone": "(714) 536-6581",
       "place_id": "ChIJuypg9Ukh3YARjYLFR8X_djI",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-10-07T20:06:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "pizza_restaurant",
@@ -59882,19 +59933,30 @@
       "phone": "(657) 244-1886",
       "place_id": "ChIJXT0eUu4l3YARuFUNGOJzmV8",
       "primary_type": "sports_bar",
+      "specials_checked_at": "2026-10-07T20:06:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Happy Hour",
           "url": "https://myplacesportsbar.com/happy-hour"
         },
         {
           "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://myplacesportsbar.com/happy-hour/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Happy Hour",
           "url": "https://myplacesportsbar.com/menu"
         },
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://myplacesportsbar.com/"
         }
@@ -59966,9 +60028,30 @@
       "phone": "(657) 227-7928",
       "place_id": "ChIJf-HAPmom3YARd7gBoDtlXwc",
       "primary_type": "bar",
+      "specials_checked_at": "2026-10-07T20:06:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Daily Specials",
+          "url": "https://www.mysticwaterkavabar.com/daily-specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Specials",
+          "url": "https://www.mysticwaterkavabar.com/specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Weekday Specials",
+          "url": "https://www.mysticwaterkavabar.com/weekday-specials"
+        },
+        {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Specials",
           "url": "https://www.mysticwaterkavabar.com/huntington-beach-located-inside-old-world-village-mystic-water-kava-bar-orange-county-happy-hours-specials"
         }
@@ -60180,6 +60263,8 @@
       "phone": "(657) 204-9830",
       "place_id": "ChIJ2XLAiWoh3YARYNkrUUpNYPo",
       "primary_type": "italian_restaurant",
+      "specials_checked_at": "2026-10-07T20:06:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "italian_restaurant",
@@ -60259,16 +60344,20 @@
       "phone": "(714) 378-6003",
       "place_id": "ChIJj1Lyz84m3YARs-EAD5qqPF4",
       "primary_type": "thai_restaurant",
+      "specials_checked_at": "2026-10-07T20:06:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
-          "confidence": "medium",
-          "label": "Weekday Lunch Specials from $11.99",
-          "url": "https://narwhalthaihb.com/"
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Lunch specials",
+          "url": "https://narwhalthaihb.com/lunch"
         },
         {
           "confidence": "medium",
-          "label": "Lunch specials",
-          "url": "https://narwhalthaihb.com/lunch"
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://narwhalthaihb.com/"
         }
       ],
       "types": [
@@ -60538,6 +60627,8 @@
       "phone": "(949) 873-6328",
       "place_id": "ChIJ1WAyTuLe3IARmbxgCu1FJC4",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-07T20:06:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -60670,6 +60761,8 @@
       "phone": "(714) 516-8121",
       "place_id": "ChIJP6YXvMsn3YARE8Try7DsBY4",
       "primary_type": "vietnamese_restaurant",
+      "specials_checked_at": "2026-10-07T20:06:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
