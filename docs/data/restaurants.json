@@ -57,18 +57,18 @@
     "last_scanned_cities": [
       "Garden Grove"
     ],
-    "last_source_scan_at": "2026-10-08T20:08:06Z",
+    "last_source_scan_at": "2026-10-09T19:41:50Z",
     "map_cells": 458,
     "official_websites": 1496,
     "operational_count": 1917,
     "queued_cities": [],
     "restaurant_count": 1999,
-    "source_sites_checked": 178,
-    "specials_pages_found": 411,
+    "source_sites_checked": 12,
+    "specials_pages_found": 412,
     "successful_map_cells": 63
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-08T20:08:06Z",
+  "generated_at": "2026-10-09T19:41:50Z",
   "refresh_after": "2026-10-15T01:26:14Z",
   "restaurants": [
     {
@@ -73322,7 +73322,16 @@
       "phone": "(949) 631-2110",
       "place_id": "ChIJO8tXGoLf3IARhyRC-0n96e4",
       "primary_type": "barbecue_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-09T19:40:50Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.ribcompany.com/menus/happy-hour"
+        }
+      ],
       "types": [
         "barbecue_restaurant",
         "restaurant",
@@ -73690,6 +73699,8 @@
       "phone": "(949) 827-6794",
       "place_id": "ChIJ700Zhljf3IARvk7u00ojFCg",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-09T19:40:50Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -73757,6 +73768,8 @@
       "phone": "(714) 662-1521",
       "place_id": "ChIJ-ajLR0Lf3IARWqBXJjo9Y9c",
       "primary_type": "chinese_restaurant",
+      "specials_checked_at": "2026-10-09T19:40:50Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chinese_restaurant",
@@ -73822,6 +73835,8 @@
       "phone": "(714) 861-4088",
       "place_id": "ChIJ7X-D_e0m3YAR4dz5D2LLwHA",
       "primary_type": "chinese_restaurant",
+      "specials_checked_at": "2026-10-09T19:40:50Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chinese_restaurant",
@@ -73923,6 +73938,8 @@
       "phone": "",
       "place_id": "ChIJE1F0KQDf3IARBMrsX7j8jjk",
       "primary_type": "asian_restaurant",
+      "specials_checked_at": "2026-10-09T19:40:50Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "asian_restaurant",
@@ -73988,9 +74005,12 @@
       "phone": "(202) 555-0188",
       "place_id": "ChIJMbuHxhvf3IARwfC6mzDZHkE",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-09T19:40:50Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://nookcoffeebar.com/"
         }
@@ -74124,6 +74144,8 @@
       "phone": "(714) 374-9777",
       "place_id": "ChIJpzE7fxIh3YAR6HlTk644v1Y",
       "primary_type": "sushi_restaurant",
+      "specials_checked_at": "2026-10-09T19:40:50Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sushi_restaurant",
@@ -74202,6 +74224,8 @@
       "phone": "(714) 841-1919",
       "place_id": "ChIJiwpcz1gm3YAR-GSQjYWoGE4",
       "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-10-09T19:40:50Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "american_restaurant",
@@ -74263,6 +74287,8 @@
       "phone": "(949) 631-0505",
       "place_id": "ChIJofvhKYLf3IARiH2LFp_sCDk",
       "primary_type": "breakfast_restaurant",
+      "specials_checked_at": "2026-10-09T19:40:50Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "breakfast_restaurant",
@@ -74564,6 +74590,8 @@
       "phone": "",
       "place_id": "ChIJF48YIwch3YARYlWajUt-CA4",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-09T19:40:50Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -74842,6 +74870,8 @@
       "phone": "(714) 964-6741",
       "place_id": "ChIJOZ4AKS0n3YAR8mN5f7dDtEk",
       "primary_type": "sports_bar",
+      "specials_checked_at": "2026-10-09T19:40:50Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sports_bar",
@@ -74995,6 +75025,8 @@
       "phone": "(562) 784-1319",
       "place_id": "ChIJVU6R78Yh3YARPIAGc-Jvg7k",
       "primary_type": "acai_shop",
+      "specials_checked_at": "2026-10-09T19:40:50Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "acai_shop",
