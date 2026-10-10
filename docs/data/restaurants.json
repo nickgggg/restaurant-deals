@@ -57,18 +57,18 @@
     "last_scanned_cities": [
       "Garden Grove"
     ],
-    "last_source_scan_at": "2026-10-09T19:41:50Z",
+    "last_source_scan_at": "2026-10-10T18:48:22Z",
     "map_cells": 458,
     "official_websites": 1496,
     "operational_count": 1917,
     "queued_cities": [],
     "restaurant_count": 1999,
     "source_sites_checked": 12,
-    "specials_pages_found": 412,
+    "specials_pages_found": 414,
     "successful_map_cells": 63
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-09T19:41:50Z",
+  "generated_at": "2026-10-10T18:48:22Z",
   "refresh_after": "2026-10-15T01:26:14Z",
   "restaurants": [
     {
@@ -75278,6 +75278,8 @@
       "phone": "(714) 916-0807",
       "place_id": "ChIJCQydmM0n3YAR_0Hz4B6KR6U",
       "primary_type": "bar",
+      "specials_checked_at": "2026-10-10T18:47:59Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bar",
@@ -75334,6 +75336,8 @@
       "phone": "(949) 761-2130",
       "place_id": "ChIJ_7slI5Df3IARKV_q7_Gh8Dk",
       "primary_type": "chicken_wings_restaurant",
+      "specials_checked_at": "2026-10-10T18:47:59Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chicken_wings_restaurant",
@@ -75433,6 +75437,8 @@
       "phone": "(714) 432-5072",
       "place_id": "ChIJoUk3Xm7f3IARKmmhi0XVgNY",
       "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-10-10T18:47:59Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "american_restaurant",
@@ -75634,19 +75640,24 @@
       "phone": "(714) 845-8460",
       "place_id": "ChIJM-IrURMh3YARNwEaqTmLg_M",
       "primary_type": "lounge_bar",
+      "specials_checked_at": "2026-10-10T18:47:59Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://waterfrontresort.com/dining/offshore-9-rooftop-lounge?y_source=1_MjA1NjM2Mzg2OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
         },
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Spa Specials",
           "url": "https://waterfrontresort.com/spa/spa-specials"
         },
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Pawsome Getaway",
           "url": "https://waterfrontresort.com/specials"
         }
@@ -75811,6 +75822,8 @@
       "phone": "(949) 515-7400",
       "place_id": "ChIJQzBOF6vf3IARh5TGm5s63C8",
       "primary_type": "sushi_restaurant",
+      "specials_checked_at": "2026-10-10T18:47:59Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sushi_restaurant",
@@ -75897,6 +75910,8 @@
       "phone": "(714) 969-7300",
       "place_id": "ChIJoQ1w82oh3YARFNcdt_H9yI0",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-10-10T18:47:59Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
@@ -75966,7 +75981,16 @@
       "phone": "(714) 895-8020",
       "place_id": "ChIJ5cuORWom3YARPTjxELrS3ng",
       "primary_type": "german_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-10T18:47:59Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Happy Hour",
+          "url": "https://www.oldworldhb.com/happy-hour"
+        }
+      ],
       "types": [
         "german_restaurant",
         "beer_garden",
@@ -76096,6 +76120,8 @@
       "phone": "(714) 760-4193",
       "place_id": "ChIJ5-3ia0An3YAR6zuxC6DrDIY",
       "primary_type": "mediterranean_restaurant",
+      "specials_checked_at": "2026-10-10T18:47:59Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mediterranean_restaurant",
@@ -76167,14 +76193,18 @@
       "phone": "(714) 316-5000",
       "place_id": "ChIJSdeKm8Al3YARq0f9AFL2jAA",
       "primary_type": "mediterranean_restaurant",
+      "specials_checked_at": "2026-10-10T18:47:59Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "view the full menu",
           "url": "http://www.olivepitgrill.com/happy-hour"
         },
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://www.olivepitgrill.com/"
         }
@@ -76427,6 +76457,8 @@
       "phone": "(714) 432-5851",
       "place_id": "ChIJeQggVavf3IARbevpBCMiTuk",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-10T18:47:59Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -76632,6 +76664,8 @@
       "phone": "(714) 374-2472",
       "place_id": "ChIJ8eGSWSgh3YARxwRMy9Rpy0I",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-10T18:47:59Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -76839,7 +76873,22 @@
       "phone": "(714) 842-6141",
       "place_id": "ChIJ46nghgIn3YARJ2Z7KGXC088",
       "primary_type": "hamburger_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-10T18:47:59Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Promotions",
+          "url": "http://originaltommys.com/promotions"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "http://originaltommys.com/"
+        }
+      ],
       "types": [
         "hamburger_restaurant",
         "fast_food_restaurant",
