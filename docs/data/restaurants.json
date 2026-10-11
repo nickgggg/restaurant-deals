@@ -57,18 +57,18 @@
     "last_scanned_cities": [
       "Garden Grove"
     ],
-    "last_source_scan_at": "2026-10-10T18:48:22Z",
+    "last_source_scan_at": "2026-10-11T19:08:37Z",
     "map_cells": 458,
     "official_websites": 1496,
     "operational_count": 1917,
     "queued_cities": [],
     "restaurant_count": 1999,
     "source_sites_checked": 12,
-    "specials_pages_found": 414,
+    "specials_pages_found": 416,
     "successful_map_cells": 63
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-10T18:48:22Z",
+  "generated_at": "2026-10-11T19:08:37Z",
   "refresh_after": "2026-10-15T01:26:14Z",
   "restaurants": [
     {
@@ -76955,7 +76955,16 @@
       "phone": "(714) 596-1129",
       "place_id": "ChIJoTIuj6In3YARTnggMAMH3vQ",
       "primary_type": "mexican_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-11T19:08:27Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Specials",
+          "url": "https://www.oscarcafe-hb.com/specials"
+        }
+      ],
       "types": [
         "mexican_restaurant",
         "breakfast_restaurant",
@@ -77114,6 +77123,8 @@
       "phone": "(714) 908-9073",
       "place_id": "ChIJybJK7O0g3YARx179jygIPYg",
       "primary_type": "greek_restaurant",
+      "specials_checked_at": "2026-10-11T19:08:27Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "greek_restaurant",
@@ -77183,9 +77194,12 @@
       "phone": "(714) 963-7888",
       "place_id": "ChIJQ_l_2xMn3YAROIcjwXvwI-w",
       "primary_type": "sports_bar",
+      "specials_checked_at": "2026-10-11T19:08:27Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://fountainbowl.com/ozzies-sports-bar/"
         }
@@ -77252,6 +77266,8 @@
       "phone": "(626) 598-3064",
       "place_id": "ChIJzfn7mjXf3IARIXGmzjdPJqY",
       "primary_type": "bar",
+      "specials_checked_at": "2026-10-11T19:08:27Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bar",
@@ -77466,6 +77482,8 @@
       "phone": "(714) 725-7450",
       "place_id": "ChIJUfBG0Mnf3IARIGyeBjC4CEI",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-11T19:08:27Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -77524,6 +77542,8 @@
       "phone": "(714) 916-5977",
       "place_id": "ChIJZR9_Bzon3YAR3zLywnEY1po",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-10-11T19:08:27Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
@@ -77581,6 +77601,8 @@
       "phone": "(949) 402-9951",
       "place_id": "ChIJ_3IG9Nff3IAR82VRS99JPm8",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-10-11T19:08:27Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
@@ -77648,6 +77670,8 @@
       "phone": "(657) 210-4227",
       "place_id": "ChIJY9iVBYgn3YARJmsNbx8oG-0",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-11T19:08:27Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -77712,6 +77736,8 @@
       "phone": "(714) 418-0299",
       "place_id": "ChIJ6cGjIYPY3IAR4qRGr1Ymr4Y",
       "primary_type": "chinese_restaurant",
+      "specials_checked_at": "2026-10-11T19:08:27Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chinese_restaurant",
@@ -77928,6 +77954,8 @@
       "phone": "(714) 444-2498",
       "place_id": "ChIJRQNtE1An3YAR9z5rD7BMCog",
       "primary_type": "chinese_restaurant",
+      "specials_checked_at": "2026-10-11T19:08:27Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chinese_restaurant",
@@ -78539,7 +78567,52 @@
       "phone": "(714) 845-4313",
       "place_id": "ChIJgWMV7LMm3YAR31iWDSEi6IE",
       "primary_type": "cafe",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-11T19:08:27Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.panerabread.com/en-us/articles/family-feast-family-sized-meal-deal.html"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.panerabread.com/en-us/panera-promo-codes-discount-coupons-deals.html"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.panerabread.com/en-us/press/press-room/love-is-in-the-air-with-nationwide-baegal-valentines-day-deal-and-mypanera-days-celebration.html"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.panerabread.com/en-us/press/press-room/panera-bread-warms-up-national-soup-month-with-launch-of-new-toasted-sourdough-melts-sandwiches-and-1-dollar-cup-of-soup-deal.html"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.panerabread.com/en-us/press/press-room/panera-brings-the-cozy-this-holiday-season-with-new-sips-sweet-treats-and-a-1-dollar-soup-deal.html"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.panerabread.com/en-us/press/press-room/panera-brings-the-flavor-with-a-swicy-deal-five-irresistible-new-bakery-items-and-new-croissant-breakfast-sandwiches.html"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.panerabread.com/en-us/press/press-room/panera-launches-week-long-celebration-featuring-mypanera-week-deals.html"
+        }
+      ],
       "types": [
         "cafe",
         "catering_service",
@@ -78617,9 +78690,12 @@
       "phone": "(714) 847-4000",
       "place_id": "ChIJzcY61m8m3YARkSUpEOGwZ3U",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-10-11T19:08:27Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://locations.papajohns.com/united-states/ca/92647/huntington-beach/16105-goldenwest-st?utm_source=gmb&utm_medium=organic&y_source=1_MTA2OTI2MDEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
         }

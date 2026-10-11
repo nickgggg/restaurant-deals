@@ -1,7 +1,866 @@
 {
-  "generated_at": "2026-10-10T18:54:25Z",
+  "generated_at": "2026-10-11T19:15:46Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Monday Mai Tai for $12 Sailor Jerry Rum, Triple Sec, Pineapple Juice, OJ, Grenadine, featuring a float of Myer's Dark Rum Dine-In Only",
+      "canonical_id": "b8946ba4085c2a75",
+      "categories": [
+        "drink"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 7,
+      "details": [
+        "Sailor Jerry Rum, Triple Sec, Pineapple Juice, OJ, Grenadine, featuring a float of Myer's Dark Rum",
+        "Dine-In Only"
+      ],
+      "first_seen": "2026-10-02T19:35:11Z",
+      "id": "660fc68a909d4c61",
+      "is_stale": true,
+      "last_seen": "2026-10-04T18:26:08Z",
+      "location": {
+        "address": "2104 W Oceanfront, Newport Beach, CA 92663, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=10611766459792228685&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "12:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:30",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ]
+        },
+        "latitude": 33.608522199999996,
+        "longitude": -117.9287162,
+        "phone": "(949) 723-0606",
+        "place_id": "ChIJ_-EY5f4f3YARTQFSI1-RRJM"
+      },
+      "quality_score": 53,
+      "restaurant": "Rockin' Baja Lobster - Newport Beach",
+      "retired_at": "2026-10-11T19:15:46Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Monday Mai Tai",
+        "$12"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://rockinbaja.com/specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Monday Mai Tai for $12",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Mon",
+      "value_label": "$12"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Tuesday Chamoy Margarita for $12 Frozen Swirled Mango & Chamango Rita in a Chili Rim Glass Dine-In Only",
+      "canonical_id": "0c9a0b99574b45ec",
+      "categories": [
+        "drink"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 7,
+      "details": [
+        "Frozen Swirled Mango & Chamango Rita in a Chili Rim Glass",
+        "Dine-In Only"
+      ],
+      "first_seen": "2026-10-02T19:35:11Z",
+      "id": "11337790c8ac787f",
+      "is_stale": true,
+      "last_seen": "2026-10-04T18:26:08Z",
+      "location": {
+        "address": "2104 W Oceanfront, Newport Beach, CA 92663, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=10611766459792228685&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "12:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:30",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ]
+        },
+        "latitude": 33.608522199999996,
+        "longitude": -117.9287162,
+        "phone": "(949) 723-0606",
+        "place_id": "ChIJ_-EY5f4f3YARTQFSI1-RRJM"
+      },
+      "quality_score": 53,
+      "restaurant": "Rockin' Baja Lobster - Newport Beach",
+      "retired_at": "2026-10-11T19:15:46Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Tuesday Chamoy Margarita",
+        "$12"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://rockinbaja.com/specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Tuesday Chamoy Margarita for $12",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "$12"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Wednesday Long Island Iced Tea for $12 Vodka, Gin, Rum, Triple Sec, Sweet & Sour with a Splash of Coca Cola Dine-In Only",
+      "canonical_id": "f0cc3f992de773e0",
+      "categories": [
+        "drink"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 7,
+      "details": [
+        "Vodka, Gin, Rum, Triple Sec, Sweet & Sour with a Splash of Coca Cola",
+        "Dine-In Only"
+      ],
+      "first_seen": "2026-10-02T19:35:11Z",
+      "id": "1a83adc4671eb87c",
+      "is_stale": true,
+      "last_seen": "2026-10-04T18:26:08Z",
+      "location": {
+        "address": "2104 W Oceanfront, Newport Beach, CA 92663, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=10611766459792228685&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "12:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:30",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ]
+        },
+        "latitude": 33.608522199999996,
+        "longitude": -117.9287162,
+        "phone": "(949) 723-0606",
+        "place_id": "ChIJ_-EY5f4f3YARTQFSI1-RRJM"
+      },
+      "quality_score": 53,
+      "restaurant": "Rockin' Baja Lobster - Newport Beach",
+      "retired_at": "2026-10-11T19:15:46Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Wednesday Long Island Iced Tea",
+        "$12"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://rockinbaja.com/specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Wednesday Long Island Iced Tea for $12",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Wed",
+      "value_label": "$12"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "thursday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Thursday Tito's Lemonade for $12 Tito's Vodka, Triple Sec, Lemonade, Splash of Cranberry, & Lemon Dine-In Only",
+      "canonical_id": "6151bed644f5574b",
+      "categories": [
+        "drink"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 7,
+      "details": [
+        "Tito's Vodka, Triple Sec, Lemonade, Splash of Cranberry, & Lemon",
+        "Dine-In Only"
+      ],
+      "first_seen": "2026-10-02T19:35:11Z",
+      "id": "c402f94cb762e090",
+      "is_stale": true,
+      "last_seen": "2026-10-04T18:26:08Z",
+      "location": {
+        "address": "2104 W Oceanfront, Newport Beach, CA 92663, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=10611766459792228685&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "12:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:30",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ]
+        },
+        "latitude": 33.608522199999996,
+        "longitude": -117.9287162,
+        "phone": "(949) 723-0606",
+        "place_id": "ChIJ_-EY5f4f3YARTQFSI1-RRJM"
+      },
+      "quality_score": 53,
+      "restaurant": "Rockin' Baja Lobster - Newport Beach",
+      "retired_at": "2026-10-11T19:15:46Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Thursday Tito\u2019s Lemonade",
+        "$12"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://rockinbaja.com/specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Thursday Tito's Lemonade for $12",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Thu",
+      "value_label": "$12"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Friday Moscow Mule for $12 Svedka Vodka, Ginger Beer, Fresh Lime Juice, Fresh Mint, served in a Copper Mug Dine-In Only",
+      "canonical_id": "6e8eb84ad30c4055",
+      "categories": [
+        "drink"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 7,
+      "details": [
+        "Svedka Vodka, Ginger Beer, Fresh Lime Juice, Fresh Mint, served in a Copper Mug",
+        "Dine-In Only"
+      ],
+      "first_seen": "2026-10-02T19:35:11Z",
+      "id": "7f022dd894800d52",
+      "is_stale": true,
+      "last_seen": "2026-10-04T18:26:08Z",
+      "location": {
+        "address": "2104 W Oceanfront, Newport Beach, CA 92663, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=10611766459792228685&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "12:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:30",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ]
+        },
+        "latitude": 33.608522199999996,
+        "longitude": -117.9287162,
+        "phone": "(949) 723-0606",
+        "place_id": "ChIJ_-EY5f4f3YARTQFSI1-RRJM"
+      },
+      "quality_score": 53,
+      "restaurant": "Rockin' Baja Lobster - Newport Beach",
+      "retired_at": "2026-10-11T19:15:46Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Friday Moscow Mule",
+        "$12"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://rockinbaja.com/specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Friday Moscow Mule for $12",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Fri",
+      "value_label": "$12"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "saturday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Saturday Tropical Twist for $12 Tito's Vodka, Tropical Redbull, Splash of Grenadine, & Red Sugar Rimmed Glass Dine-In Only",
+      "canonical_id": "2b8f18e406087d57",
+      "categories": [
+        "drink"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 7,
+      "details": [
+        "Tito's Vodka, Tropical Redbull, Splash of Grenadine, & Red Sugar Rimmed Glass",
+        "Dine-In Only"
+      ],
+      "first_seen": "2026-10-02T19:35:11Z",
+      "id": "0a7c582f16836fd8",
+      "is_stale": true,
+      "last_seen": "2026-10-04T18:26:08Z",
+      "location": {
+        "address": "2104 W Oceanfront, Newport Beach, CA 92663, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=10611766459792228685&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "12:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:30",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:30",
+              "open": "12:00"
+            }
+          ]
+        },
+        "latitude": 33.608522199999996,
+        "longitude": -117.9287162,
+        "phone": "(949) 723-0606",
+        "place_id": "ChIJ_-EY5f4f3YARTQFSI1-RRJM"
+      },
+      "quality_score": 53,
+      "restaurant": "Rockin' Baja Lobster - Newport Beach",
+      "retired_at": "2026-10-11T19:15:46Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Saturday Tropical Twist",
+        "$12"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://rockinbaja.com/specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Saturday Tropical Twist for $12",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Sat",
+      "value_label": "$12"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Original Burrito Box Combo for $8.99 Includes a side of chips and creamy, homemade guacamole Includes a 22 oz. fountain beverage Includes the Original Burrito filled with refried beans, Spanish rice, cheddar cheese and choice of shredded chicken, chile verde pork, or shredded beef Available for a limited time",
+      "canonical_id": "24c187ece2deae2f",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 1,
+      "details": [
+        "Includes a side of chips and creamy, homemade guacamole",
+        "Includes a 22 oz. fountain beverage",
+        "Includes the Original Burrito filled with refried beans, Spanish rice, cheddar cheese and choice of shredded chicken, chile verde pork, or shredded beef",
+        "Available for a limited time"
+      ],
+      "first_seen": "2026-10-06T23:44:21Z",
+      "id": "c685a7a3dfc4ac7e",
+      "is_stale": true,
+      "last_seen": "2026-10-09T19:48:57Z",
+      "location": {
+        "address": "19620 Beach Blvd, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=2915900512048835368&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.677334,
+        "longitude": -117.9882926,
+        "phone": "(714) 888-2255",
+        "place_id": "ChIJeymWaDMh3YARKOsMDRFcdyg"
+      },
+      "quality_score": 50,
+      "restaurant": "Miguel's Jr.",
+      "retired_at": "2026-10-11T19:15:46Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "For a limited time, Miguel\u2019s Jr. is offering a new Burrito Box combo featuring the Original Burrito for only $8.99."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://miguelsjr.com/blogs/stories/miguels-jr-launches-new-summer-happy-hour-menu-and-original-burrito-box-combo",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Original Burrito Box Combo for $8.99",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$8.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Kids eat free every Wednesday Valid for kids meals Offer valid thru 10/28",
+      "canonical_id": "2df4fcb76e7cbd89",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Valid for kids meals",
+        "Offer valid thru 10/28"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "94b8616f857d643b",
+      "is_stale": true,
+      "last_seen": "2026-10-10T18:54:25Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 93,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-10-11T19:15:46Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Kids eat free every Wednesday thru 10/28"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/offers/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Kids eat free every Wednesday",
+      "tags": [
+        "weekday_special",
+        "free",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": "2026-10-28",
+      "validity": "Wed",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Social Mimosas for $20.99 Includes a full bottle of champagne and a carafe of orange juice, perfect for sharing for $20.99.",
+      "canonical_id": "03608d1920aef02f",
+      "categories": [
+        "drink"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 1,
+      "details": [
+        "Includes a full bottle of champagne and a carafe of orange juice, perfect for sharing for $20.99."
+      ],
+      "first_seen": "2026-10-01T19:54:41Z",
+      "id": "65ebe01dc3fa66c2",
+      "is_stale": true,
+      "last_seen": "2026-10-10T18:54:25Z",
+      "location": {
+        "address": "100 Main St, Newport Beach, CA 92661, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:30",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6013728,
+        "longitude": -117.89955119999999,
+        "phone": "(949) 675-7760",
+        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
+      },
+      "quality_score": 50,
+      "restaurant": "Cabo Cantina",
+      "retired_at": "2026-10-11T19:15:46Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Social Mimosas! A full bottle of champagne and a carafe of orange juice, perfect for sharing! Only $20.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cabocantina.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Social Mimosas for $20.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$20.99"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
