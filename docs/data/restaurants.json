@@ -57,7 +57,7 @@
     "last_scanned_cities": [
       "Garden Grove"
     ],
-    "last_source_scan_at": "2026-10-11T19:08:37Z",
+    "last_source_scan_at": "2026-10-12T22:13:39Z",
     "map_cells": 458,
     "official_websites": 1496,
     "operational_count": 1917,
@@ -68,7 +68,7 @@
     "successful_map_cells": 63
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-11T19:08:37Z",
+  "generated_at": "2026-10-12T22:13:39Z",
   "refresh_after": "2026-10-15T01:26:14Z",
   "restaurants": [
     {
@@ -78764,9 +78764,12 @@
       "phone": "(714) 378-9888",
       "place_id": "ChIJddtR184m3YARAgBFtHeRSSA",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-10-12T22:12:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://locations.papajohns.com/united-states/ca/92648/huntington-beach/19008-beach-blvd?utm_source=gmb&utm_medium=organic&y_source=1_MTA2OTI1OTQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
         }
@@ -78835,6 +78838,8 @@
       "phone": "(714) 962-8887",
       "place_id": "ChIJIdNHUion3YARCtbAeIpVuvw",
       "primary_type": "brunch_restaurant",
+      "specials_checked_at": "2026-10-12T22:12:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "brunch_restaurant",
@@ -78976,6 +78981,8 @@
       "phone": "(714) 617-4630",
       "place_id": "ChIJl25h7GXf3IAR6OBs3e4cxrM",
       "primary_type": "chinese_restaurant",
+      "specials_checked_at": "2026-10-12T22:12:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chinese_restaurant",
@@ -79257,6 +79264,8 @@
       "phone": "(714) 842-0775",
       "place_id": "ChIJAzmfA5Am3YARbGIIPhu_5GQ",
       "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-10-12T22:12:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "american_restaurant",
@@ -79378,6 +79387,8 @@
       "phone": "",
       "place_id": "ChIJM_1An5cl3YARPPBbwIffSYw",
       "primary_type": "meal_takeaway",
+      "specials_checked_at": "2026-10-12T22:12:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "meal_takeaway",
@@ -79569,14 +79580,24 @@
       "phone": "(714) 965-3643",
       "place_id": "ChIJ-bLm2QQn3YARxG8XHv2bv6M",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-12T22:12:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://paulscoffeeshopfountainvalley.com/"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Everyday Specials",
           "url": "https://paulscoffeeshopfountainvalley.com/everyday-specials"
         },
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Specials",
           "url": "https://paulscoffeeshopfountainvalley.com/specials"
         }
@@ -80112,6 +80133,8 @@
       "phone": "(562) 592-3221",
       "place_id": "ChIJf6k7QXIl3YARt7ofallCVFA",
       "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-10-12T22:12:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "american_restaurant",
@@ -80192,6 +80215,8 @@
       "phone": "(714) 916-0082",
       "place_id": "ChIJe6GdAq4n3YARkhh3CyYtY8M",
       "primary_type": "chinese_restaurant",
+      "specials_checked_at": "2026-10-12T22:12:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chinese_restaurant",
@@ -80257,6 +80282,8 @@
       "phone": "(714) 794-2979",
       "place_id": "ChIJ3VzQN3Qm3YARbza0-ddTsP4",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-10-12T22:12:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "pizza_restaurant",
@@ -80325,6 +80352,8 @@
       "phone": "(714) 593-2800",
       "place_id": "ChIJ_-EY5f4f3YARMkv9CksEzS8",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-10-12T22:12:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "pizza_restaurant",
@@ -80466,6 +80495,8 @@
       "phone": "(714) 593-4111",
       "place_id": "ChIJv9_yz84m3YARLcF8SAentzM",
       "primary_type": "peruvian_restaurant",
+      "specials_checked_at": "2026-10-12T22:12:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "peruvian_restaurant",
@@ -80592,6 +80623,8 @@
       "phone": "(714) 960-8797",
       "place_id": "ChIJz7LK50Mh3YARkHb8GG6yq-o",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-10-12T22:12:58Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",

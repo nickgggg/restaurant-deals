@@ -1075,6 +1075,10 @@
       "checked_at": "2026-09-22T18:28:30Z",
       "status": "ok"
     },
+    "east18cafe.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "status": "ok"
+    },
     "easterntales.com": {
       "checked_at": "2026-09-22T18:28:30Z",
       "status": "ok"
@@ -1423,6 +1427,10 @@
     },
     "hbbagelscafe.com": {
       "checked_at": "2026-09-26T18:03:52Z",
+      "status": "ok"
+    },
+    "hboconnells.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
       "status": "ok"
     },
     "hbpitagrill.com": {
@@ -2422,6 +2430,10 @@
       "checked_at": "2026-10-11T19:15:48Z",
       "status": "ok"
     },
+    "nesosnewportbeach.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "status": "ok"
+    },
     "new-york-style-pizza.square.site": {
       "checked_at": "2026-10-11T19:15:48Z",
       "status": "ok"
@@ -2434,24 +2446,90 @@
       "checked_at": "2026-10-02T16:48:45Z",
       "status": "ok"
     },
+    "newportcoffeeco.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "status": "ok"
+    },
     "newportdunes.com": {
       "checked_at": "2026-10-07T20:13:39Z",
       "status": "ok"
+    },
+    "newportfusionsushi.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "status": "ok"
+    },
+    "ngubinhrestaurant.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
     },
     "nicksrestaurants.com": {
       "checked_at": "2026-10-04T18:26:14Z",
       "status": "ok"
     },
+    "nickthegreek.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "status": "ok"
+    },
+    "no1chinesefoodca.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "missing"
+    },
+    "noburestaurants.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "error": "Not Found",
+      "status": "missing"
+    },
     "nokaoihb.com": {
       "checked_at": "2026-09-16T23:23:49Z",
+      "status": "ok"
+    },
+    "noodstogo.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "nookcoffeebar.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
       "status": "ok"
     },
     "nordstrom.com": {
       "checked_at": "2026-10-02T16:30:37Z",
       "status": "ok"
     },
+    "noripokesushi.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "status": "ok"
+    },
+    "norms.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "status": "ok"
+    },
+    "nothingbundtcakes.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "status": "ok"
+    },
+    "nubachijapanesegrill.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "error": "HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nMoved Permanently",
+      "status": "missing"
+    },
+    "nudaecoffee.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "nuovoamicopizzapasta.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "status": "ok"
+    },
     "ocbarrio.com": {
       "checked_at": "2026-10-08T20:15:36Z",
+      "status": "ok"
+    },
+    "oclaurestaurant.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
       "status": "ok"
     },
     "ocloftexpress.com": {
@@ -2489,6 +2567,11 @@
     },
     "order.online": {
       "checked_at": "2026-09-27T18:43:41Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "order.thanx.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
@@ -2595,6 +2678,11 @@
     "restaurants.ihop.com": {
       "checked_at": "2026-09-27T18:43:41Z",
       "status": "ok"
+    },
+    "ribcompany.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
     },
     "riip.com": {
       "checked_at": "2026-09-16T23:17:10Z",
@@ -2837,7 +2925,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-10-11T19:15:48Z",
+  "generated_at": "2026-10-12T22:19:48Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -3805,6 +3893,12 @@
       "path": "logos/east-borough-com.webp",
       "source_url": "https://images.squarespace-cdn.com/content/54ea5254e4b07c3f656138bd/1642200084486-DTEW366LHON7JGN9HF5T/IMG_0520.jpeg?format=1500w&content-type=image%2Fjpeg"
     },
+    "east18cafe.com": {
+      "background": "#f5d2bc",
+      "checked_at": "2026-10-12T22:19:48Z",
+      "path": "logos/east18cafe-com.webp",
+      "source_url": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:180,h:180,m"
+    },
     "easterntales.com": {
       "background": "#510e13",
       "checked_at": "2026-09-22T18:28:30Z",
@@ -4144,6 +4238,11 @@
       "checked_at": "2026-09-26T18:03:52Z",
       "path": "logos/hbbagelscafe-com.webp",
       "source_url": "https://framerusercontent.com/images/HEHrm70UGvxdhV9519NmMCc36s.png"
+    },
+    "hboconnells.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "path": "logos/hboconnells-com.png",
+      "source_url": "http://www.hboconnells.com/images/logo.png?i=776"
     },
     "hbpitagrill.com": {
       "checked_at": "2026-09-25T18:59:56Z",
@@ -5115,6 +5214,12 @@
       "path": "logos/neat-coffee.webp",
       "source_url": "https://images.squarespace-cdn.com/content/560b68f0e4b07ffc5e78bb76/1443921948874-2UZUTTCUN5142BC8W7WB/Neat_SocialSharingImg.png?content-type=image%2Fpng"
     },
+    "nesosnewportbeach.com": {
+      "background": "#f9f7ea",
+      "checked_at": "2026-10-12T22:19:48Z",
+      "path": "logos/nesosnewportbeach-com.webp",
+      "source_url": "https://imagedelivery.net/aPDHOWLzkdlEAMvg3YLQug/production-a0ihvb0yb1qpzrywf1vnzpl5sqas/fit=contain,format=auto,height=70"
+    },
     "new-york-style-pizza.square.site": {
       "background": "#000000",
       "checked_at": "2026-10-11T19:15:48Z",
@@ -5132,30 +5237,77 @@
       "path": "logos/newport-landing-com.png",
       "source_url": "https://www.newport-landing.com/wp-content/themes/gc-starter/assets/images/icon-192.png"
     },
+    "newportcoffeeco.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "path": "logos/newportcoffeeco-com.png",
+      "source_url": "https://static.wixstatic.com/media/f73273_fe8df26fdbc744b8b73513d21b7cf81a%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/f73273_fe8df26fdbc744b8b73513d21b7cf81a%7Emv2.png"
+    },
     "newportdunes.com": {
       "checked_at": "2026-10-07T20:13:39Z",
       "path": "logos/newportdunes-com.webp",
       "source_url": "https://www.newportdunes.com/wp-content/uploads/2022/06/cropped-Newport-Dunes-LogoUPDATE-ReversedOut-350px-1.png"
+    },
+    "newportfusionsushi.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "path": "logos/newportfusionsushi-com.webp",
+      "source_url": "https://static.wixstatic.com/media/ed68af_bb75e37d467348e4a847c991c18ae796~mv2.png/v1/fill/w_100,h_100,al_c,q_85,enc_avif,quality_auto/100x100w.png"
     },
     "nicksrestaurants.com": {
       "checked_at": "2026-10-04T18:26:14Z",
       "path": "logos/nicksrestaurants-com.png",
       "source_url": "https://nicksrestaurants.com/wp-content/uploads/Little-SoN-logo_color.png"
     },
+    "nickthegreek.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "path": "logos/nickthegreek-com.png",
+      "source_url": "https://www.nickthegreek.com/wp-content/uploads/2024/07/Apple-IOS-Badge-Logo-2024-300x117.png"
+    },
     "nokaoihb.com": {
       "checked_at": "2026-09-16T23:23:49Z",
       "path": "logos/nokaoihb-com.webp",
       "source_url": "https://images.squarespace-cdn.com/content/v1/646cc00ad3b2ce79a4567972/f6b16d2d-f914-449c-a76b-05819ab2911b/favicon.ico?format=100w"
+    },
+    "nookcoffeebar.com": {
+      "background": "#969696",
+      "checked_at": "2026-10-12T22:19:48Z",
+      "path": "logos/nookcoffeebar-com.webp",
+      "source_url": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:180,h:180,m"
     },
     "nordstrom.com": {
       "checked_at": "2026-10-02T16:30:37Z",
       "path": "logos/nordstrom-com.ico",
       "source_url": "https://www.nordstrom.com/favicon.ico"
     },
+    "noripokesushi.com": {
+      "background": "#9c1a1a",
+      "checked_at": "2026-10-12T22:19:48Z",
+      "path": "logos/noripokesushi-com.webp",
+      "source_url": "https://img1.wsimg.com/isteam/ip/10a7a7c3-7abc-4081-bc9d-265f681ae48c/Original%20Nori%20Logo.png/:/rs=w:180,h:180,m"
+    },
+    "norms.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "path": "logos/norms-com.png",
+      "source_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABJYAAAY+AQMAAAAgiTaaAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAPxJREFUeNrtwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvgycBQAB7mDxDgAAAABJRU5ErkJggg=="
+    },
+    "nothingbundtcakes.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "path": "logos/nothingbundtcakes-com.webp",
+      "source_url": "https://www.nothingbundtcakes.com/media/logo/websites/1/26-NBC-8001_20206_20_Fall_Logo_V2_Vertical_Logo_Option1_Tan-1000x1000-a006145.png"
+    },
+    "nuovoamicopizzapasta.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "path": "logos/nuovoamicopizzapasta-com.png",
+      "source_url": "https://production-cdn-hdb5b9fwgnb9bdf9.z01.azurefd.net/sitecontent/website/images/apple-touch-icon.png?lu=348122e9f09b1d200e84cd53cbd4d0f6"
+    },
     "ocbarrio.com": {
       "checked_at": "2026-10-08T20:15:36Z",
       "path": "logos/ocbarrio-com.jpg",
       "source_url": "https://cdn.prod.website-files.com/6527283df1b45faa9da75380/65566a2f5f70c501cade87cc_5f0b7b0dba4f262d7f539e56_barriowebicon.jpeg"
+    },
+    "oclaurestaurant.com": {
+      "checked_at": "2026-10-12T22:19:48Z",
+      "path": "logos/oclaurestaurant-com.png",
+      "source_url": "https://oclaurestaurant.com/wp-content/uploads/2020/06/logo.png"
     },
     "ocloftexpress.com": {
       "checked_at": "2026-10-05T21:43:32Z",
