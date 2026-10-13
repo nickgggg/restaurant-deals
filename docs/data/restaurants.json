@@ -57,18 +57,18 @@
     "last_scanned_cities": [
       "Garden Grove"
     ],
-    "last_source_scan_at": "2026-10-12T22:13:39Z",
+    "last_source_scan_at": "2026-10-13T20:20:06Z",
     "map_cells": 458,
     "official_websites": 1496,
     "operational_count": 1917,
     "queued_cities": [],
     "restaurant_count": 1999,
     "source_sites_checked": 12,
-    "specials_pages_found": 416,
+    "specials_pages_found": 418,
     "successful_map_cells": 63
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-12T22:13:39Z",
+  "generated_at": "2026-10-13T20:20:06Z",
   "refresh_after": "2026-10-15T01:26:14Z",
   "restaurants": [
     {
@@ -80691,6 +80691,8 @@
       "phone": "(714) 845-4775",
       "place_id": "ChIJF42jwBMh3YARufbbMXYrV6s",
       "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-10-13T20:19:35Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "american_restaurant",
@@ -80756,7 +80758,16 @@
       "phone": "(714) 968-2448",
       "place_id": "ChIJg1IDijMn3YARe_FPQ3O_1_s",
       "primary_type": "sandwich_shop",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-13T20:19:35Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://eatphillysbest.com/news/phillys-best-launches-a-sharper-summer-promotion"
+        }
+      ],
       "types": [
         "sandwich_shop",
         "meal_takeaway",
@@ -80822,9 +80833,12 @@
       "phone": "(714) 916-0628",
       "place_id": "ChIJ-cbrdGoh3YARLX_pP2n9WAw",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-13T20:19:35Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://philzcoffee.com/locations/huntington-beach?utm_source=gmb&utm_medium=yext"
         }
@@ -81134,6 +81148,8 @@
       "phone": "(714) 531-2009",
       "place_id": "ChIJL6zcz-on3YAR7td_QeTzkUk",
       "primary_type": "vietnamese_restaurant",
+      "specials_checked_at": "2026-10-13T20:19:35Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
@@ -81399,6 +81415,8 @@
       "phone": "(949) 375-5494",
       "place_id": "ChIJE9-8Qtgg3YARVff37s2LFwM",
       "primary_type": "vietnamese_restaurant",
+      "specials_checked_at": "2026-10-13T20:19:35Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
@@ -81745,6 +81763,8 @@
       "phone": "(562) 588-3044",
       "place_id": "ChIJ4QsJk1sl3YAR5VJc6OqawJw",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-13T20:19:35Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -81803,6 +81823,8 @@
       "phone": "(714) 760-4734",
       "place_id": "ChIJ1162rxcn3YARltGueVJEShc",
       "primary_type": "vietnamese_restaurant",
+      "specials_checked_at": "2026-10-13T20:19:35Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
@@ -82082,7 +82104,16 @@
       "phone": "(657) 204-9868",
       "place_id": "ChIJBZO3H_An3YARmmnewdDJBRs",
       "primary_type": "restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-13T20:19:35Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Promotions",
+          "url": "https://qrco.de/promotions"
+        }
+      ],
       "types": [
         "restaurant",
         "food",
@@ -82930,6 +82961,8 @@
       "phone": "(714) 963-1818",
       "place_id": "ChIJpysCyM4m3YARZFHYb2DUgJY",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-13T20:19:35Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
@@ -83083,6 +83116,8 @@
       "phone": "(714) 279-9999",
       "place_id": "ChIJi4u4URjf3IARH9rmh31wj3I",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-13T20:19:35Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -83219,9 +83254,18 @@
       "phone": "(714) 465-2592",
       "place_id": "ChIJVVWlXNUm3YARr25GInkvLOQ",
       "primary_type": "italian_restaurant",
+      "specials_checked_at": "2026-10-13T20:19:35Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Specials",
+          "url": "https://piccolostivale.com/specials"
+        },
+        {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "SPECIALS",
           "url": "https://piccolostivale.com/specials.html"
         }
@@ -83439,6 +83483,8 @@
       "phone": "(714) 960-4904",
       "place_id": "ChIJKQ2bibEm3YAR58BHq_gKT0Y",
       "primary_type": "chinese_restaurant",
+      "specials_checked_at": "2026-10-13T20:19:35Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chinese_restaurant",

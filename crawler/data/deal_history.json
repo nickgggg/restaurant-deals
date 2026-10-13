@@ -1,7 +1,1065 @@
 {
-  "generated_at": "2026-10-12T22:19:47Z",
+  "generated_at": "2026-10-13T20:28:47Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$1 off Happy Hour Menu Select New and Premium sips available for $1 off Tostadas and taquitos available for $1 off Carne asada for tostadas available for an additional cost",
+      "canonical_id": "3610efc36ab43b2e",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 7,
+      "details": [
+        "Select New and Premium sips available for $1 off",
+        "Tostadas and taquitos available for $1 off",
+        "Carne asada for tostadas available for an additional cost"
+      ],
+      "first_seen": "2026-10-06T19:53:14Z",
+      "id": "e72bb17cdf2a7744",
+      "is_stale": true,
+      "last_seen": "2026-10-06T19:53:14Z",
+      "location": {
+        "address": "19620 Beach Blvd, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=2915900512048835368&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.677334,
+        "longitude": -117.9882926,
+        "phone": "(714) 888-2255",
+        "place_id": "ChIJeymWaDMh3YARKOsMDRFcdyg"
+      },
+      "quality_score": 75,
+      "restaurant": "Miguel's Jr.",
+      "retired_at": "2026-10-13T20:28:47Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Select New and Premium sips are now available as part of the $1 off Happy Hour menu available daily from 2\u20135 p.m.",
+        "Food also gets some Happy Hour love giving fans the ability to satisfy afternoon cravings with a $1 off Miguel Jr\u2019s. tostadas (carne asada available for an additional cost) and taquitos."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://miguelsjr.com/blogs/stories/miguels-jr-launches-new-summer-happy-hour-menu-and-original-burrito-box-combo",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$1 off Happy Hour Menu",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "Select New and Premium sips are now available as part of the $1 off Happy Hour menu available daily from 2pm-5pm p.m.",
+      "valid_through": null,
+      "validity": "Select New and Premium sips are now available as part of the $1 off Happy Hour menu available daily from 2pm-5pm p.m.",
+      "value_label": "$1 off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Original Burrito Box Combo for $8.99 Includes the Original Burrito with choice of shredded chicken, chile verde pork, or shredded beef, plus refried beans, Spanish rice, and cheddar cheese Includes a side of chips and creamy, homemade guacamole Includes a 22 oz. fountain beverage Available for a limited time",
+      "canonical_id": "dc869c731c1e056b",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Includes the Original Burrito with choice of shredded chicken, chile verde pork, or shredded beef, plus refried beans, Spanish rice, and cheddar cheese",
+        "Includes a side of chips and creamy, homemade guacamole",
+        "Includes a 22 oz. fountain beverage",
+        "Available for a limited time"
+      ],
+      "first_seen": "2026-10-06T23:44:21Z",
+      "id": "be10d1a09c0357e8",
+      "is_stale": true,
+      "last_seen": "2026-10-12T22:19:47Z",
+      "location": {
+        "address": "19620 Beach Blvd, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=2915900512048835368&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.677334,
+        "longitude": -117.9882926,
+        "phone": "(714) 888-2255",
+        "place_id": "ChIJeymWaDMh3YARKOsMDRFcdyg"
+      },
+      "quality_score": 50,
+      "restaurant": "Miguel's Jr.",
+      "retired_at": "2026-10-13T20:28:47Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "For a limited time, Miguel\u2019s Jr. is offering a new Burrito Box combo featuring the Original Burrito for only $8.99.",
+        "the Original Burrito Box includes a side of chips and creamy, homemade guacamole, a 22 oz. fountain beverage, and the Original Burrito filled with refried beans, Spanish rice, cheddar cheese and choice of shredded chicken, chile verde pork, or shredded beef."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://miguelsjr.com/blogs/stories/miguels-jr-launches-new-summer-happy-hour-menu-and-original-burrito-box-combo",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Original Burrito Box Combo for $8.99",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$8.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Kids eat free every Wednesday Kids eat free every Wednesday Valid thru 10/28",
+      "canonical_id": "7efd96bc79be66d0",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Kids eat free every Wednesday",
+        "Valid thru 10/28"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "1916c941c047bf99",
+      "is_stale": true,
+      "last_seen": "2026-10-12T22:19:47Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 93,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-10-13T20:28:47Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Kids eat free every Wednesday thru 10/28"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/offers/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Kids eat free every Wednesday",
+      "tags": [
+        "weekday_special",
+        "free"
+      ],
+      "time_window": null,
+      "valid_through": "2026-10-28",
+      "validity": "Wed",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Textiles Tuesdays: select textiles priced at $5 each Shop select textiles priced at just $5 each. Look for items marked 'Textiles Tuesday' to score the deal. In-store as-is department.",
+      "canonical_id": "3921c1aaa930b2da",
+      "categories": [
+        "general"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 10,
+      "details": [
+        "Shop select textiles priced at just $5 each.",
+        "Look for items marked 'Textiles Tuesday' to score the deal.",
+        "In-store as-is department."
+      ],
+      "first_seen": "2026-10-02T19:35:11Z",
+      "id": "6c5df85e805a8eb7",
+      "is_stale": true,
+      "last_seen": "2026-10-03T18:16:12Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 68,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-10-13T20:28:47Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Textiles Tuesdays:",
+        "Every Tuesday, shop select textiles priced at just $5 each! Look for items marked 'Textiles Tuesday' to score the deal.*"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Textiles Tuesdays: select textiles priced at $5 each",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "$5"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Wow Wednesdays: one select item marked 75% off Each week, one select item will be marked 75% off. Look for the tag labeled 'WOW Wednesday.' In-store as-is department.",
+      "canonical_id": "8d1fa1ceec5df11e",
+      "categories": [
+        "general"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 10,
+      "details": [
+        "Each week, one select item will be marked 75% off.",
+        "Look for the tag labeled 'WOW Wednesday.'",
+        "In-store as-is department."
+      ],
+      "first_seen": "2026-09-19T17:30:52Z",
+      "id": "af800076e5d361c7",
+      "is_stale": true,
+      "last_seen": "2026-10-03T18:16:12Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 93,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-10-13T20:28:47Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Wow Wednesdays:",
+        "Each week, one select item will be marked 75% off, just look for the tag labeled 'WOW Wednesday.'*"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Wow Wednesdays: one select item marked 75% off",
+      "tags": [
+        "percent_off",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Wed",
+      "value_label": "75% off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Kids eat free on Wednesdays for IKEA Family members IKEA Family members enjoy free kids\u2019 meals on Wednesdays only at the IKEA Swedish Restaurant. Now thru 10/28.",
+      "canonical_id": "d886269dcfd14b90",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 10,
+      "details": [
+        "IKEA Family members enjoy free kids\u2019 meals on Wednesdays only at the IKEA Swedish Restaurant.",
+        "Now thru 10/28."
+      ],
+      "first_seen": "2026-09-19T17:30:52Z",
+      "id": "977804f2b0863bd9",
+      "is_stale": true,
+      "last_seen": "2026-10-03T18:16:12Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 83,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-10-13T20:28:47Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Kids eat free on Wednesdays",
+        "Delicious, fun and free! IKEA Family members enjoy free kids\u2019 meals on Wednesdays only at the IKEA Swedish Restaurant. Now thru 10/28."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Kids eat free on Wednesdays for IKEA Family members",
+      "tags": [
+        "free"
+      ],
+      "time_window": null,
+      "valid_through": "2026-10-28",
+      "validity": "Wed",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "2-for-1 Happy Hour on all regular priced drinks All regular priced drinks are 2-for-1 or make your drink a double for the regular price. Mega Margaritas and other discounted items are not included.",
+      "canonical_id": "a4318653c28737d0",
+      "categories": [
+        "drink"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 3,
+      "details": [
+        "All regular priced drinks are 2-for-1 or make your drink a double for the regular price. Mega Margaritas and other discounted items are not included."
+      ],
+      "first_seen": "2026-10-01T19:54:41Z",
+      "id": "43798fe41bc46209",
+      "is_stale": true,
+      "last_seen": "2026-10-10T18:54:25Z",
+      "location": {
+        "address": "100 Main St, Newport Beach, CA 92661, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:30",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6013728,
+        "longitude": -117.89955119999999,
+        "phone": "(949) 675-7760",
+        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
+      },
+      "quality_score": 60,
+      "restaurant": "Cabo Cantina",
+      "retired_at": "2026-10-13T20:28:47Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Home of the 2-for-1 Happy Hour! Where all regular priced drinks are 2-for-1! Or make your drink a double for the regular price!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cabocantina.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "2-for-1 Happy Hour on all regular priced drinks",
+      "tags": [
+        "happy_hour"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "2-for-1"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Social Mimosas for $20.99 A full bottle of champagne and a carafe of orange juice, perfect for sharing for $20.99.",
+      "canonical_id": "121da1e4e0824fad",
+      "categories": [
+        "drink"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 0,
+      "details": [
+        "A full bottle of champagne and a carafe of orange juice, perfect for sharing for $20.99."
+      ],
+      "first_seen": "2026-10-01T19:54:41Z",
+      "id": "effdff1f12edc7c2",
+      "is_stale": true,
+      "last_seen": "2026-10-12T22:19:47Z",
+      "location": {
+        "address": "100 Main St, Newport Beach, CA 92661, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:30",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6013728,
+        "longitude": -117.89955119999999,
+        "phone": "(949) 675-7760",
+        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
+      },
+      "quality_score": 57,
+      "restaurant": "Cabo Cantina",
+      "retired_at": "2026-10-13T20:28:47Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Social Mimosas! A full bottle of champagne and a carafe of orange juice, perfect for sharing! Only $20.99",
+        "12:00 PM - 03:00 PM"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cabocantina.com/daily-specials",
+      "source_urls": [
+        "http://www.cabocantina.com/daily-specials",
+        "http://www.cabocantina.com/specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Social Mimosas for $20.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": "12:00 PM - 03:00 PM",
+      "valid_through": null,
+      "validity": "12:00 PM - 03:00 PM",
+      "value_label": "$20.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Wednesday Happy Hour with drink specials and tasty bites Enjoy amazing drink specials and tasty bites from 4pm to 7pm.",
+      "canonical_id": "5f4d7c1ff67c1b0d",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 0,
+      "details": [
+        "Enjoy amazing drink specials and tasty bites from 4pm to 7pm."
+      ],
+      "first_seen": "2026-10-08T20:15:35Z",
+      "id": "2b9abcce4c1d1241",
+      "is_stale": true,
+      "last_seen": "2026-10-12T22:19:47Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 60,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-10-13T20:28:47Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Enjoy amazing drink specials and tasty bites from 4pm to 7pm."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Wednesday Happy Hour with drink specials and tasty bites",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "04:00 PM - 07:00 PM",
+      "valid_through": null,
+      "validity": "Wed, 04:00 PM - 07:00 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "thursday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Thursday Happy Hour with cocktails, beer, and bites at special prices Enjoy refreshing cocktails, ice-cold beer, and delicious bites at special prices from 4pm to 7pm.",
+      "canonical_id": "3324ca7bbeb9778b",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 0,
+      "details": [
+        "Enjoy refreshing cocktails, ice-cold beer, and delicious bites at special prices from 4pm to 7pm."
+      ],
+      "first_seen": "2026-10-09T19:48:57Z",
+      "id": "060e91918522c383",
+      "is_stale": true,
+      "last_seen": "2026-10-12T22:19:47Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 60,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-10-13T20:28:47Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Enjoy refreshing cocktails, ice-cold beer, and delicious bites at special prices from 4pm to 7pm."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Thursday Happy Hour with cocktails, beer, and bites at special prices",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "04:00 PM - 07:00 PM",
+      "valid_through": null,
+      "validity": "Thu, 04:00 PM - 07:00 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Monday Happy Hour with drinks and bites Enjoy drinks and bites at special happy hour prices",
+      "canonical_id": "550973da91188b19",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 5,
+      "details": [
+        "Enjoy drinks and bites at special happy hour prices"
+      ],
+      "first_seen": "2026-10-08T20:15:35Z",
+      "id": "4c9cec68858fa6f6",
+      "is_stale": true,
+      "last_seen": "2026-10-08T20:15:35Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 60,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-10-13T20:28:47Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Join us from 4pm-7pm for drinks and bites that make Monday feel like a Friday."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Monday Happy Hour with drinks and bites",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "04:00 PM - 07:00 PM",
+      "valid_through": null,
+      "validity": "Mon, 04:00 PM - 07:00 PM"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
@@ -4698,98 +5756,6 @@
       "valid_through": null,
       "validity": "Check source",
       "value_label": "$4+"
-    },
-    {
-      "ai_confidence": 0.95,
-      "applies_days": [],
-      "applies_month_days": [],
-      "candidate_text": "2-for-1 Happy Hour on all regular priced drinks All regular priced drinks are 2-for-1 or make your drink a double for the regular price. Mega Margaritas and other discounted items are not included.",
-      "canonical_id": "2172579c77220b75",
-      "categories": [
-        "drink"
-      ],
-      "city": "Newport Beach",
-      "days_since_seen": 1,
-      "details": [
-        "All regular priced drinks are 2-for-1 or make your drink a double for the regular price.",
-        "Mega Margaritas and other discounted items are not included."
-      ],
-      "first_seen": "2026-10-01T19:54:41Z",
-      "id": "43798fe41bc46209",
-      "is_stale": true,
-      "last_seen": "2026-10-03T18:16:12Z",
-      "location": {
-        "address": "100 Main St, Newport Beach, CA 92661, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:30",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:30",
-              "open": "09:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "09:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ]
-        },
-        "latitude": 33.6013728,
-        "longitude": -117.89955119999999,
-        "phone": "(949) 675-7760",
-        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
-      },
-      "quality_score": 60,
-      "restaurant": "Cabo Cantina",
-      "retired_at": "2026-10-04T18:26:08Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "Home of the 2-for-1 Happy Hour! Where all regular priced drinks are 2-for-1! Or make your drink a double for the regular price!"
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://www.cabocantina.com/daily-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "2-for-1 Happy Hour on all regular priced drinks",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "valid_through": null,
-      "validity": "Check source",
-      "value_label": "2-for-1"
     },
     {
       "ai_confidence": 0.95,

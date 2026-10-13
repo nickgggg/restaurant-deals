@@ -568,6 +568,11 @@
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
+    "busifi.org": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "error": "no supported site icon found",
+      "status": "missing"
+    },
     "butchershouse.com": {
       "checked_at": "2026-09-18T18:00:36Z",
       "error": "HTTP Error 429: Too Many Requests",
@@ -2524,8 +2529,21 @@
       "checked_at": "2026-10-12T22:19:48Z",
       "status": "ok"
     },
+    "oc7seafoodrestaurant2.restaurants-us.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "status": "ok"
+    },
     "ocbarrio.com": {
       "checked_at": "2026-10-08T20:15:36Z",
+      "status": "ok"
+    },
+    "ocboardroom.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "error": "Remote end closed connection without response",
+      "status": "missing"
+    },
+    "ocean48.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
       "status": "ok"
     },
     "oclaurestaurant.com": {
@@ -2536,9 +2554,34 @@
       "checked_at": "2026-10-05T21:43:32Z",
       "status": "ok"
     },
+    "oebkitchen.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "status": "ok"
+    },
+    "ohanasushiramen.carrd.co": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "status": "ok"
+    },
+    "ojisushi.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "status": "ok"
+    },
+    "olamexicankitchen.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "status": "ok"
+    },
     "oldworldhb.com": {
       "checked_at": "2026-10-10T18:54:27Z",
       "status": "ok"
+    },
+    "oleamediterraneangrill.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "status": "ok"
+    },
+    "oleanewportbeach.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
     },
     "olivepitgrill.com": {
       "checked_at": "2026-09-16T22:46:49Z",
@@ -2546,6 +2589,22 @@
     },
     "omalleyssealbeach.com": {
       "checked_at": "2026-09-24T18:49:22Z",
+      "status": "ok"
+    },
+    "onigururestaurant.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "status": "ok"
+    },
+    "opnewport.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "status": "ok"
+    },
+    "orangecoastcollege.edu": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "status": "ok"
+    },
+    "orangethai.net": {
+      "checked_at": "2026-10-13T20:28:49Z",
       "status": "ok"
     },
     "order.chownow.com": {
@@ -2596,12 +2655,24 @@
       "checked_at": "2026-10-11T19:15:48Z",
       "status": "ok"
     },
+    "originaltommys.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "status": "ok"
+    },
     "oscarcafe-hb.com": {
       "checked_at": "2026-10-11T19:15:48Z",
       "status": "ok"
     },
     "osteriamolo.com": {
       "checked_at": "2026-10-07T20:13:39Z",
+      "status": "ok"
+    },
+    "ottospizzastix.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "status": "ok"
+    },
+    "ouzoandfeta.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
       "status": "ok"
     },
     "panerabread.com": {
@@ -2619,6 +2690,10 @@
     },
     "phillygrille.com": {
       "checked_at": "2026-09-28T20:59:28Z",
+      "status": "ok"
+    },
+    "phoonev.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
       "status": "ok"
     },
     "playgroundhb.com": {
@@ -2741,6 +2816,10 @@
       "checked_at": "2026-09-16T23:23:49Z",
       "status": "ok"
     },
+    "starbucks.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "status": "ok"
+    },
     "starfishcalifornia.com": {
       "checked_at": "2026-10-02T19:35:12Z",
       "status": "ok"
@@ -2846,6 +2925,10 @@
       "checked_at": "2026-09-16T23:17:10Z",
       "status": "ok"
     },
+    "tiktok.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "status": "ok"
+    },
     "topbusinessesusa.top": {
       "checked_at": "2026-09-28T20:59:28Z",
       "error": "no supported site icon found",
@@ -2925,7 +3008,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-10-12T22:19:48Z",
+  "generated_at": "2026-10-13T20:28:49Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -5299,10 +5382,20 @@
       "path": "logos/nuovoamicopizzapasta-com.png",
       "source_url": "https://production-cdn-hdb5b9fwgnb9bdf9.z01.azurefd.net/sitecontent/website/images/apple-touch-icon.png?lu=348122e9f09b1d200e84cd53cbd4d0f6"
     },
+    "oc7seafoodrestaurant2.restaurants-us.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "path": "logos/oc7seafoodrestaurant2-restaurants-us-com.jpg",
+      "source_url": "https://restaurants-us.com/public/media/banner-restaurants-us-desktop.jpg"
+    },
     "ocbarrio.com": {
       "checked_at": "2026-10-08T20:15:36Z",
       "path": "logos/ocbarrio-com.jpg",
       "source_url": "https://cdn.prod.website-files.com/6527283df1b45faa9da75380/65566a2f5f70c501cade87cc_5f0b7b0dba4f262d7f539e56_barriowebicon.jpeg"
+    },
+    "ocean48.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "path": "logos/ocean48-com.png",
+      "source_url": "https://www.ocean48.com/wp-content/uploads/2025/04/Ocean-48_Logo_Favicon_Light.png"
     },
     "oclaurestaurant.com": {
       "checked_at": "2026-10-12T22:19:48Z",
@@ -5314,10 +5407,36 @@
       "path": "logos/ocloftexpress-com.png",
       "source_url": "http://www.ocloftexpress.com/images/logo-u293-r.png?crc=167704434"
     },
+    "oebkitchen.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "path": "logos/oebkitchen-com.webp",
+      "source_url": "https://cdn01.s4shops.com/skytabweb/uploads/84f36612-d5b0-ef11-88cf-6045bd84cfe2/c0f90e4f-b574-f111-ac9a-000d3a7b73be.png"
+    },
+    "ohanasushiramen.carrd.co": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "path": "logos/ohanasushiramen-carrd-co.jpg",
+      "source_url": "https://ohanasushiramen.carrd.co/assets/images/card.jpg?v=80c73277"
+    },
+    "ojisushi.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "path": "logos/ojisushi-com.png",
+      "source_url": "http://ojisushi.com/web/wp-content/uploads/2018/10/oji_logo_b_100.png"
+    },
+    "olamexicankitchen.com": {
+      "background": "#2b5797",
+      "checked_at": "2026-10-13T20:28:49Z",
+      "path": "logos/olamexicankitchen-com.png",
+      "source_url": "https://static.spotapps.co/web/olamexicankitchen--com/custom/logo.png"
+    },
     "oldworldhb.com": {
       "checked_at": "2026-10-10T18:54:27Z",
       "path": "logos/oldworldhb-com.webp",
       "source_url": "https://images.getbento.com/accounts/c360093bf21b216a2558c9e805f4c7ad/media/images/2023-Oktoberfest-Logo-600.png?w=1000&fit=max&auto=compress,format&h=1000"
+    },
+    "oleamediterraneangrill.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "path": "logos/oleamediterraneangrill-com.jpg",
+      "source_url": "https://oleamediterraneangrill.com/wp-content/uploads/2026/02/Olea-Mediterranean-Grill-Logo.jpeg"
     },
     "olivepitgrill.com": {
       "checked_at": "2026-09-16T22:46:49Z",
@@ -5329,6 +5448,28 @@
       "checked_at": "2026-09-24T18:49:22Z",
       "path": "logos/omalleyssealbeach-com.png",
       "source_url": "http://omalleyssealbeach.com/wp-content/uploads/2019/03/cropped-Omalleys-on-main-website-logo-gold-1.png"
+    },
+    "onigururestaurant.com": {
+      "background": "#0b0b0b",
+      "checked_at": "2026-10-13T20:28:49Z",
+      "path": "logos/onigururestaurant-com.png",
+      "source_url": "https://www.onigururestaurant.com/images/logo-96.png"
+    },
+    "opnewport.com": {
+      "background": "#003d9a",
+      "checked_at": "2026-10-13T20:28:49Z",
+      "path": "logos/opnewport-com.png",
+      "source_url": "https://www.opnewport.com/wp-content/themes/original-pizza/assets/images/pizzaiolo.png"
+    },
+    "orangecoastcollege.edu": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "path": "logos/orangecoastcollege-edu.png",
+      "source_url": "https://orangecoastcollege.edu/assets/images/logo.png"
+    },
+    "orangethai.net": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "path": "logos/orangethai-net.png",
+      "source_url": "https://orangethai.net/images/2/pasted-image-2992.png"
     },
     "order.cpk.com": {
       "checked_at": "2026-09-24T18:49:22Z",
@@ -5367,6 +5508,11 @@
       "path": "logos/orderlosprimoshamburgersfoodtruck-mobile-webview6-com.jpg",
       "source_url": "https://themenustar6.com/upload/2023-11-08/Logo654c2eb410e3b.jpg"
     },
+    "originaltommys.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "path": "logos/originaltommys-com.jpg",
+      "source_url": "https://originaltommys.com/wp-content/uploads/2022/04/Equal-Web-logo.jpg"
+    },
     "oscarcafe-hb.com": {
       "checked_at": "2026-10-11T19:15:48Z",
       "path": "logos/oscarcafe-hb-com.webp",
@@ -5376,6 +5522,16 @@
       "checked_at": "2026-10-07T20:13:39Z",
       "path": "logos/osteriamolo-com.webp",
       "source_url": "https://images.squarespace-cdn.com/content/65f8bc153ffd5c2a1800dcee/48b01571-27a9-48ac-8813-069850c67648/customcolor_logo_customcolor_background.png?format=1500w&content-type=image%2Fpng"
+    },
+    "ottospizzastix.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "path": "logos/ottospizzastix-com.png",
+      "source_url": "https://ottospizzastix.com/_assets/images/725b756a69a7d4c235070e51acd85560.png"
+    },
+    "ouzoandfeta.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "path": "logos/ouzoandfeta-com.jpg",
+      "source_url": "https://assets.cdn.filesafe.space/k1gkAkmzmVna5eunLoJv/media/6a67f23f19a8766aeab52f03.jpg"
     },
     "panerabread.com": {
       "background": "#474747",
@@ -5393,6 +5549,11 @@
       "checked_at": "2026-09-28T20:59:28Z",
       "path": "logos/phillygrille-com.png",
       "source_url": "https://phillygrille.com/wp-content/themes/philly_grille/img/logo-outline.png"
+    },
+    "phoonev.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "path": "logos/phoonev-com.webp",
+      "source_url": "https://www.phoonev.com/wp-content/uploads/2025/10/one-v.webp"
     },
     "playgroundhb.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -5524,6 +5685,12 @@
       "path": "logos/solitatacos-com.png",
       "source_url": "https://solitatacos.com/apple-touch-icon.png"
     },
+    "starbucks.com": {
+      "background": "#242221",
+      "checked_at": "2026-10-13T20:28:49Z",
+      "path": "logos/starbucks-com.png",
+      "source_url": "https://www.starbucks.com/apple-touch-icon.png"
+    },
     "starfishcalifornia.com": {
       "checked_at": "2026-10-02T19:35:12Z",
       "path": "logos/starfishcalifornia-com.webp",
@@ -5654,6 +5821,11 @@
       "checked_at": "2026-09-16T23:17:10Z",
       "path": "logos/three13bar-com.webp",
       "source_url": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:180,h:180,m"
+    },
+    "tiktok.com": {
+      "checked_at": "2026-10-13T20:28:49Z",
+      "path": "logos/tiktok-com.png",
+      "source_url": "https://www.tiktok.com/favicon.ico"
     },
     "triplecrowntavern.com": {
       "checked_at": "2026-09-16T23:17:10Z",
