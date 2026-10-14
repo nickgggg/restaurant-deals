@@ -1248,6 +1248,10 @@
       "checked_at": "2026-09-24T18:49:22Z",
       "status": "ok"
     },
+    "fountainbowl.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "status": "ok"
+    },
     "foursonsbrewing.com": {
       "checked_at": "2026-09-16T23:29:21Z",
       "error": "HTTP Error 429: Too Many Requests",
@@ -2015,6 +2019,10 @@
       "checked_at": "2026-10-07T20:13:39Z",
       "status": "ok"
     },
+    "locations.papajohns.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "status": "ok"
+    },
     "locations.wendys.com": {
       "checked_at": "2026-09-16T23:17:10Z",
       "status": "ok"
@@ -2655,6 +2663,11 @@
       "checked_at": "2026-10-11T19:15:48Z",
       "status": "ok"
     },
+    "orderpandabowl.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
     "originaltommys.com": {
       "checked_at": "2026-10-13T20:28:49Z",
       "status": "ok"
@@ -2675,8 +2688,76 @@
       "checked_at": "2026-10-13T20:28:49Z",
       "status": "ok"
     },
+    "pacificbreezecafe.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "status": "ok"
+    },
+    "pacificcoastfishco.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "error": "asset is too large",
+      "status": "missing"
+    },
+    "pacifickitchen.aramarkcafe.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "status": "ok"
+    },
+    "pacificpearlcafe.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "paderia.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "status": "ok"
+    },
+    "palenquekitchen.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "status": "ok"
+    },
+    "palmsnpatties.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "status": "ok"
+    },
+    "pandaexpress.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "pandahousegardengroveca.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "status": "ok"
+    },
+    "pandorbakery.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "status": "ok"
+    },
     "panerabread.com": {
       "checked_at": "2026-09-24T18:49:22Z",
+      "status": "ok"
+    },
+    "papazsfountainvalley.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "error": "Not Found",
+      "status": "missing"
+    },
+    "paradisebuffet.org": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "status": "ok"
+    },
+    "paradisegp.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "status": "ok"
+    },
+    "parakeetcafe.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "status": "ok"
+    },
+    "parisbaguette.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "status": "ok"
+    },
+    "parkbenchcafe.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
       "status": "ok"
     },
     "pebllago.com": {
@@ -2694,6 +2775,10 @@
     },
     "phoonev.com": {
       "checked_at": "2026-10-13T20:28:49Z",
+      "status": "ok"
+    },
+    "pioneer.bar": {
+      "checked_at": "2026-10-14T18:57:38Z",
       "status": "ok"
     },
     "playgroundhb.com": {
@@ -3008,7 +3093,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-10-13T20:28:49Z",
+  "generated_at": "2026-10-14T18:57:38Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -4145,6 +4230,11 @@
       "path": "logos/fortunecookiesrestaurant-com.ico",
       "source_url": "https://static.parastorage.com/client/pfavico.ico"
     },
+    "fountainbowl.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "path": "logos/fountainbowl-com.jpg",
+      "source_url": "https://bowlrx.sfo3.digitaloceanspaces.com/uploads/sites/320/2018/07/FB-logo-blue-LG.jpg"
+    },
     "franksphilly.com": {
       "background": "#630000",
       "checked_at": "2026-09-24T18:49:22Z",
@@ -4909,6 +4999,11 @@
       "path": "logos/locations-modpizza-com.webp",
       "source_url": "https://dynl.mktgcdn.com/p/oQQH6nM7maYPOActmk80PRZpwvGzJI4robBV8i0Wx54/201x36.png"
     },
+    "locations.papajohns.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "path": "logos/locations-papajohns-com.webp",
+      "source_url": "https://locations.papajohns.com/assets/static/faviconPapajohn-ODFlTeVZ.webp"
+    },
     "locations.wendys.com": {
       "checked_at": "2026-09-16T23:17:10Z",
       "path": "logos/locations-wendys-com.png",
@@ -5533,11 +5628,72 @@
       "path": "logos/ouzoandfeta-com.jpg",
       "source_url": "https://assets.cdn.filesafe.space/k1gkAkmzmVna5eunLoJv/media/6a67f23f19a8766aeab52f03.jpg"
     },
+    "pacificbreezecafe.com": {
+      "background": "#8db0a8",
+      "checked_at": "2026-10-14T18:57:38Z",
+      "path": "logos/pacificbreezecafe-com.webp",
+      "source_url": "https://img1.wsimg.com/isteam/ip/ecfe64be-78ea-444a-a20f-9ff91736a345/PacificBreezeCafe_Logo_FullColor%404x-100.jpg/:/rs=w:180,h:180,m"
+    },
+    "pacifickitchen.aramarkcafe.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "path": "logos/pacifickitchen-aramarkcafe-com.png",
+      "source_url": "https://pacifickitchen.aramarkcafe.com/Assets/Images/addtohomescreen/icon-152x152.png"
+    },
+    "paderia.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "path": "logos/paderia-com.webp",
+      "source_url": "https://static.wixstatic.com/media/517335_14c31847074f47b1b70a82731844123e~mv2.png/v1/fill/w_203,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Paderia-Logo-BlackBox.png"
+    },
+    "palenquekitchen.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "path": "logos/palenquekitchen-com.webp",
+      "source_url": "https://images.getbento.com/accounts/e7806580d674284f3216c8b579b2acbe/media/images/33473logopalenque.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=EDEDF1&pad=100"
+    },
+    "palmsnpatties.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "path": "logos/palmsnpatties-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/67129e0e42935002786e66cf/5581b9d5-3716-4cb2-8c6c-3dcbf9081393/palms-n-patties-burger-beef-tallow-fries.jpg?format=2500w&content-type=image%2Fjpeg"
+    },
+    "pandahousegardengroveca.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "path": "logos/pandahousegardengroveca-com.png",
+      "source_url": "https://production-cdn-hdb5b9fwgnb9bdf9.z01.azurefd.net/sitecontent/website/images/apple-touch-icon.png?lu=348122e9f09b1d200e84cd53cbd4d0f6"
+    },
+    "pandorbakery.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "path": "logos/pandorbakery-com.webp",
+      "source_url": "https://images.getbento.com/accounts/63714658881a76e5b38e882aa39a3c33/media/images/27110pandor_Logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=ffffff&pad=100"
+    },
     "panerabread.com": {
       "background": "#474747",
       "checked_at": "2026-09-24T18:49:22Z",
       "path": "logos/panerabread-com.webp",
       "source_url": "https://www.panerabread.com/en-us/home.thumb.800.480.20260923.png"
+    },
+    "paradisebuffet.org": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "path": "logos/paradisebuffet-org.png",
+      "source_url": "https://paradisebuffet.org/wp-content/uploads/2026/03/Paradise-Buffet-Favicon.png"
+    },
+    "paradisegp.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "path": "logos/paradisegp-com.webp",
+      "source_url": "https://paradisegp.com/wp-content/uploads/2023/08/img-pgh-logo-white-1.png"
+    },
+    "parakeetcafe.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "path": "logos/parakeetcafe-com.webp",
+      "source_url": "https://images.getbento.com/accounts/d4535bdfe54bd0246bc27df676662225/media/images/94197PARAKEET_LOGO_VERTICAL-STACKED_03022026.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=EDEDF1&pad=100"
+    },
+    "parisbaguette.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "path": "logos/parisbaguette-com.png",
+      "source_url": "https://parisbaguette.com/wp-content/uploads/2024/04/cropped-paris-baguette-favicon-192x192.png"
+    },
+    "parkbenchcafe.com": {
+      "checked_at": "2026-10-14T18:57:38Z",
+      "path": "logos/parkbenchcafe-com.ico",
+      "source_url": "https://parkbenchcafe.com/favicon.ico"
     },
     "pendry.com": {
       "background": "#da532c",
@@ -5554,6 +5710,12 @@
       "checked_at": "2026-10-13T20:28:49Z",
       "path": "logos/phoonev-com.webp",
       "source_url": "https://www.phoonev.com/wp-content/uploads/2025/10/one-v.webp"
+    },
+    "pioneer.bar": {
+      "background": "#0e0c0a",
+      "checked_at": "2026-10-14T18:57:38Z",
+      "path": "logos/pioneer-bar.png",
+      "source_url": "https://pioneer.bar/__l5e/assets-v1/bac84372-f3ae-420b-9e45-e17c9396cb20/logo-white.png"
     },
     "playgroundhb.com": {
       "checked_at": "2026-09-16T23:23:49Z",

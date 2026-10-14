@@ -57,18 +57,18 @@
     "last_scanned_cities": [
       "Garden Grove"
     ],
-    "last_source_scan_at": "2026-10-13T20:20:06Z",
+    "last_source_scan_at": "2026-10-14T18:50:28Z",
     "map_cells": 458,
     "official_websites": 1496,
     "operational_count": 1917,
     "queued_cities": [],
     "restaurant_count": 1999,
     "source_sites_checked": 12,
-    "specials_pages_found": 418,
+    "specials_pages_found": 421,
     "successful_map_cells": 63
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-13T20:20:06Z",
+  "generated_at": "2026-10-14T18:50:28Z",
   "refresh_after": "2026-10-15T01:26:14Z",
   "restaurants": [
     {
@@ -83825,6 +83825,8 @@
       "phone": "(949) 877-0099",
       "place_id": "ChIJxUm_rJXf3IAR9AV0EqUfafc",
       "primary_type": "cake_shop",
+      "specials_checked_at": "2026-10-14T18:50:13Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cake_shop",
@@ -84029,7 +84031,16 @@
       "phone": "(714) 375-2082",
       "place_id": "ChIJe0dfhHEm3YARbLZcjTRxN00",
       "primary_type": "mediterranean_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-14T18:50:13Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.pitafeast.com/product/chicken-garbanzo-bean-soup-lunch-special/295"
+        }
+      ],
       "types": [
         "mediterranean_restaurant",
         "restaurant",
@@ -84115,14 +84126,36 @@
       "phone": "(714) 549-0685",
       "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ",
       "primary_type": "italian_restaurant",
+      "specials_checked_at": "2026-10-14T18:50:13Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Daily Specials",
+          "url": "http://eatatpizzadoro.com/daily-specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Specials",
+          "url": "http://eatatpizzadoro.com/specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Weekday Specials",
+          "url": "http://eatatpizzadoro.com/weekday-specials"
+        },
+        {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://eatatpizzadoro.com/"
         },
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "EVERYDAY Specials!",
           "url": "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials"
         }
@@ -84196,7 +84229,16 @@
       "phone": "(714) 536-9383",
       "place_id": "ChIJKVurnCMh3YAR-IJpRP4XTgs",
       "primary_type": "italian_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-14T18:50:13Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Daily Specials",
+          "url": "http://pizzadorohb.com/daily-specials"
+        }
+      ],
       "types": [
         "italian_restaurant",
         "pizza_restaurant",
@@ -84263,7 +84305,34 @@
       "phone": "(714) 963-0227",
       "place_id": "ChIJ16fK2lgn3YAR3UoJXg13WgU",
       "primary_type": "italian_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-14T18:50:13Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "http://pizzadz.com/?utm_source=googlemybusiness"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Events & Specials",
+          "url": "http://pizzadz.com/events"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "House Special Sandwich",
+          "url": "http://pizzadz.com/tags/house-special-sandwich"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Z Special Pizza",
+          "url": "http://pizzadz.com/tags/z-special-pizza"
+        }
+      ],
       "types": [
         "italian_restaurant",
         "family_restaurant",
@@ -84339,19 +84408,24 @@
       "phone": "(714) 409-9959",
       "place_id": "ChIJT_6sUXYh3YARGPQnnKpjy88",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-10-14T18:50:13Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Coupons",
           "url": "https://www.pizzafactory.com/coupons/"
         },
         {
           "confidence": "high",
+          "discovered_via": "site_link",
           "label": "Coupons",
           "url": "https://www.pizzafactory.com/huntingtonbeach/coupons/"
         },
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://www.pizzafactory.com/huntingtonbeach/"
         }
@@ -84487,6 +84561,8 @@
       "phone": "(657) 365-4222",
       "place_id": "ChIJZcJbTfwh3YARNT0AYccDivk",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-10-14T18:50:13Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "pizza_restaurant",
@@ -84573,9 +84649,12 @@
       "phone": "(800) 948-8488",
       "place_id": "ChIJA925vlvf3IARPdKQMai0tog",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-10-14T18:50:13Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://locations.pizzahut.com/ca/costa-mesa/3030-harbor-blvd?utm_medium=organic&utm_source=local&utm_campaign=googlelistings&utm_content=website&utm_term=296186"
         }
@@ -84602,9 +84681,12 @@
       "phone": "(800) 948-8488",
       "place_id": "ChIJ01cEj8Mg3YARRVeskiAobgk",
       "primary_type": "pizza_restaurant",
+      "specials_checked_at": "2026-10-14T18:50:13Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://locations.pizzahut.com/ca/huntington-beach/9882-adams-avenue?utm_medium=organic&utm_source=local&utm_campaign=googlelistings&utm_content=website&utm_term=301915"
         }
@@ -84783,6 +84865,8 @@
       "phone": "(949) 722-7586",
       "place_id": "ChIJC5hTBvLf3IARoyirGmgTE-Y",
       "primary_type": "cafe",
+      "specials_checked_at": "2026-10-14T18:50:13Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
@@ -84878,6 +84962,8 @@
       "phone": "(562) 592-7771",
       "place_id": "ChIJ1weiwAsl3YARzVePB0DsTOQ",
       "primary_type": "hamburger_restaurant",
+      "specials_checked_at": "2026-10-14T18:50:13Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "hamburger_restaurant",
@@ -84945,9 +85031,12 @@
       "phone": "(714) 916-0027",
       "place_id": "ChIJHU-0V-wh3YAR-bXiE-oCXG8",
       "primary_type": "persian_restaurant",
+      "specials_checked_at": "2026-10-14T18:50:13Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "site_link",
           "label": "Specials",
           "url": "https://point11persiangrill.com/specials/"
         }

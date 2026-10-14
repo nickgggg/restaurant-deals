@@ -1,7 +1,680 @@
 {
-  "generated_at": "2026-10-13T20:28:47Z",
+  "generated_at": "2026-10-14T18:57:37Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Price: $7 Items: Chili Cheese Dog, Chili Cheese Fries, Small Soda Must show coupon at time of purchase",
+      "canonical_id": "81b97cbb5a42f946",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 7,
+      "details": [
+        "Price: $7",
+        "Items: Chili Cheese Dog, Chili Cheese Fries, Small Soda",
+        "Must show coupon at time of purchase"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "340c357134f83c71",
+      "is_stale": true,
+      "last_seen": "2026-10-06T19:53:14Z",
+      "location": {
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+      },
+      "quality_score": 50,
+      "restaurant": "Wienerschnitzel",
+      "retired_at": "2026-10-14T18:57:37Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.wienerschnitzel.com/coupons/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$7"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$8 Deluxe Cheeseburger, Small Fries & Small Soda Price: $8 Items: Deluxe Cheeseburger, Small Fries, Small Soda Must show coupon at time of purchase",
+      "canonical_id": "69d59391d59f8227",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 7,
+      "details": [
+        "Price: $8",
+        "Items: Deluxe Cheeseburger, Small Fries, Small Soda",
+        "Must show coupon at time of purchase"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "f3eab6d68bf68e74",
+      "is_stale": true,
+      "last_seen": "2026-10-06T19:53:14Z",
+      "location": {
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+      },
+      "quality_score": 50,
+      "restaurant": "Wienerschnitzel",
+      "retired_at": "2026-10-14T18:57:37Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.wienerschnitzel.com/coupons/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$8"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$1 off Happy Hour Menu Select New and Premium sips, tostadas (carne asada available for an additional cost), and taquitos are $1 off.",
+      "canonical_id": "6b41388dd4fe3753",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Select New and Premium sips, tostadas (carne asada available for an additional cost), and taquitos are $1 off."
+      ],
+      "first_seen": "2026-10-06T19:53:14Z",
+      "id": "3610efc36ab43b2e",
+      "is_stale": true,
+      "last_seen": "2026-10-13T20:28:47Z",
+      "location": {
+        "address": "19620 Beach Blvd, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=2915900512048835368&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.677334,
+        "longitude": -117.9882926,
+        "phone": "(714) 888-2255",
+        "place_id": "ChIJeymWaDMh3YARKOsMDRFcdyg"
+      },
+      "quality_score": 74,
+      "restaurant": "Miguel's Jr.",
+      "retired_at": "2026-10-14T18:57:37Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "available daily from 2\u20135 p.m. Food also gets some Happy Hour love giving fans the ability to satisfy afternoon cravings with a $1 off Miguel Jr\u2019s. tostadas (carne asada available for an additional cost) and taquitos."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://miguelsjr.com/blogs/stories/miguels-jr-launches-new-summer-happy-hour-menu-and-original-burrito-box-combo",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$1 off Happy Hour Menu",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "available daily from 2pm-5pm p.m. Food also gets some Happy Hour love giving fans the ability to satisfy afternoon cravings with a $1 off Miguel Jr\u2019s. tostadas (carne asada available for an additional cost) and taquitos.",
+      "valid_through": null,
+      "validity": "available daily from 2pm-5pm p.m. Food also gets some Happy Hour love giving fans the ability to satisfy afternoon cravings with a $1 off Miguel Jr\u2019s. tostadas (carne asada available for an additional cost) and taquitos.",
+      "value_label": "$1 off"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Original Burrito Box Combo for $8.99 Includes a side of chips and creamy, homemade guacamole, a 22 oz. fountain beverage, and the Original Burrito filled with refried beans, Spanish rice, cheddar cheese and choice of shredded chicken, chile verde pork, or shredded beef.",
+      "canonical_id": "4e891688c0851b8e",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Includes a side of chips and creamy, homemade guacamole, a 22 oz. fountain beverage, and the Original Burrito filled with refried beans, Spanish rice, cheddar cheese and choice of shredded chicken, chile verde pork, or shredded beef."
+      ],
+      "first_seen": "2026-10-06T23:44:21Z",
+      "id": "dc869c731c1e056b",
+      "is_stale": true,
+      "last_seen": "2026-10-13T20:28:47Z",
+      "location": {
+        "address": "19620 Beach Blvd, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=2915900512048835368&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.677334,
+        "longitude": -117.9882926,
+        "phone": "(714) 888-2255",
+        "place_id": "ChIJeymWaDMh3YARKOsMDRFcdyg"
+      },
+      "quality_score": 49,
+      "restaurant": "Miguel's Jr.",
+      "retired_at": "2026-10-14T18:57:37Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "offering a new Burrito Box combo featuring the Original Burrito for only $8.99."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://miguelsjr.com/blogs/stories/miguels-jr-launches-new-summer-happy-hour-menu-and-original-burrito-box-combo",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Original Burrito Box Combo for $8.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$8.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "All You Can Eat Taco Tuesdays for $9.99 Your choice of grilled chicken, carne asada, ground beef or veggie tacos served with rice and beans for $9.99 per person. One beverage minimum purchase required.",
+      "canonical_id": "9c3bceab3b168567",
+      "categories": [
+        "food"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 1,
+      "details": [
+        "Your choice of grilled chicken, carne asada, ground beef or veggie tacos served with rice and beans for $9.99 per person. One beverage minimum purchase required.",
+        "Your choice of grilled chicken, carne asada, ground beef or veggie tacos served with rice and beans.",
+        "One beverage minimum purchase required."
+      ],
+      "first_seen": "2026-10-01T19:54:41Z",
+      "id": "128503ea2b8657db",
+      "is_stale": true,
+      "last_seen": "2026-10-12T22:19:47Z",
+      "location": {
+        "address": "100 Main St, Newport Beach, CA 92661, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:30",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6013728,
+        "longitude": -117.89955119999999,
+        "phone": "(949) 675-7760",
+        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
+      },
+      "quality_score": 43,
+      "restaurant": "Cabo Cantina",
+      "retired_at": "2026-10-14T18:57:37Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "All You Can Eat Taco Tuesdays! $9.99 per person, your choice of grilled chicken, carne asada, ground beef or veggie tacos server with rice and beans. One beverage min purchase required.",
+        "12:00 PM - 10:00 PM"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cabocantina.com/specials",
+      "source_urls": [
+        "http://www.cabocantina.com/specials",
+        "http://www.cabocantina.com/daily-specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "All You Can Eat Taco Tuesdays for $9.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "$9.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Wednesday Happy Hour with drink specials and tasty bites Enjoy amazing drink specials and tasty bites from 4pm to 7pm",
+      "canonical_id": "7b9c9532d27d2886",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 0,
+      "details": [
+        "Enjoy amazing drink specials and tasty bites from 4pm to 7pm"
+      ],
+      "first_seen": "2026-10-13T20:28:47Z",
+      "id": "8c56c0b3a35eedda",
+      "is_stale": true,
+      "last_seen": "2026-10-13T20:28:47Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 60,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-10-14T18:57:37Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Enjoy amazing drink specials and tasty bites from 4pm to 7pm."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Wednesday Happy Hour with drink specials and tasty bites",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "16:00-19:00",
+      "valid_through": null,
+      "validity": "Wed, 16:00-19:00"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Tuesday Happy Hour with discounted cocktails, beer, wine, and appetizers Discounted cocktails, beer, and wine, plus delicious starter appetizers at special prices",
+      "canonical_id": "1f85ced709414ef5",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 5,
+      "details": [
+        "Discounted cocktails, beer, and wine, plus delicious starter appetizers at special prices"
+      ],
+      "first_seen": "2026-10-08T20:15:35Z",
+      "id": "f53b0a41cf2de3c1",
+      "is_stale": true,
+      "last_seen": "2026-10-08T20:15:35Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 60,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-10-14T18:57:37Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Enjoy discounted cocktails, beer, and wine from 4pm-7pm, plus delicious starter appetizers at special prices."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Tuesday Happy Hour with discounted cocktails, beer, wine, and appetizers",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "04:00 PM - 07:00 PM",
+      "valid_through": null,
+      "validity": "Tue, 04:00 PM - 07:00 PM"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
@@ -18184,196 +18857,6 @@
       "valid_through": null,
       "validity": "Check source",
       "value_label": "$3"
-    },
-    {
-      "ai_confidence": 0.95,
-      "applies_days": [],
-      "applies_month_days": [],
-      "candidate_text": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Price: $7 Items: Chili Cheese Dog, Chili Cheese Fries, Small Soda Must show coupon at time of purchase",
-      "canonical_id": "81b97cbb5a42f946",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Price: $7",
-        "Items: Chili Cheese Dog, Chili Cheese Fries, Small Soda",
-        "Must show coupon at time of purchase"
-      ],
-      "first_seen": "2026-09-16T23:17:09Z",
-      "id": "340c357134f83c71",
-      "is_stale": true,
-      "last_seen": "2026-09-16T23:23:48Z",
-      "location": {
-        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.7009621,
-        "longitude": -117.9886627,
-        "phone": "(714) 596-0478",
-        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
-      },
-      "quality_score": 50,
-      "restaurant": "Wienerschnitzel",
-      "retired_at": "2026-09-16T23:29:20Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda Coupon"
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://www.wienerschnitzel.com/coupons/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "$7 Chili Cheese Dog, Chili Cheese Fries & Small Soda",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "valid_through": null,
-      "validity": "Check source",
-      "value_label": "$7"
-    },
-    {
-      "ai_confidence": 0.95,
-      "applies_days": [],
-      "applies_month_days": [],
-      "candidate_text": "$8 Deluxe Cheeseburger, Small Fries & Small Soda Price: $8 Items: Deluxe Cheeseburger, Small Fries, Small Soda Must show coupon at time of purchase",
-      "canonical_id": "69d59391d59f8227",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Price: $8",
-        "Items: Deluxe Cheeseburger, Small Fries, Small Soda",
-        "Must show coupon at time of purchase"
-      ],
-      "first_seen": "2026-09-16T23:17:09Z",
-      "id": "f3eab6d68bf68e74",
-      "is_stale": true,
-      "last_seen": "2026-09-16T23:23:48Z",
-      "location": {
-        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.7009621,
-        "longitude": -117.9886627,
-        "phone": "(714) 596-0478",
-        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
-      },
-      "quality_score": 50,
-      "restaurant": "Wienerschnitzel",
-      "retired_at": "2026-09-16T23:29:20Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "$8 Deluxe Cheeseburger, Small Fries & Small Soda Coupon"
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://www.wienerschnitzel.com/coupons/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "$8 Deluxe Cheeseburger, Small Fries & Small Soda",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "valid_through": null,
-      "validity": "Check source",
-      "value_label": "$8"
     },
     {
       "ai_confidence": 0.95,
