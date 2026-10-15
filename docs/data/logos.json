@@ -1096,6 +1096,10 @@
       "checked_at": "2026-10-05T21:43:32Z",
       "status": "ok"
     },
+    "eatatpastykitchen.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "status": "ok"
+    },
     "eatatpizzadoro.com": {
       "checked_at": "2026-09-16T22:46:49Z",
       "status": "ok"
@@ -1106,6 +1110,10 @@
     },
     "eatlupes.com": {
       "checked_at": "2026-10-05T21:43:32Z",
+      "status": "ok"
+    },
+    "eatphillysbest.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
       "status": "ok"
     },
     "eatssushi.com": {
@@ -1153,7 +1161,7 @@
       "status": "ok"
     },
     "elpollonorteno.net": {
-      "checked_at": "2026-09-30T19:42:39Z",
+      "checked_at": "2026-10-15T18:46:14Z",
       "error": "asset is too large",
       "status": "missing"
     },
@@ -1182,6 +1190,11 @@
     "etcbarxthaizakaya.com": {
       "checked_at": "2026-09-23T18:43:17Z",
       "status": "ok"
+    },
+    "exploretock.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
     },
     "facebook.com": {
       "checked_at": "2026-09-19T17:30:53Z",
@@ -1619,10 +1632,6 @@
       "checked_at": "2026-09-28T20:59:28Z",
       "status": "ok"
     },
-    "iykykcoffeelab.com": {
-      "checked_at": "2026-09-28T20:59:28Z",
-      "status": "ok"
-    },
     "izakayahondaya.com": {
       "checked_at": "2026-09-29T19:43:40Z",
       "status": "ok"
@@ -1940,6 +1949,10 @@
       "checked_at": "2026-10-04T18:26:14Z",
       "status": "ok"
     },
+    "littleferrysushi.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "status": "ok"
+    },
     "littlefrance.org": {
       "checked_at": "2026-10-04T18:26:14Z",
       "error": "HTTP Error 403: Forbidden",
@@ -1956,6 +1969,11 @@
     },
     "local.albertsons.com": {
       "checked_at": "2026-09-16T23:29:21Z",
+      "error": "Not Found",
+      "status": "missing"
+    },
+    "local.pavilions.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
       "error": "Not Found",
       "status": "missing"
     },
@@ -2760,17 +2778,76 @@
       "checked_at": "2026-10-14T18:57:38Z",
       "status": "ok"
     },
+    "pattysplacerestaurant.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "status": "ok"
+    },
+    "paulscoffeeshopfountainvalley.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "status": "ok"
+    },
     "pebllago.com": {
       "checked_at": "2026-09-27T18:43:41Z",
       "error": "HTTP Error 404: Not Found",
+      "status": "missing"
+    },
+    "peets.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "status": "ok"
+    },
+    "pelicanislehb.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
       "status": "missing"
     },
     "pendry.com": {
       "checked_at": "2026-10-02T16:30:37Z",
       "status": "ok"
     },
+    "pengxiangsichuankitchen.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "status": "ok"
+    },
+    "perryspizza.net": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "status": "ok"
+    },
+    "perryspizzahb.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "error": "asset is too large",
+      "status": "missing"
+    },
+    "perryspizzarestaurant.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "status": "ok"
+    },
+    "peruvianrotisseriechicken.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "petesmexicanfoodca.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "status": "ok"
+    },
     "phillygrille.com": {
       "checked_at": "2026-09-28T20:59:28Z",
+      "status": "ok"
+    },
+    "philzcoffee.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "status": "ok"
+    },
+    "pho-dakao.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "status": "ok"
+    },
+    "pho101oc.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "status": "ok"
+    },
+    "phoakaushi.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
       "status": "ok"
     },
     "phoonev.com": {
@@ -3093,7 +3170,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-10-14T18:57:38Z",
+  "generated_at": "2026-10-15T18:46:14Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -4084,6 +4161,11 @@
       "path": "logos/eatatmahe-com.png",
       "source_url": "https://static.spotapps.co/website_images/ab_websites/31771_website_v1/logo.png"
     },
+    "eatatpastykitchen.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "path": "logos/eatatpastykitchen-com.webp",
+      "source_url": "https://static.wixstatic.com/media/a330c8_d70eaaebaf8547df9ae5b32e99750ec6~mv2.png/v1/fill/w_211,h_105,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Pasty-Logo_final_black-bkgd_3x.png"
+    },
     "eatatpizzadoro.com": {
       "checked_at": "2026-09-16T22:46:49Z",
       "path": "logos/eatatpizzadoro-com.png",
@@ -4098,6 +4180,11 @@
       "checked_at": "2026-10-05T21:43:32Z",
       "path": "logos/eatlupes-com.webp",
       "source_url": "https://images.getbento.com/accounts/7d0cc43b721dc96e27dd7c1f176894af/media/images/91586Lupes_Logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=000000&pad=100"
+    },
+    "eatphillysbest.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "path": "logos/eatphillysbest-com.png",
+      "source_url": "https://eatphillysbest.com/eatphillys_admin/asset/uploads/438/on_page_element/logo-2026.png"
     },
     "eatssushi.com": {
       "background": "#111010",
@@ -4589,11 +4676,6 @@
       "path": "logos/iyasakabar-com.png",
       "source_url": "https://iyasakabar.com/wp-content/uploads/2025/10/Iyasaka-Eng-Jpn-Logo-500.png"
     },
-    "iykykcoffeelab.com": {
-      "checked_at": "2026-09-28T20:59:28Z",
-      "path": "logos/iykykcoffeelab-com.webp",
-      "source_url": "https://iykykcoffeelab.com/cdn/shop/files/IYKYK_Logo.png?v=1739578890&width=500"
-    },
     "izakayahondaya.com": {
       "checked_at": "2026-09-29T19:43:40Z",
       "path": "logos/izakayahondaya-com.png",
@@ -4918,6 +5000,11 @@
       "checked_at": "2026-10-04T18:26:14Z",
       "path": "logos/littlecaesars-com.png",
       "source_url": "https://littlecaesars.com/favicon.ico"
+    },
+    "littleferrysushi.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "path": "logos/littleferrysushi-com.png",
+      "source_url": "https://littleferrysushi.com/wp-content/uploads/2023/11/littleferrysushi.com-default-kit-1122-300x300.png"
     },
     "llhawaiianbbqca.com": {
       "checked_at": "2026-09-30T19:42:39Z",
@@ -5695,16 +5782,72 @@
       "path": "logos/parkbenchcafe-com.ico",
       "source_url": "https://parkbenchcafe.com/favicon.ico"
     },
+    "pattysplacerestaurant.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "path": "logos/pattysplacerestaurant-com.png",
+      "source_url": "https://pattysplacerestaurant.com/wp-content/uploads/2024/06/270.png"
+    },
+    "paulscoffeeshopfountainvalley.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "path": "logos/paulscoffeeshopfountainvalley-com.ico",
+      "source_url": "https://paulscoffeeshopfountainvalley.com/favicon.ico"
+    },
+    "peets.com": {
+      "background": "#da532c",
+      "checked_at": "2026-10-15T18:46:14Z",
+      "path": "logos/peets-com.webp",
+      "source_url": "https://www.peets.com/cdn/shop/t/692/assets/apple-touch-icon.png?v=168228405526467050781791846686"
+    },
     "pendry.com": {
       "background": "#da532c",
       "checked_at": "2026-10-02T16:30:37Z",
       "path": "logos/pendry-com.webp",
       "source_url": "https://www.pendry.com/apple-touch-icon.png"
     },
+    "pengxiangsichuankitchen.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "path": "logos/pengxiangsichuankitchen-com.webp",
+      "source_url": "https://irp.cdn-website.com/bc6a5ee7/dms3rep/multi/opt/%E5%9B%BE%E5%B1%82+1678+%E6%8B%B7%E8%B4%9D2-1920w.png"
+    },
+    "perryspizza.net": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "path": "logos/perryspizza-net.png",
+      "source_url": "https://www.perryspizza.net/file/2023/10/Perrys-Logo.png"
+    },
+    "perryspizzarestaurant.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "path": "logos/perryspizzarestaurant-com.png",
+      "source_url": "https://perryspizzarestaurant.com/wp-includes/images/w-logo-blue-white-bg.png"
+    },
+    "petesmexicanfoodca.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "path": "logos/petesmexicanfoodca-com.png",
+      "source_url": "https://d2gqo3h0psesgi.cloudfront.net/auto/petes-mexican-food-5tb6mrdz-logo.png"
+    },
     "phillygrille.com": {
       "checked_at": "2026-09-28T20:59:28Z",
       "path": "logos/phillygrille-com.png",
       "source_url": "https://phillygrille.com/wp-content/themes/philly_grille/img/logo-outline.png"
+    },
+    "philzcoffee.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "path": "logos/philzcoffee-com.png",
+      "source_url": "https://philzcoffee.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBak1MIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2a46dd8f856e426653c11d57ddf66049bba3854f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2QzNKbGMybDZaVWtpRFRJME5IZ3hNRFErQmpzR1ZBPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--43c6c87ddb43f7bedcd9a050cfac436ed72583d6/logo-new-web-2.0.png"
+    },
+    "pho-dakao.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "path": "logos/pho-dakao-com.gif",
+      "source_url": "https://images.squarespace-cdn.com/content/5ae78db975f9eee03f4b0578/1574755913406-J0BM969QHYWHJEQH0T5L/Pho_Dakao_Clean-Black-w-dar-green-leaf.gif?format=1500w&content-type=image%2Fgif"
+    },
+    "pho101oc.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "path": "logos/pho101oc-com.png",
+      "source_url": "https://pho101oc.com/wp-content/uploads/2017/03/Pho-101_logo_white.png"
+    },
+    "phoakaushi.com": {
+      "checked_at": "2026-10-15T18:46:14Z",
+      "path": "logos/phoakaushi-com.png",
+      "source_url": "https://www.phoakaushi.com/img/PhoAkaushiLogo.png"
     },
     "phoonev.com": {
       "checked_at": "2026-10-13T20:28:49Z",
