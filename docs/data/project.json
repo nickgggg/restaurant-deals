@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T12:00:00Z",
+  "updated_at": "2026-10-16T02:22:17Z",
   "queue_activation_days": 7,
   "area_refresh_days": 35,
   "max_areas_per_run": 1,
@@ -25,9 +25,9 @@
       "detail": "Improve brand-mark selection and contrast handling, reuse chain assets, and reject utility icons or unrelated page artwork more reliably."
     },
     {
-      "status": "next",
+      "status": "done",
       "title": "Report resolution",
-      "detail": "Automatically close a visitor report only after its correction is verified and visible in the published feed; ambiguous reports stay open for review."
+      "detail": "Missing-deal reports now close automatically only after an evidence-backed deal from the exact official source is active in the published feed. Incorrect, expired, location, and ambiguous reports stay open for review."
     },
     {
       "status": "later",

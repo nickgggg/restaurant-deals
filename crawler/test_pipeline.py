@@ -4,7 +4,7 @@ import unittest
 from datetime import date, datetime, timezone
 from unittest.mock import patch
 
-from crawler import cache_logos, crawl_deals, discover_restaurants, extract_with_gemini
+from crawler import cache_logos, crawl_deals, discover_restaurants, extract_with_gemini, resolve_reports
 
 
 class LogoCacheTests(unittest.TestCase):
@@ -517,6 +517,69 @@ Huntington Beach
 
         self.assertFalse(extract_with_gemini.reusable_page(item, cached))
         self.assertTrue(extract_with_gemini.reusable_page(item, processed))
+
+
+class ReportResolutionTests(unittest.TestCase):
+    def test_published_resolution_requires_exact_active_restaurant_source_and_city(self) -> None:
+        extractions = {
+            "pages": [{
+                "status": "ok",
+                "deals": [{"summary": "$5 tacos"}],
+                "page": {"url": "http://www.example.com/specials/", "report_issue": 42},
+                "restaurant": {"name": "Example Grill", "city": "Huntington Beach"},
+            }]
+        }
+        feed = {
+            "deals": [{
+                "status": "active",
+                "source_url": "https://example.com/specials",
+                "restaurant": "Example Grill",
+                "city": "Huntington Beach",
+            }]
+        }
+
+        resolutions = resolve_reports.published_resolutions(extractions, feed)
+
+        self.assertEqual(resolutions[0]["issue_number"], 42)
+        self.assertEqual(resolutions[0]["deal_count"], 1)
+
+    def test_published_resolution_rejects_stale_or_different_source(self) -> None:
+        extractions = {
+            "pages": [{
+                "status": "ok",
+                "deals": [{"summary": "$5 tacos"}],
+                "page": {"url": "https://example.com/specials", "report_issue": 42},
+                "restaurant": {"name": "Example Grill", "city": "Huntington Beach"},
+            }]
+        }
+        feed = {
+            "deals": [
+                {
+                    "status": "stale",
+                    "source_url": "https://example.com/specials",
+                    "restaurant": "Example Grill",
+                    "city": "Huntington Beach",
+                },
+                {
+                    "status": "active",
+                    "source_url": "https://example.com/menu",
+                    "restaurant": "Example Grill",
+                    "city": "Huntington Beach",
+                },
+            ]
+        }
+
+        self.assertEqual(resolve_reports.published_resolutions(extractions, feed), [])
+
+    def test_report_fields_identify_missing_deal_type(self) -> None:
+        fields = resolve_reports.report_fields("""### What needs attention?
+Missing deal
+
+### Details
+Tuesday tacos are missing.
+""")
+
+        self.assertEqual(fields["what needs attention?"], "Missing deal")
 
 
 class DealHistoryTests(unittest.TestCase):

@@ -158,3 +158,10 @@ jobs:
           done
           echo "Could not publish refreshed data after three attempts"
           exit 1
+
+      - name: Resolve verified missing-deal reports
+        if: steps.freshness.outputs.should_run == 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python crawler/resolve_reports.py
