@@ -1,7 +1,402 @@
 {
-  "generated_at": "2026-10-15T18:46:12Z",
+  "generated_at": "2026-10-16T02:30:54Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Sunday Funday Happy Hour on Bar Top & Patio Happy Hour available on Bar Top and Patio during NFL Football Games",
+      "canonical_id": "628d8cada9eb281b",
+      "categories": [
+        "food",
+        "drink",
+        "general"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 0,
+      "details": [
+        "Happy Hour available on Bar Top and Patio during NFL Football Games"
+      ],
+      "first_seen": "2026-10-13T20:28:47Z",
+      "id": "6612d4686901570d",
+      "is_stale": true,
+      "last_seen": "2026-10-15T18:46:12Z",
+      "location": {
+        "address": "13091 Harbor Blvd, Garden Grove, CA 92843, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=567103342733584282&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7731312,
+        "longitude": -117.9207352,
+        "phone": "(714) 537-7080",
+        "place_id": "ChIJUSYDtgbY3IARmmeSTnzB3gc"
+      },
+      "quality_score": 59,
+      "restaurant": "Sabroso! Mexican Kitchen",
+      "retired_at": "2026-10-16T02:30:54Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Come and join us for Sunday Funday NFL Football Games. Happy Hour on our Bar Top & Patio!!!!",
+        "10:00 AM - 10:00 PM"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://sabrosomexicankitchen.com/specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Sunday Funday Happy Hour on Bar Top & Patio",
+      "tags": [
+        "happy_hour",
+        "weekday_special"
+      ],
+      "time_window": "10:00 AM - 10:00 PM",
+      "valid_through": "2026-10-18",
+      "validity": "Sun, 10:00 AM - 10:00 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$3 off any small, medium, or large pizza Limit 2 pizza discounts per person",
+      "canonical_id": "f8e42d19282062cb",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Limit 2 pizza discounts per person"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "753160111ee99f40",
+      "is_stale": true,
+      "last_seen": "2026-10-15T18:46:12Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-10-16T02:30:54Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Tuesday October 20th",
+        "Get $3 off any small, medium or large pizza!",
+        "Limit 2 pizza discounts per person"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/daily-specials",
+      "source_urls": [
+        "http://eatatpizzadoro.com/daily-specials",
+        "http://eatatpizzadoro.com/specials",
+        "http://eatatpizzadoro.com/weekday-specials",
+        "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$3 off any small, medium, or large pizza",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-10-20",
+      "validity": "Tue",
+      "value_label": "$3 off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour 3\u20136 PM Available Monday through Saturday from 3:00 PM to 6:00 PM.",
+      "canonical_id": "08beb15d7ecb9b06",
+      "categories": [
+        "drink",
+        "food",
+        "general"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 4,
+      "details": [
+        "Available Monday through Saturday from 3:00 PM to 6:00 PM."
+      ],
+      "first_seen": "2026-09-19T17:30:52Z",
+      "id": "0cb6efb0055626df",
+      "is_stale": true,
+      "last_seen": "2026-10-11T19:15:46Z",
+      "location": {
+        "address": "1525 Mesa Verde Dr E Ste 117, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1827828436789330286&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "19:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.669763599999996,
+        "longitude": -117.9208274,
+        "phone": "(714) 486-1777",
+        "place_id": "ChIJYRZbxcLf3IARboEvbUfAXRk"
+      },
+      "quality_score": 60,
+      "restaurant": "Deli Nerds",
+      "retired_at": "2026-10-16T02:30:54Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Monday \u2013 Wednesday: 8:00 AM \u2013 6:00 PM \u00b7 Happy Hour 3\u20136 PM",
+        "Thursday: 8:00 AM \u2013 9:00 PM \u00b7 Happy Hour 3\u20136 PM",
+        "Friday: 8:00 AM \u2013 9:00 PM \u00b7 Happy Hour 3\u20136 PM",
+        "Saturday: 9:00 AM \u2013 6:00 PM \u00b7 Happy Hour 3\u20136 PM"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.delinerds.com/lunch-costa-mesa",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour 3\u20136 PM",
+      "tags": [
+        "happy_hour",
+        "weekday_special"
+      ],
+      "time_window": "Mon \u2013 Wed: 8:00 AM \u2013 6:00 PM \u00b7 Happy Hour 3\u20136 PM",
+      "valid_through": null,
+      "validity": "Mon \u2013 Wed: 8:00 AM \u2013 6:00 PM \u00b7 Happy Hour 3\u20136 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Wednesday Happy Hour with drink specials and tasty bites Amazing drink specials and tasty bites",
+      "canonical_id": "94a6f7bef7d3bf2d",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 2,
+      "details": [
+        "Amazing drink specials and tasty bites"
+      ],
+      "first_seen": "2026-10-08T20:15:35Z",
+      "id": "5f4d7c1ff67c1b0d",
+      "is_stale": true,
+      "last_seen": "2026-10-13T20:28:47Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 60,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-10-16T02:30:54Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Wednesday Happy Hour! Enjoy amazing drink specials and tasty bites from 4pm to 7pm."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Wednesday Happy Hour with drink specials and tasty bites",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "04:00 PM - 07:00 PM",
+      "valid_through": null,
+      "validity": "Wed, 04:00 PM - 07:00 PM"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
@@ -5099,101 +5494,6 @@
       "valid_through": null,
       "validity": "Tue",
       "value_label": "$9.99"
-    },
-    {
-      "ai_confidence": 0.95,
-      "applies_days": [
-        "wednesday"
-      ],
-      "applies_month_days": [],
-      "candidate_text": "Wednesday Happy Hour with drink specials and tasty bites Amazing drink specials and tasty bites",
-      "canonical_id": "2b9abcce4c1d1241",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Garden Grove",
-      "days_since_seen": 0,
-      "details": [
-        "Amazing drink specials and tasty bites"
-      ],
-      "first_seen": "2026-10-08T20:15:35Z",
-      "id": "5f4d7c1ff67c1b0d",
-      "is_stale": true,
-      "last_seen": "2026-10-08T20:15:35Z",
-      "location": {
-        "address": "12900 Main St, Garden Grove, CA 92840, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "01:30",
-              "open": "15:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "01:30",
-              "open": "15:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ]
-        },
-        "latitude": 33.7753468,
-        "longitude": -117.94066659999999,
-        "phone": "(714) 909-2020",
-        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
-      },
-      "quality_score": 60,
-      "restaurant": "Aum Beer House",
-      "retired_at": "2026-10-09T19:48:57Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "Enjoy amazing drink specials and tasty bites from 4pm to 7pm."
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://aumbeerhouse.com/daily-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Wednesday Happy Hour with drink specials and tasty bites",
-      "tags": [
-        "happy_hour",
-        "weekday_special",
-        "deal_language"
-      ],
-      "time_window": "04:00 PM - 07:00 PM",
-      "valid_through": null,
-      "validity": "Wed, 04:00 PM - 07:00 PM"
     },
     {
       "ai_confidence": 0.95,

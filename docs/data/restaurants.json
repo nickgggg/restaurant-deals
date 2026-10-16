@@ -8,7 +8,8 @@
     },
     "Fountain Valley": {
       "activated_at": "2026-09-10T01:26:14Z",
-      "last_refreshed": "2026-09-10T01:26:14Z",
+      "last_refreshed": "2026-10-16T02:24:29Z",
+      "restaurant_count": 169,
       "status": "active"
     },
     "Garden Grove": {
@@ -54,23 +55,23 @@
     ],
     "closed_count": 82,
     "failed_map_cells": 0,
-    "last_scan_map_cells": 110,
+    "last_scan_map_cells": 20,
     "last_scanned_cities": [
-      "Huntington Beach"
+      "Fountain Valley"
     ],
-    "last_source_scan_at": "2026-10-15T18:39:09Z",
+    "last_source_scan_at": "2026-10-16T02:24:29Z",
     "map_cells": 458,
-    "official_websites": 1496,
-    "operational_count": 1918,
+    "official_websites": 1477,
+    "operational_count": 1889,
     "queued_cities": [],
-    "restaurant_count": 2000,
-    "source_sites_checked": 387,
-    "specials_pages_found": 432,
-    "successful_map_cells": 110
+    "restaurant_count": 1971,
+    "source_sites_checked": 133,
+    "specials_pages_found": 425,
+    "successful_map_cells": 20
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-15T18:39:09Z",
-  "refresh_after": "2026-10-15T01:26:14Z",
+  "generated_at": "2026-10-16T02:24:29Z",
+  "refresh_after": "2026-10-15T16:26:21Z",
   "restaurants": [
     {
       "address": "369 E 17th St #18, Costa Mesa, CA 92627, USA",
@@ -1037,7 +1038,7 @@
       "phone": "(714) 465-2343",
       "place_id": "ChIJWbAq0AQn3YARMzjUPP7YYMU",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-09-14T22:49:18Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -2013,13 +2014,13 @@
       "phone": "(714) 907-0600",
       "place_id": "ChIJd00hYRcr3YAR2wLt1Peg-Pc",
       "primary_type": "mediterranean_restaurant",
-      "specials_checked_at": "2026-09-14T22:49:18Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mediterranean_restaurant",
-        "middle_eastern_restaurant",
         "turkish_restaurant",
+        "middle_eastern_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -2261,76 +2262,6 @@
         "establishment"
       ],
       "website_url": "http://www.ahipoki.com/"
-    },
-    {
-      "address": "16139 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=16022900468912666849&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "22:00",
-            "open": "08:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "22:00",
-            "open": "08:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "22:00",
-            "open": "08:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "22:00",
-            "open": "08:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "22:00",
-            "open": "08:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "22:00",
-            "open": "08:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "22:00",
-            "open": "08:00"
-          }
-        ]
-      },
-      "latitude": 33.727885199999996,
-      "longitude": -117.9562853,
-      "name": "Airoma Cafe",
-      "phone": "(714) 462-6039",
-      "place_id": "ChIJY-pH4GAn3YAR4bj6YBXHXN4",
-      "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-09-15T15:42:34Z",
-      "specials_discovery_version": 4,
-      "specials_pages": [],
-      "types": [
-        "coffee_shop",
-        "cafe",
-        "tea_house",
-        "food_store",
-        "store",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "http://www.airomacafe.com/"
     },
     {
       "address": "16051 Bolsa Chica St, Huntington Beach, CA 92649, USA",
@@ -2734,74 +2665,6 @@
       "website_url": ""
     },
     {
-      "address": "16061 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=14359936896923261764&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "19:00",
-            "open": "07:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "19:00",
-            "open": "07:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "19:00",
-            "open": "07:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "19:00",
-            "open": "07:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "19:00",
-            "open": "07:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "19:00",
-            "open": "07:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "19:00",
-            "open": "07:00"
-          }
-        ]
-      },
-      "latitude": 33.729121899999996,
-      "longitude": -117.95655599999999,
-      "name": "Albertsons Bakery",
-      "phone": "(714) 531-0417",
-      "place_id": "ChIJS6wloSsn3YARRNsiioa-SMc",
-      "primary_type": "bakery",
-      "specials_checked_at": "2026-09-15T15:42:34Z",
-      "specials_discovery_version": 4,
-      "specials_pages": [],
-      "types": [
-        "bakery",
-        "food_store",
-        "store",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://local.albertsons.com/ca/fountain-valley/16061-brookhurst-st/bakery.html"
-    },
-    {
       "address": "18579 Brookhurst St, Fountain Valley, CA 92708, USA",
       "business_status": "OPERATIONAL",
       "city": "Fountain Valley",
@@ -2856,7 +2719,7 @@
       "phone": "(714) 963-7503",
       "place_id": "ChIJp67NCcQn3YAR6XiOzvf1708",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-09-15T15:42:34Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -3506,25 +3369,25 @@
       "phone": "(714) 962-9881",
       "place_id": "ChIJ8ws_x9gn3YARIq8BXb_oFeE",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-09-15T15:50:23Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
-        "catering_service",
-        "asian_restaurant",
-        "food_delivery",
-        "breakfast_restaurant",
-        "cafe",
         "sandwich_shop",
-        "mexican_restaurant",
-        "american_restaurant",
+        "breakfast_restaurant",
+        "asian_restaurant",
+        "cafe",
+        "catering_service",
         "bakery",
+        "american_restaurant",
+        "mexican_restaurant",
+        "food_delivery",
         "food_store",
         "store",
         "food",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "http://amarithfarmhouse.com/"
@@ -3613,7 +3476,7 @@
       "hours": {
         "friday": [
           {
-            "close": "22:00",
+            "close": "22:30",
             "open": "11:00"
           }
         ],
@@ -3625,7 +3488,7 @@
         ],
         "saturday": [
           {
-            "close": "22:00",
+            "close": "22:30",
             "open": "11:00"
           }
         ],
@@ -3660,7 +3523,7 @@
       "phone": "(714) 963-5790",
       "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-09-15T15:50:23Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -3673,11 +3536,11 @@
       "types": [
         "pizza_restaurant",
         "pizza_delivery",
-        "meal_delivery",
-        "food_delivery",
         "italian_restaurant",
-        "european_restaurant",
+        "meal_delivery",
         "meal_takeaway",
+        "food_delivery",
+        "european_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -3902,7 +3765,7 @@
       "phone": "(714) 962-5455",
       "place_id": "ChIJ-2K01AQn3YARJiZtKRlpBBM",
       "primary_type": "donut_shop",
-      "specials_checked_at": "2026-09-15T15:50:23Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -5140,15 +5003,15 @@
       "phone": "(714) 698-8118",
       "place_id": "ChIJrSp72hgh3YART2qUykl6IVU",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-09-15T15:57:04Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
         "brunch_restaurant",
         "coffee_shop",
-        "tea_house",
         "bakery",
+        "tea_house",
         "food_store",
         "store",
         "restaurant",
@@ -5493,7 +5356,7 @@
       "phone": "(657) 431-5154",
       "place_id": "ChIJYak0oJwn3YARvFhqWScPEGs",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-09-15T15:57:04Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -6347,7 +6210,7 @@
       "phone": "(714) 377-0718",
       "place_id": "ChIJcc7sfN8m3YAR4hM1rLXZE4k",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-09-15T15:57:04Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -7787,81 +7650,6 @@
       "website_url": "https://bandoleros.cafe/"
     },
     {
-      "address": "18687 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=13139958628953044055&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "15:30",
-            "open": "11:30"
-          },
-          {
-            "close": "22:00",
-            "open": "16:30"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "22:00",
-            "open": "11:30"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "22:00",
-            "open": "11:30"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "15:30",
-            "open": "11:30"
-          },
-          {
-            "close": "22:00",
-            "open": "16:30"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "15:30",
-            "open": "11:30"
-          },
-          {
-            "close": "21:00",
-            "open": "16:30"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "15:30",
-            "open": "11:30"
-          },
-          {
-            "close": "22:00",
-            "open": "16:30"
-          }
-        ]
-      },
-      "latitude": 33.691319,
-      "longitude": -117.95521899999999,
-      "name": "Bangkok Broth House",
-      "phone": "(657) 837-0838",
-      "place_id": "ChIJFxWQdMQn3YARVzQTKsGCWrY",
-      "primary_type": "thai_restaurant",
-      "specials_pages": [],
-      "types": [
-        "thai_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": ""
-    },
-    {
       "address": "2360 Newport Blvd B, Costa Mesa, CA 92627, USA",
       "business_status": "OPERATIONAL",
       "city": "Costa Mesa",
@@ -7992,65 +7780,6 @@
         "establishment"
       ],
       "website_url": "https://www.banhcuontayho4.com/"
-    },
-    {
-      "address": "9110 Edinger Ave, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=1963650834200065843&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "16:00",
-            "open": "10:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "18:00",
-            "open": "10:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "16:00",
-            "open": "10:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "16:00",
-            "open": "10:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "16:00",
-            "open": "10:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "16:00",
-            "open": "10:00"
-          }
-        ]
-      },
-      "latitude": 33.729971,
-      "longitude": -117.97018870000001,
-      "name": "Banh Khot Vung Tau",
-      "phone": "(714) 277-7705",
-      "place_id": "ChIJRTksQign3YARM_dkowdKQBs",
-      "primary_type": "vietnamese_restaurant",
-      "specials_pages": [],
-      "types": [
-        "vietnamese_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": ""
     },
     {
       "address": "114 22nd St, Newport Beach, CA 92663, USA",
@@ -10199,8 +9928,8 @@
       "types": [
         "restaurant",
         "thai_restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": ""
@@ -11106,7 +10835,7 @@
         ],
         "monday": [
           {
-            "close": "22:00",
+            "close": "21:00",
             "open": "15:00"
           }
         ],
@@ -11124,19 +10853,19 @@
         ],
         "thursday": [
           {
-            "close": "22:00",
+            "close": "21:00",
             "open": "15:00"
           }
         ],
         "tuesday": [
           {
-            "close": "22:00",
+            "close": "21:00",
             "open": "15:00"
           }
         ],
         "wednesday": [
           {
-            "close": "22:00",
+            "close": "21:00",
             "open": "15:00"
           }
         ]
@@ -11147,15 +10876,14 @@
       "phone": "(714) 968-4477",
       "place_id": "ChIJJYpXUzkn3YARSnUAnduKB4c",
       "primary_type": "steak_house",
-      "specials_checked_at": "2026-09-15T20:36:18Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-ij1926lp/Default'",
       "specials_pages": [],
       "types": [
         "steak_house",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://blackangus.com/menu-order/blackangusfountainvalley"
@@ -11358,7 +11086,7 @@
       "phone": "(714) 587-1672",
       "place_id": "ChIJMRDQWBEn3YARrd8LVuc0-5Q",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-09-15T20:22:12Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -11372,8 +11100,8 @@
         "pizza_restaurant",
         "fast_food_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://locations.blazepizza.com/us/ca/fountain-valley/blazepizza-1264"
@@ -11726,7 +11454,7 @@
       "phone": "(714) 852-3335",
       "place_id": "ChIJg19tdEQn3YAR_k7E-j7noXk",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-09-15T20:22:12Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -12940,7 +12668,7 @@
       "phone": "(714) 377-7090",
       "place_id": "ChIJpw5Po4En3YARFsHNXzkckUI",
       "primary_type": "korean_restaurant",
-      "specials_checked_at": "2026-09-15T20:22:12Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -13034,74 +12762,6 @@
         "establishment"
       ],
       "website_url": "https://restaurants.bonchon.com/locations/ca/costa-mesa/1534-adams-ave-suite-b"
-    },
-    {
-      "address": "16177 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=8114023144686498730&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "22:00",
-            "open": "11:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "22:00",
-            "open": "11:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ]
-      },
-      "latitude": 33.7274445,
-      "longitude": -117.9555851,
-      "name": "Bonchon Fountain Valley",
-      "phone": "(714) 660-4557",
-      "place_id": "ChIJG8PBw-cn3YARqjNWZg_NmnA",
-      "primary_type": "asian_restaurant",
-      "specials_checked_at": "2026-09-15T20:30:26Z",
-      "specials_discovery_version": 4,
-      "specials_pages": [],
-      "types": [
-        "asian_restaurant",
-        "korean_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://bonchon.com/"
     },
     {
       "address": "12422 Lampson Ave, Garden Grove, CA 92840, USA",
@@ -14135,14 +13795,14 @@
         "bakery",
         "catering_service",
         "coffee_shop",
-        "food_delivery",
         "cafe",
+        "food_delivery",
         "confectionery",
         "food_store",
         "store",
         "food",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "https://www.buddersbakery.com/"
@@ -15701,8 +15361,8 @@
       "specials_pages": [],
       "types": [
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": ""
@@ -17954,7 +17614,7 @@
       "phone": "(714) 881-0110",
       "place_id": "ChIJ8V0ZYTkn3YARvIPsSYKbnO4",
       "primary_type": "seafood_restaurant",
-      "specials_checked_at": "2026-09-15T22:02:24Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -17963,8 +17623,8 @@
         "british_restaurant",
         "european_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.cafishgrill.com/"
@@ -18198,7 +17858,7 @@
       "phone": "(714) 963-8844",
       "place_id": "ChIJh8yYmZwh3YARZr4KnvuWbn4",
       "primary_type": "japanese_restaurant",
-      "specials_checked_at": "2026-09-15T22:02:24Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -18422,37 +18082,37 @@
         "friday": [
           {
             "close": "21:00",
-            "open": "11:00"
+            "open": "11:30"
           }
         ],
         "saturday": [
           {
             "close": "21:00",
-            "open": "11:00"
+            "open": "11:30"
           }
         ],
         "sunday": [
           {
             "close": "20:00",
-            "open": "11:00"
+            "open": "11:30"
           }
         ],
         "thursday": [
           {
             "close": "20:00",
-            "open": "11:00"
+            "open": "11:30"
           }
         ],
         "tuesday": [
           {
             "close": "20:00",
-            "open": "11:00"
+            "open": "11:30"
           }
         ],
         "wednesday": [
           {
             "close": "20:00",
-            "open": "11:00"
+            "open": "11:30"
           }
         ]
       },
@@ -18462,45 +18122,45 @@
       "phone": "(714) 375-3305",
       "place_id": "ChIJwddf-vwm3YAR2dMM2zdt0IM",
       "primary_type": "argentinian_restaurant",
-      "specials_checked_at": "2026-09-15T22:02:24Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "high",
           "discovered_via": "known_path",
           "label": "Daily Specials",
-          "url": "http://www.cambalachegrill.com/daily-specials"
+          "url": "http://cambalachegrill.com/daily-specials"
         },
         {
           "confidence": "high",
           "discovered_via": "known_path",
           "label": "Specials",
-          "url": "http://www.cambalachegrill.com/specials"
+          "url": "http://cambalachegrill.com/specials"
         },
         {
           "confidence": "high",
           "discovered_via": "known_path",
           "label": "Weekday Specials",
-          "url": "http://www.cambalachegrill.com/weekday-specials"
+          "url": "http://cambalachegrill.com/weekday-specials"
         },
         {
           "confidence": "medium",
           "discovered_via": "site_link",
           "label": "Specials",
-          "url": "http://www.cambalachegrill.com/fountain-valley-fountain-valley-cambalache-grill-argentine-and-italian-cuisine-happy-hours-specials"
+          "url": "http://cambalachegrill.com/fountain-valley-fountain-valley-cambalache-grill-argentine-and-italian-cuisine-happy-hours-specials"
         }
       ],
       "types": [
         "argentinian_restaurant",
-        "italian_restaurant",
         "south_american_restaurant",
+        "italian_restaurant",
         "european_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
         "establishment"
       ],
-      "website_url": "http://www.cambalachegrill.com/"
+      "website_url": "http://cambalachegrill.com/"
     },
     {
       "address": "Parking lot, S St, Costa Mesa, CA 92626, USA",
@@ -18697,15 +18357,15 @@
       "phone": "(949) 394-6318",
       "place_id": "ChIJB242GSgn3YARsIxXFbyLRug",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-09-15T22:02:24Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
         "brunch_restaurant",
-        "breakfast_restaurant",
         "turkish_restaurant",
         "coffee_shop",
+        "breakfast_restaurant",
         "bakery",
         "food_store",
         "store",
@@ -18836,21 +18496,21 @@
       "phone": "(657) 237-5347",
       "place_id": "ChIJG_MNwOwn3YARwWUGrhlgzmw",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-09-16T17:37:55Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
-        "taco_restaurant",
         "catering_service",
-        "food_delivery",
+        "taco_restaurant",
         "meal_takeaway",
+        "food_delivery",
         "food_store",
         "store",
         "service",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "http://cancunfresh.com/"
@@ -19385,77 +19045,6 @@
       "website_url": "https://locations.carlsjr.com/ca/huntington-beach/16031-bolsa-chica"
     },
     {
-      "address": "17085 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=18129337235579285635&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "00:00",
-            "open": "06:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "23:00",
-            "open": "06:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "00:00",
-            "open": "06:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "23:00",
-            "open": "06:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "23:00",
-            "open": "06:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "23:00",
-            "open": "06:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "23:00",
-            "open": "06:00"
-          }
-        ]
-      },
-      "latitude": 33.714438699999995,
-      "longitude": -117.954926,
-      "name": "Carl's Jr.",
-      "phone": "(714) 965-0293",
-      "place_id": "ChIJ4x2skBEn3YARgzD3kylYmPs",
-      "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-09-16T17:37:55Z",
-      "specials_discovery_version": 4,
-      "specials_pages": [],
-      "types": [
-        "fast_food_restaurant",
-        "chicken_restaurant",
-        "hamburger_restaurant",
-        "western_restaurant",
-        "american_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://locations.carlsjr.com/ca/fountain-valley/17085-brookhurst-st"
-    },
-    {
       "address": "19125 Goldenwest St, Huntington Beach, CA 92648, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -19962,7 +19551,7 @@
       "phone": "(714) 593-5350",
       "place_id": "ChIJJV5xGRcn3YARN2eoVYPHR5Y",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-09-16T17:37:55Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -19974,10 +19563,10 @@
       ],
       "types": [
         "mexican_restaurant",
-        "chicken_restaurant",
         "taco_restaurant",
-        "diner",
         "breakfast_restaurant",
+        "chicken_restaurant",
+        "diner",
         "hamburger_restaurant",
         "american_restaurant",
         "restaurant",
@@ -20435,35 +20024,6 @@
         "establishment"
       ],
       "website_url": "https://www.carrotanddaikon.com/"
-    },
-    {
-      "address": "8602 Warner Ave, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=12465664494247520102&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "sunday": [
-          {
-            "close": "14:30",
-            "open": "08:00"
-          }
-        ]
-      },
-      "latitude": 33.7153512,
-      "longitude": -117.97876420000001,
-      "name": "casa axixic",
-      "phone": "(714) 698-9435",
-      "place_id": "ChIJr2YALUUn3YARZqfSxM_v_qw",
-      "primary_type": "breakfast_restaurant",
-      "specials_pages": [],
-      "types": [
-        "breakfast_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": ""
     },
     {
       "address": "1870 Harbor Blvd Second Level, Costa Mesa, CA 92627, USA",
@@ -21909,7 +21469,7 @@
       "phone": "(657) 329-0494",
       "place_id": "ChIJjbvbopgn3YARsw3mu6ymXRs",
       "primary_type": "mediterranean_restaurant",
-      "specials_checked_at": "2026-09-16T18:05:51Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -21917,11 +21477,11 @@
         "chicken_restaurant",
         "vegetarian_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
-      "website_url": "https://chickenmaison.com/fountain-valley/"
+      "website_url": "https://chickenmaison.com/fountain-valley/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing"
     },
     {
       "address": "19072 Beach Blvd Ste F, Huntington Beach, CA 92648, USA",
@@ -22085,8 +21645,8 @@
         "japanese_restaurant",
         "sushi_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": ""
@@ -22234,8 +21794,8 @@
         "chinese_restaurant",
         "fast_food_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": ""
@@ -22575,19 +22135,23 @@
       "name": "Chipotle Mexican Grill",
       "phone": "(714) 377-2698",
       "place_id": "ChIJF5xKG-An3YAR38con2EoIzo",
-      "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-09-16T18:22:53Z",
+      "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
-        "mexican_restaurant",
-        "catering_service",
         "fast_food_restaurant",
+        "catering_service",
+        "taco_restaurant",
+        "meal_takeaway",
+        "mexican_restaurant",
+        "burrito_restaurant",
         "food_delivery",
-        "restaurant",
-        "food",
-        "point_of_interest",
+        "shipping_service",
         "service",
+        "restaurant",
+        "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://locations.chipotle.com/ca/fountain-valley/17150-brookhurst-st?utm_source=google&utm_medium=yext&utm_campaign=yext_listings?restaurant=3132"
@@ -22646,19 +22210,23 @@
       "name": "Chipotle Mexican Grill",
       "phone": "(714) 968-4003",
       "place_id": "ChIJO5ebqjQn3YARfUpI22TTn20",
-      "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-09-16T18:22:53Z",
+      "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
-        "mexican_restaurant",
         "fast_food_restaurant",
+        "taco_restaurant",
+        "burrito_restaurant",
         "catering_service",
+        "shipping_service",
+        "meal_takeaway",
+        "mexican_restaurant",
         "food_delivery",
         "restaurant",
         "food",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "https://locations.chipotle.com/ca/fountain-valley/18951-brookhurst-st?utm_source=google&utm_medium=yext&utm_campaign=yext_listings?restaurant=229"
@@ -23997,65 +23565,6 @@
       "website_url": "https://locations.cinnabon.com/ca/westminster/2052-westminster-mall?utm_source=google&utm_medium=organic&utm_campaign=locations_partner"
     },
     {
-      "address": "18120 Brookhurst St Ste 2, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=9069040490042039264&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "01:00",
-            "open": "17:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "01:00",
-            "open": "17:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "23:00",
-            "open": "17:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "23:00",
-            "open": "17:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "23:00",
-            "open": "17:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "23:00",
-            "open": "17:00"
-          }
-        ]
-      },
-      "latitude": 33.7001567,
-      "longitude": -117.95367320000001,
-      "name": "CIR Lounge",
-      "phone": "(714) 698-8929",
-      "place_id": "ChIJc-E8Mecn3YAR4BuXnka0230",
-      "primary_type": "bar",
-      "specials_checked_at": "2026-09-16T18:22:53Z",
-      "specials_discovery_version": 4,
-      "specials_pages": [],
-      "types": [
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "http://cirlounge.com/"
-    },
-    {
       "address": "3432 Via Oporto #104, Newport Beach, CA 92663, USA",
       "business_status": "OPERATIONAL",
       "city": "Newport Beach",
@@ -24356,8 +23865,8 @@
         "vietnamese_restaurant",
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": ""
@@ -24572,30 +24081,6 @@
       "specials_pages": [],
       "types": [
         "cafe",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": ""
-    },
-    {
-      "address": "8798 La Casita Ave, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=10323931586880099279&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {},
-      "latitude": 33.712371000000005,
-      "longitude": -117.9754908,
-      "name": "Coffee",
-      "phone": "",
-      "place_id": "ChIJRb4EXgAn3YARz1NsaRT5RY8",
-      "primary_type": "coffee_shop",
-      "specials_pages": [],
-      "types": [
-        "coffee_shop",
-        "cafe",
-        "food_store",
-        "store",
         "food",
         "point_of_interest",
         "establishment"
@@ -25302,8 +24787,8 @@
         "bistro",
         "american_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": ""
@@ -25323,67 +24808,6 @@
       "specials_pages": [],
       "types": [
         "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": ""
-    },
-    {
-      "address": "18856 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=4704519995342931376&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "18:30",
-            "open": "10:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "18:30",
-            "open": "10:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "17:00",
-            "open": "10:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "18:30",
-            "open": "10:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "18:30",
-            "open": "10:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "18:30",
-            "open": "10:00"
-          }
-        ]
-      },
-      "latitude": 33.6887983,
-      "longitude": -117.9536377,
-      "name": "Cookie Dough Sip Juice Press",
-      "phone": "",
-      "place_id": "ChIJU-mbozQn3YARsEUjmQLQSUE",
-      "primary_type": "bakery",
-      "specials_pages": [],
-      "types": [
-        "confectionery",
-        "bakery",
-        "food_store",
-        "store",
         "food",
         "point_of_interest",
         "establishment"
@@ -25723,15 +25147,22 @@
       "phone": "(714) 338-2183",
       "place_id": "ChIJuwF-qVAn3YARywbwzc_xlZI",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-09-16T18:29:31Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
-      "specials_pages": [],
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Special Events",
+          "url": "https://www.costco.com/special-events.html"
+        }
+      ],
       "types": [
         "bakery",
         "food_store",
         "store",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.costco.com/warehouse-locations/fountain-valley-ca-411.html"
@@ -25744,44 +25175,44 @@
       "hours": {
         "friday": [
           {
-            "close": "18:00",
-            "open": "08:00"
+            "close": "19:00",
+            "open": "07:00"
           }
         ],
         "monday": [
           {
-            "close": "18:00",
-            "open": "08:00"
+            "close": "19:00",
+            "open": "07:00"
           }
         ],
         "saturday": [
           {
-            "close": "18:00",
+            "close": "20:00",
             "open": "08:00"
           }
         ],
         "sunday": [
           {
-            "close": "18:00",
+            "close": "20:00",
             "open": "08:00"
           }
         ],
         "thursday": [
           {
-            "close": "18:00",
-            "open": "08:00"
+            "close": "19:00",
+            "open": "07:00"
           }
         ],
         "tuesday": [
           {
-            "close": "18:00",
-            "open": "08:00"
+            "close": "19:00",
+            "open": "07:00"
           }
         ],
         "wednesday": [
           {
-            "close": "06:00",
-            "open": "08:00"
+            "close": "19:00",
+            "open": "07:00"
           }
         ]
       },
@@ -25791,7 +25222,7 @@
       "phone": "",
       "place_id": "ChIJIwFQ_R0n3YARdvFMS1scgas",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-09-16T18:29:31Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -26471,27 +25902,20 @@
       "phone": "(657) 339-0440",
       "place_id": "ChIJF3gH0Bsn3YARMvzCQAiA43c",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-09-16T22:42:29Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "discovered_via": "page_text",
-          "label": "Website specials",
-          "url": "https://crumblcookies.com/stores/ca/anaheim-area/cafountainvalley?utm_source=google+business&utm_medium=profile&utm_campaign=CRUMBL-US+%7C+GOOGLE+BUSINESS+%7C+STORE+PAGE+%7C+ONGOING+%7C+CONSIDERATION+%7C+PROFILE"
-        }
-      ],
+      "specials_pages": [],
       "types": [
+        "bakery",
         "dessert_shop",
         "confectionery",
-        "bakery",
         "food_store",
         "store",
         "food",
         "point_of_interest",
         "establishment"
       ],
-      "website_url": "https://crumblcookies.com/stores/ca/anaheim-area/cafountainvalley?utm_source=google+business&utm_medium=profile&utm_campaign=CRUMBL-US+%7C+GOOGLE+BUSINESS+%7C+STORE+PAGE+%7C+ONGOING+%7C+CONSIDERATION+%7C+PROFILE"
+      "website_url": "https://crumblcookies.com/"
     },
     {
       "address": "369 E 17th St Ste. 3, Costa Mesa, CA 92627, USA",
@@ -27073,37 +26497,37 @@
         "friday": [
           {
             "close": "22:00",
-            "open": "11:00"
+            "open": "12:00"
           }
         ],
         "monday": [
           {
             "close": "21:00",
-            "open": "11:00"
+            "open": "12:00"
           }
         ],
         "saturday": [
           {
             "close": "22:00",
-            "open": "11:00"
+            "open": "12:00"
           }
         ],
         "sunday": [
           {
             "close": "21:00",
-            "open": "00:00"
+            "open": "00:30"
           }
         ],
         "thursday": [
           {
             "close": "21:00",
-            "open": "12:30"
+            "open": "15:00"
           }
         ],
         "wednesday": [
           {
-            "close": "21:00",
-            "open": "11:00"
+            "close": "22:00",
+            "open": "12:00"
           }
         ]
       },
@@ -27113,22 +26537,22 @@
       "phone": "(714) 274-9099",
       "place_id": "ChIJw8YnJJon3YARVP69EempqKE",
       "primary_type": "chicken_wings_restaurant",
-      "specials_checked_at": "2026-09-16T22:42:29Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chicken_wings_restaurant",
-        "brunch_restaurant",
-        "chicken_restaurant",
-        "fast_food_restaurant",
         "wine_bar",
+        "brunch_restaurant",
+        "fast_food_restaurant",
+        "chicken_restaurant",
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
-      "website_url": "https://cyberwings.us/"
+      "website_url": "https://cyberwingsca.com/"
     },
     {
       "address": "12085 Brookhurst St, Garden Grove, CA 92840, USA",
@@ -28277,15 +27701,15 @@
       "phone": "(657) 383-7536",
       "place_id": "ChIJ9dw-j-4n3YAR3HT9XbJD6bc",
       "primary_type": "chicken_restaurant",
-      "specials_checked_at": "2026-09-16T22:42:29Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chicken_restaurant",
         "halal_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://restaurants.daveshotchicken.com/ca/fountain-valley/10832-warner-ave.-1013?utm_campaign=google_maps&utm_medium=organic&utm_source=google&utm_content=website&utm_term=1013"
@@ -28906,23 +28330,30 @@
       "latitude": 33.7119906,
       "longitude": -117.95505120000001,
       "name": "Del Taco",
-      "phone": "(714) 968-3445",
+      "phone": "(714) 593-0170",
       "place_id": "ChIJl3JjuxYn3YARfWye9B9YN98",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-09-16T22:42:29Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
-      "specials_pages": [],
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://locations.deltaco.com/us/ca/fountain-valley/17295-brookhurst-st?utm_source=G&utm_medium=local&utm_campaign=google-local"
+        }
+      ],
       "types": [
         "fast_food_restaurant",
-        "hamburger_restaurant",
-        "taco_restaurant",
         "breakfast_restaurant",
+        "taco_restaurant",
         "meal_takeaway",
         "mexican_restaurant",
+        "hamburger_restaurant",
         "american_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://locations.deltaco.com/us/ca/fountain-valley/17295-brookhurst-st?utm_source=G&utm_medium=local&utm_campaign=google-local"
@@ -29384,19 +28815,19 @@
       "hours": {
         "friday": [
           {
-            "close": "23:00",
+            "close": "00:00",
             "open": "07:00"
           }
         ],
         "monday": [
           {
-            "close": "22:00",
+            "close": "23:00",
             "open": "08:00"
           }
         ],
         "saturday": [
           {
-            "close": "23:00",
+            "close": "00:00",
             "open": "07:00"
           }
         ],
@@ -29408,19 +28839,19 @@
         ],
         "thursday": [
           {
-            "close": "23:00",
+            "close": "00:00",
             "open": "07:00"
           }
         ],
         "tuesday": [
           {
-            "close": "23:00",
+            "close": "00:00",
             "open": "07:00"
           }
         ],
         "wednesday": [
           {
-            "close": "22:00",
+            "close": "23:00",
             "open": "07:00"
           }
         ]
@@ -29431,17 +28862,24 @@
       "phone": "(714) 968-9846",
       "place_id": "ChIJR3cSNRsn3YARztn9TaIvSUY",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-09-16T23:14:01Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
-      "specials_pages": [],
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://locations.deltaco.com/us/ca/fountain-valley/9436-warner-ave?utm_source=G&utm_medium=local&utm_campaign=google-local"
+        }
+      ],
       "types": [
         "fast_food_restaurant",
         "taco_restaurant",
         "breakfast_restaurant",
         "hamburger_restaurant",
+        "meal_takeaway",
         "mexican_restaurant",
         "american_restaurant",
-        "meal_takeaway",
         "restaurant",
         "food",
         "point_of_interest",
@@ -29746,39 +29184,6 @@
       "website_url": "https://locations.dennys.com/CA/GARDEN-GROVE/247985?utm_source=G&utm_medium=organic&utm_campaign=DAC"
     },
     {
-      "address": "16205 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=9633640973231840076&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {},
-      "latitude": 33.7274405,
-      "longitude": -117.95512360000001,
-      "name": "Denny's Restaurant",
-      "phone": "(714) 775-7284",
-      "place_id": "ChIJEQN-8Qkn3YARTNshh2yRsYU",
-      "primary_type": "restaurant",
-      "specials_checked_at": "2026-09-16T23:14:01Z",
-      "specials_discovery_version": 4,
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "discovered_via": "page_text",
-          "label": "Website specials",
-          "url": "https://locations.dennys.com/CA/FOUNTAIN-VALLEY/246994?utm_source=G&utm_medium=organic&utm_campaign=DAC"
-        }
-      ],
-      "types": [
-        "restaurant",
-        "diner",
-        "breakfast_restaurant",
-        "american_restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://locations.dennys.com/CA/FOUNTAIN-VALLEY/246994?utm_source=G&utm_medium=organic&utm_campaign=DAC"
-    },
-    {
       "address": "3170 Harbor Blvd, Costa Mesa, CA 92626, USA",
       "business_status": "OPERATIONAL",
       "city": "Costa Mesa",
@@ -30047,7 +29452,7 @@
       "phone": "(949) 264-3352",
       "place_id": "ChIJHTuTVSAn3YAR_YqDUDIXzRM",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-09-16T23:19:57Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -30515,8 +29920,8 @@
       "specials_pages": [],
       "types": [
         "asian_fusion_restaurant",
-        "asian_restaurant",
         "fusion_restaurant",
+        "asian_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -31286,7 +30691,7 @@
       "phone": "(657) 900-3285",
       "place_id": "ChIJXZLmvUwn3YARtseaObhoYI8",
       "primary_type": "donut_shop",
-      "specials_checked_at": "2026-09-16T23:19:57Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -32116,7 +31521,7 @@
       "phone": "(714) 376-4668",
       "place_id": "ChIJ3zqv2Dsn3YARGRnnHAoEN28",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-09-16T23:19:57Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -32147,17 +31552,17 @@
       "types": [
         "coffee_shop",
         "fast_food_restaurant",
+        "donut_shop",
         "bagel_shop",
         "breakfast_restaurant",
         "cafe",
         "meal_takeaway",
-        "donut_shop",
         "bakery",
         "food_store",
         "store",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.dunkindonuts.com/locations/us/ca/fountain-valley/18022-brookhurst-st/store-352853/?utm_source=google&utm_medium=local&utm_campaign=localmaps&utm_content=352853&y_source=1_MTIxMDg0OTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
@@ -32201,7 +31606,7 @@
         ],
         "monday": [
           {
-            "close": "22:00",
+            "close": "23:00",
             "open": "05:00"
           }
         ],
@@ -32213,25 +31618,25 @@
         ],
         "sunday": [
           {
-            "close": "22:00",
+            "close": "23:00",
             "open": "05:00"
           }
         ],
         "thursday": [
           {
-            "close": "22:00",
+            "close": "23:00",
             "open": "05:00"
           }
         ],
         "tuesday": [
           {
-            "close": "22:00",
+            "close": "23:00",
             "open": "05:00"
           }
         ],
         "wednesday": [
           {
-            "close": "22:00",
+            "close": "23:00",
             "open": "05:00"
           }
         ]
@@ -32242,7 +31647,7 @@
       "phone": "(877) 899-2767",
       "place_id": "ChIJpVe5kGcn3YARWpptSSGReJQ",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-09-16T23:26:37Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -32254,9 +31659,9 @@
       ],
       "types": [
         "coffee_shop",
+        "cafe",
         "juice_shop",
         "tea_house",
-        "cafe",
         "food_store",
         "store",
         "food",
@@ -32279,7 +31684,7 @@
         ],
         "monday": [
           {
-            "close": "22:00",
+            "close": "23:00",
             "open": "05:00"
           }
         ],
@@ -32291,36 +31696,36 @@
         ],
         "sunday": [
           {
-            "close": "22:00",
+            "close": "23:00",
             "open": "05:00"
           }
         ],
         "thursday": [
           {
-            "close": "22:00",
+            "close": "23:00",
             "open": "05:00"
           }
         ],
         "tuesday": [
           {
-            "close": "22:00",
+            "close": "23:00",
             "open": "05:00"
           }
         ],
         "wednesday": [
           {
-            "close": "22:00",
+            "close": "23:00",
             "open": "05:00"
           }
         ]
       },
-      "latitude": 33.716068899999996,
-      "longitude": -117.96801620000001,
+      "latitude": 33.71618060000001,
+      "longitude": -117.9705438,
       "name": "Dutch Bros Coffee",
       "phone": "(877) 899-2767",
       "place_id": "ChIJx4khPQMn3YARxJB1jXVUwHc",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-09-16T23:26:37Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -32332,8 +31737,8 @@
       ],
       "types": [
         "coffee_shop",
-        "tea_house",
         "juice_shop",
+        "tea_house",
         "cafe",
         "food_store",
         "store",
@@ -32675,13 +32080,13 @@
       "hours": {
         "friday": [
           {
-            "close": "22:30",
+            "close": "21:30",
             "open": "12:00"
           }
         ],
         "saturday": [
           {
-            "close": "22:30",
+            "close": "21:30",
             "open": "12:00"
           }
         ],
@@ -32716,7 +32121,7 @@
       "phone": "(657) 780-0068",
       "place_id": "ChIJ7fB_Mogn3YARrQ9LYooIv-c",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-09-16T23:26:37Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -34113,7 +33518,7 @@
       "phone": "(714) 775-5250",
       "place_id": "ChIJbWnnp2gn3YAR0ahwIJJ1Xpw",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-09-17T18:30:03Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -34125,14 +33530,14 @@
       ],
       "types": [
         "mexican_restaurant",
-        "chicken_restaurant",
         "fast_food_restaurant",
         "catering_service",
+        "chicken_restaurant",
         "food_delivery",
-        "restaurant",
-        "food",
         "service",
+        "restaurant",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://restaurants.elpolloloco.com/ca/fountain-valley/11025-warner-ave?utm_source=gmb&utm_medium=yext"
@@ -35528,40 +34933,15 @@
       "phone": "(312) 229-0170",
       "place_id": "ChIJ57Lothkn3YARbOAvwbvwH1c",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-09-18T17:50:19Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
-        "cafeteria",
         "salad_shop",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://www.farmersfridge.com/"
-    },
-    {
-      "address": "Located in the cafeteria at MemorialCare Orange Coast Medical Center, 9920 Talbert Ave, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=8333849320826680230&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {},
-      "latitude": 33.70037,
-      "longitude": -117.955724,
-      "name": "Farmer's Fridge",
-      "phone": "(312) 229-0099",
-      "place_id": "ChIJDdQNgNEn3YARpjOBe83Hp3M",
-      "primary_type": "restaurant",
-      "specials_checked_at": "2026-09-18T17:50:19Z",
-      "specials_discovery_version": 4,
-      "specials_pages": [],
-      "types": [
         "cafeteria",
-        "salad_shop",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.farmersfridge.com/"
@@ -36216,80 +35596,6 @@
         "establishment"
       ],
       "website_url": "https://www.firehousesubs.com/"
-    },
-    {
-      "address": "18671 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=17733244684733818473&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "20:00",
-            "open": "11:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "20:00",
-            "open": "11:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "20:00",
-            "open": "11:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "20:00",
-            "open": "11:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "20:00",
-            "open": "11:00"
-          }
-        ]
-      },
-      "latitude": 33.6914778,
-      "longitude": -117.95523329999999,
-      "name": "First Class Pizza",
-      "phone": "(714) 964-4800",
-      "place_id": "ChIJK3yO9jMn3YARaaakBBYkGfY",
-      "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-09-18T17:50:19Z",
-      "specials_discovery_version": 4,
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "discovered_via": "site_link",
-          "label": "Specials",
-          "url": "https://ilovefcp.com/specials/"
-        }
-      ],
-      "types": [
-        "pizza_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://ilovefcp.com/"
     },
     {
       "address": "8454 Edinger Ave, Huntington Beach, CA 92647, USA",
@@ -37952,7 +37258,7 @@
       "phone": "(714) 839-4481",
       "place_id": "ChIJMdpkrw4n3YARi4XWP3M8Pu0",
       "primary_type": "chinese_restaurant",
-      "specials_checked_at": "2026-09-19T17:24:02Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -37966,8 +37272,8 @@
         "chinese_restaurant",
         "cantonese_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "http://fu-wing-low.jany.io/"
@@ -39362,16 +38668,16 @@
       "phone": "(714) 531-0288",
       "place_id": "ChIJKS1WHQcn3YAR0tkHe9yjCG4",
       "primary_type": "breakfast_restaurant",
-      "specials_checked_at": "2026-09-20T17:38:14Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "breakfast_restaurant",
         "bagel_shop",
-        "hamburger_restaurant",
-        "donut_shop",
-        "bakery",
         "burrito_restaurant",
+        "donut_shop",
+        "hamburger_restaurant",
+        "bakery",
         "american_restaurant",
         "food_store",
         "store",
@@ -42016,27 +41322,9 @@
       "phone": "(714) 378-0154",
       "place_id": "ChIJMRDQWBEn3YARxdvO20cfars",
       "primary_type": "hamburger_restaurant",
-      "specials_checked_at": "2026-09-22T18:14:47Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
-        {
-          "confidence": "high",
-          "discovered_via": "site_link",
-          "label": "$9 Gotta Habit\u2122 Box Deal w/ Santa Barbara Char 750 - 1340 Cal $9.00",
-          "url": "https://order.habitburger.com/store/6be7f1ee-c4dc-e811-822e-02eaf1e04748/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/03191d0b-dac1-4d5c-8cf2-bd1ad18e4f48"
-        },
-        {
-          "confidence": "high",
-          "discovered_via": "site_link",
-          "label": "$10 Gotta Habit\u2122 Box Deal w/ Wraps 930 - 1580 Cal $10.00",
-          "url": "https://order.habitburger.com/store/6be7f1ee-c4dc-e811-822e-02eaf1e04748/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/39cfd379-2dff-439b-b4cb-d089291b1fab"
-        },
-        {
-          "confidence": "high",
-          "discovered_via": "site_link",
-          "label": "$9 Gotta Habit\u2122 Box Deal w/ California Chicken 730 - 1320 Cal $9.00",
-          "url": "https://order.habitburger.com/store/6be7f1ee-c4dc-e811-822e-02eaf1e04748/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/e94baaa4-8286-40ee-bd28-77cb971de06c"
-        },
         {
           "confidence": "medium",
           "discovered_via": "page_text",
@@ -42049,8 +41337,8 @@
         "fast_food_restaurant",
         "american_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://order.habitburger.com/store/237/category"
@@ -44751,7 +44039,7 @@
       "phone": "(714) 839-8689",
       "place_id": "ChIJmeUJu5zY3IARo1kTNrUoAJg",
       "primary_type": "sushi_restaurant",
-      "specials_checked_at": "2026-09-23T18:34:38Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -44762,7 +44050,7 @@
         "point_of_interest",
         "establishment"
       ],
-      "website_url": "https://pebllago.com/axsw3rx"
+      "website_url": "https://honeysushi.peblla.com/"
     },
     {
       "address": "Huntington Beach, CA 92646, USA",
@@ -45452,7 +44740,7 @@
       "phone": "(714) 593-3000",
       "place_id": "ChIJV7VJlREn3YARUYh-_sFGSkw",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-09-25T18:50:28Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -45466,8 +44754,8 @@
         "american_restaurant",
         "fast_food_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "http://www.orderhotoffthegrill.com/"
@@ -45719,14 +45007,14 @@
       "phone": "(714) 227-2544",
       "place_id": "ChIJdbCq5son3YAR7xZG8fUiDH0",
       "primary_type": "hot_pot_restaurant",
-      "specials_checked_at": "2026-09-25T18:50:28Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "hot_pot_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "http://www.hotc.com/"
@@ -45847,15 +45135,15 @@
       "phone": "(714) 531-1305",
       "place_id": "ChIJt8iNpQ4n3YARMaDUA8iLoik",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-09-25T18:50:28Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
         "asian_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.hueoivietnamesecuisine.com/"
@@ -46234,7 +45522,7 @@
       "phone": "(657) 247-4867",
       "place_id": "ChIJJ2VlYaYn3YAR3pTwIMwB3Uc",
       "primary_type": "thai_restaurant",
-      "specials_checked_at": "2026-09-25T18:50:28Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -46772,8 +46060,8 @@
       "types": [
         "vietnamese_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": ""
@@ -46892,7 +46180,7 @@
       "phone": "(657) 244-8187",
       "place_id": "ChIJGfOqXQAn3YARyqETy7PKlF0",
       "primary_type": "korean_restaurant",
-      "specials_checked_at": "2026-09-25T18:50:28Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -47303,7 +46591,7 @@
       "phone": "(714) 375-0880",
       "place_id": "ChIJ2-xgSDEn3YARMN3R-3T2YpI",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-09-26T17:57:39Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -47311,14 +46599,14 @@
         "catering_service",
         "halal_restaurant",
         "meal_delivery",
-        "food_delivery",
         "vegan_restaurant",
         "vegetarian_restaurant",
         "meal_takeaway",
+        "food_delivery",
         "restaurant",
         "food",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "https://locations.ikessandwich.com/ca/fountainvalley/207/?utm_source=gmb&utm_medium=profile&utm_campaign=fountainvalley-location-page"
@@ -47525,20 +46813,20 @@
       "phone": "(714) 964-5726",
       "place_id": "ChIJa76VxxEn3YARPM9QO-tOsNQ",
       "primary_type": "turkish_restaurant",
-      "specials_checked_at": "2026-09-26T17:57:39Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "turkish_restaurant",
-        "halal_restaurant",
         "mediterranean_restaurant",
+        "halal_restaurant",
         "bakery",
         "middle_eastern_restaurant",
         "food_store",
         "store",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "http://www.ikramgrill.com/"
@@ -48183,7 +47471,7 @@
       "phone": "(714) 965-4600",
       "place_id": "ChIJ7YAErTAn3YARrrx2PJIf9RI",
       "primary_type": "peruvian_restaurant",
-      "specials_checked_at": "2026-09-26T17:57:39Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -48687,7 +47975,7 @@
       "phone": "(714) 430-1434",
       "place_id": "ChIJC0ipZVAn3YARVu-BthkeVpg",
       "primary_type": "turkish_restaurant",
-      "specials_checked_at": "2026-09-26T17:57:39Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -48699,19 +47987,19 @@
       ],
       "types": [
         "turkish_restaurant",
+        "catering_service",
         "mediterranean_restaurant",
         "halal_restaurant",
-        "catering_service",
-        "middle_eastern_restaurant",
-        "vegetarian_restaurant",
         "food_delivery",
+        "vegetarian_restaurant",
+        "middle_eastern_restaurant",
         "manufacturer",
         "store",
+        "supplier",
         "service",
         "restaurant",
-        "food",
-        "supplier",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.istanbulgrillca.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
@@ -50229,7 +49517,7 @@
         ],
         "monday": [
           {
-            "close": "16:00",
+            "close": "15:30",
             "open": "04:00"
           }
         ],
@@ -50241,25 +49529,25 @@
         ],
         "sunday": [
           {
-            "close": "16:00",
+            "close": "15:30",
             "open": "04:00"
           }
         ],
         "thursday": [
           {
-            "close": "16:00",
+            "close": "15:30",
             "open": "04:00"
           }
         ],
         "tuesday": [
           {
-            "close": "16:00",
+            "close": "15:30",
             "open": "04:00"
           }
         ],
         "wednesday": [
           {
-            "close": "16:00",
+            "close": "15:30",
             "open": "04:00"
           }
         ]
@@ -50270,7 +49558,7 @@
       "phone": "(714) 465-9303",
       "place_id": "ChIJedDmKtsn3YARHQgvFoir_J0",
       "primary_type": "donut_shop",
-      "specials_checked_at": "2026-09-28T20:43:34Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -50278,8 +49566,8 @@
         "bakery",
         "food_store",
         "store",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.doordash.com/store/jayden's-donuts-fountain-valley-33339563/60527946/?preview=1"
@@ -50631,81 +49919,6 @@
         "establishment"
       ],
       "website_url": "https://www.jerseymikes.com/20124/newport-beach-ca?utm_source=google&utm_medium=organic&utm_campaign=listings"
-    },
-    {
-      "address": "18120 Brookhurst St Ste. 7, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=5058080952904238592&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ]
-      },
-      "latitude": 33.700341,
-      "longitude": -117.95345739999999,
-      "name": "Jersey Mike's Subs",
-      "phone": "(714) 965-9888",
-      "place_id": "ChIJmYsbojkn3YARAMYG69PpMUY",
-      "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-09-28T20:43:34Z",
-      "specials_discovery_version": 4,
-      "specials_pages": [],
-      "types": [
-        "sandwich_shop",
-        "fast_food_restaurant",
-        "catering_service",
-        "food_delivery",
-        "meal_takeaway",
-        "deli",
-        "food_store",
-        "store",
-        "restaurant",
-        "food",
-        "service",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://www.jerseymikes.com/20064/fountain-valley-ca?utm_source=google&utm_medium=organic&utm_campaign=listings"
     },
     {
       "address": "21004 Beach Blvd, Huntington Beach, CA 92648, USA",
@@ -51062,14 +50275,14 @@
       "phone": "(714) 486-1034",
       "place_id": "ChIJO_6bFFAn3YARUttoG4-L4xU",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-09-28T20:43:34Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://locations.jimmyjohns.com/ca/fountainvalley/sandwiches-2812.html?utm_source=google-my-business&utm_medium=organic&utm_campaign=website-link&y_source=1_MjAyNDA4NDA4OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
@@ -51292,7 +50505,7 @@
       "phone": "(714) 964-1610",
       "place_id": "ChIJT9ZIPion3YARBnvFWiRvFCI",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-09-28T20:43:34Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -51626,7 +50839,7 @@
       "phone": "(714) 227-7740",
       "place_id": "ChIJnaTLpaLY3IARjDWm_LqyFjM",
       "primary_type": "cake_shop",
-      "specials_checked_at": "2026-09-29T19:36:15Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -51644,14 +50857,14 @@
       ],
       "types": [
         "cake_shop",
-        "wholesaler",
         "bakery",
         "food_store",
-        "store",
-        "food",
         "manufacturer",
+        "store",
+        "wholesaler",
         "service",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "http://www.jojocakes.net/content/about-us"
@@ -52888,7 +52101,7 @@
       "phone": "(714) 964-4629",
       "place_id": "ChIJWQCW1DYn3YARlXDgNUAtbPI",
       "primary_type": "japanese_restaurant",
-      "specials_checked_at": "2026-09-29T19:36:15Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -52901,9 +52114,9 @@
       "types": [
         "japanese_restaurant",
         "japanese_izakaya_restaurant",
-        "sushi_restaurant",
         "ramen_restaurant",
         "yakitori_restaurant",
+        "sushi_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -53575,7 +52788,7 @@
       "phone": "(657) 531-2327",
       "place_id": "ChIJ4zrxshYn3YARh7P9IIKxj7k",
       "primary_type": "chicken_restaurant",
-      "specials_checked_at": "2026-09-30T19:35:48Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -53589,8 +52802,8 @@
         "chicken_restaurant",
         "fast_food_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://locations.kfc.com/ca/fountain-valley/17239-brookhurst-street"
@@ -54169,81 +53382,6 @@
       "website_url": ""
     },
     {
-      "address": "16185 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=14493193937286508464&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "23:00",
-            "open": "11:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "23:00",
-            "open": "11:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "23:00",
-            "open": "11:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "23:00",
-            "open": "11:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "23:00",
-            "open": "11:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "23:00",
-            "open": "11:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "23:00",
-            "open": "11:00"
-          }
-        ]
-      },
-      "latitude": 33.7274491,
-      "longitude": -117.955402,
-      "name": "KIN Craft Ramen & Izakaya",
-      "phone": "(949) 688-6961",
-      "place_id": "ChIJYd8E_nkn3YARsK_OBBkrIsk",
-      "primary_type": "ramen_restaurant",
-      "specials_checked_at": "2026-09-30T19:35:48Z",
-      "specials_discovery_version": 4,
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "discovered_via": "page_text",
-          "label": "Website specials",
-          "url": "https://www.keiconcepts.info/brands/kin"
-        }
-      ],
-      "types": [
-        "ramen_restaurant",
-        "japanese_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://www.keiconcepts.info/brands/kin"
-    },
-    {
       "address": "16576 Bolsa Chica St, Huntington Beach, CA 92649, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -54630,17 +53768,16 @@
       "phone": "(714) 884-3124",
       "place_id": "ChIJFYLxGjsn3YARTANfxquyjIE",
       "primary_type": "ramen_restaurant",
-      "specials_checked_at": "2026-10-02T16:22:32Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
-      "specials_error": "OSError: [Errno 39] Directory not empty: '/tmp/restaurant-deals-chrome-eg0g7hav/Default'",
       "specials_pages": [],
       "types": [
         "ramen_restaurant",
         "asian_restaurant",
         "noodle_shop",
+        "korean_restaurant",
         "japanese_restaurant",
         "soup_restaurant",
-        "korean_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -57267,7 +56404,7 @@
       "phone": "(714) 968-6128",
       "place_id": "ChIJyXtqsxMn3YARsJeV7G9nVQw",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-02T16:37:44Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -57292,13 +56429,13 @@
       "types": [
         "pizza_restaurant",
         "sports_bar",
-        "family_restaurant",
-        "bar",
         "italian_restaurant",
+        "bar",
+        "family_restaurant",
         "european_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.bestpizzafountainvalleyca.com/"
@@ -58828,7 +57965,7 @@
       "phone": "(949) 992-8058",
       "place_id": "ChIJ2VMlzcAn3YARCfEbu_f8pIo",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-02T16:37:44Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -59029,13 +58166,13 @@
           }
         ]
       },
-      "latitude": 33.717099,
-      "longitude": -117.96360399999999,
+      "latitude": 33.7171034,
+      "longitude": -117.96370119999999,
       "name": "Little Caesars Pizza",
       "phone": "(714) 968-1186",
       "place_id": "ChIJw7Mk4QQn3YAR5jIP5m8Vn38",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-02T16:37:44Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -59083,11 +58220,11 @@
       ],
       "types": [
         "pizza_restaurant",
-        "pizza_delivery",
         "fast_food_restaurant",
+        "meal_takeaway",
+        "pizza_delivery",
         "meal_delivery",
         "food_delivery",
-        "meal_takeaway",
         "restaurant",
         "food",
         "point_of_interest",
@@ -60261,7 +59398,7 @@
       "phone": "(714) 465-2252",
       "place_id": "ChIJT-PF6wUn3YARS7XiHhkPD2w",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-02T19:29:01Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -62736,7 +61873,7 @@
       "phone": "(714) 842-2844",
       "place_id": "ChIJ6UwWcv0m3YARFyqxOakpPqE",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-10-03T18:08:06Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -62896,72 +62033,44 @@
       "hours": {
         "friday": [
           {
-            "close": "15:00",
-            "open": "11:00"
-          },
-          {
             "close": "21:00",
-            "open": "16:30"
+            "open": "11:00"
           }
         ],
         "monday": [
           {
-            "close": "15:00",
-            "open": "11:00"
-          },
-          {
             "close": "21:00",
-            "open": "16:30"
+            "open": "11:00"
           }
         ],
         "saturday": [
           {
-            "close": "15:00",
-            "open": "11:00"
-          },
-          {
             "close": "21:00",
-            "open": "16:30"
+            "open": "11:00"
           }
         ],
         "sunday": [
           {
-            "close": "15:00",
-            "open": "11:00"
-          },
-          {
             "close": "21:00",
-            "open": "16:30"
+            "open": "11:00"
           }
         ],
         "thursday": [
           {
-            "close": "15:00",
-            "open": "11:00"
-          },
-          {
             "close": "21:00",
-            "open": "16:30"
+            "open": "11:00"
           }
         ],
         "tuesday": [
           {
-            "close": "15:00",
-            "open": "11:00"
-          },
-          {
             "close": "21:00",
-            "open": "16:30"
+            "open": "11:00"
           }
         ],
         "wednesday": [
           {
-            "close": "15:00",
-            "open": "11:00"
-          },
-          {
             "close": "21:00",
-            "open": "16:30"
+            "open": "11:00"
           }
         ]
       },
@@ -62971,7 +62080,7 @@
       "phone": "(714) 963-4929",
       "place_id": "ChIJWURhdiAn3YARJVhhswUAv0g",
       "primary_type": "thai_restaurant",
-      "specials_checked_at": "2026-10-03T18:08:06Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -63848,8 +62957,8 @@
         "donut_shop",
         "bakery",
         "food_store",
-        "food",
         "store",
+        "food",
         "point_of_interest",
         "establishment"
       ],
@@ -64121,7 +63230,7 @@
       "phone": "(714) 963-6791",
       "place_id": "ChIJ51DnXjMn3YARn340SndDBhQ",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-10-04T18:20:01Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -66150,7 +65259,7 @@
       "phone": "(714) 557-5018",
       "place_id": "ChIJUdDL8Fon3YAR7yVhX790ZYI",
       "primary_type": "hawaiian_restaurant",
-      "specials_checked_at": "2026-10-05T21:36:03Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -66158,8 +65267,8 @@
         "fast_food_restaurant",
         "american_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "http://www.mauihawaiianbbqfv.com/"
@@ -66420,22 +65529,22 @@
       "phone": "(714) 434-0717",
       "place_id": "ChIJxVvEv1An3YARhcjbUSHIMEE",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-05T21:36:03Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
         "breakfast_restaurant",
-        "sandwich_shop",
-        "hamburger_restaurant",
         "coffee_shop",
         "cafe",
+        "sandwich_shop",
+        "hamburger_restaurant",
         "american_restaurant",
         "food_store",
         "store",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.mcdonalds.com/us/en-us/location/CA/FOUNTAIN-VALLEY/11321-TALBERT-AVE/35451.html?cid=RF:YXT:GMB::Clicks"
@@ -66602,16 +65711,16 @@
       "phone": "(714) 968-8901",
       "place_id": "ChIJU6ZArTQn3YARtuGJD2E371o",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-05T21:36:03Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
-        "hamburger_restaurant",
-        "coffee_shop",
-        "breakfast_restaurant",
-        "cafe",
         "sandwich_shop",
+        "breakfast_restaurant",
+        "coffee_shop",
+        "hamburger_restaurant",
+        "cafe",
         "american_restaurant",
         "food_store",
         "store",
@@ -68625,17 +67734,85 @@
       "phone": "(714) 962-5541",
       "place_id": "ChIJQ8eOIAAn3YAR_abJ0WLdotM",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-10-06T19:46:51Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "american_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://milesquaregolfcourse.com/"
+    },
+    {
+      "address": "10401 Warner Ave, Fountain Valley, CA 92708, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Fountain Valley",
+      "google_maps_url": "https://maps.google.com/?cid=8714987514512832792&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:00",
+            "open": "06:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "22:30",
+            "open": "06:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:00",
+            "open": "06:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "22:00",
+            "open": "06:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "22:00",
+            "open": "06:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "22:00",
+            "open": "06:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "22:00",
+            "open": "06:30"
+          }
+        ]
+      },
+      "latitude": 33.717266200000005,
+      "longitude": -117.946959,
+      "name": "Mile Square Venue",
+      "phone": "(714) 962-5541 ext. 232",
+      "place_id": "ChIJf99x3mwn3YARGHmAcPja8Xg",
+      "primary_type": "american_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "american_restaurant",
+        "event_venue",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "website_url": "http://www.milesquarevenue.com/"
     },
     {
       "address": "438 Main St Ste 110, Huntington Beach, CA 92648, USA",
@@ -68872,27 +68049,27 @@
       "phone": "(714) 964-2533",
       "place_id": "ChIJsfm0LDEn3YAR6dCdiyhVfiY",
       "primary_type": "bistro",
-      "specials_checked_at": "2026-10-06T19:46:51Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bistro",
+        "breakfast_restaurant",
         "brunch_restaurant",
         "wine_bar",
-        "catering_service",
-        "food_delivery",
-        "french_restaurant",
-        "breakfast_restaurant",
         "cafe",
-        "european_restaurant",
-        "bar",
+        "catering_service",
         "bakery",
+        "french_restaurant",
+        "bar",
+        "food_delivery",
+        "european_restaurant",
         "food_store",
         "store",
         "restaurant",
         "food",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "https://www.mimiscafe.com/locations/fountain-valley/"
@@ -69099,65 +68276,6 @@
         "establishment"
       ],
       "website_url": "https://miracle-coffeebreakfast.square.site/#MMOMJBS2SN5O2PULDOTVJBKE"
-    },
-    {
-      "address": "9102 Edinger Ave, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=7854791695197432752&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "19:30",
-            "open": "11:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "19:30",
-            "open": "11:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "19:30",
-            "open": "11:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "19:30",
-            "open": "11:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "19:30",
-            "open": "11:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "19:30",
-            "open": "11:00"
-          }
-        ]
-      },
-      "latitude": 33.7299059,
-      "longitude": -117.9702448,
-      "name": "Mirada Restaurant",
-      "phone": "(714) 842-7892",
-      "place_id": "ChIJ1R1uYKsn3YARsGvuKG7TAW0",
-      "primary_type": "vietnamese_restaurant",
-      "specials_pages": [],
-      "types": [
-        "vietnamese_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": ""
     },
     {
       "address": "1525 Mesa Verde Dr E #114, Costa Mesa, CA 92626, USA",
@@ -69776,12 +68894,8 @@
       "hours": {
         "friday": [
           {
-            "close": "14:30",
-            "open": "11:30"
-          },
-          {
-            "close": "22:30",
-            "open": "18:00"
+            "close": "21:30",
+            "open": "17:00"
           }
         ],
         "saturday": [
@@ -69790,8 +68904,8 @@
             "open": "11:30"
           },
           {
-            "close": "22:30",
-            "open": "18:00"
+            "close": "21:30",
+            "open": "17:00"
           }
         ],
         "sunday": [
@@ -69800,38 +68914,26 @@
             "open": "11:30"
           },
           {
-            "close": "22:30",
-            "open": "18:00"
+            "close": "21:30",
+            "open": "17:00"
           }
         ],
         "thursday": [
           {
-            "close": "14:30",
-            "open": "11:30"
-          },
-          {
-            "close": "22:30",
-            "open": "18:00"
+            "close": "21:30",
+            "open": "17:00"
           }
         ],
         "tuesday": [
           {
-            "close": "14:30",
-            "open": "11:30"
-          },
-          {
-            "close": "22:30",
-            "open": "18:00"
+            "close": "21:30",
+            "open": "17:00"
           }
         ],
         "wednesday": [
           {
-            "close": "14:30",
-            "open": "11:30"
-          },
-          {
-            "close": "22:30",
-            "open": "18:00"
+            "close": "21:30",
+            "open": "17:00"
           }
         ]
       },
@@ -69841,8 +68943,6 @@
       "phone": "(657) 210-4881",
       "place_id": "ChIJGa4LH6cn3YARWJbBadCVbNQ",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-06T23:37:57Z",
-      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -69850,7 +68950,7 @@
         "point_of_interest",
         "establishment"
       ],
-      "website_url": "http://www.momonokifv.com/"
+      "website_url": ""
     },
     {
       "address": "18906 Brookhurst St, Fountain Valley, CA 92708, USA",
@@ -69925,7 +69025,7 @@
       "phone": "(714) 714-0514",
       "place_id": "ChIJaVMNLiAn3YARxhtTvqLZHeg",
       "primary_type": "sushi_restaurant",
-      "specials_checked_at": "2026-10-06T23:37:57Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -70543,43 +69643,43 @@
       "hours": {
         "friday": [
           {
-            "close": "22:00",
+            "close": "03:00",
             "open": "11:00"
           }
         ],
         "monday": [
           {
-            "close": "22:00",
+            "close": "03:00",
             "open": "11:00"
           }
         ],
         "saturday": [
           {
-            "close": "22:00",
+            "close": "03:00",
             "open": "11:00"
           }
         ],
         "sunday": [
           {
-            "close": "22:00",
+            "close": "03:00",
             "open": "11:00"
           }
         ],
         "thursday": [
           {
-            "close": "22:00",
+            "close": "03:00",
             "open": "11:00"
           }
         ],
         "tuesday": [
           {
-            "close": "22:00",
+            "close": "03:00",
             "open": "11:00"
           }
         ],
         "wednesday": [
           {
-            "close": "22:00",
+            "close": "03:00",
             "open": "11:00"
           }
         ]
@@ -70590,7 +69690,7 @@
       "phone": "(714) 963-4488",
       "place_id": "ChIJqdFhuREn3YAR4y4t8WaGUZ0",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-06T23:37:57Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -70615,8 +69715,8 @@
       "types": [
         "pizza_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "http://moonlightpizzaandchicken.com/"
@@ -71000,7 +70100,7 @@
       "phone": "(657) 231-9674",
       "place_id": "ChIJD1J9DGEn3YARPOYD-jfW8bo",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-07T20:06:58Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -71026,11 +70126,11 @@
         "pizza_restaurant",
         "family_restaurant",
         "pizza_delivery",
-        "meal_delivery",
-        "food_delivery",
-        "meal_takeaway",
         "buffet_restaurant",
+        "meal_delivery",
+        "meal_takeaway",
         "chicken_wings_restaurant",
+        "food_delivery",
         "restaurant",
         "food",
         "point_of_interest",
@@ -71769,71 +70869,6 @@
       "website_url": "https://myung-in-dumplings.com/?utm_source=google&utm_medium=maps&utm_campaign=website"
     },
     {
-      "address": "16175 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=16754524249874096458&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "20:00",
-            "open": "09:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "20:00",
-            "open": "09:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "20:00",
-            "open": "09:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "20:00",
-            "open": "09:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "20:00",
-            "open": "09:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "20:00",
-            "open": "09:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "20:00",
-            "open": "09:00"
-          }
-        ]
-      },
-      "latitude": 33.72748,
-      "longitude": -117.95565400000001,
-      "name": "M\u00ec \u00c1 \u0110\u00f4ng",
-      "phone": "(714) 839-2286",
-      "place_id": "ChIJhxIK-wkn3YARSuFpNgkHhOg",
-      "primary_type": "vietnamese_restaurant",
-      "specials_pages": [],
-      "types": [
-        "vietnamese_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": ""
-    },
-    {
       "address": "3601 Jamboree Rd, Newport Beach, CA 92660, USA",
       "business_status": "OPERATIONAL",
       "city": "Newport Beach",
@@ -72138,6 +71173,32 @@
         "establishment"
       ],
       "website_url": "https://narwhalthaihb.com/"
+    },
+    {
+      "address": "18471 Mt Langley St, Fountain Valley, CA 92708, USA",
+      "business_status": "CLOSED_TEMPORARILY",
+      "city": "Fountain Valley",
+      "google_maps_url": "https://maps.google.com/?cid=9556869954931542075&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {},
+      "latitude": 33.6946744,
+      "longitude": -117.9423594,
+      "name": "Naugles Tacos & Burgers",
+      "phone": "(657) 327-9315",
+      "place_id": "ChIJncpOCEwn3YARO0hM7JbSoIQ",
+      "primary_type": "taco_restaurant",
+      "specials_pages": [],
+      "types": [
+        "taco_restaurant",
+        "fast_food_restaurant",
+        "hamburger_restaurant",
+        "american_restaurant",
+        "mexican_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://nauglestacos.com/?utm_source=google"
     },
     {
       "address": "10051 Bonser Ave, Garden Grove, CA 92840, USA",
@@ -72618,15 +71679,15 @@
       "phone": "(714) 516-8121",
       "place_id": "ChIJP6YXvMsn3YARE8Try7DsBY4",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-07T20:06:58Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
         "cafe",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.keiconcepts.info/brands/nep"
@@ -75155,7 +74216,7 @@
       "phone": "(714) 916-0807",
       "place_id": "ChIJCQydmM0n3YAR_0Hz4B6KR6U",
       "primary_type": "bar",
-      "specials_checked_at": "2026-10-10T18:47:59Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -75994,23 +75055,23 @@
       "latitude": 33.7043624,
       "longitude": -117.93300289999999,
       "name": "Olea Mediterranean Grill",
-      "phone": "(714) 760-4193",
+      "phone": "(714) 800-4895",
       "place_id": "ChIJ5-3ia0An3YAR6zuxC6DrDIY",
       "primary_type": "mediterranean_restaurant",
-      "specials_checked_at": "2026-10-10T18:47:59Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mediterranean_restaurant",
-        "halal_restaurant",
         "falafel_restaurant",
-        "middle_eastern_restaurant",
         "gyro_restaurant",
         "greek_restaurant",
+        "halal_restaurant",
+        "middle_eastern_restaurant",
         "european_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://oleamediterraneangrill.com/"
@@ -76403,8 +75464,8 @@
         "bakery",
         "food_store",
         "store",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": ""
@@ -76750,15 +75811,9 @@
       "phone": "(714) 842-6141",
       "place_id": "ChIJ46nghgIn3YARJ2Z7KGXC088",
       "primary_type": "hamburger_restaurant",
-      "specials_checked_at": "2026-10-10T18:47:59Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
-        {
-          "confidence": "high",
-          "discovered_via": "known_path",
-          "label": "Promotions",
-          "url": "http://originaltommys.com/promotions"
-        },
         {
           "confidence": "medium",
           "discovered_via": "page_text",
@@ -77071,7 +76126,7 @@
       "phone": "(714) 963-7888",
       "place_id": "ChIJQ_l_2xMn3YAROIcjwXvwI-w",
       "primary_type": "sports_bar",
-      "specials_checked_at": "2026-10-11T19:08:27Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -77083,12 +76138,12 @@
       ],
       "types": [
         "sports_bar",
-        "comedy_club",
         "karaoke",
-        "bar",
+        "comedy_club",
+        "night_club",
         "live_music_venue",
         "event_venue",
-        "night_club",
+        "bar",
         "point_of_interest",
         "establishment"
       ],
@@ -77419,7 +76474,7 @@
       "phone": "(714) 916-5977",
       "place_id": "ChIJZR9_Bzon3YAR3zLywnEY1po",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-10-11T19:08:27Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -77613,7 +76668,7 @@
       "phone": "(714) 418-0299",
       "place_id": "ChIJ6cGjIYPY3IAR4qRGr1Ymr4Y",
       "primary_type": "chinese_restaurant",
-      "specials_checked_at": "2026-10-11T19:08:27Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -77831,22 +76886,22 @@
       "phone": "(714) 444-2498",
       "place_id": "ChIJRQNtE1An3YAR9z5rD7BMCog",
       "primary_type": "chinese_restaurant",
-      "specials_checked_at": "2026-10-11T19:08:27Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chinese_restaurant",
         "chinese_noodle_restaurant",
-        "catering_service",
         "fast_food_restaurant",
+        "catering_service",
+        "asian_restaurant",
+        "meal_takeaway",
         "meal_delivery",
         "food_delivery",
-        "meal_takeaway",
-        "asian_restaurant",
         "service",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.pandaexpress.com/locations/ca/fountain-valley/1086?utm_source=google_gbp&utm_medium=organic&utm_campaign=websitelink"
@@ -78727,7 +77782,7 @@
       "phone": "(714) 962-8887",
       "place_id": "ChIJIdNHUion3YARCtbAeIpVuvw",
       "primary_type": "brunch_restaurant",
-      "specials_checked_at": "2026-10-12T22:12:58Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -79469,32 +78524,13 @@
       "phone": "(714) 965-3643",
       "place_id": "ChIJ-bLm2QQn3YARxG8XHv2bv6M",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-12T22:12:58Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "discovered_via": "page_text",
-          "label": "Website specials",
-          "url": "https://paulscoffeeshopfountainvalley.com/"
-        },
-        {
-          "confidence": "medium",
-          "discovered_via": "site_link",
-          "label": "Everyday Specials",
-          "url": "https://paulscoffeeshopfountainvalley.com/everyday-specials"
-        },
-        {
-          "confidence": "medium",
-          "discovered_via": "site_link",
-          "label": "Specials",
-          "url": "https://paulscoffeeshopfountainvalley.com/specials"
-        }
-      ],
+      "specials_pages": [],
       "types": [
         "coffee_shop",
-        "breakfast_restaurant",
         "sandwich_shop",
+        "breakfast_restaurant",
         "cafe",
         "food_store",
         "store",
@@ -80045,12 +79081,8 @@
       "hours": {
         "friday": [
           {
-            "close": "15:00",
-            "open": "11:00"
-          },
-          {
             "close": "21:30",
-            "open": "16:00"
+            "open": "11:00"
           }
         ],
         "monday": [
@@ -80061,22 +79093,14 @@
         ],
         "saturday": [
           {
-            "close": "15:00",
-            "open": "11:00"
-          },
-          {
             "close": "21:30",
-            "open": "16:00"
+            "open": "11:00"
           }
         ],
         "sunday": [
           {
-            "close": "15:00",
-            "open": "11:00"
-          },
-          {
             "close": "21:00",
-            "open": "16:00"
+            "open": "11:00"
           }
         ],
         "thursday": [
@@ -80104,7 +79128,7 @@
       "phone": "(714) 916-0082",
       "place_id": "ChIJe6GdAq4n3YARkhh3CyYtY8M",
       "primary_type": "chinese_restaurant",
-      "specials_checked_at": "2026-10-12T22:12:58Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -80596,81 +79620,6 @@
       "website_url": "https://www.exploretock.com/petes-sunset-grille-huntington-beach"
     },
     {
-      "address": "18691 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=18147183725284159867&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "20:00",
-            "open": "10:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ]
-      },
-      "latitude": 33.691232899999996,
-      "longitude": -117.95513890000001,
-      "name": "Philly's Best Cheesesteaks",
-      "phone": "(714) 968-2448",
-      "place_id": "ChIJg1IDijMn3YARe_FPQ3O_1_s",
-      "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-10-13T20:19:35Z",
-      "specials_discovery_version": 4,
-      "specials_pages": [
-        {
-          "confidence": "high",
-          "discovered_via": "sitemap",
-          "label": "Specials",
-          "url": "https://eatphillysbest.com/news/phillys-best-launches-a-sharper-summer-promotion"
-        }
-      ],
-      "types": [
-        "sandwich_shop",
-        "meal_takeaway",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://eatphillysbest.com/locations/fountain-valley-ca"
-    },
-    {
       "address": "21010 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -80984,73 +79933,6 @@
         "establishment"
       ],
       "website_url": "https://www.phoakaushi.com/"
-    },
-    {
-      "address": "16171 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=5301286398068774894&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "21:00",
-            "open": "09:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "21:00",
-            "open": "09:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "21:00",
-            "open": "09:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "21:00",
-            "open": "09:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "21:00",
-            "open": "09:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "21:00",
-            "open": "09:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "21:00",
-            "open": "09:00"
-          }
-        ]
-      },
-      "latitude": 33.7275452,
-      "longitude": -117.9558035,
-      "name": "Pho Dakao",
-      "phone": "(714) 531-2009",
-      "place_id": "ChIJL6zcz-on3YAR7td_QeTzkUk",
-      "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-13T20:19:35Z",
-      "specials_discovery_version": 4,
-      "specials_pages": [],
-      "types": [
-        "vietnamese_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "http://pho-dakao.com/"
     },
     {
       "address": "10130 Garden Grove Blvd #131, Garden Grove, CA 92844, USA",
@@ -81717,7 +80599,7 @@
       "phone": "(714) 760-4734",
       "place_id": "ChIJ1162rxcn3YARltGueVJEShc",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-13T20:19:35Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -81726,8 +80608,8 @@
         "fusion_restaurant",
         "asian_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://pho-nic.curated.menu/1/695cf142d8333ef8f327477f"
@@ -82074,12 +80956,12 @@
       "specials_pages": [],
       "types": [
         "coffee_shop",
-        "tea_store",
         "cafe",
+        "tea_store",
         "food_store",
         "store",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": ""
@@ -82406,72 +81288,6 @@
         "establishment"
       ],
       "website_url": "https://rebrand.ly/pho-79"
-    },
-    {
-      "address": "18122 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=9748218935676492611&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "20:00",
-            "open": "07:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "20:00",
-            "open": "07:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "20:00",
-            "open": "07:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "20:00",
-            "open": "07:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "20:00",
-            "open": "07:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "20:00",
-            "open": "07:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "20:00",
-            "open": "07:00"
-          }
-        ]
-      },
-      "latitude": 33.7000585,
-      "longitude": -117.95396059999999,
-      "name": "Ph\u1edf B\u00e1nh M\u00ec & Ch\u00e8 Cali",
-      "phone": "(714) 593-6300",
-      "place_id": "ChIJESMogTkn3YARQ9u7RXmhSIc",
-      "primary_type": "vietnamese_restaurant",
-      "specials_pages": [],
-      "types": [
-        "vietnamese_restaurant",
-        "sandwich_shop",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": ""
     },
     {
       "address": "14072 Magnolia St #107, Westminster, CA 92683, USA",
@@ -83659,6 +82475,8 @@
       "phone": "(657) 244-8467",
       "place_id": "ChIJBU43IgAn3YARfTBA4qhxpd8",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
@@ -83668,7 +82486,7 @@
         "point_of_interest",
         "establishment"
       ],
-      "website_url": ""
+      "website_url": "https://www.picklebanhmi.co/locations"
     },
     {
       "address": "369 E 17th St #2, Costa Mesa, CA 92627, USA",
@@ -84199,53 +83017,53 @@
       "phone": "(714) 963-0227",
       "place_id": "ChIJ16fK2lgn3YAR3UoJXg13WgU",
       "primary_type": "italian_restaurant",
-      "specials_checked_at": "2026-10-14T18:50:13Z",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
           "discovered_via": "page_text",
           "label": "Website specials",
-          "url": "http://pizzadz.com/?utm_source=googlemybusiness"
+          "url": "https://www.pizzadz.com/?utm_source=googlemybusiness"
         },
         {
           "confidence": "medium",
           "discovered_via": "site_link",
           "label": "Events & Specials",
-          "url": "http://pizzadz.com/events"
+          "url": "https://www.pizzadz.com/events"
         },
         {
           "confidence": "medium",
           "discovered_via": "site_link",
           "label": "House Special Sandwich",
-          "url": "http://pizzadz.com/tags/house-special-sandwich"
+          "url": "https://www.pizzadz.com/tags/house-special-sandwich"
         },
         {
           "confidence": "medium",
           "discovered_via": "site_link",
           "label": "Z Special Pizza",
-          "url": "http://pizzadz.com/tags/z-special-pizza"
+          "url": "https://www.pizzadz.com/tags/z-special-pizza"
         }
       ],
       "types": [
         "italian_restaurant",
-        "family_restaurant",
-        "pizza_restaurant",
-        "dessert_shop",
-        "sandwich_shop",
-        "soup_restaurant",
         "chicken_wings_restaurant",
+        "soup_restaurant",
         "salad_shop",
-        "european_restaurant",
+        "pizza_restaurant",
+        "sandwich_shop",
+        "dessert_shop",
         "confectionery",
         "food_store",
         "store",
+        "family_restaurant",
+        "european_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
-      "website_url": "http://pizzadz.com/?utm_source=googlemybusiness"
+      "website_url": "https://www.pizzadz.com/?utm_source=googlemybusiness"
     },
     {
       "address": "19913 Beach Blvd, Huntington Beach, CA 92648, USA",
@@ -84839,28 +83657,6 @@
         "establishment"
       ],
       "website_url": "https://plumscafe.com/"
-    },
-    {
-      "address": "18249 Euclid St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=16625906694932165163&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {},
-      "latitude": 33.6982401,
-      "longitude": -117.9357469,
-      "name": "PLUS RESTAURANT EQUIPMENT",
-      "phone": "",
-      "place_id": "ChIJTUepZgAn3YARK3I4HA0Wu-Y",
-      "primary_type": "fast_food_restaurant",
-      "specials_pages": [],
-      "types": [
-        "fast_food_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": ""
     },
     {
       "address": "16873 CA-1, Huntington Beach, CA 92649, USA",
@@ -85743,6 +84539,8 @@
       "phone": "(714) 248-8243",
       "place_id": "ChIJSQ3jKQAh3YARcTHva9K6Mbg",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
@@ -85750,8 +84548,8 @@
         "shipping_service",
         "restaurant",
         "food",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "https://www.popeyes.com/store-locator/store/restaurant_883528"
@@ -86333,6 +85131,8 @@
       "phone": "(818) 863-6945",
       "place_id": "ChIJTfjAWhIt3YART4qtpwzuwQQ",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
@@ -87160,88 +85960,19 @@
       "phone": "(949) 994-0404",
       "place_id": "ChIJUz64Zw0n3YAR06ZwHUxGm2w",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
         "cafe",
         "food_store",
         "store",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.qargocoffee.com/"
-    },
-    {
-      "address": "16121 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=3228028861133538424&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "22:00",
-            "open": "11:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "22:00",
-            "open": "11:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "22:00",
-            "open": "10:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "22:00",
-            "open": "10:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "22:00",
-            "open": "11:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "22:00",
-            "open": "11:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "22:00",
-            "open": "11:00"
-          }
-        ]
-      },
-      "latitude": 33.728463,
-      "longitude": -117.9563589,
-      "name": "QUA Contemporary Chinese Cuisine",
-      "phone": "(657) 300-8391",
-      "place_id": "ChIJHzZG13on3YAReMSSeCVDzCw",
-      "primary_type": "chinese_restaurant",
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "label": "Website specials",
-          "url": "https://www.keiconcepts.info/brands/qua"
-        }
-      ],
-      "types": [
-        "chinese_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://www.keiconcepts.info/brands/qua"
     },
     {
       "address": "15402 Beach Blvd, Westminster, CA 92683, USA",
@@ -87506,15 +86237,17 @@
       "phone": "(657) 204-9819",
       "place_id": "ChIJrWFedgAn3YAR0udVBGfFOcE",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
+        "taco_restaurant",
         "southwestern_us_restaurant",
         "family_restaurant",
-        "taco_restaurant",
+        "tex_mex_restaurant",
         "burrito_restaurant",
         "cocktail_bar",
-        "tex_mex_restaurant",
         "american_restaurant",
         "bar",
         "restaurant",
@@ -88361,112 +87094,86 @@
       "website_url": ""
     },
     {
-      "address": "18050 Brookhurst St, Fountain Valley, CA 92708, USA",
+      "address": "10585 Slater Ave Ste 8A & 8B, Fountain Valley, CA 92708, USA",
       "business_status": "OPERATIONAL",
       "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=3878976243177098024&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "google_maps_url": "https://maps.google.com/?cid=18340969191481970904&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
       "hours": {
         "friday": [
           {
-            "close": "15:00",
+            "close": "14:00",
             "open": "11:30"
           },
           {
             "close": "22:00",
-            "open": "17:30"
-          }
-        ],
-        "monday": [
-          {
-            "close": "15:00",
-            "open": "11:30"
-          },
-          {
-            "close": "21:00",
-            "open": "17:30"
+            "open": "17:00"
           }
         ],
         "saturday": [
           {
-            "close": "22:00",
+            "close": "14:00",
             "open": "11:30"
+          },
+          {
+            "close": "22:00",
+            "open": "17:00"
           }
         ],
         "sunday": [
           {
-            "close": "21:00",
+            "close": "14:00",
             "open": "11:30"
+          },
+          {
+            "close": "21:00",
+            "open": "17:00"
           }
         ],
         "thursday": [
           {
-            "close": "15:00",
+            "close": "14:00",
             "open": "11:30"
           },
           {
-            "close": "21:00",
-            "open": "17:30"
+            "close": "22:00",
+            "open": "17:00"
           }
         ],
         "tuesday": [
           {
-            "close": "15:00",
+            "close": "14:00",
             "open": "11:30"
           },
           {
-            "close": "21:00",
-            "open": "17:30"
+            "close": "22:00",
+            "open": "17:00"
           }
         ],
         "wednesday": [
           {
-            "close": "15:00",
+            "close": "14:00",
             "open": "11:30"
           },
           {
-            "close": "21:00",
-            "open": "17:30"
+            "close": "22:00",
+            "open": "17:00"
           }
         ]
       },
-      "latitude": 33.7009663,
-      "longitude": -117.95386909999999,
-      "name": "Ramen Akimoto",
-      "phone": "(714) 660-4551",
-      "place_id": "ChIJdUloAazT3IARKAvAalfk1DU",
-      "primary_type": "ramen_restaurant",
-      "specials_pages": [],
-      "types": [
-        "ramen_restaurant",
-        "asian_restaurant",
-        "noodle_shop",
-        "japanese_restaurant",
-        "korean_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://www.ramenakimoto.com/"
-    },
-    {
-      "address": "10585 Slater Ave Ste 8A & 8B, Fountain Valley, CA 92708, USA",
-      "business_status": "CLOSED_TEMPORARILY",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=18340969191481970904&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {},
       "latitude": 33.7096203,
       "longitude": -117.94416749999999,
       "name": "Ramen Izakaya Taiko",
       "phone": "(657) 204-9190",
       "place_id": "ChIJlya_S3on3YAR2JCqFk42iP4",
       "primary_type": "japanese_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "japanese_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.taikofv.com/"
@@ -89481,8 +88188,8 @@
         "bakery",
         "food_store",
         "store",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": ""
@@ -90262,76 +88969,6 @@
         "establishment"
       ],
       "website_url": "http://www.rodrigos.com/"
-    },
-    {
-      "address": "16173 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=15508252349114303463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "22:00",
-            "open": "11:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "22:00",
-            "open": "11:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "22:00",
-            "open": "11:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "22:00",
-            "open": "11:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "22:00",
-            "open": "11:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "22:00",
-            "open": "11:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "22:00",
-            "open": "11:00"
-          }
-        ]
-      },
-      "latitude": 33.727579299999995,
-      "longitude": -117.9557751,
-      "name": "ROL Hand Roll Bar - Fountain Valley",
-      "phone": "(714) 576-7119",
-      "place_id": "ChIJG2kUC0Qn3YAR50MTZFhhONc",
-      "primary_type": "restaurant",
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "label": "Website specials",
-          "url": "https://www.keiconcepts.info/brands/rol"
-        }
-      ],
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://www.keiconcepts.info/brands/rol"
     },
     {
       "address": "2400 Newport Blvd A3, Costa Mesa, CA 92627, USA",
@@ -91670,6 +90307,8 @@
       "phone": "(714) 965-4989",
       "place_id": "ChIJi37lOBsn3YAR4Pik4ArJ6I4",
       "primary_type": "cafe",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
@@ -91810,6 +90449,8 @@
       "phone": "",
       "place_id": "ChIJg73RFV4n3YAR2AGWUQoArL4",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -91964,24 +90605,69 @@
       "business_status": "OPERATIONAL",
       "city": "Fountain Valley",
       "google_maps_url": "https://maps.google.com/?cid=5889310353404269601&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {},
+      "hours": {
+        "friday": [
+          {
+            "close": "01:00",
+            "open": "06:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "00:00",
+            "open": "06:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "01:00",
+            "open": "06:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "00:00",
+            "open": "06:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "00:00",
+            "open": "06:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "00:00",
+            "open": "06:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "00:00",
+            "open": "06:00"
+          }
+        ]
+      },
       "latitude": 33.7130222,
       "longitude": -117.95493169999999,
       "name": "Sabrosada",
       "phone": "(714) 593-0069",
       "place_id": "ChIJraU2qxYn3YARIRSxQpAIu1E",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
         "fast_food_restaurant",
         "latin_american_restaurant",
+        "breakfast_restaurant",
         "taco_restaurant",
         "burrito_restaurant",
-        "breakfast_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "http://www.sabrosada.com/"
@@ -92639,43 +91325,43 @@
         "friday": [
           {
             "close": "20:00",
-            "open": "09:00"
+            "open": "08:00"
           }
         ],
         "monday": [
           {
             "close": "20:00",
-            "open": "09:00"
+            "open": "08:00"
           }
         ],
         "saturday": [
           {
             "close": "20:00",
-            "open": "09:00"
+            "open": "08:00"
           }
         ],
         "sunday": [
           {
             "close": "20:00",
-            "open": "09:00"
+            "open": "08:00"
           }
         ],
         "thursday": [
           {
             "close": "20:00",
-            "open": "09:00"
+            "open": "08:00"
           }
         ],
         "tuesday": [
           {
             "close": "20:00",
-            "open": "09:00"
+            "open": "08:00"
           }
         ],
         "wednesday": [
           {
             "close": "20:00",
-            "open": "09:00"
+            "open": "08:00"
           }
         ]
       },
@@ -92685,16 +91371,18 @@
       "phone": "(714) 965-0496",
       "place_id": "ChIJq6qqRxEn3YARAbxgLgnXeQQ",
       "primary_type": "bakery",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
-        "wholesaler",
         "food_store",
-        "store",
-        "food",
         "manufacturer",
-        "service",
+        "store",
+        "wholesaler",
+        "food",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "https://www.samsclub.com/club/6615-fountain-valley-ca/bakery"
@@ -92754,6 +91442,8 @@
       "phone": "(714) 965-0410",
       "place_id": "ChIJ2WpHK20n3YARXXm276uLxsg",
       "primary_type": "cafe",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
@@ -93428,6 +92118,8 @@
       "phone": "(714) 377-0004",
       "place_id": "ChIJJeo4Fion3YARIu14N99sksI",
       "primary_type": "japanese_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "japanese_restaurant",
@@ -94992,11 +93684,13 @@
       "phone": "(213) 855-1920",
       "place_id": "ChIJM2PaBuMn3YAR3vIZ1H5ICTA",
       "primary_type": "japanese_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "hot_pot_restaurant",
-        "japanese_restaurant",
         "buffet_restaurant",
+        "japanese_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -95597,18 +94291,27 @@
       "phone": "(714) 962-8971",
       "place_id": "ChIJ93pCsTAn3YARYnvc3DKUUkk",
       "primary_type": "ramen_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "\ud83c\udf83 Halloween Special at Irvine & Fountain Valley Halloween, 10/31(Sun), 2026",
+          "url": "https://shinsengumigroup.com/news_events/ssg-halloween/"
+        }
+      ],
       "types": [
         "ramen_restaurant",
-        "catering_service",
-        "asian_restaurant",
-        "food_delivery",
         "yakitori_restaurant",
+        "asian_restaurant",
+        "catering_service",
+        "food_delivery",
         "japanese_restaurant",
         "restaurant",
         "food",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "http://www.shinsengumigroup.com/"
@@ -95668,19 +94371,28 @@
       "phone": "(714) 962-8952",
       "place_id": "ChIJL7bspSgn3YARomxT6QBoVTc",
       "primary_type": "japanese_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "\ud83c\udf83 Halloween Special at Irvine & Fountain Valley Halloween, 10/31(Sun), 2026",
+          "url": "https://shinsengumigroup.com/news_events/ssg-halloween/"
+        }
+      ],
       "types": [
         "japanese_restaurant",
         "japanese_izakaya_restaurant",
-        "catering_service",
-        "asian_restaurant",
-        "food_delivery",
         "ramen_restaurant",
         "yakitori_restaurant",
+        "asian_restaurant",
+        "catering_service",
+        "food_delivery",
         "restaurant",
         "food",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "http://www.shinsengumigroup.com/"
@@ -96452,6 +95164,8 @@
       "phone": "(657) 259-0088",
       "place_id": "ChIJOViFqo4n3YARwbbqPpA8buc",
       "primary_type": "vietnamese_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
@@ -96583,14 +95297,16 @@
       "phone": "(657) 218-4266",
       "place_id": "ChIJHUp8qIMn3YARSy9zj_bg-t0",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
         "cafe",
         "food_store",
         "store",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://sipcoffeeandgoodsmenu.my.canva.site/"
@@ -96650,15 +95366,24 @@
       "phone": "(714) 962-4882",
       "place_id": "ChIJL0DGNxsn3YARSQKlkCCoTTY",
       "primary_type": "restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://sizzler.com/29-easter-food-deals-and-restaurant-specials-for-a-hoppy-holiday/"
+        }
+      ],
       "types": [
         "restaurant",
-        "steak_house",
-        "salad_shop",
-        "cafeteria",
         "family_restaurant",
-        "seafood_restaurant",
+        "cafeteria",
+        "salad_shop",
+        "steak_house",
         "buffet_restaurant",
+        "seafood_restaurant",
         "food",
         "point_of_interest",
         "establishment"
@@ -96761,79 +95486,6 @@
         "establishment"
       ],
       "website_url": "https://skybaysushi.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
-    },
-    {
-      "address": "18120 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=11696688834200671383&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "21:30",
-            "open": "11:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "21:30",
-            "open": "11:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ]
-      },
-      "latitude": 33.7003503,
-      "longitude": -117.95367019999999,
-      "name": "Slice House by Tony Gemignani",
-      "phone": "(714) 716-2595",
-      "place_id": "ChIJG-MykO8n3YARlxTP4oX8UqI",
-      "primary_type": "pizza_restaurant",
-      "specials_pages": [],
-      "types": [
-        "pizza_restaurant",
-        "italian_restaurant",
-        "pizza_delivery",
-        "meal_delivery",
-        "food_delivery",
-        "meal_takeaway",
-        "chicken_wings_restaurant",
-        "salad_shop",
-        "european_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://slicehouse.com/"
     },
     {
       "address": "142 Main St, Seal Beach, CA 90740, USA",
@@ -97050,8 +95702,8 @@
         "snack_bar",
         "meal_takeaway",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": ""
@@ -97306,12 +95958,14 @@
       "phone": "(714) 843-3233",
       "place_id": "ChIJgYACqgIn3YARnJWyRx6tQYM",
       "primary_type": "mediterranean_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mediterranean_restaurant",
         "croatian_restaurant",
-        "italian_restaurant",
         "pizza_restaurant",
+        "italian_restaurant",
         "european_restaurant",
         "restaurant",
         "food",
@@ -97557,8 +96211,8 @@
       "specials_pages": [],
       "types": [
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": ""
@@ -97715,9 +96369,12 @@
       "phone": "(714) 531-1479",
       "place_id": "ChIJnaqYyg4n3YARkchOhuXrZiY",
       "primary_type": "vietnamese_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "http://songlongrestaurant.com/"
         }
@@ -97725,13 +96382,13 @@
       "types": [
         "vietnamese_restaurant",
         "banquet_hall",
-        "event_venue",
         "bakery",
+        "event_venue",
         "food_store",
         "store",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "http://songlongrestaurant.com/"
@@ -98113,6 +96770,39 @@
         "establishment"
       ],
       "website_url": "https://www.eatsoupshop.com/"
+    },
+    {
+      "address": "11179 Talbert Ave, Fountain Valley, CA 92708, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Fountain Valley",
+      "google_maps_url": "https://maps.google.com/?cid=1459973736272338272&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {},
+      "latitude": 33.702444799999995,
+      "longitude": -117.93366669999999,
+      "name": "Souplantation",
+      "phone": "",
+      "place_id": "ChIJr2GMf1An3YARYJ3pu2DeQhQ",
+      "primary_type": "buffet_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "buffet_restaurant",
+        "soup_restaurant",
+        "salad_shop",
+        "catering_service",
+        "meal_takeaway",
+        "food_delivery",
+        "vegan_restaurant",
+        "vegetarian_restaurant",
+        "family_restaurant",
+        "service",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "website_url": "https://www.sweettomatoes.com/"
     },
     {
       "address": "19035 Goldenwest St Ste 103, Huntington Beach, CA 92648, USA",
@@ -99888,18 +98578,20 @@
       "phone": "(714) 378-5931",
       "place_id": "ChIJK2DHNTEn3YARgKPH22_yJ0Y",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
-        "internet_cafe",
         "breakfast_restaurant",
+        "internet_cafe",
         "cafe",
         "food_store",
         "store",
         "restaurant",
         "food",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "https://www.starbucks.com/store-locator/store/15443/"
@@ -101507,6 +100199,8 @@
       "phone": "(714) 375-2868",
       "place_id": "ChIJ5QUqlwIn3YARikE1he366vM",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
@@ -101517,8 +100211,8 @@
         "store",
         "restaurant",
         "food",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "https://www.starbucks.com/store-locator/store/11792/"
@@ -101791,18 +100485,20 @@
       "phone": "(714) 979-5374",
       "place_id": "ChIJmZEW8Von3YARcjDhlKOmfE8",
       "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
+        "internet_cafe",
         "breakfast_restaurant",
         "cafe",
-        "internet_cafe",
         "food_store",
         "store",
         "service",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.starbucks.com/store-locator/store/8912/"
@@ -102249,22 +100945,24 @@
       "phone": "(714) 594-3630",
       "place_id": "ChIJ_0hdXNEn3YARb50XzXAI2zs",
       "primary_type": "brewpub",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "brewpub",
-        "bar_and_grill",
-        "hamburger_restaurant",
         "brewery",
         "sports_bar",
+        "hamburger_restaurant",
         "pub",
+        "bar_and_grill",
         "meal_takeaway",
         "american_restaurant",
         "bar",
+        "manufacturer",
         "restaurant",
         "food",
-        "manufacturer",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "http://steadybrewing.com/"
@@ -102500,86 +101198,6 @@
         "establishment"
       ],
       "website_url": ""
-    },
-    {
-      "address": "18727 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=10016161901434126545&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "20:30",
-            "open": "11:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "20:30",
-            "open": "11:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "20:30",
-            "open": "11:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "20:30",
-            "open": "11:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "20:30",
-            "open": "11:00"
-          }
-        ]
-      },
-      "latitude": 33.6907053,
-      "longitude": -117.95459009999999,
-      "name": "Stonefire Grill",
-      "phone": "(714) 968-8300",
-      "place_id": "ChIJzaUQiDMn3YAR0UDIcy6OAIs",
-      "primary_type": "american_restaurant",
-      "specials_pages": [
-        {
-          "confidence": "high",
-          "label": "Promotions",
-          "url": "https://www.stonefiregrill.com/promotions/"
-        },
-        {
-          "confidence": "medium",
-          "label": "Website specials",
-          "url": "http://www.stonefiregrill.com/"
-        }
-      ],
-      "types": [
-        "american_restaurant",
-        "catering_service",
-        "food_delivery",
-        "barbecue_restaurant",
-        "restaurant",
-        "food",
-        "service",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "http://www.stonefiregrill.com/"
     },
     {
       "address": "17210 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
@@ -103564,19 +102182,15 @@
       "phone": "(714) 775-6608",
       "place_id": "ChIJBwDYu5zY3IARIvuDEoO91gk",
       "primary_type": "sandwich_shop",
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "label": "Website specials",
-          "url": "https://restaurants.subway.com/united-states/ca/fountain-valley/16373-harbor-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=1276&utm_campaign=evergreen-2020&y_source=1_MTQ5MTQyNTAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-        }
-      ],
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
       "types": [
         "sandwich_shop",
-        "catering_service",
         "fast_food_restaurant",
-        "food_delivery",
+        "catering_service",
         "meal_takeaway",
+        "food_delivery",
         "restaurant",
         "food",
         "point_of_interest",
@@ -103658,6 +102272,85 @@
       "website_url": "https://restaurants.subway.com/united-states/ca/huntington-beach/16502-beach-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=32574&utm_campaign=evergreen-2020&y_source=1_MTQ5MTU5NjQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     },
     {
+      "address": "17860 Newhope St, Fountain Valley, CA 92708, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Fountain Valley",
+      "google_maps_url": "https://maps.google.com/?cid=8652781652689163328&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "00:00",
+            "open": "09:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "23:00",
+            "open": "09:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "00:00",
+            "open": "09:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "23:00",
+            "open": "09:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "00:00",
+            "open": "09:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "23:00",
+            "open": "09:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "23:00",
+            "open": "09:00"
+          }
+        ]
+      },
+      "latitude": 33.7043734,
+      "longitude": -117.9332984,
+      "name": "Subway",
+      "phone": "(203) 877-4282",
+      "place_id": "ChIJ9-3-Xlon3YARQBSOlxHbFHg",
+      "primary_type": "sandwich_shop",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://subway.com/"
+        }
+      ],
+      "types": [
+        "sandwich_shop",
+        "fast_food_restaurant",
+        "catering_service",
+        "meal_takeaway",
+        "food_delivery",
+        "service",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "website_url": "https://subway.com/"
+    },
+    {
       "address": "17900 Magnolia St Unit B, Fountain Valley, CA 92708, USA",
       "business_status": "OPERATIONAL",
       "city": "Fountain Valley",
@@ -103712,23 +102405,19 @@
       "phone": "(714) 378-9925",
       "place_id": "ChIJbaRWCiAn3YARxxrgMlX7Lqk",
       "primary_type": "sandwich_shop",
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "label": "Website specials",
-          "url": "https://restaurants.subway.com/united-states/ca/fountain-valley/17900-magnolia-street?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=23749&utm_campaign=evergreen-2020&y_source=1_MTQ5MDA2NzUtNzE1LWxvY2F0aW9uLndlYnNpdGU="
-        }
-      ],
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
       "types": [
         "sandwich_shop",
-        "catering_service",
         "fast_food_restaurant",
-        "food_delivery",
+        "catering_service",
         "meal_takeaway",
-        "service",
+        "food_delivery",
         "restaurant",
         "food",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "https://restaurants.subway.com/united-states/ca/fountain-valley/17900-magnolia-street?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=23749&utm_campaign=evergreen-2020&y_source=1_MTQ5MDA2NzUtNzE1LWxvY2F0aW9uLndlYnNpdGU="
@@ -104882,23 +103571,19 @@
       "phone": "(657) 244-8180",
       "place_id": "ChIJU28xJTEn3YARyg3DIdBc5kE",
       "primary_type": "sandwich_shop",
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "label": "Website specials",
-          "url": "https://restaurants.subway.com/united-states/ca/fountain-valley/9985-ellis-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=3265&utm_campaign=evergreen-2020&y_source=1_MTQ4OTQ0NTktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-        }
-      ],
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
       "types": [
         "sandwich_shop",
         "fast_food_restaurant",
         "catering_service",
-        "food_delivery",
         "meal_takeaway",
+        "food_delivery",
         "restaurant",
         "food",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "https://restaurants.subway.com/united-states/ca/fountain-valley/9985-ellis-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=3265&utm_campaign=evergreen-2020&y_source=1_MTQ4OTQ0NTktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
@@ -106365,6 +105050,8 @@
       "phone": "(714) 964-0988",
       "place_id": "ChIJs5SDPjon3YARyYy8loewO7E",
       "primary_type": "sushi_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sushi_restaurant",
@@ -106451,96 +105138,6 @@
         "establishment"
       ],
       "website_url": "http://www.sushionfire.com/"
-    },
-    {
-      "address": "18856 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=927553311846162133&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "15:00",
-            "open": "11:00"
-          },
-          {
-            "close": "21:30",
-            "open": "17:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "16:00",
-            "open": "12:00"
-          },
-          {
-            "close": "21:30",
-            "open": "17:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "16:00",
-            "open": "12:00"
-          },
-          {
-            "close": "21:00",
-            "open": "17:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "15:00",
-            "open": "11:00"
-          },
-          {
-            "close": "21:00",
-            "open": "17:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "15:00",
-            "open": "11:00"
-          },
-          {
-            "close": "21:00",
-            "open": "17:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "15:00",
-            "open": "11:00"
-          },
-          {
-            "close": "21:00",
-            "open": "17:00"
-          }
-        ]
-      },
-      "latitude": 33.68880060000001,
-      "longitude": -117.95362879999999,
-      "name": "Sushi Plus",
-      "phone": "(714) 963-1436",
-      "place_id": "ChIJsdopgzQn3YAR1d7TntJU3ww",
-      "primary_type": "sushi_restaurant",
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "label": "Website specials",
-          "url": "https://yukitheoddy.wixsite.com/sushi-plus"
-        }
-      ],
-      "types": [
-        "sushi_restaurant",
-        "japanese_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://yukitheoddy.wixsite.com/sushi-plus"
     },
     {
       "address": "327 Newport Center Dr, Newport Beach, CA 92660, USA",
@@ -107789,9 +106386,12 @@
       "phone": "(714) 540-8736",
       "place_id": "ChIJCYPHlVAn3YARfGpmYI1XMtE",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://locations.tacobell.com/ca/fountain-valley/11291-talbert.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=039616&utm_content=website&y_source=1_NjE0Njk2My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
         }
@@ -107799,12 +106399,12 @@
       "types": [
         "fast_food_restaurant",
         "taco_restaurant",
+        "meal_takeaway",
         "mexican_restaurant",
         "burrito_restaurant",
-        "meal_takeaway",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://locations.tacobell.com/ca/fountain-valley/11291-talbert.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=039616&utm_content=website&y_source=1_NjE0Njk2My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
@@ -108891,9 +107491,12 @@
       "phone": "(714) 968-0029",
       "place_id": "ChIJafDMvREn3YARkIMiWpoWzaQ",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://locations.tacobell.com/ca/fountain-valley/9925-warner-ave.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=039617&utm_content=website&y_source=1_NjE0MTU1MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
         }
@@ -108902,13 +107505,13 @@
         "fast_food_restaurant",
         "breakfast_restaurant",
         "tex_mex_restaurant",
-        "vegetarian_restaurant",
-        "mexican_restaurant",
-        "american_restaurant",
         "meal_takeaway",
+        "mexican_restaurant",
+        "vegetarian_restaurant",
+        "american_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://locations.tacobell.com/ca/fountain-valley/9925-warner-ave.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=039617&utm_content=website&y_source=1_NjE0MTU1MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
@@ -109975,15 +108578,17 @@
       "phone": "(714) 657-2720",
       "place_id": "ChIJpSG8id8m3YARPKKTX7pIzHE",
       "primary_type": "mexican_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
         "taco_restaurant",
         "burrito_restaurant",
-        "service",
         "restaurant",
         "food",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "https://www.tacoselranchoca.com/"
@@ -111745,9 +110350,12 @@
       "phone": "(714) 841-6868",
       "place_id": "ChIJa6I7DP0m3YARjoBQJy9iepI",
       "primary_type": "indian_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://themenustar1.com/webspace/menus.php?code=tasteofindiacali.com"
         }
@@ -112849,14 +111457,16 @@
       "phone": "(714) 593-1511",
       "place_id": "ChIJZZ4-exYn3YARA71U2ZV_ztk",
       "primary_type": "thai_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "thai_restaurant",
         "sushi_restaurant",
         "japanese_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "http://eatthaionfire.com/"
@@ -113152,12 +111762,14 @@
       "phone": "(714) 580-3010",
       "place_id": "ChIJmW6u9bsn3YAR0xf5TrEm6Dk",
       "primary_type": "thai_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "thai_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://thethaistation.com/"
@@ -116427,28 +115039,6 @@
       "website_url": "https://themeltdown.com/?utm_source=G&utm_medium=organic&utm_campaign=DAC"
     },
     {
-      "address": "16205 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=8606398823278585527&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {},
-      "latitude": 33.72744,
-      "longitude": -117.955123,
-      "name": "The Meltdown",
-      "phone": "(714) 775-7284",
-      "place_id": "ChIJhbi3WOcn3YARtybckCEScHc",
-      "primary_type": "sandwich_shop",
-      "specials_pages": [],
-      "types": [
-        "sandwich_shop",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://themeltdown.com/?utm_source=G&utm_medium=organic&utm_campaign=DAC"
-    },
-    {
       "address": "3170 Harbor Blvd, Costa Mesa, CA 92626, USA",
       "business_status": "OPERATIONAL",
       "city": "Costa Mesa",
@@ -118645,66 +117235,6 @@
       "website_url": "http://www.three13bar.com/"
     },
     {
-      "address": "Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=8668126661995772557&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "18:00",
-            "open": "06:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "18:00",
-            "open": "06:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "18:00",
-            "open": "06:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "18:00",
-            "open": "06:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "18:00",
-            "open": "06:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "18:00",
-            "open": "06:00"
-          }
-        ]
-      },
-      "latitude": 33.7300718,
-      "longitude": -117.97053799999998,
-      "name": "Thuy Nhi",
-      "phone": "(714) 843-9926",
-      "place_id": "ChIJE51koawn3YARjbpZ_EVfS3g",
-      "primary_type": "vietnamese_restaurant",
-      "specials_pages": [],
-      "types": [
-        "vietnamese_restaurant",
-        "sandwich_shop",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": ""
-    },
-    {
       "address": "9784 Westminster Blvd., Garden Grove, CA 92844, USA",
       "business_status": "OPERATIONAL",
       "city": "Garden Grove",
@@ -119090,6 +117620,8 @@
       "phone": "(714) 593-9000",
       "place_id": "ChIJ9xYU9tUm3YARs9bAvX6BC4Q",
       "primary_type": "taco_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "taco_restaurant",
@@ -119504,12 +118036,14 @@
       "phone": "(714) 593-6212",
       "place_id": "ChIJCZVq9AUn3YARMN4FTO2xPS8",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
         "filipino_restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.tonysbbqfv.com/"
@@ -121768,9 +120302,12 @@
       "phone": "(714) 962-9500",
       "place_id": "ChIJlQSsdSAn3YARU1nSCrWu3tw",
       "primary_type": "seafood_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://unionjackfac.com/"
         }
@@ -121783,71 +120320,6 @@
         "establishment"
       ],
       "website_url": "https://unionjackfac.com/"
-    },
-    {
-      "address": "18050 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=391620281304021806&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "21:45",
-            "open": "11:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "21:15",
-            "open": "11:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "21:45",
-            "open": "11:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "21:15",
-            "open": "11:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "21:15",
-            "open": "11:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "21:15",
-            "open": "11:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "21:15",
-            "open": "11:00"
-          }
-        ]
-      },
-      "latitude": 33.7009148,
-      "longitude": -117.9539148,
-      "name": "Urban Plates",
-      "phone": "(657) 485-0404",
-      "place_id": "ChIJf6rylRAn3YARLvv2KZJQbwU",
-      "primary_type": "american_restaurant",
-      "specials_pages": [],
-      "types": [
-        "american_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://urbanplates.com/chef-spotlight/"
     },
     {
       "address": "12549 Harbor Blvd, Garden Grove, CA 92840, USA",
@@ -123722,76 +122194,6 @@
       "website_url": "https://www.eatvox.com/"
     },
     {
-      "address": "16161 Brookhurst St, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=10099737681746504748&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "22:00",
-            "open": "10:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "22:00",
-            "open": "10:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "21:00",
-            "open": "10:00"
-          }
-        ]
-      },
-      "latitude": 33.7275353,
-      "longitude": -117.95612149999998,
-      "name": "VOX Kitchen - Fountain Valley",
-      "phone": "(657) 231-6493",
-      "place_id": "ChIJ29lN2wkn3YARLKwgLel5KYw",
-      "primary_type": "restaurant",
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "label": "Website specials",
-          "url": "https://www.keiconcepts.info/brands/vox"
-        }
-      ],
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://www.keiconcepts.info/brands/vox"
-    },
-    {
       "address": "Plavan Plaza Shopping Center, 9430 Warner Ave, Fountain Valley, CA 92708, USA",
       "business_status": "OPERATIONAL",
       "city": "Fountain Valley",
@@ -124044,18 +122446,20 @@
       "phone": "(714) 531-9222",
       "place_id": "ChIJeXH1HGYn3YARdAq4t-tPWBE",
       "primary_type": "asian_fusion_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "asian_fusion_restaurant",
         "fast_food_restaurant",
-        "asian_restaurant",
-        "vegetarian_restaurant",
         "fusion_restaurant",
+        "asian_restaurant",
         "meal_takeaway",
+        "vegetarian_restaurant",
         "korean_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://locations.wabagrill.com/ll/us/ca/fountain-valley/11045-warner-ave/"
@@ -125435,8 +123839,8 @@
         "food_store",
         "store",
         "food",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": ""
@@ -125839,9 +124243,12 @@
       "phone": "(714) 964-2022",
       "place_id": "ChIJwTpVUTkn3YARflD7B0nCyIs",
       "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
+          "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://locations.wendys.com/united-states/ca/fountain-valley/17940-brookhurst-ave?utm_source=Yext&utm_medium=Google_My_Business&utm_campaign=Local_Search"
         }
@@ -125851,8 +124258,8 @@
         "hamburger_restaurant",
         "american_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://locations.wendys.com/united-states/ca/fountain-valley/17940-brookhurst-ave?utm_source=Yext&utm_medium=Google_My_Business&utm_campaign=Local_Search"
@@ -126355,71 +124762,6 @@
         "restaurant",
         "point_of_interest",
         "food",
-        "establishment"
-      ],
-      "website_url": "http://www.whatalottapizza.com/"
-    },
-    {
-      "address": "9132 Edinger Ave, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=8042557778748303264&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "21:00",
-            "open": "11:00"
-          }
-        ]
-      },
-      "latitude": 33.7299619,
-      "longitude": -117.96983399999999,
-      "name": "Whata Lotta Pizza",
-      "phone": "(714) 848-7077",
-      "place_id": "ChIJK6SHkn4n3YARoOfYP7DnnG8",
-      "primary_type": "pizza_restaurant",
-      "specials_pages": [],
-      "types": [
-        "pizza_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
         "establishment"
       ],
       "website_url": "http://www.whatalottapizza.com/"
@@ -127673,15 +126015,18 @@
       "phone": "(714) 847-1955",
       "place_id": "ChIJv87fnwIn3YAR3PmujGTWxcE",
       "primary_type": "donut_shop",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "donut_shop",
+        "sandwich_shop",
+        "bagel_shop",
         "coffee_shop",
-        "dessert_shop",
         "breakfast_restaurant",
         "cafe",
-        "sandwich_shop",
-        "meal_takeaway",
+        "mexican_restaurant",
+        "dessert_shop",
         "confectionery",
         "bakery",
         "food_store",
@@ -127691,7 +126036,7 @@
         "point_of_interest",
         "establishment"
       ],
-      "website_url": "https://winchells.com/"
+      "website_url": "https://locations.winchells.com/california/fountain-valley/17030-magnolia-st/"
     },
     {
       "address": "2937 Bristol St Ste A101B, Costa Mesa, CA 92626, USA",
@@ -127950,12 +126295,14 @@
       "phone": "(714) 377-2683",
       "place_id": "ChIJMZl1VhEn3YAR9DJmaei0p38",
       "primary_type": "chicken_wings_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chicken_wings_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.wingstop.com/location/wingstop-1339-fountain-valley-ca-92708/menu?y_source=1_NTUyMDc3NzktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
@@ -128765,71 +127112,6 @@
         "establishment"
       ],
       "website_url": ""
-    },
-    {
-      "address": "CIR Lounge, 18120 Brookhurst St Ste 2, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=11462525187868040065&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "14:00",
-            "open": "08:30"
-          }
-        ],
-        "monday": [
-          {
-            "close": "14:00",
-            "open": "08:30"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "14:00",
-            "open": "08:30"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "14:00",
-            "open": "08:30"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "14:00",
-            "open": "08:30"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "14:00",
-            "open": "08:30"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "14:00",
-            "open": "08:30"
-          }
-        ]
-      },
-      "latitude": 33.7001567,
-      "longitude": -117.95367320000001,
-      "name": "X\u00d4I XINH",
-      "phone": "(949) 800-8668",
-      "place_id": "ChIJJ0gpa10n3YARgZvXY-0RE58",
-      "primary_type": "vietnamese_restaurant",
-      "specials_pages": [],
-      "types": [
-        "vietnamese_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": "https://xoixinh.com/"
     },
     {
       "address": "Fair Dr, Costa Mesa, CA 92626, USA",
@@ -129848,12 +128130,14 @@
       "phone": "(714) 775-1699",
       "place_id": "ChIJ8QQz6JEn3YARhFU99pqfAn8",
       "primary_type": "vietnamese_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.yummyphofv.com/"
@@ -130205,6 +128489,8 @@
       "phone": "(714) 964-7566",
       "place_id": "ChIJVz2MHPsn3YARizWLOBAta78",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
@@ -130993,17 +129279,19 @@
       "phone": "(714) 418-0658",
       "place_id": "ChIJqRagpg4n3YARgvO_ptZm7Pk",
       "primary_type": "vegan_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vegan_restaurant",
+        "fine_dining_restaurant",
         "asian_fusion_restaurant",
         "fusion_restaurant",
         "asian_restaurant",
         "vegetarian_restaurant",
-        "fine_dining_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "http://www.aulac.com/"
@@ -131057,6 +129345,8 @@
       "phone": "(657) 204-9022",
       "place_id": "ChIJsVuQ34sn3YAR-FIL9Ezm5xQ",
       "primary_type": "vietnamese_restaurant",
+      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
