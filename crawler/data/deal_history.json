@@ -1,7 +1,1590 @@
 {
-  "generated_at": "2026-10-16T02:30:54Z",
+  "generated_at": "2026-10-16T18:32:29Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$2 Off Select Starters Includes Lobster Flatbread, Seafood-Stuffed Mushrooms, Crab Queso, Lobster Dip, and Mozzarella Cheesesticks",
+      "canonical_id": "dbf20c3a7ca0178e",
+      "categories": [
+        "food"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 1,
+      "details": [
+        "Includes Lobster Flatbread, Seafood-Stuffed Mushrooms, Crab Queso, Lobster Dip, and Mozzarella Cheesesticks"
+      ],
+      "first_seen": "2026-10-13T20:28:47Z",
+      "id": "3d86d173b161abe3",
+      "is_stale": true,
+      "last_seen": "2026-10-14T18:57:37Z",
+      "location": {
+        "address": "12892 Harbor Blvd, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=6305177853541722572&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.775475,
+        "longitude": -117.917384,
+        "phone": "(714) 638-9500",
+        "place_id": "ChIJQ78PtwPY3IARzKkD_tl9gFc"
+      },
+      "quality_score": 65,
+      "restaurant": "Red Lobster",
+      "retired_at": "2026-10-16T18:32:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$2 Off Select Starters",
+        "Monday \u2013 Friday",
+        "3 \u2013 6 PM & 9 PM \u2013 Close*"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.redlobster.com/happy-hour/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$2 Off Select Starters",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": "3 \u2013 6 PM & 9 PM \u2013 Close",
+      "valid_through": null,
+      "validity": "Mon-Fri, 3 \u2013 6 PM & 9 PM \u2013 Close",
+      "value_label": "$2 off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$6 Fire & Tide Margarita Happy Hour Exclusive Made with Cuervo Tradicional Blanco Tequila and Fireball Cinnamon Whisky with fresh lime",
+      "canonical_id": "565061e49566b259",
+      "categories": [
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 1,
+      "details": [
+        "Made with Cuervo Tradicional Blanco Tequila and Fireball Cinnamon Whisky with fresh lime"
+      ],
+      "first_seen": "2026-10-13T20:28:47Z",
+      "id": "0fb9556ce57752e7",
+      "is_stale": true,
+      "last_seen": "2026-10-14T18:57:37Z",
+      "location": {
+        "address": "12892 Harbor Blvd, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=6305177853541722572&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.775475,
+        "longitude": -117.917384,
+        "phone": "(714) 638-9500",
+        "place_id": "ChIJQ78PtwPY3IARzKkD_tl9gFc"
+      },
+      "quality_score": 75,
+      "restaurant": "Red Lobster",
+      "retired_at": "2026-10-16T18:32:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$6 Fire & Tide Margarita",
+        "Monday \u2013 Friday",
+        "3 \u2013 6 PM & 9 PM \u2013 Close*"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.redlobster.com/happy-hour/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$6 Fire & Tide Margarita Happy Hour Exclusive",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "3 \u2013 6 PM & 9 PM \u2013 Close",
+      "valid_through": null,
+      "validity": "Mon-Fri, 3 \u2013 6 PM & 9 PM \u2013 Close",
+      "value_label": "$6"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Everyday Happy Hour: $2 off beer/wine, $4 off pitchers/bottled wine $2 off all Bottled Beer and Draft Pints $2 off all Wine glasses $4 off Draft Pitchers, Bottled Wine, and Wine \u00bd Liters",
+      "canonical_id": "6ce480eb60cd83d1",
+      "categories": [
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "$2 off all Bottled Beer and Draft Pints",
+        "$2 off all Wine glasses",
+        "$4 off Draft Pitchers, Bottled Wine, and Wine \u00bd Liters"
+      ],
+      "first_seen": "2026-10-14T18:57:37Z",
+      "id": "96f62449c148c8b0",
+      "is_stale": true,
+      "last_seen": "2026-10-15T18:46:12Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 75,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-10-16T18:32:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "EVERYDAY HAPPY HOUR 2pm-6pm",
+        "$2 off all Bottled Beer and Draft Pints",
+        "$2 off all Wine glasses",
+        "$4 off Draft Pitchers | Bottled Wine | Wine \u00bd Liters"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Everyday Happy Hour: $2 off beer/wine, $4 off pitchers/bottled wine",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "14:00-18:00",
+      "valid_through": null,
+      "validity": "Every day, 14:00-18:00",
+      "value_label": "$2 off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour: Margaritas from $7, Draft Beer $5, Tacos from $3.50, and $18 Plates Dine-In Only Chile Verde Plate and Carnitas Plate for $18 with rice, beans, and handmade tortillas House Margaritas starting at $7 Draft Beer for $5 Chicken, Carnitas & Al Pastor Tacos for $4 Asada Tacos for $5.50 Tacos de Rajas with Cheese for $3.50 Cheese Quesadillas for $10",
+      "canonical_id": "d682b0e00d86486f",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 1,
+      "details": [
+        "Dine-In Only",
+        "Chile Verde Plate and Carnitas Plate for $18 with rice, beans, and handmade tortillas",
+        "House Margaritas starting at $7",
+        "Draft Beer for $5",
+        "Chicken, Carnitas & Al Pastor Tacos for $4",
+        "Asada Tacos for $5.50",
+        "Tacos de Rajas with Cheese for $3.50",
+        "Cheese Quesadillas for $10"
+      ],
+      "first_seen": "2026-10-14T18:57:37Z",
+      "id": "a40baefa648890c7",
+      "is_stale": true,
+      "last_seen": "2026-10-14T18:57:37Z",
+      "location": {
+        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7298377,
+        "longitude": -117.99953239999999,
+        "phone": "(657) 301-2017",
+        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
+      },
+      "quality_score": 75,
+      "restaurant": "Morena's Mexican Cuisine",
+      "retired_at": "2026-10-16T18:32:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Available Monday, Wednesday, Thursday & Friday from 3:00 PM \u2013 6:00 PM (Dine-In Only)."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://hb.morenasmex.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour: Margaritas from $7, Draft Beer $5, Tacos from $3.50, and $18 Plates",
+      "tags": [
+        "dollar_amount",
+        "happy_hour",
+        "deal_language"
+      ],
+      "time_window": "15:00-18:00",
+      "valid_through": null,
+      "validity": "Mon, Wed, Thu, Fri, 15:00-18:00",
+      "value_label": "$7+"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Bottomless Mimosa Brunch Buffet for $39.99, Non-Alcoholic $34.99, Kids deals $39.99 Per Guest \u2013 Includes Bottomless Mimosas $34.99 Per Guest \u2013 Non-Alcoholic Option Kids Ages 6\u201312: $19.99 Kids Under 6 Eat Free Includes soft drinks, iced teas, coffee, juices, and aguas frescas Bottomless Mimosa service limited to 90 minutes per guest",
+      "canonical_id": "04be04439c7fad25",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 3,
+      "details": [
+        "$39.99 Per Guest \u2013 Includes Bottomless Mimosas",
+        "$34.99 Per Guest \u2013 Non-Alcoholic Option",
+        "Kids Ages 6\u201312: $19.99",
+        "Kids Under 6 Eat Free",
+        "Includes soft drinks, iced teas, coffee, juices, and aguas frescas",
+        "Bottomless Mimosa service limited to 90 minutes per guest"
+      ],
+      "first_seen": "2026-10-12T22:19:47Z",
+      "id": "3b2ea6dc56340d71",
+      "is_stale": true,
+      "last_seen": "2026-10-12T22:19:47Z",
+      "location": {
+        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7298377,
+        "longitude": -117.99953239999999,
+        "phone": "(657) 301-2017",
+        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
+      },
+      "quality_score": 100,
+      "restaurant": "Morena's Mexican Cuisine",
+      "retired_at": "2026-10-16T18:32:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "BOTTOMLESS MIMOSA BRUNCH BUFFET",
+        "Every Sunday | 10:00 AM \u2013 3:00 PM",
+        "$39.99 Per Guest \u2013 Includes Bottomless Mimosas",
+        "$34.99 Per Guest \u2013 Non-Alcoholic Option",
+        "Kids Ages 6\u201312: $19.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://hb.morenasmex.com/daily-specials",
+      "source_urls": [
+        "https://hb.morenasmex.com/daily-specials",
+        "https://hb.morenasmex.com/huntington-beach-bella-terra-morenas-mexican-cuisine-huntington-beach-happy-hours-specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Bottomless Mimosa Brunch Buffet for $39.99, Non-Alcoholic $34.99, Kids deals",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "free",
+        "deal_language"
+      ],
+      "time_window": "10:00 AM \u2013 3:00 PM",
+      "valid_through": null,
+      "validity": "Sun, 10:00 AM \u2013 3:00 PM",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Bottomless Mimosa Brunch Buffet for $39.99 per guest $39.99 Per Guest includes Bottomless Mimosas $34.99 Per Guest Non-Alcoholic Option Kids Ages 6\u201312: $19.99 Kids Under 6 Eat Free Includes soft drinks, iced teas, coffee, juices, and aguas frescas Bottomless Mimosa service limited to 90 minutes per guest",
+      "canonical_id": "77397159a5482f10",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "$39.99 Per Guest includes Bottomless Mimosas",
+        "$34.99 Per Guest Non-Alcoholic Option",
+        "Kids Ages 6\u201312: $19.99",
+        "Kids Under 6 Eat Free",
+        "Includes soft drinks, iced teas, coffee, juices, and aguas frescas",
+        "Bottomless Mimosa service limited to 90 minutes per guest"
+      ],
+      "first_seen": "2026-10-12T22:19:47Z",
+      "id": "37470a432e4ee806",
+      "is_stale": true,
+      "last_seen": "2026-10-16T02:30:54Z",
+      "location": {
+        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7298377,
+        "longitude": -117.99953239999999,
+        "phone": "(657) 301-2017",
+        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
+      },
+      "quality_score": 100,
+      "restaurant": "Morena's Mexican Cuisine",
+      "retired_at": "2026-10-16T18:32:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Every Sunday | 10:00 AM \u2013 3:00 PM",
+        "$39.99 Per Guest \u2013 Includes Bottomless Mimosas",
+        "BOTTOMLESS MIMOSA BRUNCH BUFFET"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://hb.morenasmex.com/specials",
+      "source_urls": [
+        "https://hb.morenasmex.com/specials",
+        "https://hb.morenasmex.com/huntington-beach-bella-terra-morenas-mexican-cuisine-huntington-beach-happy-hours-specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Bottomless Mimosa Brunch Buffet for $39.99 per guest",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "free"
+      ],
+      "time_window": "10:00 AM \u2013 3:00 PM",
+      "valid_through": null,
+      "validity": "Sun, 10:00 AM \u2013 3:00 PM",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour: 3\u20136 PM Happy hour specials available.",
+      "canonical_id": "2f753267073123a4",
+      "categories": [
+        "drink",
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Happy hour specials available."
+      ],
+      "first_seen": "2026-09-19T17:30:52Z",
+      "id": "08beb15d7ecb9b06",
+      "is_stale": true,
+      "last_seen": "2026-10-16T02:30:54Z",
+      "location": {
+        "address": "1525 Mesa Verde Dr E Ste 117, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1827828436789330286&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "19:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.669763599999996,
+        "longitude": -117.9208274,
+        "phone": "(714) 486-1777",
+        "place_id": "ChIJYRZbxcLf3IARboEvbUfAXRk"
+      },
+      "quality_score": 60,
+      "restaurant": "Deli Nerds",
+      "retired_at": "2026-10-16T18:32:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Monday \u2013 Wednesday: 8:00 AM \u2013 6:00 PM \u00b7 Happy Hour 3\u20136 PM",
+        "Thursday: 8:00 AM \u2013 9:00 PM \u00b7 Happy Hour 3\u20136 PM",
+        "Friday: 8:00 AM \u2013 9:00 PM \u00b7 Happy Hour 3\u20136 PM",
+        "Saturday: 9:00 AM \u2013 6:00 PM \u00b7 Happy Hour 3\u20136 PM"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.delinerds.com/lunch-costa-mesa",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour: 3\u20136 PM",
+      "tags": [
+        "happy_hour",
+        "deal_language"
+      ],
+      "time_window": "Mon \u2013 Wed: 8:00 AM \u2013 6:00 PM \u00b7 Happy Hour 3\u20136 PM",
+      "valid_through": null,
+      "validity": "Mon \u2013 Wed: 8:00 AM \u2013 6:00 PM \u00b7 Happy Hour 3\u20136 PM"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$5 Burrito Hour Special price of $5 for burritos during Burrito Hour.",
+      "canonical_id": "3377358b10165357",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Special price of $5 for burritos during Burrito Hour."
+      ],
+      "first_seen": "2026-10-16T02:30:54Z",
+      "id": "96a26af337e0ef8f",
+      "is_stale": true,
+      "last_seen": "2026-10-16T02:30:54Z",
+      "location": {
+        "address": "1525 Mesa Verde Dr E Ste 117, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1827828436789330286&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "19:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.669763599999996,
+        "longitude": -117.9208274,
+        "phone": "(714) 486-1777",
+        "place_id": "ChIJYRZbxcLf3IARboEvbUfAXRk"
+      },
+      "quality_score": 49,
+      "restaurant": "Deli Nerds",
+      "retired_at": "2026-10-16T18:32:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$5 Burrito Hour"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.delinerds.com/lunch-costa-mesa",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$5 Burrito Hour",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$5"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Social Mimosas for $20.99 Includes a full bottle of champagne and a carafe of orange juice, perfect for sharing for only $20.99",
+      "canonical_id": "67bcd0fc12defdee",
+      "categories": [
+        "drink"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Includes a full bottle of champagne and a carafe of orange juice, perfect for sharing for only $20.99"
+      ],
+      "first_seen": "2026-10-01T19:54:41Z",
+      "id": "679d7bc846003c29",
+      "is_stale": true,
+      "last_seen": "2026-10-16T02:30:54Z",
+      "location": {
+        "address": "100 Main St, Newport Beach, CA 92661, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:30",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6013728,
+        "longitude": -117.89955119999999,
+        "phone": "(949) 675-7760",
+        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
+      },
+      "quality_score": 50,
+      "restaurant": "Cabo Cantina",
+      "retired_at": "2026-10-16T18:32:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Social Mimosas! A full bottle of champagne and a carafe of orange juice, perfect for sharing! Only $20.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cabocantina.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Social Mimosas for $20.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$20.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "2-for-1 Happy Hour on all regular priced drinks All regular priced drinks are 2-for-1 or make your drink a double for the regular price Mega Margaritas and other discounted items are not included Happy Hour and other promotional pricing may not be honored during some sporting/special events and holiday weekends",
+      "canonical_id": "43798fe41bc46209",
+      "categories": [
+        "drink"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 0,
+      "details": [
+        "All regular priced drinks are 2-for-1 or make your drink a double for the regular price",
+        "Mega Margaritas and other discounted items are not included",
+        "Happy Hour and other promotional pricing may not be honored during some sporting/special events and holiday weekends"
+      ],
+      "first_seen": "2026-10-01T19:54:41Z",
+      "id": "b3fca16b5620a3c6",
+      "is_stale": true,
+      "last_seen": "2026-10-16T02:30:54Z",
+      "location": {
+        "address": "100 Main St, Newport Beach, CA 92661, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:30",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6013728,
+        "longitude": -117.89955119999999,
+        "phone": "(949) 675-7760",
+        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
+      },
+      "quality_score": 68,
+      "restaurant": "Cabo Cantina",
+      "retired_at": "2026-10-16T18:32:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Home of the 2-for-1 Happy Hour! Where all regular priced drinks are 2-for-1! Or make your drink a double for the regular price!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cabocantina.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "2-for-1 Happy Hour on all regular priced drinks",
+      "tags": [
+        "happy_hour",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Weekend",
+      "value_label": "2-for-1"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "All You Can Eat Taco Tuesdays for $9.99 Choice of grilled chicken, carne asada, ground beef or veggie tacos served with rice and beans for $9.99 per person One beverage min purchase required",
+      "canonical_id": "b5d818505fcbd7f4",
+      "categories": [
+        "food"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Choice of grilled chicken, carne asada, ground beef or veggie tacos served with rice and beans for $9.99 per person",
+        "One beverage min purchase required",
+        "Choice of grilled chicken, carne asada, ground beef or veggie tacos served with rice and beans."
+      ],
+      "first_seen": "2026-10-02T16:30:35Z",
+      "id": "205c39b9de70cd37",
+      "is_stale": true,
+      "last_seen": "2026-10-16T02:30:54Z",
+      "location": {
+        "address": "100 Main St, Newport Beach, CA 92661, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:30",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6013728,
+        "longitude": -117.89955119999999,
+        "phone": "(949) 675-7760",
+        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
+      },
+      "quality_score": 43,
+      "restaurant": "Cabo Cantina",
+      "retired_at": "2026-10-16T18:32:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "All You Can Eat Taco Tuesdays! $9.99 per person, your choice of grilled chicken, carne asada, ground beef or veggie tacos server with rice and beans. One beverage min purchase required.",
+        "All You Can Eat Taco Tuesdays! $9.99 per person, your choice of grilled chicken, carne asada, ground beef or veggie tacos server with rice and beans."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cabocantina.com/daily-specials",
+      "source_urls": [
+        "http://www.cabocantina.com/daily-specials",
+        "http://www.cabocantina.com/specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "All You Can Eat Taco Tuesdays for $9.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "$9.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Monday Happy Hour with drinks and bites Happy Hour for drinks and bites",
+      "canonical_id": "54d291ace1eaa06b",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 0,
+      "details": [
+        "Happy Hour for drinks and bites"
+      ],
+      "first_seen": "2026-10-08T20:15:35Z",
+      "id": "91e7e0b28ba32e95",
+      "is_stale": true,
+      "last_seen": "2026-10-16T02:30:54Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 60,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-10-16T18:32:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Join us from 4pm-7pm for drinks and bites that make Monday feel like a Friday."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Monday Happy Hour with drinks and bites",
+      "tags": [
+        "happy_hour",
+        "weekday_special"
+      ],
+      "time_window": "04:00 PM - 07:00 PM",
+      "valid_through": null,
+      "validity": "Mon, 04:00 PM - 07:00 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Tuesday Happy Hour with discounted drinks and starter appetizers Enjoy discounted cocktails, beer, and wine, plus delicious starter appetizers at special prices",
+      "canonical_id": "45ddb8e3207dc698",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 0,
+      "details": [
+        "Enjoy discounted cocktails, beer, and wine, plus delicious starter appetizers at special prices"
+      ],
+      "first_seen": "2026-10-13T20:28:47Z",
+      "id": "a63658f7bb86ab56",
+      "is_stale": true,
+      "last_seen": "2026-10-16T02:30:54Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 60,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-10-16T18:32:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Enjoy discounted cocktails, beer, and wine from 4pm-7pm, plus delicious starter appetizers at special prices."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Tuesday Happy Hour with discounted drinks and starter appetizers",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "04:00 PM - 07:00 PM",
+      "valid_through": null,
+      "validity": "Tue, 04:00 PM - 07:00 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Wednesday Happy Hour with drink specials and tasty bites Enjoy amazing drink specials and tasty bites",
+      "canonical_id": "f3d140b94f0974ec",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 0,
+      "details": [
+        "Enjoy amazing drink specials and tasty bites"
+      ],
+      "first_seen": "2026-10-08T20:15:35Z",
+      "id": "94a6f7bef7d3bf2d",
+      "is_stale": true,
+      "last_seen": "2026-10-16T02:30:54Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 60,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-10-16T18:32:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Enjoy amazing drink specials and tasty bites from 4pm to 7pm."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Wednesday Happy Hour with drink specials and tasty bites",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "04:00 PM - 07:00 PM",
+      "valid_through": null,
+      "validity": "Wed, 04:00 PM - 07:00 PM"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [
+        "thursday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Thursday Happy Hour with special prices on cocktails, beer, and bites Special prices on refreshing cocktails, ice-cold beer, and delicious bites",
+      "canonical_id": "2ff2bb80b6fc9faf",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 6,
+      "details": [
+        "Special prices on refreshing cocktails, ice-cold beer, and delicious bites"
+      ],
+      "first_seen": "2026-10-09T19:48:57Z",
+      "id": "817eb254f0f5e261",
+      "is_stale": true,
+      "last_seen": "2026-10-09T19:48:57Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 59,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-10-16T18:32:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Thursday's Happy Hour! Enjoy refreshing cocktails, ice-cold beer, and delicious bites at special prices from 4pm to 7pm."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Thursday Happy Hour with special prices on cocktails, beer, and bites",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "04:00 PM - 07:00 PM",
+      "valid_through": null,
+      "validity": "Thu, 04:00 PM - 07:00 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Monday Happy Hour with drinks and bites Join for drinks and bites that make Monday feel like a Friday",
+      "canonical_id": "b322c2658df4a5f6",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 1,
+      "details": [
+        "Join for drinks and bites that make Monday feel like a Friday"
+      ],
+      "first_seen": "2026-10-14T18:57:37Z",
+      "id": "bfb18d6dac57eb52",
+      "is_stale": true,
+      "last_seen": "2026-10-14T18:57:37Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 60,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-10-16T18:32:29Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Happy Hour is back at AUM! Why start your week any other way? Join us from 4pm-7pm for drinks and bites"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/weekday-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Monday Happy Hour with drinks and bites",
+      "tags": [
+        "happy_hour",
+        "weekday_special"
+      ],
+      "time_window": "15:00 - 19:00",
+      "valid_through": null,
+      "validity": "Mon, Fri, 15:00 - 19:00"
+    },
     {
       "ai_confidence": 0.9,
       "applies_days": [
