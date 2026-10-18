@@ -1256,6 +1256,10 @@
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
+    "florblancapupuseria.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "status": "ok"
+    },
     "folkspizzeria.com": {
       "checked_at": "2026-09-24T18:49:22Z",
       "status": "ok"
@@ -2051,6 +2055,14 @@
     },
     "locations.pizzahut.com": {
       "checked_at": "2026-10-17T17:38:01Z",
+      "status": "ok"
+    },
+    "locations.princestreetpizza.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "status": "ok"
+    },
+    "locations.raisingcanes.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
       "status": "ok"
     },
     "locations.wendys.com": {
@@ -3012,18 +3024,83 @@
       "checked_at": "2026-10-17T17:38:01Z",
       "status": "ok"
     },
+    "populaireoc.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "status": "ok"
+    },
     "porkyspizza.com": {
       "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
+    "portolacoffee.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "status": "ok"
+    },
+    "portugalimports.net": {
+      "checked_at": "2026-10-18T17:37:50Z",
       "status": "ok"
     },
     "pos.chowbus.com": {
       "checked_at": "2026-09-21T19:48:49Z",
       "status": "ok"
     },
+    "possebar.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "status": "ok"
+    },
+    "poulsbakery.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "status": "ok"
+    },
+    "presoteaus.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "status": "ok"
+    },
+    "proportionmeals.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "error": "The read operation timed out",
+      "status": "missing"
+    },
+    "puravidamiami.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "status": "ok"
+    },
+    "purbowls.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "status": "ok"
+    },
+    "qargocoffee.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "error": "HTTP Error 502: Bad Gateway",
+      "status": "missing"
+    },
+    "qheggrolls.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "status": "ok"
+    },
     "qrco.de": {
       "checked_at": "2026-10-16T02:30:56Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
+    },
+    "queenspancakes.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "error": "HTTP Error 404: Not Found",
+      "status": "missing"
+    },
+    "quevidatacos.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "quevidataqueria.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "raisingclaw.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "status": "ok"
     },
     "ramenbannai.com": {
       "checked_at": "2026-09-29T19:43:40Z",
@@ -3033,6 +3110,11 @@
     "ranchoviejomexicanseafood.com": {
       "checked_at": "2026-09-16T23:17:10Z",
       "status": "ok"
+    },
+    "rd-kitchen.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "status": "missing"
     },
     "rebrand.ly": {
       "checked_at": "2026-10-16T02:30:56Z",
@@ -3176,6 +3258,11 @@
     "tacosurf.com": {
       "checked_at": "2026-09-25T18:59:56Z",
       "status": "ok"
+    },
+    "taikofv.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
     },
     "thaionmain.com": {
       "checked_at": "2026-09-29T19:43:40Z",
@@ -3341,7 +3428,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-10-17T17:38:01Z",
+  "generated_at": "2026-10-18T17:37:50Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -4488,6 +4575,12 @@
       "path": "logos/flechacantina-com.webp",
       "source_url": "https://flechacantina.com/wp-content/uploads/2024/03/cropped-Urta-Teer-1-192x192.png"
     },
+    "florblancapupuseria.com": {
+      "background": "#000000",
+      "checked_at": "2026-10-18T17:37:50Z",
+      "path": "logos/florblancapupuseria-com.png",
+      "source_url": "https://linkpod.s3.us-east-1.amazonaws.com/uploads/main/b92e3650fe84ab47882f0e6755f5fe67.png"
+    },
     "folkspizzeria.com": {
       "checked_at": "2026-09-24T18:49:22Z",
       "path": "logos/folkspizzeria-com.png",
@@ -5278,6 +5371,17 @@
       "checked_at": "2026-10-17T17:38:01Z",
       "path": "logos/locations-pizzahut-com.ico",
       "source_url": "https://locations.pizzahut.com/favicon.ico"
+    },
+    "locations.princestreetpizza.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "path": "logos/locations-princestreetpizza-com.webp",
+      "source_url": "https://dynl.mktgcdn.com/p/ZgyxhrXGCbuPciT1WyEYCRhfwEo96cbQ_V3n_0TbPJM/500x500"
+    },
+    "locations.raisingcanes.com": {
+      "background": "#d71c2e",
+      "checked_at": "2026-10-18T17:37:50Z",
+      "path": "logos/locations-raisingcanes-com.webp",
+      "source_url": "https://images.prismic.io/raisingcanes/93a74859-268e-46ce-aa54-653a804c82cd_raising-canes-web-logo_0825_square.png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&rect=0%2C0%2C1000%2C1000&w=256&h=171"
     },
     "locations.wendys.com": {
       "checked_at": "2026-09-16T23:17:10Z",
@@ -6191,15 +6295,71 @@
       "path": "logos/popeyes-com.ico",
       "source_url": "https://www.popeyes.com/favicon.ico"
     },
+    "populaireoc.com": {
+      "background": "#da532c",
+      "checked_at": "2026-10-18T17:37:50Z",
+      "path": "logos/populaireoc-com.png",
+      "source_url": "https://static.spotapps.co/website_images/ab_websites/226836_website_v1/logo.png"
+    },
     "porkyspizza.com": {
       "checked_at": "2026-09-16T23:17:10Z",
       "path": "logos/porkyspizza-com.png",
       "source_url": "https://porkyspizza.com/images/main/logo.png"
     },
+    "portolacoffee.com": {
+      "background": "#0099f3",
+      "checked_at": "2026-10-18T17:37:50Z",
+      "path": "logos/portolacoffee-com.png",
+      "source_url": "https://www.portolacoffee.com/uploads/b/6030e620-1fa8-11eb-8306-c36cca430956/icon_180x180_ios_MjAyNj.png?width=180"
+    },
+    "portugalimports.net": {
+      "background": "#75978d",
+      "checked_at": "2026-10-18T17:37:50Z",
+      "path": "logos/portugalimports-net.webp",
+      "source_url": "https://img1.wsimg.com/isteam/ip/9d5d1320-e24f-4d43-a2d8-45848fa2471f/New%20Store%20Logo.png/:/rs=h:186,cg:true,m/qt=q:95"
+    },
     "pos.chowbus.com": {
       "checked_at": "2026-09-21T19:48:49Z",
       "path": "logos/pos-chowbus-com.png",
       "source_url": "https://cdn.prod.website-files.com/6779a2f99727a85f07c60031/6820433f65a36dfb5f461788_ChowbusLogo.png"
+    },
+    "possebar.com": {
+      "background": "#1b7315",
+      "checked_at": "2026-10-18T17:37:50Z",
+      "path": "logos/possebar-com.webp",
+      "source_url": "https://img1.wsimg.com/isteam/ip/27f3cce3-8cf4-45cf-86d9-fc457e2a1696/IMG_0146.PNG/:/rs=w:180,h:180,m"
+    },
+    "poulsbakery.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "path": "logos/poulsbakery-com.webp",
+      "source_url": "https://poulsbakery.com/cdn/shop/files/Logo_Short_PB_a81ad795-9a48-463b-bb2d-68971f3808e1.png?v=1692600325&width=600"
+    },
+    "presoteaus.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "path": "logos/presoteaus-com.png",
+      "source_url": "https://www.nenekmallomo.com/img/queen.png"
+    },
+    "puravidamiami.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "path": "logos/puravidamiami-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/5fc6985aec917750a3ff0c92/7d544654-594a-4071-8be5-e67994e6ec53/Pura+Vida+Miami+Logo"
+    },
+    "purbowls.com": {
+      "checked_at": "2026-10-18T17:37:50Z",
+      "path": "logos/purbowls-com.png",
+      "source_url": "https://purbowls.com/wp-content/uploads/2024/06/pur-BOWLS-wide.png"
+    },
+    "qheggrolls.com": {
+      "background": "#d3cac5",
+      "checked_at": "2026-10-18T17:37:50Z",
+      "path": "logos/qheggrolls-com.webp",
+      "source_url": "https://img1.wsimg.com/isteam/ip/d7e8c43d-9bd6-4baa-b039-0ff76f966a50/638340216661066295%2B1257434.png/:/rs=h:200,cg:true,m/qt=q:95"
+    },
+    "raisingclaw.com": {
+      "background": "#8b0000",
+      "checked_at": "2026-10-18T17:37:50Z",
+      "path": "logos/raisingclaw-com.webp",
+      "source_url": "https://www.eagletheatre.org/img/demogratis.webp"
     },
     "ranchoviejomexicanseafood.com": {
       "checked_at": "2026-09-16T23:17:10Z",
