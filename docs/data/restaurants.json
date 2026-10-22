@@ -38,7 +38,7 @@
     },
     "Westminster": {
       "activated_at": "2026-09-17T16:13:29Z",
-      "last_refreshed": "2026-09-17T16:13:29Z",
+      "last_refreshed": "2026-10-22T18:46:13Z",
       "restaurant_count": 208,
       "status": "active"
     }
@@ -55,23 +55,23 @@
     ],
     "closed_count": 80,
     "failed_map_cells": 0,
-    "last_scan_map_cells": 49,
+    "last_scan_map_cells": 54,
     "last_scanned_cities": [
-      "Costa Mesa"
+      "Westminster"
     ],
-    "last_source_scan_at": "2026-10-21T18:51:31Z",
+    "last_source_scan_at": "2026-10-22T18:46:13Z",
     "map_cells": 458,
-    "official_websites": 1476,
+    "official_websites": 1484,
     "operational_count": 1896,
     "queued_cities": [],
     "restaurant_count": 1976,
-    "source_sites_checked": 12,
-    "specials_pages_found": 426,
-    "successful_map_cells": 49
+    "source_sites_checked": 119,
+    "specials_pages_found": 425,
+    "successful_map_cells": 54
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-21T18:51:31Z",
-  "refresh_after": "2026-10-22T16:13:29Z",
+  "generated_at": "2026-10-22T18:46:13Z",
+  "refresh_after": "2026-10-29T18:38:28Z",
   "restaurants": [
     {
       "address": "369 E 17th St #18, Costa Mesa, CA 92627, USA",
@@ -478,7 +478,7 @@
       "phone": "(714) 499-7691",
       "place_id": "ChIJte8EfeQp3YARdt9-XVXGi9U",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-17T17:30:22Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -488,8 +488,8 @@
         "fast_food_restaurant",
         "hamburger_restaurant",
         "hot_dog_stand",
-        "american_restaurant",
         "meal_takeaway",
+        "american_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -2654,8 +2654,8 @@
       "types": [
         "fish_and_chips_restaurant",
         "fast_food_restaurant",
-        "seafood_restaurant",
         "british_restaurant",
+        "seafood_restaurant",
         "european_restaurant",
         "restaurant",
         "food",
@@ -2855,7 +2855,7 @@
       "phone": "(714) 898-3668",
       "place_id": "ChIJg3wF9uQp3YAREy3_v9EemSM",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-10-17T17:30:22Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -5162,7 +5162,7 @@
       "phone": "(657) 231-9941",
       "place_id": "ChIJdeegaQAn3YARY6-eyAFqVes",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-17T17:30:22Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -5182,8 +5182,8 @@
         "coffee_shop",
         "cafe",
         "food_store",
-        "food",
         "store",
+        "food",
         "point_of_interest",
         "establishment"
       ],
@@ -7858,7 +7858,7 @@
       "phone": "(714) 531-5171",
       "place_id": "ChIJjeX0mLkn3YARLcReF8mjG5g",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-17T17:30:22Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -10217,7 +10217,7 @@
       "phone": "(714) 891-1148",
       "place_id": "ChIJJaykPjt44RQR5PpsDplnCfg",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-17T17:30:22Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -10230,14 +10230,14 @@
       "types": [
         "pizza_restaurant",
         "sandwich_shop",
-        "meal_delivery",
         "italian_restaurant",
+        "meal_delivery",
+        "food_delivery",
         "european_restaurant",
         "food_store",
-        "food_delivery",
+        "store",
         "restaurant",
         "food",
-        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -10780,9 +10780,10 @@
       "name": "Bitzy\u2019s Kitchen",
       "phone": "(657) 400-9010",
       "place_id": "ChIJe83G3Sov3YARLhT2TtCoy5A",
-      "primary_type": "restaurant",
+      "primary_type": "breakfast_restaurant",
       "specials_pages": [],
       "types": [
+        "breakfast_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -10899,6 +10900,8 @@
       "phone": "(714) 898-2322",
       "place_id": "ChIJ5-ht1Swm3YARPJdneuXPIBQ",
       "primary_type": "seafood_restaurant",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "seafood_restaurant",
@@ -10908,7 +10911,7 @@
         "point_of_interest",
         "establishment"
       ],
-      "website_url": ""
+      "website_url": "https://bienhenseafoodlau.com/location/"
     },
     {
       "address": "17920 Brookhurst St, Fountain Valley, CA 92708, USA",
@@ -11407,7 +11410,7 @@
       "phone": "(714) 903-7770",
       "place_id": "ChIJ2_uxUiEm3YAR0tzIfdI4bps",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-17T17:30:22Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -12195,7 +12198,7 @@
       "phone": "(714) 895-4211",
       "place_id": "ChIJtRkBryAm3YARZ4uhh_xtC3o",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-17T17:30:22Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -12678,8 +12681,8 @@
       "types": [
         "barbecue_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": ""
@@ -14179,8 +14182,8 @@
       "types": [
         "vietnamese_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": ""
@@ -14940,10 +14943,10 @@
       "specials_pages": [],
       "types": [
         "bakery",
-        "point_of_interest",
         "food_store",
         "store",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": ""
@@ -15068,7 +15071,7 @@
       "phone": "(714) 775-8834",
       "place_id": "ChIJNUbporkn3YARybznrrOtW-4",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-17T17:30:22Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -15135,7 +15138,7 @@
       "phone": "(714) 248-9070",
       "place_id": "ChIJtbL4pMQn3YARfbj3yWdju7M",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-17T17:30:22Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -15153,6 +15156,64 @@
         "establishment"
       ],
       "website_url": "https://bunbo533.com/"
+    },
+    {
+      "address": "6944 Westminster Blvd., Westminster, CA 92683, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Westminster",
+      "google_maps_url": "https://maps.google.com/?cid=6854673826997925473&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "20:00",
+            "open": "09:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "20:00",
+            "open": "09:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "20:00",
+            "open": "09:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "17:00",
+            "open": "09:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "20:00",
+            "open": "09:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "20:00",
+            "open": "09:00"
+          }
+        ]
+      },
+      "latitude": 33.758770999999996,
+      "longitude": -118.0078814,
+      "name": "B\u00fan B\u00f2 Hu\u1ebf C\u00f4ng L\u00fd",
+      "phone": "(714) 576-6070",
+      "place_id": "ChIJr8NX-RAp3YARYfZgLYexIF8",
+      "primary_type": "restaurant",
+      "specials_pages": [],
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
     },
     {
       "address": "13123 Brookhurst St, Garden Grove, CA 92843, USA",
@@ -15327,14 +15388,14 @@
       "phone": "(714) 892-2205",
       "place_id": "ChIJKyXCKtMn3YAROFLSLWPGJCw",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-10-17T17:30:22Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
         "food_store",
-        "food",
         "store",
+        "food",
         "point_of_interest",
         "establishment"
       ],
@@ -15511,7 +15572,7 @@
       "phone": "(714) 891-4455",
       "place_id": "ChIJ_Qwtqzgm3YARw3L7TMwwIEE",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-17T17:30:22Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -16165,7 +16226,7 @@
       "phone": "",
       "place_id": "ChIJJ1jb4x8m3YAR1TwHSDU7_6k",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-10-17T17:30:22Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -16540,7 +16601,7 @@
       "phone": "(714) 230-8481",
       "place_id": "ChIJRQSt0Fwv3YARtEp9SzbUeVM",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-18T17:30:17Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -18157,23 +18218,23 @@
       "phone": "(714) 842-4999",
       "place_id": "ChIJfcao3_8m3YARQPg9as2AKOQ",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-18T17:30:17Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "pizza_restaurant",
-        "italian_restaurant",
         "pizza_delivery",
+        "italian_restaurant",
         "meal_delivery",
-        "food_delivery",
         "meal_takeaway",
+        "food_delivery",
         "european_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
         "establishment"
       ],
-      "website_url": "http://calixtopizzeria.com/"
+      "website_url": "https://calixtospizzeriaca.com/"
     },
     {
       "address": "17532 Griffin Ln, Huntington Beach, CA 92647, USA",
@@ -18981,12 +19042,13 @@
       "phone": "(714) 901-5513",
       "place_id": "ChIJ6R-NE5ko3YARcPX9XZvnb8o",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-18T17:30:17Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
         "chicken_restaurant",
+        "western_restaurant",
         "hamburger_restaurant",
         "american_restaurant",
         "restaurant",
@@ -19433,12 +19495,13 @@
       "phone": "(714) 892-8214",
       "place_id": "ChIJqaQq5ago3YARc00mgioDlOA",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-18T17:30:17Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
         "chicken_restaurant",
+        "western_restaurant",
         "hamburger_restaurant",
         "american_restaurant",
         "restaurant",
@@ -20165,26 +20228,26 @@
       "phone": "(714) 379-7726",
       "place_id": "ChIJR9EzRoQn3YARMZbP6wVf4L0",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-10-18T17:30:17Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
         "asian_fusion_restaurant",
-        "asian_restaurant",
         "fusion_restaurant",
-        "meal_delivery",
-        "food_delivery",
+        "asian_restaurant",
         "coffee_shop",
-        "cafe",
         "vietnamese_restaurant",
-        "meal_takeaway",
+        "cafe",
+        "meal_delivery",
         "bakery",
-        "restaurant",
-        "point_of_interest",
+        "meal_takeaway",
+        "food_delivery",
         "food_store",
         "store",
+        "restaurant",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://www.carrotanddaikon.com/"
@@ -22088,8 +22151,8 @@
         "vietnamese_restaurant",
         "chinese_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": ""
@@ -22839,6 +22902,81 @@
         "establishment"
       ],
       "website_url": "https://locations.chipotle.com/ca/costa-mesa/468-e-17th-st?utm_source=google&utm_medium=yext&utm_campaign=yext_listings?restaurant=3588"
+    },
+    {
+      "address": "6777 Westminster Blvd., Westminster, CA 92683, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Westminster",
+      "google_maps_url": "https://maps.google.com/?cid=5606487406927908369&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ]
+      },
+      "latitude": 33.7611375,
+      "longitude": -118.00804959999999,
+      "name": "Chipotle Mexican Grill",
+      "phone": "(714) 487-5126",
+      "place_id": "ChIJS9BxA6ko3YAREY6jl5c-zk0",
+      "primary_type": "fast_food_restaurant",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [],
+      "types": [
+        "fast_food_restaurant",
+        "taco_restaurant",
+        "burrito_restaurant",
+        "catering_service",
+        "shipping_service",
+        "meal_takeaway",
+        "mexican_restaurant",
+        "food_delivery",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "website_url": "https://locations.chipotle.com/ca/westminster/6777-westminster-blvd?utm_source=google&utm_medium=yext&utm_campaign=yext_listings?restaurant=1931"
     },
     {
       "address": "7101 Yorktown Ave #100, Huntington Beach, CA 92648, USA",
@@ -23614,8 +23752,8 @@
       "types": [
         "bakery",
         "food_store",
-        "food",
         "store",
+        "food",
         "point_of_interest",
         "establishment"
       ],
@@ -23874,7 +24012,7 @@
       "phone": "(714) 894-8688",
       "place_id": "ChIJjy_ciQ8m3YARRQCkXa_v9O0",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-10-18T17:30:17Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -25095,7 +25233,7 @@
       "phone": "(714) 379-2661",
       "place_id": "ChIJXwDSSpko3YARUGiWYyST5WA",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-18T17:30:17Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -25302,8 +25440,8 @@
       "specials_pages": [],
       "types": [
         "lounge_bar",
-        "bar",
         "night_club",
+        "bar",
         "point_of_interest",
         "establishment"
       ],
@@ -27067,14 +27205,14 @@
       "phone": "(714) 897-4751",
       "place_id": "ChIJG6ybYDUm3YARxrjROsNhihY",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-18T17:30:17Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "http://comtamthuankieu.com/"
@@ -27510,19 +27648,19 @@
       "phone": "(657) 346-2010",
       "place_id": "ChIJK3hXeKon3YARuql16siVT0o",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-18T17:30:17Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
         "vietnamese_restaurant",
-        "dessert_shop",
         "cafe",
+        "dessert_shop",
         "confectionery",
         "food_store",
+        "store",
         "restaurant",
         "food",
-        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -28527,7 +28665,7 @@
       "phone": "(714) 898-8364",
       "place_id": "ChIJV0n3UK8o3YAR73zB0j2LBLo",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-18T17:30:17Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -28541,8 +28679,8 @@
         "fast_food_restaurant",
         "taco_restaurant",
         "breakfast_restaurant",
-        "meal_takeaway",
         "hamburger_restaurant",
+        "meal_takeaway",
         "american_restaurant",
         "mexican_restaurant",
         "restaurant",
@@ -28607,7 +28745,7 @@
       "phone": "(714) 892-5216",
       "place_id": "ChIJoc5GnBIm3YAR6Ftk98JpO50",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-18T17:30:17Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -28619,15 +28757,15 @@
       ],
       "types": [
         "fast_food_restaurant",
-        "hamburger_restaurant",
-        "breakfast_restaurant",
-        "meal_takeaway",
-        "mexican_restaurant",
         "taco_restaurant",
+        "breakfast_restaurant",
+        "hamburger_restaurant",
+        "meal_takeaway",
         "american_restaurant",
+        "mexican_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://locations.deltaco.com/us/ca/westminster/15456-goldenwest-st?utm_source=G&utm_medium=local&utm_campaign=google-local"
@@ -30228,7 +30366,7 @@
       "phone": "(714) 897-1552",
       "place_id": "ChIJeXi5Waso3YARu7X14AOtiuQ",
       "primary_type": "italian_restaurant",
-      "specials_checked_at": "2026-10-18T17:30:17Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -30244,22 +30382,16 @@
           "url": "https://thedinospizza.com/specials/wednesday-lunch-specials/"
         },
         {
-          "confidence": "high",
-          "discovered_via": "sitemap",
-          "label": "Specials",
-          "url": "https://thedinospizza.com/wp-content/uploads/2026/09/dinos-party-combo-deal-300x294.png"
-        },
-        {
-          "confidence": "high",
-          "discovered_via": "sitemap",
-          "label": "Specials",
-          "url": "https://thedinospizza.com/wp-content/uploads/2026/09/dinos-party-combo-deal.png"
-        },
-        {
           "confidence": "medium",
           "discovered_via": "page_text",
           "label": "Website specials",
           "url": "https://thedinospizza.com/"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Specials",
+          "url": "https://thedinospizza.com/specials/"
         },
         {
           "confidence": "medium",
@@ -30640,6 +30772,8 @@
       "phone": "(714) 892-0050",
       "place_id": "ChIJeWLSr54o3YARat9l9vNg3Cs",
       "primary_type": "donut_shop",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "donut_shop",
@@ -30650,7 +30784,7 @@
         "point_of_interest",
         "establishment"
       ],
-      "website_url": ""
+      "website_url": "https://unitedautismthereapy.com/"
     },
     {
       "address": "1210 CA-1, Seal Beach, CA 90740, USA",
@@ -30939,17 +31073,17 @@
       "specials_pages": [],
       "types": [
         "bakery",
-        "catering_service",
         "coffee_shop",
-        "food_delivery",
-        "cafe",
         "donut_shop",
+        "cafe",
+        "catering_service",
+        "food_delivery",
         "food_store",
         "store",
         "restaurant",
         "food",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": ""
@@ -31469,6 +31603,8 @@
       "phone": "(657) 670-9889",
       "place_id": "ChIJL0XgV5on3YAROwlYolFkrsk",
       "primary_type": "cafe",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
@@ -31476,7 +31612,7 @@
         "point_of_interest",
         "establishment"
       ],
-      "website_url": ""
+      "website_url": "https://dripdrip.cafe/story"
     },
     {
       "address": "1316 Bison Ave, Newport Beach, CA 92660, USA",
@@ -31805,7 +31941,7 @@
       "phone": "(714) 891-8601",
       "place_id": "ChIJRXMCoRIm3YARed_DmK_87iM",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-19T20:08:03Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -31835,18 +31971,18 @@
       ],
       "types": [
         "coffee_shop",
-        "cafe",
-        "breakfast_restaurant",
-        "meal_takeaway",
         "bagel_shop",
-        "donut_shop",
-        "bakery",
+        "breakfast_restaurant",
         "fast_food_restaurant",
-        "restaurant",
-        "point_of_interest",
+        "donut_shop",
+        "cafe",
+        "bakery",
+        "meal_takeaway",
         "food_store",
         "store",
+        "restaurant",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://www.dunkindonuts.com/locations/us/ca/westminster/15482-goldenwest-st/store-352586/?utm_source=google&utm_medium=local&utm_campaign=localmaps&utm_content=352586&y_source=1_MTIxMDk3NTQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
@@ -33773,7 +33909,7 @@
       "phone": "(714) 379-2093",
       "place_id": "ChIJZ7YGpyQm3YARy2X2xWeYYzE",
       "primary_type": "taco_restaurant",
-      "specials_checked_at": "2026-10-19T20:08:03Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -34077,7 +34213,7 @@
       "phone": "(714) 799-0878",
       "place_id": "ChIJecBDHKYo3YARK3_rbrPNZ4Y",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-19T20:08:03Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -34089,8 +34225,8 @@
       ],
       "types": [
         "mexican_restaurant",
-        "fast_food_restaurant",
         "chicken_restaurant",
+        "fast_food_restaurant",
         "catering_service",
         "food_delivery",
         "restaurant",
@@ -34442,21 +34578,64 @@
       "business_status": "OPERATIONAL",
       "city": "Westminster",
       "google_maps_url": "https://maps.google.com/?cid=5861487857756402909&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {},
+      "hours": {
+        "friday": [
+          {
+            "close": "21:30",
+            "open": "09:30"
+          }
+        ],
+        "monday": [
+          {
+            "close": "21:30",
+            "open": "09:30"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "21:30",
+            "open": "09:30"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "21:00",
+            "open": "09:30"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "21:30",
+            "open": "09:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:30",
+            "open": "09:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "21:30",
+            "open": "09:30"
+          }
+        ]
+      },
       "latitude": 33.7451025,
       "longitude": -118.00623449999999,
-      "name": "EL POLLO NORTE\u00d1O WESTMINSTER",
+      "name": "El Pollo Norte\u00f1o Westminster / Huntington Beach",
       "phone": "(949) 948-8547",
       "place_id": "ChIJk-uDg1An3YAR3fTVsCYwWFE",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-19T20:08:03Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
           "discovered_via": "site_link",
           "label": "Specials",
-          "url": "https://www.elpollonorteno.net/?location=East+1st+Street&menu=specials"
+          "url": "https://www.elpollonorteno.net/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_content=wm&location=East+1st+Street&menu=specials"
         },
         {
           "confidence": "medium",
@@ -34467,12 +34646,18 @@
       ],
       "types": [
         "mexican_restaurant",
+        "taco_restaurant",
+        "chicken_restaurant",
+        "burrito_restaurant",
+        "meal_delivery",
+        "meal_takeaway",
+        "food_delivery",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
-      "website_url": "https://www.elpollonorteno.net/"
+      "website_url": "https://www.elpollonorteno.net/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_content=wm"
     },
     {
       "address": "5171 Warner Ave, Huntington Beach, CA 92649, USA",
@@ -34602,6 +34787,28 @@
         "restaurant",
         "point_of_interest",
         "food",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
+      "address": "8850 Bolsa Ave, Westminster, CA 92683, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Westminster",
+      "google_maps_url": "https://maps.google.com/?cid=13645542526633442084&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {},
+      "latitude": 33.7446876,
+      "longitude": -117.97469809999998,
+      "name": "El Toro De Oro",
+      "phone": "",
+      "place_id": "ChIJ8T0uPAAn3YARJPt4e6G0Xr0",
+      "primary_type": "mexican_restaurant",
+      "specials_pages": [],
+      "types": [
+        "mexican_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": ""
@@ -35348,7 +35555,7 @@
       "phone": "(714) 891-2201",
       "place_id": "ChIJFbhnr0Iv3YARqQriqn1ef8c",
       "primary_type": "hamburger_restaurant",
-      "specials_checked_at": "2026-10-19T20:08:03Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -35370,8 +35577,8 @@
         "fast_food_restaurant",
         "american_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://fantasticcafe.com/"
@@ -39083,8 +39290,8 @@
       "types": [
         "chicken_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": ""
@@ -39441,6 +39648,7 @@
       "specials_pages": [],
       "types": [
         "restaurant",
+        "vietnamese_restaurant",
         "food",
         "point_of_interest",
         "establishment"
@@ -39933,6 +40141,52 @@
         "dessert_restaurant",
         "food_store",
         "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
+      "address": "15380 Beach Blvd #A, Westminster, CA 92683, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Westminster",
+      "google_maps_url": "https://maps.google.com/?cid=10858826026588120153&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "02:00",
+            "open": "12:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "02:00",
+            "open": "12:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "23:00",
+            "open": "08:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "23:00",
+            "open": "08:00"
+          }
+        ]
+      },
+      "latitude": 33.7393284,
+      "longitude": -117.9888843,
+      "name": "Gracie's",
+      "phone": "(714) 410-0333",
+      "place_id": "ChIJv-mfFawn3YARWSSNGL1MspY",
+      "primary_type": "restaurant",
+      "specials_pages": [],
+      "types": [
         "restaurant",
         "food",
         "point_of_interest",
@@ -40694,8 +40948,8 @@
       "types": [
         "vegetarian_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": ""
@@ -42135,14 +42389,14 @@
       "phone": "(714) 899-9100",
       "place_id": "ChIJ2csNElEv3YARmAqKdyABzVM",
       "primary_type": "breakfast_restaurant",
-      "specials_checked_at": "2026-10-19T20:08:03Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "breakfast_restaurant",
+        "sandwich_shop",
         "diner",
         "burrito_restaurant",
-        "sandwich_shop",
         "american_restaurant",
         "restaurant",
         "food",
@@ -44127,19 +44381,19 @@
         "friday": [
           {
             "close": "15:00",
-            "open": "08:00"
+            "open": "09:00"
           }
         ],
         "saturday": [
           {
-            "close": "17:00",
-            "open": "08:00"
+            "close": "15:00",
+            "open": "09:00"
           }
         ],
         "sunday": [
           {
-            "close": "17:00",
-            "open": "08:00"
+            "close": "15:00",
+            "open": "09:00"
           }
         ],
         "thursday": [
@@ -44167,7 +44421,7 @@
       "phone": "(949) 247-6197",
       "place_id": "ChIJ9fXE6H3f3IARmIs68bFxWME",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-19T20:08:03Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -44947,7 +45201,16 @@
       "phone": "(714) 248-9852",
       "place_id": "ChIJ1QVZAQAn3YARxHCVEqB1i2g",
       "primary_type": "vietnamese_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-22T18:45:10Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Specials",
+          "url": "http://hongmaioc.com/"
+        }
+      ],
       "types": [
         "vietnamese_restaurant",
         "restaurant",
@@ -44955,7 +45218,7 @@
         "point_of_interest",
         "establishment"
       ],
-      "website_url": ""
+      "website_url": "http://hongmaioc.com/"
     },
     {
       "address": "1773 Newport Blvd, Costa Mesa, CA 92627, USA",
@@ -45583,7 +45846,7 @@
       "phone": "(657) 227-7576",
       "place_id": "ChIJI7ihimIp3YAR0os4SnIpRKI",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-19T20:08:03Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -47025,21 +47288,21 @@
       "phone": "(657) 334-6266",
       "place_id": "ChIJJ701LqQn3YARWFFd6T4Sny0",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-10-19T20:08:03Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
-        "vegan_restaurant",
-        "meal_delivery",
         "catering_service",
-        "food_delivery",
-        "meal_takeaway",
         "halal_restaurant",
+        "meal_delivery",
+        "vegan_restaurant",
         "vegetarian_restaurant",
+        "meal_takeaway",
+        "food_delivery",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "service",
         "establishment"
       ],
@@ -47829,13 +48092,13 @@
       "phone": "(800) 786-1000",
       "place_id": "ChIJv-vOpVQv3YAR6tIqjL5bagk",
       "primary_type": "hamburger_restaurant",
-      "specials_checked_at": "2026-10-19T20:08:03Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "hamburger_restaurant",
-        "diner",
         "fast_food_restaurant",
+        "diner",
         "american_restaurant",
         "restaurant",
         "food",
@@ -48995,19 +49258,19 @@
       "phone": "(714) 899-9112",
       "place_id": "ChIJOYIGXa8o3YAR04m6bTiWuYw",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-19T20:08:03Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
         "breakfast_restaurant",
-        "meal_delivery",
-        "dessert_restaurant",
-        "hamburger_restaurant",
-        "american_restaurant",
         "chicken_restaurant",
+        "hamburger_restaurant",
+        "meal_delivery",
+        "american_restaurant",
         "mexican_restaurant",
         "food_delivery",
+        "dessert_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -51901,13 +52164,13 @@
       "phone": "(714) 379-5200",
       "place_id": "ChIJ5x8XTD8m3YARDQ0qkLpTgL0",
       "primary_type": "hot_dog_stand",
-      "specials_checked_at": "2026-10-19T20:08:03Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "hot_dog_stand",
-        "american_restaurant",
         "meal_takeaway",
+        "american_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -52190,7 +52453,7 @@
       "phone": "(714) 898-6403",
       "place_id": "ChIJuxOn26so3YAR5_TnK7eQotk",
       "primary_type": "mediterranean_restaurant",
-      "specials_checked_at": "2026-10-20T18:40:23Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -53516,7 +53779,7 @@
       "phone": "(714) 892-4911",
       "place_id": "ChIJn_bMXqko3YARaqpbRXjkGA4",
       "primary_type": "chicken_restaurant",
-      "specials_checked_at": "2026-10-20T18:40:23Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -53741,7 +54004,7 @@
       "phone": "(714) 902-5819",
       "place_id": "ChIJJ3ICBqgo3YARmHpBXW_0j_I",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-20T18:40:23Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -53813,14 +54076,14 @@
         "meal_takeaway",
         "sandwich_shop",
         "coffee_shop",
-        "cafe",
         "vietnamese_restaurant",
-        "dessert_restaurant",
-        "restaurant",
-        "point_of_interest",
+        "cafe",
         "food_store",
+        "dessert_restaurant",
         "store",
+        "restaurant",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": ""
@@ -55861,7 +56124,7 @@
       "phone": "(714) 903-6988",
       "place_id": "ChIJAay0bqko3YARxoIypx6tNvQ",
       "primary_type": "hawaiian_restaurant",
-      "specials_checked_at": "2026-10-20T18:40:23Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -56011,16 +56274,16 @@
       "phone": "(714) 891-7513",
       "place_id": "ChIJr4Qb3aso3YAR-8YcBE7PIow",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-20T18:40:23Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
         "taco_restaurant",
         "breakfast_restaurant",
-        "soup_restaurant",
         "burrito_restaurant",
         "meal_takeaway",
+        "soup_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -56733,15 +56996,15 @@
       "phone": "(714) 340-9419",
       "place_id": "ChIJH1ftgEom3YARsPmoWTstdOw",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-10-20T18:40:23Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
-        "point_of_interest",
         "food_store",
         "store",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://lavieenrosebakeryandcoffee.azcpos.com/home/menu"
@@ -57044,7 +57307,7 @@
       "phone": "(714) 576-6070",
       "place_id": "ChIJl3JMEwwv3YARv6gjX3NOGdc",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-20T18:40:23Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -57850,7 +58113,7 @@
       "phone": "(714) 892-5959",
       "place_id": "ChIJw0qHOqko3YARFGb2YvBGfCA",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-10-20T18:40:23Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -58183,14 +58446,14 @@
       "phone": "(714) 622-5716",
       "place_id": "ChIJtXyxtOgn3YARvmHeyGRlZ3Y",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-20T18:40:23Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://ibb.co/3YkbCRD"
@@ -60032,8 +60295,8 @@
       "types": [
         "bakery",
         "food_store",
-        "food",
         "store",
+        "food",
         "point_of_interest",
         "establishment"
       ],
@@ -60271,7 +60534,7 @@
       "phone": "(714) 622-4650",
       "place_id": "ChIJxXJwYnYn3YARLvUQNp4tQUk",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-20T18:40:23Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -61463,43 +61726,43 @@
         "friday": [
           {
             "close": "21:00",
-            "open": "08:00"
+            "open": "09:00"
           }
         ],
         "monday": [
           {
             "close": "21:00",
-            "open": "08:00"
+            "open": "09:00"
           }
         ],
         "saturday": [
           {
             "close": "21:00",
-            "open": "08:00"
+            "open": "09:00"
           }
         ],
         "sunday": [
           {
             "close": "21:00",
-            "open": "08:00"
+            "open": "09:00"
           }
         ],
         "thursday": [
           {
             "close": "21:00",
-            "open": "08:00"
+            "open": "09:00"
           }
         ],
         "tuesday": [
           {
             "close": "21:00",
-            "open": "08:00"
+            "open": "09:00"
           }
         ],
         "wednesday": [
           {
             "close": "21:00",
-            "open": "08:00"
+            "open": "09:00"
           }
         ]
       },
@@ -61509,14 +61772,14 @@
       "phone": "(714) 622-5341",
       "place_id": "ChIJeVQrVg0v3YARKps5uV4RfEE",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-20T18:40:23Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
-        "seafood_restaurant",
         "taco_restaurant",
         "breakfast_restaurant",
+        "seafood_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -61773,7 +62036,7 @@
       "phone": "(714) 897-9999",
       "place_id": "ChIJeQMMNkcm3YARiZn3AdsnrkA",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-10-20T18:40:23Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -61870,8 +62133,8 @@
       "types": [
         "vietnamese_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": ""
@@ -62365,7 +62628,7 @@
       "phone": "(714) 898-0211",
       "place_id": "ChIJP_pfCDYv3YARstWWHvMArxg",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-21T18:51:08Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -62567,7 +62830,7 @@
       "phone": "(714) 890-1155",
       "place_id": "ChIJf_bukCgm3YARMxB8LHO8_1A",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-21T18:51:08Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -63117,14 +63380,14 @@
       "phone": "(714) 261-6110",
       "place_id": "ChIJsWaXFQAn3YARCsrDPkeP8jI",
       "primary_type": "asian_restaurant",
-      "specials_checked_at": "2026-10-21T18:51:08Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "asian_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "http://www.mamahieusoc.com/"
@@ -65235,15 +65498,15 @@
       "phone": "(714) 373-4443",
       "place_id": "ChIJn5MBiBIm3YARKbncIrWg_vo",
       "primary_type": "sushi_restaurant",
-      "specials_checked_at": "2026-10-21T18:51:08Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sushi_restaurant",
         "japanese_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "http://marusushiupland.net/"
@@ -66022,7 +66285,7 @@
       "phone": "(657) 431-9238",
       "place_id": "ChIJKaczP0cm3YARdrY8QkcK6DA",
       "primary_type": "bar",
-      "specials_checked_at": "2026-10-21T18:51:08Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -66052,8 +66315,8 @@
       ],
       "types": [
         "karaoke",
-        "bar",
         "night_club",
+        "bar",
         "point_of_interest",
         "establishment"
       ],
@@ -67080,15 +67343,15 @@
       "phone": "(714) 894-4608",
       "place_id": "ChIJsW-OuKco3YARGihHWdKKrSg",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-21T18:51:08Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
-        "breakfast_restaurant",
-        "hamburger_restaurant",
         "sandwich_shop",
+        "breakfast_restaurant",
         "coffee_shop",
+        "hamburger_restaurant",
         "cafe",
         "american_restaurant",
         "food_store",
@@ -67397,7 +67660,7 @@
       "phone": "(714) 486-1122",
       "place_id": "ChIJlRPPhN8n3YARjl-c9QMEEbE",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-21T18:51:08Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -67966,8 +68229,8 @@
       "specials_pages": [],
       "types": [
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": ""
@@ -67999,7 +68262,7 @@
         "sunday": [
           {
             "close": "02:00",
-            "open": "11:00"
+            "open": "09:00"
           }
         ],
         "thursday": [
@@ -68027,7 +68290,7 @@
       "phone": "(714) 373-5665",
       "place_id": "ChIJVdk7_hEm3YARsFRwEWi-ce0",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-21T18:51:08Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -68042,8 +68305,8 @@
         "sports_bar",
         "pub",
         "bar",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "http://www.michaelssportspubandgrill.com/"
@@ -71919,7 +72182,7 @@
       "phone": "(714) 622-5848",
       "place_id": "ChIJ8WOvHKAp3YARiICH1Q2YsNE",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-21T18:51:08Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -72991,7 +73254,7 @@
       "phone": "(714) 903-6000",
       "place_id": "ChIJ5-ht1Swm3YARavcqcSJhwOY",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-21T18:51:08Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -73059,7 +73322,7 @@
       "phone": "(714) 893-8364",
       "place_id": "ChIJn6wpuiAm3YAR4cQDLSVxi4g",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-21T18:51:08Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -75422,26 +75685,6 @@
       "website_url": "http://ojisushi.com/"
     },
     {
-      "address": "6902 Westminster Blvd., Westminster, CA 92683, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Westminster",
-      "google_maps_url": "https://maps.google.com/?cid=18092794120153930037&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {},
-      "latitude": 33.7587986,
-      "longitude": -118.0083228,
-      "name": "Okxyes",
-      "phone": "",
-      "place_id": "ChIJgWqtCgAp3YARNRkNfmSEFvs",
-      "primary_type": "bar",
-      "specials_pages": [],
-      "types": [
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": ""
-    },
-    {
       "address": "21040 Pacific Coast Hwy f200, Huntington Beach, CA 92648, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -76517,7 +76760,7 @@
       "phone": "(714) 895-4320",
       "place_id": "ChIJ3xCIeKgo3YARuyKG9sl_rwA",
       "primary_type": "hamburger_restaurant",
-      "specials_checked_at": "2026-10-21T18:51:08Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -79378,7 +79621,16 @@
       "phone": "(714) 898-8445",
       "place_id": "ChIJTzqNYKgo3YAR0HoCu8S2ViU",
       "primary_type": "sandwich_shop",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-22T18:45:10Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "7.00-13.00 7.00-13.00 House Special Pepper beef, dry salami, turkey breast with provolone and American cheeses.",
+          "url": "https://paulsdeli.gimmegrub.com/"
+        }
+      ],
       "types": [
         "sandwich_shop",
         "restaurant",
@@ -79386,7 +79638,7 @@
         "point_of_interest",
         "establishment"
       ],
-      "website_url": ""
+      "website_url": "https://paulsdeli.gimmegrub.com/"
     },
     {
       "address": "1000 Bayside Dr, Newport Beach, CA 92660, USA",
@@ -80548,7 +80800,7 @@
       "phone": "(714) 375-3330",
       "place_id": "ChIJ8TeXTFsm3YAR3Pe0TSyXS4s",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -81920,7 +82172,7 @@
       "phone": "(714) 622-5143",
       "place_id": "ChIJpS1SRLUn3YARM6bs5SzYibY",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -81939,8 +82191,8 @@
       "types": [
         "vietnamese_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://pho2torestaurant.com/?"
@@ -82059,14 +82311,14 @@
       "phone": "(714) 531-2490",
       "place_id": "ChIJqatB6cYn3YARBBk7-H5szBU",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://rebrand.ly/pho-79"
@@ -82120,7 +82372,7 @@
       "phone": "(657) 206-9081",
       "place_id": "ChIJi_0o0ywm3YARN6yt0mfuqlc",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -83048,11 +83300,11 @@
       "name": "Pickle Banh Mi",
       "phone": "(714) 622-4012",
       "place_id": "ChIJ4ZFhHAAp3YARLMRar_33YBM",
-      "primary_type": "asian_restaurant",
+      "primary_type": "sandwich_shop",
       "specials_pages": [],
       "types": [
-        "asian_restaurant",
         "sandwich_shop",
+        "asian_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -83278,38 +83530,38 @@
       "hours": {
         "friday": [
           {
-            "close": "19:00",
-            "open": "08:00"
+            "close": "23:00",
+            "open": "10:00"
           }
         ],
         "monday": [
           {
-            "close": "19:00",
-            "open": "08:00"
+            "close": "22:00",
+            "open": "10:00"
           }
         ],
         "saturday": [
           {
-            "close": "19:00",
-            "open": "08:00"
+            "close": "23:00",
+            "open": "10:00"
           }
         ],
         "sunday": [
           {
-            "close": "19:00",
-            "open": "08:00"
+            "close": "22:00",
+            "open": "10:00"
           }
         ],
         "thursday": [
           {
-            "close": "19:00",
-            "open": "08:00"
+            "close": "22:00",
+            "open": "10:00"
           }
         ],
         "wednesday": [
           {
-            "close": "19:00",
-            "open": "08:00"
+            "close": "22:00",
+            "open": "10:00"
           }
         ]
       },
@@ -83319,7 +83571,7 @@
       "phone": "(657) 402-7230",
       "place_id": "ChIJ-U-rAsgn3YAR9Njf__q1CyA",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -83928,7 +84180,7 @@
       "phone": "(657) 277-1222",
       "place_id": "ChIJGT788PUp3YARxGxBfNq7Brk",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -84051,7 +84303,7 @@
       "phone": "(800) 948-8488",
       "place_id": "ChIJgfg75AUm3YAReArDPtT44H4",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -84282,22 +84534,22 @@
           }
         ]
       },
-      "latitude": 33.767702199999995,
-      "longitude": -117.99353920000001,
+      "latitude": 33.768195999999996,
+      "longitude": -117.992988,
       "name": "Playa Baby",
       "phone": "(323) 776-3819",
       "place_id": "ChIJYTy56IjZ3IARdklXw-JDP2c",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
         "taco_restaurant",
-        "seafood_restaurant",
         "hot_dog_stand",
-        "american_restaurant",
         "meal_takeaway",
+        "american_restaurant",
+        "seafood_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -84572,16 +84824,26 @@
       "phone": "(714) 891-3568",
       "place_id": "ChIJfzHMLCcm3YARzCiPWPmrULM",
       "primary_type": "hawaiian_restaurant",
-      "specials_pages": [],
+      "specials_checked_at": "2026-10-22T18:45:10Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://pokehauswestminster.com/?utm_source=google&utm_medium=maps&utm_campaign=website"
+        }
+      ],
       "types": [
         "hawaiian_restaurant",
+        "meal_takeaway",
         "american_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
         "establishment"
       ],
-      "website_url": ""
+      "website_url": "https://pokehauswestminster.com/?utm_source=google&utm_medium=maps&utm_campaign=website"
     },
     {
       "address": "8112 Talbert Ave #103, Huntington Beach, CA 92646, USA",
@@ -85398,15 +85660,15 @@
       "phone": "(714) 898-8151",
       "place_id": "ChIJ62QhWCMm3YARvGUhkDeUM_k",
       "primary_type": "chicken_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chicken_restaurant",
-        "fast_food_restaurant",
-        "seafood_restaurant",
         "cajun_restaurant",
+        "fast_food_restaurant",
         "american_restaurant",
+        "seafood_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -85540,15 +85802,15 @@
       "phone": "(714) 892-4007",
       "place_id": "ChIJt-CEYago3YARUgQByD9srjM",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
         "chicken_restaurant",
         "cajun_restaurant",
-        "seafood_restaurant",
         "american_restaurant",
+        "seafood_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -85924,7 +86186,7 @@
       "phone": "(657) 227-7172",
       "place_id": "ChIJuTcmEEov3YARFfO5Xt9vOJE",
       "primary_type": "bar",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -85945,8 +86207,8 @@
         "sports_bar",
         "cocktail_bar",
         "bar_and_grill",
-        "event_venue",
         "sports_complex",
+        "event_venue",
         "sports_activity_location",
         "restaurant",
         "food",
@@ -87111,7 +87373,7 @@
       "phone": "(714) 897-0900",
       "place_id": "ChIJ915Sziwm3YAR6lEvPuDFGbQ",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -87178,7 +87440,7 @@
       "phone": "",
       "place_id": "ChIJZYldup4o3YARqcTm-44-c20",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -87239,7 +87501,7 @@
       "phone": "(714) 894-8432",
       "place_id": "ChIJ17foZDUm3YAR18BvdsRqc2g",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -87252,76 +87514,11 @@
       "types": [
         "vietnamese_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://findaloco.com/en/directory/quan-bun-ban-mai/"
-    },
-    {
-      "address": "9098 Bolsa Ave, Westminster, CA 92683, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Westminster",
-      "google_maps_url": "https://maps.google.com/?cid=11060911504649420977&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "19:00",
-            "open": "08:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "19:00",
-            "open": "08:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "19:00",
-            "open": "08:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "19:00",
-            "open": "08:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "19:00",
-            "open": "08:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "19:00",
-            "open": "08:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "19:00",
-            "open": "08:00"
-          }
-        ]
-      },
-      "latitude": 33.7443324,
-      "longitude": -117.97065459999999,
-      "name": "Qu\u00e1n Chay T\u00f9 Thi\u00ean",
-      "phone": "",
-      "place_id": "ChIJuw2UPQAn3YARsQCpBmlAgJk",
-      "primary_type": "vegetarian_restaurant",
-      "specials_pages": [],
-      "types": [
-        "vegetarian_restaurant",
-        "restaurant",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "website_url": ""
     },
     {
       "address": "10563 Bolsa Ave, Garden Grove, CA 92843, USA",
@@ -89110,7 +89307,7 @@
       "phone": "(657) 431-9040",
       "place_id": "ChIJGdHgus4n3YARCpb0g35z9Qg",
       "primary_type": "brunch_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -89192,7 +89389,7 @@
       "phone": "(714) 622-5264",
       "place_id": "ChIJaVU7K8HX3IAR14XCCpnuWZs",
       "primary_type": "indian_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -89262,12 +89459,12 @@
       "specials_pages": [],
       "types": [
         "coffee_shop",
+        "cafe",
         "juice_shop",
         "tea_house",
         "food_store",
-        "cafe",
-        "food",
         "store",
+        "food",
         "point_of_interest",
         "establishment"
       ],
@@ -91613,71 +91810,6 @@
       "website_url": "http://www.saharasandbar.com/"
     },
     {
-      "address": "15440 Beach Blvd Ste 124, Westminster, CA 92683, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Westminster",
-      "google_maps_url": "https://maps.google.com/?cid=8140119710007852405&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "19:00",
-            "open": "06:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "19:00",
-            "open": "06:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "19:00",
-            "open": "06:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "19:00",
-            "open": "06:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "19:00",
-            "open": "06:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "19:00",
-            "open": "06:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "19:00",
-            "open": "06:00"
-          }
-        ]
-      },
-      "latitude": 33.7382297,
-      "longitude": -117.9881869,
-      "name": "Saigon Bakery",
-      "phone": "(714) 373-1500",
-      "place_id": "ChIJ1dtBXkon3YARdX0sgL-D93A",
-      "primary_type": "sandwich_shop",
-      "specials_pages": [],
-      "types": [
-        "sandwich_shop",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": ""
-    },
-    {
       "address": "19171 Magnolia St #3, Huntington Beach, CA 92646, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -93241,28 +93373,6 @@
         "establishment"
       ],
       "website_url": "http://www.seabirdskitchen.com/"
-    },
-    {
-      "address": "206 Hospital Cir, Westminster, CA 92683, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Westminster",
-      "google_maps_url": "https://maps.google.com/?cid=4050075676876674439&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {},
-      "latitude": 33.761356299999996,
-      "longitude": -117.99443790000001,
-      "name": "Seafood cove",
-      "phone": "",
-      "place_id": "ChIJjZyCTAAp3YARhxWvsV7CNDg",
-      "primary_type": "asian_restaurant",
-      "specials_pages": [],
-      "types": [
-        "asian_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": ""
     },
     {
       "address": "101 Main St, Seal Beach, CA 90740, USA",
@@ -95172,7 +95282,7 @@
       "phone": "(714) 799-7227",
       "place_id": "ChIJhb6tAhIm3YAR16ifvP4myKQ",
       "primary_type": "yakiniku_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -95180,8 +95290,8 @@
         "barbecue_restaurant",
         "japanese_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "http://www.shinobubbq.com/"
@@ -95261,7 +95371,7 @@
       "phone": "(714) 891-9992",
       "place_id": "ChIJdTOk-A0m3YARs5D3oCLkfLY",
       "primary_type": "asian_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -95269,8 +95379,8 @@
         "fine_dining_restaurant",
         "japanese_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "http://shinobushabu.com/"
@@ -96688,7 +96798,7 @@
       "phone": "(714) 773-2664",
       "place_id": "ChIJZ7YGpyQm3YARNtMsNDURcMM",
       "primary_type": "chicken_wings_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -97503,10 +97613,10 @@
       "specials_pages": [],
       "types": [
         "donut_shop",
-        "coffee_shop",
-        "breakfast_restaurant",
-        "cafe",
         "sandwich_shop",
+        "breakfast_restaurant",
+        "coffee_shop",
+        "cafe",
         "bakery",
         "food_store",
         "store",
@@ -98795,14 +98905,14 @@
       "phone": "(714) 894-1733",
       "place_id": "ChIJAyLGq8Al3YAR-8ImhgZCDfs",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
         "breakfast_restaurant",
-        "cafe",
         "internet_cafe",
+        "cafe",
         "food_store",
         "store",
         "restaurant",
@@ -99014,20 +99124,20 @@
       "phone": "(714) 903-7807",
       "place_id": "ChIJD1k6_VMv3YAR--cOmNHHGik",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
-        "internet_cafe",
         "breakfast_restaurant",
+        "internet_cafe",
         "cafe",
         "food_store",
         "store",
         "restaurant",
         "food",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "https://www.starbucks.com/store-locator/store/14013/"
@@ -99081,24 +99191,24 @@
           }
         ]
       },
-      "latitude": 33.7585592,
-      "longitude": -117.99008889999999,
+      "latitude": 33.75853,
+      "longitude": -117.98997,
       "name": "Starbucks Coffee Company",
       "phone": "(714) 898-9202",
       "place_id": "ChIJAyLGq8Al3YARuS-aQ3-gU5E",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
         "breakfast_restaurant",
         "internet_cafe",
-        "food_store",
         "cafe",
+        "food_store",
+        "store",
         "restaurant",
         "food",
-        "store",
         "point_of_interest",
         "service",
         "establishment"
@@ -99160,19 +99270,19 @@
       "phone": "(714) 892-6306",
       "place_id": "ChIJ-xkDhhIm3YAReIBwnocebcE",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
-        "cafe",
         "breakfast_restaurant",
         "internet_cafe",
-        "restaurant",
-        "point_of_interest",
+        "cafe",
         "food_store",
         "store",
+        "restaurant",
         "food",
+        "point_of_interest",
         "service",
         "establishment"
       ],
@@ -99663,7 +99773,7 @@
       "phone": "(714) 657-1351",
       "place_id": "ChIJgS8O-gUm3YARDMkm37SXh7M",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -102727,21 +102837,14 @@
       "phone": "(714) 897-5650",
       "place_id": "ChIJtXsi0yAm3YARPJ_wJsrAM_M",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "discovered_via": "page_text",
-          "label": "Website specials",
-          "url": "https://restaurants.subway.com/united-states/ca/westminster/14004-beach-boulevard?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=33458&utm_campaign=evergreen-2020&y_source=1_MTQ4OTcwNzYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-        }
-      ],
+      "specials_pages": [],
       "types": [
         "sandwich_shop",
         "fast_food_restaurant",
-        "meal_takeaway",
         "catering_service",
+        "meal_takeaway",
         "food_delivery",
         "restaurant",
         "food",
@@ -102806,26 +102909,19 @@
       "phone": "(714) 894-8500",
       "place_id": "ChIJEdix5FMv3YAR1UxsY09VCj0",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "discovered_via": "page_text",
-          "label": "Website specials",
-          "url": "https://restaurants.subway.com/united-states/ca/westminster/14022-springdale-st?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=6517&utm_campaign=evergreen-2020&y_source=1_MTQ4OTY5NDAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-        }
-      ],
+      "specials_pages": [],
       "types": [
         "sandwich_shop",
         "fast_food_restaurant",
         "catering_service",
-        "food_delivery",
         "meal_takeaway",
+        "food_delivery",
         "restaurant",
         "food",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "https://restaurants.subway.com/united-states/ca/westminster/14022-springdale-st?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=6517&utm_campaign=evergreen-2020&y_source=1_MTQ4OTY5NDAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
@@ -102885,22 +102981,15 @@
       "phone": "(714) 898-0305",
       "place_id": "ChIJz2Ilqz4m3YARdMJHUCq4qqI",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "discovered_via": "page_text",
-          "label": "Website specials",
-          "url": "https://restaurants.subway.com/united-states/ca/westminster/14920-beach-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=230&utm_campaign=evergreen-2020&y_source=1_MTQ5MDYxMTUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-        }
-      ],
+      "specials_pages": [],
       "types": [
         "sandwich_shop",
-        "catering_service",
         "fast_food_restaurant",
-        "food_delivery",
+        "catering_service",
         "meal_takeaway",
+        "food_delivery",
         "restaurant",
         "food",
         "point_of_interest",
@@ -104813,7 +104902,7 @@
       "phone": "(714) 892-1149",
       "place_id": "ChIJpYeocKso3YARSElkB40Y8UE",
       "primary_type": "thai_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -107153,8 +107242,8 @@
       "types": [
         "mexican_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": ""
@@ -108091,7 +108180,7 @@
       "phone": "(714) 893-0996",
       "place_id": "ChIJIaGLc6co3YARYYqRdBvkSng",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -108104,8 +108193,8 @@
       "types": [
         "fast_food_restaurant",
         "taco_restaurant",
-        "mexican_restaurant",
         "burrito_restaurant",
+        "mexican_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -109308,8 +109397,8 @@
       "types": [
         "taco_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": ""
@@ -109369,7 +109458,7 @@
       "phone": "(714) 898-2720",
       "place_id": "ChIJYVlFYK8o3YARlk0ixzPS7JE",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -110943,7 +111032,7 @@
       "phone": "(714) 894-5850",
       "place_id": "ChIJEdix5FMv3YAROPEzOvaIgbc",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -111075,7 +111164,7 @@
       "phone": "(657) 400-9017",
       "place_id": "ChIJOW3gJAcv3YARClX_YQvoY4Y",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -111388,13 +111477,13 @@
         "saturday": [
           {
             "close": "20:30",
-            "open": "09:00"
+            "open": "08:30"
           }
         ],
         "sunday": [
           {
             "close": "20:30",
-            "open": "09:00"
+            "open": "08:30"
           }
         ],
         "thursday": [
@@ -111422,13 +111511,13 @@
       "phone": "(714) 799-0242",
       "place_id": "ChIJIwcheHsp3YARKO9FoNNfuiQ",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
-        "tea_house",
         "cafe",
+        "tea_house",
         "food_store",
         "store",
         "food",
@@ -114345,18 +114434,20 @@
       "phone": "(657) 372-9280",
       "place_id": "ChIJx6-8SLEp3YARyoSgrajQ-kg",
       "primary_type": "restaurant",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
         "taco_restaurant",
         "hamburger_restaurant",
-        "mexican_restaurant",
         "american_restaurant",
+        "mexican_restaurant",
         "food",
         "point_of_interest",
         "establishment"
       ],
-      "website_url": ""
+      "website_url": "http://thecornertacosandburgerfoodtruckca.com/"
     },
     {
       "address": "8900 Westminster Blvd., Westminster, CA 92683, USA",
@@ -114413,7 +114504,7 @@
       "phone": "",
       "place_id": "ChIJOf_vZSsm3YARs2Xyndt8DpY",
       "primary_type": "dim_sum_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -114852,14 +114943,14 @@
       "phone": "(714) 897-8612",
       "place_id": "ChIJ9xb8hSMm3YARs4Zio0HuBYQ",
       "primary_type": "bar",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bar",
+        "sports_bar",
         "irish_pub",
         "pub",
-        "sports_bar",
         "european_restaurant",
         "restaurant",
         "food",
@@ -115561,7 +115652,7 @@
       "phone": "(714) 892-9888",
       "place_id": "ChIJ3xfMMrMn3YARjUGaOWU_aBg",
       "primary_type": "seafood_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -115573,8 +115664,8 @@
       ],
       "types": [
         "seafood_restaurant",
-        "mexican_restaurant",
         "american_restaurant",
+        "mexican_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -115659,7 +115750,7 @@
       "phone": "(714) 799-7770",
       "place_id": "ChIJS9BxA6ko3YARU45vnAjVszg",
       "primary_type": "seafood_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -115672,8 +115763,8 @@
       "types": [
         "seafood_restaurant",
         "cajun_restaurant",
-        "mexican_restaurant",
         "american_restaurant",
+        "mexican_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -117153,38 +117244,44 @@
       "hours": {
         "friday": [
           {
-            "close": "22:00",
-            "open": "10:00"
+            "close": "21:00",
+            "open": "11:00"
           }
         ],
         "monday": [
           {
-            "close": "22:00",
-            "open": "10:00"
+            "close": "21:00",
+            "open": "11:00"
           }
         ],
         "saturday": [
           {
-            "close": "22:00",
-            "open": "10:00"
+            "close": "21:00",
+            "open": "11:00"
           }
         ],
         "sunday": [
           {
-            "close": "22:00",
-            "open": "10:00"
+            "close": "21:00",
+            "open": "11:00"
           }
         ],
         "thursday": [
           {
-            "close": "22:00",
-            "open": "10:00"
+            "close": "21:00",
+            "open": "11:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "21:00",
+            "open": "11:00"
           }
         ],
         "wednesday": [
           {
-            "close": "22:00",
-            "open": "10:00"
+            "close": "21:00",
+            "open": "11:00"
           }
         ]
       },
@@ -117194,14 +117291,14 @@
       "phone": "(714) 462-6209",
       "place_id": "ChIJ88upNkYp3YAR7bAkjuV01kw",
       "primary_type": "asian_fusion_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "asian_fusion_restaurant",
-        "fast_food_restaurant",
         "fusion_restaurant",
         "asian_restaurant",
+        "fast_food_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -117807,7 +117904,7 @@
       "phone": "(714) 891-3344",
       "place_id": "ChIJUXJJzzsp3YARgLLJN_XJv1Q",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -117875,7 +117972,7 @@
       "phone": "(714) 884-4074",
       "place_id": "ChIJr74cercn3YAR9XLTeIo3lm0",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -119748,7 +119845,7 @@
       "phone": "(657) 451-0919",
       "place_id": "ChIJ71bdWQAp3YARi9n3Btru8eY",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -120697,7 +120794,7 @@
       "phone": "(714) 622-4821",
       "place_id": "ChIJNVVQzSwm3YARpaApxgg05Po",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -120983,7 +121080,7 @@
       "phone": "(714) 893-4991",
       "place_id": "ChIJ1cwxCCQm3YARc43oH7j5gIc",
       "primary_type": "diner",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -121412,15 +121509,15 @@
       "phone": "(714) 901-1936",
       "place_id": "ChIJi9JXYTUm3YARI93buBNYPB4",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
-        "point_of_interest",
         "food_store",
         "store",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://findaloco.com/en/directory/van-s-bakery/"
@@ -122297,15 +122394,15 @@
       "phone": "(714) 884-3863",
       "place_id": "ChIJKTVHTQAn3YAReCl8XTJ3Gv8",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
         "cafe",
         "food_store",
-        "food",
         "store",
+        "food",
         "point_of_interest",
         "establishment"
       ],
@@ -123829,9 +123926,15 @@
       "phone": "(714) 799-0020",
       "place_id": "ChIJucmj9Zgo3YAR6lrZlBg-MQ4",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.walmart.com/cp/12-days-of-tech-deals/1608129"
+        },
         {
           "confidence": "high",
           "discovered_via": "sitemap",
@@ -123848,37 +123951,31 @@
           "confidence": "high",
           "discovered_via": "sitemap",
           "label": "Specials",
+          "url": "https://www.walmart.com/cp/enterprise-buys-bulk-deals/4520523"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
           "url": "https://www.walmart.com/cp/flash-deals-og-gm-test/2222867"
         },
         {
           "confidence": "high",
           "discovered_via": "sitemap",
           "label": "Specials",
-          "url": "https://www.walmart.com/cp/foot-care-deals/3250701"
+          "url": "https://www.walmart.com/cp/great-value-pantry-deals/2002490"
         },
         {
           "confidence": "high",
           "discovered_via": "sitemap",
           "label": "Specials",
-          "url": "https://www.walmart.com/cp/great-value-deals/9442036"
-        },
-        {
-          "confidence": "high",
-          "discovered_via": "sitemap",
-          "label": "Specials",
-          "url": "https://www.walmart.com/cp/kids-baby-outerwear-deals/3399440"
+          "url": "https://www.walmart.com/cp/patio-garden-deal-shelves/3495412"
         },
         {
           "confidence": "high",
           "discovered_via": "sitemap",
           "label": "Specials",
           "url": "https://www.walmart.com/cp/photo-deals-redirect/5860954"
-        },
-        {
-          "confidence": "high",
-          "discovered_via": "sitemap",
-          "label": "Specials",
-          "url": "https://www.walmart.com/cp/snack-sip-deals/3225216"
         }
       ],
       "types": [
@@ -126057,7 +126154,7 @@
       "phone": "(714) 891-2382",
       "place_id": "ChIJ29h-oKgo3YARw60vXLQsfwk",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -126111,15 +126208,15 @@
       ],
       "types": [
         "fast_food_restaurant",
-        "ice_cream_shop",
         "hot_dog_restaurant",
         "american_restaurant",
+        "ice_cream_shop",
         "dessert_shop",
         "confectionery",
         "food_store",
+        "store",
         "restaurant",
         "food",
-        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -126987,14 +127084,14 @@
       "phone": "(657) 333-9464",
       "place_id": "ChIJFeAM_Kgn3YARFXp4FyYNY_M",
       "primary_type": "chicken_wings_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chicken_wings_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://www.wingstop.com/location/wingstop-1385-westminster-ca-92683/menu?y_source=1_NTUyMDcwODktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
@@ -127736,7 +127833,7 @@
       "phone": "(714) 248-9652",
       "place_id": "ChIJ-Zl9Y7Un3YAROQ6dzk0Uxqg",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -127981,40 +128078,15 @@
       "phone": "(714) 899-8425",
       "place_id": "ChIJORSGqrAo3YARjcgtk2ZnjA8",
       "primary_type": "japanese_restaurant",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
-      "specials_pages": [
-        {
-          "confidence": "high",
-          "discovered_via": "known_path",
-          "label": "Daily Specials",
-          "url": "https://orderyamasteriyaki.com/daily-specials"
-        },
-        {
-          "confidence": "high",
-          "discovered_via": "known_path",
-          "label": "Dailyspecials",
-          "url": "https://orderyamasteriyaki.com/dailyspecials"
-        },
-        {
-          "confidence": "high",
-          "discovered_via": "known_path",
-          "label": "Happy Hour",
-          "url": "https://orderyamasteriyaki.com/happy-hour"
-        },
-        {
-          "confidence": "high",
-          "discovered_via": "known_path",
-          "label": "Weekday Specials",
-          "url": "https://orderyamasteriyaki.com/weekday-specials"
-        }
-      ],
+      "specials_pages": [],
       "types": [
         "japanese_restaurant",
         "asian_fusion_restaurant",
-        "fast_food_restaurant",
         "fusion_restaurant",
         "asian_restaurant",
+        "fast_food_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -128710,8 +128782,8 @@
       "types": [
         "bakery",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -130137,7 +130209,7 @@
       "phone": "(714) 891-4404",
       "place_id": "ChIJi7G5Oykm3YARUHGtFpB_msI",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-09-17T16:10:31Z",
+      "specials_checked_at": "2026-10-22T18:45:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -130146,9 +130218,9 @@
         "dessert_shop",
         "confectionery",
         "food_store",
+        "store",
         "restaurant",
         "food",
-        "store",
         "point_of_interest",
         "establishment"
       ],
