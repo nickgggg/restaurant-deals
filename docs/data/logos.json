@@ -416,6 +416,11 @@
       "checked_at": "2026-09-23T18:43:17Z",
       "status": "ok"
     },
+    "bitelabgrill.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
     "blackangus.com": {
       "checked_at": "2026-09-17T18:36:20Z",
       "status": "ok"
@@ -1125,6 +1130,10 @@
     },
     "eatlupes.com": {
       "checked_at": "2026-10-05T21:43:32Z",
+      "status": "ok"
+    },
+    "eatsoupshop.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
       "status": "ok"
     },
     "eatssushi.com": {
@@ -3514,6 +3523,19 @@
       "checked_at": "2026-10-22T18:56:48Z",
       "status": "ok"
     },
+    "snipebalboaisland.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "status": "ok"
+    },
+    "socalwings.my.canva.site": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "error": "HTTP Error 404: Not Found",
+      "status": "missing"
+    },
+    "sofraurbana.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "status": "ok"
+    },
     "solcocina.com": {
       "checked_at": "2026-10-02T19:35:12Z",
       "status": "ok"
@@ -3522,13 +3544,48 @@
       "checked_at": "2026-10-02T19:35:12Z",
       "status": "ok"
     },
+    "solidcoffeeroasters.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "status": "ok"
+    },
     "solitatacos.com": {
       "checked_at": "2026-09-16T23:23:49Z",
+      "status": "ok"
+    },
+    "songlongrestaurant.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
       "status": "ok"
     },
     "sonicdrivein.com": {
       "checked_at": "2026-10-17T17:38:01Z",
       "status": "ok"
+    },
+    "sookdal.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "status": "ok"
+    },
+    "sourdoughandco.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "status": "ok"
+    },
+    "spaghettini.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "springdalecafe.net": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "stagbar.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "status": "ok"
+    },
+    "starbucks.ca": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "error": "URL can't contain control characters. '/is/image/sbuxcorp/TD Sustain - Homepage (Medium)-2' (found at least ' ')",
+      "status": "missing"
     },
     "starbucks.com": {
       "checked_at": "2026-10-13T20:28:49Z",
@@ -3536,6 +3593,30 @@
     },
     "starfishcalifornia.com": {
       "checked_at": "2026-10-02T19:35:12Z",
+      "status": "ok"
+    },
+    "stashburger.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "status": "ok"
+    },
+    "steadfastcafe.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "status": "ok"
+    },
+    "steadybrewing.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "status": "ok"
+    },
+    "stereoscopecoffee.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "status": "ok"
+    },
+    "stevescharburger4.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "status": "ok"
+    },
+    "sticksandstoneshb.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
       "status": "ok"
     },
     "stonefiregrill.com": {
@@ -3564,6 +3645,10 @@
     },
     "sushiryokan2go.com": {
       "checked_at": "2026-09-24T18:49:22Z",
+      "status": "ok"
+    },
+    "sweettomatoes.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
       "status": "ok"
     },
     "tacosurf.com": {
@@ -3760,7 +3845,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-10-22T18:56:48Z",
+  "generated_at": "2026-10-23T18:47:47Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -4794,6 +4879,11 @@
       "checked_at": "2026-10-05T21:43:32Z",
       "path": "logos/eatlupes-com.webp",
       "source_url": "https://images.getbento.com/accounts/7d0cc43b721dc96e27dd7c1f176894af/media/images/91586Lupes_Logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=000000&pad=100"
+    },
+    "eatsoupshop.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "path": "logos/eatsoupshop-com.png",
+      "source_url": "https://www.eatsoupshop.com/wp-content/themes/soup-shop-accessible/assets/images/soup-shop-logo.png"
     },
     "eatssushi.com": {
       "background": "#111010",
@@ -7096,6 +7186,16 @@
       "path": "logos/smokingtiger-com.webp",
       "source_url": "https://images.squarespace-cdn.com/content/v1/67edd34c8c69aa68f9f64cf8/1ef8b507-2430-42b4-9f7d-3fd48a908c42/ST+logo+-03.png?format=1500w"
     },
+    "snipebalboaisland.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "path": "logos/snipebalboaisland-com.png",
+      "source_url": "https://snipebalboaisland.com/wp-content/uploads/2019/12/cropped-Snipe-Island-Crafthouse-Logo-1-1.png"
+    },
+    "sofraurbana.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "path": "logos/sofraurbana-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/592bc45aa5790abc03d0bc40/1496040768473-C27CWGI8W8FHL7BRDMX5/Sofra+LOGO.png"
+    },
     "solcocina.com": {
       "background": "#da532c",
       "checked_at": "2026-10-02T19:35:12Z",
@@ -7107,16 +7207,43 @@
       "path": "logos/solgrill-com.png",
       "source_url": "https://static.spotapps.co/website_images/ab_websites/16463_website_v1/logo_new.png"
     },
+    "solidcoffeeroasters.com": {
+      "background": "#e40e0e",
+      "checked_at": "2026-10-23T18:47:47Z",
+      "path": "logos/solidcoffeeroasters-com.webp",
+      "source_url": "https://solidcoffeeroasters.com/cdn/shop/files/Solid_Coffee_Logo_Black-01.png?v=1714001418&width=4340"
+    },
     "solitatacos.com": {
       "background": "#da532c",
       "checked_at": "2026-09-16T23:23:49Z",
       "path": "logos/solitatacos-com.png",
       "source_url": "https://solitatacos.com/apple-touch-icon.png"
     },
+    "songlongrestaurant.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "path": "logos/songlongrestaurant-com.png",
+      "source_url": "https://cdn3.didevelop.com/public/logos/82b3d14ba8762ec3530270bbd3197546.png"
+    },
     "sonicdrivein.com": {
       "checked_at": "2026-10-17T17:38:01Z",
       "path": "logos/sonicdrivein-com.png",
       "source_url": "https://www.sonicdrivein.com/brands/sdi/apple-touch-icon.png"
+    },
+    "sookdal.com": {
+      "background": "#4f4f4f",
+      "checked_at": "2026-10-23T18:47:47Z",
+      "path": "logos/sookdal-com.png",
+      "source_url": "https://cdn.imweb.me/thumbnail/20240328/17bc6ad394292.png"
+    },
+    "sourdoughandco.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "path": "logos/sourdoughandco-com.png",
+      "source_url": "https://sourdoughandco.com/templates/yootheme/cache/8e/logowhite-8ebb1908.png"
+    },
+    "stagbar.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "path": "logos/stagbar-com.webp",
+      "source_url": "https://static.wixstatic.com/media/a9630e_301d398217294ddcab7e797ed76eea51~mv2.png/v1/fill/w_600,h_450,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo-stag.png"
     },
     "starbucks.com": {
       "background": "#242221",
@@ -7128,6 +7255,36 @@
       "checked_at": "2026-10-02T19:35:12Z",
       "path": "logos/starfishcalifornia-com.webp",
       "source_url": "https://starfishhospitalitygroup.com/wp-content/uploads/2023/02/Starfish-LB-Logo-White.png"
+    },
+    "stashburger.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "path": "logos/stashburger-com.webp",
+      "source_url": "https://www.stashburger.com/uploads/b/a78b7430-02b5-11f1-9702-cfb1c577835d/icon_180x180_ios_NzE1Mz.png?width=180"
+    },
+    "steadfastcafe.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "path": "logos/steadfastcafe-com.png",
+      "source_url": "https://steadfastcafe.com/_assets/images/725b756a69a7d4c235070e51acd85560.png"
+    },
+    "steadybrewing.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "path": "logos/steadybrewing-com.webp",
+      "source_url": "https://primary.jwwb.nl/public/t/x/m/temp-qhfyjwxttvrdcfitfsar/image-high-rch3ab.png?enable-io=true&enable=upscale&height=70"
+    },
+    "stereoscopecoffee.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "path": "logos/stereoscopecoffee-com.jpg",
+      "source_url": "https://cdn.sanity.io/images/be35x2gg/production/a7bafcad82f66e12213bb137f30e6d837db3355c-1280x1600.jpg"
+    },
+    "stevescharburger4.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "path": "logos/stevescharburger4-com.png",
+      "source_url": "https://stevescharburger4.com/wp-content/uploads/2024/08/eb98a044-4ef0-4034-a43e-58abc117b339.png"
+    },
+    "sticksandstoneshb.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "path": "logos/sticksandstoneshb-com.png",
+      "source_url": "https://static.spotapps.co/website_images/ab_websites/605814_website_v1/logo.png"
     },
     "stonefiregrill.com": {
       "checked_at": "2026-09-16T23:17:10Z",
@@ -7166,6 +7323,11 @@
       "checked_at": "2026-09-24T18:49:22Z",
       "path": "logos/sushiryokan2go-com.png",
       "source_url": "https://static.spotapps.co/website_images/ab_websites/31553_website_v1/logo.png"
+    },
+    "sweettomatoes.com": {
+      "checked_at": "2026-10-23T18:47:47Z",
+      "path": "logos/sweettomatoes-com.jpg",
+      "source_url": "https://www.sweettomatoes.com/wp-content/uploads/2026/05/cropped-partial-sweettomatoes-logo-192x192.jpg"
     },
     "tacosurf.com": {
       "checked_at": "2026-09-25T18:59:56Z",
