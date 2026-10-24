@@ -59,7 +59,7 @@
     "last_scanned_cities": [
       "Westminster"
     ],
-    "last_source_scan_at": "2026-10-23T18:41:01Z",
+    "last_source_scan_at": "2026-10-24T17:33:15Z",
     "map_cells": 458,
     "official_websites": 1484,
     "operational_count": 1896,
@@ -70,7 +70,7 @@
     "successful_map_cells": 54
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-23T18:41:01Z",
+  "generated_at": "2026-10-24T17:33:15Z",
   "refresh_after": "2026-10-29T18:38:28Z",
   "restaurants": [
     {
@@ -29096,7 +29096,7 @@
       "phone": "(562) 596-8508",
       "place_id": "ChIJG64eir0v3YAR-daX7GhEavs",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_checked_at": "2026-10-24T17:32:36Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -33190,7 +33190,7 @@
       "phone": "(562) 596-0636",
       "place_id": "ChIJaQ3vw90v3YARlJxsz-hMVHE",
       "primary_type": "breakfast_restaurant",
-      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_checked_at": "2026-10-24T17:32:36Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -36029,7 +36029,7 @@
       "phone": "(562) 346-2277",
       "place_id": "ChIJW1vaY-Qv3YAR7s0-nPKvnwk",
       "primary_type": "italian_restaurant",
-      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_checked_at": "2026-10-24T17:32:36Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -36037,6 +36037,12 @@
           "discovered_via": "known_path",
           "label": "Daily Specials",
           "url": "http://finbarsitalian.com/daily-specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Dailyspecials",
+          "url": "http://finbarsitalian.com/dailyspecials"
         },
         {
           "confidence": "high",
@@ -37391,7 +37397,7 @@
       "phone": "(562) 493-0058",
       "place_id": "ChIJ9R2hxF0u3YAR-di7v1Ag60E",
       "primary_type": "chinese_restaurant",
-      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_checked_at": "2026-10-24T17:32:36Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -41805,21 +41811,9 @@
       "phone": "(562) 825-0130",
       "place_id": "ChIJqZq9Bdkv3YARF0HbMfkAOhA",
       "primary_type": "hamburger_restaurant",
-      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_checked_at": "2026-10-24T17:32:36Z",
       "specials_discovery_version": 4,
       "specials_pages": [
-        {
-          "confidence": "high",
-          "discovered_via": "site_link",
-          "label": "$9 Gotta Habit\u2122 Box Deal w/ Santa Barbara Char 750 - 1340 Cal $9.00",
-          "url": "https://order.habitburger.com/store/01e1ed2d-2d9b-ec11-ab22-06d9b436ed5c/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/03191d0b-dac1-4d5c-8cf2-bd1ad18e4f48"
-        },
-        {
-          "confidence": "high",
-          "discovered_via": "site_link",
-          "label": "$9 Gotta Habit\u2122 Box Deal w/ California Chicken 730 - 1320 Cal $9.00",
-          "url": "https://order.habitburger.com/store/01e1ed2d-2d9b-ec11-ab22-06d9b436ed5c/category/4654cbcf-03a5-ea11-aa56-a0a6ff472831/combo/e94baaa4-8286-40ee-bd28-77cb971de06c"
-        },
         {
           "confidence": "medium",
           "discovered_via": "page_text",
@@ -43740,7 +43734,7 @@
       "phone": "(562) 598-6456",
       "place_id": "ChIJewiSa_sv3YAR3QnDrt9ZAIg",
       "primary_type": "bar_and_grill",
-      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_checked_at": "2026-10-24T17:32:36Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -43762,34 +43756,10 @@
           "url": "https://www.hennesseystavern.com/promotions-rewards"
         },
         {
-          "confidence": "high",
-          "discovered_via": "sitemap",
-          "label": "Specials",
-          "url": "https://www.hennesseystavern.com/promotions/bloody-mary"
-        },
-        {
-          "confidence": "high",
-          "discovered_via": "sitemap",
-          "label": "Specials",
-          "url": "https://www.hennesseystavern.com/promotions/cocktail-of-the-month"
-        },
-        {
-          "confidence": "high",
-          "discovered_via": "sitemap",
-          "label": "Specials",
-          "url": "https://www.hennesseystavern.com/promotions/half-century-highball"
-        },
-        {
-          "confidence": "high",
-          "discovered_via": "sitemap",
-          "label": "Specials",
-          "url": "https://www.hennesseystavern.com/promotions/happy-hours"
-        },
-        {
-          "confidence": "high",
-          "discovered_via": "sitemap",
-          "label": "Specials",
-          "url": "https://www.hennesseystavern.com/promotions/monday-all-you-can-eat-ribs"
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://www.hennesseystavern.com/locations-seal-beach"
         }
       ],
       "types": [
@@ -44488,7 +44458,7 @@
       "phone": "(562) 799-9552",
       "place_id": "ChIJY72dLmcu3YARY1cRNz4du_0",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_checked_at": "2026-10-24T17:32:36Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -45364,7 +45334,7 @@
       "phone": "(562) 493-2722",
       "place_id": "ChIJW7hfqa4v3YARb79AzLwjji0",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_checked_at": "2026-10-24T17:32:36Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -46101,7 +46071,7 @@
       "phone": "(562) 430-9009",
       "place_id": "ChIJk4MpMtgv3YARTzBK4MZszgo",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_checked_at": "2026-10-24T17:32:36Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -47882,7 +47852,7 @@
       "phone": "(800) 786-1000",
       "place_id": "ChIJNQzTsiLczYAR06A9OOXb4VQ",
       "primary_type": "hamburger_restaurant",
-      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_checked_at": "2026-10-24T17:32:36Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -48557,7 +48527,7 @@
       "phone": "(562) 431-6400",
       "place_id": "ChIJ3c5MZlMu3YARxgBESjVDHdw",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_checked_at": "2026-10-24T17:32:36Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -50114,7 +50084,7 @@
       "phone": "(562) 626-8202",
       "place_id": "ChIJS_8xEvsv3YARy0LaNg9crms",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_checked_at": "2026-10-24T17:32:36Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
