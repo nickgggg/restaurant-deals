@@ -1,7 +1,988 @@
 {
-  "generated_at": "2026-10-25T17:56:01Z",
+  "generated_at": "2026-10-26T20:12:53Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Taco Tuesday Drink Specials with $6 draft Mexican beer and $8 house margaritas Draft Mexican Beer \u2013 $6 (XX Lager, XX Amber, Corona, Negra Modelo, Modelo Especial, Pacifico) Bottled Mexican Beer \u2013 $5 (Bohemia, Pacifico, Corona, Modelo Especial, Victoria, Negra Modelo, XX Lager, XX Amber) Brewery X \u2013 $5 House Margaritas \u2013 $8 Cadillac Margaritas \u2013 $11 Available at HB location",
+      "canonical_id": "e9c4cd30ef6e08db",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 10,
+      "details": [
+        "Draft Mexican Beer \u2013 $6 (XX Lager, XX Amber, Corona, Negra Modelo, Modelo Especial, Pacifico)",
+        "Bottled Mexican Beer \u2013 $5 (Bohemia, Pacifico, Corona, Modelo Especial, Victoria, Negra Modelo, XX Lager, XX Amber)",
+        "Brewery X \u2013 $5",
+        "House Margaritas \u2013 $8",
+        "Cadillac Margaritas \u2013 $11",
+        "Available at HB location"
+      ],
+      "first_seen": "2026-10-15T18:46:12Z",
+      "id": "8259db6d67f9010d",
+      "is_stale": true,
+      "last_seen": "2026-10-16T02:30:54Z",
+      "location": {
+        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7298377,
+        "longitude": -117.99953239999999,
+        "phone": "(657) 301-2017",
+        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
+      },
+      "quality_score": 68,
+      "restaurant": "Morena's Mexican Cuisine",
+      "retired_at": "2026-10-26T20:12:53Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "TACO TUESDAY",
+        "Taco Tuesday Drink Specials",
+        "Draft Mexican Beer \u2013 $6"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://hb.morenasmex.com/specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Taco Tuesday Drink Specials with $6 draft Mexican beer and $8 house margaritas",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "$6-$8"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Taco Tuesday Drink Specials: Mexican Beer $5-$6, Margaritas $8-$11, Brewery X $5 Draft Mexican Beer \u2013 $6 (XX Lager, XX Amber, Corona, Negra Modelo, Modelo Especial, Pacifico) Bottled Mexican Beer \u2013 $5 (Bohemia, Pacifico, Corona, Modelo Especial, Victoria, Negra Modelo, XX Lager, XX Amber) Brewery X \u2013 $5 House Margaritas \u2013 $8 Cadillac Margaritas \u2013 $11",
+      "canonical_id": "471fe0d4fb3b8328",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 13,
+      "details": [
+        "Draft Mexican Beer \u2013 $6 (XX Lager, XX Amber, Corona, Negra Modelo, Modelo Especial, Pacifico)",
+        "Bottled Mexican Beer \u2013 $5 (Bohemia, Pacifico, Corona, Modelo Especial, Victoria, Negra Modelo, XX Lager, XX Amber)",
+        "Brewery X \u2013 $5",
+        "House Margaritas \u2013 $8",
+        "Cadillac Margaritas \u2013 $11"
+      ],
+      "first_seen": "2026-10-12T22:19:47Z",
+      "id": "cd1715e0f26b0dc4",
+      "is_stale": true,
+      "last_seen": "2026-10-12T22:19:47Z",
+      "location": {
+        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7298377,
+        "longitude": -117.99953239999999,
+        "phone": "(657) 301-2017",
+        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
+      },
+      "quality_score": 68,
+      "restaurant": "Morena's Mexican Cuisine",
+      "retired_at": "2026-10-26T20:12:53Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Taco Tuesday Drink Specials",
+        "Draft Mexican Beer \u2013 $6 (XX Lager, XX Amber, Corona, Negra Modelo, Modelo Especial, Pacifico)"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://hb.morenasmex.com/weekday-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Taco Tuesday Drink Specials: Mexican Beer $5-$6, Margaritas $8-$11, Brewery X $5",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "$5-$6"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "TUE Lunch Chicken Cutlet ($15) Chicken Cutlet Price: $15",
+      "canonical_id": "95e2dd53c924ccd6",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 2,
+      "details": [
+        "Chicken Cutlet",
+        "Price: $15"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "4cf804180e5f8baf",
+      "is_stale": true,
+      "last_seen": "2026-10-24T17:44:31Z",
+      "location": {
+        "address": "20070 Santa Ana Ave, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7820058095980554357&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "14:30",
+              "open": "12:00"
+            },
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "14:30",
+              "open": "12:00"
+            },
+            {
+              "close": "21:00",
+              "open": "17:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ]
+        },
+        "latitude": 33.6653879,
+        "longitude": -117.88268049999999,
+        "phone": "(714) 429-0141",
+        "place_id": "ChIJcSaGHgHf3IARdajW5Wdthmw"
+      },
+      "quality_score": 43,
+      "restaurant": "Kappo Sui / Sazu Sushi",
+      "retired_at": "2026-10-26T20:12:53Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "TUE Lunch",
+        "Chicken Cutlet",
+        "$15"
+      ],
+      "source_notes": "AI-extracted from official restaurant visual media; strict source evidence checked",
+      "source_url": "http://sazu-sushi.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "TUE Lunch Chicken Cutlet ($15)",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "$15"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "WED Lunch Tangy Chicken Bowl ($17) Tangy Chicken Bowl Price: $17",
+      "canonical_id": "81d2e791b60103eb",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 2,
+      "details": [
+        "Tangy Chicken Bowl",
+        "Price: $17"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "c93a398b61169fb2",
+      "is_stale": true,
+      "last_seen": "2026-10-24T17:44:31Z",
+      "location": {
+        "address": "20070 Santa Ana Ave, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7820058095980554357&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "14:30",
+              "open": "12:00"
+            },
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "14:30",
+              "open": "12:00"
+            },
+            {
+              "close": "21:00",
+              "open": "17:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ]
+        },
+        "latitude": 33.6653879,
+        "longitude": -117.88268049999999,
+        "phone": "(714) 429-0141",
+        "place_id": "ChIJcSaGHgHf3IARdajW5Wdthmw"
+      },
+      "quality_score": 43,
+      "restaurant": "Kappo Sui / Sazu Sushi",
+      "retired_at": "2026-10-26T20:12:53Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "WED Lunch",
+        "Tangy Chicken Bowl",
+        "$17"
+      ],
+      "source_notes": "AI-extracted from official restaurant visual media; strict source evidence checked",
+      "source_url": "http://sazu-sushi.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "WED Lunch Tangy Chicken Bowl ($17)",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Wed",
+      "value_label": "$17"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "thursday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "THUR Lunch Stir-fried Miso Eggplant ($16) Stir-fried Miso Eggplant Price: $16",
+      "canonical_id": "baf153cd202c31d8",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 2,
+      "details": [
+        "Stir-fried Miso Eggplant",
+        "Price: $16"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "baa99862a7db61ae",
+      "is_stale": true,
+      "last_seen": "2026-10-24T17:44:31Z",
+      "location": {
+        "address": "20070 Santa Ana Ave, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7820058095980554357&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "14:30",
+              "open": "12:00"
+            },
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "14:30",
+              "open": "12:00"
+            },
+            {
+              "close": "21:00",
+              "open": "17:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ]
+        },
+        "latitude": 33.6653879,
+        "longitude": -117.88268049999999,
+        "phone": "(714) 429-0141",
+        "place_id": "ChIJcSaGHgHf3IARdajW5Wdthmw"
+      },
+      "quality_score": 43,
+      "restaurant": "Kappo Sui / Sazu Sushi",
+      "retired_at": "2026-10-26T20:12:53Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "THUR Lunch",
+        "Stir-fried Miso Eggplant",
+        "$16"
+      ],
+      "source_notes": "AI-extracted from official restaurant visual media; strict source evidence checked",
+      "source_url": "http://sazu-sushi.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "THUR Lunch Stir-fried Miso Eggplant ($16)",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Thu",
+      "value_label": "$16"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "saturday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "SAT Lunch Deep-fried Jambo Shrimp ($18) Deep-fried Jambo Shrimp Price: $18",
+      "canonical_id": "ede456364f755642",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 2,
+      "details": [
+        "Deep-fried Jambo Shrimp",
+        "Price: $18"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "e0f7161f52f38e2b",
+      "is_stale": true,
+      "last_seen": "2026-10-24T17:44:31Z",
+      "location": {
+        "address": "20070 Santa Ana Ave, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7820058095980554357&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "14:30",
+              "open": "12:00"
+            },
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "14:30",
+              "open": "12:00"
+            },
+            {
+              "close": "21:00",
+              "open": "17:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "14:00",
+              "open": "11:30"
+            },
+            {
+              "close": "22:00",
+              "open": "17:30"
+            }
+          ]
+        },
+        "latitude": 33.6653879,
+        "longitude": -117.88268049999999,
+        "phone": "(714) 429-0141",
+        "place_id": "ChIJcSaGHgHf3IARdajW5Wdthmw"
+      },
+      "quality_score": 43,
+      "restaurant": "Kappo Sui / Sazu Sushi",
+      "retired_at": "2026-10-26T20:12:53Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "SAT Lunch",
+        "Deep-fried Jambo Shrimp",
+        "$18"
+      ],
+      "source_notes": "AI-extracted from official restaurant visual media; strict source evidence checked",
+      "source_url": "http://sazu-sushi.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "SAT Lunch Deep-fried Jambo Shrimp ($18)",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Sat",
+      "value_label": "$18"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour: Pizza/Appetizers $8, Bottle beers from $4, Wine/Well $7, Cocktails/Martinis $8 Pizza and Appetizers $8.00 Bottle beers start at $4.00 Wine and Well Drinks $7.00 Cocktails and Martinis $8.00",
+      "canonical_id": "4cb7904b9d2ea14e",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Seal Beach",
+      "days_since_seen": 22,
+      "details": [
+        "Pizza and Appetizers $8.00",
+        "Bottle beers start at $4.00",
+        "Wine and Well Drinks $7.00",
+        "Cocktails and Martinis $8.00"
+      ],
+      "first_seen": "2026-09-28T20:59:27Z",
+      "id": "c678ae3f84aafb4c",
+      "is_stale": true,
+      "last_seen": "2026-10-04T18:26:08Z",
+      "location": {
+        "address": "1041 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=693466324176653806&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7445792,
+        "longitude": -118.10073279999999,
+        "phone": "(562) 346-2277",
+        "place_id": "ChIJW1vaY-Qv3YAR7s0-nPKvnwk"
+      },
+      "quality_score": 60,
+      "restaurant": "Finbars Italian Kitchen",
+      "retired_at": "2026-10-26T20:12:53Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Happy Hour $4.00 to $8.00 from 3 to 6! Pizza and Appetizers $8.00. Bottle beers start at $4.00. Wine and Well Drinks $7.00, Cocktails and Martinis $8.00."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://finbarsitalian.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour: Pizza/Appetizers $8, Bottle beers from $4, Wine/Well $7, Cocktails/Martinis $8",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$4-$8"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "All You Can Eat Taco Tuesdays for $9.99 Choice of grilled chicken, carne asada, ground beef or veggie tacos served with rice and beans One beverage min purchase required Price: $9.99 per person",
+      "canonical_id": "56dd3772c9627dc8",
+      "categories": [
+        "food"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 1,
+      "details": [
+        "Choice of grilled chicken, carne asada, ground beef or veggie tacos served with rice and beans",
+        "One beverage min purchase required",
+        "Price: $9.99 per person"
+      ],
+      "first_seen": "2026-10-02T16:30:35Z",
+      "id": "159b1e46b9426a73",
+      "is_stale": true,
+      "last_seen": "2026-10-25T17:56:01Z",
+      "location": {
+        "address": "100 Main St, Newport Beach, CA 92661, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:30",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6013728,
+        "longitude": -117.89955119999999,
+        "phone": "(949) 675-7760",
+        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
+      },
+      "quality_score": 43,
+      "restaurant": "Cabo Cantina",
+      "retired_at": "2026-10-26T20:12:53Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "All You Can Eat Taco Tuesdays! $9.99 per person, your choice of grilled chicken, carne asada, ground beef or veggie tacos server with rice and beans. One beverage min purchase required."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cabocantina.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "All You Can Eat Taco Tuesdays for $9.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "$9.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Social Mimosas for $20.99 A full bottle of champagne and a carafe of orange juice, perfect for sharing Price: $20.99",
+      "canonical_id": "b9ce46741bc5321f",
+      "categories": [
+        "drink"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 1,
+      "details": [
+        "A full bottle of champagne and a carafe of orange juice, perfect for sharing",
+        "Price: $20.99"
+      ],
+      "first_seen": "2026-10-01T19:54:41Z",
+      "id": "e462c3c0d349b6f0",
+      "is_stale": true,
+      "last_seen": "2026-10-25T17:56:01Z",
+      "location": {
+        "address": "100 Main St, Newport Beach, CA 92661, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:30",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6013728,
+        "longitude": -117.89955119999999,
+        "phone": "(949) 675-7760",
+        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
+      },
+      "quality_score": 50,
+      "restaurant": "Cabo Cantina",
+      "retired_at": "2026-10-26T20:12:53Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Social Mimosas! A full bottle of champagne and a carafe of orange juice, perfect for sharing! Only $20.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cabocantina.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Social Mimosas for $20.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$20.99"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
@@ -4958,101 +5939,6 @@
       "value_label": "2-for-1"
     },
     {
-      "ai_confidence": 0.95,
-      "applies_days": [
-        "tuesday"
-      ],
-      "applies_month_days": [],
-      "candidate_text": "All You Can Eat Taco Tuesdays for $9.99 Choice of grilled chicken, carne asada, ground beef or veggie tacos served with rice and beans One beverage min purchase required Price: $9.99 per person",
-      "canonical_id": "2dada79038afeee8",
-      "categories": [
-        "food"
-      ],
-      "city": "Newport Beach",
-      "days_since_seen": 2,
-      "details": [
-        "Choice of grilled chicken, carne asada, ground beef or veggie tacos served with rice and beans",
-        "One beverage min purchase required",
-        "Price: $9.99 per person"
-      ],
-      "first_seen": "2026-10-02T16:30:35Z",
-      "id": "159b1e46b9426a73",
-      "is_stale": true,
-      "last_seen": "2026-10-20T18:54:53Z",
-      "location": {
-        "address": "100 Main St, Newport Beach, CA 92661, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:30",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:30",
-              "open": "09:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "09:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ]
-        },
-        "latitude": 33.6013728,
-        "longitude": -117.89955119999999,
-        "phone": "(949) 675-7760",
-        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
-      },
-      "quality_score": 43,
-      "restaurant": "Cabo Cantina",
-      "retired_at": "2026-10-22T18:56:47Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "All You Can Eat Taco Tuesdays! $9.99 per person, your choice of grilled chicken, carne asada, ground beef or veggie tacos server with rice and beans. One beverage min purchase required."
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://www.cabocantina.com/daily-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "All You Can Eat Taco Tuesdays for $9.99",
-      "tags": [
-        "dollar_amount"
-      ],
-      "time_window": null,
-      "valid_through": null,
-      "validity": "Tue",
-      "value_label": "$9.99"
-    },
-    {
       "ai_confidence": 0.9,
       "applies_days": [
         "thursday"
@@ -6220,98 +7106,6 @@
       "valid_through": null,
       "validity": "Tue",
       "value_label": "$9.99"
-    },
-    {
-      "ai_confidence": 0.95,
-      "applies_days": [],
-      "applies_month_days": [],
-      "candidate_text": "Social Mimosas for $20.99 A full bottle of champagne and a carafe of orange juice, perfect for sharing Price: $20.99",
-      "canonical_id": "8e8b01631a59d630",
-      "categories": [
-        "drink"
-      ],
-      "city": "Newport Beach",
-      "days_since_seen": 1,
-      "details": [
-        "A full bottle of champagne and a carafe of orange juice, perfect for sharing",
-        "Price: $20.99"
-      ],
-      "first_seen": "2026-10-01T19:54:41Z",
-      "id": "e462c3c0d349b6f0",
-      "is_stale": true,
-      "last_seen": "2026-10-20T18:54:53Z",
-      "location": {
-        "address": "100 Main St, Newport Beach, CA 92661, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:30",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:30",
-              "open": "09:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "09:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ]
-        },
-        "latitude": 33.6013728,
-        "longitude": -117.89955119999999,
-        "phone": "(949) 675-7760",
-        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
-      },
-      "quality_score": 50,
-      "restaurant": "Cabo Cantina",
-      "retired_at": "2026-10-21T18:59:01Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "Social Mimosas! A full bottle of champagne and a carafe of orange juice, perfect for sharing! Only $20.99"
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://www.cabocantina.com/daily-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Social Mimosas for $20.99",
-      "tags": [
-        "dollar_amount"
-      ],
-      "time_window": null,
-      "valid_through": null,
-      "validity": "Check source",
-      "value_label": "$20.99"
     },
     {
       "ai_confidence": 0.95,

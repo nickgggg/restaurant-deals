@@ -884,6 +884,10 @@
       "error": "HTTP Error 404: ",
       "status": "missing"
     },
+    "costamesacountryclub.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "status": "ok"
+    },
     "costaoc.com": {
       "checked_at": "2026-09-20T17:44:41Z",
       "status": "ok"
@@ -2738,6 +2742,10 @@
       "checked_at": "2026-10-24T17:44:32Z",
       "status": "ok"
     },
+    "order.tacosmadrerest.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "status": "ok"
+    },
     "order.thanx.com": {
       "checked_at": "2026-10-12T22:19:48Z",
       "error": "HTTP Error 403: Forbidden",
@@ -3804,8 +3812,38 @@
       "error": "<urlopen error [SSL] record layer failure (_ssl.c:1010)>",
       "status": "missing"
     },
+    "tacoselranchoca.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "error": "<urlopen error [SSL] record layer failure (_ssl.c:1010)>",
+      "status": "missing"
+    },
+    "tacosgalloloco.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "status": "ok"
+    },
+    "tacoslatoxicagardengroveca.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "error": "Not Found",
+      "status": "missing"
+    },
+    "tacosmadrerest.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "status": "ok"
+    },
+    "tacosmexico.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "status": "ok"
+    },
+    "tacosmiranda.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "status": "ok"
+    },
     "tacosnco.com": {
       "checked_at": "2026-10-25T17:56:02Z",
+      "status": "ok"
+    },
+    "tacosocampocatering.us": {
+      "checked_at": "2026-10-26T20:12:54Z",
       "status": "ok"
     },
     "tacosurf.com": {
@@ -3816,6 +3854,43 @@
       "checked_at": "2026-10-18T17:37:50Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
+    },
+    "tamasushihb.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "status": "ok"
+    },
+    "taqueria-guerrero-style.cloveronline.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "status": "ok"
+    },
+    "taqueriadeandagrill.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "status": "ok"
+    },
+    "taqueriamexicoca.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "status": "ok"
+    },
+    "tasteofitalyristorantegroup.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "status": "ok"
+    },
+    "tatyscoffee.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "status": "ok"
+    },
+    "tavernhousekb.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "status": "ok"
+    },
+    "telefericbarcelona.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "error": "asset is too large",
+      "status": "missing"
+    },
+    "teriyakimadness.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "status": "ok"
     },
     "thaionmain.com": {
       "checked_at": "2026-09-29T19:43:40Z",
@@ -3878,6 +3953,10 @@
       "checked_at": "2026-09-25T18:59:56Z",
       "status": "ok"
     },
+    "themenustar1.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "status": "ok"
+    },
     "themimigarden.com": {
       "checked_at": "2026-10-06T23:44:23Z",
       "status": "ok"
@@ -3909,6 +3988,11 @@
     "tkebob.com": {
       "checked_at": "2026-10-25T17:56:02Z",
       "error": "<urlopen error [Errno -2] Name or service not known>",
+      "status": "missing"
+    },
+    "toasttab.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
     "topbusinessesusa.top": {
@@ -4011,7 +4095,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-10-25T17:56:02Z",
+  "generated_at": "2026-10-26T20:12:54Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -4825,6 +4909,11 @@
       "checked_at": "2026-10-08T20:15:36Z",
       "path": "logos/comtamkieugianggg-com.png",
       "source_url": "https://production-cdn-hdb5b9fwgnb9bdf9.z01.azurefd.net/sitecontent/website/images/apple-touch-icon.png?lu=348122e9f09b1d200e84cd53cbd4d0f6"
+    },
+    "costamesacountryclub.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "path": "logos/costamesacountryclub-com.webp",
+      "source_url": "https://www.costamesacountryclub.com/wp-content/uploads/sites/7766/2021/07/MAINLOGO_COLOR.png"
     },
     "costaoc.com": {
       "checked_at": "2026-09-20T17:44:41Z",
@@ -6600,6 +6689,11 @@
       "path": "logos/order-subway-com.jpg",
       "source_url": "https://www.subway.com/en-us/media_1a7e1631136d45796ad4ac7647ac41697dc853986.avif?width=1200&format=pjpg&optimize=medium"
     },
+    "order.tacosmadrerest.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "path": "logos/order-tacosmadrerest-com.webp",
+      "source_url": "https://ucarecdn.com/43a3f13a-f758-401f-88be-8cb5536baa3a/-/resize/x50/-/progressive/yes/Logo2.jpg"
+    },
     "orderamecipizzapasta.com": {
       "background": "#000000",
       "checked_at": "2026-09-16T18:34:31Z",
@@ -7633,15 +7727,82 @@
       "path": "logos/sweettraders-com.jpg",
       "source_url": "https://static.wixstatic.com/media/637b19_21ab080ab21b4d6b99872c1c29ef717a%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/637b19_21ab080ab21b4d6b99872c1c29ef717a%7Emv2.jpg"
     },
+    "tacosgalloloco.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "path": "logos/tacosgalloloco-com.webp",
+      "source_url": "https://pncongress2023.org/foto/bonuscinta.webp"
+    },
+    "tacosmadrerest.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "path": "logos/tacosmadrerest-com.jpg",
+      "source_url": "https://cdn.prod.website-files.com/618e88df35186f50b361d1dc/6a597d1e363239d2e44600bd_Graph.jpg"
+    },
+    "tacosmexico.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "path": "logos/tacosmexico-com.png",
+      "source_url": "https://tacosmexico.com/wp-content/uploads/2026/03/tacos-mexico-logo.png"
+    },
+    "tacosmiranda.com": {
+      "background": "#000000",
+      "checked_at": "2026-10-26T20:12:54Z",
+      "path": "logos/tacosmiranda-com.png",
+      "source_url": "https://tacosmiranda.com/og-image.png"
+    },
     "tacosnco.com": {
       "checked_at": "2026-10-25T17:56:02Z",
       "path": "logos/tacosnco-com.ico",
       "source_url": "https://tacosnco.com/wp-content/themes/cafe-pro/images/favicon.ico"
     },
+    "tacosocampocatering.us": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "path": "logos/tacosocampocatering-us.webp",
+      "source_url": "https://tacosocampocatering.us/wp-content/uploads/2025/04/cropped-3-1-192x192.png"
+    },
     "tacosurf.com": {
       "checked_at": "2026-09-25T18:59:56Z",
       "path": "logos/tacosurf-com.webp",
       "source_url": "https://images.squarespace-cdn.com/content/64bcab288cbe5168d8340eba/65b7305a-ed1b-4be9-8a69-5a885555963c/jBYVldwary.png?content-type=image%2Fpng"
+    },
+    "tamasushihb.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "path": "logos/tamasushihb-com.png",
+      "source_url": "https://tamasushihb.com/wp-content/uploads/2021/11/cropped-Tama-Sushi-Logo_03-192x192.png"
+    },
+    "taqueria-guerrero-style.cloveronline.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "path": "logos/taqueria-guerrero-style-cloveronline-com.png",
+      "source_url": "https://taqueria-guerrero-style.cloveronline.com/apple-touch-icon.png"
+    },
+    "taqueriadeandagrill.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "path": "logos/taqueriadeandagrill-com.png",
+      "source_url": "https://www.taqueriadeandagrill.com/wp-content/uploads/2017/03/Main-Logo.png"
+    },
+    "taqueriamexicoca.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "path": "logos/taqueriamexicoca-com.png",
+      "source_url": "https://production-cdn-hdb5b9fwgnb9bdf9.z01.azurefd.net/sitecontent/website/images/apple-touch-icon.png?lu=348122e9f09b1d200e84cd53cbd4d0f6"
+    },
+    "tasteofitalyristorantegroup.com": {
+      "background": "#9f9689",
+      "checked_at": "2026-10-26T20:12:54Z",
+      "path": "logos/tasteofitalyristorantegroup-com.webp",
+      "source_url": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:180,h:180,m"
+    },
+    "tatyscoffee.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "path": "logos/tatyscoffee-com.webp",
+      "source_url": "https://framerusercontent.com/images/1W8jVOKYITWzTti4YI5h8nLtYw.png"
+    },
+    "tavernhousekb.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "path": "logos/tavernhousekb-com.webp",
+      "source_url": "https://tavernhousekb.com/images/tkb-logo.webp"
+    },
+    "teriyakimadness.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "path": "logos/teriyakimadness-com.webp",
+      "source_url": "https://cdn-ileggde.nitrocdn.com/oeXMDmiQvSVnwnYCHZiZuePUVHFUsptP/assets/images/optimized/rev-d412154/teriyakimadness.com/wp-content/uploads/2017/01/cropped-1tmadflame-1-192x192.png"
     },
     "thaionmain.com": {
       "checked_at": "2026-09-29T19:43:40Z",
@@ -7714,6 +7875,11 @@
       "checked_at": "2026-09-25T18:59:56Z",
       "path": "logos/thelab-com.webp",
       "source_url": "https://images.squarespace-cdn.com/content/6283f20aeb82ba0b5111fe51/6d36c73b-07a5-41df-be72-8f522e2de122/6lzkCSNc.jpeg?format=1500w&content-type=image%2Fjpeg"
+    },
+    "themenustar1.com": {
+      "checked_at": "2026-10-26T20:12:54Z",
+      "path": "logos/themenustar1-com.png",
+      "source_url": "https://getmenustar.com/wp-content/uploads/2015/08/sticky.png"
     },
     "themimigarden.com": {
       "checked_at": "2026-10-06T23:44:23Z",
