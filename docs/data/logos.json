@@ -335,6 +335,11 @@
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
+    "beachhousesb.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "error": "asset is too large",
+      "status": "missing"
+    },
     "beachhutdeli.com": {
       "checked_at": "2026-09-17T16:21:01Z",
       "status": "ok"
@@ -856,6 +861,10 @@
       "checked_at": "2026-10-02T19:35:12Z",
       "status": "ok"
     },
+    "coffeebean.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "status": "ok"
+    },
     "coffeedose.cafe": {
       "checked_at": "2026-09-20T17:44:41Z",
       "status": "ok"
@@ -1148,6 +1157,15 @@
       "checked_at": "2026-10-16T18:32:31Z",
       "status": "ok"
     },
+    "eatthaiharbor.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "eatthaionfire.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "status": "ok"
+    },
     "edgeatvea.com": {
       "checked_at": "2026-10-02T19:35:12Z",
       "status": "ok"
@@ -1204,6 +1222,11 @@
     "endlessquestroasters.com": {
       "checked_at": "2026-09-23T18:43:17Z",
       "error": "asset is too large",
+      "status": "missing"
+    },
+    "epicburritoshack.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
     "ericasbreadboutique.com": {
@@ -3892,20 +3915,62 @@
       "checked_at": "2026-10-26T20:12:54Z",
       "status": "ok"
     },
+    "terracebymixmix.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "status": "ok"
+    },
+    "thaiavenuegardengrove.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "status": "ok"
+    },
+    "thaifamouscuisineca.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "status": "ok"
+    },
+    "thaifixrestaurant.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
     "thaionmain.com": {
       "checked_at": "2026-09-29T19:43:40Z",
+      "status": "ok"
+    },
+    "thaipepper.net": {
+      "checked_at": "2026-10-27T19:42:47Z",
       "status": "ok"
     },
     "thaiwavehuntingtonbeach.com": {
       "checked_at": "2026-09-16T23:17:10Z",
       "status": "ok"
     },
+    "the-brant.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "status": "ok"
+    },
     "thealleynewportbeach.com": {
       "checked_at": "2026-10-04T18:26:14Z",
       "status": "ok"
     },
+    "thebakingfool.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "error": "Not Found",
+      "status": "missing"
+    },
+    "theblacktrumpetbistro.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "status": "ok"
+    },
+    "thebluebeet.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "status": "ok"
+    },
     "theboildaddy.com": {
       "checked_at": "2026-10-08T20:15:36Z",
+      "status": "ok"
+    },
+    "theboilingcrab.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
       "status": "ok"
     },
     "theboulevardoc.com": {
@@ -3916,10 +3981,27 @@
       "checked_at": "2026-09-18T18:00:36Z",
       "status": "ok"
     },
+    "theburgerden.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "status": "ok"
+    },
+    "thecapitalgrille.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "status": "ok"
+    },
+    "thechickenshopoc.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
     "thechobophouse.com": {
       "checked_at": "2026-09-20T17:44:41Z",
       "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
       "status": "missing"
+    },
+    "thecoffeetale.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "status": "ok"
     },
     "thedinospizza.com": {
       "checked_at": "2026-09-17T16:21:01Z",
@@ -3971,6 +4053,10 @@
     },
     "thesubmarinecrab.com": {
       "checked_at": "2026-10-24T17:44:32Z",
+      "status": "ok"
+    },
+    "thethaistation.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
       "status": "ok"
     },
     "thirdplacecm.com": {
@@ -4095,7 +4181,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-10-26T20:12:54Z",
+  "generated_at": "2026-10-27T19:42:47Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -4900,6 +4986,12 @@
       "path": "logos/coffeeatyourwedding-com.webp",
       "source_url": "https://images.squarespace-cdn.com/content/6a7e2eeb45974a7affd589ac/0f544d11-a6f9-47ff-a022-32f9fe923c7e/CAYW.png?content-type=image%2Fpng"
     },
+    "coffeebean.com": {
+      "background": "#9757bf",
+      "checked_at": "2026-10-27T19:42:47Z",
+      "path": "logos/coffeebean-com.webp",
+      "source_url": "https://www.coffeebean.com/cdn/shop/collections/Coffee-Bean-Shop-Header-Drinkware.jpg?v=1770762718&width=80"
+    },
     "coffeedose.cafe": {
       "checked_at": "2026-09-20T17:44:41Z",
       "path": "logos/coffeedose-cafe.webp",
@@ -5151,6 +5243,12 @@
       "checked_at": "2026-10-16T18:32:31Z",
       "path": "logos/eatssushitonari-com.webp",
       "source_url": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:180,h:180,m"
+    },
+    "eatthaionfire.com": {
+      "background": "#da532c",
+      "checked_at": "2026-10-27T19:42:47Z",
+      "path": "logos/eatthaionfire-com.png",
+      "source_url": "https://static.spotapps.co/website_images/ab_websites/93876_website/logo.png"
     },
     "edgeatvea.com": {
       "checked_at": "2026-10-02T19:35:12Z",
@@ -7804,26 +7902,66 @@
       "path": "logos/teriyakimadness-com.webp",
       "source_url": "https://cdn-ileggde.nitrocdn.com/oeXMDmiQvSVnwnYCHZiZuePUVHFUsptP/assets/images/optimized/rev-d412154/teriyakimadness.com/wp-content/uploads/2017/01/cropped-1tmadflame-1-192x192.png"
     },
+    "terracebymixmix.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "path": "logos/terracebymixmix-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/5af3f11caa49a190515f22d3/1536385633248-EFJA68RV4F3CORVKO1EA/Terrace_Logo_header-white.png?content-type=image%2Fpng"
+    },
+    "thaiavenuegardengrove.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "path": "logos/thaiavenuegardengrove-com.png",
+      "source_url": "https://thaiavenuegardengrove.com/wp-content/uploads/elementor/thumbs/logo-header-otibiyrexi35rggjiiag42k5gery8ph6wkyirojcgg.png"
+    },
+    "thaifamouscuisineca.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "path": "logos/thaifamouscuisineca-com.png",
+      "source_url": "https://production-cdn-hdb5b9fwgnb9bdf9.z01.azurefd.net/sitecontent/website/images/apple-touch-icon.png?lu=348122e9f09b1d200e84cd53cbd4d0f6"
+    },
     "thaionmain.com": {
       "checked_at": "2026-09-29T19:43:40Z",
       "path": "logos/thaionmain-com.webp",
       "source_url": "https://thaionmain.com/images/logo.webp"
+    },
+    "thaipepper.net": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "path": "logos/thaipepper-net.jpg",
+      "source_url": "https://thaipepper.net/wp-content/uploads/2021/04/cropped-fav-192x192.jpg"
     },
     "thaiwavehuntingtonbeach.com": {
       "checked_at": "2026-09-16T23:17:10Z",
       "path": "logos/thaiwavehuntingtonbeach-com.png",
       "source_url": "https://static.spotapps.co/website_images/ab_websites/147426_website_v1/logo.png"
     },
+    "the-brant.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "path": "logos/the-brant-com.png",
+      "source_url": "https://static.spotapps.co/website_images/landing-page-images/855888_landing/logo.png"
+    },
     "thealleynewportbeach.com": {
       "checked_at": "2026-10-04T18:26:14Z",
       "path": "logos/thealleynewportbeach-com.png",
       "source_url": "https://thealleynewportbeach.com/application/views/themes/theme-1/assets/images/alley-logo.png"
+    },
+    "theblacktrumpetbistro.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "path": "logos/theblacktrumpetbistro-com.webp",
+      "source_url": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3-us-west-2.amazonaws.com/media/photosV2/ac3262db-5230-46e0-b448-d05d69bf8339-retina-large.png"
+    },
+    "thebluebeet.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "path": "logos/thebluebeet-com.png",
+      "source_url": "https://www.thebluebeet.com/sites/all/themes/evolve/logo.png"
     },
     "theboildaddy.com": {
       "background": "#da532c",
       "checked_at": "2026-10-08T20:15:36Z",
       "path": "logos/theboildaddy-com.png",
       "source_url": "https://static.spotapps.co/website_images/ab_websites/125247_website/logo_2.png"
+    },
+    "theboilingcrab.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "path": "logos/theboilingcrab-com.png",
+      "source_url": "https://theboilingcrab.com/wp-content/uploads/2019/03/logo_whitecircle.png"
     },
     "theboulevardoc.com": {
       "checked_at": "2026-09-16T23:17:10Z",
@@ -7834,6 +7972,21 @@
       "checked_at": "2026-09-18T18:00:36Z",
       "path": "logos/thebrokenyolkcafe-com.webp",
       "source_url": "https://cdn.prod.website-files.com/697b5e863eea3505751a1305/69fbd9aef939d51096a6cb6e_theBrokenYolkCafe.webp"
+    },
+    "theburgerden.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "path": "logos/theburgerden-com.png",
+      "source_url": "https://www.theburgerden.com/themes/custom/burgerden/logo.png"
+    },
+    "thecapitalgrille.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "path": "logos/thecapitalgrille-com.png",
+      "source_url": "https://media.thecapitalgrille.com/images/site/responsive/logo.png"
+    },
+    "thecoffeetale.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "path": "logos/thecoffeetale-com.webp",
+      "source_url": "https://thecoffeetale.com/wp-content/uploads/2015/04/the-coffee-tale.png?w=300"
     },
     "thedinospizza.com": {
       "checked_at": "2026-09-17T16:21:01Z",
@@ -7900,6 +8053,11 @@
       "checked_at": "2026-10-24T17:44:32Z",
       "path": "logos/thesubmarinecrab-com.png",
       "source_url": "https://static.wixstatic.com/media/bda260_bc641fefd7f643198e6cc99e7745fb6e%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/bda260_bc641fefd7f643198e6cc99e7745fb6e%7Emv2.png"
+    },
+    "thethaistation.com": {
+      "checked_at": "2026-10-27T19:42:47Z",
+      "path": "logos/thethaistation-com.png",
+      "source_url": "https://thethaistation.com/wp-content/uploads/2025/12/cropped-logo1080-192x192.png"
     },
     "thirdplacecm.com": {
       "background": "#808080",
