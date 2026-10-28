@@ -1025,6 +1025,10 @@
       "checked_at": "2026-10-08T20:15:36Z",
       "status": "ok"
     },
+    "dineatthedock.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "status": "ok"
+    },
     "dinelittlesister.com": {
       "checked_at": "2026-10-04T18:26:14Z",
       "status": "ok"
@@ -2235,6 +2239,10 @@
       "checked_at": "2026-10-16T18:32:31Z",
       "status": "ok"
     },
+    "mamadsitalian.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "status": "ok"
+    },
     "mamahieusoc.com": {
       "checked_at": "2026-10-06T19:53:15Z",
       "status": "ok"
@@ -2307,6 +2315,11 @@
     "marnisoc.com": {
       "checked_at": "2026-09-26T18:03:52Z",
       "status": "ok"
+    },
+    "marriott.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
     },
     "marusushiupland.net": {
       "checked_at": "2026-10-06T19:53:15Z",
@@ -3948,6 +3961,11 @@
       "checked_at": "2026-10-27T19:42:47Z",
       "status": "ok"
     },
+    "the-mamba.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "error": "no supported site icon found",
+      "status": "missing"
+    },
     "thealleynewportbeach.com": {
       "checked_at": "2026-10-04T18:26:14Z",
       "status": "ok"
@@ -4003,8 +4021,33 @@
       "checked_at": "2026-10-27T19:42:47Z",
       "status": "ok"
     },
+    "thecornerhb.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "error": "timed out",
+      "status": "missing"
+    },
+    "thecornertacosandburgerfoodtruckca.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "status": "ok"
+    },
+    "thedimsumco.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "status": "ok"
+    },
     "thedinospizza.com": {
       "checked_at": "2026-09-17T16:21:01Z",
+      "status": "ok"
+    },
+    "thedonutteryhb.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "status": "ok"
+    },
+    "thefeteerguymenu.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "status": "ok"
+    },
+    "thefightingitalian.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
       "status": "ok"
     },
     "thegalleycafenewportbeach.com": {
@@ -4023,16 +4066,53 @@
       "checked_at": "2026-10-16T18:32:31Z",
       "status": "ok"
     },
+    "thegreengirlsaloon.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "status": "ok"
+    },
+    "theguildclub.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "status": "ok"
+    },
     "thehangoutrestaurant.com": {
       "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
+    "thehbhouse.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
       "status": "ok"
     },
     "thehummusrepublic.com": {
       "checked_at": "2026-10-10T18:54:27Z",
       "status": "ok"
     },
+    "theirishman.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "status": "ok"
+    },
+    "thekebabshop.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "error": "no supported site icon found",
+      "status": "missing"
+    },
+    "thekickincrab.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "status": "ok"
+    },
     "thelab.com": {
       "checked_at": "2026-09-25T18:59:56Z",
+      "status": "ok"
+    },
+    "thelighthousehuntington.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "status": "ok"
+    },
+    "thelostbean.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "status": "ok"
+    },
+    "themeltdown.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
       "status": "ok"
     },
     "themenustar1.com": {
@@ -4041,6 +4121,10 @@
     },
     "themimigarden.com": {
       "checked_at": "2026-10-06T23:44:23Z",
+      "status": "ok"
+    },
+    "themooncoffee.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
       "status": "ok"
     },
     "theplayababytruck.com": {
@@ -4181,7 +4265,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-10-27T19:42:47Z",
+  "generated_at": "2026-10-28T19:55:57Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -5123,6 +5207,11 @@
       "checked_at": "2026-10-08T20:15:36Z",
       "path": "logos/dineatbuca-com.webp",
       "source_url": "https://dineatbuca.com/wp-content/uploads/2024/09/logo.png"
+    },
+    "dineatthedock.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "path": "logos/dineatthedock-com.png",
+      "source_url": "https://cdn.prod.website-files.com/6a1600ab807dacda4c589856/6a1600ab807dacda4c589925_Button-Shape.png"
     },
     "dinelittlesister.com": {
       "checked_at": "2026-10-04T18:26:14Z",
@@ -6292,6 +6381,11 @@
       "checked_at": "2026-10-16T18:32:31Z",
       "path": "logos/malezarestaurant-co.jpg",
       "source_url": "https://cdn.prod.website-files.com/69ca921d7d84c041f35dfb9f/69ce8477dc971dd2206ab6e3_maleza-landing-og-image.jpg"
+    },
+    "mamadsitalian.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "path": "logos/mamadsitalian-com.jpg",
+      "source_url": "https://framerusercontent.com/images/YW4d4AEJyWeF0pTblu5Ajxv2II.jpg"
     },
     "mamahieusoc.com": {
       "checked_at": "2026-10-06T19:53:15Z",
@@ -7988,10 +8082,36 @@
       "path": "logos/thecoffeetale-com.webp",
       "source_url": "https://thecoffeetale.com/wp-content/uploads/2015/04/the-coffee-tale.png?w=300"
     },
+    "thecornertacosandburgerfoodtruckca.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "path": "logos/thecornertacosandburgerfoodtruckca-com.png",
+      "source_url": "https://d2gqo3h0psesgi.cloudfront.net/auto/the-corner-tacos-and-burger-food-truck-4pmk7njq-logo.png"
+    },
+    "thedimsumco.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "path": "logos/thedimsumco-com.png",
+      "source_url": "https://thedimsumco.com/wp-content/uploads/2018/12/the-dim-sum-co.-logo-full-color.png"
+    },
     "thedinospizza.com": {
       "checked_at": "2026-09-17T16:21:01Z",
       "path": "logos/thedinospizza-com.webp",
       "source_url": "https://mlhq1k1ywnek.i.optimole.com/cb:DaDa.1a2a7/w:768/h:151/q:mauto/g:sm/f:best/https://thedinospizza.com/wp-content/uploads/2026/07/dinos-itilian-resturant-headwe.png"
+    },
+    "thedonutteryhb.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "path": "logos/thedonutteryhb-com.webp",
+      "source_url": "https://static.wixstatic.com/media/2173a4_faa26a8b616542ebb8f4d7700952fe98~mv2.jpg/v1/fill/w_147,h_59,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/2173a4_faa26a8b616542ebb8f4d7700952fe98~mv2.jpg"
+    },
+    "thefeteerguymenu.com": {
+      "background": "#000000",
+      "checked_at": "2026-10-28T19:55:57Z",
+      "path": "logos/thefeteerguymenu-com.png",
+      "source_url": "https://direct-web.prod.slicelife.com/static/favicon-180x180.png"
+    },
+    "thefightingitalian.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "path": "logos/thefightingitalian-com.png",
+      "source_url": "https://www.thefightingitalian.com/assets/TheFightingItalian-Logo-red-logo.png"
     },
     "thegalleycafenewportbeach.com": {
       "checked_at": "2026-10-03T18:16:13Z",
@@ -8014,20 +8134,61 @@
       "path": "logos/thegreenchilis-com.webp",
       "source_url": "https://img1.wsimg.com/isteam/ip/b0ec69d7-68c1-42d1-9053-2fc6951660d4/AndaazLogo.jpg/:/rs=w:180,h:180,m"
     },
+    "thegreengirlsaloon.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "path": "logos/thegreengirlsaloon-com.png",
+      "source_url": "https://www.thegreengirlsaloon.com/assets/media/on_page_element/logo-01.png"
+    },
+    "theguildclub.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "path": "logos/theguildclub-com.ico",
+      "source_url": "https://assets.squarespace.com/universal/default-favicon.ico"
+    },
     "thehangoutrestaurant.com": {
       "checked_at": "2026-09-16T23:17:10Z",
       "path": "logos/thehangoutrestaurant-com.webp",
       "source_url": "https://images.squarespace-cdn.com/content/v1/5df7da085196cc464ddadfbb/1576524371447-NABNYGTZ2UEUGHB4DXWM/TheHangoutRestaurantLogo.png?format=1500w"
+    },
+    "thehbhouse.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "path": "logos/thehbhouse-com.png",
+      "source_url": "https://cp1.inkrefuge.com/admin/asset/uploads/347/on_page_element/huntington-beach-house.png"
     },
     "thehummusrepublic.com": {
       "checked_at": "2026-10-10T18:54:27Z",
       "path": "logos/thehummusrepublic-com.webp",
       "source_url": "https://framerusercontent.com/images/pMAR5zHhfbF70cHk4DcJWQOPOKk.png"
     },
+    "theirishman.com": {
+      "background": "#0b0e0c",
+      "checked_at": "2026-10-28T19:55:57Z",
+      "path": "logos/theirishman-com.png",
+      "source_url": "https://theirishman.com/assets/images/irishman-original-logo-transparent.png"
+    },
+    "thekickincrab.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "path": "logos/thekickincrab-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/5844b5fa1b631b1c50a87a21/887208c1-0294-41fe-97a9-e435488c24c7/KC+White+LOGO.png?format=1500w"
+    },
     "thelab.com": {
       "checked_at": "2026-09-25T18:59:56Z",
       "path": "logos/thelab-com.webp",
       "source_url": "https://images.squarespace-cdn.com/content/6283f20aeb82ba0b5111fe51/6d36c73b-07a5-41df-be72-8f522e2de122/6lzkCSNc.jpeg?format=1500w&content-type=image%2Fjpeg"
+    },
+    "thelighthousehuntington.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "path": "logos/thelighthousehuntington-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/69a7a5058973b17c3eb666b0/dc840331-8a6f-49f3-afd0-b3f3094cd4ad/working+lighthouse+logo.png"
+    },
+    "thelostbean.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "path": "logos/thelostbean-com.webp",
+      "source_url": "https://thelostbean.com/cdn/shop/files/Lostbeanlogo_16x16.png?v=1639696954"
+    },
+    "themeltdown.com": {
+      "checked_at": "2026-10-28T19:55:57Z",
+      "path": "logos/themeltdown-com.png",
+      "source_url": "https://www.themeltdown.com/themes/custom/meltdown/images/logo-meltdown-white.png"
     },
     "themenustar1.com": {
       "checked_at": "2026-10-26T20:12:54Z",
@@ -8038,6 +8199,12 @@
       "checked_at": "2026-10-06T23:44:23Z",
       "path": "logos/themimigarden-com.png",
       "source_url": "https://images.squarespace-cdn.com/content/6629c69ea6c65b5fcb88935a/c4dda1bc-5d66-4c77-91f5-63078a2d90c6/Asset+153.png?format=1500w&content-type=image%2Fpng"
+    },
+    "themooncoffee.com": {
+      "background": "#ab8c52",
+      "checked_at": "2026-10-28T19:55:57Z",
+      "path": "logos/themooncoffee-com.webp",
+      "source_url": "https://themooncoffee.com/cdn/shop/t/20/assets/the-moon-home-footer-wordmark.png?v=76296063401593330341792726734"
     },
     "theplayababytruck.com": {
       "checked_at": "2026-10-17T17:38:01Z",

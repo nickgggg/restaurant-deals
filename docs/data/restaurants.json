@@ -59,18 +59,18 @@
     "last_scanned_cities": [
       "Westminster"
     ],
-    "last_source_scan_at": "2026-10-27T19:35:50Z",
+    "last_source_scan_at": "2026-10-28T19:49:01Z",
     "map_cells": 458,
     "official_websites": 1484,
     "operational_count": 1896,
     "queued_cities": [],
     "restaurant_count": 1976,
     "source_sites_checked": 12,
-    "specials_pages_found": 425,
+    "specials_pages_found": 426,
     "successful_map_cells": 54
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-27T19:35:50Z",
+  "generated_at": "2026-10-28T19:49:01Z",
   "refresh_after": "2026-10-29T18:38:28Z",
   "restaurants": [
     {
@@ -202,9 +202,15 @@
       "phone": "(949) 673-2100",
       "place_id": "ChIJudWP4f4f3YARWlMsslZRXLo",
       "primary_type": "seafood_restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-28T19:48:41Z",
       "specials_discovery_version": 4,
       "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://www.21oceanfront.com/lunch-happy-hour-right-over-the-ocean"
+        },
         {
           "confidence": "medium",
           "discovered_via": "page_text",
@@ -540,7 +546,7 @@
       "phone": "(949) 520-7952",
       "place_id": "ChIJLaRsXOvh3IARN66ndUAw-08",
       "primary_type": "breakfast_restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-28T19:48:41Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -607,7 +613,7 @@
       "phone": "(949) 729-6709",
       "place_id": "ChIJUdbFGYfg3IAR7OtaQ-IVJO0",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-28T19:48:41Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -757,7 +763,7 @@
       "phone": "(949) 200-9511",
       "place_id": "ChIJT9Bm5y3h3IARQ_278Jteajc",
       "primary_type": "bagel_shop",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-28T19:48:41Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -1295,7 +1301,7 @@
       "phone": "(949) 650-6505",
       "place_id": "ChIJlZ_6HwYg3YARDPKXJ_eXTQs",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-28T19:48:41Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -1416,7 +1422,7 @@
       "phone": "(949) 785-3599",
       "place_id": "ChIJld9u1bjf3IARSCCcUyFGZU4",
       "primary_type": "pastry_shop",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-28T19:48:41Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -1487,7 +1493,7 @@
       "phone": "(949) 630-4285",
       "place_id": "ChIJKUZ7pP3f3IARuyh3Rt0hBu4",
       "primary_type": "californian_restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-28T19:48:41Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -3146,7 +3152,7 @@
       "phone": "(949) 675-0233",
       "place_id": "ChIJSc8jIgEg3YARj9cXW7uLRcE",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-28T19:48:41Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -4659,7 +4665,7 @@
       "phone": "(949) 877-0190",
       "place_id": "ChIJAQBMFQEg3YAR9-wbzvsxOPg",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-28T19:48:41Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -115499,9 +115505,16 @@
       "phone": "(562) 725-2706",
       "place_id": "ChIJYeSZFckv3YARP9lSYyI5ZHk",
       "primary_type": "mediterranean_restaurant",
-      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_checked_at": "2026-10-28T19:48:41Z",
       "specials_discovery_version": 4,
-      "specials_pages": [],
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://thekebabshop.com/locations/ca/orange-county/seal-beach/"
+        }
+      ],
       "types": [
         "mediterranean_restaurant",
         "restaurant",
@@ -128486,7 +128499,7 @@
       "phone": "",
       "place_id": "ChIJ7SwQWlEu3YARH3Z459cAk1g",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_checked_at": "2026-10-28T19:48:41Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -129177,7 +129190,7 @@
       "phone": "(562) 598-3128",
       "place_id": "ChIJ98m3H7sv3YARWIKFcm8oY5g",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-09-24T18:37:43Z",
+      "specials_checked_at": "2026-10-28T19:48:41Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
