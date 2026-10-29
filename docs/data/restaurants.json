@@ -32,7 +32,7 @@
     },
     "Seal Beach": {
       "activated_at": "2026-09-24T18:38:28Z",
-      "last_refreshed": "2026-09-24T18:38:28Z",
+      "last_refreshed": "2026-10-29T19:49:04Z",
       "restaurant_count": 80,
       "status": "active"
     },
@@ -55,23 +55,23 @@
     ],
     "closed_count": 80,
     "failed_map_cells": 0,
-    "last_scan_map_cells": 54,
+    "last_scan_map_cells": 42,
     "last_scanned_cities": [
-      "Westminster"
+      "Seal Beach"
     ],
-    "last_source_scan_at": "2026-10-28T19:49:01Z",
+    "last_source_scan_at": "2026-10-29T19:49:04Z",
     "map_cells": 458,
     "official_websites": 1484,
     "operational_count": 1896,
     "queued_cities": [],
     "restaurant_count": 1976,
-    "source_sites_checked": 12,
+    "source_sites_checked": 63,
     "specials_pages_found": 426,
-    "successful_map_cells": 54
+    "successful_map_cells": 42
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-28T19:49:01Z",
-  "refresh_after": "2026-10-29T18:38:28Z",
+  "generated_at": "2026-10-29T19:49:04Z",
+  "refresh_after": "2026-11-05T19:48:50Z",
   "restaurants": [
     {
       "address": "369 E 17th St #18, Costa Mesa, CA 92627, USA",
@@ -1775,8 +1775,8 @@
         ],
         "monday": [
           {
-            "close": "21:00",
-            "open": "08:00"
+            "close": "20:30",
+            "open": "08:30"
           }
         ],
         "saturday": [
@@ -1793,20 +1793,20 @@
         ],
         "thursday": [
           {
-            "close": "21:00",
-            "open": "08:00"
+            "close": "20:30",
+            "open": "08:30"
           }
         ],
         "tuesday": [
           {
-            "close": "21:00",
-            "open": "08:00"
+            "close": "20:30",
+            "open": "08:30"
           }
         ],
         "wednesday": [
           {
-            "close": "21:00",
-            "open": "08:00"
+            "close": "20:30",
+            "open": "08:30"
           }
         ]
       },
@@ -1816,9 +1816,16 @@
       "phone": "(657) 888-0976",
       "place_id": "ChIJ5b9vL5wv3YARvaQzMWmkNSk",
       "primary_type": "acai_shop",
-      "specials_checked_at": "2026-10-23T18:39:57Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
-      "specials_pages": [],
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://www.acairepublic.com/"
+        }
+      ],
       "types": [
         "acai_shop",
         "brazilian_restaurant",
@@ -2187,7 +2194,7 @@
       "phone": "(310) 279-8833",
       "place_id": "ChIJ7flhTFwv3YAR7VyTW8SuNfY",
       "primary_type": "seafood_restaurant",
-      "specials_checked_at": "2026-10-23T18:39:57Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -6955,7 +6962,7 @@
       "phone": "(562) 598-1555",
       "place_id": "ChIJDXCOAqwv3YARyneA5yt94Oc",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-23T18:39:57Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -6968,8 +6975,8 @@
       "types": [
         "mexican_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.bajafresh.com/stores/mexican-food-seal-beach/30640?utm_source=gmb&utm_medium=gmb&utm_campaign=gmb&utm_id=gmb"
@@ -11106,7 +11113,7 @@
       "phone": "(562) 245-5566",
       "place_id": "ChIJ38X1P08v3YARDQd-97F2qdw",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-23T18:39:57Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -12401,7 +12408,7 @@
       "phone": "(562) 431-2226",
       "place_id": "ChIJ3eGDm_sv3YARXRKSf6E2fpY",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-23T18:39:57Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -12415,8 +12422,8 @@
         "coffee_shop",
         "cafe",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -14663,7 +14670,7 @@
       "phone": "(562) 939-9003",
       "place_id": "ChIJbwcgGcUv3YARz_W2zotEK90",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-23T18:39:57Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -17985,26 +17992,26 @@
       "phone": "(562) 430-2695",
       "place_id": "ChIJJ559lFMu3YARxjHvwBFMbeY",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-23T18:39:57Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "pizza_restaurant",
         "cocktail_bar",
-        "salad_shop",
-        "catering_service",
-        "soup_restaurant",
-        "bar",
         "pizza_delivery",
+        "catering_service",
         "meal_delivery",
+        "salad_shop",
+        "soup_restaurant",
         "food_delivery",
         "american_restaurant",
-        "food_store",
+        "bar",
         "meal_takeaway",
-        "store",
+        "food_store",
         "restaurant",
         "food",
         "point_of_interest",
+        "store",
         "service",
         "establishment"
       ],
@@ -19119,13 +19126,14 @@
       "phone": "(562) 430-2739",
       "place_id": "ChIJU4UwOL0v3YARYDHrFxfYGEQ",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-23T18:39:57Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
-        "chicken_restaurant",
         "hamburger_restaurant",
+        "chicken_restaurant",
+        "western_restaurant",
         "american_restaurant",
         "restaurant",
         "food",
@@ -21164,19 +21172,26 @@
       "phone": "(562) 594-0909",
       "place_id": "ChIJ5fcuL-Uv3YARNpB1aQM9ZbY",
       "primary_type": "chicken_restaurant",
-      "specials_checked_at": "2026-10-23T18:39:57Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
-      "specials_pages": [],
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://charochickensb.orderrto.com/"
+        }
+      ],
       "types": [
         "chicken_restaurant",
-        "mexican_restaurant",
         "fast_food_restaurant",
+        "mexican_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
         "establishment"
       ],
-      "website_url": "http://www.charochicken.com/"
+      "website_url": "https://charochickensb.orderrto.com/"
     },
     {
       "address": "6531 Edinger Ave, Huntington Beach, CA 92647, USA",
@@ -21568,17 +21583,17 @@
       "phone": "(562) 430-3060",
       "place_id": "ChIJl1ER4VMu3YARZtvvz38MMvw",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-23T18:39:57Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
         "chicken_restaurant",
         "catering_service",
-        "breakfast_restaurant",
         "family_restaurant",
-        "shipping_service",
         "food_delivery",
+        "shipping_service",
+        "breakfast_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -22289,17 +22304,17 @@
       "phone": "(562) 375-6983",
       "place_id": "ChIJZX22aFMu3YARvrh0OH871DA",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-23T18:39:57Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
+        "burrito_restaurant",
         "taco_restaurant",
         "catering_service",
+        "food_delivery",
         "shipping_service",
         "mexican_restaurant",
-        "food_delivery",
-        "burrito_restaurant",
         "meal_takeaway",
         "restaurant",
         "food",
@@ -28261,7 +28276,7 @@
       "phone": "(562) 286-6844",
       "place_id": "ChIJSfsHMekv3YARjteImijKXxg",
       "primary_type": "chicken_restaurant",
-      "specials_checked_at": "2026-10-23T18:39:57Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -28272,7 +28287,7 @@
         "point_of_interest",
         "establishment"
       ],
-      "website_url": "https://restaurants.daveshotchicken.com/ca/seal-beach/12380-seal-beach-blvd-1071?utm_campaign=google_maps&utm_medium=organic&utm_source=google&utm_content=website&utm_term=1071"
+      "website_url": "https://restaurants.daveshotchicken.com/ca/seal-beach/12380-seal-beach-blvd-1071"
     },
     {
       "address": "1500 CA-1 C, Seal Beach, CA 90740, USA",
@@ -28332,8 +28347,8 @@
       "specials_pages": [],
       "types": [
         "bar",
-        "sports_bar",
         "pub",
+        "sports_bar",
         "sandwich_shop",
         "restaurant",
         "food",
@@ -29102,7 +29117,7 @@
       "phone": "(562) 596-8508",
       "place_id": "ChIJG64eir0v3YAR-daX7GhEavs",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-24T17:32:36Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -29114,11 +29129,13 @@
       ],
       "types": [
         "fast_food_restaurant",
-        "taco_restaurant",
-        "breakfast_restaurant",
         "hamburger_restaurant",
+        "taco_restaurant",
+        "vegan_restaurant",
+        "vegetarian_restaurant",
         "mexican_restaurant",
         "american_restaurant",
+        "breakfast_restaurant",
         "meal_takeaway",
         "restaurant",
         "food",
@@ -30852,8 +30869,8 @@
         "donut_shop",
         "bakery",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -33196,7 +33213,7 @@
       "phone": "(562) 596-0636",
       "place_id": "ChIJaQ3vw90v3YARlJxsz-hMVHE",
       "primary_type": "breakfast_restaurant",
-      "specials_checked_at": "2026-10-24T17:32:36Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -36035,7 +36052,7 @@
       "phone": "(562) 346-2277",
       "place_id": "ChIJW1vaY-Qv3YAR7s0-nPKvnwk",
       "primary_type": "italian_restaurant",
-      "specials_checked_at": "2026-10-24T17:32:36Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -36078,9 +36095,9 @@
       "types": [
         "italian_restaurant",
         "dessert_restaurant",
-        "bar",
         "pizza_restaurant",
         "european_restaurant",
+        "bar",
         "restaurant",
         "food",
         "point_of_interest",
@@ -37403,7 +37420,7 @@
       "phone": "(562) 493-0058",
       "place_id": "ChIJ9R2hxF0u3YAR-di7v1Ag60E",
       "primary_type": "chinese_restaurant",
-      "specials_checked_at": "2026-10-24T17:32:36Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -41817,7 +41834,7 @@
       "phone": "(562) 825-0130",
       "place_id": "ChIJqZq9Bdkv3YARF0HbMfkAOhA",
       "primary_type": "hamburger_restaurant",
-      "specials_checked_at": "2026-10-24T17:32:36Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -43740,7 +43757,7 @@
       "phone": "(562) 598-6456",
       "place_id": "ChIJewiSa_sv3YAR3QnDrt9ZAIg",
       "primary_type": "bar_and_grill",
-      "specials_checked_at": "2026-10-24T17:32:36Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -44464,7 +44481,7 @@
       "phone": "(562) 799-9552",
       "place_id": "ChIJY72dLmcu3YARY1cRNz4du_0",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-10-24T17:32:36Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -44478,6 +44495,12 @@
           "discovered_via": "site_link",
           "label": "View the Happy Hour menu",
           "url": "https://hofshut.com/promotions/happy-hour"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "click here to learn more",
+          "url": "https://hofshut.com/promotions/thanksgiving"
         },
         {
           "confidence": "high",
@@ -44498,9 +44521,9 @@
         "hamburger_restaurant",
         "bakery",
         "food_store",
-        "store",
         "restaurant",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -45340,7 +45363,7 @@
       "phone": "(562) 493-2722",
       "place_id": "ChIJW7hfqa4v3YARb79AzLwjji0",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-10-24T17:32:36Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -45353,8 +45376,8 @@
       "types": [
         "american_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://orderhotoffthegrill.com/"
@@ -46077,15 +46100,15 @@
       "phone": "(562) 430-9009",
       "place_id": "ChIJk4MpMtgv3YARTzBK4MZszgo",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-24T17:32:36Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
         "cafe",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -47858,7 +47881,7 @@
       "phone": "(800) 786-1000",
       "place_id": "ChIJNQzTsiLczYAR06A9OOXb4VQ",
       "primary_type": "hamburger_restaurant",
-      "specials_checked_at": "2026-10-24T17:32:36Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -48533,7 +48556,7 @@
       "phone": "(562) 431-6400",
       "place_id": "ChIJ3c5MZlMu3YARxgBESjVDHdw",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-10-24T17:32:36Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -48558,8 +48581,8 @@
       "types": [
         "american_restaurant",
         "bar_and_grill",
-        "family_restaurant",
         "hamburger_restaurant",
+        "family_restaurant",
         "bar",
         "restaurant",
         "food",
@@ -50090,7 +50113,7 @@
       "phone": "(562) 626-8202",
       "place_id": "ChIJS_8xEvsv3YARy0LaNg9crms",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-24T17:32:36Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -50098,8 +50121,8 @@
         "coffee_roastery",
         "cafe",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -50495,21 +50518,21 @@
       "phone": "(562) 386-0500",
       "place_id": "ChIJTyiqMrgv3YARnvQlVqQzZKs",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-10-25T17:48:00Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
-        "catering_service",
         "fast_food_restaurant",
         "deli",
+        "catering_service",
         "food_delivery",
-        "food_store",
         "meal_takeaway",
-        "store",
+        "food_store",
         "restaurant",
         "food",
         "point_of_interest",
+        "store",
         "service",
         "establishment"
       ],
@@ -51259,13 +51282,13 @@
       "phone": "(562) 493-8678",
       "place_id": "ChIJ-_J1gl4x3YARGvBcEYLPngQ",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-10-25T17:48:00Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
-        "american_restaurant",
         "meal_takeaway",
+        "american_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -52526,12 +52549,11 @@
       "phone": "(562) 594-3889",
       "place_id": "ChIJmRW4AvEv3YARtrjjwHVycaU",
       "primary_type": "japanese_restaurant",
-      "specials_checked_at": "2026-10-25T17:48:00Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "japanese_restaurant",
-        "sushi_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -54950,21 +54972,21 @@
       "phone": "(562) 596-9969",
       "place_id": "ChIJ9yuUL6wv3YARnbAXi4FxmqY",
       "primary_type": "japanese_restaurant",
-      "specials_checked_at": "2026-10-25T17:48:00Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
-        "cocktail_bar",
-        "steak_house",
-        "sushi_restaurant",
         "brunch_restaurant",
-        "bar",
+        "steak_house",
+        "cocktail_bar",
         "live_music_venue",
+        "sushi_restaurant",
+        "bar",
         "event_venue",
         "japanese_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://kobesealbeach.com/"
@@ -55018,7 +55040,7 @@
       "phone": "(562) 431-1186",
       "place_id": "ChIJy5IrbuQv3YARE9vvd_F7ESM",
       "primary_type": "sushi_restaurant",
-      "specials_checked_at": "2026-10-25T17:48:00Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -57113,7 +57135,7 @@
       "phone": "(562) 357-4031",
       "place_id": "ChIJwT8NrDcv3YAR7Hjp7Y3p56k",
       "primary_type": "barbecue_restaurant",
-      "specials_checked_at": "2026-10-25T17:48:00Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -57134,8 +57156,8 @@
         "hamburger_restaurant",
         "seafood_restaurant",
         "sandwich_shop",
-        "bar",
         "american_restaurant",
+        "bar",
         "restaurant",
         "food",
         "point_of_interest",
@@ -62694,43 +62716,43 @@
       "hours": {
         "friday": [
           {
-            "close": "21:00",
+            "close": "22:00",
             "open": "16:00"
           }
         ],
         "monday": [
           {
-            "close": "20:30",
+            "close": "21:00",
             "open": "16:00"
           }
         ],
         "saturday": [
           {
-            "close": "21:00",
+            "close": "22:00",
             "open": "16:00"
           }
         ],
         "sunday": [
           {
-            "close": "20:30",
+            "close": "21:00",
             "open": "16:00"
           }
         ],
         "thursday": [
           {
-            "close": "20:30",
+            "close": "21:00",
             "open": "16:00"
           }
         ],
         "tuesday": [
           {
-            "close": "20:30",
+            "close": "21:00",
             "open": "16:00"
           }
         ],
         "wednesday": [
           {
-            "close": "20:30",
+            "close": "21:00",
             "open": "16:00"
           }
         ]
@@ -62741,15 +62763,15 @@
       "phone": "(562) 431-3022",
       "place_id": "ChIJq71JWPAv3YARprXYcAB8R30",
       "primary_type": "seafood_restaurant",
-      "specials_checked_at": "2026-10-25T17:48:00Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "seafood_restaurant",
         "steak_house",
         "sushi_restaurant",
-        "bar",
         "japanese_restaurant",
+        "bar",
         "restaurant",
         "food",
         "point_of_interest",
@@ -63107,16 +63129,16 @@
       "phone": "(562) 449-4625",
       "place_id": "ChIJgd89zJ4v3YARn-Rh9JVqKws",
       "primary_type": "ramen_restaurant",
-      "specials_checked_at": "2026-10-25T17:48:00Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "ramen_restaurant",
-        "salad_shop",
         "sushi_restaurant",
-        "asian_restaurant",
-        "vegetarian_restaurant",
         "japanese_curry_restaurant",
+        "asian_restaurant",
+        "salad_shop",
+        "vegetarian_restaurant",
         "japanese_restaurant",
         "restaurant",
         "food",
@@ -63595,7 +63617,7 @@
       "phone": "(888) 416-7997",
       "place_id": "ChIJTys0Uaov3YARit2YAX0TTvQ",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-25T17:48:00Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -64247,7 +64269,7 @@
       "phone": "(562) 357-4077",
       "place_id": "ChIJbxSM7Hsv3YARDkT8lRAvJfY",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-10-25T17:48:00Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -64255,9 +64277,9 @@
         "health_food_store",
         "tea_house",
         "food_store",
-        "store",
         "health",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -65371,7 +65393,7 @@
       "phone": "(562) 594-3800",
       "place_id": "ChIJfVDjlAMv3YARnpoe8DDHxNc",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-25T17:48:00Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -67062,21 +67084,21 @@
       "phone": "(562) 594-4801",
       "place_id": "ChIJQRdiiuQv3YARMhM5XHUa7J8",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-25T17:48:00Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
         "breakfast_restaurant",
         "hamburger_restaurant",
-        "sandwich_shop",
         "coffee_shop",
         "cafe",
+        "sandwich_shop",
         "american_restaurant",
         "food_store",
-        "store",
         "restaurant",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -74331,8 +74353,8 @@
         "coffee_shop",
         "cafe",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -74766,7 +74788,7 @@
       "phone": "(562) 430-0631",
       "place_id": "ChIJ18lDDfsv3YARYxeAwF-bsns",
       "primary_type": "irish_pub",
-      "specials_checked_at": "2026-10-26T20:06:11Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -74785,9 +74807,9 @@
       "types": [
         "irish_pub",
         "pub",
-        "bar",
         "american_restaurant",
         "european_restaurant",
+        "bar",
         "restaurant",
         "food",
         "point_of_interest",
@@ -77290,13 +77312,13 @@
         "thursday": [
           {
             "close": "20:00",
-            "open": "15:00"
+            "open": "11:00"
           }
         ],
         "wednesday": [
           {
             "close": "20:00",
-            "open": "15:00"
+            "open": "11:00"
           }
         ]
       },
@@ -77306,9 +77328,16 @@
       "phone": "(562) 431-5222",
       "place_id": "ChIJbxsuJ_Qv3YARklUTOcE2Nqo",
       "primary_type": "seafood_restaurant",
-      "specials_checked_at": "2026-10-26T20:06:11Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
-      "specials_pages": [],
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Specials",
+          "url": "http://pacificcoastfishco.com/specials"
+        }
+      ],
       "types": [
         "seafood_restaurant",
         "restaurant",
@@ -78110,8 +78139,8 @@
       "types": [
         "hawaiian_restaurant",
         "sushi_restaurant",
-        "american_restaurant",
         "japanese_restaurant",
+        "american_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -78254,7 +78283,7 @@
       "phone": "(562) 240-2987",
       "place_id": "ChIJh1WSd1Mu3YARsOVIumfFQqE",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-10-26T20:06:11Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -78302,21 +78331,21 @@
       ],
       "types": [
         "cafe",
-        "salad_shop",
-        "catering_service",
-        "breakfast_restaurant",
-        "soup_restaurant",
-        "shipping_service",
         "sandwich_shop",
+        "catering_service",
+        "salad_shop",
+        "soup_restaurant",
+        "food_delivery",
+        "shipping_service",
         "coffee_shop",
         "bakery",
-        "food_delivery",
-        "food_store",
+        "breakfast_restaurant",
         "meal_takeaway",
-        "store",
+        "food_store",
         "restaurant",
         "food",
         "point_of_interest",
+        "store",
         "service",
         "establishment"
       ],
@@ -79452,17 +79481,17 @@
       "phone": "(562) 431-4898",
       "place_id": "ChIJpbiXf-Qv3YARZ9e7fmOoBTA",
       "primary_type": "fine_dining_restaurant",
-      "specials_checked_at": "2026-10-26T20:06:11Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fine_dining_restaurant",
-        "cocktail_bar",
-        "wine_bar",
         "steak_house",
+        "cocktail_bar",
         "seafood_restaurant",
-        "bar",
+        "wine_bar",
         "american_restaurant",
+        "bar",
         "restaurant",
         "food",
         "point_of_interest",
@@ -79955,15 +79984,15 @@
       "phone": "(562) 546-0007",
       "place_id": "ChIJTZpF41Mu3YAR-5drTwfsSc0",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-26T20:06:11Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
         "cafe",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -83129,7 +83158,7 @@
       "phone": "(562) 596-3255",
       "place_id": "ChIJxRuQrqwv3YARtEpc00J0uj4",
       "primary_type": "chinese_restaurant",
-      "specials_checked_at": "2026-10-26T20:06:11Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -83138,8 +83167,8 @@
         "asian_fusion_restaurant",
         "fusion_restaurant",
         "asian_restaurant",
-        "shipping_service",
         "food_delivery",
+        "shipping_service",
         "restaurant",
         "food",
         "point_of_interest",
@@ -84247,7 +84276,7 @@
       "phone": "(562) 430-5412",
       "place_id": "ChIJc-S09OQv3YARDTJiFUgSqEo",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-26T20:06:11Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -89543,19 +89572,19 @@
       "phone": "(562) 596-5156",
       "place_id": "ChIJy5IrbuQv3YAR2G9SvmcBVy4",
       "primary_type": "thai_restaurant",
-      "specials_checked_at": "2026-10-26T20:06:11Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "thai_restaurant",
-        "asian_restaurant",
         "diner",
+        "asian_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
         "establishment"
       ],
-      "website_url": "http://rocharinthaibistro.com/"
+      "website_url": "http://rocharinthaibistro.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=16325890695982039545"
     },
     {
       "address": "2104 W Oceanfront, Newport Beach, CA 92663, USA",
@@ -93405,7 +93434,7 @@
       "phone": "(562) 794-9393",
       "place_id": "ChIJ3zlWSmsv3YARaX5N8uFoPeU",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-26T20:06:11Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -93477,13 +93506,16 @@
       "name": "Seal Beach Teriyaki",
       "phone": "(562) 357-4023",
       "place_id": "ChIJaadtbwAv3YAReekuhfLvT0Y",
-      "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-26T20:06:11Z",
+      "primary_type": "asian_fusion_restaurant",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
-        "restaurant",
+        "asian_fusion_restaurant",
+        "fusion_restaurant",
+        "asian_restaurant",
         "fast_food_restaurant",
+        "restaurant",
         "food",
         "point_of_interest",
         "establishment"
@@ -97878,17 +97910,17 @@
       "phone": "(562) 596-2199",
       "place_id": "ChIJ_T-Yg64v3YAR9SIdIbpqw9U",
       "primary_type": "italian_restaurant",
-      "specials_checked_at": "2026-10-26T20:06:11Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "italian_restaurant",
         "cocktail_bar",
-        "bar",
+        "night_club",
         "live_music_venue",
         "event_venue",
-        "night_club",
         "european_restaurant",
+        "bar",
         "restaurant",
         "food",
         "point_of_interest",
@@ -98184,16 +98216,16 @@
       "phone": "(562) 598-3128",
       "place_id": "ChIJlZ8RVgov3YARJQ8pZzWvwk4",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-26T20:06:11Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
         "cafe",
         "food_store",
-        "store",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "website_url": "https://www.starbucks.com/store-locator/store/1016325"
@@ -98385,9 +98417,9 @@
         "coffee_shop",
         "cafe",
         "food_store",
-        "store",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "website_url": "https://www.starbucks.com/store-locator?map=33.78816,-118.07129,12z&place=12300%20Seal%20Beach%20Blvd,%20Seal%20Beach,%20CA%2090740,%20USA"
@@ -98656,25 +98688,25 @@
           }
         ]
       },
-      "latitude": 33.781670399999996,
-      "longitude": -118.07157240000001,
+      "latitude": 33.7821,
+      "longitude": -118.07157000000001,
       "name": "Starbucks Coffee Company",
       "phone": "(562) 431-7973",
       "place_id": "ChIJT1a1VFMu3YARpNU66WlcZgI",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-27T19:35:26Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
-        "breakfast_restaurant",
         "internet_cafe",
+        "breakfast_restaurant",
         "cafe",
         "food_store",
-        "store",
         "restaurant",
         "food",
         "point_of_interest",
+        "store",
         "service",
         "establishment"
       ],
@@ -101459,19 +101491,19 @@
       "phone": "(562) 430-9290",
       "place_id": "ChIJeawB35cv3YARIDBnIhjsbco",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-27T19:35:26Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
-        "breakfast_restaurant",
         "internet_cafe",
+        "breakfast_restaurant",
         "cafe",
         "food_store",
-        "store",
         "restaurant",
         "food",
         "point_of_interest",
+        "store",
         "service",
         "establishment"
       ],
@@ -103538,20 +103570,13 @@
       "phone": "(562) 370-4216",
       "place_id": "ChIJzzMCHZYv3YARy_FbiWza5w4",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-10-27T19:35:26Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "discovered_via": "page_text",
-          "label": "Website specials",
-          "url": "https://restaurants.subway.com/united-states/ca/seal-beach/2365-seal-beach-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=40842&utm_campaign=evergreen-2020&y_source=1_MTQ5MTI0OTUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-        }
-      ],
+      "specials_pages": [],
       "types": [
         "sandwich_shop",
-        "catering_service",
         "fast_food_restaurant",
+        "catering_service",
         "food_delivery",
         "meal_takeaway",
         "restaurant",
@@ -104241,85 +104266,6 @@
       "website_url": "https://order.subway.com/en-us/restaurant/12954/menu/?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=12954&utm_campaign=evergreen-2020"
     },
     {
-      "address": "914 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Seal Beach",
-      "google_maps_url": "https://maps.google.com/?cid=10461453174017473709&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "20:00",
-            "open": "08:00"
-          }
-        ],
-        "monday": [
-          {
-            "close": "20:00",
-            "open": "08:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "20:00",
-            "open": "08:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "20:00",
-            "open": "08:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "20:00",
-            "open": "08:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "20:00",
-            "open": "08:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "20:00",
-            "open": "08:00"
-          }
-        ]
-      },
-      "latitude": 33.7439979,
-      "longitude": -118.10219029999999,
-      "name": "Subway",
-      "phone": "(562) 493-1923",
-      "place_id": "ChIJ2eh7NuUv3YARrbyxDzyMLpE",
-      "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-10-27T19:35:26Z",
-      "specials_discovery_version": 4,
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "discovered_via": "page_text",
-          "label": "Website specials",
-          "url": "https://restaurants.subway.com/united-states/ca/seal-beach/914-pacific-coast-hwy?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=11550&utm_campaign=evergreen-2020&y_source=1_MTQ5MDM1NTctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-        }
-      ],
-      "types": [
-        "sandwich_shop",
-        "catering_service",
-        "fast_food_restaurant",
-        "food_delivery",
-        "meal_takeaway",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "service",
-        "establishment"
-      ],
-      "website_url": "https://restaurants.subway.com/united-states/ca/seal-beach/914-pacific-coast-hwy?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=11550&utm_campaign=evergreen-2020&y_source=1_MTQ5MDM1NTctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-    },
-    {
       "address": "9877 Chapman Ave Suite A, Garden Grove, CA 92841, USA",
       "business_status": "OPERATIONAL",
       "city": "Garden Grove",
@@ -104995,7 +104941,7 @@
       "phone": "(562) 431-6625",
       "place_id": "ChIJCwGr0pAv3YARyHj6LBZlINI",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-10-27T19:35:26Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -105703,7 +105649,7 @@
       "phone": "(562) 588-3883",
       "place_id": "ChIJs5qpWmcv3YAR8ASjWeCX7Z4",
       "primary_type": "japanese_restaurant",
-      "specials_checked_at": "2026-10-27T19:35:26Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -106145,7 +106091,7 @@
       "phone": "(562) 598-8283",
       "place_id": "ChIJm7a2TeUv3YARA1zSN_gXfKA",
       "primary_type": "sushi_restaurant",
-      "specials_checked_at": "2026-10-27T19:35:26Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -106171,12 +106117,6 @@
           "discovered_via": "known_path",
           "label": "Weekday Specials",
           "url": "http://sushiryokan2go.com/weekday-specials"
-        },
-        {
-          "confidence": "medium",
-          "discovered_via": "page_text",
-          "label": "Website specials",
-          "url": "http://sushiryokan2go.com/"
         },
         {
           "confidence": "medium",
@@ -106714,19 +106654,19 @@
       "hours": {
         "friday": [
           {
-            "close": "23:00",
+            "close": "22:00",
             "open": "05:30"
           }
         ],
         "monday": [
           {
-            "close": "22:00",
+            "close": "21:00",
             "open": "05:30"
           }
         ],
         "saturday": [
           {
-            "close": "23:00",
+            "close": "22:00",
             "open": "05:30"
           }
         ],
@@ -106738,19 +106678,19 @@
         ],
         "thursday": [
           {
-            "close": "22:00",
+            "close": "21:00",
             "open": "05:30"
           }
         ],
         "tuesday": [
           {
-            "close": "22:00",
+            "close": "21:00",
             "open": "05:30"
           }
         ],
         "wednesday": [
           {
-            "close": "22:00",
+            "close": "21:00",
             "open": "05:30"
           }
         ]
@@ -106765,8 +106705,8 @@
       "types": [
         "bakery",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -108485,7 +108425,7 @@
       "phone": "(562) 430-5412",
       "place_id": "ChIJCXOP9OQv3YARG6MwDZWjj6k",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-27T19:35:26Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -108497,9 +108437,9 @@
       ],
       "types": [
         "fast_food_restaurant",
+        "burrito_restaurant",
         "taco_restaurant",
         "mexican_restaurant",
-        "burrito_restaurant",
         "meal_takeaway",
         "restaurant",
         "food",
@@ -108785,7 +108725,7 @@
       "phone": "(562) 594-0600",
       "place_id": "ChIJVYdxd_sv3YARC_ja74DBeHU",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-27T19:35:26Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -111846,7 +111786,7 @@
       "latitude": 33.741543,
       "longitude": -118.10387390000001,
       "name": "Tenth Street Bagels",
-      "phone": "(562) 410-7274",
+      "phone": "",
       "place_id": "ChIJe9OTEjgv3YARVfe4-u90Xmg",
       "primary_type": "bagel_shop",
       "specials_pages": [],
@@ -111854,8 +111794,8 @@
         "bagel_shop",
         "bakery",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -112469,7 +112409,7 @@
       "phone": "(562) 598-7030",
       "place_id": "ChIJK9gVevsv3YARyaU5webLuCA",
       "primary_type": "thai_restaurant",
-      "specials_checked_at": "2026-10-27T19:35:26Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -112487,8 +112427,8 @@
       ],
       "types": [
         "thai_restaurant",
-        "wine_bar",
         "asian_restaurant",
+        "wine_bar",
         "bar",
         "restaurant",
         "food",
@@ -113279,21 +113219,14 @@
       "phone": "(562) 240-5444",
       "place_id": "ChIJ8XqPTRox3YARhCGeo-EUHCM",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-10-27T19:35:26Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "discovered_via": "site_link",
-          "label": "Event Packages",
-          "url": "https://www.beachhousesb.com/special-occastions"
-        }
-      ],
+      "specials_pages": [],
       "types": [
         "american_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://www.beachhousesb.com/"
@@ -114236,6 +114169,83 @@
       "website_url": "https://www.coffeebean.com/store/ca/huntington-beach/19800-beach-blvd?utm_source=GMB&utm_medium=Yext"
     },
     {
+      "address": "347 Main St #A, Seal Beach, CA 90740, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Seal Beach",
+      "google_maps_url": "https://maps.google.com/?cid=2303762430815061191&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "19:00",
+            "open": "05:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "19:00",
+            "open": "05:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "19:00",
+            "open": "05:30"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "19:00",
+            "open": "06:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "19:00",
+            "open": "05:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "19:00",
+            "open": "05:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "19:00",
+            "open": "05:00"
+          }
+        ]
+      },
+      "latitude": 33.744235700000004,
+      "longitude": -118.1031378,
+      "name": "The Coffee Bean & Tea Leaf",
+      "phone": "(562) 596-4006",
+      "place_id": "ChIJAUPOJeUv3YARx0Sfl7mb-B8",
+      "primary_type": "coffee_shop",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
+      "specials_discovery_version": 4,
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://www.coffeebean.com/store/ca/seal-beach/347-main-st?utm_source=GMB&utm_medium=Yext"
+        }
+      ],
+      "types": [
+        "coffee_shop",
+        "cafe",
+        "tea_house",
+        "food_store",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": "https://www.coffeebean.com/store/ca/seal-beach/347-main-st?utm_source=GMB&utm_medium=Yext"
+    },
+    {
       "address": "7561 Center Ave #39, Huntington Beach, CA 92647, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -115160,7 +115170,7 @@
       "phone": "(562) 431-4888",
       "place_id": "ChIJpTNKm_sv3YARGDww_iaK4CU",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-10-27T19:35:26Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -115184,12 +115194,12 @@
       ],
       "types": [
         "american_restaurant",
+        "brunch_restaurant",
         "cocktail_bar",
         "breakfast_restaurant",
-        "hamburger_restaurant",
-        "brunch_restaurant",
-        "seafood_restaurant",
         "barbecue_restaurant",
+        "hamburger_restaurant",
+        "seafood_restaurant",
         "bar",
         "restaurant",
         "food",
@@ -115505,16 +115515,9 @@
       "phone": "(562) 725-2706",
       "place_id": "ChIJYeSZFckv3YARP9lSYyI5ZHk",
       "primary_type": "mediterranean_restaurant",
-      "specials_checked_at": "2026-10-28T19:48:41Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "discovered_via": "page_text",
-          "label": "Website specials",
-          "url": "https://thekebabshop.com/locations/ca/orange-county/seal-beach/"
-        }
-      ],
+      "specials_pages": [],
       "types": [
         "mediterranean_restaurant",
         "restaurant",
@@ -128499,7 +128502,7 @@
       "phone": "",
       "place_id": "ChIJ7SwQWlEu3YARH3Z459cAk1g",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-28T19:48:41Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -129190,7 +129193,7 @@
       "phone": "(562) 598-3128",
       "place_id": "ChIJ98m3H7sv3YARWIKFcm8oY5g",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-28T19:48:41Z",
+      "specials_checked_at": "2026-10-29T19:48:05Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
