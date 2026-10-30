@@ -1272,6 +1272,10 @@
       "checked_at": "2026-09-23T18:43:17Z",
       "status": "ok"
     },
+    "fast-n-fresh.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "status": "ok"
+    },
     "fb.me": {
       "checked_at": "2026-10-05T21:43:32Z",
       "status": "ok"
@@ -1451,7 +1455,7 @@
       "status": "ok"
     },
     "greentomatogrill.com": {
-      "checked_at": "2026-10-16T02:30:56Z",
+      "checked_at": "2026-10-30T19:44:47Z",
       "error": "asset is too large",
       "status": "missing"
     },
@@ -2531,7 +2535,7 @@
       "status": "ok"
     },
     "myplacesportsbar.com": {
-      "checked_at": "2026-10-16T02:30:56Z",
+      "checked_at": "2026-10-30T19:44:47Z",
       "error": "asset is too large",
       "status": "missing"
     },
@@ -3590,6 +3594,10 @@
       "checked_at": "2026-10-22T18:56:48Z",
       "status": "ok"
     },
+    "sites.google.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "status": "ok"
+    },
     "sizzler.com": {
       "checked_at": "2026-10-17T17:38:01Z",
       "status": "ok"
@@ -4224,8 +4232,20 @@
       "checked_at": "2026-09-16T23:17:10Z",
       "status": "ok"
     },
+    "tidepooles.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "status": "ok"
+    },
     "tiktok.com": {
       "checked_at": "2026-10-13T20:28:49Z",
+      "status": "ok"
+    },
+    "tioflacos.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "status": "ok"
+    },
+    "tkburgers.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
       "status": "ok"
     },
     "tkebob.com": {
@@ -4238,6 +4258,15 @@
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
+    "todosbalboa.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "status": "ok"
+    },
+    "tonysbbqfv.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "status": "missing"
+    },
     "topbusinessesusa.top": {
       "checked_at": "2026-09-28T20:59:28Z",
       "error": "no supported site icon found",
@@ -4248,23 +4277,63 @@
       "error": "HTTP Error 404: Not Found",
       "status": "missing"
     },
+    "tramcreamcoffee.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "status": "ok"
+    },
+    "trejosmexicanfoods.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
     "trentapizza.com": {
       "checked_at": "2026-10-04T18:26:14Z",
       "error": "HTTP Error 429: Too Many Requests",
+      "status": "missing"
+    },
+    "tresamigoscaters.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "status": "ok"
+    },
+    "tributecoffeehouse.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
     "triplecrowntavern.com": {
       "checked_at": "2026-09-16T23:17:10Z",
       "status": "ok"
     },
+    "tropbonbakery.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "error": "asset is too large",
+      "status": "missing"
+    },
     "tropicalmicheladamix.com": {
       "checked_at": "2026-09-21T19:48:49Z",
       "status": "ok"
     },
+    "trubowl.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "status": "ok"
+    },
     "truefoodkitchen.com": {
-      "checked_at": "2026-10-16T18:32:31Z",
+      "checked_at": "2026-10-30T19:44:47Z",
       "error": "asset is too large",
       "status": "missing"
+    },
+    "trytrattoria.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "tumbleweedshb.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "status": "ok"
+    },
+    "twobirdsbakingcompany.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "status": "ok"
     },
     "ubereats.com": {
       "checked_at": "2026-10-22T18:56:48Z",
@@ -4342,12 +4411,12 @@
       "status": "ok"
     },
     "zubiesdrydock.com": {
-      "checked_at": "2026-10-16T02:30:56Z",
+      "checked_at": "2026-10-30T19:44:47Z",
       "error": "asset is too large",
       "status": "missing"
     }
   },
-  "generated_at": "2026-10-29T19:57:09Z",
+  "generated_at": "2026-10-30T19:44:47Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -5490,6 +5559,11 @@
       "checked_at": "2026-09-23T18:43:17Z",
       "path": "logos/farmersfridge-com.png",
       "source_url": "https://cdn.shopify.com/s/files/1/0340/3549/9067/files/favicon_32x32.png?v=1584139401"
+    },
+    "fast-n-fresh.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "path": "logos/fast-n-fresh-com.png",
+      "source_url": "https://framerusercontent.com/assets/5OHO9kOeIrLIn52o8welpQEwWE.png"
     },
     "fb.me": {
       "checked_at": "2026-10-05T21:43:32Z",
@@ -7757,6 +7831,11 @@
       "path": "logos/sipcoffeeandgoodsmenu-my-canva-site.png",
       "source_url": "https://sipcoffeeandgoodsmenu.my.canva.site/_assets/images/725b756a69a7d4c235070e51acd85560.png"
     },
+    "sites.google.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "path": "logos/sites-google-com.ico",
+      "source_url": "https://www.google.com/favicon.ico"
+    },
     "sizzler.com": {
       "background": "#000000",
       "checked_at": "2026-10-17T17:38:01Z",
@@ -8383,10 +8462,41 @@
       "path": "logos/three13bar-com.webp",
       "source_url": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:180,h:180,m"
     },
+    "tidepooles.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "path": "logos/tidepooles-com.png",
+      "source_url": "https://tidepooles.com/wp-content/uploads/2022/10/tidepooles-web-logo-1.png"
+    },
     "tiktok.com": {
       "checked_at": "2026-10-13T20:28:49Z",
       "path": "logos/tiktok-com.png",
       "source_url": "https://www.tiktok.com/favicon.ico"
+    },
+    "tioflacos.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "path": "logos/tioflacos-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/56130794e4b09b70719a5cd1/1444089427309-U3HC9WEBUJ1PNTEQAZ8D/TIO_FLACOS_LOGO.png?format=1500w&content-type=image%2Fpng"
+    },
+    "tkburgers.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "path": "logos/tkburgers-com.png",
+      "source_url": "https://www.tkburgers.com/wp-content/themes/organic_restaurant_creme/images/logo-new.png"
+    },
+    "todosbalboa.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "path": "logos/todosbalboa-com.jpg",
+      "source_url": "https://todosbalboa.com/assets/images/share.jpg?v=8fae25bc"
+    },
+    "tramcreamcoffee.com": {
+      "background": "#b68150",
+      "checked_at": "2026-10-30T19:44:47Z",
+      "path": "logos/tramcreamcoffee-com.webp",
+      "source_url": "https://www.tramcreamcoffee.com/_next/image?url=%2Ficons%2Flogo-blue-notext.png&w=3840&q=75"
+    },
+    "tresamigoscaters.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "path": "logos/tresamigoscaters-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/68fd32a17c58174e62cb19b3/42eda4a4-99a8-4288-a241-ea194c25cdf4/Tres+Anmigos+Catering.png?content-type=image%2Fpng"
     },
     "triplecrowntavern.com": {
       "checked_at": "2026-09-16T23:17:10Z",
@@ -8397,6 +8507,21 @@
       "checked_at": "2026-09-21T19:48:49Z",
       "path": "logos/tropicalmicheladamix-com.webp",
       "source_url": "https://tropicalmicheladamix.com/cdn/shop/files/1_15_2025_4_45_24_PM.png?v=1736988378&width=600"
+    },
+    "trubowl.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "path": "logos/trubowl-com.gif",
+      "source_url": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+    },
+    "tumbleweedshb.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "path": "logos/tumbleweedshb-com.png",
+      "source_url": "http://tumbleweedshb.com/wp-content/themes/tumbleweeds/tumbleweed.png"
+    },
+    "twobirdsbakingcompany.com": {
+      "checked_at": "2026-10-30T19:44:47Z",
+      "path": "logos/twobirdsbakingcompany-com.png",
+      "source_url": "https://twobirdsbakingcompany.com/wp-content/uploads/2020/10/logo.png"
     },
     "ubereats.com": {
       "background": "#000000",

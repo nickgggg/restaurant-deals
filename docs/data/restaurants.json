@@ -59,18 +59,18 @@
     "last_scanned_cities": [
       "Seal Beach"
     ],
-    "last_source_scan_at": "2026-10-29T19:49:04Z",
+    "last_source_scan_at": "2026-10-30T19:38:04Z",
     "map_cells": 458,
     "official_websites": 1484,
     "operational_count": 1896,
     "queued_cities": [],
     "restaurant_count": 1976,
-    "source_sites_checked": 63,
-    "specials_pages_found": 426,
+    "source_sites_checked": 12,
+    "specials_pages_found": 427,
     "successful_map_cells": 42
   },
   "discovery_version": 4,
-  "generated_at": "2026-10-29T19:49:04Z",
+  "generated_at": "2026-10-30T19:38:04Z",
   "refresh_after": "2026-11-05T19:48:50Z",
   "restaurants": [
     {
@@ -5837,7 +5837,7 @@
       "phone": "(949) 721-1255",
       "place_id": "ChIJt6ztX33g3IARWJqZ4Vf0mi4",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-30T19:37:51Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -5928,7 +5928,7 @@
       "phone": "(949) 675-6855",
       "place_id": "ChIJC6yCmAEg3YARy68eBGfbl-w",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-30T19:37:51Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -6151,7 +6151,7 @@
       "phone": "(949) 673-8516",
       "place_id": "ChIJU8jZBYnh3IAR5JFvAZ07_4k",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-30T19:37:51Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -6163,13 +6163,13 @@
         {
           "confidence": "medium",
           "discovered_via": "site_link",
-          "label": "*Azar's Special Pizzas Out of stock 3-5 toppings. $14.99",
+          "label": "*Azar's Special Pizzas $14.99 Out of stock 3-5 toppings.",
           "url": "http://azarspizza.com/?category-id=1000095946&item-id=1000732337"
         },
         {
           "confidence": "medium",
           "discovered_via": "site_link",
-          "label": "House Special Pizza Out of stock An original favorite. Homemade pizza sauce, mozzarella, pepperoni, Italian sausage, mushrooms, toasted red & green peppers & thinly sliced red onions. $14.99",
+          "label": "House Special Pizza $14.99 Out of stock An original favorite. Homemade pizza sauce, mozzarella, pepperoni, Italian sausage, mushrooms, toasted red & green peppers & thinly sliced red onions.",
           "url": "http://azarspizza.com/?category-id=1000095960&item-id=1000732396"
         }
       ],
@@ -6522,7 +6522,7 @@
       "phone": "(949) 999-8572",
       "place_id": "ChIJi97G9obg3IARM6FpZAefJ-o",
       "primary_type": "bar",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-30T19:37:51Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -7036,9 +7036,52 @@
       "phone": "(949) 673-0292",
       "place_id": "ChIJvxBa4_4f3YARih5A9O_Z6ps",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-30T19:37:51Z",
       "specials_discovery_version": 4,
-      "specials_pages": [],
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Happy Hour",
+          "url": "http://www.sharkeez.net/newport-beach/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Hermosa Beach",
+          "url": "https://sharkeez.net/hermosa-beach/happy-hour/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Huntington Beach",
+          "url": "https://sharkeez.net/huntington-beach/happy-hour/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Manhattan Beach",
+          "url": "https://sharkeez.net/manhattan-beach/happy-hour/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Newport Beach",
+          "url": "https://sharkeez.net/newport-beach/happy-hour/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "site_link",
+          "label": "Santa Barbara",
+          "url": "https://sharkeez.net/santa-barbara/happy-hour/"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://sharkeez.net/wp-content/uploads/2025/09/Sharkeez-Happy-Hour-Drink-Specials.png"
+        }
+      ],
       "types": [
         "mexican_restaurant",
         "sports_bar",
@@ -7233,7 +7276,7 @@
       "phone": "(949) 673-2040",
       "place_id": "ChIJpwCVZGvg3IARGTZ9dnzhse8",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-30T19:37:51Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -7365,7 +7408,7 @@
       "phone": "(949) 673-4522",
       "place_id": "ChIJcVkAkY7h3IARfOG7SM1ha18",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-30T19:37:51Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -7421,7 +7464,7 @@
       "phone": "(949) 423-7033",
       "place_id": "ChIJJ5RLXADh3IARbE0U93Ry5rg",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-30T19:37:51Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -7488,7 +7531,7 @@
       "phone": "(949) 873-5455",
       "place_id": "ChIJ5yQSaWvg3IARCqBiVs5C6sY",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-30T19:37:51Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -7554,7 +7597,7 @@
       "phone": "(949) 673-9783",
       "place_id": "ChIJgX7qYWvg3IARtov4xBXkWlY",
       "primary_type": "bar",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-30T19:37:51Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -7938,7 +7981,7 @@
       "phone": "(949) 200-9389",
       "place_id": "ChIJxXGAGv8f3YAR8IfNLhY8jyA",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-30T19:37:51Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -8090,7 +8133,7 @@
       "phone": "(949) 688-8001",
       "place_id": "ChIJZ0k0_iDh3IARa-mwR5cUfRw",
       "primary_type": "bar",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-10-30T19:37:51Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
