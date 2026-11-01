@@ -1,7 +1,1640 @@
 {
-  "generated_at": "2026-10-31T18:49:31Z",
+  "generated_at": "2026-11-01T19:15:20Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$24.99 Endless Shrimp Served with one side Choice of Garlic Shrimp Scampi, Shrimp Linguini Alfredo, Walt's Favorite Shrimp, or Parrot Isle Coconut Shrimp Dine-in only Not available on holidays",
+      "canonical_id": "8ddd1f5a5dfe35c1",
+      "categories": [
+        "food"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 15,
+      "details": [
+        "Served with one side",
+        "Choice of Garlic Shrimp Scampi, Shrimp Linguini Alfredo, Walt's Favorite Shrimp, or Parrot Isle Coconut Shrimp",
+        "Dine-in only",
+        "Not available on holidays"
+      ],
+      "first_seen": "2026-10-12T22:19:47Z",
+      "id": "9ef3f63005917394",
+      "is_stale": true,
+      "last_seen": "2026-10-17T17:38:00Z",
+      "location": {
+        "address": "12892 Harbor Blvd, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=6305177853541722572&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.775475,
+        "longitude": -117.917384,
+        "phone": "(714) 638-9500",
+        "place_id": "ChIJQ78PtwPY3IARzKkD_tl9gFc"
+      },
+      "quality_score": 43,
+      "restaurant": "Red Lobster",
+      "retired_at": "2026-11-01T19:15:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "MONDAY",
+        "$24.99* ENDLESS SHRIMP\u00ae"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.redlobster.com/menu/specials/daily-deals/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$24.99 Endless Shrimp",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Mon",
+      "value_label": "$24.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$25.99 Crab Lover's Duo A half pound of steamed snow crab legs paired with our Crab & Shrimp Linguini Alfredo",
+      "canonical_id": "9a96888b18823425",
+      "categories": [
+        "food"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 15,
+      "details": [
+        "A half pound of steamed snow crab legs paired with our Crab & Shrimp Linguini Alfredo"
+      ],
+      "first_seen": "2026-10-12T22:19:47Z",
+      "id": "fb7002eb73fa425d",
+      "is_stale": true,
+      "last_seen": "2026-10-17T17:38:00Z",
+      "location": {
+        "address": "12892 Harbor Blvd, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=6305177853541722572&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.775475,
+        "longitude": -117.917384,
+        "phone": "(714) 638-9500",
+        "place_id": "ChIJQ78PtwPY3IARzKkD_tl9gFc"
+      },
+      "quality_score": 43,
+      "restaurant": "Red Lobster",
+      "retired_at": "2026-11-01T19:15:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "TUESDAY",
+        "$25.99* CRAB LOVER'S DUO"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.redlobster.com/menu/specials/daily-deals/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$25.99 Crab Lover's Duo",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "$25.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$23.99 Steak & Walt's Favorite Shrimp A grilled 7 oz. sirloin paired with Walt's Favorite Shrimp Served with choice of one side",
+      "canonical_id": "b899894ddd097066",
+      "categories": [
+        "food"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 15,
+      "details": [
+        "A grilled 7 oz. sirloin paired with Walt's Favorite Shrimp",
+        "Served with choice of one side"
+      ],
+      "first_seen": "2026-10-12T22:19:47Z",
+      "id": "6621bc4f9191a859",
+      "is_stale": true,
+      "last_seen": "2026-10-17T17:38:00Z",
+      "location": {
+        "address": "12892 Harbor Blvd, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=6305177853541722572&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.775475,
+        "longitude": -117.917384,
+        "phone": "(714) 638-9500",
+        "place_id": "ChIJQ78PtwPY3IARzKkD_tl9gFc"
+      },
+      "quality_score": 43,
+      "restaurant": "Red Lobster",
+      "retired_at": "2026-11-01T19:15:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "WEDNESDAY",
+        "$23.99* STEAK & WALT'S FAVORITE SHRIMP"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.redlobster.com/menu/specials/daily-deals/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$23.99 Steak & Walt's Favorite Shrimp",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Wed",
+      "value_label": "$23.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "thursday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$23.99 Salmon New Orleans Fresh salmon blackened and topped with shrimp in a Cajun butter sauce, with tomato-cilantro relish Served with choice of one side",
+      "canonical_id": "82da399a2838b13a",
+      "categories": [
+        "food"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 15,
+      "details": [
+        "Fresh salmon blackened and topped with shrimp in a Cajun butter sauce, with tomato-cilantro relish",
+        "Served with choice of one side"
+      ],
+      "first_seen": "2026-10-12T22:19:47Z",
+      "id": "926a798b6951a61c",
+      "is_stale": true,
+      "last_seen": "2026-10-17T17:38:00Z",
+      "location": {
+        "address": "12892 Harbor Blvd, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=6305177853541722572&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.775475,
+        "longitude": -117.917384,
+        "phone": "(714) 638-9500",
+        "place_id": "ChIJQ78PtwPY3IARzKkD_tl9gFc"
+      },
+      "quality_score": 43,
+      "restaurant": "Red Lobster",
+      "retired_at": "2026-11-01T19:15:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "THURSDAY",
+        "$23.99* SALMON NEW ORLEANS"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.redlobster.com/menu/specials/daily-deals/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$23.99 Salmon New Orleans",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Thu",
+      "value_label": "$23.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "$15.99 Fish & Chips Beer-battered wild-caught cod served with Chesapeake fries and coleslaw",
+      "canonical_id": "4939f6c8b6f36b62",
+      "categories": [
+        "food"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 15,
+      "details": [
+        "Beer-battered wild-caught cod served with Chesapeake fries and coleslaw"
+      ],
+      "first_seen": "2026-10-12T22:19:47Z",
+      "id": "ebdacd9b7cfe01d2",
+      "is_stale": true,
+      "last_seen": "2026-10-17T17:38:00Z",
+      "location": {
+        "address": "12892 Harbor Blvd, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=6305177853541722572&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.775475,
+        "longitude": -117.917384,
+        "phone": "(714) 638-9500",
+        "place_id": "ChIJQ78PtwPY3IARzKkD_tl9gFc"
+      },
+      "quality_score": 43,
+      "restaurant": "Red Lobster",
+      "retired_at": "2026-11-01T19:15:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "FRIDAY",
+        "$15.99* FISH & CHIPS"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.redlobster.com/menu/specials/daily-deals/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$15.99 Fish & Chips",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Fri",
+      "value_label": "$15.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "All-You-Can-Eat Spaghetti 3-Course Meal for $8.95 Includes salad and garlic bread Choose between Spaghetti in meat sauce or Marinara with a 2nd helping included Add two home-made Meatballs for $5 or two Italian Sausages for $6",
+      "canonical_id": "99ddb1d7775b642c",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 8,
+      "details": [
+        "Includes salad and garlic bread",
+        "Choose between Spaghetti in meat sauce or Marinara with a 2nd helping included",
+        "Add two home-made Meatballs for $5 or two Italian Sausages for $6",
+        "Choose between Spaghetti in meat sauce or Marinara and enjoy a 2nd helping"
+      ],
+      "first_seen": "2026-10-21T18:59:01Z",
+      "id": "a803634f9a581928",
+      "is_stale": true,
+      "last_seen": "2026-10-24T17:44:31Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-11-01T19:15:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Wednesday October 21st",
+        "All-You-Can-Eat Spaghetti only $8.95!",
+        "3-course meal includes salad and garlic bread every Wednesday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/daily-specials",
+      "source_urls": [
+        "http://eatatpizzadoro.com/daily-specials",
+        "http://eatatpizzadoro.com/dailyspecials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "All-You-Can-Eat Spaghetti 3-Course Meal for $8.95",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-10-21",
+      "validity": "Wed",
+      "value_label": "$8.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "saturday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Sauteed Garlic Linguini 3-course meal for $14.45 Includes garlic bread and salad Make it Shrimp Scampi Garlic Linguini or Spicy Shrimp Fra diablo for $6 more",
+      "canonical_id": "fd0f0a00f3954a65",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 4,
+      "details": [
+        "Includes garlic bread and salad",
+        "Make it Shrimp Scampi Garlic Linguini or Spicy Shrimp Fra diablo for $6 more"
+      ],
+      "first_seen": "2026-10-14T18:57:37Z",
+      "id": "5d24d46c892cacf1",
+      "is_stale": true,
+      "last_seen": "2026-10-27T19:42:46Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-11-01T19:15:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Sauteed Garlic Linguini only $14.45!",
+        "3- course meal with garlic bread and salad every Saturday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Sauteed Garlic Linguini 3-course meal for $14.45",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-10-31",
+      "validity": "Sat",
+      "value_label": "$14.45"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour: Buy a double shot of Kava, get a double shot of kava free Buy a double shot of Kava get a double shot of kava free",
+      "canonical_id": "9a1da26b1b9b3ac0",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 1,
+      "details": [
+        "Buy a double shot of Kava get a double shot of kava free"
+      ],
+      "first_seen": "2026-10-16T18:32:29Z",
+      "id": "1f056643c2b0600c",
+      "is_stale": true,
+      "last_seen": "2026-10-31T18:49:31Z",
+      "location": {
+        "address": "7561 Center Ave #6, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=531254587814951031&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ]
+        },
+        "latitude": 33.735089699999996,
+        "longitude": -117.997063,
+        "phone": "(657) 227-7928",
+        "place_id": "ChIJf-HAPmom3YARd7gBoDtlXwc"
+      },
+      "quality_score": 100,
+      "restaurant": "Mystic Water Kava Bar Huntington Beach",
+      "retired_at": "2026-11-01T19:15:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Happy Hour Monday through Friday 4 PM till 7 PM. Buy a double shot of Kava get a double shot of kava free."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.mysticwaterkavabar.com/dailyspecials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour: Buy a double shot of Kava, get a double shot of kava free",
+      "tags": [
+        "happy_hour",
+        "free"
+      ],
+      "time_window": "16:00 - 19:00",
+      "valid_through": null,
+      "validity": "Mon-Fri, 16:00 - 19:00",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Bottomless Mimosa Brunch Buffet for $39.99 per guest $39.99 Per Guest \u2013 Includes Bottomless Mimosas $34.99 Per Guest \u2013 Non-Alcoholic Option Kids Ages 6\u201312: $19.99 Kids Under 6 Eat Free Bottomless Mimosa service limited to 90 minutes per guest",
+      "canonical_id": "c04f17ccd2976a67",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 12,
+      "details": [
+        "$39.99 Per Guest \u2013 Includes Bottomless Mimosas",
+        "$34.99 Per Guest \u2013 Non-Alcoholic Option",
+        "Kids Ages 6\u201312: $19.99",
+        "Kids Under 6 Eat Free",
+        "Bottomless Mimosa service limited to 90 minutes per guest"
+      ],
+      "first_seen": "2026-10-17T17:38:00Z",
+      "id": "cfd52df891d543c5",
+      "is_stale": true,
+      "last_seen": "2026-10-19T20:15:05Z",
+      "location": {
+        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7298377,
+        "longitude": -117.99953239999999,
+        "phone": "(657) 301-2017",
+        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
+      },
+      "quality_score": 100,
+      "restaurant": "Morena's Mexican Cuisine",
+      "retired_at": "2026-11-01T19:15:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "BOTTOMLESS MIMOSA BRUNCH BUFFET",
+        "Every Sunday | 10:00 AM \u2013 3:00 PM",
+        "$39.99 Per Guest \u2013 Includes Bottomless Mimosas"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://hb.morenasmex.com/daily-specials",
+      "source_urls": [
+        "https://hb.morenasmex.com/daily-specials",
+        "https://hb.morenasmex.com/huntington-beach-bella-terra-morenas-mexican-cuisine-huntington-beach-happy-hours-specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Bottomless Mimosa Brunch Buffet for $39.99 per guest",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "free"
+      ],
+      "time_window": "10:00 AM \u2013 3:00 PM",
+      "valid_through": null,
+      "validity": "Sun, 10:00 AM \u2013 3:00 PM",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Kids eat free every Wednesday Kids eat free every Wednesday",
+      "canonical_id": "85b7b6d4504f1259",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Kids eat free every Wednesday"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "87091ba66f24f554",
+      "is_stale": true,
+      "last_seen": "2026-10-31T18:49:31Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 93,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-11-01T19:15:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Kids eat free every Wednesday"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/offers/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Kids eat free every Wednesday",
+      "tags": [
+        "weekday_special",
+        "free"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Wed",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Tuesday Two-for-One Breakfast Entrees Buy one breakfast entree and get the second free. Dine-in only. During breakfast hours.",
+      "canonical_id": "b0efcafdde8e57a1",
+      "categories": [
+        "food"
+      ],
+      "city": "Seal Beach",
+      "days_since_seen": 30,
+      "details": [
+        "Buy one breakfast entree and get the second free.",
+        "Dine-in only.",
+        "During breakfast hours."
+      ],
+      "first_seen": "2026-09-24T18:49:21Z",
+      "id": "51e59a51c787611d",
+      "is_stale": true,
+      "last_seen": "2026-10-01T19:54:41Z",
+      "location": {
+        "address": "143 Main St, Seal Beach, CA 90740, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=9799931606402795997&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "02:00",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7413672,
+        "longitude": -118.10520969999997,
+        "phone": "(562) 598-6456",
+        "place_id": "ChIJewiSa_sv3YAR3QnDrt9ZAIg"
+      },
+      "quality_score": 93,
+      "restaurant": "Hennessey's Grill",
+      "retired_at": "2026-11-01T19:15:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Tuesday Two-for-One Breakfast Entrees",
+        "Buy one breakfast entree and get the second free\u2014every Tuesday, only at Hennessey\u2019s!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.hennesseystavern.com/promotions",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Tuesday Two-for-One Breakfast Entrees",
+      "tags": [
+        "bogo",
+        "weekday_special",
+        "free"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Tuesday Two-for-One Burgers Buy one burger and get the second free. Dine-in only.",
+      "canonical_id": "337ba0ee292f1c86",
+      "categories": [
+        "food"
+      ],
+      "city": "Seal Beach",
+      "days_since_seen": 30,
+      "details": [
+        "Buy one burger and get the second free.",
+        "Dine-in only."
+      ],
+      "first_seen": "2026-09-24T18:49:21Z",
+      "id": "05680f89aa39d878",
+      "is_stale": true,
+      "last_seen": "2026-10-01T19:54:41Z",
+      "location": {
+        "address": "143 Main St, Seal Beach, CA 90740, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=9799931606402795997&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "02:00",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7413672,
+        "longitude": -118.10520969999997,
+        "phone": "(562) 598-6456",
+        "place_id": "ChIJewiSa_sv3YAR3QnDrt9ZAIg"
+      },
+      "quality_score": 100,
+      "restaurant": "Hennessey's Grill",
+      "retired_at": "2026-11-01T19:15:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Tuesday Two-for-One Burgers",
+        "Buy one burger and get the second free\u2014every Tuesday, only at Hennessey\u2019s! ALL DAY & NIGHT"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.hennesseystavern.com/promotions",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Tuesday Two-for-One Burgers",
+      "tags": [
+        "bogo",
+        "weekday_special",
+        "free"
+      ],
+      "time_window": "ALL DAY & NIGHT",
+      "valid_through": null,
+      "validity": "Tue, ALL DAY & NIGHT",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Wednesday Hump Day Happy Hour specials Specials on 23 oz Coors Light drafts, Jameson shots, house wine, margaritas, vodka lemonades, greyhounds, screwdrivers, and Hawaiian margaritas.",
+      "canonical_id": "b53f66a581a08264",
+      "categories": [
+        "drink"
+      ],
+      "city": "Seal Beach",
+      "days_since_seen": 30,
+      "details": [
+        "Specials on 23 oz Coors Light drafts, Jameson shots, house wine, margaritas, vodka lemonades, greyhounds, screwdrivers, and Hawaiian margaritas."
+      ],
+      "first_seen": "2026-09-24T18:49:21Z",
+      "id": "562e27227496c6eb",
+      "is_stale": true,
+      "last_seen": "2026-10-01T19:54:41Z",
+      "location": {
+        "address": "143 Main St, Seal Beach, CA 90740, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=9799931606402795997&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "02:00",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7413672,
+        "longitude": -118.10520969999997,
+        "phone": "(562) 598-6456",
+        "place_id": "ChIJewiSa_sv3YAR3QnDrt9ZAIg"
+      },
+      "quality_score": 60,
+      "restaurant": "Hennessey's Grill",
+      "retired_at": "2026-11-01T19:15:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Wednesday Hump Day Happy Hour",
+        "4\u20137 PM with 23 oz Coors Light drafts, Jameson shots, house wine, margaritas, vodka lemonades, greyhounds, screwdrivers, and Hawaiian margaritas."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.hennesseystavern.com/promotions",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Wednesday Hump Day Happy Hour specials",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "4\u20137 PM",
+      "valid_through": null,
+      "validity": "Wed, 4\u20137 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$7.5 Fresh Squeezed Drinks All Day Long Includes Hennessey\u2019s Lemonades, Greyhounds & Screwdrivers made with New Amsterdam Vodka.",
+      "canonical_id": "aec008e5c6d4a442",
+      "categories": [
+        "drink"
+      ],
+      "city": "Seal Beach",
+      "days_since_seen": 1,
+      "details": [
+        "Includes Hennessey\u2019s Lemonades, Greyhounds & Screwdrivers made with New Amsterdam Vodka."
+      ],
+      "first_seen": "2026-09-24T18:49:21Z",
+      "id": "1ba40467897abed9",
+      "is_stale": true,
+      "last_seen": "2026-10-31T18:49:31Z",
+      "location": {
+        "address": "143 Main St, Seal Beach, CA 90740, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=9799931606402795997&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "02:00",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7413672,
+        "longitude": -118.10520969999997,
+        "phone": "(562) 598-6456",
+        "place_id": "ChIJewiSa_sv3YAR3QnDrt9ZAIg"
+      },
+      "quality_score": 52,
+      "restaurant": "Hennessey's Grill",
+      "retired_at": "2026-11-01T19:15:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$7.5 Fresh Squeezed Drinks All Day Long",
+        "$7.5 Freshly squeezed Hennessey\u2019s Lemonades, Greyhounds & Screwdrivers made with New Amsterdam Vodka! Served all day long."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.hennesseystavern.com/promotions",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$7.5 Fresh Squeezed Drinks All Day Long",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": "All Day Long",
+      "valid_through": null,
+      "validity": "All Day Long",
+      "value_label": "$7.50"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$6 Meal Deal Includes meal items priced at $6.",
+      "canonical_id": "066bdd3587540066",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 2,
+      "details": [
+        "Includes meal items priced at $6."
+      ],
+      "first_seen": "2026-10-22T18:56:47Z",
+      "id": "f1e240c5a0fa2f70",
+      "is_stale": true,
+      "last_seen": "2026-10-29T19:57:08Z",
+      "location": {
+        "address": "12681 Harbor Blvd, Great Wolf Lodge, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7865632920733910638&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "06:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "06:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "06:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "06:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "06:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "06:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "06:30"
+            }
+          ]
+        },
+        "latitude": 33.779341599999995,
+        "longitude": -117.9161506,
+        "phone": "(657) 667-5048",
+        "place_id": "ChIJ2WcIhwLY3IARbob2rXdXKG0"
+      },
+      "quality_score": 49,
+      "restaurant": "Dunkin'",
+      "retired_at": "2026-11-01T19:15:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$6 Meal Deal"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.dunkindonuts.com/menu/categories/6-meal-deal/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$6 Meal Deal",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$6"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Social Mimosas for $20.99 A full bottle of champagne and a carafe of orange juice, perfect for sharing Only $20.99",
+      "canonical_id": "e462c3c0d349b6f0",
+      "categories": [
+        "drink"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 1,
+      "details": [
+        "A full bottle of champagne and a carafe of orange juice, perfect for sharing",
+        "Only $20.99"
+      ],
+      "first_seen": "2026-10-01T19:54:41Z",
+      "id": "7e2a5096bf829407",
+      "is_stale": true,
+      "last_seen": "2026-10-31T18:49:31Z",
+      "location": {
+        "address": "100 Main St, Newport Beach, CA 92661, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:30",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6013728,
+        "longitude": -117.89955119999999,
+        "phone": "(949) 675-7760",
+        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
+      },
+      "quality_score": 50,
+      "restaurant": "Cabo Cantina",
+      "retired_at": "2026-11-01T19:15:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Social Mimosas! A full bottle of champagne and a carafe of orange juice, perfect for sharing! Only $20.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cabocantina.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Social Mimosas for $20.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$20.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "All You Can Eat Taco Tuesdays for $9.99 $9.99 per person Choice of grilled chicken, carne asada, ground beef or veggie tacos served with rice and beans One beverage min purchase required",
+      "canonical_id": "159b1e46b9426a73",
+      "categories": [
+        "food"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 1,
+      "details": [
+        "$9.99 per person",
+        "Choice of grilled chicken, carne asada, ground beef or veggie tacos served with rice and beans",
+        "One beverage min purchase required"
+      ],
+      "first_seen": "2026-10-02T16:30:35Z",
+      "id": "5a3344740b725434",
+      "is_stale": true,
+      "last_seen": "2026-10-31T18:49:31Z",
+      "location": {
+        "address": "100 Main St, Newport Beach, CA 92661, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:30",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6013728,
+        "longitude": -117.89955119999999,
+        "phone": "(949) 675-7760",
+        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
+      },
+      "quality_score": 43,
+      "restaurant": "Cabo Cantina",
+      "retired_at": "2026-11-01T19:15:20Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "All You Can Eat Taco Tuesdays! $9.99 per person, your choice of grilled chicken, carne asada, ground beef or veggie tacos server with rice and beans. One beverage min purchase required."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cabocantina.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "All You Can Eat Taco Tuesdays for $9.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "$9.99"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
@@ -3247,98 +4880,6 @@
       "valid_through": null,
       "validity": "Check source",
       "value_label": "2-for-1"
-    },
-    {
-      "ai_confidence": 0.95,
-      "applies_days": [],
-      "applies_month_days": [],
-      "candidate_text": "Social Mimosas for $20.99 A full bottle of champagne and a carafe of orange juice, perfect for sharing Only $20.99",
-      "canonical_id": "effdff1f12edc7c2",
-      "categories": [
-        "drink"
-      ],
-      "city": "Newport Beach",
-      "days_since_seen": 1,
-      "details": [
-        "A full bottle of champagne and a carafe of orange juice, perfect for sharing",
-        "Only $20.99"
-      ],
-      "first_seen": "2026-10-01T19:54:41Z",
-      "id": "7e2a5096bf829407",
-      "is_stale": true,
-      "last_seen": "2026-10-28T19:55:55Z",
-      "location": {
-        "address": "100 Main St, Newport Beach, CA 92661, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:30",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:30",
-              "open": "09:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "09:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ]
-        },
-        "latitude": 33.6013728,
-        "longitude": -117.89955119999999,
-        "phone": "(949) 675-7760",
-        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
-      },
-      "quality_score": 50,
-      "restaurant": "Cabo Cantina",
-      "retired_at": "2026-10-29T19:57:08Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "Social Mimosas! A full bottle of champagne and a carafe of orange juice, perfect for sharing! Only $20.99"
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://www.cabocantina.com/daily-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Social Mimosas for $20.99",
-      "tags": [
-        "dollar_amount"
-      ],
-      "time_window": null,
-      "valid_through": null,
-      "validity": "Check source",
-      "value_label": "$20.99"
     },
     {
       "ai_confidence": 0.95,
@@ -9937,101 +11478,6 @@
       "valid_through": "2026-10-28",
       "validity": "Wed",
       "value_label": "Free"
-    },
-    {
-      "ai_confidence": 0.95,
-      "applies_days": [
-        "tuesday"
-      ],
-      "applies_month_days": [],
-      "candidate_text": "All You Can Eat Taco Tuesdays for $9.99 $9.99 per person Choice of grilled chicken, carne asada, ground beef or veggie tacos served with rice and beans One beverage min purchase required",
-      "canonical_id": "dc86441427f8b400",
-      "categories": [
-        "food"
-      ],
-      "city": "Newport Beach",
-      "days_since_seen": 0,
-      "details": [
-        "$9.99 per person",
-        "Choice of grilled chicken, carne asada, ground beef or veggie tacos served with rice and beans",
-        "One beverage min purchase required"
-      ],
-      "first_seen": "2026-10-02T16:30:35Z",
-      "id": "5a3344740b725434",
-      "is_stale": true,
-      "last_seen": "2026-10-23T18:47:46Z",
-      "location": {
-        "address": "100 Main St, Newport Beach, CA 92661, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=1758511306956761291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:30",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:30",
-              "open": "09:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "09:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ]
-        },
-        "latitude": 33.6013728,
-        "longitude": -117.89955119999999,
-        "phone": "(949) 675-7760",
-        "place_id": "ChIJSSV1E2vg3IARy2iqeLd8Zxg"
-      },
-      "quality_score": 43,
-      "restaurant": "Cabo Cantina",
-      "retired_at": "2026-10-24T17:44:31Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "All You Can Eat Taco Tuesdays! $9.99 per person, your choice of grilled chicken, carne asada, ground beef or veggie tacos server with rice and beans. One beverage min purchase required."
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://www.cabocantina.com/daily-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "All You Can Eat Taco Tuesdays for $9.99",
-      "tags": [
-        "dollar_amount"
-      ],
-      "time_window": null,
-      "valid_through": null,
-      "validity": "Tue",
-      "value_label": "$9.99"
     },
     {
       "ai_confidence": 0.95,

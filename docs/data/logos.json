@@ -1191,6 +1191,11 @@
       "checked_at": "2026-10-31T18:49:32Z",
       "status": "ok"
     },
+    "eatvox.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "error": "URL can't contain control characters. '/CONCEPT LOGOS.png' (found at least ' ')",
+      "status": "missing"
+    },
     "edgeatvea.com": {
       "checked_at": "2026-10-02T19:35:12Z",
       "status": "ok"
@@ -1669,6 +1674,11 @@
       "checked_at": "2026-09-27T18:43:41Z",
       "status": "ok"
     },
+    "huntingtonbeach.hyatt.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
     "huongvietrest.com": {
       "checked_at": "2026-10-10T18:54:27Z",
       "error": "HTTP Error 403: Forbidden",
@@ -1793,6 +1803,11 @@
     "johnnyssaloonhb.com": {
       "checked_at": "2026-09-28T20:59:28Z",
       "status": "ok"
+    },
+    "johnwayneairportnewportbeach.regency.hyatt.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
     },
     "jojocakes.net": {
       "checked_at": "2026-09-28T20:59:28Z",
@@ -2085,6 +2100,11 @@
       "error": "Not Found",
       "status": "missing"
     },
+    "local.vons.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "error": "Not Found",
+      "status": "missing"
+    },
     "locations.auntieannes.com": {
       "checked_at": "2026-09-17T16:21:01Z",
       "status": "ok"
@@ -2159,6 +2179,10 @@
     },
     "locations.raisingcanes.com": {
       "checked_at": "2026-10-18T17:37:50Z",
+      "status": "ok"
+    },
+    "locations.wabagrill.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
       "status": "ok"
     },
     "locations.wendys.com": {
@@ -4452,16 +4476,62 @@
       "checked_at": "2026-10-29T19:57:09Z",
       "status": "ok"
     },
+    "vitaly.net": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "vittoriositalian.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "status": "ok"
+    },
     "voltd.top": {
       "checked_at": "2026-10-05T21:43:32Z",
+      "status": "ok"
+    },
+    "wadaya.co": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "status": "ok"
+    },
+    "wafubento.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "status": "ok"
+    },
+    "wafuofjapan.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "status": "ok"
+    },
+    "wahoos.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "status": "ok"
+    },
+    "wallys.cafe": {
+      "checked_at": "2026-11-01T19:15:21Z",
       "status": "ok"
     },
     "walmart.com": {
       "checked_at": "2026-10-05T21:43:32Z",
       "status": "ok"
     },
+    "warakitchen.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "wasasushiteppan.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "status": "ok"
+    },
+    "waterfallchicken.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "status": "ok"
+    },
     "waterfrontresort.com": {
       "checked_at": "2026-09-16T22:46:49Z",
+      "status": "ok"
+    },
+    "watergrill.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
       "status": "ok"
     },
     "wayfarercm.com": {
@@ -4473,13 +4543,31 @@
       "checked_at": "2026-09-16T23:29:21Z",
       "status": "ok"
     },
+    "wellnessworksandnutrition.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "status": "ok"
+    },
     "wendys.com": {
       "checked_at": "2026-09-16T23:17:10Z",
+      "status": "ok"
+    },
+    "weolive.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
       "status": "ok"
     },
     "westminster.phogahaivan.com": {
       "checked_at": "2026-10-16T02:30:56Z",
       "status": "ok"
+    },
+    "westwoodworld.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "wetdogindustries.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "error": "asset is too large",
+      "status": "missing"
     },
     "wholefoodsmarket.com": {
       "checked_at": "2026-10-02T16:30:37Z",
@@ -4499,7 +4587,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-10-31T18:49:32Z",
+  "generated_at": "2026-11-01T19:15:21Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -6554,6 +6642,11 @@
       "checked_at": "2026-10-18T17:37:50Z",
       "path": "logos/locations-raisingcanes-com.webp",
       "source_url": "https://images.prismic.io/raisingcanes/93a74859-268e-46ce-aa54-653a804c82cd_raising-canes-web-logo_0825_square.png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&rect=0%2C0%2C1000%2C1000&w=256&h=171"
+    },
+    "locations.wabagrill.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "path": "logos/locations-wabagrill-com.png",
+      "source_url": "https://llp-assets.meetsoci.com/live/assets/wabagrillsites/images/waba-logo.png"
     },
     "locations.wendys.com": {
       "checked_at": "2026-09-16T23:17:10Z",
@@ -8727,31 +8820,87 @@
       "path": "logos/vintagecafewestminster-com.png",
       "source_url": "https://vintagecafewestminster.com/assets/brand/logo.v2.png"
     },
+    "vittoriositalian.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "path": "logos/vittoriositalian-com.png",
+      "source_url": "http://vittoriositalian.com/wp-content/themes/vittorios/img/logo.png"
+    },
     "voltd.top": {
       "checked_at": "2026-10-05T21:43:32Z",
       "path": "logos/voltd-top.png",
       "source_url": "https://voltd.top/wp-includes/images/w-logo-gray-white-bg.png"
+    },
+    "wadaya.co": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "path": "logos/wadaya-co.png",
+      "source_url": "https://static.spotapps.co/website_images/ab_websites/103252_website_v1/logo_top.png"
+    },
+    "wafubento.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "path": "logos/wafubento-com.png",
+      "source_url": "https://wafubento.com/wp-content/uploads/2023/01/cropped-59845461-308D-4777-87FD-605CE0BEBCF0-192x192.png"
+    },
+    "wafuofjapan.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "path": "logos/wafuofjapan-com.jpg",
+      "source_url": "https://www.fbgcdn.com/pictures/0efb6f9c-b7ae-406b-ae8a-5abab2841f5c.jpg"
+    },
+    "wahoos.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "path": "logos/wahoos-com.png",
+      "source_url": "https://www.wahoos.com/wp-content/uploads/2020/09/Wahoos-Logo-LStroke.png"
+    },
+    "wallys.cafe": {
+      "background": "#edeadf",
+      "checked_at": "2026-11-01T19:15:21Z",
+      "path": "logos/wallys-cafe.webp",
+      "source_url": "https://www.wallys.cafe/uploads/b/495aeca0-9123-11ed-bd3c-1132aa67df6d/icon_180x180_ios_MTAwNz.png?width=180"
     },
     "walmart.com": {
       "checked_at": "2026-10-05T21:43:32Z",
       "path": "logos/walmart-com.webp",
       "source_url": "https://i5.walmartimages.com/dfw/63fd9f59-49ff/k2-_52fee322-2e60-452a-bccc-1e847f452a13.v1.png"
     },
+    "wasasushiteppan.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "path": "logos/wasasushiteppan-com.png",
+      "source_url": "https://wasasushiteppan.com/wp-content/uploads/2016/06/Wasa-logo-small.png"
+    },
+    "waterfallchicken.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "path": "logos/waterfallchicken-com.png",
+      "source_url": "https://waterfallchicken.com/wp-content/uploads/2026/04/Waterfall-Chicken-White-Logo-scaled.png"
+    },
     "waterfrontresort.com": {
       "checked_at": "2026-09-16T22:46:49Z",
       "path": "logos/waterfrontresort-com.png",
       "source_url": "https://waterfrontresort.com/wp-content/uploads/2025/02/henrys-coastal-cuisine-logo.png"
+    },
+    "watergrill.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "path": "logos/watergrill-com.png",
+      "source_url": "https://cdn.prod.website-files.com/5bd78ffdfc757ce771e4bf46/5d8d8fe88f129f7822e7c168_WG_FAV2_2019.png"
     },
     "website.uniquemobileapps.com": {
       "checked_at": "2026-09-16T23:29:21Z",
       "path": "logos/website-uniquemobileapps-com.jpg",
       "source_url": "https://lh3.googleusercontent.com/iYUoPGlCy5SiQEAxxcCMD6MHgf8kUCKHyNM1hF0LSR3mtef_UAiyUbs0XhyOWV1GfWOeIqoyLDADwhWhmA"
     },
+    "wellnessworksandnutrition.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "path": "logos/wellnessworksandnutrition-com.png",
+      "source_url": "https://static.mywebsites360.com/fe2a060400a644db8ced25c4de464dff/i/c240926b0f27492c89aa76302793f81e/1/5feFb8zhrk/Wellness%20Works%20Logo.png"
+    },
     "wendys.com": {
       "background": "#cd2028",
       "checked_at": "2026-09-16T23:17:10Z",
       "path": "logos/wendys-com.png",
       "source_url": "https://www.wendys.com/themes/custom/wendys_main/favicons/apple-touch-icon-180x180.png"
+    },
+    "weolive.com": {
+      "checked_at": "2026-11-01T19:15:21Z",
+      "path": "logos/weolive-com.webp",
+      "source_url": "https://cdn11.bigcommerce.com/s-jfp2s/images/stencil/250x100/shop_logo2x_1730286051__97013.original.png"
     },
     "westminster.phogahaivan.com": {
       "checked_at": "2026-10-16T02:30:56Z",
