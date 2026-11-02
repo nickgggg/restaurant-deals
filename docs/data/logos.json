@@ -849,6 +849,11 @@
       "checked_at": "2026-10-02T16:30:37Z",
       "status": "ok"
     },
+    "clover.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "error": "Not Found",
+      "status": "missing"
+    },
     "cmgoldendragon.com": {
       "checked_at": "2026-09-25T18:59:56Z",
       "error": "no supported site icon found",
@@ -1445,6 +1450,10 @@
       "checked_at": "2026-10-03T18:16:13Z",
       "status": "ok"
     },
+    "goosebar.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "status": "ok"
+    },
     "greatmex-costamesa.cloveronline.com": {
       "checked_at": "2026-10-16T18:32:31Z",
       "status": "ok"
@@ -1699,6 +1708,10 @@
     },
     "icanbbq.net": {
       "checked_at": "2026-09-27T18:43:41Z",
+      "status": "ok"
+    },
+    "ichirinusa.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
       "status": "ok"
     },
     "ikariakitchen.com": {
@@ -2188,6 +2201,11 @@
     "locations.wendys.com": {
       "checked_at": "2026-09-16T23:17:10Z",
       "status": "ok"
+    },
+    "locations.winchells.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "error": "Not Found",
+      "status": "missing"
     },
     "longblack.square.site": {
       "checked_at": "2026-10-05T21:43:32Z",
@@ -2882,6 +2900,11 @@
     "ordertacosandcarnitaspepes.com": {
       "checked_at": "2026-10-25T17:56:02Z",
       "status": "ok"
+    },
+    "orderyamasteriyaki.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "error": "Not Found",
+      "status": "missing"
     },
     "originaltikimarketplace.com": {
       "checked_at": "2026-10-29T19:57:09Z",
@@ -4569,16 +4592,80 @@
       "error": "asset is too large",
       "status": "missing"
     },
+    "wetzels.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "status": "ok"
+    },
+    "whatalottapizza.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "status": "ok"
+    },
     "wholefoodsmarket.com": {
       "checked_at": "2026-10-02T16:30:37Z",
+      "status": "ok"
+    },
+    "wildstrawberrycafe.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
       "status": "ok"
     },
     "wilmaspatio.com": {
       "checked_at": "2026-10-20T18:54:55Z",
       "status": "ok"
     },
+    "winelab.net": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "status": "ok"
+    },
+    "wingstop.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "status": "ok"
+    },
+    "wipgoods.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "error": "HTTP Error 401: Unauthorized",
+      "status": "missing"
+    },
+    "wonderlandbakeryfranchise.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "error": "<urlopen error [Errno -2] Name or service not known>",
+      "status": "missing"
+    },
+    "woodysdiners.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
+    "woodyswharf.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "status": "ok"
+    },
+    "xoichienoc.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "status": "ok"
+    },
+    "yalakabab.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "error": "<urlopen error [Errno -2] Name or service not known>",
+      "status": "missing"
+    },
+    "yamasteriyakihb.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "status": "ok"
+    },
     "yaoaxaca.com": {
       "checked_at": "2026-09-28T20:59:28Z",
+      "status": "ok"
+    },
+    "yucakela.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "status": "ok"
+    },
+    "yucatangrill.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "status": "ok"
+    },
+    "yukisushi.menu11.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
       "status": "ok"
     },
     "zubiesdrydock.com": {
@@ -4587,7 +4674,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-11-01T19:15:21Z",
+  "generated_at": "2026-11-02T22:58:42Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -5923,6 +6010,11 @@
       "path": "logos/goldenrabbit-co.webp",
       "source_url": "https://www.goldenrabbit.co/uploads/b/97381e20-e2d1-11ed-ae81-d9b4d1310084/icon_180x180_ios_ODAzNj.png?width=180"
     },
+    "goosebar.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "path": "logos/goosebar-com.ico",
+      "source_url": "https://static.parastorage.com/client/pfavico.ico"
+    },
     "greatmex-costamesa.cloveronline.com": {
       "checked_at": "2026-10-16T18:32:31Z",
       "path": "logos/greatmex-costamesa-cloveronline-com.png",
@@ -6152,6 +6244,12 @@
       "checked_at": "2026-09-27T18:43:41Z",
       "path": "logos/icanbbq-net.jpg",
       "source_url": "https://icanbbqwebsite.replit.app/opengraph.jpg"
+    },
+    "ichirinusa.com": {
+      "background": "#f5f2e8",
+      "checked_at": "2026-11-02T22:58:42Z",
+      "path": "logos/ichirinusa-com.webp",
+      "source_url": "https://www.ichirinusa.com/uploads/b/f6344340-0d01-11ed-b40c-e7d9b2efa459/icon_180x180_ios_NTc1MT.png?width=180"
     },
     "ikariakitchen.com": {
       "background": "#661c1a",
@@ -8907,21 +9005,77 @@
       "path": "logos/westminster-phogahaivan-com.png",
       "source_url": "https://production-cdn-hdb5b9fwgnb9bdf9.z01.azurefd.net/sitecontent/website/images/apple-touch-icon.png?lu=348122e9f09b1d200e84cd53cbd4d0f6"
     },
+    "wetzels.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "path": "logos/wetzels-com.png",
+      "source_url": "https://www.wetzels.com/favicon.png"
+    },
+    "whatalottapizza.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "path": "logos/whatalottapizza-com.png",
+      "source_url": "https://whatalottapizza.com/wp-content/uploads/2025/05/MASTER_WALA_LOGO.png"
+    },
     "wholefoodsmarket.com": {
       "checked_at": "2026-10-02T16:30:37Z",
       "path": "logos/wholefoodsmarket-com.png",
       "source_url": "https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com/static_pages/an-Amazon-Company-logo-white.png"
+    },
+    "wildstrawberrycafe.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "path": "logos/wildstrawberrycafe-com.gif",
+      "source_url": "https://www.wildstrawberrycafe.com/wp-content/uploads/2023/03/Transperent-black-Logo-scaled.gif"
     },
     "wilmaspatio.com": {
       "checked_at": "2026-10-20T18:54:55Z",
       "path": "logos/wilmaspatio-com.png",
       "source_url": "http://www.wilmaspatio.com/wp-includes/images/w-logo-gray-white-bg.png"
     },
+    "winelab.net": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "path": "logos/winelab-net.jpg",
+      "source_url": "https://winelab.net/wp-content/uploads/2022/08/WL-logo-x354.jpg"
+    },
+    "wingstop.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "path": "logos/wingstop-com.png",
+      "source_url": "https://www.wingstop.com/assets/images/wingstop_logo.ico"
+    },
+    "woodyswharf.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "path": "logos/woodyswharf-com.png",
+      "source_url": "https://static.spotapps.co/website_images/ab_websites/16683_website_v1/logo.png"
+    },
+    "xoichienoc.com": {
+      "background": "#ffd500",
+      "checked_at": "2026-11-02T22:58:42Z",
+      "path": "logos/xoichienoc-com.webp",
+      "source_url": "https://www.xoichienoc.com/uploads/b/18a3ec80-88d2-11f1-b4e2-5d7e803b76c6/icon_180x180_ios_NzY4Nz.png?width=180"
+    },
+    "yamasteriyakihb.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "path": "logos/yamasteriyakihb-com.jpg",
+      "source_url": "https://yamasteriyakihb.com/AdminBoard/uploads/site/b44b3-48634c09-722f-43b6-8d47-967ae6088087.jpg"
+    },
     "yaoaxaca.com": {
       "background": "#7c2629",
       "checked_at": "2026-09-28T20:59:28Z",
       "path": "logos/yaoaxaca-com.webp",
       "source_url": "https://yaoaxaca.com/cdn/shop/files/YO_logo.png?v=1631717808&width=460"
+    },
+    "yucakela.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "path": "logos/yucakela-com.webp",
+      "source_url": "https://yucakela.com/cdn/shop/files/LOGO.png?v=1685052713"
+    },
+    "yucatangrill.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "path": "logos/yucatangrill-com.png",
+      "source_url": "https://www.yucatangrill.com/uploads/1/0/9/1/109145123/editor/felixandgeorge.png?1501193065"
+    },
+    "yukisushi.menu11.com": {
+      "checked_at": "2026-11-02T22:58:42Z",
+      "path": "logos/yukisushi-menu11-com.ico",
+      "source_url": "https://yukisushi.menu11.com/favicon.ico"
     }
   },
   "selection_version": 3,
