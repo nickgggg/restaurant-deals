@@ -33,7 +33,7 @@
       "status": "ok"
     },
     "5thavenuebagelry.com": {
-      "checked_at": "2026-09-16T23:23:49Z",
+      "checked_at": "2026-11-03T20:42:42Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
@@ -46,7 +46,7 @@
       "status": "ok"
     },
     "acairepublic.com": {
-      "checked_at": "2026-09-16T23:23:49Z",
+      "checked_at": "2026-11-03T20:42:42Z",
       "error": "URL can't contain control characters. '/fotos/LOGO - Branco(1).png' (found at least ' ')",
       "status": "missing"
     },
@@ -88,7 +88,7 @@
       "status": "ok"
     },
     "alsnewyorkcafe.com": {
-      "checked_at": "2026-09-16T23:29:21Z",
+      "checked_at": "2026-11-03T20:42:42Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
@@ -97,7 +97,7 @@
       "status": "ok"
     },
     "alwaysreadymeals.com": {
-      "checked_at": "2026-09-16T23:29:21Z",
+      "checked_at": "2026-11-03T20:42:42Z",
       "error": "Not Found",
       "status": "missing"
     },
@@ -106,9 +106,8 @@
       "status": "ok"
     },
     "amarithfarmhouse.com": {
-      "checked_at": "2026-09-16T23:29:21Z",
-      "error": "no supported site icon found",
-      "status": "missing"
+      "checked_at": "2026-11-03T20:42:42Z",
+      "status": "ok"
     },
     "amazoniabowl.com": {
       "checked_at": "2026-09-16T23:29:21Z",
@@ -138,6 +137,11 @@
     "anqibistro.com": {
       "checked_at": "2026-09-16T18:34:31Z",
       "status": "ok"
+    },
+    "anvietfood.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "error": "HTTP Error 401: Unauthorized",
+      "status": "missing"
     },
     "aokinochuuka.com": {
       "checked_at": "2026-09-16T23:29:21Z",
@@ -182,6 +186,10 @@
     },
     "atracafes.com": {
       "checked_at": "2026-09-16T23:29:21Z",
+      "status": "ok"
+    },
+    "aulac.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
       "status": "ok"
     },
     "aumbeerhouse.com": {
@@ -346,6 +354,10 @@
     },
     "beachpitbbq.com": {
       "checked_at": "2026-09-17T16:21:01Z",
+      "status": "ok"
+    },
+    "beachwoodbrewing.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
       "status": "ok"
     },
     "beachwoodpizza.com": {
@@ -1055,6 +1067,10 @@
       "checked_at": "2026-09-16T18:34:31Z",
       "status": "ok"
     },
+    "donghungvienbakery.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "status": "ok"
+    },
     "donramonsrestaurant.com": {
       "checked_at": "2026-09-22T18:28:30Z",
       "status": "ok"
@@ -1364,9 +1380,8 @@
       "status": "ok"
     },
     "foursonsbrewing.com": {
-      "checked_at": "2026-09-16T23:29:21Z",
-      "error": "HTTP Error 429: Too Many Requests",
-      "status": "missing"
+      "checked_at": "2026-11-03T20:42:42Z",
+      "status": "ok"
     },
     "franksphilly.com": {
       "checked_at": "2026-09-24T18:49:22Z",
@@ -2104,7 +2119,7 @@
       "status": "ok"
     },
     "local.albertsons.com": {
-      "checked_at": "2026-09-16T23:29:21Z",
+      "checked_at": "2026-11-03T20:42:42Z",
       "error": "Not Found",
       "status": "missing"
     },
@@ -3637,6 +3652,10 @@
       "checked_at": "2026-10-22T18:56:48Z",
       "status": "ok"
     },
+    "silkysullivans.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "status": "ok"
+    },
     "simmzys.com": {
       "checked_at": "2026-10-22T18:56:48Z",
       "status": "ok"
@@ -3670,7 +3689,7 @@
       "status": "ok"
     },
     "sliceofnewyorkca.com": {
-      "checked_at": "2026-09-16T23:23:49Z",
+      "checked_at": "2026-11-03T20:42:42Z",
       "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
       "status": "missing"
     },
@@ -4668,13 +4687,44 @@
       "checked_at": "2026-11-02T22:58:42Z",
       "status": "ok"
     },
+    "yummyphofv.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "status": "ok"
+    },
+    "zabbthaicuisine.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "status": "ok"
+    },
+    "zenshisushi.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "error": "asset is too large",
+      "status": "missing"
+    },
+    "zentrlkitchen.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "status": "ok"
+    },
+    "zipfoodhandler.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "error": "Not Found",
+      "status": "missing"
+    },
+    "zovs.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "status": "ok"
+    },
+    "zpizza.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "missing"
+    },
     "zubiesdrydock.com": {
       "checked_at": "2026-10-30T19:44:47Z",
       "error": "asset is too large",
       "status": "missing"
     }
   },
-  "generated_at": "2026-11-02T22:58:42Z",
+  "generated_at": "2026-11-03T20:42:42Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -4781,6 +4831,11 @@
       "path": "logos/amaihuntingtonbeach-square-site.webp",
       "source_url": "https://amaihuntingtonbeach.square.site/uploads/b/d2277c10-25a3-11f1-a81a-c54c8790edc4/icon_180x180_ios_OTA2ND.png?width=180"
     },
+    "amarithfarmhouse.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "path": "logos/amarithfarmhouse-com.png",
+      "source_url": "https://www.amarithfarmhouse.com/wp-content/uploads/2026/05/Amarith-farmhouse-logo.png"
+    },
     "amazoniabowl.com": {
       "checked_at": "2026-09-16T23:29:21Z",
       "path": "logos/amazoniabowl-com.webp",
@@ -4864,6 +4919,11 @@
       "checked_at": "2026-09-16T23:29:21Z",
       "path": "logos/atracafes-com.webp",
       "source_url": "https://static.wixstatic.com/media/d96e89_5cdc51be33254bfe8086b6db8f3e5bd2~mv2.png/v1/fill/w_138,h_140,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Atra%20Logo%20w%20circle%20BLACK%20NO%20BG.png"
+    },
+    "aulac.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "path": "logos/aulac-com.png",
+      "source_url": "https://images.squarespace-cdn.com/content/6079b15e455b272e6cdc4559/1619014378028-M12KHO4NC1PTX7KP13GU/Au+Lac+Lettermark+White.png?content-type=image%2Fpng"
     },
     "aumbeerhouse.com": {
       "checked_at": "2026-10-08T20:15:36Z",
@@ -4996,6 +5056,11 @@
       "checked_at": "2026-09-17T16:21:01Z",
       "path": "logos/beachpitbbq-com.png",
       "source_url": "https://beachpitbbq.com/wp-content/uploads/2019/12/cropped-New-Beach-Pit-logo-icon-192x192.png"
+    },
+    "beachwoodbrewing.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "path": "logos/beachwoodbrewing-com.png",
+      "source_url": "https://beachwoodbrewing.com/assets/logo@2x-30bffb3b802ed29656940e435499618cc0249937be4266acb24e903eced6a232.png"
     },
     "beachwoodpizza.com": {
       "background": "#09a1bf",
@@ -5643,6 +5708,12 @@
       "path": "logos/don-jose-com.webp",
       "source_url": "https://irp.cdn-website.com//eed96003/dms3rep/multi/opt/logo+new-658w.png"
     },
+    "donghungvienbakery.com": {
+      "background": "#000000",
+      "checked_at": "2026-11-03T20:42:42Z",
+      "path": "logos/donghungvienbakery-com.png",
+      "source_url": "https://www.donghungvienbakery.com/logo192.png"
+    },
     "donramonsrestaurant.com": {
       "checked_at": "2026-09-22T18:28:30Z",
       "path": "logos/donramonsrestaurant-com.webp",
@@ -5915,6 +5986,11 @@
       "checked_at": "2026-10-14T18:57:38Z",
       "path": "logos/fountainbowl-com.jpg",
       "source_url": "https://bowlrx.sfo3.digitaloceanspaces.com/uploads/sites/320/2018/07/FB-logo-blue-LG.jpg"
+    },
+    "foursonsbrewing.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "path": "logos/foursonsbrewing-com.webp",
+      "source_url": "https://static.wixstatic.com/media/a8a5aa_5cd5155eb91b4006ba9753286edc3997~mv2.png/v1/fill/w_80,h_73,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/4S_2016_LOGO.png"
     },
     "franksphilly.com": {
       "background": "#630000",
@@ -8101,6 +8177,11 @@
       "path": "logos/silkthaihb-com.png",
       "source_url": "https://silkthaihb.com/wp-content/uploads/2020/09/logo-silk-thai-hb_white_03-350x43.png"
     },
+    "silkysullivans.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "path": "logos/silkysullivans-com.webp",
+      "source_url": "https://images.getbento.com/accounts/0a078eaf5e7135473963b4f19f33ce39/media/images/30300logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=1f2823&pad=100"
+    },
     "simmzys.com": {
       "checked_at": "2026-10-22T18:56:48Z",
       "path": "logos/simmzys-com.jpg",
@@ -9076,6 +9157,26 @@
       "checked_at": "2026-11-02T22:58:42Z",
       "path": "logos/yukisushi-menu11-com.ico",
       "source_url": "https://yukisushi.menu11.com/favicon.ico"
+    },
+    "yummyphofv.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "path": "logos/yummyphofv-com.png",
+      "source_url": "https://production-cdn-hdb5b9fwgnb9bdf9.z01.azurefd.net/sitecontent/website/images/apple-touch-icon.png?lu=348122e9f09b1d200e84cd53cbd4d0f6"
+    },
+    "zabbthaicuisine.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "path": "logos/zabbthaicuisine-com.png",
+      "source_url": "https://zabbthaicuisine.com/wp-content/uploads/2022/04/logo_zabb-thai-Sm-300x83.png"
+    },
+    "zentrlkitchen.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "path": "logos/zentrlkitchen-com.png",
+      "source_url": "https://images.squarespace-cdn.com/content/6658bf26cb4f4508fd384552/70a51271-da6a-42e7-a289-0c1d607037a1/ZentrlLightLogo.png?format=1500w&content-type=image%2Fpng"
+    },
+    "zovs.com": {
+      "checked_at": "2026-11-03T20:42:42Z",
+      "path": "logos/zovs-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/67abb68646427a4969ae883e/cdb6eefe-0afe-4d95-bf06-845e339227be/Zov%27s+Logos.png?format=1500w&content-type=image%2Fpng"
     }
   },
   "selection_version": 3,
