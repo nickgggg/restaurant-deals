@@ -59,18 +59,18 @@
     "last_scanned_cities": [
       "Seal Beach"
     ],
-    "last_source_scan_at": "2026-11-03T20:35:55Z",
+    "last_source_scan_at": "2026-11-04T20:54:38Z",
     "map_cells": 458,
     "official_websites": 1484,
     "operational_count": 1896,
     "queued_cities": [],
     "restaurant_count": 1976,
     "source_sites_checked": 12,
-    "specials_pages_found": 427,
+    "specials_pages_found": 428,
     "successful_map_cells": 42
   },
   "discovery_version": 4,
-  "generated_at": "2026-11-03T20:35:55Z",
+  "generated_at": "2026-11-04T20:54:38Z",
   "refresh_after": "2026-11-05T19:48:50Z",
   "restaurants": [
     {
@@ -32932,7 +32932,7 @@
       "phone": "(949) 423-7080",
       "place_id": "ChIJ3ayX-D8g3YAR1K6UHE7IOM8",
       "primary_type": "breakfast_restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-11-04T20:54:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -33196,7 +33196,7 @@
       "phone": "(949) 729-3561",
       "place_id": "ChIJg1klPhjh3IARkNuT8pks5Tc",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-11-04T20:54:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -33701,7 +33701,7 @@
       "phone": "",
       "place_id": "ChIJK7vPrtzf3IARvhUmKEL72qs",
       "primary_type": "bagel_shop",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-11-04T20:54:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -34135,7 +34135,7 @@
       "phone": "(949) 994-6515",
       "place_id": "ChIJs286GQDh3IAR28EVnRbtVq0",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-11-04T20:54:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -34364,7 +34364,7 @@
       "phone": "(949) 474-2120",
       "place_id": "ChIJtUQW31Pe3IARdv90p5EF1IE",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-11-04T20:54:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -35667,7 +35667,7 @@
       "phone": "(312) 229-0099",
       "place_id": "ChIJeSKo5ivf3IARTLRXOc2l-fM",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-11-04T20:54:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -35773,7 +35773,7 @@
       "phone": "(312) 229-0099",
       "place_id": "ChIJq5PlJ0rh3IARzZ0UY2Y5JlM",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-11-04T20:54:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -36483,7 +36483,7 @@
       "phone": "(949) 219-0655",
       "place_id": "ChIJhdjmZ4bg3IARFABOGevjGmI",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-11-04T20:54:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -36708,7 +36708,7 @@
       "phone": "(949) 852-0222",
       "place_id": "ChIJJ0exQEXe3IARSC9hkvP-P5I",
       "primary_type": "korean_restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-11-04T20:54:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -36778,9 +36778,16 @@
       "phone": "(949) 574-4954",
       "place_id": "ChIJHYopzxEg3YAR9T8ful0J4Ww",
       "primary_type": "korean_restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-11-04T20:54:10Z",
       "specials_discovery_version": 4,
-      "specials_pages": [],
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://flamebroilerusa.com/"
+        }
+      ],
       "types": [
         "korean_restaurant",
         "fast_food_restaurant",
@@ -37113,7 +37120,7 @@
       "phone": "(949) 674-5606",
       "place_id": "ChIJrf4__LTf3IARPeytWY8EkkU",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-11-04T20:54:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -37193,7 +37200,7 @@
       "phone": "(949) 720-9633",
       "place_id": "ChIJ28P7BYbg3IARW0VXYsS209I",
       "primary_type": "steak_house",
-      "specials_checked_at": "2026-10-01T19:46:02Z",
+      "specials_checked_at": "2026-11-04T20:54:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
