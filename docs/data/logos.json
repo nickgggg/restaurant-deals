@@ -820,6 +820,11 @@
       "error": "<urlopen error [Errno -2] Name or service not known>",
       "status": "missing"
     },
+    "chihuahuacerveza.com": {
+      "checked_at": "2026-11-05T21:28:45Z",
+      "error": "HTTP Error 401: Unauthorized",
+      "status": "missing"
+    },
     "chihuaquecristal1.wixsite.com": {
       "checked_at": "2026-10-09T19:49:00Z",
       "error": "HTTP Error 404: Not Found",
@@ -893,9 +898,8 @@
       "status": "ok"
     },
     "coffeenaturehb.com": {
-      "checked_at": "2026-09-20T17:44:41Z",
-      "error": "HTTP Error 429: Too Many Requests",
-      "status": "missing"
+      "checked_at": "2026-11-05T21:28:45Z",
+      "status": "ok"
     },
     "comtamkieugianggg.com": {
       "checked_at": "2026-10-08T20:15:36Z",
@@ -907,12 +911,12 @@
       "status": "missing"
     },
     "comtamthienhao.shop": {
-      "checked_at": "2026-09-20T17:44:41Z",
+      "checked_at": "2026-11-05T21:28:45Z",
       "error": "Not Found",
       "status": "missing"
     },
     "comtamthuankieu.com": {
-      "checked_at": "2026-09-21T19:48:49Z",
+      "checked_at": "2026-11-05T21:28:45Z",
       "error": "HTTP Error 404: ",
       "status": "missing"
     },
@@ -925,7 +929,7 @@
       "status": "ok"
     },
     "costco.com": {
-      "checked_at": "2026-09-21T19:48:49Z",
+      "checked_at": "2026-11-05T21:28:45Z",
       "error": "asset is too large",
       "status": "missing"
     },
@@ -967,7 +971,7 @@
       "status": "ok"
     },
     "cuptopiacafe.com": {
-      "checked_at": "2026-09-21T19:48:49Z",
+      "checked_at": "2026-11-05T21:28:45Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
@@ -1014,8 +1018,8 @@
       "status": "missing"
     },
     "delilicioushb.com": {
-      "checked_at": "2026-09-21T19:48:49Z",
-      "error": "Unsupported Media Type",
+      "checked_at": "2026-11-05T21:28:45Z",
+      "error": "<urlopen error timed out>",
       "status": "missing"
     },
     "delinerds.com": {
@@ -1023,8 +1027,8 @@
       "status": "ok"
     },
     "deliseoulfood.com": {
-      "checked_at": "2026-09-21T19:48:49Z",
-      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)>",
+      "checked_at": "2026-11-05T21:28:45Z",
+      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)>",
       "status": "missing"
     },
     "dempseysbeachside.com": {
@@ -1040,9 +1044,8 @@
       "status": "ok"
     },
     "dickchurchs.com": {
-      "checked_at": "2026-09-22T18:28:30Z",
-      "error": "HTTP Error 429: Too Many Requests",
-      "status": "missing"
+      "checked_at": "2026-11-05T21:28:45Z",
+      "status": "ok"
     },
     "dineatbuca.com": {
       "checked_at": "2026-10-08T20:15:36Z",
@@ -1073,9 +1076,8 @@
       "status": "ok"
     },
     "donutsbyamarithfarmhouse.com": {
-      "checked_at": "2026-09-22T18:28:30Z",
-      "error": "no supported site icon found",
-      "status": "missing"
+      "checked_at": "2026-11-05T21:28:45Z",
+      "status": "ok"
     },
     "doordash.com": {
       "checked_at": "2026-09-25T18:59:56Z",
@@ -1083,7 +1085,7 @@
       "status": "missing"
     },
     "dosamigoshb.com": {
-      "checked_at": "2026-09-22T18:28:30Z",
+      "checked_at": "2026-11-05T21:28:45Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
@@ -1093,7 +1095,7 @@
       "status": "missing"
     },
     "dragon-grill.com": {
-      "checked_at": "2026-09-22T18:28:30Z",
+      "checked_at": "2026-11-05T21:28:45Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
@@ -1128,7 +1130,7 @@
       "status": "ok"
     },
     "dwightscheesestrips.com": {
-      "checked_at": "2026-09-22T18:28:30Z",
+      "checked_at": "2026-11-05T21:28:45Z",
       "error": "asset is too large",
       "status": "missing"
     },
@@ -1223,7 +1225,7 @@
       "status": "ok"
     },
     "eggrollking.com": {
-      "checked_at": "2026-09-23T18:43:17Z",
+      "checked_at": "2026-11-05T21:28:45Z",
       "error": "<HTML><BODY><H1>404 NOT FOUND</H1></BODY></HTML>\r\n",
       "status": "missing"
     },
@@ -1233,7 +1235,7 @@
       "status": "missing"
     },
     "elcampeoninc.com": {
-      "checked_at": "2026-09-23T18:43:17Z",
+      "checked_at": "2026-11-05T21:28:45Z",
       "error": "HTTP Error 444: <none>",
       "status": "missing"
     },
@@ -1393,10 +1395,6 @@
       "checked_at": "2026-10-03T18:16:13Z",
       "status": "ok"
     },
-    "freshbrothers.com": {
-      "checked_at": "2026-10-02T16:30:37Z",
-      "status": "ok"
-    },
     "freshpitabakeryinc.com": {
       "checked_at": "2026-10-09T19:49:00Z",
       "status": "ok"
@@ -1428,6 +1426,10 @@
     },
     "germandeli.com": {
       "checked_at": "2026-09-16T18:34:31Z",
+      "status": "ok"
+    },
+    "getcrumbedoc.com": {
+      "checked_at": "2026-11-05T21:28:45Z",
       "status": "ok"
     },
     "ginaspizza.com": {
@@ -2318,9 +2320,8 @@
       "status": "ok"
     },
     "malarkyspub.com": {
-      "checked_at": "2026-10-06T19:53:15Z",
-      "error": "HTTP Error 429: Too Many Requests",
-      "status": "missing"
+      "checked_at": "2026-11-05T21:28:45Z",
+      "status": "ok"
     },
     "malezarestaurant.co": {
       "checked_at": "2026-10-16T18:32:31Z",
@@ -2454,6 +2455,10 @@
       "checked_at": "2026-10-06T23:44:23Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
+    },
+    "meetattheporch.com": {
+      "checked_at": "2026-11-05T21:28:45Z",
+      "status": "ok"
     },
     "megumicafetea.com": {
       "checked_at": "2026-09-17T18:36:20Z",
@@ -3171,6 +3176,10 @@
     },
     "pizzafactory.com": {
       "checked_at": "2026-10-17T17:38:01Z",
+      "status": "ok"
+    },
+    "pizzaguys.com": {
+      "checked_at": "2026-11-05T21:28:45Z",
       "status": "ok"
     },
     "pizzaromahb.com": {
@@ -4238,8 +4247,8 @@
       "checked_at": "2026-10-28T19:55:57Z",
       "status": "ok"
     },
-    "thepizzabakery.com": {
-      "checked_at": "2026-10-29T19:57:09Z",
+    "thepizzabakeryca.com": {
+      "checked_at": "2026-11-05T21:28:45Z",
       "status": "ok"
     },
     "thepizzapress.com": {
@@ -4720,7 +4729,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-11-04T21:01:43Z",
+  "generated_at": "2026-11-05T21:28:45Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -5573,6 +5582,11 @@
       "path": "logos/coffeedose-cafe.webp",
       "source_url": "https://coffeedose.cafe/cdn/shop/files/coffee-dose-logo-26.png?v=1775881781&width=130"
     },
+    "coffeenaturehb.com": {
+      "checked_at": "2026-11-05T21:28:45Z",
+      "path": "logos/coffeenaturehb-com.png",
+      "source_url": "https://static.wixstatic.com/media/373248_0dc9a62fabca4243807d1762e817ba1a%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/373248_0dc9a62fabca4243807d1762e817ba1a%7Emv2.png"
+    },
     "comtamkieugianggg.com": {
       "checked_at": "2026-10-08T20:15:36Z",
       "path": "logos/comtamkieugianggg-com.png",
@@ -5695,6 +5709,11 @@
       "path": "logos/dexcoffeebar-com.webp",
       "source_url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/9xomXxs8vfZFsSBT/dex-logo-3nHbYc2uIAQKQFF3.png"
     },
+    "dickchurchs.com": {
+      "checked_at": "2026-11-05T21:28:45Z",
+      "path": "logos/dickchurchs-com.webp",
+      "source_url": "https://static.wixstatic.com/media/e9019d_e52ebaa8ec7843ada28e6b929fdea3d4~mv2.png/v1/fill/w_603,h_342,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/DC%20logo%20teal%20orange.png"
+    },
     "dineatbuca.com": {
       "checked_at": "2026-10-08T20:15:36Z",
       "path": "logos/dineatbuca-com.webp",
@@ -5730,6 +5749,11 @@
       "checked_at": "2026-09-22T18:28:30Z",
       "path": "logos/donramonsrestaurant-com.webp",
       "source_url": "https://images.squarespace-cdn.com/content/v1/5c6e471f16b6405b29e1597e/fa2f319a-1366-4daf-86b0-11ac3873794c/DonRamonsLogoBlack2.png"
+    },
+    "donutsbyamarithfarmhouse.com": {
+      "checked_at": "2026-11-05T21:28:45Z",
+      "path": "logos/donutsbyamarithfarmhouse-com.webp",
+      "source_url": "https://donutsbyamarithfarmhouse.com/wp-content/uploads/2026/06/Donuts-by-amerith-farmhouse-logo-e1780592635824.webp"
     },
     "drinkcalinutrition.com": {
       "checked_at": "2026-09-19T17:30:53Z",
@@ -6016,11 +6040,6 @@
       "path": "logos/freelancecoffeeproject-com.webp",
       "source_url": "https://freelancecoffeeproject.com/cdn/shop/files/Freelance_Logo_500x.png?v=1729770151"
     },
-    "freshbrothers.com": {
-      "checked_at": "2026-10-02T16:30:37Z",
-      "path": "logos/freshbrothers-com.webp",
-      "source_url": "https://www.freshbrothers.com/img/logo.webp"
-    },
     "freshpitabakeryinc.com": {
       "background": "#8b4513",
       "checked_at": "2026-10-09T19:49:00Z",
@@ -6056,6 +6075,11 @@
       "checked_at": "2026-09-16T18:34:31Z",
       "path": "logos/germandeli-com.webp",
       "source_url": "https://germandeli.com/cdn/shop/files/Germandeli.com_Favicon.png?crop=center&height=48&v=1752776131&width=48"
+    },
+    "getcrumbedoc.com": {
+      "checked_at": "2026-11-05T21:28:45Z",
+      "path": "logos/getcrumbedoc-com.webp",
+      "source_url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/c837f9fc-da53-4ae3-b37b-1fe7cecbac1c/session/1bea7742-768d-4ecd-a35c-e6f86fa59e91/horizontal-transparent-03ddbffd-1a34-456a-a51e-583222a29f2c/logo-logo.png"
     },
     "ginaspizza.com": {
       "checked_at": "2026-09-25T18:59:56Z",
@@ -6927,6 +6951,11 @@
       "path": "logos/malalsham-com.png",
       "source_url": "https://malalsham.com/opengraph-image/og?71df59e3b4dcdf93="
     },
+    "malarkyspub.com": {
+      "checked_at": "2026-11-05T21:28:45Z",
+      "path": "logos/malarkyspub-com.ico",
+      "source_url": "https://static.parastorage.com/client/pfavico.ico"
+    },
     "malezarestaurant.co": {
       "checked_at": "2026-10-16T18:32:31Z",
       "path": "logos/malezarestaurant-co.jpg",
@@ -7038,6 +7067,11 @@
       "checked_at": "2026-09-17T18:36:20Z",
       "path": "logos/maximkaraoke-com.jpg",
       "source_url": "https://maximkaraoke.com/wp-content/uploads/2026/03/cropped-Logo-192x192.jpg"
+    },
+    "meetattheporch.com": {
+      "checked_at": "2026-11-05T21:28:45Z",
+      "path": "logos/meetattheporch-com.webp",
+      "source_url": "https://www.meetattheporch.com/file/logo-thrill-www.meetattheporch.com-9d8730d816.webp"
     },
     "megumicafetea.com": {
       "background": "#2c3e2d",
@@ -7726,6 +7760,11 @@
       "checked_at": "2026-10-17T17:38:01Z",
       "path": "logos/pizzafactory-com.webp",
       "source_url": "https://www.pizzafactory.com/wp-content/smush-webp/2021/06/cropped-pf-logo-01-192x192.png.webp"
+    },
+    "pizzaguys.com": {
+      "checked_at": "2026-11-05T21:28:45Z",
+      "path": "logos/pizzaguys-com.png",
+      "source_url": "https://www.pizzaguys.com/wp-content/uploads/2024/12/PG-Logo_Horizontal_RGB-FullBlk-01-png.png"
     },
     "playgroundhb.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -8787,11 +8826,10 @@
       "path": "logos/themooncoffee-com.webp",
       "source_url": "https://themooncoffee.com/cdn/shop/t/20/assets/the-moon-home-footer-wordmark.png?v=76296063401593330341792726734"
     },
-    "thepizzabakery.com": {
-      "background": "#163850",
-      "checked_at": "2026-10-29T19:57:09Z",
-      "path": "logos/thepizzabakery-com.webp",
-      "source_url": "https://thepizzabakery.com/_astro/logo-stamp.C6z5DLfx_ZrPLlE.webp"
+    "thepizzabakeryca.com": {
+      "checked_at": "2026-11-05T21:28:45Z",
+      "path": "logos/thepizzabakeryca-com.png",
+      "source_url": "https://shop-logos.imgix.net/shops/8975f78b-81f7-4b08-aab2-cdbb443d222b/original/8975f78b-81f7-4b08-aab2-cdbb443d222b-51b14e24a26107171aaed62d724a2667.png"
     },
     "thepizzapress.com": {
       "checked_at": "2026-10-29T19:57:09Z",
