@@ -59,18 +59,18 @@
     "last_scanned_cities": [
       "Newport Beach"
     ],
-    "last_source_scan_at": "2026-11-05T21:13:05Z",
+    "last_source_scan_at": "2026-11-06T20:30:54Z",
     "map_cells": 458,
     "official_websites": 1490,
     "operational_count": 1898,
     "queued_cities": [],
     "restaurant_count": 1980,
-    "source_sites_checked": 262,
+    "source_sites_checked": 12,
     "specials_pages_found": 435,
     "successful_map_cells": 120
   },
   "discovery_version": 4,
-  "generated_at": "2026-11-05T21:13:05Z",
+  "generated_at": "2026-11-06T20:30:54Z",
   "refresh_after": "2026-11-12T20:08:06Z",
   "restaurants": [
     {
@@ -356,7 +356,7 @@
       "phone": "(714) 855-9593",
       "place_id": "ChIJbezf7oMn3YARAdxdO1tB5Hs",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-08T20:04:26Z",
+      "specials_checked_at": "2026-11-06T20:30:47Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -963,7 +963,7 @@
       "phone": "(714) 534-7999",
       "place_id": "ChIJpY-R6uQn3YARl9BdvsjqFno",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-10-08T20:04:26Z",
+      "specials_checked_at": "2026-11-06T20:30:47Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -2459,7 +2459,7 @@
       "phone": "",
       "place_id": "ChIJw9S_5M8p3YARdgjg9q3y3SU",
       "primary_type": "italian_restaurant",
-      "specials_checked_at": "2026-10-08T20:04:26Z",
+      "specials_checked_at": "2026-11-06T20:30:47Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -3939,7 +3939,7 @@
       "phone": "(714) 636-0277",
       "place_id": "ChIJExi9JfQn3YAR5PAKt4AAIiM",
       "primary_type": "hamburger_restaurant",
-      "specials_checked_at": "2026-10-08T20:04:26Z",
+      "specials_checked_at": "2026-11-06T20:30:47Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -4064,7 +4064,7 @@
       "phone": "(657) 251-0100",
       "place_id": "ChIJddEKjiLZ3IAR0xR6dw37SEc",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-08T20:04:26Z",
+      "specials_checked_at": "2026-11-06T20:30:47Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -5657,7 +5657,7 @@
       "phone": "(714) 909-2020",
       "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4",
       "primary_type": "asian_fusion_restaurant",
-      "specials_checked_at": "2026-10-08T20:04:26Z",
+      "specials_checked_at": "2026-11-06T20:30:47Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -5665,6 +5665,12 @@
           "discovered_via": "known_path",
           "label": "Daily Specials",
           "url": "http://aumbeerhouse.com/daily-specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Dailyspecials",
+          "url": "http://aumbeerhouse.com/dailyspecials"
         },
         {
           "confidence": "high",
@@ -5767,7 +5773,7 @@
       "phone": "(714) 512-6150",
       "place_id": "ChIJ5xLOom8o3YAR9144nLRTL-U",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-10-08T20:04:26Z",
+      "specials_checked_at": "2026-11-06T20:30:47Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -6243,7 +6249,7 @@
       "phone": "(714) 638-3790",
       "place_id": "ChIJk-DQmAko3YARwtWX0AqAbYk",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-08T20:04:26Z",
+      "specials_checked_at": "2026-11-06T20:30:47Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -6375,7 +6381,7 @@
       "phone": "(714) 750-8888",
       "place_id": "ChIJg5sZnfHX3IARNrlgNel7UCs",
       "primary_type": "chinese_restaurant",
-      "specials_checked_at": "2026-10-08T20:04:26Z",
+      "specials_checked_at": "2026-11-06T20:30:47Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -8315,7 +8321,7 @@
       "phone": "",
       "place_id": "ChIJ58DHvAko3YAREE1crQVsQng",
       "primary_type": "bar",
-      "specials_checked_at": "2026-10-08T20:04:26Z",
+      "specials_checked_at": "2026-11-06T20:30:47Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -8401,7 +8407,7 @@
       "phone": "(657) 204-5973",
       "place_id": "ChIJe4k-wa8p3YARyDyNkyg54p4",
       "primary_type": "filipino_restaurant",
-      "specials_checked_at": "2026-10-08T20:04:26Z",
+      "specials_checked_at": "2026-11-06T20:30:47Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -9065,7 +9071,7 @@
       "phone": "(714) 636-5599",
       "place_id": "ChIJ5-7Rc3wo3YARhrOd1wMXMSM",
       "primary_type": "korean_restaurant",
-      "specials_checked_at": "2026-10-08T20:04:26Z",
+      "specials_checked_at": "2026-11-06T20:30:47Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
