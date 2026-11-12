@@ -74,6 +74,11 @@
       "checked_at": "2026-09-24T18:49:22Z",
       "status": "ok"
     },
+    "aipho.info": {
+      "checked_at": "2026-11-12T21:41:56Z",
+      "error": "HTTP Error 404: Not Found",
+      "status": "missing"
+    },
     "akumaramenhb.com": {
       "checked_at": "2026-09-16T23:23:49Z",
       "status": "ok"
@@ -606,16 +611,12 @@
       "checked_at": "2026-09-18T18:00:36Z",
       "status": "ok"
     },
-    "cafe168.shop": {
-      "checked_at": "2026-10-08T20:15:36Z",
-      "status": "ok"
-    },
     "cafeartys.com": {
       "checked_at": "2026-10-02T16:48:45Z",
       "status": "ok"
     },
     "cafecasalibre.com": {
-      "checked_at": "2026-10-16T18:32:31Z",
+      "checked_at": "2026-11-12T21:41:56Z",
       "error": "Not Found",
       "status": "missing"
     },
@@ -1251,7 +1252,7 @@
       "status": "ok"
     },
     "elpollonorteno.net": {
-      "checked_at": "2026-10-29T19:57:09Z",
+      "checked_at": "2026-11-12T21:41:56Z",
       "error": "asset is too large",
       "status": "missing"
     },
@@ -1900,6 +1901,10 @@
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
+    "kats-en.com": {
+      "checked_at": "2026-11-12T21:41:56Z",
+      "status": "ok"
+    },
     "katsuyaki-costa-mesa.square.site": {
       "checked_at": "2026-10-16T18:32:31Z",
       "status": "ok"
@@ -1977,10 +1982,6 @@
       "checked_at": "2026-09-30T19:42:39Z",
       "status": "ok"
     },
-    "kruasiam.com": {
-      "checked_at": "2026-10-10T18:54:27Z",
-      "status": "ok"
-    },
     "kungpaobowlhuntingtonbeach.com": {
       "checked_at": "2026-09-30T19:42:39Z",
       "status": "ok"
@@ -2010,7 +2011,7 @@
       "status": "ok"
     },
     "lalomitamexgrill.com": {
-      "checked_at": "2026-10-16T18:32:31Z",
+      "checked_at": "2026-11-12T21:41:56Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
@@ -2847,7 +2848,7 @@
       "status": "ok"
     },
     "order.mealkeyway.com": {
-      "checked_at": "2026-10-16T18:32:31Z",
+      "checked_at": "2026-11-12T21:41:56Z",
       "error": "no supported site icon found",
       "status": "missing"
     },
@@ -3087,18 +3088,13 @@
       "status": "missing"
     },
     "phoholic.la": {
-      "checked_at": "2026-10-16T18:32:31Z",
+      "checked_at": "2026-11-12T21:41:56Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
     "pholovers3.restaurants-us.com": {
       "checked_at": "2026-10-16T02:30:56Z",
       "status": "ok"
-    },
-    "pholu.grubviet.com": {
-      "checked_at": "2026-10-16T02:30:56Z",
-      "error": "URL can't contain control characters. '/front/Pho Lu Logo (white).png' (found at least ' ')",
-      "status": "missing"
     },
     "pholuxhb.com": {
       "checked_at": "2026-10-16T02:30:56Z",
@@ -3166,7 +3162,7 @@
       "status": "ok"
     },
     "pizzaromahb.com": {
-      "checked_at": "2026-10-17T17:38:01Z",
+      "checked_at": "2026-11-12T21:41:56Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
@@ -3251,9 +3247,8 @@
       "status": "ok"
     },
     "proportionmeals.com": {
-      "checked_at": "2026-10-18T17:37:50Z",
-      "error": "The read operation timed out",
-      "status": "missing"
+      "checked_at": "2026-11-12T21:41:56Z",
+      "status": "ok"
     },
     "puravidamiami.com": {
       "checked_at": "2026-10-18T17:37:50Z",
@@ -3264,9 +3259,8 @@
       "status": "ok"
     },
     "qargocoffee.com": {
-      "checked_at": "2026-10-18T17:37:50Z",
-      "error": "HTTP Error 502: Bad Gateway",
-      "status": "missing"
+      "checked_at": "2026-11-12T21:41:56Z",
+      "status": "ok"
     },
     "qheggrolls.com": {
       "checked_at": "2026-10-18T17:37:50Z",
@@ -3278,17 +3272,17 @@
       "status": "missing"
     },
     "queenspancakes.com": {
-      "checked_at": "2026-10-18T17:37:50Z",
+      "checked_at": "2026-11-12T21:41:56Z",
       "error": "HTTP Error 404: Not Found",
       "status": "missing"
     },
     "quevidatacos.com": {
-      "checked_at": "2026-10-18T17:37:50Z",
+      "checked_at": "2026-11-12T21:41:56Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
     "quevidataqueria.com": {
-      "checked_at": "2026-10-18T17:37:50Z",
+      "checked_at": "2026-11-12T21:41:56Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
@@ -3314,8 +3308,8 @@
       "status": "ok"
     },
     "rd-kitchen.com": {
-      "checked_at": "2026-10-18T17:37:50Z",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "checked_at": "2026-11-12T21:41:56Z",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "status": "missing"
     },
     "realthaifood.net": {
@@ -3376,12 +3370,12 @@
       "status": "ok"
     },
     "rh.com": {
-      "checked_at": "2026-10-19T20:15:07Z",
+      "checked_at": "2026-11-12T21:41:56Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
     "ribbronewportbeach.com": {
-      "checked_at": "2026-10-19T20:15:07Z",
+      "checked_at": "2026-11-12T21:41:56Z",
       "error": "asset is too large",
       "status": "missing"
     },
@@ -3428,7 +3422,7 @@
       "status": "missing"
     },
     "romansmexicanrestaurantca.com": {
-      "checked_at": "2026-10-19T20:15:07Z",
+      "checked_at": "2026-11-12T21:41:56Z",
       "error": "HTTP Error 429: Too Many Requests",
       "status": "missing"
     },
@@ -3546,6 +3540,10 @@
     },
     "seabirdskitchen.com": {
       "checked_at": "2026-10-21T18:59:02Z",
+      "status": "ok"
+    },
+    "seafood-cove.com": {
+      "checked_at": "2026-11-12T21:41:56Z",
       "status": "ok"
     },
     "sealbeachgrill.com": {
@@ -3987,7 +3985,7 @@
       "status": "ok"
     },
     "taikofv.com": {
-      "checked_at": "2026-10-18T17:37:50Z",
+      "checked_at": "2026-11-12T21:41:56Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
@@ -4351,7 +4349,7 @@
       "status": "missing"
     },
     "topchefllc.wixsite.com": {
-      "checked_at": "2026-10-19T20:15:07Z",
+      "checked_at": "2026-11-12T21:41:56Z",
       "error": "HTTP Error 404: Not Found",
       "status": "missing"
     },
@@ -4440,11 +4438,6 @@
     "urokopoke.com": {
       "checked_at": "2026-10-31T18:49:32Z",
       "status": "ok"
-    },
-    "usmapir.org": {
-      "checked_at": "2026-11-10T21:08:52Z",
-      "error": "no supported site icon found",
-      "status": "missing"
     },
     "usmapiz.org": {
       "checked_at": "2026-11-10T21:08:52Z",
@@ -4712,7 +4705,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-11-11T21:38:33Z",
+  "generated_at": "2026-11-12T21:41:56Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -5308,11 +5301,6 @@
       "checked_at": "2026-09-18T18:00:36Z",
       "path": "logos/cabowabobeachclub-com.png",
       "source_url": "https://cabowabobeachclub.com/wp-content/uploads/2023/04/cropped-cabo-favi-192x192.png"
-    },
-    "cafe168.shop": {
-      "checked_at": "2026-10-08T20:15:36Z",
-      "path": "logos/cafe168-shop.png",
-      "source_url": "https://placejoys.com/public/images/logo/placejoys-header.png"
     },
     "cafeartys.com": {
       "background": "#e5cdba",
@@ -6568,6 +6556,11 @@
       "path": "logos/kashiwaramen-com.webp",
       "source_url": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3-us-west-2.amazonaws.com/media/photosV2/9298679a-d184-4345-b17f-92105f07b7ab-retina-large.png"
     },
+    "kats-en.com": {
+      "checked_at": "2026-11-12T21:41:56Z",
+      "path": "logos/kats-en-com.png",
+      "source_url": "https://kats-en.com/wp-content/uploads/2026/10/Katsen_1_B-170x56.png"
+    },
     "katsuyaki-costa-mesa.square.site": {
       "background": "#274b3a",
       "checked_at": "2026-10-16T18:32:31Z",
@@ -6660,11 +6653,6 @@
       "checked_at": "2026-09-30T19:42:39Z",
       "path": "logos/koyisushi-com.png",
       "source_url": "https://www.koyisushi.com/wp-content/uploads/2023/11/koyi-sushi-logo-white02.png"
-    },
-    "kruasiam.com": {
-      "checked_at": "2026-10-10T18:54:27Z",
-      "path": "logos/kruasiam-com.png",
-      "source_url": "https://kruasiam.com/assets/img/logo/logo.png"
     },
     "kungpaobowlhuntingtonbeach.com": {
       "checked_at": "2026-09-30T19:42:39Z",
@@ -7941,6 +7929,11 @@
       "path": "logos/presoteaus-com.png",
       "source_url": "https://www.nenekmallomo.com/img/queen.png"
     },
+    "proportionmeals.com": {
+      "checked_at": "2026-11-12T21:41:56Z",
+      "path": "logos/proportionmeals-com.webp",
+      "source_url": "https://cdn.shopify.com/s/files/1/1507/5652/files/PM-Logo-WordMarkStamp_Black.png?height=628&pad_color=fff&v=1613728587&width=1200"
+    },
     "puravidamiami.com": {
       "checked_at": "2026-10-18T17:37:50Z",
       "path": "logos/puravidamiami-com.webp",
@@ -7950,6 +7943,11 @@
       "checked_at": "2026-10-18T17:37:50Z",
       "path": "logos/purbowls-com.png",
       "source_url": "https://purbowls.com/wp-content/uploads/2024/06/pur-BOWLS-wide.png"
+    },
+    "qargocoffee.com": {
+      "checked_at": "2026-11-12T21:41:56Z",
+      "path": "logos/qargocoffee-com.jpg",
+      "source_url": "https://qargocoffee.com/og-default.jpg"
     },
     "qheggrolls.com": {
       "background": "#d3cac5",
@@ -8185,6 +8183,11 @@
       "checked_at": "2026-10-21T18:59:02Z",
       "path": "logos/seabirdskitchen-com.webp",
       "source_url": "https://images.squarespace-cdn.com/content/v1/656133259d637d58f71bfe99/6fa956e0-deae-426b-82b4-2515d7ffd77d/seabirds_logos_Seabirds-Logo-Full-Black.png?format=1500w"
+    },
+    "seafood-cove.com": {
+      "checked_at": "2026-11-12T21:41:56Z",
+      "path": "logos/seafood-cove-com.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6a55a7b73283ee452235147e/1783998397582-UPJOHX24VCVWVYBU9ONE/Seafood+Cove+Logo+Hi+Res.png?format=1500w"
     },
     "sealbeachgrill.com": {
       "checked_at": "2026-09-27T18:43:41Z",

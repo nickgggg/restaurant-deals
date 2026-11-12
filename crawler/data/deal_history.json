@@ -1,7 +1,481 @@
 {
-  "generated_at": "2026-11-11T21:38:31Z",
+  "generated_at": "2026-11-12T21:41:55Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Touchdown Trio for $29, Monday-Thursday, Dine-In & Carry Out Only Price is only $29 Valid Monday through Thursday Dine-In and Carry Out only",
+      "canonical_id": "11670cb0b50d7ffe",
+      "categories": [
+        "food"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 1,
+      "details": [
+        "Price is only $29",
+        "Valid Monday through Thursday",
+        "Dine-In and Carry Out only"
+      ],
+      "first_seen": "2026-11-06T20:40:06Z",
+      "id": "1fbaf0a0fe7c7d8f",
+      "is_stale": true,
+      "last_seen": "2026-11-11T21:38:31Z",
+      "location": {
+        "address": "18886 Brookhurst St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=13470783496347969084&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "23:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "23:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "23:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.68847470000001,
+        "longitude": -117.953432,
+        "phone": "(657) 231-9674",
+        "place_id": "ChIJD1J9DGEn3YARPOYD-jfW8bo"
+      },
+      "quality_score": 68,
+      "restaurant": "Mountain Mike's Pizza",
+      "retired_at": "2026-11-12T21:41:55Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Touchdown Trio",
+        "Only $29. Monday-Thursday, Dine-In & Carry Out Only."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.mountainmikespizza.com/july-4-deals/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Touchdown Trio for $29, Monday-Thursday, Dine-In & Carry Out Only",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Mon, Tue, Wed, Thu",
+      "value_label": "$29"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Lunch Specials: Pizza, Pasta, Sandwiches, Burgers & Soup from $13.95 Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad, soup or fries starting at $13.95",
+      "canonical_id": "7aa3bcaa902ec96c",
+      "categories": [
+        "food"
+      ],
+      "city": "Seal Beach",
+      "days_since_seen": 2,
+      "details": [
+        "Pizza or Pasta with your choice of soup or salad $15.25",
+        "Bottomless soup with any half salad $15.25",
+        "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
+      ],
+      "first_seen": "2026-11-10T21:08:51Z",
+      "id": "74829591be30c4c3",
+      "is_stale": true,
+      "last_seen": "2026-11-10T21:08:51Z",
+      "location": {
+        "address": "1041 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=693466324176653806&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7445792,
+        "longitude": -118.10073279999999,
+        "phone": "(562) 346-2277",
+        "place_id": "ChIJW1vaY-Qv3YAR7s0-nPKvnwk"
+      },
+      "quality_score": 50,
+      "restaurant": "Finbars Italian Kitchen",
+      "retired_at": "2026-11-12T21:41:55Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://finbarsitalian.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Lunch Specials: Pizza, Pasta, Sandwiches, Burgers & Soup from $13.95",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$13.95+"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "15% Off for Service Appreciation for military members 15% off food bill for active and retired military members and their families Must show Military ID Offer not valid with any other offer or promotion Dine-in only",
+      "canonical_id": "509a03443438d02e",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 45,
+      "details": [
+        "15% off food bill for active and retired military members and their families",
+        "Must show Military ID",
+        "Offer not valid with any other offer or promotion",
+        "Dine-in only",
+        "Active and retired military members and their families receive 15% off their food bill"
+      ],
+      "first_seen": "2026-09-19T17:30:52Z",
+      "id": "ccbed08dbca975ae",
+      "is_stale": true,
+      "last_seen": "2026-09-28T20:59:27Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "quality_score": 75,
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "retired_at": "2026-11-12T21:41:55Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "To show our appreciation, we offer active and retired military members and their families 15% off their food bill. Just show your server your Military ID and we will provide the discount as our way of saying thank you for your service. Offer not valid with any other offer or promotion. Dine-in only.",
+        "we offer active and retired military members and their families 15% off their food bill. Just show your server your Military ID"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-costa-mesa/",
+      "source_urls": [
+        "https://www.cafesevilla.com/promos-costa-mesa/",
+        "https://www.cafesevilla.com/promos-san-diego/"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "15% Off for Service Appreciation for military members",
+      "tags": [
+        "percent_off",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "15% off"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Wednesday Happy Hour with drink specials and tasty bites Enjoy amazing drink specials and tasty bites.",
+      "canonical_id": "94a6f7bef7d3bf2d",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 2,
+      "details": [
+        "Enjoy amazing drink specials and tasty bites."
+      ],
+      "first_seen": "2026-10-08T20:15:35Z",
+      "id": "f3d140b94f0974ec",
+      "is_stale": true,
+      "last_seen": "2026-11-09T23:39:32Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 59,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-11-12T21:41:55Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Wednesday November 11th",
+        "Enjoy amazing drink specials and tasty bites from 4pm to 7pm."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Wednesday Happy Hour with drink specials and tasty bites",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "04:00 PM - 07:00 PM",
+      "valid_through": null,
+      "validity": "Wed, 04:00 PM - 07:00 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Monday Happy Hour with drinks and bites specials Enjoy drinks and bites specials",
+      "canonical_id": "980ca427345709ea",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 6,
+      "details": [
+        "Enjoy drinks and bites specials"
+      ],
+      "first_seen": "2026-11-06T20:40:06Z",
+      "id": "703786d419fe0c69",
+      "is_stale": true,
+      "last_seen": "2026-11-06T20:40:06Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 60,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-11-12T21:41:55Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Join us from 4pm-7pm for drinks and bites that make Monday feel like a Friday."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/dailyspecials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Monday Happy Hour with drinks and bites specials",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "04:00 PM - 07:00 PM",
+      "valid_through": null,
+      "validity": "Mon, 04:00 PM - 07:00 PM"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
@@ -17290,102 +17764,6 @@
       "time_window": "04:00 PM - 07:00 PM",
       "valid_through": null,
       "validity": "Tue, 04:00 PM - 07:00 PM"
-    },
-    {
-      "ai_confidence": 0.9,
-      "applies_days": [
-        "wednesday"
-      ],
-      "applies_month_days": [],
-      "candidate_text": "Wednesday Happy Hour with drink specials and tasty bites Enjoy amazing drink specials and tasty bites.",
-      "canonical_id": "5f4d7c1ff67c1b0d",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Garden Grove",
-      "days_since_seen": 0,
-      "details": [
-        "Enjoy amazing drink specials and tasty bites."
-      ],
-      "first_seen": "2026-10-08T20:15:35Z",
-      "id": "f3d140b94f0974ec",
-      "is_stale": true,
-      "last_seen": "2026-10-26T20:12:53Z",
-      "location": {
-        "address": "12900 Main St, Garden Grove, CA 92840, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "01:30",
-              "open": "15:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "01:30",
-              "open": "15:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ]
-        },
-        "latitude": 33.7753468,
-        "longitude": -117.94066659999999,
-        "phone": "(714) 909-2020",
-        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
-      },
-      "quality_score": 59,
-      "restaurant": "Aum Beer House",
-      "retired_at": "2026-10-27T19:42:46Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "Wednesday October 28th",
-        "Enjoy amazing drink specials and tasty bites from 4pm to 7pm."
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://aumbeerhouse.com/daily-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Wednesday Happy Hour with drink specials and tasty bites",
-      "tags": [
-        "happy_hour",
-        "weekday_special",
-        "deal_language"
-      ],
-      "time_window": "04:00 PM - 07:00 PM",
-      "valid_through": null,
-      "validity": "Wed, 04:00 PM - 07:00 PM"
     },
     {
       "ai_confidence": 0.9,
