@@ -1,7 +1,685 @@
 {
-  "generated_at": "2026-11-15T20:02:38Z",
+  "generated_at": "2026-11-16T23:39:50Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour on Bar Top & Patio for Sunday Funday NFL Football Games Happy hour available on bar top and patio Available during Sunday Funday NFL Football Games",
+      "canonical_id": "e94f016775f92d84",
+      "categories": [
+        "drink",
+        "food"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 36,
+      "details": [
+        "Happy hour available on bar top and patio",
+        "Available during Sunday Funday NFL Football Games"
+      ],
+      "first_seen": "2026-10-11T19:15:46Z",
+      "id": "b70cf288a22cd736",
+      "is_stale": true,
+      "last_seen": "2026-10-11T19:15:46Z",
+      "location": {
+        "address": "13091 Harbor Blvd, Garden Grove, CA 92843, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=567103342733584282&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7731312,
+        "longitude": -117.9207352,
+        "phone": "(714) 537-7080",
+        "place_id": "ChIJUSYDtgbY3IARmmeSTnzB3gc"
+      },
+      "quality_score": 59,
+      "restaurant": "Sabroso! Mexican Kitchen",
+      "retired_at": "2026-11-16T23:39:50Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Sunday October 11th",
+        "Come and join us for Sunday Funday NFL Football Games. Happy Hour on our Bar Top & Patio!!!!",
+        "10:00 AM - 10:00 PM"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://sabrosomexicankitchen.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour on Bar Top & Patio for Sunday Funday NFL Football Games",
+      "tags": [
+        "happy_hour",
+        "weekday_special"
+      ],
+      "time_window": "10:00 AM - 10:00 PM",
+      "valid_through": null,
+      "validity": "Sun, 10:00 AM - 10:00 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Lasagna for $12.95 or Large Lasagna for 2 for $19.95 3-course meal includes Salad and Garlic Bread Choose between Beef Lasagna in meat sauce or Spinach Lasagna in Marinara",
+      "canonical_id": "4e15609fb88d0032",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 14,
+      "details": [
+        "3-course meal includes Salad and Garlic Bread",
+        "Choose between Beef Lasagna in meat sauce or Spinach Lasagna in Marinara",
+        "Includes Salad and Garlic Bread."
+      ],
+      "first_seen": "2026-10-20T18:54:53Z",
+      "id": "fd214149d29c7a58",
+      "is_stale": true,
+      "last_seen": "2026-11-02T22:58:41Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 83,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-11-16T23:39:50Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Monday November 2nd",
+        "Lasagna only $12.95!",
+        "Large Lasagna for 2 for $19.95",
+        "3-course meal includes Salad and Garlic Bread every Monday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/daily-specials",
+      "source_urls": [
+        "http://eatatpizzadoro.com/daily-specials",
+        "http://eatatpizzadoro.com/dailyspecials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Lasagna for $12.95 or Large Lasagna for 2 for $19.95",
+      "tags": [
+        "dollar_amount",
+        "bogo"
+      ],
+      "time_window": null,
+      "valid_through": "2026-11-02",
+      "validity": "Mon",
+      "value_label": "$12.95-$19.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "thursday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Tortellini Spinach Alfredo for $15.95 or Fettucine Alfredo for $14.45 Includes salad and garlic bread Add chicken parmesan strips for $5",
+      "canonical_id": "6e52c19b123e038e",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 10,
+      "details": [
+        "Includes salad and garlic bread",
+        "Add chicken parmesan strips for $5"
+      ],
+      "first_seen": "2026-11-01T19:15:20Z",
+      "id": "6402995b50f0ec9f",
+      "is_stale": true,
+      "last_seen": "2026-11-06T20:40:06Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-11-16T23:39:50Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Thursday November 5th",
+        "Tortellini Spinach Alfredo for $15.95 or",
+        "Fettucine Alfredo for Only $14.45!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Tortellini Spinach Alfredo for $15.95 or Fettucine Alfredo for $14.45",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-11-05",
+      "validity": "Thu",
+      "value_label": "$14.45-$15.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Taco Tuesday Drink Specials: Mexican Beer $5-$6, Margaritas $8-$11 Draft Mexican Beer \u2013 $6 Bottled Mexican Beer \u2013 $5 Brewery X \u2013 $5 House Margaritas \u2013 $8 Cadillac Margaritas \u2013 $11",
+      "canonical_id": "89e676705d951dc7",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 7,
+      "details": [
+        "Draft Mexican Beer \u2013 $6",
+        "Bottled Mexican Beer \u2013 $5",
+        "Brewery X \u2013 $5",
+        "House Margaritas \u2013 $8",
+        "Cadillac Margaritas \u2013 $11"
+      ],
+      "first_seen": "2026-11-09T23:39:32Z",
+      "id": "7e0952541008de49",
+      "is_stale": true,
+      "last_seen": "2026-11-09T23:39:32Z",
+      "location": {
+        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7298377,
+        "longitude": -117.99953239999999,
+        "phone": "(657) 301-2017",
+        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
+      },
+      "quality_score": 68,
+      "restaurant": "Morena's Mexican Cuisine",
+      "retired_at": "2026-11-16T23:39:50Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "TACO TUESDAY",
+        "Taco Tuesday Drink Specials",
+        "Draft Mexican Beer \u2013 $6"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://hb.morenasmex.com/dailyspecials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Taco Tuesday Drink Specials: Mexican Beer $5-$6, Margaritas $8-$11",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "$5-$6"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$5 off a $10 purchase Sign-Up Offer Sign-up offer Minimum purchase of $10 required",
+      "canonical_id": "e3b962880a5fa84d",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 33,
+      "details": [
+        "Sign-up offer",
+        "Minimum purchase of $10 required"
+      ],
+      "first_seen": "2026-09-17T18:36:19Z",
+      "id": "a26466fe8eb9aff7",
+      "is_stale": true,
+      "last_seen": "2026-10-14T18:57:37Z",
+      "location": {
+        "address": "3131 Harbor Blvd, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7607951893423451587&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6841812,
+        "longitude": -117.9198897,
+        "phone": "(714) 434-9250",
+        "place_id": "ChIJTxlQjFnf3IARw-3DO_DflGk"
+      },
+      "quality_score": 50,
+      "restaurant": "El Pollo Loco",
+      "retired_at": "2026-11-16T23:39:50Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$5 off a $10 purchase Sign-Up Offer"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.elpolloloco.com/promotions/general-offers",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$5 off a $10 purchase Sign-Up Offer",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$5 off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Free Chips and Guac with $5 purchase Free Chips and Guac with $5 purchase",
+      "canonical_id": "55bdc8389688891d",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Free Chips and Guac with $5 purchase"
+      ],
+      "first_seen": "2026-09-17T18:36:19Z",
+      "id": "6e4f20d589f32b4b",
+      "is_stale": true,
+      "last_seen": "2026-11-15T20:02:38Z",
+      "location": {
+        "address": "3131 Harbor Blvd, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7607951893423451587&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6841812,
+        "longitude": -117.9198897,
+        "phone": "(714) 434-9250",
+        "place_id": "ChIJTxlQjFnf3IARw-3DO_DflGk"
+      },
+      "quality_score": 75,
+      "restaurant": "El Pollo Loco",
+      "retired_at": "2026-11-16T23:39:50Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Free Chips and Guac with $5 purchase"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.elpolloloco.com/promotions/general-offers",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Free Chips and Guac with $5 purchase",
+      "tags": [
+        "dollar_amount",
+        "free"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$3 Off Your Next In-Store Purchase of $10 or more Receipt survey offer Expires 14 days from the date of purchase on receipt In-store redemption only Minimum pre-tax purchase of $10 required One survey per purchase",
+      "canonical_id": "7828156abff204d5",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 33,
+      "details": [
+        "Receipt survey offer",
+        "Expires 14 days from the date of purchase on receipt",
+        "In-store redemption only",
+        "Minimum pre-tax purchase of $10 required",
+        "One survey per purchase"
+      ],
+      "first_seen": "2026-09-17T18:36:19Z",
+      "id": "7e696ecf2d936f38",
+      "is_stale": true,
+      "last_seen": "2026-10-14T18:57:37Z",
+      "location": {
+        "address": "3131 Harbor Blvd, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7607951893423451587&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6841812,
+        "longitude": -117.9198897,
+        "phone": "(714) 434-9250",
+        "place_id": "ChIJTxlQjFnf3IARw-3DO_DflGk"
+      },
+      "quality_score": 50,
+      "restaurant": "El Pollo Loco",
+      "retired_at": "2026-11-16T23:39:50Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Receipt Survey Offer: $3 Off Your Next In-Store Purchase of $10 or more (pre-tax)"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.elpolloloco.com/promotions/general-offers",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$3 Off Your Next In-Store Purchase of $10 or more",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$3 off"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
