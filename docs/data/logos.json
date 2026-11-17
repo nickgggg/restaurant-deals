@@ -33,7 +33,7 @@
       "status": "ok"
     },
     "5thavenuebagelry.com": {
-      "checked_at": "2026-11-03T20:42:42Z",
+      "checked_at": "2026-11-17T22:43:44Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
@@ -46,7 +46,7 @@
       "status": "ok"
     },
     "acairepublic.com": {
-      "checked_at": "2026-11-03T20:42:42Z",
+      "checked_at": "2026-11-17T22:43:44Z",
       "error": "URL can't contain control characters. '/fotos/LOGO - Branco(1).png' (found at least ' ')",
       "status": "missing"
     },
@@ -93,7 +93,7 @@
       "status": "ok"
     },
     "alsnewyorkcafe.com": {
-      "checked_at": "2026-11-03T20:42:42Z",
+      "checked_at": "2026-11-17T22:43:44Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
@@ -102,7 +102,7 @@
       "status": "ok"
     },
     "alwaysreadymeals.com": {
-      "checked_at": "2026-11-03T20:42:42Z",
+      "checked_at": "2026-11-17T22:43:44Z",
       "error": "Not Found",
       "status": "missing"
     },
@@ -143,7 +143,7 @@
       "status": "ok"
     },
     "anvietfood.com": {
-      "checked_at": "2026-11-03T20:42:42Z",
+      "checked_at": "2026-11-17T22:43:44Z",
       "error": "HTTP Error 401: Unauthorized",
       "status": "missing"
     },
@@ -1726,6 +1726,10 @@
       "checked_at": "2026-09-27T18:43:41Z",
       "status": "ok"
     },
+    "ikea.com": {
+      "checked_at": "2026-11-17T22:43:44Z",
+      "status": "ok"
+    },
     "ikramgrill.com": {
       "checked_at": "2026-09-27T18:43:41Z",
       "status": "ok"
@@ -2109,7 +2113,7 @@
       "status": "ok"
     },
     "local.albertsons.com": {
-      "checked_at": "2026-11-03T20:42:42Z",
+      "checked_at": "2026-11-17T22:43:44Z",
       "error": "Not Found",
       "status": "missing"
     },
@@ -3214,6 +3218,10 @@
       "checked_at": "2026-10-17T17:38:01Z",
       "status": "ok"
     },
+    "pollyspies.com": {
+      "checked_at": "2026-11-17T22:43:44Z",
+      "status": "ok"
+    },
     "pomandolive.com": {
       "checked_at": "2026-10-17T17:38:01Z",
       "status": "ok"
@@ -3687,8 +3695,8 @@
       "status": "ok"
     },
     "sliceofnewyorkca.com": {
-      "checked_at": "2026-11-03T20:42:42Z",
-      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
+      "checked_at": "2026-11-17T22:43:44Z",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)>",
       "status": "missing"
     },
     "smokingtiger.com": {
@@ -4690,7 +4698,7 @@
       "status": "ok"
     },
     "zenshisushi.com": {
-      "checked_at": "2026-11-03T20:42:42Z",
+      "checked_at": "2026-11-17T22:43:44Z",
       "error": "asset is too large",
       "status": "missing"
     },
@@ -4699,7 +4707,7 @@
       "status": "ok"
     },
     "zipfoodhandler.com": {
-      "checked_at": "2026-11-03T20:42:42Z",
+      "checked_at": "2026-11-17T22:43:44Z",
       "error": "Not Found",
       "status": "missing"
     },
@@ -4708,7 +4716,7 @@
       "status": "ok"
     },
     "zpizza.com": {
-      "checked_at": "2026-11-03T20:42:42Z",
+      "checked_at": "2026-11-17T22:43:44Z",
       "error": "HTTP Error 403: Forbidden",
       "status": "missing"
     },
@@ -4718,7 +4726,7 @@
       "status": "missing"
     }
   },
-  "generated_at": "2026-11-16T23:39:51Z",
+  "generated_at": "2026-11-17T22:43:44Z",
   "logos": {
     "17thstreetdeli.com": {
       "checked_at": "2026-09-16T23:23:49Z",
@@ -6388,6 +6396,11 @@
       "path": "logos/ikariakitchen-com.webp",
       "source_url": "https://www.ikariakitchen.com/_astro/ikaria-logo-white.Dot6kzDj_Z2n5zJq.webp"
     },
+    "ikea.com": {
+      "checked_at": "2026-11-17T22:43:44Z",
+      "path": "logos/ikea-com.jpg",
+      "source_url": "https://www.ikea.com/global/en/media/IKEA_com_Global_Thumbnail_3765094b99.jpg"
+    },
     "ikramgrill.com": {
       "checked_at": "2026-09-27T18:43:41Z",
       "path": "logos/ikramgrill-com.webp",
@@ -7897,6 +7910,11 @@
       "checked_at": "2026-10-17T17:38:01Z",
       "path": "logos/pokistar-square-site.webp",
       "source_url": "https://pokistar.square.site/uploads/b/22717230-5020-11ed-a8f9-9110e0a9db1e/icon_180x180_ios_Mjk0Nz.png?width=180"
+    },
+    "pollyspies.com": {
+      "checked_at": "2026-11-17T22:43:44Z",
+      "path": "logos/pollyspies-com.png",
+      "source_url": "https://pollyspies.b-cdn.net/wp-content/uploads/2016/08/cropped-pollyspies-favicon-512x512-192x192.png?webp=false"
     },
     "pomandolive.com": {
       "checked_at": "2026-10-17T17:38:01Z",

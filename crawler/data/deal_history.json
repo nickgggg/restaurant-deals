@@ -1,7 +1,786 @@
 {
-  "generated_at": "2026-11-16T23:39:50Z",
+  "generated_at": "2026-11-17T22:43:43Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$5 off a $10 purchase Sign-Up Offer Sign-up offer Requires a $10 purchase",
+      "canonical_id": "2d98271b3ef0c4b0",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Sign-up offer",
+        "Requires a $10 purchase"
+      ],
+      "first_seen": "2026-09-17T18:36:19Z",
+      "id": "e3b962880a5fa84d",
+      "is_stale": true,
+      "last_seen": "2026-11-16T23:39:50Z",
+      "location": {
+        "address": "3131 Harbor Blvd, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7607951893423451587&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6841812,
+        "longitude": -117.9198897,
+        "phone": "(714) 434-9250",
+        "place_id": "ChIJTxlQjFnf3IARw-3DO_DflGk"
+      },
+      "quality_score": 49,
+      "restaurant": "El Pollo Loco",
+      "retired_at": "2026-11-17T22:43:43Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "$5 off a $10 purchase Sign-Up Offer"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.elpolloloco.com/promotions/general-offers",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$5 off a $10 purchase Sign-Up Offer",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$5 off"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Free Chips and Guac with $5 purchase Requires a $5 purchase",
+      "canonical_id": "f6250f4311ecc99c",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Requires a $5 purchase"
+      ],
+      "first_seen": "2026-09-17T18:36:19Z",
+      "id": "55bdc8389688891d",
+      "is_stale": true,
+      "last_seen": "2026-11-16T23:39:50Z",
+      "location": {
+        "address": "3131 Harbor Blvd, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7607951893423451587&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6841812,
+        "longitude": -117.9198897,
+        "phone": "(714) 434-9250",
+        "place_id": "ChIJTxlQjFnf3IARw-3DO_DflGk"
+      },
+      "quality_score": 74,
+      "restaurant": "El Pollo Loco",
+      "retired_at": "2026-11-17T22:43:43Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Free Chips and Guac with $5 purchase"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.elpolloloco.com/promotions/general-offers",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Free Chips and Guac with $5 purchase",
+      "tags": [
+        "dollar_amount",
+        "free"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "$3 Off Your Next In-Store Purchase of $10 or more Receipt Survey Offer Minimum $10 purchase pre-tax Expires 14 days from the date of purchase on receipt Can only be redeemed in store",
+      "canonical_id": "354236e2ecf92a63",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Receipt Survey Offer",
+        "Minimum $10 purchase pre-tax",
+        "Expires 14 days from the date of purchase on receipt",
+        "Can only be redeemed in store"
+      ],
+      "first_seen": "2026-09-17T18:36:19Z",
+      "id": "7828156abff204d5",
+      "is_stale": true,
+      "last_seen": "2026-11-16T23:39:50Z",
+      "location": {
+        "address": "3131 Harbor Blvd, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7607951893423451587&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6841812,
+        "longitude": -117.9198897,
+        "phone": "(714) 434-9250",
+        "place_id": "ChIJTxlQjFnf3IARw-3DO_DflGk"
+      },
+      "quality_score": 49,
+      "restaurant": "El Pollo Loco",
+      "retired_at": "2026-11-17T22:43:43Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Receipt Survey Offer: $3 Off Your Next In-Store Purchase of $10 or more (pre-tax)"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.elpolloloco.com/promotions/general-offers",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$3 Off Your Next In-Store Purchase of $10 or more",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$3 off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour appetizers for $10 or less Available in the dining room, bar and patio Includes Spicy Shrimp, Bruschetta, Fried Mozzarella, and Crispy Parmesan Brussels Sprouts Price and participation may vary",
+      "canonical_id": "381c9b93c22c0a79",
+      "categories": [
+        "food"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 20,
+      "details": [
+        "Available in the dining room, bar and patio",
+        "Includes Spicy Shrimp, Bruschetta, Fried Mozzarella, and Crispy Parmesan Brussels Sprouts",
+        "Price and participation may vary"
+      ],
+      "first_seen": "2026-10-08T20:15:35Z",
+      "id": "57f4b887f2d0e982",
+      "is_stale": true,
+      "last_seen": "2026-10-28T19:55:55Z",
+      "location": {
+        "address": "11757 Harbor Blvd, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=3634033159813172799&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:30",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7915509,
+        "longitude": -117.91539610000001,
+        "phone": "(714) 740-2822",
+        "place_id": "ChIJo69gN-XX3IARP46nqOetbjI"
+      },
+      "quality_score": 75,
+      "restaurant": "Buca di Beppo Italian Restaurant",
+      "retired_at": "2026-11-17T22:43:43Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Monday \u2013 Friday, 4-7pm",
+        "Delicious Appetizers for $10 or less"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://dineatbuca.com/happy-hour/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour appetizers for $10 or less",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "Mon \u2013 Fri, 4-7pm",
+      "valid_through": null,
+      "validity": "Mon \u2013 Fri, 4-7pm",
+      "value_label": "$10 or less"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour Food Specials Starting at $2.99 Fresh Guacamole $6.99 Smoky Queso Dip $4.99, With ground beef $5.99 Cantina Corn $5.25 Burger Sliders $3.49 each Basket of French Fries $4.99, With melted cheese $5.99 Quesadilla Parilla $7.49, With chicken $9.99 Chicken Breast Bites $5.99 Buffalo Wings $6.99",
+      "canonical_id": "660c4d784b502475",
+      "categories": [
+        "food"
+      ],
+      "city": "Newport Beach",
+      "days_since_seen": 2,
+      "details": [
+        "Fresh Guacamole $6.99",
+        "Smoky Queso Dip $4.99, With ground beef $5.99",
+        "Cantina Corn $5.25",
+        "Burger Sliders $3.49 each",
+        "Basket of French Fries $4.99, With melted cheese $5.99",
+        "Quesadilla Parilla $7.49, With chicken $9.99",
+        "Chicken Breast Bites $5.99",
+        "Buffalo Wings $6.99"
+      ],
+      "first_seen": "2026-10-30T19:44:46Z",
+      "id": "7c8602d3868cd060",
+      "is_stale": true,
+      "last_seen": "2026-11-15T20:02:38Z",
+      "location": {
+        "address": "114 Mc Fadden Pl, Newport Beach, CA 92663, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11235031845047377546&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "02:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6083308,
+        "longitude": -117.92796609999999,
+        "phone": "(949) 673-0292",
+        "place_id": "ChIJvxBa4_4f3YARih5A9O_Z6ps"
+      },
+      "quality_score": 75,
+      "restaurant": "Baja Sharkeez",
+      "retired_at": "2026-11-17T22:43:43Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Mon-Fri 3-7PM",
+        "Food Happy Hour"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://sharkeez.net/manhattan-beach/happy-hour/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour Food Specials Starting at $2.99",
+      "tags": [
+        "dollar_amount",
+        "happy_hour",
+        "deal_language"
+      ],
+      "time_window": "Mon-Fri 3-7PM",
+      "valid_through": null,
+      "validity": "Mon-Fri 3-7PM",
+      "value_label": "$2.99+"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Monday Happy Hour with drinks and bites Join us for drinks and bites",
+      "canonical_id": "7f68d715433c8992",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 12,
+      "details": [
+        "Join us for drinks and bites"
+      ],
+      "first_seen": "2026-10-14T18:57:37Z",
+      "id": "a7773c539c78430c",
+      "is_stale": true,
+      "last_seen": "2026-11-05T21:28:43Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 60,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-11-17T22:43:43Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Happy Hour is back at AUM! Why start your week any other way? Join us from 4pm-7pm for drinks and bites"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Monday Happy Hour with drinks and bites",
+      "tags": [
+        "happy_hour",
+        "weekday_special"
+      ],
+      "time_window": "16:00 - 19:00",
+      "valid_through": null,
+      "validity": "Mon, 16:00 - 19:00"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Tuesday Happy Hour with discounted drinks and starter appetizers Enjoy discounted cocktails, beer, and wine plus delicious starter appetizers at special prices.",
+      "canonical_id": "4a79adec2f6a80fb",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 7,
+      "details": [
+        "Enjoy discounted cocktails, beer, and wine plus delicious starter appetizers at special prices."
+      ],
+      "first_seen": "2026-10-13T20:28:47Z",
+      "id": "45ddb8e3207dc698",
+      "is_stale": true,
+      "last_seen": "2026-11-09T23:39:32Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 59,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-11-17T22:43:43Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Tuesday November 10th",
+        "Enjoy discounted cocktails, beer, and wine from 4pm-7pm, plus delicious starter appetizers at special prices."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Tuesday Happy Hour with discounted drinks and starter appetizers",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "04:00 PM - 07:00 PM",
+      "valid_through": null,
+      "validity": "Tue, 04:00 PM - 07:00 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Wednesday Happy Hour with drink specials and tasty bites Enjoy amazing drink specials and tasty bites",
+      "canonical_id": "e5d1e723a9bc9723",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 14,
+      "details": [
+        "Enjoy amazing drink specials and tasty bites",
+        "Amazing drink specials and tasty bites."
+      ],
+      "first_seen": "2026-10-16T18:32:29Z",
+      "id": "a0c0e3a618f95693",
+      "is_stale": true,
+      "last_seen": "2026-11-02T22:58:41Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 60,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-11-17T22:43:43Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Wednesday Happy Hour! Enjoy amazing drink specials and tasty bites from 4pm to 7pm.",
+        "Enjoy amazing drink specials and tasty bites from 4pm to 7pm."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/weekday-specials",
+      "source_urls": [
+        "http://aumbeerhouse.com/weekday-specials",
+        "http://aumbeerhouse.com/daily-specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Wednesday Happy Hour with drink specials and tasty bites",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "04:00 PM - 07:00 PM",
+      "valid_through": null,
+      "validity": "Wed, 04:00 PM - 07:00 PM"
+    },
     {
       "ai_confidence": 0.9,
       "applies_days": [
@@ -12489,100 +13268,6 @@
     {
       "ai_confidence": 0.95,
       "applies_days": [
-        "monday"
-      ],
-      "applies_month_days": [],
-      "candidate_text": "Monday Happy Hour with drinks and bites Join us for drinks and bites",
-      "canonical_id": "0821c8a5f0bb0f4d",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Garden Grove",
-      "days_since_seen": 12,
-      "details": [
-        "Join us for drinks and bites"
-      ],
-      "first_seen": "2026-10-14T18:57:37Z",
-      "id": "a7773c539c78430c",
-      "is_stale": true,
-      "last_seen": "2026-10-23T18:47:46Z",
-      "location": {
-        "address": "12900 Main St, Garden Grove, CA 92840, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "01:30",
-              "open": "15:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "01:30",
-              "open": "15:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ]
-        },
-        "latitude": 33.7753468,
-        "longitude": -117.94066659999999,
-        "phone": "(714) 909-2020",
-        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
-      },
-      "quality_score": 60,
-      "restaurant": "Aum Beer House",
-      "retired_at": "2026-11-04T21:01:42Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "Join us from 4pm-7pm for drinks and bites that make Monday feel like a Friday."
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://aumbeerhouse.com/specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Monday Happy Hour with drinks and bites",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "03:00 PM - 07:00 PM",
-      "valid_through": null,
-      "validity": "Mon, 03:00 PM - 07:00 PM"
-    },
-    {
-      "ai_confidence": 0.95,
-      "applies_days": [
         "monday",
         "tuesday",
         "wednesday",
@@ -22138,102 +22823,6 @@
       "valid_through": null,
       "validity": "Tue",
       "value_label": "$9.99"
-    },
-    {
-      "ai_confidence": 0.9,
-      "applies_days": [
-        "tuesday"
-      ],
-      "applies_month_days": [],
-      "candidate_text": "Tuesday Happy Hour with discounted drinks and starter appetizers Enjoy discounted cocktails, beer, and wine plus delicious starter appetizers at special prices.",
-      "canonical_id": "f8bdfe40131b6c36",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Garden Grove",
-      "days_since_seen": 0,
-      "details": [
-        "Enjoy discounted cocktails, beer, and wine plus delicious starter appetizers at special prices."
-      ],
-      "first_seen": "2026-10-13T20:28:47Z",
-      "id": "45ddb8e3207dc698",
-      "is_stale": true,
-      "last_seen": "2026-10-26T20:12:53Z",
-      "location": {
-        "address": "12900 Main St, Garden Grove, CA 92840, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "01:30",
-              "open": "15:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "01:30",
-              "open": "15:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ]
-        },
-        "latitude": 33.7753468,
-        "longitude": -117.94066659999999,
-        "phone": "(714) 909-2020",
-        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
-      },
-      "quality_score": 59,
-      "restaurant": "Aum Beer House",
-      "retired_at": "2026-10-27T19:42:46Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "Tuesday October 27th",
-        "Enjoy discounted cocktails, beer, and wine from 4pm-7pm, plus delicious starter appetizers at special prices."
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://aumbeerhouse.com/daily-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Tuesday Happy Hour with discounted drinks and starter appetizers",
-      "tags": [
-        "happy_hour",
-        "weekday_special",
-        "deal_language"
-      ],
-      "time_window": "04:00 PM - 07:00 PM",
-      "valid_through": null,
-      "validity": "Tue, 04:00 PM - 07:00 PM"
     },
     {
       "ai_confidence": 0.9,
