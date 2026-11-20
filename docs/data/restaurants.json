@@ -8,8 +8,8 @@
     },
     "Fountain Valley": {
       "activated_at": "2026-09-10T01:26:14Z",
-      "last_refreshed": "2026-10-16T02:24:29Z",
-      "restaurant_count": 169,
+      "last_refreshed": "2026-11-20T21:57:06Z",
+      "restaurant_count": 172,
       "status": "active"
     },
     "Garden Grove": {
@@ -53,25 +53,25 @@
       "Newport Beach",
       "Garden Grove"
     ],
-    "closed_count": 80,
+    "closed_count": 82,
     "failed_map_cells": 0,
-    "last_scan_map_cells": 110,
+    "last_scan_map_cells": 20,
     "last_scanned_cities": [
-      "Huntington Beach"
+      "Fountain Valley"
     ],
-    "last_source_scan_at": "2026-11-19T22:27:39Z",
+    "last_source_scan_at": "2026-11-20T21:57:06Z",
     "map_cells": 458,
     "official_websites": 1494,
-    "operational_count": 1904,
+    "operational_count": 1905,
     "queued_cities": [],
-    "restaurant_count": 1984,
-    "source_sites_checked": 391,
+    "restaurant_count": 1987,
+    "source_sites_checked": 131,
     "specials_pages_found": 433,
-    "successful_map_cells": 110
+    "successful_map_cells": 20
   },
   "discovery_version": 4,
-  "generated_at": "2026-11-19T22:27:39Z",
-  "refresh_after": "2026-11-20T02:24:29Z",
+  "generated_at": "2026-11-20T21:57:06Z",
+  "refresh_after": "2026-11-20T18:21:35Z",
   "restaurants": [
     {
       "address": "369 E 17th St #18, Costa Mesa, CA 92627, USA",
@@ -1038,7 +1038,7 @@
       "phone": "(714) 465-2343",
       "place_id": "ChIJWbAq0AQn3YARMzjUPP7YYMU",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -2033,13 +2033,13 @@
       "phone": "(714) 907-0600",
       "place_id": "ChIJd00hYRcr3YAR2wLt1Peg-Pc",
       "primary_type": "mediterranean_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mediterranean_restaurant",
-        "turkish_restaurant",
         "middle_eastern_restaurant",
+        "turkish_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -2805,15 +2805,15 @@
       "phone": "(714) 963-7503",
       "place_id": "ChIJp67NCcQn3YAR6XiOzvf1708",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
         "food_store",
-        "store",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "website_url": "https://local.albertsons.com/ca/fountain-valley/18579-brookhurst/bakery.html"
@@ -3511,23 +3511,23 @@
       "phone": "(714) 962-9881",
       "place_id": "ChIJ8ws_x9gn3YARIq8BXb_oFeE",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "restaurant",
-        "sandwich_shop",
         "breakfast_restaurant",
         "asian_restaurant",
         "cafe",
         "catering_service",
+        "sandwich_shop",
         "bakery",
-        "american_restaurant",
         "mexican_restaurant",
         "food_delivery",
+        "american_restaurant",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "service",
         "establishment"
@@ -3665,7 +3665,7 @@
       "phone": "(714) 963-5790",
       "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -3679,8 +3679,8 @@
         "pizza_restaurant",
         "pizza_delivery",
         "italian_restaurant",
-        "meal_delivery",
         "meal_takeaway",
+        "meal_delivery",
         "food_delivery",
         "european_restaurant",
         "restaurant",
@@ -4052,15 +4052,15 @@
       "phone": "(714) 962-5455",
       "place_id": "ChIJ-2K01AQn3YARJiZtKRlpBBM",
       "primary_type": "donut_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "donut_shop",
         "bakery",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -5257,7 +5257,7 @@
       "phone": "(714) 698-8118",
       "place_id": "ChIJrSp72hgh3YART2qUykl6IVU",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -5267,9 +5267,9 @@
         "bakery",
         "tea_house",
         "food_store",
-        "store",
         "restaurant",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -5610,7 +5610,7 @@
       "phone": "(657) 431-5154",
       "place_id": "ChIJYak0oJwn3YARvFhqWScPEGs",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -6470,7 +6470,7 @@
       "phone": "(714) 377-0718",
       "place_id": "ChIJcc7sfN8m3YAR4hM1rLXZE4k",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -6968,8 +6968,8 @@
         "bagel_shop",
         "bakery",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -11204,14 +11204,14 @@
       "phone": "(714) 968-4477",
       "place_id": "ChIJJYpXUzkn3YARSnUAnduKB4c",
       "primary_type": "steak_house",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "steak_house",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://blackangus.com/menu-order/blackangusfountainvalley"
@@ -11414,7 +11414,7 @@
       "phone": "(714) 587-1672",
       "place_id": "ChIJMRDQWBEn3YARrd8LVuc0-5Q",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -11428,8 +11428,8 @@
         "pizza_restaurant",
         "fast_food_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://locations.blazepizza.com/us/ca/fountain-valley/blazepizza-1264"
@@ -11818,15 +11818,15 @@
       "phone": "(714) 852-3335",
       "place_id": "ChIJg19tdEQn3YAR_k7E-j7noXk",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
         "cafe",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -13004,7 +13004,7 @@
       "phone": "(714) 377-7090",
       "place_id": "ChIJpw5Po4En3YARFsHNXzkckUI",
       "primary_type": "korean_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -14160,14 +14160,14 @@
       "specials_pages": [],
       "types": [
         "bakery",
-        "catering_service",
         "coffee_shop",
         "cafe",
+        "catering_service",
         "food_delivery",
         "confectionery",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "service",
         "establishment"
@@ -15675,6 +15675,28 @@
         "establishment"
       ],
       "website_url": "https://findaloco.com/en/directory/bao-hien-rong-vang/"
+    },
+    {
+      "address": "Pearl Ave, Fountain Valley, CA 92708, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Fountain Valley",
+      "google_maps_url": "https://maps.google.com/?cid=6854687266714805274&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {},
+      "latitude": 33.717037399999995,
+      "longitude": -117.9624935,
+      "name": "B\u1ebfp Ngon Bolsa",
+      "phone": "(714) 225-4596",
+      "place_id": "ChIJbRy6JQUn3YARGuTtWsC9IF8",
+      "primary_type": "vietnamese_restaurant",
+      "specials_pages": [],
+      "types": [
+        "vietnamese_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
     },
     {
       "address": "9561 Chapman Ave, Garden Grove, CA 92841, USA",
@@ -18178,7 +18200,7 @@
       "phone": "(714) 881-0110",
       "place_id": "ChIJ8V0ZYTkn3YARvIPsSYKbnO4",
       "primary_type": "seafood_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -18187,8 +18209,8 @@
         "british_restaurant",
         "european_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://www.cafishgrill.com/"
@@ -18422,7 +18444,7 @@
       "phone": "(714) 963-8844",
       "place_id": "ChIJh8yYmZwh3YARZr4KnvuWbn4",
       "primary_type": "japanese_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -18649,6 +18671,12 @@
             "open": "11:30"
           }
         ],
+        "monday": [
+          {
+            "close": "20:00",
+            "open": "11:30"
+          }
+        ],
         "saturday": [
           {
             "close": "21:00",
@@ -18686,7 +18714,7 @@
       "phone": "(714) 375-3305",
       "place_id": "ChIJwddf-vwm3YAR2dMM2zdt0IM",
       "primary_type": "argentinian_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -18694,6 +18722,12 @@
           "discovered_via": "known_path",
           "label": "Daily Specials",
           "url": "http://cambalachegrill.com/daily-specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Dailyspecials",
+          "url": "http://cambalachegrill.com/dailyspecials"
         },
         {
           "confidence": "high",
@@ -18921,20 +18955,20 @@
       "phone": "(949) 394-6318",
       "place_id": "ChIJB242GSgn3YARsIxXFbyLRug",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "cafe",
         "brunch_restaurant",
-        "turkish_restaurant",
-        "coffee_shop",
         "breakfast_restaurant",
+        "coffee_shop",
+        "turkish_restaurant",
         "bakery",
         "food_store",
-        "store",
         "restaurant",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -19060,7 +19094,7 @@
       "phone": "(657) 237-5347",
       "place_id": "ChIJG_MNwOwn3YARwWUGrhlgzmw",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -20119,7 +20153,7 @@
       "phone": "(714) 593-5350",
       "place_id": "ChIJJV5xGRcn3YARN2eoVYPHR5Y",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -20131,11 +20165,11 @@
       ],
       "types": [
         "mexican_restaurant",
-        "taco_restaurant",
         "breakfast_restaurant",
-        "chicken_restaurant",
-        "diner",
         "hamburger_restaurant",
+        "diner",
+        "chicken_restaurant",
+        "taco_restaurant",
         "american_restaurant",
         "restaurant",
         "food",
@@ -21974,16 +22008,19 @@
       "phone": "(657) 329-0494",
       "place_id": "ChIJjbvbopgn3YARsw3mu6ymXRs",
       "primary_type": "mediterranean_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mediterranean_restaurant",
-        "chicken_restaurant",
         "vegetarian_restaurant",
+        "catering_service",
+        "chicken_restaurant",
+        "food_delivery",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "https://chickenmaison.com/fountain-valley/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing"
@@ -22732,22 +22769,22 @@
       "phone": "(714) 377-2698",
       "place_id": "ChIJF5xKG-An3YAR38con2EoIzo",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
+        "burrito_restaurant",
         "catering_service",
         "taco_restaurant",
-        "meal_takeaway",
         "mexican_restaurant",
-        "burrito_restaurant",
+        "meal_takeaway",
         "food_delivery",
         "shipping_service",
-        "service",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "https://locations.chipotle.com/ca/fountain-valley/17150-brookhurst-st?utm_source=google&utm_medium=yext&utm_campaign=yext_listings?restaurant=3132"
@@ -22807,7 +22844,7 @@
       "phone": "(714) 968-4003",
       "place_id": "ChIJO5ebqjQn3YARfUpI22TTn20",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -22816,13 +22853,13 @@
         "burrito_restaurant",
         "catering_service",
         "shipping_service",
-        "meal_takeaway",
         "mexican_restaurant",
         "food_delivery",
-        "restaurant",
-        "food",
-        "point_of_interest",
+        "meal_takeaway",
         "service",
+        "restaurant",
+        "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "https://locations.chipotle.com/ca/fountain-valley/18951-brookhurst-st?utm_source=google&utm_medium=yext&utm_campaign=yext_listings?restaurant=229"
@@ -25630,8 +25667,8 @@
         "bistro",
         "american_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": ""
@@ -25990,7 +26027,7 @@
       "phone": "(714) 338-2183",
       "place_id": "ChIJuwF-qVAn3YARywbwzc_xlZI",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -26065,15 +26102,15 @@
       "phone": "",
       "place_id": "ChIJIwFQ_R0n3YARdvFMS1scgas",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
         "cafe",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -26742,16 +26779,16 @@
       "phone": "(657) 339-0440",
       "place_id": "ChIJF3gH0Bsn3YARMvzCQAiA43c",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
-        "bakery",
         "dessert_shop",
+        "bakery",
         "confectionery",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -27329,13 +27366,13 @@
       "hours": {
         "friday": [
           {
-            "close": "22:00",
+            "close": "21:00",
             "open": "12:00"
           }
         ],
         "monday": [
           {
-            "close": "21:00",
+            "close": "22:00",
             "open": "12:00"
           }
         ],
@@ -27348,7 +27385,7 @@
         "sunday": [
           {
             "close": "21:00",
-            "open": "00:30"
+            "open": "12:00"
           }
         ],
         "thursday": [
@@ -27370,19 +27407,21 @@
       "phone": "(714) 274-9099",
       "place_id": "ChIJw8YnJJon3YARVP69EempqKE",
       "primary_type": "chicken_wings_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chicken_wings_restaurant",
-        "wine_bar",
         "brunch_restaurant",
+        "hamburger_restaurant",
         "fast_food_restaurant",
         "chicken_restaurant",
+        "wine_bar",
+        "american_restaurant",
         "bar",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://cyberwingsca.com/"
@@ -28540,7 +28579,7 @@
       "phone": "(657) 383-7536",
       "place_id": "ChIJ9dw-j-4n3YAR3HT9XbJD6bc",
       "primary_type": "chicken_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -28551,7 +28590,7 @@
         "food",
         "establishment"
       ],
-      "website_url": "https://restaurants.daveshotchicken.com/ca/fountain-valley/10832-warner-ave.-1013?utm_campaign=google_maps&utm_medium=organic&utm_source=google&utm_content=website&utm_term=1013"
+      "website_url": "https://restaurants.daveshotchicken.com/ca/fountain-valley/10832-warner-ave.-1013?utm_source=google&utm_medium=organic&utm_campaign=google_maps&utm_content=website&utm_term=1013"
     },
     {
       "address": "12380 Seal Beach Blvd B, Seal Beach, CA 90740, USA",
@@ -29174,27 +29213,22 @@
       "phone": "(714) 593-0170",
       "place_id": "ChIJl3JjuxYn3YARfWye9B9YN98",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "discovered_via": "page_text",
-          "label": "Website specials",
-          "url": "https://locations.deltaco.com/us/ca/fountain-valley/17295-brookhurst-st?utm_source=G&utm_medium=local&utm_campaign=google-local"
-        }
-      ],
+      "specials_pages": [],
       "types": [
         "fast_food_restaurant",
         "breakfast_restaurant",
-        "taco_restaurant",
-        "meal_takeaway",
-        "mexican_restaurant",
         "hamburger_restaurant",
+        "vegan_restaurant",
+        "vegetarian_restaurant",
+        "taco_restaurant",
+        "mexican_restaurant",
+        "meal_takeaway",
         "american_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://locations.deltaco.com/us/ca/fountain-valley/17295-brookhurst-st?utm_source=G&utm_medium=local&utm_campaign=google-local"
@@ -29712,23 +29746,18 @@
       "phone": "(714) 968-9846",
       "place_id": "ChIJR3cSNRsn3YARztn9TaIvSUY",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
-      "specials_pages": [
-        {
-          "confidence": "medium",
-          "discovered_via": "page_text",
-          "label": "Website specials",
-          "url": "https://locations.deltaco.com/us/ca/fountain-valley/9436-warner-ave?utm_source=G&utm_medium=local&utm_campaign=google-local"
-        }
-      ],
+      "specials_pages": [],
       "types": [
         "fast_food_restaurant",
-        "taco_restaurant",
         "breakfast_restaurant",
         "hamburger_restaurant",
-        "meal_takeaway",
+        "vegan_restaurant",
+        "vegetarian_restaurant",
+        "taco_restaurant",
         "mexican_restaurant",
+        "meal_takeaway",
         "american_restaurant",
         "restaurant",
         "food",
@@ -30306,15 +30335,15 @@
       "phone": "(949) 264-3352",
       "place_id": "ChIJHTuTVSAn3YAR_YqDUDIXzRM",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
         "cafe",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -31553,15 +31582,15 @@
       "phone": "(657) 900-3285",
       "place_id": "ChIJXZLmvUwn3YARtseaObhoYI8",
       "primary_type": "donut_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "donut_shop",
         "bakery",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -32391,7 +32420,7 @@
       "phone": "(714) 376-4668",
       "place_id": "ChIJ3zqv2Dsn3YARGRnnHAoEN28",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -32421,18 +32450,18 @@
       ],
       "types": [
         "coffee_shop",
-        "fast_food_restaurant",
         "donut_shop",
-        "bagel_shop",
         "breakfast_restaurant",
+        "bagel_shop",
+        "fast_food_restaurant",
         "cafe",
-        "meal_takeaway",
         "bakery",
+        "meal_takeaway",
         "food_store",
-        "store",
         "restaurant",
-        "point_of_interest",
         "food",
+        "store",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://www.dunkindonuts.com/locations/us/ca/fountain-valley/18022-brookhurst-st/store-352853/?utm_source=google&utm_medium=local&utm_campaign=localmaps&utm_content=352853&y_source=1_MTIxMDg0OTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
@@ -32517,7 +32546,7 @@
       "phone": "(877) 899-2767",
       "place_id": "ChIJpVe5kGcn3YARWpptSSGReJQ",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -32529,12 +32558,12 @@
       ],
       "types": [
         "coffee_shop",
-        "cafe",
         "juice_shop",
+        "cafe",
         "tea_house",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -32589,13 +32618,13 @@
           }
         ]
       },
-      "latitude": 33.71618060000001,
-      "longitude": -117.9705438,
+      "latitude": 33.716068899999996,
+      "longitude": -117.96801620000001,
       "name": "Dutch Bros Coffee",
       "phone": "(877) 899-2767",
       "place_id": "ChIJx4khPQMn3YARxJB1jXVUwHc",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -32608,11 +32637,11 @@
       "types": [
         "coffee_shop",
         "juice_shop",
-        "tea_house",
         "cafe",
+        "tea_house",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -32931,7 +32960,7 @@
       "phone": "(657) 780-0068",
       "place_id": "ChIJ7fB_Mogn3YARrQ9LYooIv-c",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -34423,7 +34452,7 @@
       "phone": "(714) 775-5250",
       "place_id": "ChIJbWnnp2gn3YAR0ahwIJJ1Xpw",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -34435,9 +34464,9 @@
       ],
       "types": [
         "mexican_restaurant",
+        "chicken_restaurant",
         "fast_food_restaurant",
         "catering_service",
-        "chicken_restaurant",
         "food_delivery",
         "service",
         "restaurant",
@@ -35265,6 +35294,28 @@
       "website_url": "https://emeliadeli.com/"
     },
     {
+      "address": "17252 Euclid St, Fountain Valley, CA 92708, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Fountain Valley",
+      "google_maps_url": "https://maps.google.com/?cid=15481498163540563910&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {},
+      "latitude": 33.7122946,
+      "longitude": -117.93680799999998,
+      "name": "Empanadas Colombianas",
+      "phone": "",
+      "place_id": "ChIJKRDTAWgn3YARxpeyJI5U2dY",
+      "primary_type": "colombian_restaurant",
+      "specials_pages": [],
+      "types": [
+        "colombian_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
       "address": "1814 Monrovia Ave, Costa Mesa, CA 92627, USA",
       "business_status": "OPERATIONAL",
       "city": "Costa Mesa",
@@ -35909,12 +35960,12 @@
       "phone": "(312) 229-0170",
       "place_id": "ChIJ57Lothkn3YARbOAvwbvwH1c",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
-        "salad_shop",
         "cafeteria",
+        "salad_shop",
         "restaurant",
         "point_of_interest",
         "food",
@@ -38213,7 +38264,7 @@
       "phone": "(714) 839-4481",
       "place_id": "ChIJMdpkrw4n3YARi4XWP3M8Pu0",
       "primary_type": "chinese_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -39020,43 +39071,43 @@
         "friday": [
           {
             "close": "14:00",
-            "open": "04:30"
+            "open": "05:00"
           }
         ],
         "monday": [
           {
             "close": "14:00",
-            "open": "04:30"
+            "open": "05:00"
           }
         ],
         "saturday": [
           {
             "close": "14:00",
-            "open": "04:30"
+            "open": "05:00"
           }
         ],
         "sunday": [
           {
             "close": "14:00",
-            "open": "04:30"
+            "open": "05:00"
           }
         ],
         "thursday": [
           {
             "close": "14:00",
-            "open": "04:30"
+            "open": "05:00"
           }
         ],
         "tuesday": [
           {
             "close": "14:00",
-            "open": "04:30"
+            "open": "05:00"
           }
         ],
         "wednesday": [
           {
             "close": "14:00",
-            "open": "04:30"
+            "open": "05:00"
           }
         ]
       },
@@ -39072,8 +39123,8 @@
         "bagel_shop",
         "bakery",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -39648,21 +39699,21 @@
       "phone": "(714) 531-0288",
       "place_id": "ChIJKS1WHQcn3YAR0tkHe9yjCG4",
       "primary_type": "breakfast_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "breakfast_restaurant",
-        "bagel_shop",
-        "burrito_restaurant",
         "donut_shop",
+        "bagel_shop",
         "hamburger_restaurant",
+        "burrito_restaurant",
         "bakery",
         "american_restaurant",
         "food_store",
-        "store",
         "restaurant",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -42319,7 +42370,7 @@
       "phone": "(714) 378-0154",
       "place_id": "ChIJMRDQWBEn3YARxdvO20cfars",
       "primary_type": "hamburger_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -42334,8 +42385,8 @@
         "fast_food_restaurant",
         "american_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://order.habitburger.com/store/237/category"
@@ -44878,7 +44929,7 @@
       "phone": "(714) 839-8689",
       "place_id": "ChIJmeUJu5zY3IARo1kTNrUoAJg",
       "primary_type": "sushi_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -45572,7 +45623,7 @@
       "phone": "(714) 593-3000",
       "place_id": "ChIJV7VJlREn3YARUYh-_sFGSkw",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -45839,7 +45890,7 @@
       "phone": "(714) 227-2544",
       "place_id": "ChIJdbCq5son3YAR7xZG8fUiDH0",
       "primary_type": "hot_pot_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -45967,7 +46018,7 @@
       "phone": "(714) 531-1305",
       "place_id": "ChIJt8iNpQ4n3YARMaDUA8iLoik",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -46354,7 +46405,7 @@
       "phone": "(657) 247-4867",
       "place_id": "ChIJJ2VlYaYn3YAR3pTwIMwB3Uc",
       "primary_type": "thai_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -47021,43 +47072,43 @@
       "hours": {
         "friday": [
           {
-            "close": "00:00",
+            "close": "23:00",
             "open": "11:00"
           }
         ],
         "monday": [
           {
-            "close": "23:00",
+            "close": "22:00",
             "open": "11:00"
           }
         ],
         "saturday": [
           {
-            "close": "00:00",
+            "close": "23:00",
             "open": "11:00"
           }
         ],
         "sunday": [
           {
-            "close": "23:00",
+            "close": "22:00",
             "open": "11:00"
           }
         ],
         "thursday": [
           {
-            "close": "23:00",
+            "close": "22:00",
             "open": "11:00"
           }
         ],
         "tuesday": [
           {
-            "close": "23:00",
+            "close": "22:00",
             "open": "11:00"
           }
         ],
         "wednesday": [
           {
-            "close": "23:00",
+            "close": "22:00",
             "open": "11:00"
           }
         ]
@@ -47068,7 +47119,7 @@
       "phone": "(657) 244-8187",
       "place_id": "ChIJGfOqXQAn3YARyqETy7PKlF0",
       "primary_type": "korean_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -47479,17 +47530,17 @@
       "phone": "(714) 375-0880",
       "place_id": "ChIJ2-xgSDEn3YARMN3R-3T2YpI",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "sandwich_shop",
-        "catering_service",
         "halal_restaurant",
-        "meal_delivery",
         "vegan_restaurant",
         "vegetarian_restaurant",
+        "catering_service",
         "meal_takeaway",
+        "meal_delivery",
         "food_delivery",
         "restaurant",
         "food",
@@ -47497,7 +47548,7 @@
         "service",
         "establishment"
       ],
-      "website_url": "https://locations.ikessandwich.com/ca/fountainvalley/207/?utm_source=gmb&utm_medium=profile&utm_campaign=fountainvalley-location-page"
+      "website_url": "https://locations.ikessandwich.com/ca/fountain-valley/207/?utm_source=gmb&utm_medium=profile&utm_campaign=fountainvalley-location-page"
     },
     {
       "address": "4221 MacArthur Blvd B2, Newport Beach, CA 92660, USA",
@@ -47786,19 +47837,19 @@
       "phone": "(714) 964-5726",
       "place_id": "ChIJa76VxxEn3YARPM9QO-tOsNQ",
       "primary_type": "turkish_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "turkish_restaurant",
-        "mediterranean_restaurant",
         "halal_restaurant",
-        "bakery",
+        "mediterranean_restaurant",
         "middle_eastern_restaurant",
-        "food_store",
-        "store",
+        "bakery",
         "restaurant",
         "point_of_interest",
+        "food_store",
+        "store",
         "food",
         "establishment"
       ],
@@ -48453,7 +48504,7 @@
       "phone": "(714) 965-4600",
       "place_id": "ChIJ7YAErTAn3YARrrx2PJIf9RI",
       "primary_type": "peruvian_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -48891,7 +48942,7 @@
       "phone": "(714) 430-1434",
       "place_id": "ChIJC0ipZVAn3YARVu-BthkeVpg",
       "primary_type": "turkish_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -48904,14 +48955,14 @@
       "types": [
         "turkish_restaurant",
         "catering_service",
-        "mediterranean_restaurant",
         "halal_restaurant",
-        "food_delivery",
         "vegetarian_restaurant",
         "middle_eastern_restaurant",
+        "mediterranean_restaurant",
+        "food_delivery",
+        "supplier",
         "manufacturer",
         "store",
-        "supplier",
         "service",
         "restaurant",
         "point_of_interest",
@@ -50474,19 +50525,19 @@
       "phone": "(714) 465-9303",
       "place_id": "ChIJedDmKtsn3YARHQgvFoir_J0",
       "primary_type": "donut_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "donut_shop",
         "bakery",
         "food_store",
+        "food",
         "store",
         "point_of_interest",
-        "food",
         "establishment"
       ],
-      "website_url": "https://www.doordash.com/store/jayden's-donuts-fountain-valley-33339563/60527946/?preview=1"
+      "website_url": "https://jaydensdonuts.com/"
     },
     {
       "address": "8893 W Garden Grove Blvd, Garden Grove, CA 92844, USA",
@@ -51191,7 +51242,7 @@
       "phone": "(714) 486-1034",
       "place_id": "ChIJO_6bFFAn3YARUttoG4-L4xU",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -51421,7 +51472,7 @@
       "phone": "(714) 964-1610",
       "place_id": "ChIJT9ZIPion3YARBnvFWiRvFCI",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -51755,7 +51806,7 @@
       "phone": "(714) 227-7740",
       "place_id": "ChIJnaTLpaLY3IARjDWm_LqyFjM",
       "primary_type": "cake_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -51774,12 +51825,12 @@
       "types": [
         "cake_shop",
         "bakery",
-        "food_store",
-        "manufacturer",
-        "store",
         "wholesaler",
+        "manufacturer",
         "service",
         "point_of_interest",
+        "food_store",
+        "store",
         "food",
         "establishment"
       ],
@@ -53032,6 +53083,73 @@
       "website_url": "https://kalaveras.com/newport-beach/?utm_source=google&utm_medium=organic&utm_campaign=google_business_profile&utm_content=newport_beach_website"
     },
     {
+      "address": "18912 Brookhurst St, Fountain Valley, CA 92708, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Fountain Valley",
+      "google_maps_url": "https://maps.google.com/?cid=6872334829007356566&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {
+        "friday": [
+          {
+            "close": "00:00",
+            "open": "08:00"
+          }
+        ],
+        "monday": [
+          {
+            "close": "00:00",
+            "open": "08:00"
+          }
+        ],
+        "saturday": [
+          {
+            "close": "00:00",
+            "open": "08:00"
+          }
+        ],
+        "sunday": [
+          {
+            "close": "00:00",
+            "open": "08:00"
+          }
+        ],
+        "thursday": [
+          {
+            "close": "00:00",
+            "open": "08:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "close": "00:00",
+            "open": "08:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "close": "00:00",
+            "open": "08:00"
+          }
+        ]
+      },
+      "latitude": 33.688151,
+      "longitude": -117.95390640000001,
+      "name": "Kalye Cantina",
+      "phone": "(949) 350-5733",
+      "place_id": "ChIJ__i624En3YARlkKHpB1wX18",
+      "primary_type": "asian_fusion_restaurant",
+      "specials_pages": [],
+      "types": [
+        "asian_fusion_restaurant",
+        "fusion_restaurant",
+        "asian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
       "address": "18450 Brookhurst St, Fountain Valley, CA 92708, USA",
       "business_status": "OPERATIONAL",
       "city": "Fountain Valley",
@@ -53086,7 +53204,7 @@
       "phone": "(714) 964-4629",
       "place_id": "ChIJWQCW1DYn3YARlXDgNUAtbPI",
       "primary_type": "japanese_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -53098,10 +53216,10 @@
       ],
       "types": [
         "japanese_restaurant",
-        "japanese_izakaya_restaurant",
-        "ramen_restaurant",
         "yakitori_restaurant",
+        "japanese_izakaya_restaurant",
         "sushi_restaurant",
+        "ramen_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -53801,7 +53919,7 @@
       "phone": "(657) 531-2327",
       "place_id": "ChIJ4zrxshYn3YARh7P9IIKxj7k",
       "primary_type": "chicken_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -53815,8 +53933,8 @@
         "chicken_restaurant",
         "fast_food_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://locations.kfc.com/ca/fountain-valley/17239-brookhurst-street"
@@ -54719,16 +54837,16 @@
       "phone": "(714) 884-3124",
       "place_id": "ChIJFYLxGjsn3YARTANfxquyjIE",
       "primary_type": "ramen_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "ramen_restaurant",
+        "soup_restaurant",
         "asian_restaurant",
         "noodle_shop",
-        "korean_restaurant",
         "japanese_restaurant",
-        "soup_restaurant",
+        "korean_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -57334,7 +57452,7 @@
       "phone": "(714) 968-6128",
       "place_id": "ChIJyXtqsxMn3YARsJeV7G9nVQw",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -57358,10 +57476,10 @@
       ],
       "types": [
         "pizza_restaurant",
-        "sports_bar",
-        "italian_restaurant",
-        "bar",
         "family_restaurant",
+        "italian_restaurant",
+        "sports_bar",
+        "bar",
         "european_restaurant",
         "restaurant",
         "point_of_interest",
@@ -58870,16 +58988,6 @@
             "open": "17:00"
           }
         ],
-        "tuesday": [
-          {
-            "close": "14:30",
-            "open": "11:00"
-          },
-          {
-            "close": "21:00",
-            "open": "17:00"
-          }
-        ],
         "wednesday": [
           {
             "close": "14:30",
@@ -58897,7 +59005,7 @@
       "phone": "(949) 992-8058",
       "place_id": "ChIJ2VMlzcAn3YARCfEbu_f8pIo",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -59104,7 +59212,7 @@
       "phone": "(714) 968-1186",
       "place_id": "ChIJw7Mk4QQn3YAR5jIP5m8Vn38",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -59152,9 +59260,9 @@
       ],
       "types": [
         "pizza_restaurant",
+        "pizza_delivery",
         "fast_food_restaurant",
         "meal_takeaway",
-        "pizza_delivery",
         "meal_delivery",
         "food_delivery",
         "restaurant",
@@ -60391,15 +60499,15 @@
       "phone": "(714) 465-2252",
       "place_id": "ChIJT-PF6wUn3YARS7XiHhkPD2w",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
         "cafe",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -62946,7 +63054,7 @@
       "phone": "(714) 842-2844",
       "place_id": "ChIJ6UwWcv0m3YARFyqxOakpPqE",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -63106,44 +63214,72 @@
       "hours": {
         "friday": [
           {
-            "close": "21:00",
+            "close": "15:00",
             "open": "11:00"
+          },
+          {
+            "close": "21:00",
+            "open": "16:30"
           }
         ],
         "monday": [
           {
-            "close": "21:00",
+            "close": "15:00",
             "open": "11:00"
+          },
+          {
+            "close": "21:00",
+            "open": "16:30"
           }
         ],
         "saturday": [
           {
-            "close": "21:00",
+            "close": "15:00",
             "open": "11:00"
+          },
+          {
+            "close": "21:00",
+            "open": "16:30"
           }
         ],
         "sunday": [
           {
-            "close": "21:00",
+            "close": "15:00",
             "open": "11:00"
+          },
+          {
+            "close": "21:00",
+            "open": "16:30"
           }
         ],
         "thursday": [
           {
-            "close": "21:00",
+            "close": "15:00",
             "open": "11:00"
+          },
+          {
+            "close": "21:00",
+            "open": "16:30"
           }
         ],
         "tuesday": [
           {
-            "close": "21:00",
+            "close": "15:00",
             "open": "11:00"
+          },
+          {
+            "close": "21:00",
+            "open": "16:30"
           }
         ],
         "wednesday": [
           {
-            "close": "21:00",
+            "close": "15:00",
             "open": "11:00"
+          },
+          {
+            "close": "21:00",
+            "open": "16:30"
           }
         ]
       },
@@ -63153,7 +63289,7 @@
       "phone": "(714) 963-4929",
       "place_id": "ChIJWURhdiAn3YARJVhhswUAv0g",
       "primary_type": "thai_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -64113,8 +64249,8 @@
         "donut_shop",
         "bakery",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -64392,7 +64528,7 @@
       "phone": "(714) 963-6791",
       "place_id": "ChIJ51DnXjMn3YARn340SndDBhQ",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -64411,11 +64547,11 @@
       "types": [
         "american_restaurant",
         "bakery",
+        "restaurant",
+        "point_of_interest",
         "food_store",
         "store",
-        "restaurant",
         "food",
-        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://www.mariecallenders.com/"
@@ -66422,7 +66558,7 @@
       "phone": "(714) 557-5018",
       "place_id": "ChIJUdDL8Fon3YAR7yVhX790ZYI",
       "primary_type": "hawaiian_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -66692,16 +66828,16 @@
       "phone": "(714) 434-0717",
       "place_id": "ChIJxVvEv1An3YARhcjbUSHIMEE",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
         "breakfast_restaurant",
-        "coffee_shop",
-        "cafe",
         "sandwich_shop",
         "hamburger_restaurant",
+        "coffee_shop",
+        "cafe",
         "american_restaurant",
         "food_store",
         "store",
@@ -66874,21 +67010,21 @@
       "phone": "(714) 968-8901",
       "place_id": "ChIJU6ZArTQn3YARtuGJD2E371o",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
-        "sandwich_shop",
         "breakfast_restaurant",
-        "coffee_shop",
         "hamburger_restaurant",
+        "coffee_shop",
         "cafe",
+        "sandwich_shop",
         "american_restaurant",
         "food_store",
-        "store",
         "restaurant",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -68909,7 +69045,7 @@
       "phone": "(714) 962-5541",
       "place_id": "ChIJQ8eOIAAn3YAR_abJ0WLdotM",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -68976,7 +69112,7 @@
       "phone": "(714) 962-5541 ext. 232",
       "place_id": "ChIJf99x3mwn3YARGHmAcPja8Xg",
       "primary_type": "american_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -69224,25 +69360,25 @@
       "phone": "(714) 964-2533",
       "place_id": "ChIJsfm0LDEn3YAR6dCdiyhVfiY",
       "primary_type": "bistro",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bistro",
-        "breakfast_restaurant",
         "brunch_restaurant",
-        "wine_bar",
+        "breakfast_restaurant",
         "cafe",
+        "french_restaurant",
         "catering_service",
         "bakery",
-        "french_restaurant",
-        "bar",
         "food_delivery",
-        "european_restaurant",
+        "wine_bar",
         "food_store",
-        "store",
+        "european_restaurant",
+        "bar",
         "restaurant",
         "food",
+        "store",
         "point_of_interest",
         "service",
         "establishment"
@@ -70202,7 +70338,7 @@
       "phone": "(714) 714-0514",
       "place_id": "ChIJaVMNLiAn3YARxhtTvqLZHeg",
       "primary_type": "sushi_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -70821,43 +70957,43 @@
         "friday": [
           {
             "close": "03:00",
-            "open": "11:00"
+            "open": "08:00"
           }
         ],
         "monday": [
           {
             "close": "03:00",
-            "open": "11:00"
+            "open": "08:00"
           }
         ],
         "saturday": [
           {
             "close": "03:00",
-            "open": "11:00"
+            "open": "08:00"
           }
         ],
         "sunday": [
           {
             "close": "03:00",
-            "open": "11:00"
+            "open": "08:00"
           }
         ],
         "thursday": [
           {
             "close": "03:00",
-            "open": "11:00"
+            "open": "08:00"
           }
         ],
         "tuesday": [
           {
             "close": "03:00",
-            "open": "11:00"
+            "open": "08:00"
           }
         ],
         "wednesday": [
           {
             "close": "03:00",
-            "open": "11:00"
+            "open": "08:00"
           }
         ]
       },
@@ -70867,7 +71003,7 @@
       "phone": "(714) 963-4488",
       "place_id": "ChIJqdFhuREn3YAR4y4t8WaGUZ0",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -71277,21 +71413,9 @@
       "phone": "(657) 231-9674",
       "place_id": "ChIJD1J9DGEn3YARPOYD-jfW8bo",
       "primary_type": "pizza_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
-        {
-          "confidence": "high",
-          "discovered_via": "sitemap",
-          "label": "Specials",
-          "url": "https://www.mountainmikespizza.com/july-4-deals/"
-        },
-        {
-          "confidence": "high",
-          "discovered_via": "sitemap",
-          "label": "Specials",
-          "url": "https://www.mountainmikespizza.com/my-meal-deal/"
-        },
         {
           "confidence": "high",
           "discovered_via": "sitemap",
@@ -71301,13 +71425,13 @@
       ],
       "types": [
         "pizza_restaurant",
-        "family_restaurant",
+        "chicken_wings_restaurant",
         "pizza_delivery",
         "buffet_restaurant",
-        "meal_delivery",
         "meal_takeaway",
-        "chicken_wings_restaurant",
+        "meal_delivery",
         "food_delivery",
+        "family_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -72384,10 +72508,10 @@
       "specials_pages": [],
       "types": [
         "taco_restaurant",
-        "fast_food_restaurant",
         "hamburger_restaurant",
-        "american_restaurant",
+        "fast_food_restaurant",
         "mexican_restaurant",
+        "american_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -72874,9 +72998,16 @@
       "phone": "(714) 516-8121",
       "place_id": "ChIJP6YXvMsn3YARE8Try7DsBY4",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
-      "specials_pages": [],
+      "specials_pages": [
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://www.keiconcepts.info/brands/nep"
+        }
+      ],
       "types": [
         "vietnamese_restaurant",
         "cafe",
@@ -75405,15 +75536,15 @@
       "phone": "(714) 916-0807",
       "place_id": "ChIJCQydmM0n3YAR_0Hz4B6KR6U",
       "primary_type": "bar",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bar",
-        "sports_bar",
         "pub",
-        "event_venue",
+        "sports_bar",
         "sports_complex",
+        "event_venue",
         "sports_activity_location",
         "point_of_interest",
         "establishment"
@@ -76251,15 +76382,15 @@
       "phone": "(714) 800-4895",
       "place_id": "ChIJ5-3ia0An3YAR6zuxC6DrDIY",
       "primary_type": "mediterranean_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mediterranean_restaurant",
-        "falafel_restaurant",
         "gyro_restaurant",
-        "greek_restaurant",
         "halal_restaurant",
+        "falafel_restaurant",
+        "greek_restaurant",
         "middle_eastern_restaurant",
         "european_restaurant",
         "restaurant",
@@ -77117,7 +77248,7 @@
       "phone": "(714) 842-6141",
       "place_id": "ChIJ46nghgIn3YARJ2Z7KGXC088",
       "primary_type": "hamburger_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -77432,23 +77563,65 @@
       "phone": "(714) 963-7888",
       "place_id": "ChIJQ_l_2xMn3YAROIcjwXvwI-w",
       "primary_type": "sports_bar",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
-          "confidence": "medium",
-          "discovered_via": "page_text",
-          "label": "Website specials",
-          "url": "https://fountainbowl.com/ozzies-sports-bar/"
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Daily Specials",
+          "url": "https://fountainbowl.com/daily-specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Dailyspecials",
+          "url": "https://fountainbowl.com/dailyspecials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Deals",
+          "url": "https://fountainbowl.com/deals"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Happy Hour",
+          "url": "https://fountainbowl.com/happy-hour"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Promotions",
+          "url": "https://fountainbowl.com/promotions"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Specials",
+          "url": "https://fountainbowl.com/specials"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Weekday Lunch",
+          "url": "https://fountainbowl.com/weekday-lunch"
+        },
+        {
+          "confidence": "high",
+          "discovered_via": "known_path",
+          "label": "Weekday Specials",
+          "url": "https://fountainbowl.com/weekday-specials"
         }
       ],
       "types": [
         "sports_bar",
-        "karaoke",
         "comedy_club",
-        "night_club",
+        "karaoke",
         "live_music_venue",
         "event_venue",
+        "night_club",
         "bar",
         "point_of_interest",
         "establishment"
@@ -77764,8 +77937,8 @@
         ],
         "thursday": [
           {
-            "close": "20:00",
-            "open": "09:00"
+            "close": "13:30",
+            "open": "10:00"
           }
         ],
         "tuesday": [
@@ -77787,7 +77960,7 @@
       "phone": "(714) 916-5977",
       "place_id": "ChIJZR9_Bzon3YAR3zLywnEY1po",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -77795,10 +77968,10 @@
         "dessert_shop",
         "confectionery",
         "food_store",
-        "store",
         "restaurant",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "website_url": "http://paderia.com/"
@@ -77952,7 +78125,7 @@
       "website_url": "https://www.palmsnpatties.com/"
     },
     {
-      "address": "11940 W Edinger Ave, Fountain Valley, CA 92708, USA",
+      "address": "11940 Edinger Ave, Fountain Valley, CA 92708, USA",
       "business_status": "OPERATIONAL",
       "city": "Fountain Valley",
       "google_maps_url": "https://maps.google.com/?cid=9705017875756393698&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
@@ -78006,8 +78179,6 @@
       "phone": "(714) 418-0299",
       "place_id": "ChIJ6cGjIYPY3IAR4qRGr1Ymr4Y",
       "primary_type": "chinese_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
-      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chinese_restaurant",
@@ -78017,7 +78188,7 @@
         "point_of_interest",
         "establishment"
       ],
-      "website_url": "https://orderpandabowl.com/"
+      "website_url": ""
     },
     {
       "address": "12971 Beach Blvd, Village Center Dr, Garden Grove, CA 92841, USA",
@@ -78224,18 +78395,18 @@
       "phone": "(714) 444-2498",
       "place_id": "ChIJRQNtE1An3YAR9z5rD7BMCog",
       "primary_type": "chinese_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chinese_restaurant",
-        "chinese_noodle_restaurant",
-        "fast_food_restaurant",
         "catering_service",
         "asian_restaurant",
         "meal_takeaway",
         "meal_delivery",
         "food_delivery",
+        "fast_food_restaurant",
+        "chinese_noodle_restaurant",
         "service",
         "restaurant",
         "point_of_interest",
@@ -79120,15 +79291,15 @@
       "phone": "(714) 962-8887",
       "place_id": "ChIJIdNHUion3YARCtbAeIpVuvw",
       "primary_type": "brunch_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "brunch_restaurant",
         "breakfast_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "website_url": "http://www.papazsfountainvalley.com/"
@@ -79930,18 +80101,43 @@
       "phone": "(714) 965-3643",
       "place_id": "ChIJ-bLm2QQn3YARxG8XHv2bv6M",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
-      "specials_pages": [],
+      "specials_pages": [
+        {
+          "confidence": "high",
+          "discovered_via": "sitemap",
+          "label": "Specials",
+          "url": "https://paulscoffeeshopfountainvalley.com/coupon"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "page_text",
+          "label": "Website specials",
+          "url": "https://paulscoffeeshopfountainvalley.com/"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Everyday Specials",
+          "url": "https://paulscoffeeshopfountainvalley.com/everyday-specials"
+        },
+        {
+          "confidence": "medium",
+          "discovered_via": "site_link",
+          "label": "Specials",
+          "url": "https://paulscoffeeshopfountainvalley.com/specials"
+        }
+      ],
       "types": [
         "coffee_shop",
-        "sandwich_shop",
         "breakfast_restaurant",
         "cafe",
+        "sandwich_shop",
         "food_store",
-        "store",
         "restaurant",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -80556,7 +80752,7 @@
       "phone": "(714) 916-0082",
       "place_id": "ChIJe6GdAq4n3YARkhh3CyYtY8M",
       "primary_type": "chinese_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -81643,8 +81839,8 @@
       "hours": {
         "friday": [
           {
-            "close": "15:00",
-            "open": "11:00"
+            "close": "14:00",
+            "open": "10:30"
           },
           {
             "close": "21:30",
@@ -81653,20 +81849,28 @@
         ],
         "saturday": [
           {
-            "close": "21:30",
+            "close": "15:30",
             "open": "10:00"
+          },
+          {
+            "close": "21:30",
+            "open": "16:30"
           }
         ],
         "sunday": [
           {
-            "close": "21:00",
+            "close": "15:30",
             "open": "10:00"
+          },
+          {
+            "close": "21:30",
+            "open": "16:30"
           }
         ],
         "thursday": [
           {
-            "close": "14:30",
-            "open": "11:00"
+            "close": "14:00",
+            "open": "10:30"
           },
           {
             "close": "21:00",
@@ -81675,8 +81879,8 @@
         ],
         "tuesday": [
           {
-            "close": "14:30",
-            "open": "11:00"
+            "close": "14:00",
+            "open": "10:30"
           },
           {
             "close": "21:00",
@@ -81685,8 +81889,8 @@
         ],
         "wednesday": [
           {
-            "close": "14:30",
-            "open": "11:00"
+            "close": "14:00",
+            "open": "10:30"
           },
           {
             "close": "21:00",
@@ -81696,10 +81900,12 @@
       },
       "latitude": 33.6957929,
       "longitude": -117.95379620000001,
-      "name": "Pho Ha Noi FV",
+      "name": "Pho Ha Noi - Fountain Valley",
       "phone": "(657) 204-9907",
       "place_id": "ChIJwdmlFwAn3YARxOrKFXlP7nQ",
       "primary_type": "vietnamese_restaurant",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
+      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
@@ -81708,7 +81914,7 @@
         "point_of_interest",
         "establishment"
       ],
-      "website_url": ""
+      "website_url": "http://www.phohanoi.com/"
     },
     {
       "address": "9048 Adams Ave, Huntington Beach, CA 92646, USA",
@@ -82171,14 +82377,14 @@
       "phone": "(714) 760-4734",
       "place_id": "ChIJ1162rxcn3YARltGueVJEShc",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vietnamese_restaurant",
         "asian_fusion_restaurant",
-        "fusion_restaurant",
         "asian_restaurant",
+        "fusion_restaurant",
         "restaurant",
         "point_of_interest",
         "food",
@@ -82387,9 +82593,10 @@
       "name": "Pho VH",
       "phone": "(657) 899-6789",
       "place_id": "ChIJsV9-MgAn3YAR1b2z7pQmDYM",
-      "primary_type": "restaurant",
+      "primary_type": "asian_restaurant",
       "specials_pages": [],
       "types": [
+        "asian_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -82593,11 +82800,11 @@
       "specials_pages": [],
       "types": [
         "coffee_shop",
-        "cafe",
         "tea_store",
+        "cafe",
+        "point_of_interest",
         "food_store",
         "store",
-        "point_of_interest",
         "food",
         "establishment"
       ],
@@ -84078,14 +84285,14 @@
       "phone": "(657) 244-8467",
       "place_id": "ChIJBU43IgAn3YARfTBA4qhxpd8",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -84553,7 +84760,7 @@
       "website_url": "http://pizzadorohb.com/"
     },
     {
-      "address": "10585 Slater Ave Suite 2A, Fountain Valley, CA 92708, USA",
+      "address": "10585 Slater Ave STE 3A, Fountain Valley, CA 92708, USA",
       "business_status": "OPERATIONAL",
       "city": "Fountain Valley",
       "google_maps_url": "https://maps.google.com/?cid=385751617389546205&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
@@ -84607,15 +84814,9 @@
       "phone": "(714) 963-0227",
       "place_id": "ChIJ16fK2lgn3YAR3UoJXg13WgU",
       "primary_type": "italian_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
-        {
-          "confidence": "medium",
-          "discovered_via": "page_text",
-          "label": "Website specials",
-          "url": "https://www.pizzadz.com/?utm_source=googlemybusiness"
-        },
         {
           "confidence": "medium",
           "discovered_via": "site_link",
@@ -84637,20 +84838,23 @@
       ],
       "types": [
         "italian_restaurant",
-        "chicken_wings_restaurant",
-        "soup_restaurant",
-        "salad_shop",
-        "pizza_restaurant",
-        "sandwich_shop",
+        "pizza_delivery",
         "dessert_shop",
+        "catering_service",
+        "sandwich_shop",
+        "pizza_restaurant",
+        "meal_takeaway",
+        "meal_delivery",
+        "food_delivery",
         "confectionery",
         "food_store",
-        "store",
-        "family_restaurant",
         "european_restaurant",
+        "family_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "store",
+        "point_of_interest",
+        "service",
         "establishment"
       ],
       "website_url": "https://www.pizzadz.com/?utm_source=googlemybusiness"
@@ -86233,13 +86437,13 @@
       "phone": "(714) 248-8243",
       "place_id": "ChIJSQ3jKQAh3YARcTHva9K6Mbg",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "fast_food_restaurant",
-        "family_restaurant",
         "shipping_service",
+        "family_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -86831,15 +87035,15 @@
       "phone": "(818) 863-6945",
       "place_id": "ChIJTfjAWhIt3YART4qtpwzuwQQ",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
         "grocery_store",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -87694,7 +87898,7 @@
       "phone": "(949) 994-0404",
       "place_id": "ChIJUz64Zw0n3YAR06ZwHUxGm2w",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -87971,19 +88175,19 @@
       "phone": "(657) 204-9819",
       "place_id": "ChIJrWFedgAn3YAR0udVBGfFOcE",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
-        "taco_restaurant",
+        "cocktail_bar",
         "southwestern_us_restaurant",
-        "family_restaurant",
         "tex_mex_restaurant",
         "burrito_restaurant",
-        "cocktail_bar",
+        "taco_restaurant",
         "american_restaurant",
         "bar",
+        "family_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -88770,85 +88974,22 @@
     },
     {
       "address": "10585 Slater Ave Ste 8A & 8B, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
+      "business_status": "CLOSED_TEMPORARILY",
       "city": "Fountain Valley",
       "google_maps_url": "https://maps.google.com/?cid=18340969191481970904&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {
-        "friday": [
-          {
-            "close": "14:00",
-            "open": "11:30"
-          },
-          {
-            "close": "22:00",
-            "open": "17:00"
-          }
-        ],
-        "saturday": [
-          {
-            "close": "14:00",
-            "open": "11:30"
-          },
-          {
-            "close": "22:00",
-            "open": "17:00"
-          }
-        ],
-        "sunday": [
-          {
-            "close": "14:00",
-            "open": "11:30"
-          },
-          {
-            "close": "21:00",
-            "open": "17:00"
-          }
-        ],
-        "thursday": [
-          {
-            "close": "14:00",
-            "open": "11:30"
-          },
-          {
-            "close": "22:00",
-            "open": "17:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "close": "14:00",
-            "open": "11:30"
-          },
-          {
-            "close": "22:00",
-            "open": "17:00"
-          }
-        ],
-        "wednesday": [
-          {
-            "close": "14:00",
-            "open": "11:30"
-          },
-          {
-            "close": "22:00",
-            "open": "17:00"
-          }
-        ]
-      },
+      "hours": {},
       "latitude": 33.7096203,
       "longitude": -117.94416749999999,
       "name": "Ramen Izakaya Taiko",
       "phone": "(657) 204-9190",
       "place_id": "ChIJlya_S3on3YAR2JCqFk42iP4",
       "primary_type": "japanese_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
-      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "japanese_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://www.taikofv.com/"
@@ -89797,9 +89938,9 @@
       "types": [
         "donut_shop",
         "bakery",
+        "point_of_interest",
         "food_store",
         "store",
-        "point_of_interest",
         "food",
         "establishment"
       ],
@@ -91988,7 +92129,7 @@
       "phone": "(714) 965-4989",
       "place_id": "ChIJi37lOBsn3YAR4Pik4ArJ6I4",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -92130,15 +92271,15 @@
       "phone": "",
       "place_id": "ChIJg73RFV4n3YAR2AGWUQoArL4",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
         "cafe",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -92336,19 +92477,19 @@
       "phone": "(714) 593-0069",
       "place_id": "ChIJraU2qxYn3YARIRSxQpAIu1E",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
-        "fast_food_restaurant",
         "latin_american_restaurant",
         "breakfast_restaurant",
-        "taco_restaurant",
+        "fast_food_restaurant",
         "burrito_restaurant",
+        "taco_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "http://www.sabrosada.com/"
@@ -92898,43 +93039,43 @@
         "friday": [
           {
             "close": "20:00",
-            "open": "08:00"
+            "open": "09:00"
           }
         ],
         "monday": [
           {
             "close": "20:00",
-            "open": "08:00"
+            "open": "09:00"
           }
         ],
         "saturday": [
           {
             "close": "20:00",
-            "open": "08:00"
+            "open": "09:00"
           }
         ],
         "sunday": [
           {
             "close": "20:00",
-            "open": "08:00"
+            "open": "09:00"
           }
         ],
         "thursday": [
           {
             "close": "20:00",
-            "open": "08:00"
+            "open": "09:00"
           }
         ],
         "tuesday": [
           {
             "close": "20:00",
-            "open": "08:00"
+            "open": "09:00"
           }
         ],
         "wednesday": [
           {
             "close": "20:00",
-            "open": "08:00"
+            "open": "09:00"
           }
         ]
       },
@@ -92944,18 +93085,18 @@
       "phone": "(714) 965-0496",
       "place_id": "ChIJq6qqRxEn3YARAbxgLgnXeQQ",
       "primary_type": "bakery",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "bakery",
         "food_store",
-        "manufacturer",
-        "store",
         "wholesaler",
+        "manufacturer",
         "food",
         "point_of_interest",
         "service",
+        "store",
         "establishment"
       ],
       "website_url": "https://www.samsclub.com/club/6615-fountain-valley-ca/bakery"
@@ -93015,7 +93156,7 @@
       "phone": "(714) 965-0410",
       "place_id": "ChIJ2WpHK20n3YARXXm276uLxsg",
       "primary_type": "cafe",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -93667,7 +93808,7 @@
       "phone": "(714) 377-0004",
       "place_id": "ChIJJeo4Fion3YARIu14N99sksI",
       "primary_type": "japanese_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -95390,13 +95531,13 @@
       "phone": "(213) 855-1920",
       "place_id": "ChIJM2PaBuMn3YAR3vIZ1H5ICTA",
       "primary_type": "japanese_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
-        "hot_pot_restaurant",
         "buffet_restaurant",
         "japanese_restaurant",
+        "hot_pot_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -95997,14 +96138,14 @@
       "phone": "(714) 962-8971",
       "place_id": "ChIJ93pCsTAn3YARYnvc3DKUUkk",
       "primary_type": "ramen_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
           "discovered_via": "site_link",
-          "label": "\ud83c\udf83 Halloween Special at Irvine & Fountain Valley Halloween, 10/31(Sun), 2026",
-          "url": "https://shinsengumigroup.com/news_events/ssg-halloween/"
+          "label": "Winter Holiday Special \u26c4\ufe0f 11 Stores Gourmet Rally 10/26(Mon), 2026 - 1/31(Sun), 2027",
+          "url": "https://shinsengumigroup.com/news_events/11storesgourmetrally/"
         }
       ],
       "types": [
@@ -96012,8 +96153,8 @@
         "yakitori_restaurant",
         "asian_restaurant",
         "catering_service",
-        "food_delivery",
         "japanese_restaurant",
+        "food_delivery",
         "restaurant",
         "food",
         "point_of_interest",
@@ -96077,23 +96218,23 @@
       "phone": "(714) 962-8952",
       "place_id": "ChIJL7bspSgn3YARomxT6QBoVTc",
       "primary_type": "japanese_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
           "confidence": "medium",
           "discovered_via": "site_link",
-          "label": "\ud83c\udf83 Halloween Special at Irvine & Fountain Valley Halloween, 10/31(Sun), 2026",
-          "url": "https://shinsengumigroup.com/news_events/ssg-halloween/"
+          "label": "Winter Holiday Special \u26c4\ufe0f 11 Stores Gourmet Rally 10/26(Mon), 2026 - 1/31(Sun), 2027",
+          "url": "https://shinsengumigroup.com/news_events/11storesgourmetrally/"
         }
       ],
       "types": [
         "japanese_restaurant",
-        "japanese_izakaya_restaurant",
-        "ramen_restaurant",
         "yakitori_restaurant",
         "asian_restaurant",
+        "japanese_izakaya_restaurant",
         "catering_service",
+        "ramen_restaurant",
         "food_delivery",
         "restaurant",
         "food",
@@ -96944,7 +97085,7 @@
       "phone": "(657) 259-0088",
       "place_id": "ChIJOViFqo4n3YARwbbqPpA8buc",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -97079,15 +97220,15 @@
       "phone": "(657) 218-4266",
       "place_id": "ChIJHUp8qIMn3YARSy9zj_bg-t0",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
         "cafe",
+        "point_of_interest",
         "food_store",
         "store",
-        "point_of_interest",
         "food",
         "establishment"
       ],
@@ -97148,7 +97289,7 @@
       "phone": "(714) 962-4882",
       "place_id": "ChIJL0DGNxsn3YARSQKlkCCoTTY",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -97160,12 +97301,12 @@
       ],
       "types": [
         "restaurant",
-        "family_restaurant",
-        "cafeteria",
-        "salad_shop",
         "steak_house",
+        "salad_shop",
         "buffet_restaurant",
         "seafood_restaurant",
+        "cafeteria",
+        "family_restaurant",
         "food",
         "point_of_interest",
         "establishment"
@@ -97743,14 +97884,14 @@
       "phone": "(714) 843-3233",
       "place_id": "ChIJgYACqgIn3YARnJWyRx6tQYM",
       "primary_type": "mediterranean_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mediterranean_restaurant",
         "croatian_restaurant",
-        "pizza_restaurant",
         "italian_restaurant",
+        "pizza_restaurant",
         "european_restaurant",
         "restaurant",
         "food",
@@ -98160,7 +98301,7 @@
       "phone": "(714) 531-1479",
       "place_id": "ChIJnaqYyg4n3YARkchOhuXrZiY",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -98173,12 +98314,12 @@
       "types": [
         "vietnamese_restaurant",
         "banquet_hall",
-        "bakery",
         "event_venue",
-        "food_store",
-        "store",
+        "bakery",
         "restaurant",
         "point_of_interest",
+        "food_store",
+        "store",
         "food",
         "establishment"
       ],
@@ -98605,7 +98746,7 @@
     },
     {
       "address": "11179 Talbert Ave, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
+      "business_status": "CLOSED_TEMPORARILY",
       "city": "Fountain Valley",
       "google_maps_url": "https://maps.google.com/?cid=1459973736272338272&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
       "hours": {},
@@ -98615,19 +98756,17 @@
       "phone": "",
       "place_id": "ChIJr2GMf1An3YARYJ3pu2DeQhQ",
       "primary_type": "buffet_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
-      "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "buffet_restaurant",
-        "soup_restaurant",
-        "salad_shop",
         "catering_service",
-        "meal_takeaway",
-        "food_delivery",
         "vegan_restaurant",
+        "salad_shop",
         "vegetarian_restaurant",
         "family_restaurant",
+        "meal_takeaway",
+        "soup_restaurant",
+        "food_delivery",
         "service",
         "restaurant",
         "point_of_interest",
@@ -100397,18 +100536,18 @@
       "phone": "(714) 378-5931",
       "place_id": "ChIJK2DHNTEn3YARgKPH22_yJ0Y",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
-        "breakfast_restaurant",
         "internet_cafe",
+        "breakfast_restaurant",
         "cafe",
         "food_store",
-        "store",
         "restaurant",
         "food",
+        "store",
         "point_of_interest",
         "service",
         "establishment"
@@ -102030,7 +102169,7 @@
       "phone": "(714) 375-2868",
       "place_id": "ChIJ5QUqlwIn3YARikE1he366vM",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -102039,9 +102178,9 @@
         "breakfast_restaurant",
         "cafe",
         "food_store",
-        "store",
         "restaurant",
         "food",
+        "store",
         "point_of_interest",
         "service",
         "establishment"
@@ -102318,13 +102457,13 @@
       "phone": "(714) 979-5374",
       "place_id": "ChIJmZEW8Von3YARcjDhlKOmfE8",
       "primary_type": "coffee_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "coffee_shop",
-        "internet_cafe",
         "breakfast_restaurant",
+        "internet_cafe",
         "cafe",
         "food_store",
         "store",
@@ -102746,13 +102885,13 @@
       "hours": {
         "friday": [
           {
-            "close": "22:00",
+            "close": "21:00",
             "open": "15:00"
           }
         ],
         "saturday": [
           {
-            "close": "22:00",
+            "close": "21:00",
             "open": "12:00"
           }
         ],
@@ -102764,7 +102903,7 @@
         ],
         "thursday": [
           {
-            "close": "21:00",
+            "close": "20:00",
             "open": "15:00"
           }
         ],
@@ -102776,7 +102915,7 @@
         ],
         "wednesday": [
           {
-            "close": "21:00",
+            "close": "20:00",
             "open": "15:00"
           }
         ]
@@ -102787,17 +102926,17 @@
       "phone": "(714) 594-3630",
       "place_id": "ChIJ_0hdXNEn3YARb50XzXAI2zs",
       "primary_type": "brewpub",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "brewpub",
-        "brewery",
-        "sports_bar",
         "hamburger_restaurant",
-        "pub",
         "bar_and_grill",
+        "pub",
+        "sports_bar",
         "meal_takeaway",
+        "brewery",
         "american_restaurant",
         "bar",
         "manufacturer",
@@ -103999,7 +104138,7 @@
       "phone": "(714) 775-6608",
       "place_id": "ChIJBwDYu5zY3IARIvuDEoO91gk",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -104143,7 +104282,7 @@
       "phone": "(203) 877-4282",
       "place_id": "ChIJ9-3-Xlon3YARQBSOlxHbFHg",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -104155,10 +104294,10 @@
       ],
       "types": [
         "sandwich_shop",
-        "fast_food_restaurant",
         "catering_service",
         "meal_takeaway",
         "food_delivery",
+        "fast_food_restaurant",
         "service",
         "restaurant",
         "point_of_interest",
@@ -104222,7 +104361,7 @@
       "phone": "(714) 378-9925",
       "place_id": "ChIJbaRWCiAn3YARxxrgMlX7Lqk",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -105255,13 +105394,13 @@
         "friday": [
           {
             "close": "22:30",
-            "open": "09:00"
+            "open": "08:00"
           }
         ],
         "monday": [
           {
             "close": "22:30",
-            "open": "09:00"
+            "open": "08:00"
           }
         ],
         "saturday": [
@@ -105279,19 +105418,19 @@
         "thursday": [
           {
             "close": "22:30",
-            "open": "09:00"
+            "open": "08:00"
           }
         ],
         "tuesday": [
           {
             "close": "22:30",
-            "open": "09:00"
+            "open": "08:00"
           }
         ],
         "wednesday": [
           {
             "close": "22:30",
-            "open": "09:00"
+            "open": "08:00"
           }
         ]
       },
@@ -105301,7 +105440,7 @@
       "phone": "(657) 244-8180",
       "place_id": "ChIJU28xJTEn3YARyg3DIdBc5kE",
       "primary_type": "sandwich_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -106702,7 +106841,7 @@
       "phone": "(714) 964-0988",
       "place_id": "ChIJs5SDPjon3YARyYy8loewO7E",
       "primary_type": "sushi_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -107714,6 +107853,27 @@
       "website_url": ""
     },
     {
+      "address": "11179 Talbert Ave, Fountain Valley, CA 92708, USA",
+      "business_status": "OPERATIONAL",
+      "city": "Fountain Valley",
+      "google_maps_url": "https://maps.google.com/?cid=1528136526573967361&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+      "hours": {},
+      "latitude": 33.7022799,
+      "longitude": -117.9336156,
+      "name": "Sweet Tomatoes",
+      "phone": "",
+      "place_id": "ChIJH4a0DwAn3YARAZi9EhMINRU",
+      "primary_type": "restaurant",
+      "specials_pages": [],
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "website_url": ""
+    },
+    {
       "address": "5362 Oceanus Dr # C, Huntington Beach, CA 92649, USA",
       "business_status": "OPERATIONAL",
       "city": "Huntington Beach",
@@ -108116,7 +108276,7 @@
       "phone": "(714) 540-8736",
       "place_id": "ChIJCYPHlVAn3YARfGpmYI1XMtE",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -108129,9 +108289,9 @@
       "types": [
         "fast_food_restaurant",
         "taco_restaurant",
+        "burrito_restaurant",
         "meal_takeaway",
         "mexican_restaurant",
-        "burrito_restaurant",
         "restaurant",
         "point_of_interest",
         "food",
@@ -109205,12 +109365,6 @@
             "open": "08:00"
           }
         ],
-        "thursday": [
-          {
-            "close": "01:00",
-            "open": "08:00"
-          }
-        ],
         "tuesday": [
           {
             "close": "01:00",
@@ -109230,7 +109384,7 @@
       "phone": "(714) 968-0029",
       "place_id": "ChIJafDMvREn3YARkIMiWpoWzaQ",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -109244,10 +109398,10 @@
         "fast_food_restaurant",
         "breakfast_restaurant",
         "tex_mex_restaurant",
-        "meal_takeaway",
-        "mexican_restaurant",
         "vegetarian_restaurant",
         "american_restaurant",
+        "mexican_restaurant",
+        "meal_takeaway",
         "restaurant",
         "point_of_interest",
         "food",
@@ -110339,13 +110493,13 @@
       "phone": "(714) 657-2720",
       "place_id": "ChIJpSG8id8m3YARPKKTX7pIzHE",
       "primary_type": "mexican_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "mexican_restaurant",
-        "taco_restaurant",
         "burrito_restaurant",
+        "taco_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -112054,7 +112208,7 @@
       "phone": "(714) 841-6868",
       "place_id": "ChIJa6I7DP0m3YARjoBQJy9iepI",
       "primary_type": "indian_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -113174,7 +113328,7 @@
       "phone": "(714) 593-1511",
       "place_id": "ChIJZZ4-exYn3YARA71U2ZV_ztk",
       "primary_type": "thai_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -113182,8 +113336,8 @@
         "sushi_restaurant",
         "japanese_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "http://eatthaionfire.com/"
@@ -113473,14 +113627,14 @@
       "phone": "(714) 580-3010",
       "place_id": "ChIJmW6u9bsn3YAR0xf5TrEm6Dk",
       "primary_type": "thai_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "thai_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://thethaistation.com/"
@@ -116563,28 +116717,6 @@
       "website_url": "https://thekickincrab.com/westminster1-ca"
     },
     {
-      "address": "16275 S Harbor Blvd, Fountain Valley, CA 92708, USA",
-      "business_status": "OPERATIONAL",
-      "city": "Fountain Valley",
-      "google_maps_url": "https://maps.google.com/?cid=14213805717970532786&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-      "hours": {},
-      "latitude": 33.7267643,
-      "longitude": -117.92031059999998,
-      "name": "The kickin' crab",
-      "phone": "",
-      "place_id": "ChIJ3QQeVgDZ3IARsrkMFv6UQcU",
-      "primary_type": "seafood_restaurant",
-      "specials_pages": [],
-      "types": [
-        "seafood_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "website_url": ""
-    },
-    {
       "address": "6777-A4, 6777 Westminster Blvd. A4, Westminster, CA 92683, USA",
       "business_status": "OPERATIONAL",
       "city": "Westminster",
@@ -117720,7 +117852,7 @@
       "website_url": "http://www.theriapizza.com/"
     },
     {
-      "address": "Plavan Plaza Shopping Center, Fountain Valley, CA 92708, USA",
+      "address": "9430 Warner Ave D, Fountain Valley, CA 92708, USA",
       "business_status": "OPERATIONAL",
       "city": "Fountain Valley",
       "google_maps_url": "https://maps.google.com/?cid=12686534269184817308&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
@@ -117768,8 +117900,8 @@
           }
         ]
       },
-      "latitude": 33.7149235,
-      "longitude": -117.96407339999998,
+      "latitude": 33.7149837,
+      "longitude": -117.9643018,
       "name": "The Roastea",
       "phone": "",
       "place_id": "ChIJdxu8y4Un3YARnLiUobOfD7A",
@@ -119344,7 +119476,7 @@
       "phone": "(714) 593-9000",
       "place_id": "ChIJ9xYU9tUm3YARs9bAvX6BC4Q",
       "primary_type": "taco_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -119760,7 +119892,7 @@
       "phone": "(714) 593-6212",
       "place_id": "ChIJCZVq9AUn3YARMN4FTO2xPS8",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -121994,7 +122126,7 @@
       "phone": "(714) 962-9500",
       "place_id": "ChIJlQSsdSAn3YARU1nSCrWu3tw",
       "primary_type": "seafood_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -124067,17 +124199,17 @@
       "phone": "(714) 531-9222",
       "place_id": "ChIJeXH1HGYn3YARdAq4t-tPWBE",
       "primary_type": "asian_fusion_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "asian_fusion_restaurant",
-        "fast_food_restaurant",
         "fusion_restaurant",
-        "asian_restaurant",
-        "meal_takeaway",
+        "fast_food_restaurant",
         "vegetarian_restaurant",
+        "asian_restaurant",
         "korean_restaurant",
+        "meal_takeaway",
         "restaurant",
         "point_of_interest",
         "food",
@@ -125420,14 +125552,14 @@
       "primary_type": "bakery",
       "specials_pages": [],
       "types": [
-        "catering_service",
-        "food_delivery",
         "dessert_shop",
-        "confectionery",
+        "catering_service",
         "bakery",
+        "food_delivery",
+        "confectionery",
         "food_store",
-        "store",
         "food",
+        "store",
         "point_of_interest",
         "service",
         "establishment"
@@ -125811,7 +125943,7 @@
         ],
         "thursday": [
           {
-            "close": "03:00",
+            "close": "16:00",
             "open": "06:00"
           }
         ],
@@ -125834,7 +125966,7 @@
       "phone": "(714) 964-2022",
       "place_id": "ChIJwTpVUTkn3YARflD7B0nCyIs",
       "primary_type": "fast_food_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [
         {
@@ -125849,8 +125981,8 @@
         "hamburger_restaurant",
         "american_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://locations.wendys.com/united-states/ca/fountain-valley/17940-brookhurst-ave?utm_source=Yext&utm_medium=Google_My_Business&utm_campaign=Local_Search"
@@ -127596,24 +127728,24 @@
       "phone": "(714) 847-1955",
       "place_id": "ChIJv87fnwIn3YAR3PmujGTWxcE",
       "primary_type": "donut_shop",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "donut_shop",
-        "sandwich_shop",
+        "breakfast_restaurant",
         "bagel_shop",
         "coffee_shop",
-        "breakfast_restaurant",
         "cafe",
-        "mexican_restaurant",
         "dessert_shop",
-        "confectionery",
+        "sandwich_shop",
         "bakery",
+        "mexican_restaurant",
+        "confectionery",
         "food_store",
-        "store",
         "restaurant",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -127878,14 +128010,14 @@
       "phone": "(714) 377-2683",
       "place_id": "ChIJMZl1VhEn3YAR9DJmaei0p38",
       "primary_type": "chicken_wings_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "chicken_wings_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "website_url": "https://www.wingstop.com/location/wingstop-1339-fountain-valley-ca-92708/menu?y_source=1_NTUyMDc3NzktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
@@ -129630,7 +129762,7 @@
       "phone": "(714) 775-1699",
       "place_id": "ChIJ8QQz6JEn3YARhFU99pqfAn8",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -129989,7 +130121,7 @@
       "phone": "(714) 964-7566",
       "place_id": "ChIJVz2MHPsn3YARizWLOBAta78",
       "primary_type": "restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
@@ -130803,16 +130935,16 @@
       "phone": "(714) 418-0658",
       "place_id": "ChIJqRagpg4n3YARgvO_ptZm7Pk",
       "primary_type": "vegan_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
         "vegan_restaurant",
-        "fine_dining_restaurant",
         "asian_fusion_restaurant",
+        "fine_dining_restaurant",
         "fusion_restaurant",
-        "asian_restaurant",
         "vegetarian_restaurant",
+        "asian_restaurant",
         "restaurant",
         "point_of_interest",
         "food",
@@ -130869,7 +131001,7 @@
       "phone": "(657) 204-9022",
       "place_id": "ChIJsVuQ34sn3YAR-FIL9Ezm5xQ",
       "primary_type": "vietnamese_restaurant",
-      "specials_checked_at": "2026-10-16T02:23:43Z",
+      "specials_checked_at": "2026-11-20T21:56:10Z",
       "specials_discovery_version": 4,
       "specials_pages": [],
       "types": [
