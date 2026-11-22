@@ -1,7 +1,661 @@
 {
-  "generated_at": "2026-11-21T20:47:03Z",
+  "generated_at": "2026-11-22T20:56:12Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Everyday Happy Hour: $2 off beer/wine, $4 off pitchers/bottled wine Discount of $2 off all Bottled Beer and Draft Pints (Modelo Especial, Coors Lite, House IPA, Corona, Peroni, Menebrea Amber, Newcastle) Discount of $2 off all Wine glasses (Chiante, Blush, Chardonnay, Cabernet, Pinot Noir, Sauv Blanc, Bubbly Rose') Discount of $4 off Draft Pitchers, Bottled Wine, and Wine \u00bd Liters",
+      "canonical_id": "2dff36c5bcc8326e",
+      "categories": [
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 8,
+      "details": [
+        "Discount of $2 off all Bottled Beer and Draft Pints (Modelo Especial, Coors Lite, House IPA, Corona, Peroni, Menebrea Amber, Newcastle)",
+        "Discount of $2 off all Wine glasses (Chiante, Blush, Chardonnay, Cabernet, Pinot Noir, Sauv Blanc, Bubbly Rose')",
+        "Discount of $4 off Draft Pitchers, Bottled Wine, and Wine \u00bd Liters",
+        "$2 off all Bottled Beer and Draft Pints",
+        "$2 off all Wine glasses",
+        "$4 off Draft Pitchers | Bottled Wine | Wine \u00bd Liters"
+      ],
+      "first_seen": "2026-10-14T18:57:37Z",
+      "id": "e107b173b816bd7f",
+      "is_stale": true,
+      "last_seen": "2026-11-13T21:06:04Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 75,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-11-22T20:56:12Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "EVERYDAY HAPPY HOUR 2pm-6pm",
+        "$2 off all Bottled Beer and Draft Pints",
+        "$2 off all Wine glasses",
+        "$4 off Draft Pitchers | Bottled Wine | Wine \u00bd Liters"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/daily-specials",
+      "source_urls": [
+        "http://eatatpizzadoro.com/daily-specials",
+        "http://eatatpizzadoro.com/specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Everyday Happy Hour: $2 off beer/wine, $4 off pitchers/bottled wine",
+      "tags": [
+        "dollar_amount",
+        "happy_hour",
+        "deal_language"
+      ],
+      "time_window": "2pm-6pm",
+      "valid_through": null,
+      "validity": "Every day, 2pm-6pm",
+      "value_label": "$2 off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Sunday 3-course Lasagna Feast for $14.95 or $17.95 3-course meal with salad and garlic bread. Enjoy Beef or Spinach Lasagna paired with spaghetti or penne pasta for $14.95. Pair Lasagna combo with deep fried mozzarella, fried artichokes, fried zucchini, or 2 home-made meatballs instead of Pasta for $17.95.",
+      "canonical_id": "ab219b0b7a236722",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 14,
+      "details": [
+        "3-course meal with salad and garlic bread.",
+        "Enjoy Beef or Spinach Lasagna paired with spaghetti or penne pasta for $14.95.",
+        "Pair Lasagna combo with deep fried mozzarella, fried artichokes, fried zucchini, or 2 home-made meatballs instead of Pasta for $17.95.",
+        "Includes salad and garlic bread, paired with spaghetti or penne pasta for $14.95. Alternatively, pair with deep fried mozzarella, fried artichokes, fried zucchini or 2 home-made meatballs instead of pasta for $17.95."
+      ],
+      "first_seen": "2026-11-08T19:12:18Z",
+      "id": "491a30ee978f09fc",
+      "is_stale": true,
+      "last_seen": "2026-11-08T19:12:18Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 68,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-11-22T20:56:12Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "3-course Feast with salad & garlic bread!",
+        "Every Sunday, enjoy Beef or Spinach Lasagna paired with spaghetti or penne pasta",
+        "Only $14.95",
+        "You can also pair your Lasagna combo with deep fried mozzarella, fried artichokes, fried zucchini or 2 home-made meatballs instead of Pasta for $17.95!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/daily-specials",
+      "source_urls": [
+        "http://eatatpizzadoro.com/daily-specials",
+        "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Sunday 3-course Lasagna Feast for $14.95 or $17.95",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": "2026-11-08",
+      "validity": "Sun",
+      "value_label": "$14.95-$17.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Wednesday: All-You-Can-Eat Spaghetti 3-course meal for $8.95 Includes salad and garlic bread. Choose between Spaghetti in meat sauce or Marinara with a 2nd helping included. Add two home-made Meatballs for $5 or two Italian Sausages for $6.",
+      "canonical_id": "7e6f35c9067736ae",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 15,
+      "details": [
+        "Includes salad and garlic bread.",
+        "Choose between Spaghetti in meat sauce or Marinara with a 2nd helping included.",
+        "Add two home-made Meatballs for $5 or two Italian Sausages for $6.",
+        "3-course meal includes salad and garlic bread",
+        "Optional add-ons: two Meatballs for $5 or two Italian Sausages for $6",
+        "Choose between Spaghetti in meat sauce or Marinara and enjoy a 2nd helping."
+      ],
+      "first_seen": "2026-10-16T18:32:29Z",
+      "id": "eb3777cf359855d7",
+      "is_stale": true,
+      "last_seen": "2026-11-07T19:07:45Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 68,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-11-22T20:56:12Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "All-You-Can-Eat Spaghetti only $8.95!",
+        "3-course meal includes salad and garlic bread every Wednesday!",
+        "Add two home-made Meatballs for $5 or two Italian Sausages for $6!",
+        "Wednesday November 4th"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/daily-specials",
+      "source_urls": [
+        "http://eatatpizzadoro.com/daily-specials",
+        "http://eatatpizzadoro.com/dailyspecials",
+        "http://eatatpizzadoro.com/specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Wednesday: All-You-Can-Eat Spaghetti 3-course meal for $8.95",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Wed",
+      "value_label": "$8.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Friday 3-Course Chicken or Eggplant Parmigian Meal for $14.95 Includes salad and garlic bread Chicken Parmigian with Spaghetti or Eggplant Parmigian with Spaghetti in Meat Sauce or Marinara Optional add-ons: Deep fried mozzarella, small fried zucchini, small fried artichokes or 2 large meatballs for only $5",
+      "canonical_id": "8024538e0a3fb88e",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 8,
+      "details": [
+        "Includes salad and garlic bread",
+        "Chicken Parmigian with Spaghetti or Eggplant Parmigian with Spaghetti in Meat Sauce or Marinara",
+        "Optional add-ons: Deep fried mozzarella, small fried zucchini, small fried artichokes or 2 large meatballs for only $5",
+        "Chicken Parmigian with Spaghetti or Eggplant Parmigian with Spaghetti in Meat Sauce or Marinara for $14.95",
+        "3-course meal with salad and garlic bread",
+        "Add Deep fried mozzarella, small fried zucchini, small fried artichokes or 2 large meatballs for only $5",
+        "Add Deep fried mozzarella, small fried zucchini, small fried artichokes or 2 large meatballs for $5",
+        "Includes spaghetti in meat sauce or marinara, salad, and garlic bread."
+      ],
+      "first_seen": "2026-10-18T17:37:49Z",
+      "id": "d6a61ba8f8fb04f3",
+      "is_stale": true,
+      "last_seen": "2026-11-13T21:06:04Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 68,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-11-22T20:56:12Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Every Friday only $14.95",
+        "Chicken Parmigian with Spaghetti or",
+        "Eggplant Parmigian with Spaghetti in Meat Sauce or Marinara",
+        "Choose either 3-course meal with salad and garlic bread",
+        "Friday November 13th"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/daily-specials",
+      "source_urls": [
+        "http://eatatpizzadoro.com/daily-specials",
+        "http://eatatpizzadoro.com/dailyspecials",
+        "http://eatatpizzadoro.com/specials",
+        "http://eatatpizzadoro.com/weekday-specials",
+        "http://eatatpizzadoro.com/costa-mesa-pizza-d-oro-costa-mesa-happy-hours-specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Friday 3-Course Chicken or Eggplant Parmigian Meal for $14.95",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Fri",
+      "value_label": "$14.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Sunday Brunch Buffet with Bottomless Mimosas for $39.99 per guest Includes Omelette Station, Chilaquiles Station, 12 rotating hot buffet selections, fresh salad bar, desserts, and handmade Mexican brunch favorites $34.99 per guest for non-alcoholic option Kids Ages 6-12: $19.99 Kids Under 6 Eat Free Includes soft drinks, iced teas, coffee, juices, and aguas frescas Bottomless Mimosa service limited to 90 minutes per guest",
+      "canonical_id": "9d50e8455ddbdba2",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 1,
+      "details": [
+        "Includes Omelette Station, Chilaquiles Station, 12 rotating hot buffet selections, fresh salad bar, desserts, and handmade Mexican brunch favorites",
+        "$34.99 per guest for non-alcoholic option",
+        "Kids Ages 6-12: $19.99",
+        "Kids Under 6 Eat Free",
+        "Includes soft drinks, iced teas, coffee, juices, and aguas frescas",
+        "Bottomless Mimosa service limited to 90 minutes per guest",
+        "Includes Bottomless Mimosas",
+        "Non-Alcoholic Option for $34.99 per guest"
+      ],
+      "first_seen": "2026-10-12T22:19:47Z",
+      "id": "c19a393a1d4cbb01",
+      "is_stale": true,
+      "last_seen": "2026-11-21T20:47:03Z",
+      "location": {
+        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7298377,
+        "longitude": -117.99953239999999,
+        "phone": "(657) 301-2017",
+        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
+      },
+      "quality_score": 93,
+      "restaurant": "Morena's Mexican Cuisine",
+      "retired_at": "2026-11-22T20:56:12Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "BOTTOMLESS MIMOSA BRUNCH BUFFET",
+        "$39.99 Per Guest \u2013 Includes Bottomless Mimosas",
+        "$34.99 Per Guest \u2013 Non-Alcoholic Option",
+        "Every Sunday | 10:00 AM \u2013 3:00 PM"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://hb.morenasmex.com/daily-specials",
+      "source_urls": [
+        "https://hb.morenasmex.com/daily-specials",
+        "https://hb.morenasmex.com/dailyspecials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Sunday Brunch Buffet with Bottomless Mimosas for $39.99 per guest",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "free"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Sun",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour: $5 Beers, $9 Wines & Margaritas, $10 Taco Skillets, Bites from $4 Beers for $5 Wines by the Glass for $9 Margaritas for $9 Taco Skillets for $10 Bites starting at $4",
+      "canonical_id": "307ef4bec36b0c24",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Beers for $5",
+        "Wines by the Glass for $9",
+        "Margaritas for $9",
+        "Taco Skillets for $10",
+        "Bites starting at $4"
+      ],
+      "first_seen": "2026-11-17T22:43:43Z",
+      "id": "66119248adee9bd0",
+      "is_stale": true,
+      "last_seen": "2026-11-21T20:47:03Z",
+      "location": {
+        "address": "1555 Adams Ave #103, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=15377075434389627601&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:30",
+              "open": "11:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:30",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6729489,
+        "longitude": -117.92126099999999,
+        "phone": "(714) 486-3798",
+        "place_id": "ChIJr7Nswz7f3IAR0eIt56JYZtU"
+      },
+      "quality_score": 75,
+      "restaurant": "Descanso Restaurant",
+      "retired_at": "2026-11-22T20:56:12Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Happy Hour | Monday-Friday 3pm-6pm",
+        "$5 Beers",
+        "$9 Wines by the Glass",
+        "$9 Margaritas",
+        "$10 Taco Skillets"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.descansorestaurant.com/happyhour",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour: $5 Beers, $9 Wines & Margaritas, $10 Taco Skillets, Bites from $4",
+      "tags": [
+        "dollar_amount",
+        "happy_hour",
+        "deal_language"
+      ],
+      "time_window": "3pm-6pm",
+      "valid_through": null,
+      "validity": "Mon-Fri, 3pm-6pm",
+      "value_label": "$4+"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
