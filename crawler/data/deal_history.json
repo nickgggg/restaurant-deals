@@ -1,7 +1,461 @@
 {
-  "generated_at": "2026-11-22T20:56:12Z",
+  "generated_at": "2026-11-24T02:03:46Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Taco Tuesday Drink Specials: Draft Mexican Beer $6, Bottled Beer $5, Margaritas from $8 Draft Mexican Beer \u2013 $6 (XX Lager, XX Amber, Corona, Negra Modelo, Modelo Especial, Pacifico) Bottled Mexican Beer \u2013 $5 (Bohemia, Pacifico, Corona, Modelo Especial, Victoria, Negra Modelo, XX Lager, XX Amber) Brewery X \u2013 $5 House Margaritas \u2013 $8 Cadillac Margaritas \u2013 $11",
+      "canonical_id": "5f8e0acb50b9483e",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 38,
+      "details": [
+        "Draft Mexican Beer \u2013 $6 (XX Lager, XX Amber, Corona, Negra Modelo, Modelo Especial, Pacifico)",
+        "Bottled Mexican Beer \u2013 $5 (Bohemia, Pacifico, Corona, Modelo Especial, Victoria, Negra Modelo, XX Lager, XX Amber)",
+        "Brewery X \u2013 $5",
+        "House Margaritas \u2013 $8",
+        "Cadillac Margaritas \u2013 $11"
+      ],
+      "first_seen": "2026-10-16T18:32:29Z",
+      "id": "4dbc1c121cb0e6cc",
+      "is_stale": true,
+      "last_seen": "2026-10-16T18:32:29Z",
+      "location": {
+        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7298377,
+        "longitude": -117.99953239999999,
+        "phone": "(657) 301-2017",
+        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
+      },
+      "quality_score": 68,
+      "restaurant": "Morena's Mexican Cuisine",
+      "retired_at": "2026-11-24T02:03:46Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Taco Tuesday Drink Specials",
+        "Draft Mexican Beer \u2013 $6 (XX Lager, XX Amber, Corona, Negra Modelo, Modelo Especial, Pacifico)",
+        "Bottled Mexican Beer \u2013 $5 (Bohemia, Pacifico, Corona, Modelo Especial, Victoria, Negra Modelo, XX Lager, XX Amber)",
+        "Brewery X \u2013 $5",
+        "House Margaritas \u2013 $8",
+        "TACO TUESDAY",
+        "Draft Mexican Beer \u2013 $6",
+        "Bottled Mexican Beer \u2013 $5"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://hb.morenasmex.com/daily-specials",
+      "source_urls": [
+        "https://hb.morenasmex.com/daily-specials",
+        "https://hb.morenasmex.com/specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Taco Tuesday Drink Specials: Draft Mexican Beer $6, Bottled Beer $5, Margaritas from $8",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue",
+      "value_label": "$8+"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday",
+        "thursday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "50% OFF tapas Wednesdays & Thursdays Get 50% OFF tapas Wednesdays & Thursdays in Costa Mesa.",
+      "canonical_id": "a07699fb180069e8",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "Get 50% OFF tapas Wednesdays & Thursdays in Costa Mesa."
+      ],
+      "first_seen": "2026-09-18T18:00:35Z",
+      "id": "7f14ba9813f8024b",
+      "is_stale": true,
+      "last_seen": "2026-11-22T20:56:12Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "quality_score": 83,
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "retired_at": "2026-11-24T02:03:46Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Get 50% OFF tapas Wednesdays & Thursdays in Costa Mesa!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-costa-mesa/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "50% OFF tapas Wednesdays & Thursdays",
+      "tags": [
+        "percent_off"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Wed, Thu",
+      "value_label": "50% off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Tuesday Tapas Happy Hour and Drink Specials 50% OFF tapas happy hour all night Happy hour pricing on drinks 5-7pm",
+      "canonical_id": "9077273c7da9eb6a",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 67,
+      "details": [
+        "50% OFF tapas happy hour all night",
+        "Happy hour pricing on drinks 5-7pm"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "de4c9a145207a7ae",
+      "is_stale": true,
+      "last_seen": "2026-09-17T18:36:19Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "quality_score": 100,
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "retired_at": "2026-11-24T02:03:46Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "TUESDAY 50% OFF TAPAS HAPPY HOUR ALL NIGHT | HAPPY HOUR PRICING ON DRINKS 5-7PM"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-costa-mesa/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Tuesday Tapas Happy Hour and Drink Specials",
+      "tags": [
+        "percent_off",
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "Tue 50% OFF TAPAS HAPPY HOUR ALL NIGHT | HAPPY HOUR PRICING ON DRINKS 5-7PM",
+      "valid_through": null,
+      "validity": "Tue 50% OFF TAPAS HAPPY HOUR ALL NIGHT | HAPPY HOUR PRICING ON DRINKS 5-7PM",
+      "value_label": "50% off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour: $7 beers/wines, $8 sangrias/well drinks, $11 craft cocktails, and tapas & tacos from $5. $7 beers, $7 wines, $8 sangrias, $8 well drinks, $11 craft cocktails Tapas and tacos starting at just $5.50 Local residents only. Please present a valid ID",
+      "canonical_id": "1936aa0d29f0a78e",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 12,
+      "details": [
+        "$7 beers, $7 wines, $8 sangrias, $8 well drinks, $11 craft cocktails",
+        "Tapas and tacos starting at just $5.50",
+        "Local residents only. Please present a valid ID"
+      ],
+      "first_seen": "2026-09-29T19:43:39Z",
+      "id": "8fe3d8a1fc0d4154",
+      "is_stale": true,
+      "last_seen": "2026-11-11T21:38:31Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "quality_score": 75,
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "retired_at": "2026-11-24T02:03:46Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Come enjoy the HAPPIEST of hours where you can enjoy $7 beers, $7 wines, $8 sangrias, $8 well drinks and $11 craft cocktails as well as tapas & tacos starting at just $5.50!",
+        "HAPPY HOUR: DAILY 4:30PM-6:30PM"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-san-diego/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour: $7 beers/wines, $8 sangrias/well drinks, $11 craft cocktails, and tapas & tacos from $5.",
+      "tags": [
+        "dollar_amount",
+        "happy_hour",
+        "deal_language"
+      ],
+      "time_window": "4:30PM-6:30PM",
+      "valid_through": null,
+      "validity": "Every day, 4:30PM-6:30PM",
+      "value_label": "$5+"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "15% off food bill for active and retired military members and families 15% off food bill Just show your server your Military ID Offer not valid with any other offer or promotion Dine-in only",
+      "canonical_id": "da2484dfe780c715",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 1,
+      "details": [
+        "15% off food bill",
+        "Just show your server your Military ID",
+        "Offer not valid with any other offer or promotion",
+        "Dine-in only"
+      ],
+      "first_seen": "2026-11-12T21:41:55Z",
+      "id": "224128489e4a518e",
+      "is_stale": true,
+      "last_seen": "2026-11-22T20:56:12Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "quality_score": 75,
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "retired_at": "2026-11-24T02:03:46Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "we offer active and retired military members and their families 15% off their food bill. Just show your server your Military ID"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-san-diego/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "15% off food bill for active and retired military members and families",
+      "tags": [
+        "percent_off",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "15% off"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
