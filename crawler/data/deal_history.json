@@ -1,7 +1,1288 @@
 {
-  "generated_at": "2026-11-24T23:44:16Z",
+  "generated_at": "2026-11-25T23:23:04Z",
   "retention_days": 365,
   "variants": [
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Everyday Happy Hour: $2 off beer/wine, $4 off pitchers/bottled wine Offers $2 off all Bottled Beer and Draft Pints (including Modelo Especial, Coors Lite, House IPA, Corona, Peroni, Menebrea Amber, Newcastle) Offers $2 off all Wine glasses (Chianti, Blush, Chardonnay, Cabernet, Pinot Noir, Sauv Blanc, Bubbly Rose') Offers $4 off Draft Pitchers, Bottled Wine, and Wine \u00bd Liters",
+      "canonical_id": "6d0698a6513bd0cc",
+      "categories": [
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Offers $2 off all Bottled Beer and Draft Pints (including Modelo Especial, Coors Lite, House IPA, Corona, Peroni, Menebrea Amber, Newcastle)",
+        "Offers $2 off all Wine glasses (Chianti, Blush, Chardonnay, Cabernet, Pinot Noir, Sauv Blanc, Bubbly Rose')",
+        "Offers $4 off Draft Pitchers, Bottled Wine, and Wine \u00bd Liters"
+      ],
+      "first_seen": "2026-10-14T18:57:37Z",
+      "id": "2dff36c5bcc8326e",
+      "is_stale": true,
+      "last_seen": "2026-11-24T23:44:16Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 75,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-11-25T23:23:04Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "EVERYDAY HAPPY HOUR 2pm-6pm",
+        "$2 off all Bottled Beer and Draft Pints",
+        "$2 off all Wine glasses",
+        "$4 off Draft Pitchers | Bottled Wine | Wine \u00bd Liters"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Everyday Happy Hour: $2 off beer/wine, $4 off pitchers/bottled wine",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "2:00 PM - 6:00 PM",
+      "valid_through": null,
+      "validity": "Every day, 2:00 PM - 6:00 PM",
+      "value_label": "$2 off"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "saturday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Sauteed Garlic Linguini 3-course meal for $14.45 on Saturdays Includes garlic bread and salad. Make it a Shrimp Scampi Garlic Linguini or Spicy Shrimp Fra diablo for only $6 more.",
+      "canonical_id": "ec43e5818545ec2c",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 11,
+      "details": [
+        "Includes garlic bread and salad.",
+        "Make it a Shrimp Scampi Garlic Linguini or Spicy Shrimp Fra diablo for only $6 more.",
+        "Make it a Shrimp Scampi Garlic Linguini or Spicy Shrimp Fra diablo for $6 more"
+      ],
+      "first_seen": "2026-10-17T17:38:00Z",
+      "id": "a3db5fbe813f448a",
+      "is_stale": true,
+      "last_seen": "2026-11-14T19:33:21Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-11-25T23:23:04Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Saturday November 14th",
+        "Sauteed Garlic Linguini only $14.45!",
+        "3- course meal with garlic bread and salad every Saturday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/daily-specials",
+      "source_urls": [
+        "http://eatatpizzadoro.com/daily-specials",
+        "http://eatatpizzadoro.com/weekday-specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Sauteed Garlic Linguini 3-course meal for $14.45 on Saturdays",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-11-14",
+      "validity": "Sat",
+      "value_label": "$14.45"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Beef or Spinach Lasagna 3-course feast for $14.95 on Sundays Includes salad and garlic bread, paired with spaghetti or penne pasta. Pair Lasagna combo with deep fried mozzarella, fried artichokes, fried zucchini or 2 home-made meatballs instead of pasta for $17.95.",
+      "canonical_id": "8427496a313b6ad1",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 11,
+      "details": [
+        "Includes salad and garlic bread, paired with spaghetti or penne pasta.",
+        "Pair Lasagna combo with deep fried mozzarella, fried artichokes, fried zucchini or 2 home-made meatballs instead of pasta for $17.95.",
+        "Includes salad and garlic bread",
+        "Paired with spaghetti or penne pasta"
+      ],
+      "first_seen": "2026-11-11T21:38:31Z",
+      "id": "64fb20ceb14e0b6b",
+      "is_stale": true,
+      "last_seen": "2026-11-14T19:33:21Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-11-25T23:23:04Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Sunday November 15th",
+        "3-course Feast with salad & garlic bread!",
+        "Every Sunday, enjoy Beef or Spinach Lasagna paired with spaghetti or penne pasta",
+        "Only $14.95"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/daily-specials",
+      "source_urls": [
+        "http://eatatpizzadoro.com/daily-specials",
+        "http://eatatpizzadoro.com/weekday-specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Beef or Spinach Lasagna 3-course feast for $14.95 on Sundays",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-11-15",
+      "validity": "Sun",
+      "value_label": "$14.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Lasagna, Manicotti and Ravioli platter 3-course meal for $14.95 on Tuesdays Includes salad and garlic bread. Sampler platter of baked cheese manicotti, Beef or Spinach Lasagna and Cheese ravioli baked with mozzarella cheese in Marinara or Meat Sauce.",
+      "canonical_id": "2decd0443eb8cae1",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 11,
+      "details": [
+        "Includes salad and garlic bread.",
+        "Sampler platter of baked cheese manicotti, Beef or Spinach Lasagna and Cheese ravioli baked with mozzarella cheese in Marinara or Meat Sauce.",
+        "3-course meal includes salad and garlic bread every Tuesday",
+        "Sampler platter of baked cheese manicotti, Beef or Spinach Lasagna and Cheese ravioli baked with mozzarella cheese in your choice of Marinara or Meat Sauce",
+        "Sampler platter of baked cheese manicotti, Beef or Spinach Lasagna and Cheese ravioli baked with mozzarella cheese in choice of Marinara or Meat Sauce"
+      ],
+      "first_seen": "2026-11-14T19:33:21Z",
+      "id": "9292b4c0e79dfa60",
+      "is_stale": true,
+      "last_seen": "2026-11-14T19:33:21Z",
+      "location": {
+        "address": "1145 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11831040301233018651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.6797705,
+        "longitude": -117.9047406,
+        "phone": "(714) 549-0685",
+        "place_id": "ChIJ86Q2zEHf3IARGxdTbnhMMKQ"
+      },
+      "quality_score": 58,
+      "restaurant": "Pizza D'Oro",
+      "retired_at": "2026-11-25T23:23:04Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Tuesday November 17th",
+        "Lasagna, Manicotti and Ravioli platter only $14.95",
+        "3-course meal includes salad and garlic bread every Tuesday!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://eatatpizzadoro.com/daily-specials",
+      "source_urls": [
+        "http://eatatpizzadoro.com/daily-specials",
+        "http://eatatpizzadoro.com/specials",
+        "http://eatatpizzadoro.com/weekday-specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Lasagna, Manicotti and Ravioli platter 3-course meal for $14.95 on Tuesdays",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-11-17",
+      "validity": "Tue",
+      "value_label": "$14.95"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Bottomless Mimosa Brunch Buffet for $39.99, Non-Alcoholic $34.99, Kids 6-12 $19.99, Under 6 Free $39.99 Per Guest includes Bottomless Mimosas $34.99 Per Guest Non-Alcoholic Option (Valid only for guests not consuming champagne) Kids Ages 6\u201312: $19.99 Kids Under 6 Eat Free Includes soft drinks, iced teas, coffee, juices, and aguas frescas Bottomless Mimosa service limited to 90 minutes per guest",
+      "canonical_id": "8a4abb2ec7068871",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "$39.99 Per Guest includes Bottomless Mimosas",
+        "$34.99 Per Guest Non-Alcoholic Option (Valid only for guests not consuming champagne)",
+        "Kids Ages 6\u201312: $19.99",
+        "Kids Under 6 Eat Free",
+        "Includes soft drinks, iced teas, coffee, juices, and aguas frescas",
+        "Bottomless Mimosa service limited to 90 minutes per guest",
+        "$34.99 Per Guest \u2013 Non-Alcoholic Option"
+      ],
+      "first_seen": "2026-11-24T02:03:46Z",
+      "id": "0ee0d0fd79fdca76",
+      "is_stale": true,
+      "last_seen": "2026-11-24T23:44:16Z",
+      "location": {
+        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7298377,
+        "longitude": -117.99953239999999,
+        "phone": "(657) 301-2017",
+        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
+      },
+      "quality_score": 100,
+      "restaurant": "Morena's Mexican Cuisine",
+      "retired_at": "2026-11-25T23:23:04Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "BOTTOMLESS MIMOSA BRUNCH BUFFET",
+        "Every Sunday | 10:00 AM \u2013 3:00 PM",
+        "$39.99 Per Guest \u2013 Includes Bottomless Mimosas",
+        "$34.99 Per Guest \u2013 Non-Alcoholic Option",
+        "Kids Ages 6\u201312: $19.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://hb.morenasmex.com/daily-specials",
+      "source_urls": [
+        "https://hb.morenasmex.com/daily-specials",
+        "https://hb.morenasmex.com/dailyspecials",
+        "https://hb.morenasmex.com/specials"
+      ],
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Bottomless Mimosa Brunch Buffet for $39.99, Non-Alcoholic $34.99, Kids 6-12 $19.99, Under 6 Free",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "free"
+      ],
+      "time_window": "10:00 AM - 03:00 PM",
+      "valid_through": null,
+      "validity": "Sun, 10:00 AM - 03:00 PM",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Kids eat free every Wednesday Kids eat free promotion available on Wednesdays",
+      "canonical_id": "7a82f5419fb53227",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 21,
+      "details": [
+        "Kids eat free promotion available on Wednesdays"
+      ],
+      "first_seen": "2026-09-16T23:17:09Z",
+      "id": "69e46b17d479e3ac",
+      "is_stale": true,
+      "last_seen": "2026-11-04T21:01:42Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "quality_score": 92,
+      "restaurant": "IKEA Restaurant",
+      "retired_at": "2026-11-25T23:23:04Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Kids eat free every Wednesday"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/offers/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Kids eat free every Wednesday",
+      "tags": [
+        "weekday_special",
+        "free",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Wed",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Happy Hour Drink & Appetizer Specials Available in the bar Seal Beach location",
+      "canonical_id": "ea79fdff371a2489",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Seal Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Available in the bar",
+        "Seal Beach location"
+      ],
+      "first_seen": "2026-10-27T19:42:46Z",
+      "id": "818b4896851e6ad2",
+      "is_stale": true,
+      "last_seen": "2026-11-24T23:44:16Z",
+      "location": {
+        "address": "12489 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=18283239265289721699&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.7814066,
+        "longitude": -118.07252849999999,
+        "phone": "(562) 799-9552",
+        "place_id": "ChIJY72dLmcu3YARY1cRNz4du_0"
+      },
+      "quality_score": 60,
+      "restaurant": "Hof's Hut Restaurant & Bakery",
+      "retired_at": "2026-11-25T23:23:04Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Seal Beach",
+        "3PM - 6PM",
+        "Monday - Friday",
+        "in the bar"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://hofshut.com/promotions/happy-hour",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour Drink & Appetizer Specials",
+      "tags": [
+        "happy_hour",
+        "deal_language"
+      ],
+      "time_window": "3PM - 6PM",
+      "valid_through": null,
+      "validity": "Mon-Fri, 3PM - 6PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "sunday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Holiday Meal dine-in: Adults $29.99, Kids $16.99 Includes sliced rotisserie turkey breast and fixings: Apple Almond Stuffing, Seasoned Mashed Potatoes, Turkey Gravy, Cranberry Sauce, Cinnamon Apples, Creamed Corn, Candied Yams with Toasted Marshmallows, Pumpkin Bread and a slice of Pumpkin Pie with Whipped Cream Adults $29.99 Kids (12 and under) $16.99 Kids' Dinner does not include Candied Yams or Creamed Corn",
+      "canonical_id": "3e68bee2ba36b259",
+      "categories": [
+        "food"
+      ],
+      "city": "Seal Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Includes sliced rotisserie turkey breast and fixings: Apple Almond Stuffing, Seasoned Mashed Potatoes, Turkey Gravy, Cranberry Sauce, Cinnamon Apples, Creamed Corn, Candied Yams with Toasted Marshmallows, Pumpkin Bread and a slice of Pumpkin Pie with Whipped Cream",
+        "Adults $29.99",
+        "Kids (12 and under) $16.99",
+        "Kids' Dinner does not include Candied Yams or Creamed Corn"
+      ],
+      "first_seen": "2026-10-29T19:57:08Z",
+      "id": "fa2d1da8c3b09f85",
+      "is_stale": true,
+      "last_seen": "2026-11-24T23:44:16Z",
+      "location": {
+        "address": "12489 Seal Beach Blvd, Seal Beach, CA 90740, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=18283239265289721699&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.7814066,
+        "longitude": -118.07252849999999,
+        "phone": "(562) 799-9552",
+        "place_id": "ChIJY72dLmcu3YARY1cRNz4du_0"
+      },
+      "quality_score": 43,
+      "restaurant": "Hof's Hut Restaurant & Bakery",
+      "retired_at": "2026-11-25T23:23:04Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Our Holiday Meal is available for dine-in from Monday, 11/23 through Sunday, 11/29.",
+        "Adults $29.99 \u2022 Kids (12 and under) $16.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://hofshut.com/promotions/thanksgiving",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Holiday Meal dine-in: Adults $29.99, Kids $16.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": "2026-11-29",
+      "validity": "Mon, Sun",
+      "value_label": "$16.99-$29.99"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Lunch Specials starting at $13.95 Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad, soup or fries starting at $13.95",
+      "canonical_id": "b3cc22ef50672e39",
+      "categories": [
+        "food"
+      ],
+      "city": "Seal Beach",
+      "days_since_seen": 29,
+      "details": [
+        "Pizza or Pasta with your choice of soup or salad $15.25",
+        "Bottomless soup with any half salad $15.25",
+        "Sandwiches and Burgers with salad, soup or fries starting at $13.95"
+      ],
+      "first_seen": "2026-10-27T19:42:46Z",
+      "id": "77802108c88b1c00",
+      "is_stale": true,
+      "last_seen": "2026-10-27T19:42:46Z",
+      "location": {
+        "address": "1041 Pacific Coast Hwy, Seal Beach, CA 90740, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=693466324176653806&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7445792,
+        "longitude": -118.10073279999999,
+        "phone": "(562) 346-2277",
+        "place_id": "ChIJW1vaY-Qv3YAR7s0-nPKvnwk"
+      },
+      "quality_score": 50,
+      "restaurant": "Finbars Italian Kitchen",
+      "retired_at": "2026-11-25T23:23:04Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Lunch Specials! Pizza or Pasta with your choice of soup or salad $15.25 Bottomless soup with any half salad $15.25 Sandwiches and Burgers with salad. soup or fries starting at $13.95."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://finbarsitalian.com/dailyspecials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Lunch Specials starting at $13.95",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "$13.95+"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "applies_month_days": [
+        29
+      ],
+      "candidate_text": "Gnocchi Day BOGO Free Buy one get one free gnocchi",
+      "canonical_id": "29b40ef71d966454",
+      "categories": [
+        "food"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 8,
+      "details": [
+        "Buy one get one free gnocchi"
+      ],
+      "first_seen": "2026-10-29T19:57:08Z",
+      "id": "162ffe8208166b89",
+      "is_stale": true,
+      "last_seen": "2026-11-17T22:43:43Z",
+      "location": {
+        "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=9498211700790055897&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.7152463,
+        "longitude": -117.9758035,
+        "phone": "(714) 375-3305",
+        "place_id": "ChIJwddf-vwm3YAR2dMM2zdt0IM"
+      },
+      "quality_score": 75,
+      "restaurant": "Cambalache Grill Argentine & Italian Cuisine",
+      "retired_at": "2026-11-25T23:23:04Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Every 29th of the month is Gnocchi Day, buy one get one free!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://cambalachegrill.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Gnocchi Day BOGO Free",
+      "tags": [
+        "bogo",
+        "free"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Every month on the 29th",
+      "value_label": "BOGO"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "applies_month_days": [],
+      "candidate_text": "Active military eat for free All active military eat for free.",
+      "canonical_id": "ecf6e85aeb679963",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 31,
+      "details": [
+        "All active military eat for free."
+      ],
+      "first_seen": "2026-10-03T18:16:12Z",
+      "id": "4cc8f4b7d9a58e18",
+      "is_stale": true,
+      "last_seen": "2026-10-25T17:56:01Z",
+      "location": {
+        "address": "16600 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11830496158333263672&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7206563,
+        "longitude": -118.07317309999998,
+        "phone": "(562) 357-4012",
+        "place_id": "ChIJZ5sO_Ikl3YARON8TSpNdLqQ"
+      },
+      "quality_score": 74,
+      "restaurant": "Calico Fish House",
+      "retired_at": "2026-11-25T23:23:04Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "All active military eat for free"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://calico-restaurant.com/dailyspecials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Active military eat for free",
+      "tags": [
+        "free"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source",
+      "value_label": "Free"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Wednesday Happy Hour with drink specials and tasty bites Enjoy amazing drink specials and tasty bites.",
+      "canonical_id": "94a6f7bef7d3bf2d",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 1,
+      "details": [
+        "Enjoy amazing drink specials and tasty bites."
+      ],
+      "first_seen": "2026-10-08T20:15:35Z",
+      "id": "f3d140b94f0974ec",
+      "is_stale": true,
+      "last_seen": "2026-11-24T02:03:46Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 60,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-11-25T23:23:04Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Enjoy amazing drink specials and tasty bites from 4pm to 7pm."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Wednesday Happy Hour with drink specials and tasty bites",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "04:00 PM - 07:00 PM",
+      "valid_through": null,
+      "validity": "Wed, 04:00 PM - 07:00 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday"
+      ],
+      "applies_month_days": [],
+      "candidate_text": "Monday Happy Hour with drinks and bites Drinks and bites",
+      "canonical_id": "550973da91188b19",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Garden Grove",
+      "days_since_seen": 0,
+      "details": [
+        "Drinks and bites"
+      ],
+      "first_seen": "2026-11-18T22:24:17Z",
+      "id": "8673b4549e3cf7c4",
+      "is_stale": true,
+      "last_seen": "2026-11-24T23:44:16Z",
+      "location": {
+        "address": "12900 Main St, Garden Grove, CA 92840, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "15:00"
+            }
+          ]
+        },
+        "latitude": 33.7753468,
+        "longitude": -117.94066659999999,
+        "phone": "(714) 909-2020",
+        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
+      },
+      "quality_score": 60,
+      "restaurant": "Aum Beer House",
+      "retired_at": "2026-11-25T23:23:04Z",
+      "retired_reason": "replaced_by_canonical_offer",
+      "source_evidence": [
+        "Happy Hour is back at AUM! Why start your week any other way? Join us from 4pm-7pm for drinks and bites"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://aumbeerhouse.com/daily-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Monday Happy Hour with drinks and bites",
+      "tags": [
+        "happy_hour",
+        "weekday_special"
+      ],
+      "time_window": "04:00 PM - 07:00 PM",
+      "valid_through": null,
+      "validity": "Mon, 04:00 PM - 07:00 PM"
+    },
     {
       "ai_confidence": 0.95,
       "applies_days": [
@@ -10860,102 +12141,6 @@
       "value_label": "15% off"
     },
     {
-      "ai_confidence": 0.9,
-      "applies_days": [
-        "wednesday"
-      ],
-      "applies_month_days": [],
-      "candidate_text": "Wednesday Happy Hour with drink specials and tasty bites Enjoy amazing drink specials and tasty bites.",
-      "canonical_id": "94a6f7bef7d3bf2d",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Garden Grove",
-      "days_since_seen": 2,
-      "details": [
-        "Enjoy amazing drink specials and tasty bites."
-      ],
-      "first_seen": "2026-10-08T20:15:35Z",
-      "id": "f3d140b94f0974ec",
-      "is_stale": true,
-      "last_seen": "2026-11-09T23:39:32Z",
-      "location": {
-        "address": "12900 Main St, Garden Grove, CA 92840, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "01:30",
-              "open": "15:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "01:30",
-              "open": "15:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ]
-        },
-        "latitude": 33.7753468,
-        "longitude": -117.94066659999999,
-        "phone": "(714) 909-2020",
-        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
-      },
-      "quality_score": 59,
-      "restaurant": "Aum Beer House",
-      "retired_at": "2026-11-12T21:41:55Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "Wednesday November 11th",
-        "Enjoy amazing drink specials and tasty bites from 4pm to 7pm."
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://aumbeerhouse.com/daily-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Wednesday Happy Hour with drink specials and tasty bites",
-      "tags": [
-        "happy_hour",
-        "weekday_special",
-        "deal_language"
-      ],
-      "time_window": "04:00 PM - 07:00 PM",
-      "valid_through": null,
-      "validity": "Wed, 04:00 PM - 07:00 PM"
-    },
-    {
       "ai_confidence": 0.95,
       "applies_days": [
         "monday"
@@ -11640,101 +12825,6 @@
       "valid_through": null,
       "validity": "Check source",
       "value_label": "2-for-1"
-    },
-    {
-      "ai_confidence": 0.95,
-      "applies_days": [
-        "monday"
-      ],
-      "applies_month_days": [],
-      "candidate_text": "Monday Happy Hour with drinks and bites Drinks and bites",
-      "canonical_id": "550973da91188b19",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Garden Grove",
-      "days_since_seen": 1,
-      "details": [
-        "Drinks and bites"
-      ],
-      "first_seen": "2026-10-08T20:15:35Z",
-      "id": "8673b4549e3cf7c4",
-      "is_stale": true,
-      "last_seen": "2026-11-10T21:08:51Z",
-      "location": {
-        "address": "12900 Main St, Garden Grove, CA 92840, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=5689611106840518793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "01:30",
-              "open": "15:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "01:30",
-              "open": "15:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "15:00"
-            }
-          ]
-        },
-        "latitude": 33.7753468,
-        "longitude": -117.94066659999999,
-        "phone": "(714) 909-2020",
-        "place_id": "ChIJ80nQc18p3YARiaBYJSiP9U4"
-      },
-      "quality_score": 60,
-      "restaurant": "Aum Beer House",
-      "retired_at": "2026-11-11T21:38:31Z",
-      "retired_reason": "replaced_by_canonical_offer",
-      "source_evidence": [
-        "Monday November 16th",
-        "Join us from 4pm-7pm for drinks and bites that make Monday feel like a Friday."
-      ],
-      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "source_url": "http://aumbeerhouse.com/daily-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Monday Happy Hour with drinks and bites",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "16:00-19:00",
-      "valid_through": null,
-      "validity": "Mon, 16:00-19:00"
     },
     {
       "ai_confidence": 0.95,
